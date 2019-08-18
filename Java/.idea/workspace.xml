@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeafRats2_detectApproaching/DeafRats2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GCD_FIB_FIND/GCDandFIBandFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringPolynomialConverter/Polinomio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringPolynomialConverter/PolinomioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimeFormatter/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimeFormatter/TimeFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/LearnProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/feature-trainer-version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/src/CodeAssistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LearnProject/src/Refactorings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565528802261</updated>
       <workItem from="1565528805637" duration="68867000" />
-      <workItem from="1566107590392" duration="3237000" />
+      <workItem from="1566107590392" duration="4464000" />
     </task>
     <servers />
   </component>
