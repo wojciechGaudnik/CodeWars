@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JomoPipi/JomoPipi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JomoPipi/MatrixShiftTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dinglemouse/Dinglemouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dinglemouse/DinglemouseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/JomoPipi/MatrixShiftTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/PolinomioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JomoPipi/JomoPipiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JomoPipi/JomoPipiTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Java" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,10 +56,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Dinglemouse" />
       <recent name="" />
       <recent name="StringPolynomialConverter" />
     </key>
@@ -83,7 +91,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JomoPipi">
+  <component name="RunManager" selected="JUnit.DinglemouseTest">
+    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dinglemouse.Dinglemouse" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dinglemouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JomoPipi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JomoPipi.JomoPipi" />
       <module name="Java" />
@@ -110,17 +131,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TimeFormatter.TimeFormatter" />
+    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <option name="PACKAGE_NAME" value="TimeFormatter" />
-      <option name="MAIN_CLASS_NAME" value="TimeFormatter.MainTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dinglemouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dinglemouse" />
+      <option name="MAIN_CLASS_NAME" value="Dinglemouse.DinglemouseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TimeFormatter" />
       <item itemvalue="Application.Polinomio" />
-      <item itemvalue="JUnit.MainTest" />
       <item itemvalue="JUnit.PolinomioTest" />
       <item itemvalue="Application.JomoPipi" />
+      <item itemvalue="Application.Dinglemouse" />
+      <item itemvalue="JUnit.DinglemouseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DinglemouseTest" />
+        <item itemvalue="Application.Dinglemouse" />
         <item itemvalue="Application.JomoPipi" />
         <item itemvalue="JUnit.PolinomioTest" />
         <item itemvalue="Application.Polinomio" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="Application.TimeFormatter" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565528802261</updated>
       <workItem from="1565528805637" duration="68867000" />
-      <workItem from="1566107590392" duration="6131000" />
+      <workItem from="1566107590392" duration="16686000" />
     </task>
     <servers />
   </component>
