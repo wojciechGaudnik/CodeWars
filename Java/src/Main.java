@@ -2,9 +2,15 @@
 public class Main {
 
     public static void main(String[] args) {
+        byte a = 1;
+        byte b = 2;
+        System.out.println(sum(a , b));
 
 
-
+    }
+    public static byte sum (byte a, byte b) {
+        byte c = (byte) (a + b);
+        return c;
     }
 
 

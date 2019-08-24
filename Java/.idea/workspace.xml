@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dinglemouse/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dinglemouse/DinglemouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindSubstring/FindSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindSubstring/FindSubstringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/JomoPipi/MatrixShiftTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/PolinomioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JomoPipi/JomoPipiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JomoPipi/JomoPipiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="FindSubstring" />
       <recent name="Dinglemouse" />
       <recent name="" />
       <recent name="StringPolynomialConverter" />
@@ -69,11 +68,11 @@
     </key>
   </component>
   <component name="Regex">
-    <option name="pos1" value="218" />
-    <option name="pos2" value="218" />
-    <option name="pos3" value="162" />
-    <option name="pos4" value="444" />
-    <option name="pos5" value="162" />
+    <option name="pos1" value="839" />
+    <option name="pos2" value="839" />
+    <option name="pos3" value="197" />
+    <option name="pos4" value="1678" />
+    <option name="pos5" value="197" />
     <option name="autoUpdate" value="true" />
     <option name="referenceOn" value="false" />
     <option name="referencePos" value="0" />
@@ -91,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DinglemouseTest">
+  <component name="RunManager" selected="JUnit.FindSubstringTest">
     <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dinglemouse.Dinglemouse" />
       <module name="Java" />
@@ -105,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JomoPipi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JomoPipi.JomoPipi" />
+    <configuration name="FindSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindSubstring.FindSubstring" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JomoPipi.*" />
+          <option name="PATTERN" value="FindSubstring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,15 +117,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polinomio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPolynomialConverter.Polinomio" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringPolynomialConverter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,35 +139,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolinomioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPolynomialConverter.*" />
+          <option name="PATTERN" value="FindSubstring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="StringPolynomialConverter" />
-      <option name="MAIN_CLASS_NAME" value="StringPolynomialConverter.PolinomioTest" />
+      <option name="PACKAGE_NAME" value="FindSubstring" />
+      <option name="MAIN_CLASS_NAME" value="FindSubstring.FindSubstringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Polinomio" />
-      <item itemvalue="JUnit.PolinomioTest" />
-      <item itemvalue="Application.JomoPipi" />
       <item itemvalue="Application.Dinglemouse" />
+      <item itemvalue="Application.FindSubstring" />
       <item itemvalue="JUnit.DinglemouseTest" />
+      <item itemvalue="JUnit.FindSubstringTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindSubstringTest" />
+        <item itemvalue="Application.FindSubstring" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DinglemouseTest" />
         <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="Application.JomoPipi" />
-        <item itemvalue="JUnit.PolinomioTest" />
-        <item itemvalue="Application.Polinomio" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +182,9 @@
       <option name="presentableId" value="Default" />
       <updated>1565528802261</updated>
       <workItem from="1565528805637" duration="68867000" />
-      <workItem from="1566107590392" duration="16686000" />
+      <workItem from="1566107590392" duration="22225000" />
+      <workItem from="1566422359546" duration="7862000" />
+      <workItem from="1566486182487" duration="17986000" />
     </task>
     <servers />
   </component>
@@ -215,10 +210,11 @@
   <component name="regexState">
     <option name="map">
       <map>
-        <entry key="flags" value="0" />
-        <entry key="mode" value="0" />
-        <entry key="regex" value="(^\+||\^1)||1(?=x)||(\^0)||\+(?=-)" />
-        <entry key="text" value="+1x^7+5x^4-1x^2+1x^0-1x-1+-" />
+        <entry key="flags" value="8" />
+        <entry key="mode" value="2" />
+        <entry key="regex" value=" (?!,)" />
+        <entry key="replacement" value="\\[" />
+        <entry key="text" value="asdf ,afa sf" />
       </map>
     </option>
   </component>
