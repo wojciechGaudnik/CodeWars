@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/WorkingDays/WorkingDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingDays/WorkingDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XOR/XOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XOR/XORTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExelColumn/GetExcelColumnTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExelColumn/GetExcelColumnTitleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/MathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringCombat/StringCombat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringCombat/StringCombatTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="StringCombat" />
+      <recent name="Math" />
+      <recent name="ExelColumn" />
       <recent name="XOR" />
       <recent name="WorkingDays" />
-      <recent name="FindSubstring" />
-      <recent name="Dinglemouse" />
-      <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,13 +93,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WorkingDaysTest">
-    <configuration name="WorkingDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkingDays.WorkingDays" />
+  <component name="RunManager" selected="Application.StringCombat">
+    <configuration name="Excel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExelColumn.Excel" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WorkingDays.*" />
+          <option name="PATTERN" value="ExelColumn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,46 +107,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Math" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WorkingDays.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="WorkingDays" />
-      <option name="MAIN_CLASS_NAME" value="WorkingDays.WorkingDaysTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCombat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringCombat.StringCombat" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringCombat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetExcelColumnTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExelColumn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ExelColumn" />
+      <option name="MAIN_CLASS_NAME" value="ExelColumn.GetExcelColumnTitleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XORTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="XOR.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="XOR" />
-      <option name="MAIN_CLASS_NAME" value="XOR.XORTest" />
+      <option name="PACKAGE_NAME" value="Math" />
+      <option name="MAIN_CLASS_NAME" value="Math.MathTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WorkingDays" />
-      <item itemvalue="JUnit.WorkingDaysTest" />
-      <item itemvalue="JUnit.XORTest" />
+      <item itemvalue="Application.Excel" />
+      <item itemvalue="JUnit.GetExcelColumnTitleTest" />
+      <item itemvalue="Application.Math" />
+      <item itemvalue="JUnit.MathTest" />
+      <item itemvalue="Application.StringCombat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WorkingDaysTest" />
-        <item itemvalue="Application.WorkingDays" />
-        <item itemvalue="JUnit.XORTest" />
+        <item itemvalue="Application.StringCombat" />
+        <item itemvalue="JUnit.MathTest" />
+        <item itemvalue="Application.Math" />
+        <item itemvalue="JUnit.GetExcelColumnTitleTest" />
+        <item itemvalue="Application.Excel" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +193,8 @@
       <workItem from="1565528805637" duration="68867000" />
       <workItem from="1566107590392" duration="22225000" />
       <workItem from="1566422359546" duration="7862000" />
-      <workItem from="1566486182487" duration="33206000" />
+      <workItem from="1566486182487" duration="38276000" />
+      <workItem from="1566738503362" duration="4534000" />
     </task>
     <servers />
   </component>
