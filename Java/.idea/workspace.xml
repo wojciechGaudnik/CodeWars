@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FindIndexOfSubArray/FindIndexOfSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindIndexOfSubArray/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dinglemouse2/Dinglemouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dinglemouse2/DinglemouseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Dinglemouse2" />
       <recent name="FindIndexOfSubArray" />
       <recent name="StringCombat" />
       <recent name="Math" />
       <recent name="ExelColumn" />
-      <recent name="XOR" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -90,7 +90,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindIndexOfSubArray">
+  <component name="RunManager" selected="Application.Dinglemouse">
+    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dinglemouse2.Dinglemouse" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dinglemouse2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindIndexOfSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindIndexOfSubArray.FindIndexOfSubArray" />
       <module name="Java" />
@@ -104,15 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCombat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringCombat.StringCombat" />
+    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringCombat.*" />
+          <option name="PATTERN" value="Dinglemouse2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Dinglemouse2" />
+      <option name="MAIN_CLASS_NAME" value="Dinglemouse2.DinglemouseTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,17 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringCombat" />
       <item itemvalue="JUnit.StringCombatTest" />
       <item itemvalue="Application.FindIndexOfSubArray" />
       <item itemvalue="JUnit.SolutionTest" />
+      <item itemvalue="Application.Dinglemouse" />
+      <item itemvalue="JUnit.DinglemouseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dinglemouse" />
+        <item itemvalue="JUnit.DinglemouseTest" />
         <item itemvalue="Application.FindIndexOfSubArray" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.StringCombatTest" />
-        <item itemvalue="Application.StringCombat" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +193,7 @@
       <workItem from="1566107590392" duration="22225000" />
       <workItem from="1566422359546" duration="7862000" />
       <workItem from="1566486182487" duration="38276000" />
-      <workItem from="1566738503362" duration="23161000" />
+      <workItem from="1566738503362" duration="31353000" />
     </task>
     <servers />
   </component>
