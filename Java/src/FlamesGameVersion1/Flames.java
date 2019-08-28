@@ -7,10 +7,6 @@ public class Flames {
 
 	public static void main(String[] args) {
 		System.out.println(showRelationship("JOE", "ANN"));
-//		System.out.println(Flames.showRelationship("NEIL", "MAE"));
-//		System.out.println(Flames.showRelationship("KEVIN", "KATH"));
-		System.out.println(Flames.showRelationship("XRWFKIBL", "KYRZUEJ") + "        <---Enemies");
-//		System.out.println(Flames.showRelationship("XWFIBL", "YZUEJ") + "        <---Enemies");
 	}
 
 	public static String showRelationship(String male, String female) {
@@ -30,11 +26,4 @@ public class Flames {
 		System.out.println(common.length());
 		return flames.get((common.length() -1) % 6);
 	}
-
-	//	    System.out.println(maleSet.size());
-//		System.out.println(femaleSet.size());
-//		System.out.println(malePlusFemaleSet.size());
-//		System.out.println(malePlusFemaleSet.size() - 1 -(((maleSet.size() + femaleSet.size()) - malePlusFemaleSet.size())));
-	//		Set<Character> combined = new HashSet<>();
-
 }
