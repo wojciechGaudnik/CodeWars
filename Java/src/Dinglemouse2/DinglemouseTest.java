@@ -1,8 +1,6 @@
 package Dinglemouse2;
 
 import org.junit.Test;
-import java.math.*;
-import static org.junit.Assert.*;
 import static org.junit.Assert.*;
 
 public class DinglemouseTest {

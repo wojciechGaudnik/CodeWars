@@ -26,6 +26,7 @@ public class Dinglemouse {
 		double hp;
 		while (high > 0.000001) {
 			hp = Math.tan(radians30r) * dBase;
+			hp = Math.tan(radians30r) * dBase;
 			trip += Math.sqrt(Math.pow(dBase, 2) + Math.pow(hp, 2));
 			dBase -= (hp / Math.tan(beta));
 			high -= hp;
