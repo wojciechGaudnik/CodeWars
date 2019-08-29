@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReturnRandomly/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReturnRandomly/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pyramid/Pyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pyramid/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlamesGameVersion1/Flames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlamesGameVersion1/Flames.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Pyramid" />
       <recent name="ReturnRandomly" />
       <recent name="FlamesGameVersion1" />
       <recent name="Dinglemouse2" />
       <recent name="FindIndexOfSubArray" />
-      <recent name="StringCombat" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,59 +90,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dinglemouse2.Dinglemouse" />
+  <component name="RunManager" selected="Application.Pyramid">
+    <configuration name="Pyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pyramid.Pyramid" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dinglemouse2.*" />
+          <option name="PATTERN" value="Pyramid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Flames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FlamesGameVersion1.Flames" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FlamesGameVersion1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dinglemouse2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dinglemouse2" />
-      <option name="MAIN_CLASS_NAME" value="Dinglemouse2.DinglemouseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FlamesGameVersion1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FlamesGameVersion1" />
-      <option name="MAIN_CLASS_NAME" value="FlamesGameVersion1.FlamesTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,31 +108,21 @@
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReturnRandomly.*" />
+          <option name="PATTERN" value="Pyramid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ReturnRandomly" />
-      <option name="MAIN_CLASS_NAME" value="ReturnRandomly.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Pyramid" />
+      <option name="MAIN_CLASS_NAME" value="Pyramid.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Dinglemouse" />
-      <item itemvalue="JUnit.DinglemouseTest" />
-      <item itemvalue="Application.Flames" />
-      <item itemvalue="JUnit.FlamesTest" />
-      <item itemvalue="JUnit.SolutionTest" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pyramid" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.FlamesTest" />
-        <item itemvalue="Application.Flames" />
-        <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="JUnit.DinglemouseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +142,7 @@
       <workItem from="1566486182487" duration="38276000" />
       <workItem from="1566738503362" duration="32126000" />
       <workItem from="1566937022263" duration="1223000" />
-      <workItem from="1566989958129" duration="6459000" />
+      <workItem from="1566989958129" duration="14388000" />
     </task>
     <servers />
   </component>
@@ -226,6 +172,11 @@
           <url>file://$PROJECT_DIR$/src/FindIndexOfSubArray/FindIndexOfSubArray.java</url>
           <line>39</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Pyramid/Pyramid.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
