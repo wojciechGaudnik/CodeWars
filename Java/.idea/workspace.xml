@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pyramid/Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pyramid/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobileDisplay/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="MobileDisplay" />
       <recent name="Pyramid" />
       <recent name="ReturnRandomly" />
       <recent name="FlamesGameVersion1" />
       <recent name="Dinglemouse2" />
-      <recent name="FindIndexOfSubArray" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -90,7 +90,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pyramid">
+  <component name="RunManager" selected="Application.MobileDisplay">
+    <configuration name="MobileDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MobileDisplay.MobileDisplay" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MobileDisplay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pyramid.Pyramid" />
       <module name="Java" />
@@ -100,6 +113,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MobileDisplay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MobileDisplay" />
+      <option name="MAIN_CLASS_NAME" value="MobileDisplay.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,6 +149,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MobileDisplay" />
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Pyramid" />
         <item itemvalue="JUnit.SolutionTest" />
       </list>
@@ -142,7 +172,7 @@
       <workItem from="1566486182487" duration="38276000" />
       <workItem from="1566738503362" duration="32126000" />
       <workItem from="1566937022263" duration="1223000" />
-      <workItem from="1566989958129" duration="14388000" />
+      <workItem from="1566989958129" duration="24002000" />
     </task>
     <servers />
   </component>
@@ -175,7 +205,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Pyramid/Pyramid.java</url>
-          <line>37</line>
+          <line>36</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
