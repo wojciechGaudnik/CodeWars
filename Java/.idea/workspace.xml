@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MobileDisplay/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JurassicWord/ExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JurassicWord/JurassicWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,15 +54,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="JurassicWord" />
       <recent name="MobileDisplay" />
       <recent name="Pyramid" />
       <recent name="ReturnRandomly" />
       <recent name="FlamesGameVersion1" />
-      <recent name="Dinglemouse2" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -90,7 +91,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MobileDisplay">
+  <component name="RunManager" selected="Application.JurassicWord">
+    <configuration name="JurassicWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JurassicWord.JurassicWord" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JurassicWord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MobileDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MobileDisplay.MobileDisplay" />
       <module name="Java" />
@@ -117,6 +131,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JurassicWord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JurassicWord" />
+      <option name="MAIN_CLASS_NAME" value="JurassicWord.ExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -132,27 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Pyramid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Pyramid" />
-      <option name="MAIN_CLASS_NAME" value="Pyramid.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JurassicWord" />
+        <item itemvalue="JUnit.ExampleTest" />
         <item itemvalue="Application.MobileDisplay" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Pyramid" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +187,10 @@
       <workItem from="1566486182487" duration="38276000" />
       <workItem from="1566738503362" duration="32126000" />
       <workItem from="1566937022263" duration="1223000" />
-      <workItem from="1566989958129" duration="24002000" />
+      <workItem from="1566989958129" duration="25079000" />
+      <workItem from="1567253964394" duration="73000" />
+      <workItem from="1567254047488" duration="657000" />
+      <workItem from="1567257260650" duration="8176000" />
     </task>
     <servers />
   </component>
@@ -215,10 +233,10 @@
     <option name="map">
       <map>
         <entry key="flags" value="8" />
-        <entry key="mode" value="2" />
-        <entry key="regex" value=" (?!,)" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="uuVuu" />
         <entry key="replacement" value="\\[" />
-        <entry key="text" value="asdf ,afa sf" />
+        <entry key="text" value="uVuuVuuVuuu &#10;I*)uuVuuV1: &#10;XXXuuVuuXXX" />
       </map>
     </option>
   </component>

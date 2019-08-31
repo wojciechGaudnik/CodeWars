@@ -1,5 +1,7 @@
 package MobileDisplay;
 
+import java.util.function.Function;
+
 public class MobileDisplay {
 
 	public static void main(String[] args) {
@@ -8,6 +10,8 @@ public class MobileDisplay {
 		System.out.println("n=98  p=78 height=76 halfVertical=39  <---- OK !!!");
 		System.out.println("n=98  p=78 height=76 halfVertical=40  <---- ZLE  !!!");
 		System.out.println(mobileDisplay(14,76));
+		Function<Integer, String> myFunc = x -> x + " test";
+		System.out.println(myFunc.apply(10));
 
 	}
 
