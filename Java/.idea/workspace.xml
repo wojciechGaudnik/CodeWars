@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JurassicWord/ExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JurassicWord/JurassicWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheBigPronicChallenge/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheBigPronicChallenge/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="TheBigPronicChallenge" />
       <recent name="JurassicWord" />
       <recent name="MobileDisplay" />
       <recent name="Pyramid" />
       <recent name="ReturnRandomly" />
-      <recent name="FlamesGameVersion1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JurassicWord">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="JurassicWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JurassicWord.JurassicWord" />
       <module name="Java" />
@@ -105,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MobileDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MobileDisplay.MobileDisplay" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheBigPronicChallenge.Kata" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MobileDisplay.*" />
+          <option name="PATTERN" value="TheBigPronicChallenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pyramid.Pyramid" />
+    <configuration name="MobileDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MobileDisplay.MobileDisplay" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pyramid.*" />
+          <option name="PATTERN" value="MobileDisplay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,16 +145,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MobileDisplay.*" />
+          <option name="PATTERN" value="TheBigPronicChallenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MobileDisplay" />
-      <option name="MAIN_CLASS_NAME" value="MobileDisplay.SolutionTest" />
+      <option name="PACKAGE_NAME" value="TheBigPronicChallenge" />
+      <option name="MAIN_CLASS_NAME" value="TheBigPronicChallenge.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="Application.JurassicWord" />
         <item itemvalue="JUnit.ExampleTest" />
         <item itemvalue="Application.MobileDisplay" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="Application.Pyramid" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,7 @@
       <workItem from="1566989958129" duration="25079000" />
       <workItem from="1567253964394" duration="73000" />
       <workItem from="1567254047488" duration="657000" />
-      <workItem from="1567257260650" duration="8176000" />
+      <workItem from="1567257260650" duration="10967000" />
     </task>
     <servers />
   </component>
