@@ -6,7 +6,7 @@ public class Kata {
 
 	public static void main(String[] args) {
 		System.out.print("Please enter a number: ");
-		long number = 1;
+		long number = 2;
 
 		long n = (long)Math.sqrt(number);
 		if(n*(n+1)==number) {
