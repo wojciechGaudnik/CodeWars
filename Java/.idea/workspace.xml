@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaScript/isPronic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lombok-1.18.8-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lombok-1.18.8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lombok-1.18.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/People/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/People/PeopleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheBigPronicChallenge/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheBigPronicChallenge/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +51,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -64,19 +68,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="People" />
       <recent name="TheBigPronicChallenge" />
       <recent name="JurassicWord" />
       <recent name="MobileDisplay" />
       <recent name="Pyramid" />
-      <recent name="ReturnRandomly" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -105,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kata">
+  <component name="RunManager" selected="Application.People">
     <configuration name="JurassicWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JurassicWord.JurassicWord" />
       <module name="Java" />
@@ -132,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MobileDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MobileDisplay.MobileDisplay" />
+    <configuration name="People" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="People.People" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MobileDisplay.*" />
+          <option name="PATTERN" value="People.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,16 +149,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PeopleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JurassicWord.*" />
+          <option name="PATTERN" value="People.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JurassicWord" />
-      <option name="MAIN_CLASS_NAME" value="JurassicWord.ExampleTest" />
+      <option name="PACKAGE_NAME" value="People" />
+      <option name="MAIN_CLASS_NAME" value="People.PeopleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.People" />
+        <item itemvalue="JUnit.PeopleTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.JurassicWord" />
-        <item itemvalue="JUnit.ExampleTest" />
-        <item itemvalue="Application.MobileDisplay" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +218,8 @@
       <workItem from="1566989958129" duration="25079000" />
       <workItem from="1567253964394" duration="73000" />
       <workItem from="1567254047488" duration="657000" />
-      <workItem from="1567257260650" duration="18257000" />
+      <workItem from="1567257260650" duration="18452000" />
+      <workItem from="1567620471163" duration="4537000" />
     </task>
     <servers />
   </component>
