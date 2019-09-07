@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BullsAndCows/BullsAndCows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BullsAndCows/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwentyOneSticks/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwentyOneSticks/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/People/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/People.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -73,11 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="TwentyOneSticks" />
       <recent name="People" />
       <recent name="TheBigPronicChallenge" />
       <recent name="JurassicWord" />
       <recent name="MobileDisplay" />
-      <recent name="Pyramid" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -106,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="BullsAndCows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BullsAndCows.BullsAndCows" />
       <module name="Java" />
@@ -140,16 +139,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeopleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="People.*" />
+          <option name="PATTERN" value="TwentyOneSticks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="People" />
-      <option name="MAIN_CLASS_NAME" value="People.PeopleTest" />
+      <option name="PACKAGE_NAME" value="TwentyOneSticks" />
+      <option name="MAIN_CLASS_NAME" value="TwentyOneSticks.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="Application.BullsAndCows" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.People" />
-        <item itemvalue="JUnit.PeopleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +215,7 @@
       <workItem from="1567629729787" duration="623000" />
       <workItem from="1567632178783" duration="173000" />
       <workItem from="1567632364027" duration="4608000" />
-      <workItem from="1567716923489" duration="5506000" />
+      <workItem from="1567716923489" duration="8697000" />
     </task>
     <servers />
   </component>
