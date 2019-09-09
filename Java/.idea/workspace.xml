@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwentyOneSticks/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwentyOneSticks/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeSortedArrays/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeSortedArrays/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WebApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,7 +60,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../QuestStoreSQL" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,6 +80,9 @@
       <recent name="TheBigPronicChallenge" />
       <recent name="JurassicWord" />
       <recent name="MobileDisplay" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/wojciechGaudnik/QuestStoreAWSSpring.git" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -105,13 +111,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="BullsAndCows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BullsAndCows.BullsAndCows" />
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSortedArrays.Kata" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BullsAndCows.*" />
+          <option name="PATTERN" value="MergeSortedArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,22 +125,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="WebApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebApp" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="People" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="People.People" />
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="People.*" />
+          <option name="PATTERN" value="MergeSortedArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="MergeSortedArrays" />
+      <option name="MAIN_CLASS_NAME" value="MergeSortedArrays.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="Application.WebApp" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.Tests" />
-        <item itemvalue="Application.BullsAndCows" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.People" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +223,7 @@
       <workItem from="1567629729787" duration="623000" />
       <workItem from="1567632178783" duration="173000" />
       <workItem from="1567632364027" duration="4608000" />
-      <workItem from="1567716923489" duration="8697000" />
+      <workItem from="1567716923489" duration="16214000" />
     </task>
     <servers />
   </component>
