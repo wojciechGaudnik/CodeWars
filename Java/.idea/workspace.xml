@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HQ/HQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HQ/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BMI/Calculate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -222,7 +221,7 @@
       <workItem from="1567632364027" duration="4608000" />
       <workItem from="1567716923489" duration="16924000" />
       <workItem from="1568096185937" duration="4887000" />
-      <workItem from="1568179796574" duration="294000" />
+      <workItem from="1568179796574" duration="3350000" />
     </task>
     <servers />
   </component>
