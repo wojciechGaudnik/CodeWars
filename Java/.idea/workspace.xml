@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BMI/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountPositivesSumNegatives/KataTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -67,15 +70,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="CountPositivesSumNegatives" />
       <recent name="HQ" />
       <recent name="NameMe" />
       <recent name="TwentyOneSticks" />
       <recent name="People" />
-      <recent name="TheBigPronicChallenge" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/wojciechGaudnik/QuestStoreAWSSpring.git" />
@@ -107,16 +110,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (2)">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedArrays.Kata" />
+  <component name="RunManager" selected="JUnit.KataTests">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MergeSortedArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,6 +121,21 @@
     <configuration name="WebApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WebApp" />
       <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CountPositivesSumNegatives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CountPositivesSumNegatives" />
+      <option name="MAIN_CLASS_NAME" value="CountPositivesSumNegatives.KataTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,21 +150,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="NameMe" />
       <option name="MAIN_CLASS_NAME" value="NameMe.NameMeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MergeSortedArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MergeSortedArrays" />
-      <option name="MAIN_CLASS_NAME" value="MergeSortedArrays.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTests" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SolutionTest (2)" />
         <item itemvalue="Application.WebApp" />
         <item itemvalue="JUnit.NameMeTest" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +218,11 @@
       <workItem from="1567632364027" duration="4608000" />
       <workItem from="1567716923489" duration="16924000" />
       <workItem from="1568096185937" duration="4887000" />
-      <workItem from="1568179796574" duration="3350000" />
+      <workItem from="1568179796574" duration="5081000" />
+      <workItem from="1568434424430" duration="825000" />
+      <workItem from="1568527970891" duration="869000" />
+      <workItem from="1568528852137" duration="58000" />
+      <workItem from="1568611702658" duration="533000" />
     </task>
     <servers />
   </component>

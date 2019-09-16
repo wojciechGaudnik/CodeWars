@@ -1,16 +1,17 @@
+import java.util.stream.IntStream;
 
 public class Main {
 
     public static void main(String[] args) {
-        byte a = 1;
-        byte b = 2;
-        System.out.println(sum(a , b));
-
+        System.out.println("Congratulations! You're going to have a son." + chromosomeCheck("XY"));
+        System.out.println("Congratulations! You're going to have a daughter." + chromosomeCheck("XX"));
 
     }
-    public static byte sum (byte a, byte b) {
-        byte c = (byte) (a + b);
-        return c;
+
+    public static String chromosomeCheck(String sperm) {
+        System.out.println(sperm.contains("Y") + " <-------------");
+        return (sperm.contains("Y"))?"Congratulations! You're going to have a son.":"Congratulations! You're going to have a daughter.";
+        // Your code goes here. Have fun!
     }
 
 
