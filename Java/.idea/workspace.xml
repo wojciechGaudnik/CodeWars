@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountPositivesSumNegatives/KataTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindNidle/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindNidle/NeedleExampleTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,16 +111,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KataTests">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.NeedleExampleTests">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountPositivesSumNegatives.Kata" />
       <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CountPositivesSumNegatives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WebApp" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,16 +147,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameMeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NeedleExampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NameMe.*" />
+          <option name="PATTERN" value="FindNidle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NameMe" />
-      <option name="MAIN_CLASS_NAME" value="NameMe.NameMeTest" />
+      <option name="PACKAGE_NAME" value="FindNidle" />
+      <option name="MAIN_CLASS_NAME" value="FindNidle.NeedleExampleTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KataTests" />
+        <item itemvalue="JUnit.NeedleExampleTests" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.KataTests" />
         <item itemvalue="JUnit.SolutionTest (2)" />
-        <item itemvalue="Application.WebApp" />
-        <item itemvalue="JUnit.NameMeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +230,10 @@
       <workItem from="1568527970891" duration="869000" />
       <workItem from="1568528852137" duration="58000" />
       <workItem from="1568611702658" duration="533000" />
+      <workItem from="1568651673304" duration="666000" />
+      <workItem from="1568725269965" duration="757000" />
+      <workItem from="1568818207460" duration="684000" />
+      <workItem from="1568927343357" duration="1126000" />
     </task>
     <servers />
   </component>
