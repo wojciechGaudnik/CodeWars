@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FindNidle/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindNidle/NeedleExampleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExampleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Plural/Plural.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Plural/PluralTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sheep/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sheep/CounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleStringDivision/SampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleStringDivision/SimpleStringDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TripleSorter/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TripleSorter/TripleSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TripleSorter/TripleSorterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +82,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="CountPositivesSumNegatives" />
-      <recent name="HQ" />
-      <recent name="NameMe" />
-      <recent name="TwentyOneSticks" />
-      <recent name="People" />
+      <recent name="TripleSorter" />
+      <recent name="SimpleStringDivision" />
+      <recent name="" />
+      <recent name="Plural" />
+      <recent name="Sheep" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/wojciechGaudnik/QuestStoreAWSSpring.git" />
@@ -111,20 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NeedleExampleTests">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountPositivesSumNegatives.Kata" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CountPositivesSumNegatives.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TripleSorterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Java" />
@@ -132,46 +126,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleStringDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleStringDivision.SimpleStringDivision" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CountPositivesSumNegatives.*" />
+          <option name="PATTERN" value="SimpleStringDivision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CountPositivesSumNegatives" />
-      <option name="MAIN_CLASS_NAME" value="CountPositivesSumNegatives.KataTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripleSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TripleSorter.TripleSorter" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TripleSorter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SimpleStringDivision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SimpleStringDivision" />
+      <option name="MAIN_CLASS_NAME" value="SimpleStringDivision.SampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeedleExampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TripleSorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FindNidle.*" />
+          <option name="PATTERN" value="TripleSorter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="FindNidle" />
-      <option name="MAIN_CLASS_NAME" value="FindNidle.NeedleExampleTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HQ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HQ" />
-      <option name="MAIN_CLASS_NAME" value="HQ.SolutionTest" />
+      <option name="PACKAGE_NAME" value="TripleSorter" />
+      <option name="MAIN_CLASS_NAME" value="TripleSorter.TripleSorterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,13 +184,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NeedleExampleTests" />
+        <item itemvalue="JUnit.TripleSorterTest" />
+        <item itemvalue="Application.TripleSorter" />
+        <item itemvalue="JUnit.SampleTest" />
+        <item itemvalue="Application.SimpleStringDivision" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.KataTests" />
-        <item itemvalue="JUnit.SolutionTest (2)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -233,7 +241,21 @@
       <workItem from="1568651673304" duration="666000" />
       <workItem from="1568725269965" duration="757000" />
       <workItem from="1568818207460" duration="684000" />
-      <workItem from="1568927343357" duration="1126000" />
+      <workItem from="1568927343357" duration="1183000" />
+      <workItem from="1569222661142" duration="1116000" />
+      <workItem from="1569307711063" duration="1057000" />
+      <workItem from="1569397505649" duration="390000" />
+      <workItem from="1569616574056" duration="79000" />
+      <workItem from="1569616666756" duration="370000" />
+      <workItem from="1569656630357" duration="292000" />
+      <workItem from="1569747955813" duration="300000" />
+      <workItem from="1569961095340" duration="789000" />
+      <workItem from="1569997043235" duration="457000" />
+      <workItem from="1570131560981" duration="1276000" />
+      <workItem from="1570221790160" duration="1485000" />
+      <workItem from="1570305174911" duration="4311000" />
+      <workItem from="1570392129368" duration="3410000" />
+      <workItem from="1570451296284" duration="991000" />
     </task>
     <servers />
   </component>
