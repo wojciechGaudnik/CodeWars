@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Rotator/Rotator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rotator/RotatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunWithListsMap/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunWithListsMap/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunWithListsMap/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetspeak/EncodeSimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetspeak/Leetspeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Twisted_3_7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Twisted_3_7/KataTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,6 +62,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/queststore" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -72,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="FunWithListsMap" />
+      <recent name="Leetspeak" />
+      <recent name="Twisted_3_7" />
       <recent name="Rotator" />
       <recent name="TripleSorter" />
-      <recent name="SimpleStringDivision" />
-      <recent name="" />
-      <recent name="Plural" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/wojciechGaudnik/QuestStoreAWSSpring.git" />
@@ -108,13 +114,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RotatorTest">
-    <configuration name="Rotator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rotator.Rotator" />
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Twisted_3_7.Kata" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Rotator.*" />
+          <option name="PATTERN" value="Twisted_3_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TripleSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TripleSorter.TripleSorter" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunWithListsMap.Solution" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TripleSorter.*" />
+          <option name="PATTERN" value="FunWithListsMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,46 +141,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EncodeSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Rotator.*" />
+          <option name="PATTERN" value="Leetspeak.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Rotator" />
-      <option name="MAIN_CLASS_NAME" value="Rotator.RotatorTest" />
+      <option name="PACKAGE_NAME" value="Leetspeak" />
+      <option name="MAIN_CLASS_NAME" value="Leetspeak.EncodeSimpleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SimpleStringDivision.*" />
+          <option name="PATTERN" value="Twisted_3_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SimpleStringDivision" />
-      <option name="MAIN_CLASS_NAME" value="SimpleStringDivision.SampleTest" />
+      <option name="PACKAGE_NAME" value="Twisted_3_7" />
+      <option name="MAIN_CLASS_NAME" value="Twisted_3_7.KataTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TripleSorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TripleSorter.*" />
+          <option name="PATTERN" value="FunWithListsMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TripleSorter" />
-      <option name="MAIN_CLASS_NAME" value="TripleSorter.TripleSorterTest" />
+      <option name="PACKAGE_NAME" value="FunWithListsMap" />
+      <option name="MAIN_CLASS_NAME" value="FunWithListsMap.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RotatorTest" />
-        <item itemvalue="Application.Rotator" />
-        <item itemvalue="JUnit.TripleSorterTest" />
-        <item itemvalue="Application.TripleSorter" />
-        <item itemvalue="JUnit.SampleTest" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.EncodeSimpleTest" />
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.KataTests" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +261,9 @@
       <workItem from="1570392129368" duration="3410000" />
       <workItem from="1570451296284" duration="991000" />
       <workItem from="1570535719623" duration="2379000" />
+      <workItem from="1570612042657" duration="2892000" />
+      <workItem from="1570692922476" duration="931000" />
+      <workItem from="1570729465795" duration="8821000" />
     </task>
     <servers />
   </component>
@@ -293,9 +302,9 @@
       <map>
         <entry key="flags" value="8" />
         <entry key="mode" value="0" />
-        <entry key="regex" value="uuVuu" />
+        <entry key="regex" value="(3)||(7)" />
         <entry key="replacement" value="\\[" />
-        <entry key="text" value="uVuuVuuVuuu &#10;I*)uuVuuV1: &#10;XXXuuVuuXXX" />
+        <entry key="text" value="123456789" />
       </map>
     </option>
   </component>
