@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FunWithListsMap/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithListsMap/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithListsMap/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetspeak/EncodeSimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetspeak/Leetspeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Twisted_3_7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Twisted_3_7/KataTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +67,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -114,13 +107,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="Application.Math">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Twisted_3_7.Kata" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Twisted_3_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Math" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,21 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Twisted_3_7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Twisted_3_7" />
-      <option name="MAIN_CLASS_NAME" value="Twisted_3_7.KataTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -188,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Math" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.EncodeSimpleTest" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.KataTests" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +254,9 @@
       <workItem from="1570535719623" duration="2379000" />
       <workItem from="1570612042657" duration="2892000" />
       <workItem from="1570692922476" duration="931000" />
-      <workItem from="1570729465795" duration="8821000" />
+      <workItem from="1570729465795" duration="9403000" />
+      <workItem from="1570914747859" duration="367000" />
+      <workItem from="1570915129509" duration="820000" />
     </task>
     <servers />
   </component>
