@@ -67,7 +67,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -256,7 +256,7 @@
       <workItem from="1570692922476" duration="931000" />
       <workItem from="1570729465795" duration="9403000" />
       <workItem from="1570914747859" duration="367000" />
-      <workItem from="1570915129509" duration="820000" />
+      <workItem from="1570915129509" duration="2030000" />
     </task>
     <servers />
   </component>
