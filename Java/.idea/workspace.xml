@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FunWithListsLength/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunWithListsLength/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,15 +70,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="ics" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="FunWithListsLength" />
       <recent name="FunWithListsMap" />
       <recent name="Leetspeak" />
       <recent name="Twisted_3_7" />
       <recent name="Rotator" />
-      <recent name="TripleSorter" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/wojciechGaudnik/QuestStoreAWSSpring.git" />
@@ -107,13 +110,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Math">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Twisted_3_7.Kata" />
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Math" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Twisted_3_7.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.Math" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunWithListsLength.Solution" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="FunWithListsLength.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Math" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.EncodeSimpleTest" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +260,9 @@
       <workItem from="1570729465795" duration="9403000" />
       <workItem from="1570914747859" duration="367000" />
       <workItem from="1570915129509" duration="2030000" />
+      <workItem from="1570953234071" duration="775000" />
+      <workItem from="1570954037583" duration="431000" />
+      <workItem from="1570954478766" duration="6149000" />
     </task>
     <servers />
   </component>
