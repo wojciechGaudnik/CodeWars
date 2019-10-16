@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FunWithListsLength/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithListsLength/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/All/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/All/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,15 +70,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="All" />
       <recent name="FunWithListsLength" />
       <recent name="FunWithListsMap" />
       <recent name="Leetspeak" />
       <recent name="Twisted_3_7" />
-      <recent name="Rotator" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/wojciechGaudnik/QuestStoreAWSSpring.git" />
@@ -110,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.Math" />
       <module name="Java" />
@@ -150,16 +150,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncodeSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetspeak.*" />
+          <option name="PATTERN" value="All.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Leetspeak" />
-      <option name="MAIN_CLASS_NAME" value="Leetspeak.EncodeSimpleTest" />
+      <option name="PACKAGE_NAME" value="All" />
+      <option name="MAIN_CLASS_NAME" value="All.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Math" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.EncodeSimpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,8 @@
       <workItem from="1570915129509" duration="2030000" />
       <workItem from="1570953234071" duration="775000" />
       <workItem from="1570954037583" duration="431000" />
-      <workItem from="1570954478766" duration="6149000" />
+      <workItem from="1570954478766" duration="11490000" />
+      <workItem from="1571173178274" duration="4601000" />
     </task>
     <servers />
   </component>
@@ -287,6 +288,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FunWithListsLength/Solution.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
