@@ -6,6 +6,28 @@ import org.junit.runners.JUnit4;
 import java.util.Arrays;
 
 public class SolutionTest {
+
+	@Test
+	public void testOddAndEven() {
+		assertEquals(true, Kata.isLove(1, 4));
+	}
+
+	@Test
+	public void testEvenAndEven() {
+		assertEquals(false, Kata.isLove(2, 2));
+	}
+
+	@Test
+	public void testOddAndOdd() {
+		assertEquals(false, Kata.isLove(1, 1));
+	}
+
+	@Test
+	public void testEvenAndOdd() {
+		assertEquals(true, Kata.isLove(0, 1));
+	}
+
+
 	@Test
 	public void basicTests() {
 		int[] input = new int[] { 4, 3, 9, 7, 2, 1 };
