@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas", "Katas\Katas.csproj", "{172D6137-33AE-4D77-87AA-AEB432A9451C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Tests", "..\Katas.Tests\Katas.Tests\Katas.Tests.csproj", "{3AB04606-88AE-45B3-891A-08160DBC4F19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172D6137-33AE-4D77-87AA-AEB432A9451C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172D6137-33AE-4D77-87AA-AEB432A9451C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172D6137-33AE-4D77-87AA-AEB432A9451C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172D6137-33AE-4D77-87AA-AEB432A9451C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB04606-88AE-45B3-891A-08160DBC4F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB04606-88AE-45B3-891A-08160DBC4F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB04606-88AE-45B3-891A-08160DBC4F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB04606-88AE-45B3-891A-08160DBC4F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
