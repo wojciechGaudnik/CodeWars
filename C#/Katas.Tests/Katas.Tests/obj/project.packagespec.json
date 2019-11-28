@@ -14,7 +14,11 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/bq666/Workspace/CodeWars/C#/Katas/Katas/Katas.csproj": {
+            "projectPath": "/home/bq666/Workspace/CodeWars/C#/Katas/Katas/Katas.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

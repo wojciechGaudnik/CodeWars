@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/All/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/All/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Katas/Katas/AlanPartridgeI-PartridgeWatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Katas/Katas/myjinxin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/Katas.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/Katas.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Debug/netcoreapp3.0/Katas.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Debug/netcoreapp3.0/Katas.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Katas.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Katas.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Katas.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Katas.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/Kata.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/Kata.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/bin/Debug/netcoreapp3.0/Katas.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/bin/Debug/netcoreapp3.0/Katas.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/bin/Debug/netcoreapp3.0/Katas.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/bin/Debug/netcoreapp3.0/Katas.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/obj/Debug/netcoreapp3.0/Katas.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/obj/Debug/netcoreapp3.0/Katas.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/obj/Debug/netcoreapp3.0/Katas.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/obj/Debug/netcoreapp3.0/Katas.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -265,6 +275,7 @@
       <workItem from="1570954478766" duration="11490000" />
       <workItem from="1571173178274" duration="4601000" />
       <workItem from="1571336042245" duration="195000" />
+      <workItem from="1574940410045" duration="39000" />
     </task>
     <servers />
   </component>

@@ -1,18 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Katas
 {
-    class Kata
+    public class Kata
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine(GenerateRange(1,2,3));
-        }
-
         public static int[] GenerateRange(int min, int max, int step)
         {
-            return new int[]{};
+            return Kata.Generate(min, max, step).ToArray();
+        }
+
+        public static IEnumerable<int> Generate(int min, int max, int step)
+        {
+            for (int i = min; i <= max; i += step)
+            {
+                yield return i;
+            }
         }
     }
+
+    public class People
+    {
+        public bool IsGood()
+        {
+            return true;
+        }
+    }
+    
 }
