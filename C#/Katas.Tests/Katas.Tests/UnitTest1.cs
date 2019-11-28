@@ -1,5 +1,4 @@
 using Katas;
-using NUnit.Framework;
 
 namespace Solution {
     using NUnit.Framework;
@@ -9,11 +8,11 @@ namespace Solution {
     public class SolutionTest
     {
         [Test]
-        public void SampleTests()
+        public void SampleTest()
         {
-            Assert.AreEqual("Mine's a Pint!", AlanPartridgeIPartridgeWatch.Part(new String[] {"Grouse", "Partridge", "Pheasant"}));
-            Assert.AreEqual("Mine's a Pint!!!!!!!!", AlanPartridgeIPartridgeWatch.Part(new String[] {"Grouse", "Partridge", "Pheasant", "Goose", "Starling", "Robin", "Thrush", "Emu", "PearTree", "Chat", "Dan", "Square", "Toblerone", "Lynn", "AlphaPapa", "BMW", "Graham", "Tool", "Nomad", "Finger", "Hamster"}));
-            Assert.AreEqual("Lynn, I've pierced my foot on a spike!!", AlanPartridgeIPartridgeWatch.Part(new string[] {"Pheasant", "Goose", "Starling", "Robin"}));
+            Assert.AreEqual("Smell my cheese you mother!", AlanPartridgeIII_London.Alan(new string[] {"Norwich", "Rejection", "Disappointment", "Backstabbing Central", "Shattered Dreams Parkway", "London"}));
+            Assert.AreEqual("No, seriously, run. You will miss it.", AlanPartridgeIII_London.Alan(new string[] {"London", "Norwich"}));
+            Assert.AreEqual("Smell my cheese you mother!", AlanPartridgeIII_London.Alan(new string[] {"Norwich", "Tooting", "Bank", "Rejection", "Disappointment", "Backstabbing Central", "Exeter", "Shattered Dreams Parkway", "Belgium","London"}));
         }
     }
 }
