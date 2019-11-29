@@ -1,24 +1,13 @@
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
 using Katas;
 
 [TestFixture]
-public class GarbleSortTests
+public class ThirstyInTests
 {
     [Test]
-    public static void TestExample1()
+    public void WaterFor37Days()
     {
-        CollectionAssert.AreEqual(
-            new int[] { 1, 3, 2 },
-            GarbleSortClass.GarbleSort(new int[] { 1, 2, 3 }));
-    }
-
-    [Test]
-    public static void TestExample2()
-    {
-        CollectionAssert.AreEqual(
-            new int[] { 6, 3, 5 },
-            GarbleSortClass.GarbleSort(new int[] { 5, 6, 3 }));
+        Assert.AreEqual(37, VaultExperience_1__EnoughWaterForHowManyDays.ThirstyIn(150, new int[] { 5, 30, 10 }));
     }
 }
