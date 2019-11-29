@@ -3,11 +3,11 @@ using System;
 using Katas;
 
 [TestFixture]
-public class ThirstyInTests
+public class HackMyTerminalTests
 {
     [Test]
-    public void WaterFor37Days()
-    {
-        Assert.AreEqual(37, VaultExperience_1__EnoughWaterForHowManyDays.ThirstyIn(150, new int[] { 5, 30, 10 }));
+    public void PasswordWith4Letters() {
+
+        Assert.AreEqual("PILZ", VaultExperience_2__HackMyTerminal_.HackMyTerminal( 4, "/§TTE§*%RAUM*+?=)PILZ(/&A..-.%BAUM_:"), "Password incorrekt. Terminal has been locked!");
     }
 }
