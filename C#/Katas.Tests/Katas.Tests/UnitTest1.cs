@@ -1,18 +1,24 @@
-using System;
-using System.Text.RegularExpressions;
-using Katas;
 using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using Katas;
 
-public class Tests
+[TestFixture]
+public class GarbleSortTests
 {
     [Test]
-    [TestCase("123", ExpectedResult=true)]
-    [TestCase("248", ExpectedResult=true)]
-    [TestCase("8", ExpectedResult=false)]
-    [TestCase("321", ExpectedResult=true)]
-    [TestCase("9453", ExpectedResult=false)]
-    public static bool FixedTest(string code)
+    public static void TestExample1()
     {
-        return validateCodeWithSimpleRegex.ValidateCode(code);
+        CollectionAssert.AreEqual(
+            new int[] { 1, 3, 2 },
+            GarbleSortClass.GarbleSort(new int[] { 1, 2, 3 }));
+    }
+
+    [Test]
+    public static void TestExample2()
+    {
+        CollectionAssert.AreEqual(
+            new int[] { 6, 3, 5 },
+            GarbleSortClass.GarbleSort(new int[] { 5, 6, 3 }));
     }
 }
