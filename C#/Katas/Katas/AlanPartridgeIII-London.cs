@@ -5,11 +5,6 @@ namespace Katas
 {
     public class AlanPartridgeIII_London
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("");
-        }
-
         public static string Alan(string[] x)
         {
             string[] stations = {"Rejection", "Disappointment", "Backstabbing Central", "Shattered Dreams Parkway"};

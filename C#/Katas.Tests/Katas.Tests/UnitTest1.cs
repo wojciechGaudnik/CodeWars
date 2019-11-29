@@ -7,12 +7,15 @@ namespace Solution {
     [TestFixture]
     public class SolutionTest
     {
-        [Test]
+        [Test, Description("It should work for basic tests")]
         public void SampleTest()
         {
-            Assert.AreEqual("Smell my cheese you mother!", AlanPartridgeIII_London.Alan(new string[] {"Norwich", "Rejection", "Disappointment", "Backstabbing Central", "Shattered Dreams Parkway", "London"}));
-            Assert.AreEqual("No, seriously, run. You will miss it.", AlanPartridgeIII_London.Alan(new string[] {"London", "Norwich"}));
-            Assert.AreEqual("Smell my cheese you mother!", AlanPartridgeIII_London.Alan(new string[] {"Norwich", "Tooting", "Bank", "Rejection", "Disappointment", "Backstabbing Central", "Exeter", "Shattered Dreams Parkway", "Belgium","London"}));
+            Assert.AreEqual("Hi", ExclamationMarksSeries_2_RemoveAllExclamationMarksFromTheEndFfSentence.Remove("Hi!"));
+            Assert.AreEqual("Hi", ExclamationMarksSeries_2_RemoveAllExclamationMarksFromTheEndFfSentence.Remove("Hi!!!"));
+            Assert.AreEqual("!Hi", ExclamationMarksSeries_2_RemoveAllExclamationMarksFromTheEndFfSentence.Remove("!Hi"));
+            Assert.AreEqual("!Hi", ExclamationMarksSeries_2_RemoveAllExclamationMarksFromTheEndFfSentence.Remove("!Hi!"));
+            Assert.AreEqual("Hi! Hi", ExclamationMarksSeries_2_RemoveAllExclamationMarksFromTheEndFfSentence.Remove("Hi! Hi"));
+            Assert.AreEqual("Hi", ExclamationMarksSeries_2_RemoveAllExclamationMarksFromTheEndFfSentence.Remove("Hi"));
         }
     }
 }
