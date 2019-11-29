@@ -1,22 +1,18 @@
+using System;
+using System.Text.RegularExpressions;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution
+public class Tests
 {
-    using NUnit.Framework;
-    using System;
-
-    [TestFixture]
-    public class Sample_Tests
+    [Test]
+    [TestCase("123", ExpectedResult=true)]
+    [TestCase("248", ExpectedResult=true)]
+    [TestCase("8", ExpectedResult=false)]
+    [TestCase("321", ExpectedResult=true)]
+    [TestCase("9453", ExpectedResult=false)]
+    public static bool FixedTest(string code)
     {
-        [Test]
-        public void Test()
-        {
-            Assert.AreEqual(28.8, NBAFull48MinutesAverage.NbaExtrap(12, 20));
-            Assert.AreEqual(48.0, NBAFull48MinutesAverage.NbaExtrap(10, 10));
-            Assert.AreEqual(14.1, NBAFull48MinutesAverage.NbaExtrap(5, 17));
-            Assert.AreEqual(0, NBAFull48MinutesAverage.NbaExtrap(0, 0));
-            Assert.AreEqual(42.6, NBAFull48MinutesAverage.NbaExtrap(30.8, 34.7));
-            Assert.AreEqual(32.5, NBAFull48MinutesAverage.NbaExtrap(22.9, 33.8));
-        }
+        return validateCodeWithSimpleRegex.ValidateCode(code);
     }
 }

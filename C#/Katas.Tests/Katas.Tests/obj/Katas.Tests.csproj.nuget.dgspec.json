@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[16.2.0, )"
             },
+            "Microsoft.NETCore.App.Ref": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.13.0, )"
