@@ -5,12 +5,6 @@ namespace Katas
 {
     public class ExclamationMarksSeries_2_RemoveAllExclamationMarksFromTheEndFfSentence
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Remove("Hi!"));
-            Console.WriteLine(Remove("!Hi!asd fasdf asdf Hi asdfasdfasdf"));
-            Console.WriteLine(Remove("!!asd fasdf asdf  asdfasdfasdf"));
-        }
         public static string Remove(string s)
         {
             for (int i = s.Length - 1; i >= 0; i--)
