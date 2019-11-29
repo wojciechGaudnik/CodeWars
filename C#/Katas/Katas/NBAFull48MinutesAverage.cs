@@ -6,12 +6,12 @@ namespace Katas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Console.WriteLine(NbaExtrap(5,17));
         }
 
         public static double NbaExtrap(double ppg, double mpg)
         {
-            return double.PositiveInfinity;
+            return (ppg == 0)?0:Math.Round((ppg * 48)/mpg, 1);
         }
     }
 }
