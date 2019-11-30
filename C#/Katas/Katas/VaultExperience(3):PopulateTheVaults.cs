@@ -5,11 +5,6 @@ namespace Katas
 {
     public class VaultExperience_3__PopulateTheVaults
     {
-        static void Main(string[] args)
-        {
-
-        }
-
         public static List<Dweller> PopulateMyVault(int countOfDweller)
         {
             List<Dweller> dwellers = new List<Dweller>();

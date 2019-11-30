@@ -1,31 +1,38 @@
-using NUnit.Framework;
-using System;
 using Katas;
 
-[TestFixture]
-public class VaultPopulationTests
+namespace smile67Kata
 {
-    [Test]
-    public void MankindIsExtinct()
+    using NUnit.Framework;
+    using System;
+    using System.Collections.Generic;
+
+    [TestFixture]
+    public class smile67KataTest
     {
-        var dwellers = VaultExperience_3__PopulateTheVaults.PopulateMyVault(0);
+        [Test]
+        public void smile67KataTest_withoutRandom1()
+        {
+            List<int> l = new List<int>(){2, 6, 17};
+            Assert.AreEqual(l, new Basics05_TextSearch().searchText("aaabababa baabba aba", "aba", true));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom3()
+        {
+            List<int> l = new List<int>();
+            Assert.AreEqual(l, new Basics05_TextSearch().searchText("aaabababa baabba aba", "", false));
 
-//        VaultTec.AssertDwellersInAVault(dwellers, 0, 0, 0, 0);
-    }
-
-    [Test]
-    public void TenLittleDwellersInAVault()
-    {
-        var dwellers = VaultExperience_3__PopulateTheVaults.PopulateMyVault(10);
-
-//        VaultTec.AssertDwellersInAVault(dwellers, 10, 5, 5, 1);
-    }
-
-    [Test]
-    public void TwentyThreeDwellersInAVault()
-    {
-        var dwellers = VaultExperience_3__PopulateTheVaults.PopulateMyVault(23);
-
-//        VaultTec.AssertDwellersInAVault(dwellers, 23, 12, 11, 1);
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom4()
+        {
+            List<int> l = new List<int>();
+            Assert.AreEqual(l, new Basics05_TextSearch().searchText("", "aba", false));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom2()
+        {
+            List<int> l = new List<int>() { 2, 4, 6, 17 };
+            Assert.AreEqual(l, new Basics05_TextSearch().searchText("aaabababa baabba aba", "aba", false));
+        }
     }
 }
