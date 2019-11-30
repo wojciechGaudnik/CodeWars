@@ -1,38 +1,19 @@
 using Katas;
+using NUnit.Framework;
 
-namespace smile67Kata
+namespace Tests
 {
-    using NUnit.Framework;
-    using System;
-    using System.Collections.Generic;
-
-    [TestFixture]
-    public class smile67KataTest
+    public class Tests
     {
-        [Test]
-        public void smile67KataTest_withoutRandom1()
+        [TestCase("", 0)]
+        [TestCase("hello", 8)]
+        [TestCase("bacon(d)", 18)]
+        [TestCase("pizza(t)", 75)]
+        [TestCase("pupp**ie*s", 70)]
+        [TestCase("task^", 3)]
+        public void ExampleTests(string word, int expectedScore)
         {
-            List<int> l = new List<int>(){2, 6, 17};
-            Assert.AreEqual(l, new Basics05_TextSearch().searchText("aaabababa baabba aba", "aba", true));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom3()
-        {
-            List<int> l = new List<int>();
-            Assert.AreEqual(l, new Basics05_TextSearch().searchText("aaabababa baabba aba", "", false));
-
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom4()
-        {
-            List<int> l = new List<int>();
-            Assert.AreEqual(l, new Basics05_TextSearch().searchText("", "aba", false));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom2()
-        {
-            List<int> l = new List<int>() { 2, 4, 6, 17 };
-            Assert.AreEqual(l, new Basics05_TextSearch().searchText("aaabababa baabba aba", "aba", false));
+            Assert.AreEqual(expectedScore, ScrabbleWordCalculator.CalculateScrabbleWord(word));
         }
     }
 }
