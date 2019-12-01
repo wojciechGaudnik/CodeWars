@@ -5,16 +5,6 @@ namespace Katas
 {
     public class OrdersSummary
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(300 * 542 + 50 * 145);
-            Console.WriteLine(200 * 580.0);
-            var test = "GOOG 300 542.0 B, AAPL 50 145.0 B, CSCO 250.0 29 B, GOOG 200 580.0 S";
-            Console.WriteLine(balanceStatements(test));
-            ;
-//            Console.WriteLine(test.Split(", ")[0].Split(" ")[^0]);
-
-        }
         public static String balanceStatements(String lst)
         {
             if (lst.Length == 0) return "Buy: 0 Sell: 0";

@@ -3,12 +3,19 @@ using Katas;
 using NUnit.Framework;
 
 [TestFixture]
-public class OrdersSummaryTests {
+public static class DecodingTests
+{
+    public static void testing_decode(String r, String expected) {
+        String actual = Decoding.Decode(r);
+        Assert.AreEqual(expected, actual);
+    }
 
     [Test]
-    public void Test1() {
-        String l = "GOOG 300 542.0 B, AAPL 50 145.0 B, CSCO 250.0 29 B, GOOG 200 580.0 S";
-        String r = "Buy: 169850 Sell: 116000; Badly formed 1: CSCO 250.0 29 B ;";
-        Assert.AreEqual(r, OrdersSummary.balanceStatements(l));
+    public static void test1()
+    {
+        testing_decode("1273409kuqhkoynvvknsdwljantzkpnmfgf", "uogbucwnddunktsjfanzlurnyxmx");
+        testing_decode("1544749cdcizljymhdmvvypyjamowl", "mfmwhbpoudfujjozopaugcb");
+        testing_decode("105860ymmgegeeiwaigsqkcaeguicc", "Impossible to decode");
+
     }
 }
