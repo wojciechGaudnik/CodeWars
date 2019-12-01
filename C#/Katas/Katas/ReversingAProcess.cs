@@ -6,12 +6,6 @@ namespace Katas
 {
     public class Decoding
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Decode("1273409kuqhkoynvvknsdwljantzkpnmfgf"));
-            Console.WriteLine(Decode("6015ekx"));
-        }
-
         public static String Decode(String r)
         {
             MatchCollection data = Regex.Matches(r, "\\d+|\\w+");
