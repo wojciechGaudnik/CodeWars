@@ -23,10 +23,5 @@ namespace Katas
             }
             return answer;
         }
-
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
