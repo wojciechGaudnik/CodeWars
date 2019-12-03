@@ -25,4 +25,6 @@ public class Kata{
 			}
 		}).mapToInt(Integer::intValue).toArray();
 	}
+
+
 }
