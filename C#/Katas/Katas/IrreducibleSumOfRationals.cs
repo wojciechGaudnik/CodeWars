@@ -3,10 +3,6 @@ namespace Katas
     using System;
     public class SumFractions
     {
-        static void Main(string[] args)
-        {
-        }
-
         public static string SumFracts(int[,] l)
         {
             if(l.Length == 0) return null;
