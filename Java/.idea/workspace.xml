@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../C#/Katas/Katas/IrreducibleSumOfRationals.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C#/Katas/Katas/PIapproximation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/All/CommonDivisors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/Katas.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/Katas.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/Katas.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/Katas.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/Katas.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/Katas.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/Katas.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/Katas.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/bin/Debug/netcoreapp3.0/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Debug/netcoreapp3.0/Katas.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Debug/netcoreapp3.0/Katas.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Debug/netcoreapp3.0/Katas.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Debug/netcoreapp3.0/Katas.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Debug/netcoreapp3.0/Katas.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/obj/Debug/netcoreapp3.0/Katas.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/HiddenCubicNumbers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/HiddenCubicNumbers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/bin/Debug/netcoreapp3.0/Katas.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/bin/Debug/netcoreapp3.0/Katas.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/bin/Debug/netcoreapp3.0/Katas.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/bin/Debug/netcoreapp3.0/Katas.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/obj/Debug/netcoreapp3.0/Katas.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/obj/Debug/netcoreapp3.0/Katas.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/obj/Debug/netcoreapp3.0/Katas.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/obj/Debug/netcoreapp3.0/Katas.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/META-INF/Java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/All/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/All/Kata.java" afterDir="false" />
-    </list>
+    <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +262,7 @@
       <workItem from="1571336042245" duration="195000" />
       <workItem from="1574940410045" duration="39000" />
       <workItem from="1574940460028" duration="762000" />
-      <workItem from="1575404043959" duration="434000" />
+      <workItem from="1575404043959" duration="674000" />
     </task>
     <servers />
   </component>

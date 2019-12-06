@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace Katas
 {
@@ -6,8 +7,18 @@ namespace Katas
     {
         static void Main(string[] args)
         {
-            int m = 1071225;
-            Console.WriteLine(findNb(4183059834009));
+            int[] test = {1,2,3,4,};
+            test.Select(x => x).ToList().ForEach(x => Console.Write(x + ", "));
+            int x = test[0];
+            x = 10;
+            Console.WriteLine();
+            test.Select(x => x).ToList().ForEach(x => Console.Write(x + ", "));
+            ref int x2 =ref test[0];
+            x2 = 10;
+            Console.WriteLine();
+            test.Select(x => x).ToList().ForEach(x => Console.Write(x + ", "));
+
+
 
         }
 
