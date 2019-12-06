@@ -4,6 +4,8 @@
 # My
 .idea/
 *.class
+obj/
+bin/
 
 # User-specific stuff
 .idea/**/workspace.xml

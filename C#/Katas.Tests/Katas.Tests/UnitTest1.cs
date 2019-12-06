@@ -3,23 +3,23 @@ using Katas;
 using NUnit.Framework;
 
 [TestFixture]
-public class ASumTests {
+public class FinanceTests {
 
     [Test]
-    public void Test1() {
-        Assert.AreEqual(2022, BuildAPileOfCubes.findNb(4183059834009));
+    public void Test01() {
+        Assert.AreEqual(105, FinancingPlanOnPlanetXY140Z_n.finance(5));
     }
     [Test]
-    public void Test2() {
-        Assert.AreEqual(-1, BuildAPileOfCubes.findNb(24723578342962));
+    public void Test02() {
+        Assert.AreEqual(168, FinancingPlanOnPlanetXY140Z_n.finance(6));
     }
     [Test]
-    public void Test3() {
-        Assert.AreEqual(4824, BuildAPileOfCubes.findNb(135440716410000));
+    public void Test03() {
+        Assert.AreEqual(360, FinancingPlanOnPlanetXY140Z_n.finance(8));
     }
     [Test]
-    public void Test4() {
-        Assert.AreEqual(3568, BuildAPileOfCubes.findNb(40539911473216));
+    public void Test04() {
+        Assert.AreEqual(2040, FinancingPlanOnPlanetXY140Z_n.finance(15));
+    }
 
-    }
 }
