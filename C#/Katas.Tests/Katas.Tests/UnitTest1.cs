@@ -1,25 +1,26 @@
-using System;
-using Katas;
 using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Katas;
 
-[TestFixture]
-public class FinanceTests {
-
+public class FoldAnArrayTests
+{
     [Test]
-    public void Test01() {
-        Assert.AreEqual(105, FinancingPlanOnPlanetXY140Z_n.finance(5));
+    public void BasicTests()
+    {
+        var input = new int[] { 1, 2, 3, 4, 5 };
+        var expected = new int[] { 6, 6, 3 };
+        Assert.AreEqual(string.Join(",", expected), string.Join(",", FoldAnArray.FoldArray(input, 1)));
+    
+        expected = new int[] { 9, 6 };
+        Assert.AreEqual(string.Join(",", expected), string.Join(",", FoldAnArray.FoldArray(input, 2)));
+    
+        expected = new int[] { 15 };
+        Assert.AreEqual(string.Join(",", expected), string.Join(",", FoldAnArray.FoldArray(input, 3)));
+    
+        input = new int[] { -9, 9, -8, 8, 66, 23 };
+        expected = new int[] { 14, 75, 0 };
+        Assert.AreEqual(string.Join(",", expected), string.Join(",", FoldAnArray.FoldArray(input, 1)));
     }
-    [Test]
-    public void Test02() {
-        Assert.AreEqual(168, FinancingPlanOnPlanetXY140Z_n.finance(6));
-    }
-    [Test]
-    public void Test03() {
-        Assert.AreEqual(360, FinancingPlanOnPlanetXY140Z_n.finance(8));
-    }
-    [Test]
-    public void Test04() {
-        Assert.AreEqual(2040, FinancingPlanOnPlanetXY140Z_n.finance(15));
-    }
-
 }
