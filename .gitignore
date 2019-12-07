@@ -4,8 +4,8 @@
 # My
 .idea/
 *.class
-*obj/
-*bin/
+obj/
+bin/
 
 # User-specific stuff
 .idea/**/workspace.xml
@@ -101,8 +101,8 @@ _UpgradeReport_Files/
 ###############
 # Directories #
 ###############
-bin/
-obj/
+*bin/*
+*obj/*
 TestResults/
 ###################
 # Web publish log #
