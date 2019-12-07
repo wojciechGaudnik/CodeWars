@@ -16,7 +16,6 @@ namespace Katas
                 int lcm = LCM(b, d);
                 a = (lcm / b) * a + (lcm / d) * c;
                 b = lcm;
-                Console.WriteLine(a + " <---" + lcm);
             }
             return (a % b == 0)? $"{a / b}": $"[{a / GCD(a, b)}, {b / GCD(a, b)}]";
         }
