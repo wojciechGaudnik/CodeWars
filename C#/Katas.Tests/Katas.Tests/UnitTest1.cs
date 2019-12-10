@@ -1,60 +1,37 @@
 using System;
-using Katas;
 using NUnit.Framework;
+using Katas;
 
 [TestFixture]
-public class Suite2Tests {
-
-    Random randomGenerator = new Random();
-
+public class FactorialTests
+{
     [Test]
-    public void Test01() {
-        Assert.AreEqual("1/2", Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(0.5));
-    }
-
-    [Test]
-    public void Test02() {
-        Assert.AreEqual("-5/2", Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(-2.5));
-    }
-
-    [Test]
-    public void Test03() {
-        Assert.AreEqual("2/3", Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(0.66666666666));
-    }
-
-    [Test]
-    public void Test04() {
-        Assert.AreEqual("2", Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(2));
-    }
-
-    [Test]
-    public void Test05() {
-        Assert.AreEqual("-717/1160", Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(-0.618103448275862));
-    }
-
-    [Test]
-    public void smile67KataTest_withoutRandom1()
+    public void When0ToDollarsReturnsDollar0_00()
     {
-        Assert.AreEqual("3/4",  Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(0.75));
+        Assert.AreEqual("$0.00", (0m).ToCurrency("$"));
     }
+
     [Test]
-    public void smile67KataTest_withoutRandom2()
+    public void When1_23ToDollarsReturnsDollar1_23()
     {
-        Assert.AreEqual("-1/3",  Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(-0.333333333333333));
+        Assert.AreEqual("$1.23", (1.23m).ToCurrency("$"));
     }
+
     [Test]
-    public void smile67KataTest_withoutRandom3()
+    public void When99_9999ToDollarsReturnsDollar100_00()
     {
-        Assert.AreEqual("3",  Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(3));
+        Assert.AreEqual("$100.00", (99.9999m).ToCurrency("$"));
     }
+
     [Test]
-    public void smile67KataTest_withoutRandom4()
+    public void WhenNegative12345_6789ToDollarsReturnsMinusDollar12345__68()
     {
-        Assert.AreEqual("5/6",  Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(0.833333333333333));
+        Assert.AreEqual("-$12345.68", (-12345.6789m).ToCurrency("$"));
     }
+
     [Test]
-    public void smile67KataTest_withoutRandom5()
+    public void When12345_6789ToPoundsReturnsPound12345__68()
     {
-        Assert.AreEqual("0", Basics01_ConvertAnyNumber_Double_ToFraction.toFraction(0));
+        Assert.AreEqual("£12345.68", (12345.6789m).ToCurrency("£"));
     }
 }

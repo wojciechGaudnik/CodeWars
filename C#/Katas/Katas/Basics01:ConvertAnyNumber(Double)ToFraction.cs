@@ -7,11 +7,6 @@ namespace Katas
 {
     public class Basics01_ConvertAnyNumber_Double_ToFraction
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine();
-        }
-
         public static string toFraction(double n)
         {
             if(Math.Abs(n % 1) < 0.000000001) return Convert.ToString(n, CultureInfo.InvariantCulture);
