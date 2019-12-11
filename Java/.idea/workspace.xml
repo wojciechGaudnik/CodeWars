@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../C#/Katas/Katas/Basics01:ConvertAnyNumber(Double)ToFraction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/PlayingOnAChessboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/PlayingOnAChessboard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/All/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/All/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/FormatNumberAsCurrencyUsingExtensionMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/FormatNumberAsCurrencyUsingExtensionMethod.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +264,7 @@
       <workItem from="1571336042245" duration="195000" />
       <workItem from="1574940410045" duration="39000" />
       <workItem from="1574940460028" duration="762000" />
-      <workItem from="1575404043959" duration="2673000" />
+      <workItem from="1575404043959" duration="2678000" />
     </task>
     <servers />
   </component>
