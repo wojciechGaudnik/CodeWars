@@ -5,11 +5,6 @@ namespace Katas
 {
     public class BerserkRater_CGVs_Clang
     {
-        static void Main(string[] args)
-        {
-
-        }
-
         public static string BerserkRater(string[] synopsis)
         {
             int score = 0;
@@ -33,6 +28,5 @@ namespace Katas
             if (score >= 0 && score <= 10) return score.ToString();
             return "bestest episode ever";
         }
-
     }
 }
