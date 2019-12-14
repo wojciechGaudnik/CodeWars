@@ -2,12 +2,7 @@ namespace Katas
 {
     public class SimpleFun_56_BeautifulText
     {
-        static void Main(string[] args)
-        {
-
-        }
-
-        public bool BeautifulText(string s, int l, int r)
+       public bool BeautifulText(string s, int l, int r)
         {
             for (var i = l; i <= r; i++)
             {
