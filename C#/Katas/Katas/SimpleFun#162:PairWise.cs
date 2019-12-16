@@ -4,13 +4,6 @@ namespace Katas
 {
     public class SimpleFun_162_PairWise
     {
-        static void Main(string[] args)
-        {
-            SimpleFun_162_PairWise kata = new SimpleFun_162_PairWise();
-            Console.WriteLine(kata.Pairwise(new int[] {1, 4, 2, 3, 0, 5}, 7));
-            Console.WriteLine(kata.Pairwise(new int[] {1, 3, 2, 4}, 4));
-        }
-
         public int Pairwise(int[] arr, int n)
         {
             var sum = 0;
