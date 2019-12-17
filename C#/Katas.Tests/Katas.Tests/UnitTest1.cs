@@ -1,18 +1,31 @@
-using NUnit.Framework;
-using System;
 using Katas;
 
-public class Tests
+namespace myjinxin
 {
-    [Test]
-    [TestCase("c", ExpectedResult=false)]
-    [TestCase("C", ExpectedResult=true)]
-    [TestCase("hello I AM DONALD", ExpectedResult=false)]
-    [TestCase("HELLO I AM DONALD", ExpectedResult=true)]
-    [TestCase("ACSKLDFJSgSKLDFJSKLDFJ", ExpectedResult=false)]
-    [TestCase("ACSKLDFJSGSKLDFJSKLDFJ", ExpectedResult=true)]
-    public static bool FixedTest(string text)
+    using NUnit.Framework;
+    using System;
+
+    [TestFixture]
+    public class myjinxin
     {
-        return text.IsUpperCase();
+
+        [Test]
+        public void BasicTests(){
+            var kata=new SimpleFun180RepeatAdjacent();
+
+            Assert.AreEqual(3,kata.RepeatAdjacent("ccccoodeffffiiighhhhhhhhhhttttttts"));
+
+            Assert.AreEqual(0,kata.RepeatAdjacent("soooooldieeeeeer"));
+
+            Assert.AreEqual(1,kata.RepeatAdjacent("ccccoooooooooooooooooooooooddee"));
+
+            Assert.AreEqual(1,kata.RepeatAdjacent("chaaallengee"));
+
+            Assert.AreEqual(2,kata.RepeatAdjacent("wwwwaaaarrioooorrrrr"));
+
+            Assert.AreEqual(2,kata.RepeatAdjacent("gztxxxxxggggggggggggsssssssbbbbbeeeeeeehhhmmmmmmmitttttttlllllhkppppp"));
+
+        }
+
     }
 }
