@@ -1,31 +1,16 @@
 using Katas;
 
-namespace myjinxin
-{
+namespace Solution {
     using NUnit.Framework;
     using System;
 
     [TestFixture]
-    public class myjinxin
+    public class SolutionTest
     {
-
         [Test]
-        public void BasicTests(){
-            var kata=new SimpleFun180RepeatAdjacent();
-
-            Assert.AreEqual(3,kata.RepeatAdjacent("ccccoodeffffiiighhhhhhhhhhttttttts"));
-
-            Assert.AreEqual(0,kata.RepeatAdjacent("soooooldieeeeeer"));
-
-            Assert.AreEqual(1,kata.RepeatAdjacent("ccccoooooooooooooooooooooooddee"));
-
-            Assert.AreEqual(1,kata.RepeatAdjacent("chaaallengee"));
-
-            Assert.AreEqual(2,kata.RepeatAdjacent("wwwwaaaarrioooorrrrr"));
-
-            Assert.AreEqual(2,kata.RepeatAdjacent("gztxxxxxggggggggggggsssssssbbbbbeeeeeeehhhmmmmmmmitttttttlllllhkppppp"));
-
+        public void Tests()
+        {
+            Assert.AreEqual(5 , FindTheOddInt.find_it ( new[] { 20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5 }));
         }
-
     }
 }

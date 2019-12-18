@@ -1,20 +1,10 @@
-using System;
 using System.Text.RegularExpressions;
 
 namespace Katas
 {
 
     public class SimpleFun180RepeatAdjacent
-
     {
-        static void Main(string[] args)
-        {
-            SimpleFun180RepeatAdjacent test = new SimpleFun180RepeatAdjacent();
-            var stringMy = "ccccoooooooooooooooooooooooddee";
-            Console.WriteLine(test.RepeatAdjacent(stringMy));
-            stringMy = "wwwwaaaarrioooorrrrr";
-            Console.WriteLine(test.RepeatAdjacent(stringMy));
-        }
 
         public int RepeatAdjacent(string s)
         {
