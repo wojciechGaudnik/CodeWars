@@ -1,27 +1,20 @@
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public class NumberTest
+namespace Solution
 {
-    private SumofDigitsDigitalRoot num;
+    using NUnit.Framework;
+    using System;
 
-    [SetUp]
-    public void SetUp()
+    [TestFixture]
+    public class SolutionTest
     {
-        num = new SumofDigitsDigitalRoot();
-    }
-
-    [TearDown]
-    public void TearDown()
-    {
-        num = null;
-    }
-
-    [Test]
-    public void Tests()
-    {
-        Assert.AreEqual(7, num.DigitalRoot(16));
-        Assert.AreEqual(6, num.DigitalRoot(456));
+        [Test]
+        public void SampleTest()
+        {
+            Assert.AreEqual(true, TakeaTenMinuteWalk.IsValidWalk(new string[] {"n","s","n","s","n","s","n","s","n","s"}), "should return true");
+            Assert.AreEqual(false, TakeaTenMinuteWalk.IsValidWalk(new string[] {"w","e","w","e","w","e","w","e","w","e","w","e"}), "should return false");
+            Assert.AreEqual(false, TakeaTenMinuteWalk.IsValidWalk(new string[] {"w"}), "should return false");
+            Assert.AreEqual(false, TakeaTenMinuteWalk.IsValidWalk(new string[] {"n","n","n","s","n","s","n","s","n","s"}), "should return false");
+        }
     }
 }

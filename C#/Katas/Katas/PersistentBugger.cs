@@ -5,11 +5,6 @@ namespace Katas
 {
     public class PersistentBugger
     {
-        static void Main(string[] args)
-        {
-
-        }
-
         public static int Persistence(long n)
         {
             int count = 0;
