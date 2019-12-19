@@ -1,16 +1,27 @@
 using Katas;
+using NUnit.Framework;
 
-namespace Solution {
-    using NUnit.Framework;
-    using System;
+[TestFixture]
+public class NumberTest
+{
+    private SumofDigitsDigitalRoot num;
 
-    [TestFixture]
-    public class SolutionTest
+    [SetUp]
+    public void SetUp()
     {
-        [Test]
-        public void Tests()
-        {
-            Assert.AreEqual(5 , FindTheOddInt.find_it ( new[] { 20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5 }));
-        }
+        num = new SumofDigitsDigitalRoot();
+    }
+
+    [TearDown]
+    public void TearDown()
+    {
+        num = null;
+    }
+
+    [Test]
+    public void Tests()
+    {
+        Assert.AreEqual(7, num.DigitalRoot(16));
+        Assert.AreEqual(6, num.DigitalRoot(456));
     }
 }
