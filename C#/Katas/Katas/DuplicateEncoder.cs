@@ -6,11 +6,6 @@ namespace Katas
 {
     public class DuplicateEncoder
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(DuplicateEncode("CodeWarrior"));
-        }
-
         public static string DuplicateEncode(string word)
         {
             // return new string(word.ToLower().Select(ch => word.ToLower().Count(innerCh => ch == innerCh) == 1 ? '(' : ')').ToArray());
