@@ -11,10 +11,11 @@ namespace Solution
         [Test]
         public void SampleTest()
         {
-            Assert.AreEqual(true, TakeaTenMinuteWalk.IsValidWalk(new string[] {"n","s","n","s","n","s","n","s","n","s"}), "should return true");
-            Assert.AreEqual(false, TakeaTenMinuteWalk.IsValidWalk(new string[] {"w","e","w","e","w","e","w","e","w","e","w","e"}), "should return false");
-            Assert.AreEqual(false, TakeaTenMinuteWalk.IsValidWalk(new string[] {"w"}), "should return false");
-            Assert.AreEqual(false, TakeaTenMinuteWalk.IsValidWalk(new string[] {"n","n","n","s","n","s","n","s","n","s"}), "should return false");
+            Assert.AreEqual(new int[] {2},       Array_diff.ArrayDiff(new int[] {1, 2},    new int[] {1}));
+            Assert.AreEqual(new int[] {2, 2},    Array_diff.ArrayDiff(new int[] {1, 2, 2}, new int[] {1}));
+            Assert.AreEqual(new int[] {1},       Array_diff.ArrayDiff(new int[] {1, 2, 2}, new int[] {2}));
+            Assert.AreEqual(new int[] {1, 2, 2}, Array_diff.ArrayDiff(new int[] {1, 2, 2}, new int[] {}));
+            Assert.AreEqual(new int[] {},        Array_diff.ArrayDiff(new int[] {},        new int[] {1, 2}));
         }
     }
 }
