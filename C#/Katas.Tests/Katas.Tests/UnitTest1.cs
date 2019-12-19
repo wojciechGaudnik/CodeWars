@@ -6,16 +6,16 @@ namespace Solution
     using System;
 
     [TestFixture]
-    public class SolutionTest
+    public class KataTests
     {
         [Test]
-        public void SampleTest()
+        public void BasicTests()
         {
-            Assert.AreEqual(new int[] {2},       Array_diff.ArrayDiff(new int[] {1, 2},    new int[] {1}));
-            Assert.AreEqual(new int[] {2, 2},    Array_diff.ArrayDiff(new int[] {1, 2, 2}, new int[] {1}));
-            Assert.AreEqual(new int[] {1},       Array_diff.ArrayDiff(new int[] {1, 2, 2}, new int[] {2}));
-            Assert.AreEqual(new int[] {1, 2, 2}, Array_diff.ArrayDiff(new int[] {1, 2, 2}, new int[] {}));
-            Assert.AreEqual(new int[] {},        Array_diff.ArrayDiff(new int[] {},        new int[] {1, 2}));
+            Assert.AreEqual("(((", DuplicateEncoder.DuplicateEncode("din"));
+            Assert.AreEqual("()()()", DuplicateEncoder.DuplicateEncode("recede"));
+            Assert.AreEqual(")())())", DuplicateEncoder.DuplicateEncode("Success"), "should ignore case");
+            Assert.AreEqual("))((", DuplicateEncoder.DuplicateEncode("(( @"));
+            Assert.AreEqual("()(((())())", DuplicateEncoder.DuplicateEncode("CodeWarrior"));
         }
     }
 }

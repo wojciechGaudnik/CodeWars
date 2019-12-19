@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Linq;
 
@@ -6,17 +5,6 @@ namespace Katas
 {
     public class Array_diff
     {
-        static void Main(string[] args)
-        {
-            var test = ArrayDiff(new int[] {1, 2, 2}, new int[] {1});
-
-            foreach (var i in test)
-            {
-                Console.WriteLine(i);
-            }
-
-        }
-
         public static int[] ArrayDiff(int[] a, int[] b)
         {
             IList list = new ArrayList();
