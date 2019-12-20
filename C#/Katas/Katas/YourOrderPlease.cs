@@ -8,11 +8,6 @@ namespace Katas
 {
     public class YourOrderPlease
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine();
-        }
-
         public static string Order(string words)
         {
             var sortedList = new SortedList<string, string>();
