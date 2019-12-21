@@ -5,12 +5,6 @@ namespace Katas
 {
     public class IQTest
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Test("2 4 7 8 10"));
-            Console.WriteLine(Test("1 2 1 1"));
-        }
-
         public static int Test(string word)
         {
             var array = word.Split(" ").Select(w => int.Parse(w)).ToArray();
