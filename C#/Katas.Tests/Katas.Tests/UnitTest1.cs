@@ -1,15 +1,32 @@
-using System;
-using Katas;
 using NUnit.Framework;
+using System;
+using System.Linq;
+using Katas;
 
-[TestFixture]
-public class AreTheySameTests {
-
+public class SnailTest
+{
     [Test]
-    public void Test1() {
-        int[] a = new int[] {121, 144, 19, 161, 19, 144, 19, 11};
-        int[] b = new int[] {11*11, 121*121, 144*144, 19*19, 161*161, 19*19, 144*144, 19*19};
-        bool r = AreTheyTheSame.comp(a, b); // True
-        Assert.AreEqual(true, r);
+    public void SnailTest1()
+    {
+        int[][] array =
+        {
+            new []{1, 2, 3},
+            new []{4, 5, 6},
+            new []{7, 8, 9}
+        };
+        var r = new[] { 1, 2, 3, 6, 9, 8, 7, 4, 5 };
+        Test(array, r);
+    }
+
+    public string Int2dToString(int[][] a)
+    {
+        return $"[{string.Join("\n", a.Select(row => $"[{string.Join(",", row)}]"))}]";
+    }
+
+    public void Test(int[][] array, int[] result)
+    {
+        var text = $"{Int2dToString(array)}\nshould be sorted to\n[{string.Join(",", result)}]\n";
+        Console.WriteLine(text);
+        Assert.AreEqual(result, SnailSolution.Snail(array));
     }
 }
