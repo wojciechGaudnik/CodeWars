@@ -1,13 +1,17 @@
 using System;
+using System.Collections;
 using Katas;
 using NUnit.Framework;
-
-[TestFixture]
-public class CodeWarsTest
+public class StripCommentsTest
 {
     [Test]
-    public void Given123And456Returns579()
+    public void StripComments()
     {
-        Assert.AreEqual("579",SumStringsasNumbers.sumStrings("123","456"));
+        Assert.AreEqual(
+            "apples, pears\ngrapes\nbananas",
+            StripCommentsKata.StripComments("apples, pears # and bananas\ngrapes\nbananas !apples", new string[] { "#", "!" }));
+
+        Assert.AreEqual("a\nc\nd", StripCommentsKata.StripComments("a #b\nc\nd $e f g", new string[] { "#", "$" }));
+
     }
 }
