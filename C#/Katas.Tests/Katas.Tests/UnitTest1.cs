@@ -1,25 +1,33 @@
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-public class SolutionTest
+using Katas;
+using NUnit.Framework;
+
+namespace CodewarsTests
 {
-    [Test]
-    public void Example1()
+    [TestFixture]
+    public class RangeExtractorTest
     {
-        Assert.AreEqual(new List<string> { "a" }, Permutations.SinglePermutations("a").OrderBy(x => x).ToList());
-    }
+        [Test(Description = "Simple tests")]
+        public void SimpleTests()
+        {
+            Assert.AreEqual("1,2", RangeExtraction.Extract(new[] { 1, 2 }));
+            Assert.AreEqual("1-3", RangeExtraction.Extract(new[] { 1, 2, 3 }));
 
-    [Test]
-    public void Example2()
-    {
-        Assert.AreEqual(new List<string> { "ab", "ba" }, Permutations.SinglePermutations("ab").OrderBy(x => x).ToList());
-    }
+            Assert.AreEqual(
+                "-6,-3-1,3-5,7-11,14,15,17-20",
+                RangeExtraction.Extract(new[] { -6, -3, -2, -1, 0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20 })
+            );
 
-    [Test]
-    public void Example3()
-    {
-        Assert.AreEqual(new List<string> { "aabb", "abab", "abba", "baab", "baba", "bbaa" }, Permutations.SinglePermutations("aabb").OrderBy(x => x).ToList());
+            Assert.AreEqual(
+                "-3--1,2,10,15,16,18-20",
+                RangeExtraction.Extract(new[] { -3, -2, -1, 2, 10, 15, 16, 18, 19, 20 })
+            );
+
+            Assert.AreEqual(
+                "-84,-82,-80,-79,-77--75,-73",
+                RangeExtraction.Extract(new[] { -84, -82, -80, -79, -77, -76, -75, -73 })
+            );
+        }
     }
 }
