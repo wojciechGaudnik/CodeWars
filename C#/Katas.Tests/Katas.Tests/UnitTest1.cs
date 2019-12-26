@@ -1,46 +1,48 @@
 using Katas;
-using NUnit.Framework;
 
-using Interval = System.ValueTuple<int, int>;
-
-public class IntervalTest
-{
-    [Test]
-    public void ShouldHandleEmptyIntervals()
+namespace Solution {
+    using NUnit.Framework;
+    using System;
+    [TestFixture]
+    public class SolutionTest
     {
-        Assert.AreEqual(0, SumOfIntervals.SumIntervals(new Interval[] { }));
-        Assert.AreEqual(0, SumOfIntervals.SumIntervals(new Interval[] { (4, 4), (6, 6), (8, 8) }));
-    }
+        [Test]
+        public void SmallPyramidTest()
+        {
+            var smallPyramid = new[]
+            {
+                new[] {3},
+                new[] {7, 4},
+                new[] {2, 4, 6},
+                new[] {8, 5, 9, 3}
+            };
 
-    [Test]
-    public void ShouldAddDisjoinedIntervals()
-    {
-        Assert.AreEqual(9, SumOfIntervals.SumIntervals(new Interval[] { (1, 2), (6, 10), (11, 15) }));
-        Assert.AreEqual(11, SumOfIntervals.SumIntervals(new Interval[] { (4, 8), (9, 10), (15, 21) }));
-        Assert.AreEqual(7, SumOfIntervals.SumIntervals(new Interval[] { (-1, 4), (-5, -3) }));
-        Assert.AreEqual(78, SumOfIntervals.SumIntervals(new Interval[] { (-245, -218), (-194, -179), (-155, -119) }));
-    }
+            Assert.AreEqual(23, PyramidSlideDown.LongestSlideDown(smallPyramid));
+        }
 
-    [Test]
-    public void ShouldAddAdjacentIntervals()
-    {
-        Assert.AreEqual(54, SumOfIntervals.SumIntervals(new Interval[] { (1, 2), (2, 6), (6, 55) }));
-        Assert.AreEqual(23, SumOfIntervals.SumIntervals(new Interval[] { (-2, -1), (-1, 0), (0, 21) }));
-    }
+        [Test]
+        public void MediumPyramidTest()
+        {
+            var mediumPyramid = new[]
+            {
+                new [] {75},
+                new [] {95, 64},
+                new [] {17, 47, 82},
+                new [] {18, 35, 87, 10},
+                new [] {20,  4, 82, 47, 65},
+                new [] {19,  1, 23, 75,  3, 34},
+                new [] {88,  2, 77, 73,  7, 63, 67},
+                new [] {99, 65,  4, 28,  6, 16, 70, 92},
+                new [] {41, 41, 26, 56, 83, 40, 80, 70, 33},
+                new [] {41, 48, 72, 33, 47, 32, 37, 16, 94, 29},
+                new [] {53, 71, 44, 65, 25, 43, 91, 52, 97, 51, 14},
+                new [] {70, 11, 33, 28, 77, 73, 17, 78, 39, 68, 17, 57},
+                new [] {91, 71, 52, 38, 17, 14, 91, 43, 58, 50, 27, 29, 48},
+                new [] {63, 66,  4, 68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31},
+                new [] { 4, 62, 98, 27, 23,  9, 70, 98, 73, 93, 38, 53, 60,  4, 23}
+            };
 
-    [Test]
-    public void ShouldAddOverlappingIntervals()
-    {
-        Assert.AreEqual(7, SumOfIntervals.SumIntervals(new Interval[] { (1, 4), (7, 10), (3, 5) }));
-        Assert.AreEqual(6, SumOfIntervals.SumIntervals(new Interval[] { (5, 8), (3, 6), (1, 2) }));
-        Assert.AreEqual(19, SumOfIntervals.SumIntervals(new Interval[] { (1, 5), (10, 20), (1, 6), (16, 19), (5, 11) }));
-    }
-
-    [Test]
-    public void ShouldHandleMixedIntervals()
-    {
-        Assert.AreEqual(13, SumOfIntervals.SumIntervals(new Interval[] { (2, 5), (-1, 2), (-40, -35), (6, 8) }));
-        Assert.AreEqual(1234, SumOfIntervals.SumIntervals(new Interval[] { (-7, 8), (-2, 10), (5, 15), (2000, 3150), (-5400, -5338) }));
-        Assert.AreEqual(158, SumOfIntervals.SumIntervals(new Interval[] { (-101, 24), (-35, 27), (27, 53), (-105, 20), (-36, 26) }));
+            Assert.AreEqual(1074, PyramidSlideDown.LongestSlideDown(mediumPyramid));
+        }
     }
 }
