@@ -4,7 +4,7 @@ namespace Katas
 {
     public static class MatrixDeterminant
     {
-        private static int Determinant(int[,] input)
+      private static int Determinant(int[,] input)
         {
             var order = int.Parse(Math.Sqrt(input.Length).ToString());
             if (order > 2)
