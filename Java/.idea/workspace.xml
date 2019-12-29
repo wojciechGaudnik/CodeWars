@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/FormatNumberAsCurrencyUsingExtensionMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/FormatNumberAsCurrencyUsingExtensionMethod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Katas/Katas/SquareIntoSquaresProtectTrees.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/CodewarsStyleRankingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/CodewarsStyleRankingSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +44,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
@@ -56,7 +63,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../QuestStoreAPI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,19 +102,14 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Decompose">
+    <configuration name="Decompose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decompose" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.Math" />
       <module name="Java" />
@@ -162,28 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FunWithListsMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FunWithListsMap" />
-      <option name="MAIN_CLASS_NAME" value="FunWithListsMap.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decompose" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Math" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,13 +178,15 @@
     <queries />
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -265,6 +254,8 @@
       <workItem from="1574940410045" duration="39000" />
       <workItem from="1574940460028" duration="762000" />
       <workItem from="1575404043959" duration="2678000" />
+      <workItem from="1577604456424" duration="708000" />
+      <workItem from="1577605978775" duration="27000" />
     </task>
     <servers />
   </component>
@@ -286,6 +277,48 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2516" height="475" key="GridCell.Tab.0.bottom" timestamp="1577605163954">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="475" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980613" />
+    <state width="2516" height="475" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
+    <state width="2516" height="475" key="GridCell.Tab.0.center" timestamp="1577605163953">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="475" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980613" />
+    <state width="2516" height="475" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163953" />
+    <state width="2516" height="475" key="GridCell.Tab.0.left" timestamp="1577605163953">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="475" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980612" />
+    <state width="2516" height="475" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163953" />
+    <state width="2516" height="475" key="GridCell.Tab.0.right" timestamp="1577605163954">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="475" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980613" />
+    <state width="2516" height="475" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
+    <state width="2516" height="475" key="GridCell.Tab.1.bottom" timestamp="1577605163955">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="475" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980645" />
+    <state width="2516" height="475" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163955" />
+    <state width="2516" height="475" key="GridCell.Tab.1.center" timestamp="1577605163954">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="475" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980645" />
+    <state width="2516" height="475" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
+    <state width="2516" height="475" key="GridCell.Tab.1.left" timestamp="1577605163954">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="475" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980645" />
+    <state width="2516" height="475" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
+    <state width="2516" height="475" key="GridCell.Tab.1.right" timestamp="1577605163954">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2516" height="475" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980645" />
+    <state width="2516" height="475" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

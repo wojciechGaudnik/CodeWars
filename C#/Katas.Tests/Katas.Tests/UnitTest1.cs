@@ -1,25 +1,14 @@
-using NUnit.Framework;
 using System;
 using Katas;
+using NUnit.Framework;
 
-public class SolutionTest
-{
-
-    private static int[][][] matrix =
-    {
-        new int[][] { new [] { 1 } },
-        new int[][] { new [] { 1, 3 }, new [] { 2, 5 } },
-        new int[][] { new [] { 2, 5, 3 }, new [] { 1, -2, -1 }, new [] { 1, 3, 4 } }
-    };
-
-    private static int[] expected = { 1, -1, -20 };
-
-    private static string[] msg = { "Determinant of a 1 x 1 matrix yields the value of the one element", "Should return 1 * 5 - 3 * 2 == -1 ", "" };
+[TestFixture]
+public class DecomposeTests {
 
     [Test]
-    public void SampleTests()
-    {
-        for (int n = 0; n < expected.Length; n++)
-            Assert.AreEqual(expected[n], MatrixDeterminant.Determinant(matrix[n]), msg[n]);
+    public void Test1() {
+        SquareIntoSquaresProtectTrees d = new SquareIntoSquaresProtectTrees();
+        long n = 11;
+        Assert.AreEqual("1 2 4 10", d.decompose(n));
     }
 }
