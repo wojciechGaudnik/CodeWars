@@ -1,14 +1,20 @@
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public class DecomposeTests {
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
 
-    [Test]
-    public void Test1() {
-        SquareIntoSquaresProtectTrees d = new SquareIntoSquaresProtectTrees();
-        long n = 11;
-        Assert.AreEqual("1 2 4 10", d.decompose(n));
+    [TestFixture]
+    public class KataTests
+    {
+        [Test]
+        public void BasicTests()
+        {
+            Assert.AreEqual("1", LargeFactorials.Factorial(1));
+            Assert.AreEqual("120", LargeFactorials.Factorial(5));
+            Assert.AreEqual("362880", LargeFactorials.Factorial(9));
+            Assert.AreEqual("1307674368000", LargeFactorials.Factorial(15));
+        }
     }
 }

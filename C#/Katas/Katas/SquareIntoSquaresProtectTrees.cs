@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -7,8 +6,7 @@ namespace Katas
     public class SquareIntoSquaresProtectTrees
     {
         public string decompose(long n) {
-
-            var decomposeArray = Resolve(n, n * n);
+    var decomposeArray = Resolve(n, n * n);
             if(decomposeArray == null) return null;
             decomposeArray.RemoveAt(decomposeArray.Count -1);
             var result = decomposeArray.Select(ele => ele.ToString()).ToList();
