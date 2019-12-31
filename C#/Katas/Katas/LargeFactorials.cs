@@ -1,17 +1,9 @@
-using System;
 using System.Text;
 
 namespace Katas
 {
     public class LargeFactorials
     {
-        static public void Main ()
-        {
-
-            Console.WriteLine(Factorial(100));
-
-        }
-
         public static string Factorial(int n)
         {
             var res = new int[500];
