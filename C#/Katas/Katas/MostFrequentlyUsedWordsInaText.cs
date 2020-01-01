@@ -7,10 +7,6 @@ namespace Katas
 {
     public class MostFrequentlyUsedWordsInaText
     {
-        public static void Main(string[] args)
-        {
-        }
-
         public static List<string> Top3(string s)
         {
             Console.WriteLine(s);
