@@ -5,14 +5,6 @@ namespace Katas
 {
     public class MagnetParticulesInBoxes
     {
-        public static void Main(string[] args)
-        {
-            // Console.WriteLine(Doubles(1, 3).Equals(0.4236111111111111));
-            // Console.WriteLine(Doubles(1, 10).Equals(0.5580321939764581));
-            // Console.WriteLine(Doubles(10, 100).Equals(0.6832948559787737));
-            Console.WriteLine(Doubles2(10, 100));
-        }
-
         public static double Doubles2(int maxk, int maxn)
         {
             double sum = 0.0;
@@ -23,7 +15,6 @@ namespace Katas
                     sum += 1.0 / (k * Math.Pow((n + 1),(2 * k)));
                 }
             }
-
             return sum;
         }
 
