@@ -7,5 +7,5 @@ Test:
 println("hello world")
 
 myArray = [1,2,3,4,5]
-foreach(myArray)
-((((((()))))))
+foreach(i in myArray)
+    println(i)

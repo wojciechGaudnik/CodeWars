@@ -1,17 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution
+[TestFixture]
+public class Test
 {
-    using NUnit.Framework;
-    using System;
-
-    [TestFixture]
-    public class SolutionTest
+    [Test]
+    public void ShouldWorkTest()
     {
-        [Test]
-        public void MyTest()
-        {
-            Assert.AreEqual("123  45\n6", TextAlignJustify.Justify("123 45 6", 7));
-        }
+        Assert.AreEqual(0, CatchingCarMileageNumbers.IsInteresting(3, new List<int>() { 1337, 256 }));
+        Assert.AreEqual(1, CatchingCarMileageNumbers.IsInteresting(1336, new List<int>() { 1337, 256 }));
+        Assert.AreEqual(2, CatchingCarMileageNumbers.IsInteresting(1337, new List<int>() { 1337, 256 }));
+        Assert.AreEqual(0, CatchingCarMileageNumbers.IsInteresting(11208, new List<int>() { 1337, 256 }));
+        Assert.AreEqual(1, CatchingCarMileageNumbers.IsInteresting(11209, new List<int>() { 1337, 256 }));
+        Assert.AreEqual(2, CatchingCarMileageNumbers.IsInteresting(11211, new List<int>() { 1337, 256 }));
     }
 }
