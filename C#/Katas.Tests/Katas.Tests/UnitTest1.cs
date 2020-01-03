@@ -1,20 +1,41 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Katas;
 using NUnit.Framework;
+using System;
+using System.Text.RegularExpressions;
+using Katas;
 
 [TestFixture]
-public class Test
+public class BinaryMultipleOf3Test 
 {
     [Test]
-    public void ShouldWorkTest()
+    public void CheckType()
     {
-        Assert.AreEqual(0, CatchingCarMileageNumbers.IsInteresting(3, new List<int>() { 1337, 256 }));
-        Assert.AreEqual(1, CatchingCarMileageNumbers.IsInteresting(1336, new List<int>() { 1337, 256 }));
-        Assert.AreEqual(2, CatchingCarMileageNumbers.IsInteresting(1337, new List<int>() { 1337, 256 }));
-        Assert.AreEqual(0, CatchingCarMileageNumbers.IsInteresting(11208, new List<int>() { 1337, 256 }));
-        Assert.AreEqual(1, CatchingCarMileageNumbers.IsInteresting(11209, new List<int>() { 1337, 256 }));
-        Assert.AreEqual(2, CatchingCarMileageNumbers.IsInteresting(11211, new List<int>() { 1337, 256 }));
+        Assert.AreEqual(typeof(Regex), BinaryMultipleOf3.MultipleOf3().GetType());
+        Assert.AreEqual(typeof(Match), BinaryMultipleOf3.MultipleOf3().Match("").GetType());
+    }
+  
+    [Test]
+    public void InvalidCharacters()
+    {
+        Assert.AreEqual(false, BinaryMultipleOf3.MultipleOf3().IsMatch(" 0"));
+        Assert.AreEqual(false, BinaryMultipleOf3.MultipleOf3().IsMatch("abc"));
+        Assert.AreEqual(false, BinaryMultipleOf3.MultipleOf3().IsMatch("011 110"));
+    }
+  
+    [Test]
+    public void SmallNumbers()
+    {
+        Assert.AreEqual(true, BinaryMultipleOf3.MultipleOf3().IsMatch("000"));
+        Assert.AreEqual(false, BinaryMultipleOf3.MultipleOf3().IsMatch("001"));
+        Assert.AreEqual(false, BinaryMultipleOf3.MultipleOf3().IsMatch("010"));
+        Assert.AreEqual(true, BinaryMultipleOf3.MultipleOf3().IsMatch("011"));
+        Assert.AreEqual(true, BinaryMultipleOf3.MultipleOf3().IsMatch("110"));
+        Assert.AreEqual(false, BinaryMultipleOf3.MultipleOf3().IsMatch("111"));
+    }
+  
+    [Test]
+    public void LargeNumbers()
+    {
+        Assert.AreEqual(true, BinaryMultipleOf3.MultipleOf3().IsMatch(Convert.ToString(12345678, 2)));
+        Assert.AreEqual(false, BinaryMultipleOf3.MultipleOf3().IsMatch(Convert.ToString(12345679, 2)));
     }
 }

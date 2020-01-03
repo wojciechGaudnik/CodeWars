@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -7,10 +6,6 @@ namespace Katas
 {
     public class CatchingCarMileageNumbers
     {
-        public static void Main(string[] args)
-        {
-        }
-
         public static int IsInteresting(int number, List<int> awesomePhrases)
         {
             if (number <= 97) return 0;
