@@ -1,16 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace Katas
 {
     public class parseInReloaded
     {
-        public static void Main(string[] args)
-        {
-        }
-
         public static int ParseInt(string s)
         {
             IDictionary<string, int> dictionarySingle = new Dictionary<string, int>()

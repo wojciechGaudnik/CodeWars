@@ -1,12 +1,20 @@
-using Katas;
 using NUnit.Framework;
-public class SolutionTest
+using System;
+using Katas;
+
+[TestFixture]
+public class FindTheUnknownDigitTest 
 {
     [Test]
-    public void FixedTests()
+    public void testSample()
     {
-        Assert.AreEqual(1, parseInReloaded.ParseInt("one"));
-        Assert.AreEqual(20, parseInReloaded.ParseInt("twenty"));
-        Assert.AreEqual(246, parseInReloaded.ParseInt("two hundred forty-six"));
+        Assert.AreEqual(2, FindTheUnknownDigit.solveExpression("1+1=?"), "Answer for expression '1+1=?' ");
+        Assert.AreEqual(6, FindTheUnknownDigit.solveExpression("123*45?=5?088"), "Answer for expression '123*45?=5?088' ");      
+        Assert.AreEqual(0, FindTheUnknownDigit.solveExpression("-5?*-1=5?"), "Answer for expression '-5?*-1=5?' ");
+        Assert.AreEqual(-1, FindTheUnknownDigit.solveExpression("19--45=5?"), "Answer for expression '19--45=5?' ");
+        Assert.AreEqual(5, FindTheUnknownDigit.solveExpression("??*??=302?"), "Answer for expression '??*??=302?' ");
+        Assert.AreEqual(2, FindTheUnknownDigit.solveExpression("?*11=??"), "Answer for expression '?*11=??' ");
+        Assert.AreEqual(2, FindTheUnknownDigit.solveExpression("??*1=??"), "Answer for expression '??*1=??' ");
+        Assert.AreEqual(-1, FindTheUnknownDigit.solveExpression("??+??=??"), "Answer for expression '??+??=??' ");
     }
 }
