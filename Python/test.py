@@ -15,3 +15,12 @@ def decompose(n):
 
 
 print("test")
+def basicOp(sign, a, b):
+	return int(eval(str(a) + sign + str(b)))
+
+
+print(basicOp('+', 4, 7))
+print(basicOp('-', 15, 18))
+print(basicOp('*', 5, 5))
+print(int(basicOp('/', 49, 7)))
+
