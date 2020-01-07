@@ -1,28 +1,7 @@
-using System;
-using System.Linq;
-
 namespace Katas
 {
     public class PathFinder_1CanYouReachTheExit
     {
-        public static void Main(string[] args)
-        {
-            string d = "......\n" +
-                       "......\n" +
-                       "......\n" +
-                       "......\n" +
-                       ".....W\n" +
-                       "......";
-            string a = ".W.\n" +
-                       ".W.\n" +
-                       "...";
-            string b = ".W.\n" +
-                       ".W.\n" +
-                       "W..";
-
-            Console.WriteLine(PathFinder(a));
-        }
-
         public static bool PathFinder(string maze)
         {
             if (maze.Length == 1) return true;
