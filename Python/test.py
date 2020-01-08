@@ -1,26 +1,24 @@
-def decompose(n):
-	goal = 0
-	result = [n]
-	while result:
-		current = result.pop()
-		goal += current ** 2
-		for i in range(current - 1, 0, -1):
-			if goal - (i ** 2) >= 0:
-				goal -= i ** 2
-				result.append(i)
-				if goal == 0:
-					result.sort()
-					return result
-	return None
+MAX_N = 20
 
+factorail_table = dict()
+factorail_table[0] = 1
+for i in range(1, MAX_N):
+	factorail_table[i] = factorail_table[i-1] * i
 
-print("test")
-def basicOp(sign, a, b):
-	return int(eval(str(a) + sign + str(b)))
+def perm(ith, s):
+	if factorail_table[len(s)] <= ith or ith < 0:
+		raise ValueError
+	elif len(s) == 1:
+		return s
+	else:
+		sub_seq_len = factorail_table[len(s)-1]
+		head_idx = ith // sub_seq_len
+		next_ith = ith % sub_seq_len
+		head = s[head_idx]
+		next_s = ''.join(s.split(s[head_idx]))
+		return head + perm(next_ith, next_s)
 
-
-print(basicOp('+', 4, 7))
-print(basicOp('-', 15, 18))
-print(basicOp('*', 5, 5))
-print(int(basicOp('/', 49, 7)))
-
+if __name__ == '__main__':
+	s = 'abc'
+	for i in range(factorail_table[len(s)]):
+		print(perm(i, s))

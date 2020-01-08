@@ -6,11 +6,6 @@ namespace Katas
 {
     public class BefungeInterpreter
     {
-        public static void Main(string[] args)
-        {
-            
-        }
-
         char[][] codeBoard;
         int[] codePointer = {0, 0};
         private const int X = 1;
@@ -21,6 +16,7 @@ namespace Katas
         Direction DIRECTION = Direction.RIGHT;
         StringBuilder output = new StringBuilder();
         bool stringMode;
+
 
         public string Interpret(string code)
         {
