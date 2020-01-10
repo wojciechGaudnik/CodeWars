@@ -1,29 +1,12 @@
 using Katas;
+using NUnit.Framework;
 
-namespace myjinxin
-{
-    using NUnit.Framework;
-    using System;
-
-    [TestFixture]
-    public class myjinxin
-    {
-
-        [Test]
-        public void BasicTests(){
-            var kata=new SimpleFun_159_MiddlePermutation();
-
-            Assert.AreEqual("bac",kata.MiddlePermutation("abc"));
-
-            Assert.AreEqual("bdca",kata.MiddlePermutation("abcd"));
-
-            Assert.AreEqual("cbxda",kata.MiddlePermutation("abcdx"));
-
-            Assert.AreEqual("cxgdba",kata.MiddlePermutation("abcdxg"));
-
-            Assert.AreEqual("dczxgba",kata.MiddlePermutation("abcdxgz"));
-
-        }
-
+[TestFixture]
+public class KataTest {
+    [Test]
+    public void BasicTests() {
+        Assert.AreEqual(new int[] { 0, 1, 2, 3 }, By4Skyscrapers.Between(0, 3));
+        Assert.AreEqual(new int[] { -2, -1, 0, 1, 2 }, By4Skyscrapers.Between(-2, 2));
+        Assert.AreEqual(new int[] { -10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, By4Skyscrapers.Between(-10, 10));
     }
 }

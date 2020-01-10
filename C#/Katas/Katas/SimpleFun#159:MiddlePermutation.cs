@@ -4,10 +4,6 @@ namespace Katas
 {
     public class SimpleFun_159_MiddlePermutation
     {
-        public static void Main(string[] args)
-        {
-        }
-
         public string MiddlePermutation(string s)
         {
             var sortedStringArray = s.ToCharArray();
