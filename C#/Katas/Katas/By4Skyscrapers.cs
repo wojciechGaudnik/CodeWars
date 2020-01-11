@@ -9,51 +9,10 @@ namespace Katas
     {
         public static void Main(string[] args)
         {
-            // var test = "String";
-            var test = "Abcdefghijklł";
-            var stringArray = test.ToCharArray();
-            for (var i = 0; i < 100; i++)
-            {
-                stringArray = Roll(stringArray, 0);
-                Console.WriteLine(string.Join("", stringArray));
-                if(string.Join("", stringArray) == test) break;
-            }
 
-            var a = 10;
-            var b = 40;
-            var answer = string.Join(", ", Enumerable.Range(a, b - a + 1));
-            Console.WriteLine(answer);
-
-
-
-
-
-
-
-            // var x = 6;
-            // var test = Enumerable.Range(2, x - 1).Where(n => n % 2 == 0).Any(e => (x - 2) != 0 && (x - e) % 2  == 0);
-            // Console.WriteLine(SolvePuzzle(new int[16]{0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0}));
-        }
-
-        public static int[] Between(int a, int b)
-        {
-            return Enumerable.Range(a, b - a + 1).ToArray();
         }
 
 
-
-        public static char[] Roll(char[] word, int n)
-        {
-            if (n < word.Length)
-            {
-                var partFirst = word[Range.EndAt(n)];
-                var partSecond = word[Range.StartAt(n)];
-                Array.Reverse(partSecond);
-                word = partFirst.Concat(partSecond).ToArray();
-                return Roll(word, n + 1);
-            }
-            return word;
-        }
 
         const int MaxY = 4, MaxX = 4, MAXNUMBERS = 4;
 
