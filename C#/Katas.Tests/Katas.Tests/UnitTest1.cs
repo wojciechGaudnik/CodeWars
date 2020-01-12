@@ -1,42 +1,87 @@
-using NUnit.Framework;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Katas;
+using NUnit.Framework;
 
-public class ExTests
-{
-    [Test]
-    public void TestOfZero()
+[TestFixture]
+    public class MyTestConnectFour
     {
-        var s = "This is a string exemplification!";
-        var a = s;
-        Assert.AreEqual(a, String_X_IterationsString.StringFunc(s, 0));
+        [Test]
+        public void FirstTest()
+        {
+            List<string> myList = new List<string>()
+            {
+                "A_Red",
+                "B_Yellow",
+                "A_Red",
+                "B_Yellow",
+                "A_Red",
+                "B_Yellow",
+                "G_Red",
+                "B_Yellow"
+            };
+            StringAssert.AreEqualIgnoringCase("Yellow",ConnectFour.WhoIsWinner(myList),"it should return Yellow");
+        }
+
+        [Test]
+        public void SecondTest()
+        {
+            List<string> myList = new List<string>()
+            {
+                "C_Yellow",
+                "E_Red",
+                "G_Yellow",
+                "B_Red",
+                "D_Yellow",
+                "B_Red",
+                "B_Yellow",
+                "G_Red",
+                "C_Yellow",
+                "C_Red",
+                "D_Yellow",
+                "F_Red",
+                "E_Yellow",
+                "A_Red",
+                "A_Yellow",
+                "G_Red",
+                "A_Yellow",
+                "F_Red",
+                "F_Yellow",
+                "D_Red",
+                "B_Yellow",
+                "E_Red",
+                "D_Yellow",
+                "A_Red",
+                "G_Yellow",
+                "D_Red",
+                "D_Yellow",
+                "C_Red"
+            };
+            StringAssert.AreEqualIgnoringCase("Yellow",ConnectFour.WhoIsWinner(myList));
+        }
+
+        [Test]
+        public void ThirdTest()
+        {
+            List<string> myList = new List<string>()
+            {
+                "A_Yellow",
+                "B_Red",
+                "B_Yellow",
+                "C_Red",
+                "G_Yellow",
+                "C_Red",
+                "C_Yellow",
+                "D_Red",
+                "G_Yellow",
+                "D_Red",
+                "G_Yellow",
+                "D_Red",
+                "F_Yellow",
+                "E_Red",
+                "D_Yellow"
+            };
+            StringAssert.AreEqualIgnoringCase("Red",ConnectFour.WhoIsWinner(myList),"it should return Red");
+        }
     }
-    [Test]
-    public void The2ndTest()
-    {
-        var s = "Ohh Man God Damn";
-        var a = " nGOnmohaadhMD  ";
-        Assert.AreEqual(a, String_X_IterationsString.StringFunc(s, 7));
-    }
-    [Test]
-    public void The3rdTest()
-    {
-        var s = "Ohh Man God Damnn";
-        var a = "haG mnad MhO noDn";
-        Assert.AreEqual(a, String_X_IterationsString.StringFunc(s, 19));
-    }
-    [Test]
-    public void The4rdTest()
-    {
-        var s = "N>?HO^^ibZ=rB\\MIlGKFKRv[O";
-        var a = "ON[>v?RHKOF^K^GilbIZM=\\rB";
-        Assert.AreEqual(a, String_X_IterationsString.StringFunc(s, 529));
-    }
-    [Test]
-    public void The5rdTest()
-    {
-        var s = "M?xDauFiZPpbj";
-        var a = "pauPMbDFZ?jxi";
-        Assert.AreEqual(a, String_X_IterationsString.StringFunc(s, 64259186));
-    }
-}
