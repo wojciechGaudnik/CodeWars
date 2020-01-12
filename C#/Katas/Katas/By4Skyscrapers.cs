@@ -9,17 +9,81 @@ namespace Katas
     {
         public static void Main(string[] args)
         {
+            //todo                             v           v           v           v
+            int[] cluesForTest =    {0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0};
+            // int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0};  //todo  <--- good
+            // SolvePuzzle(cluesForTest);
+
+
+            var  test1 = new HashSet<int>{1,2};
+            var  test2 = new HashSet<int>{3, 4};
+            var  test3 = new HashSet<int>{1,2};
+            var  test4 = new HashSet<int>{1,2,3,4};
+            List<HashSet<int>> listTests = new List<HashSet<int>>{test1, test2, test3, test4};
+            var test = listTests
+                .Where(s => s.Count != 1)
+                .SelectMany(n => n)
+                .GroupBy(n => n)
+                .Where(g => g.Count() == 1)
+                .ToHashSet();
+
+
+
+            // var unique = new HashSet<int>();
+            //
+            // foreach (var test in listTests)
+            // {
+            //     HashSet<int> temp = new HashSet<int>();
+            //
+            // }
+        
+
+
+
+
+
+            var answer = new HashSet<int>();
+
+
+
+
+            // test.UnionWith(Enumerable.Range(1, 3));
 
         }
 
 
 
-        const int MaxY = 4, MaxX = 4, MAXNUMBERS = 4;
+        // const int Max = 4, Max = 4, MAXNUMBERS = 4;
+        // static int countGood = 0;
+        // static int[] upClues;
+        // static int[] bottomClues;
+        // static int[] leftClues;
+        // static int[] rightClues;
+        // static int[][][] board;
 
         public static int[][] SolvePuzzle(int[] clues)
         {
-            int[][][] board;
-            MakeEmptyBoard(out board, clues);
+            const int Max = 4;
+            var countGood = 0;
+            int[] upClues;
+            int[] rightClues;
+            int[] bottomClues;
+            int[] leftClues;
+            var board = new HashSet<int>[Max][];
+
+            SetClues(clues, out upClues, out rightClues, out bottomClues, out leftClues);
+            MakeEmptyBoard(board, Max);
+            SetUpEdge(board, upClues, ref countGood, Max);
+            SetRightEdge(board, rightClues, ref countGood, upClues, Max);
+            SetBottomEdge(board, bottomClues, ref countGood, rightClues, Max);
+            SetLeftEdge(board, leftClues, ref countGood, bottomClues, upClues, Max);
+            SetEmptySpaces(board, ref countGood, Max);
+            var numberOfFields = Math.Pow(Max, 2);
+            // while (countGood != numberOfFields)
+            // {
+            //     Remove
+            // }
+            Console.WriteLine(board[0]);
 
 
 
@@ -28,62 +92,255 @@ namespace Katas
 
 
 
-
-
-            var countClues = 0;
-            for (var x = 0; x < board[0].Length; x++)
-            {
-                if (clues[countClues] != 0)
-                {
-                    if (clues[countClues++] == 1)
-                    {
-                        Console.WriteLine(board[0][x][countClues].GetType());
-                        board[0][x][countClues] = 11;
-                        // new int[] {MAXNUMBERS};
-
-                    }
-                    // board[0][x][countClues] = (clues[countClues++] == 1)
-                    //     ? new int[]{MAXNUMBERS, }
-                    //     : Enumerable.Range(1, MAXNUMBERS - clues[countClues] + 1).ToArray();
-                }
-
-            }
 
             return new int[1][];
 
 
         }
 
-        private static void MakeEmptyBoard(out int[][][] board, int[] clues)
+        private static void SetEmptySpaces(
+            HashSet<int>[][] board,
+            ref int countGood,
+            int Max)
         {
-            board = new int[MaxY + 2][][];
-            for (var y = 0; y < board[0].Length; y++)
+            for (var y = 0; y < Max; y++)
             {
-                for (var x = 0; x < board[0].Length; x++)
+                for (var x = 0; x < Max; x++)
                 {
-                    // board[y]
+                    if (board[y][x].Count != 0) continue;
+                    board[y][x] = ReturnOthersCross(board, y, x, Max);
+                    if (board[y][x].Count == 1) countGood++;
                 }
-
             }
-
-
-
-
-            for (var y = 0; y < MaxY; y++)
-            {
-                board[y] = new int[MaxX][];
-                // for (var x = 0; x < MaxX; x++)
-                // {
-                //     board[y][x] = new int[MAXNUMBERS];
-                // }
-            }
-
-
-
 
         }
+
+        private static HashSet<int> ReturnOthersCross(HashSet<int>[][] board, int y, int x, int Max)
+        {
+            HashSet<int> answer = new HashSet<int>();
+            answer.UnionWith(Enumerable.Range(1, Max));
+            for (var xTemp = 0; xTemp < Max; xTemp++)
+            {
+                if (board[y][xTemp].Count == 1) answer.Remove(board[y][xTemp].First());
+            }
+            for (var yTemp = 0; yTemp < Max; yTemp++)
+            {
+                if (board[yTemp][x].Count == 1) answer.Remove(board[yTemp][x].First());
+            }
+            return answer;
+        }
+
+
+        private static void SetLeftEdge(
+            HashSet<int>[][] board,
+            IReadOnlyList<int> leftClues,
+            ref int countGood,
+            IReadOnlyList<int> bottomClues,
+            IReadOnlyList<int> upClues,
+            int Max)
+        {
+            for (var y = 0; y < leftClues.Count; y++)
+            {
+                if (leftClues[y] == 1)
+                {
+                    if (board[y][0].Count == 0)
+                    {
+                        countGood++;
+                        board[y][0].Add(Max);
+                    }
+                    else
+                    {
+                        board[y][0].Clear();
+                        board[y][0].Add(Max);
+                    }
+                }
+                else if (leftClues[y] == Max)
+                    for (var x = 0; x < Max; x++)
+                    {
+                        if (board[y][x].Count == 1) continue;
+                        board[y][x].Clear();
+                        board[y][x].Add(Max - x);
+                        countGood++;
+                    }
+                else if (leftClues[y] != 0)
+                {
+                    if (y == board.Length - 1)
+                    {
+                        if(board[y][0].Count == 1) continue;
+                        if(leftClues[y] <= bottomClues[0]) continue;
+                        board[y][0].Clear();
+                        board[y][0].UnionWith(Enumerable.Range(1, Max - leftClues[y] + 1));
+                    }
+                    else if (y == 0)
+                    {
+                        if(board[y][0].Count == 1) continue;
+                        if(leftClues[y] <= upClues[0]) continue;
+                        board[y][0].Clear();
+                        board[y][0].UnionWith(Enumerable.Range(1, Max - leftClues[y] + 1));
+                    }
+                    else
+                    {
+                        if(board[y][0].Count == 1) continue;
+                        board[y][0].Clear();
+                        board[y][0].UnionWith(Enumerable.Range(1, Max - leftClues[y] + 1));
+                    }
+                }
+            }
+        }
+
+        private static void SetBottomEdge(
+            HashSet<int>[][] board,
+            IReadOnlyList<int> bottomClues,
+            ref int countGood,
+            IReadOnlyList<int> rightClues,
+            int Max)
+        {
+            for (var x = bottomClues.Count - 1; x >= 0; x--)
+            {
+                if (bottomClues[x] == 1)
+                {
+                    if (board[Max - 1][x].Count == 0)
+                    {
+                        countGood++;
+                        board[Max - 1][x].Add(Max);
+                    }
+                    else
+                    {
+                        board[Max - 1][x].Clear();
+                        board[Max - 1][x].Add(Max);
+                    }
+                }
+                else if (bottomClues[x] == Max)
+                    for (var y = Max - 1; y >= 0; y--)
+                    {
+                        if (board[y][x].Count == 1) continue;
+                        board[y][x].Clear();
+                        board[y][x].Add(Max - y);
+                        countGood++;
+                    }
+                else if (bottomClues[x] != 0)
+                {
+                    if (x == board[Max - 1].Length - 1)
+                    {
+                        if(board[Max - 1][x].Count == 1) continue;
+                        if(bottomClues[x] <= rightClues[Max - 1]) continue;
+                        board[Max - 1][x].Clear();
+                        board[Max - 1][x].UnionWith(Enumerable.Range(1, Max - bottomClues[x] + 1));
+                    }
+                    else
+                    {
+                        if(board[Max - 1][x].Count == 1) continue;
+                        board[Max - 1][x].Clear();
+                        board[Max - 1][x].UnionWith(Enumerable.Range(1, Max - bottomClues[x] + 1));
+                    }
+                }
+            }
+        }
+
+        private static void SetRightEdge(
+            HashSet<int>[][] board,
+            IReadOnlyList<int> rightClues,
+            ref int countGood,
+            IReadOnlyList<int> upClues,
+            int Max)
+        {
+            for (var y = 0; y < rightClues.Count; y++)
+            {
+                if (rightClues[y] == 1)
+                {
+                    if (board[y][Max - 1].Count == 0)
+                    {
+                        countGood++;
+                        board[y][Max - 1].Add(Max);
+                    }
+                    else
+                    {
+                        board[y][Max - 1].Clear();
+                        board[y][Max - 1].Add(Max);
+                    }
+                }
+                else if (rightClues[y] == Max)
+                    for (var x = Max - 1; x >= 0; x--)
+                    {
+                        if (board[y][x].Count == 1) continue;
+                        board[y][x].Clear();
+                        board[y][x].Add(Max - x);
+                        countGood++;
+                    }
+                else if (rightClues[y] != 0)
+                {
+                    if (y == 0)
+                    {
+                        if (board[y][Max - 1].Count == 1) continue;
+                        if (rightClues[y] <= upClues[Max - 1]) continue;
+                        board[y][Max - 1].Clear();
+                        board[y][Max - 1].UnionWith(Enumerable.Range(1, Max - rightClues[y] + 1));
+                    }
+                    else
+                    {
+                        if (board[y][Max - 1].Count == 1) continue;
+                        board[y][Max - 1].Clear();
+                        board[y][Max - 1].UnionWith(Enumerable.Range(1, Max - rightClues[y] + 1));
+                    }
+                }
+            }
+        }
+
+        private static void SetUpEdge(
+            HashSet<int>[][] board,
+            IReadOnlyList<int> upClues,
+            ref int countGood,
+            int Max)
+        {
+            for (var x = 0; x < upClues.Count; x++)
+            {
+                if (upClues[x] == 1)
+                {
+                    countGood++;
+                    board[0][x].Add(Max);
+                }
+                else if (upClues[x] == Max)
+                    for (var y = 0; y < Max; y++)
+                    {
+                        countGood++;
+                        board[y][x].Add(y + 1);
+                    }
+                else if (upClues[x] != 0) board[0][x].UnionWith(Enumerable.Range(1, Max - upClues[x] + 1));
+            }
+        }
+
+        private static void MakeEmptyBoard(IList<HashSet<int>[]> board, int Max)
+        {
+            for (var y = 0; y < Max; y++)
+            {
+                board[y] = new HashSet<int>[Max];
+                for (var x = 0; x < Max; x++)
+                {
+                    board[y][x] = new HashSet<int>();
+                }
+            }
+        }
+
+        private static void SetClues(
+            IReadOnlyCollection<int> clues,
+            out int[] upClues,
+            out  int[] rightClues,
+            out  int[] bottomClues,
+            out  int[] leftClues)
+        {
+            var quarter = clues.Count / 4;
+            upClues = clues.Take(quarter).ToArray();
+            rightClues = clues.Skip(quarter).Take(quarter).ToArray();
+            bottomClues = clues.Skip(quarter * 2).Take(quarter).Reverse().ToArray();
+            leftClues = clues.Skip(quarter * 3).Take(quarter).Reverse().ToArray();
+        }
+
+
+
+
+
         //
-        // // todo    find edge 1 or 4 and fill
+        //     // todo    find edge 1 or 4 and fill
         //     // todo    mark rest of the edge, start from biger       on corner set lover list of numbers???
         //     // todo    mark rest and set if 1
         //     // todo    check if one left and set

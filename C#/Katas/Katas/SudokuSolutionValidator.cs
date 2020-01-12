@@ -9,7 +9,7 @@ namespace Katas
         {
             int[] good = {1, 2, 3, 4, 5, 6, 7, 8, 9};
             int[] test = new int[9];
-            int x, y, i = 0;
+            int i = 0;
             if (!TestVertical(board, test, good, ref i)) return false;
 
             if (!TestHorizontal(board, test, good, ref i)) return false;
