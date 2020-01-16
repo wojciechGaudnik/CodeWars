@@ -52,20 +52,20 @@ namespace Katas
             // test.UnionWith(Enumerable.Range(1, 3));
 
             //todo                           v           v           v           v
-            int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0}; //todo  <--- good
+            // int[] cluesForTest = {1, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; //todo  <--- good
+            // int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0}; //todo  <--- good
             //todo                                 v                 v                 v                v
-            // int[] cluesForTest = {6, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-            // SolvePuzzle(cluesForTest);
-
-            long n = 348597;
-            long[] after = n.ToString().ToCharArray().Reverse().Select(c => long.Parse(c.ToString())).ToArray();
-            foreach (var c in after)
-            {
-                Console.Write(c);
-            }
-            Console.WriteLine();
+            int[] cluesForTest = {1, 2, 3, 4, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,};
+            SolvePuzzle(cluesForTest);
 
 
+
+
+        }
+
+        public static String dupa(string name)
+        {
+            return (name.ToLower()[0] == 'r')?name + " plays banjo": name + " does not play banjo";
         }
 
         // const int Max = 4, Max = 4, MAXNUMBERS = 4;
@@ -78,7 +78,7 @@ namespace Katas
 
         public static int[][] SolvePuzzle(int[] clues)
         {
-            const int Max = 4;
+            const int Max = 6;
             int[] upClues;
             int[] rightClues;
             int[] bottomClues;
@@ -87,17 +87,18 @@ namespace Katas
 
             SetClues(clues, out upClues, out rightClues, out bottomClues, out leftClues);
             MakeEmptyBoard(board, Max);
-            SetUpEdge(board, upClues, Max);
+            // SetUpEdge(board, upClues, Max);
+            SetUpEdge2(board, upClues, rightClues, bottomClues, leftClues, Max);
             SetRightEdge(board, rightClues, upClues, Max);
             SetBottomEdge(board, bottomClues, rightClues, Max);
             SetLeftEdge(board, leftClues, bottomClues, upClues, Max);
             FillEmptySpaces(board, Max);
-            // todo RemoveImpossibleDependOnEdges(board, upClues, rightClues, bottomClues, leftClues, Max);
+            // todo RemoveImpossibleFromEdgesToInside(board, upClues, rightClues, bottomClues, leftClues, Max);
 
             while (board.SelectMany(s => s).Any(s => s.Count == 1))
             {
-                FindReadyFieldAndRemoveFromRowAndColumn(board, Max); //todo have to be second 1
-                // FindMaxAndEdgeAndRemoveImpossible(board, upClues, rightClues, bottomClues, leftClues, Max);
+                FindAllReadyFieldAndRemoveFromRowAndColumn(board, Max); //todo have to be second 1
+                // FindMaxAndEdgeAndRemoveImpossibleFromMax(board, upClues, rightClues, bottomClues, leftClues, Max);
                 FindSingleInRowOrColumnAndSet(board, Max); //todo have to be second 2 <--- have to be LAST !!! ..!5.. 6 (1,4,5) 3 (4,2,1) <--- 2
 
                 Console.WriteLine("test");
@@ -107,6 +108,46 @@ namespace Katas
 
 
             return new int[1][];
+        }
+
+        private static void SetUpEdge2(IReadOnlyList<HashSet<int>[]> board, IReadOnlyList<int> upClues, int[] rightClues, int[] bottomClues, int[] leftClues, int Max)
+        {
+            for (var x = 0; x < Max; x++)
+            {
+                if (upClues[x] == 1)
+                {
+                    board[0][x].Clear();
+                    board[0][x].Add(Max);
+                }
+                else if (upClues[x] == Max)
+                {
+                    for (var y = 0; y < Max; y++)
+                    {
+                        board[y][x].Clear();
+                        board[y][x].Add(y + 1);
+                    }
+
+                }
+                else if (upClues[x] != 0)
+                {
+                    for (int y = 0, i = 0; y < Max; y++, i++)
+                    {
+                        if (i == 0 &&
+                            (board[y][x].Count == 0 ||
+                             board[y][x].Count > Enumerable.Range(1, Max - upClues[x] + 1).Count())
+                            )
+                        {
+                            board[y][x].UnionWith(Enumerable.Range(1, Max - upClues[x] + 1));
+                        }
+                        else if(Max - upClues[x] + 1 + i < Max &&
+                                (board[y][x].Count == 0 ||
+                                 board[y][x].Count > Enumerable.Range(1, Max - upClues[x] + 1 + i).Count()))
+                        {
+                            board[y][x].UnionWith(Enumerable.Range(1, Max - upClues[x] + 1 + i));
+                        }
+                    }
+                }
+            }
         }
 
         private static bool FindMaxAndEdgeAndRemoveImpossibleNextToMax(
@@ -170,7 +211,7 @@ namespace Katas
         }
 
 
-        private static void FindReadyFieldAndRemoveFromRowAndColumn(IReadOnlyList<HashSet<int>[]> board, int Max)
+        private static void FindAllReadyFieldAndRemoveFromRowAndColumn(IReadOnlyList<HashSet<int>[]> board, int Max)
         {
             for (var y = 0; y < Max; y++)
             {
@@ -524,3 +565,56 @@ namespace Katas
         // }
     }
 }
+
+
+
+ // //todo ------------------------------------
+ //
+ //            SetClues(clues, out upClues, out rightClues, out bottomClues, out leftClues);
+ //            MakeEmptyBoard(board, Max);
+ //
+ //            var smallerBoard = board;
+ //            var smallerUpClues = upClues;
+ //            var smallerRightClues = rightClues;
+ //            var smallerBottomClues = bottomClues;
+ //            var smallerLeftClues = leftClues;
+ //            var smallerClues = new[] {smallerUpClues, smallerRightClues, smallerBottomClues, smallerLeftClues};
+ //            var i = 0;
+ //            while (i < Max / 2)
+ //            {
+ //                SetUpEdge(smallerBoard, smallerUpClues, Max - (i * 2));
+ //                SetRightEdge(smallerBoard, smallerRightClues, smallerUpClues, Max - (i * 2));
+ //                SetBottomEdge(smallerBoard, smallerBottomClues, smallerRightClues, Max - (i * 2));
+ //                SetLeftEdge(smallerBoard, smallerLeftClues, smallerBottomClues, smallerUpClues, Max - (i * 2));
+ //                smallerBoard = new HashSet<int>[Max - (++i * 2)][];
+ //                MakeEmptyBoard(smallerBoard, Max - (i * 2));
+ //                for (var y = i; y < Max - i; y++)
+ //                {
+ //                    for (var x = i; x < Max - i; x++)
+ //                    {
+ //                        smallerBoard[y - i][x - i] = board[y][x];
+ //                    }
+ //                }
+ //
+ //                smallerUpClues = new int[Max - (i * 2)];
+ //                smallerRightClues = new int[Max - (i * 2)];
+ //                smallerBottomClues = new int[Max - (i * 2)];
+ //                smallerLeftClues = new int[Max - (i * 2)];
+ //                Array.Copy(upClues, i, smallerUpClues, 0, Max - (i * 2));
+ //                Array.Copy(rightClues, i, smallerRightClues, 0, Max - (i * 2));
+ //                Array.Copy(bottomClues, i, smallerBottomClues, 0, Max - (i * 2));
+ //                Array.Copy(leftClues, i, smallerLeftClues, 0, Max - (i * 2));
+ //                // smallerUpClues = smallerUpClues.Select(c => (c == 1 || c == (Max - ((i + 1) * 2))) ? 0 : c).Select(c => c - 1).ToArray();
+ //                smallerUpClues = smallerUpClues.Select(c => c - 1).Select(c => (c == 1 || c > (Max - (i * 2))) ? 0 : c).ToArray();
+ //                smallerRightClues = smallerRightClues.Where(c => c != 1 && c != (Max - ((i + 1) * 2))).Select(i => i - 1).ToArray();
+ //                smallerBottomClues = smallerBottomClues.Where(c => c != 1 && c != (Max - ((i + 1) * 2))).Select(i => i - 1).ToArray();
+ //                smallerLeftClues = smallerLeftClues.Where(c => c != 1 && c != (Max - ((i + 1) * 2))).Select(i => i - 1).ToArray();
+ //            }
+ //
+ //
+ //
+ //
+ //
+ //            FillEmptySpaces(board, Max);
+ //
+ //            //todo ------------------------------------
