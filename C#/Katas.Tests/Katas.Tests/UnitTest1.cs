@@ -276,12 +276,12 @@ public class KataTests
             {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
         int[][] expected =
         {
-            new [] {1235, 1236, 1236, 4, 135, 235},
-            new [] {12345, 1236, 1236, 12, 1346, 2345},
-            new [] {1234, 123, 1236, 12, 13456, 2345},
-            new [] {6, 5, 4, 3, 2, 1},
-            new [] {123, 123, 5, 6, 134, 234},
-            new [] {123, 4, 123, 5, 13, 6}
+            new [] {1235,  1236, 1236, 4,  135,   235},
+            new [] {12345, 1236, 1236, 12, 1346,  2345},
+            new [] {1234,  123,  1236, 12, 13456, 2345},
+            new [] {6,     5,    4,    3,  2,     1},
+            new [] {123,   123,  5,    6,  134,   234},
+            new [] {123,   4,    123,  5,  13,    6}
         };
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
     }
@@ -378,43 +378,43 @@ public class KataTests
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
     }
 
-    // [Test]
-    // public void WholeBoard6x6_ScanAllStepFive3()
-    // {
-    //     int[] cluesForTest = {0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0};
-    //     int[][] expected =
-    //     {
-    //         new [] {5, 6, 1, 4, 3, 2},
-    //         new [] {4, 1, 3, 2, 6, 5},
-    //         new [] {2, 3, 6, 1, 5, 4},
-    //         new [] {6, 5, 4, 3, 2, 1},
-    //         new [] {1, 2, 5, 6, 4, 3},
-    //         new [] {3, 4, 2, 5, 1, 6}
-    //     };
-    //     expected = RotateLeft(expected);
-    //     expected = RotateLeft(expected);
-    //     // expected = RotateLeft(expected);
-    //     Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
-    // }
+    [Test]
+    public void WholeBoard6x6_ScanAllStepFive3()
+    {
+        int[] cluesForTest = {0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0};
+        int[][] expected =
+        {
+            new [] {5, 6, 1, 4, 3, 2},
+            new [] {4, 1, 3, 2, 6, 5},
+            new [] {2, 3, 6, 1, 5, 4},
+            new [] {6, 5, 4, 3, 2, 1},
+            new [] {1, 2, 5, 6, 4, 3},
+            new [] {3, 4, 2, 5, 1, 6}
+        };
+        expected = RotateLeft(expected);
+        expected = RotateLeft(expected);
+        // expected = RotateLeft(expected);
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
+    }
 
-    // [Test]
-    // public void WholeBoard6x6_ScanAllStepFive3()
-    // {
-    //     int[] cluesForTest = {4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0};
-    //     int[][] expected =
-    //     {
-    //         new [] {5, 6, 1, 4, 3, 2},
-    //         new [] {4, 1, 3, 2, 6, 5},
-    //         new [] {2, 3, 6, 1, 5, 4},
-    //         new [] {6, 5, 4, 3, 2, 1},
-    //         new [] {1, 2, 5, 6, 4, 3},
-    //         new [] {3, 4, 2, 5, 1, 6}
-    //     };
-    //     expected = RotateLeft(expected);
-    //     expected = RotateLeft(expected);
-    //     expected = RotateLeft(expected);
-    //     Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
-    // }
+    [Test]
+    public void WholeBoard6x6_ScanAllStepFive4()
+    {
+        int[] cluesForTest = {4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0};
+        int[][] expected =
+        {
+            new [] {5, 6, 1, 4, 3, 2},
+            new [] {4, 1, 3, 2, 6, 5},
+            new [] {2, 3, 6, 1, 5, 4},
+            new [] {6, 5, 4, 3, 2, 1},
+            new [] {1, 2, 5, 6, 4, 3},
+            new [] {3, 4, 2, 5, 1, 6}
+        };
+        expected = RotateLeft(expected);
+        expected = RotateLeft(expected);
+        expected = RotateLeft(expected);
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
+    }
 
     // [Test]
     // public void RemoveAloneTest()
