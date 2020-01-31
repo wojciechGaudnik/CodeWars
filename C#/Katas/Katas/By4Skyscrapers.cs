@@ -8,51 +8,56 @@ namespace Katas
 {
     public class By4Skyscrapers
     {
-        public static void Main(string[] args)
-        {
-            var test1 = new HashSet<int> {1, 2, 3};
-            var test2 = new HashSet<int> {4};
-            var test3 = new HashSet<int> {1, 2, 3};
-            var test4 = new HashSet<int> {5, 6};
-            List<HashSet<int>> listTests = new List<HashSet<int>> {test1, test2, test3, test4};
+        // public static void Main(string[] args)
+        // {
+        //     var test1 = new HashSet<int> {1, 2, 3};
+        //     var test2 = new HashSet<int> {4};
+        //     var test3 = new HashSet<int> {1, 2, 3};
+        //     var test4 = new HashSet<int> {5, 6};
+        //     List<HashSet<int>> listTests = new List<HashSet<int>> {test1, test2, test3, test4};
+        //
+        //     Console.WriteLine(test1.Max());
+        //
+        //     var testSet = listTests
+        //         .Where(s => s.Count != 1)
+        //         .SelectMany(n => n)
+        //         .GroupBy(n => n)
+        //         .Where(g => g.Count() == 1)
+        //         .ToHashSet();
+        //
+        //
+        //     var test = listTests
+        //         .Where(s => s.Count != 1)
+        //         .SelectMany(n => n)
+        //         .GroupBy(n => n)
+        //         .Where(g => g.Count() == 1)
+        //         .ToHashSet();
+        //
+        //     foreach (var one in test)
+        //     {
+        //         Console.WriteLine(one.Key);
+        //     }
+        //
+        //
+        //     //todo                           v           v           v           v
+        //     int[] cluesForTest = {0, 3, 1, 2, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0};  //todo <--- IMPORTANT !!! from puzzle-skyscrapers
+        //     // int[] cluesForTest = {1, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        //     // int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0}; //todo  <--- good
+        //     //todo                                 v                 v                 v                v
+        //     // int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0};
+        //     //todo                              v              v              v             v
+        //     // int[] cluesForTest = {0, 0, 3, 0, 0, 0, 2, 0, 2, 0, 2, 0, 0, 0, 5, 2, 0, 0, 0, 0};
+        //     // int[] cluesForTest = {2, 0, 0, 3, 2, 0, 3, 0, 0, 5, 0, 0, 3, 0, 0, 0, 2, 0, 0, 0};
+        //     // int[] cluesForTest = {0, 0, 1, 5, 3, 0, 3, 1, 0, 0, 2, 0, 4, 0, 4, 0, 0, 0, 0, 3};
+        //     // int[] cluesForTest = {0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0};
+        //     // int[] cluesForTest = {0, 2, 0, 0, 0, 0, 0, 0, 5, 0, 4, 0, 0, 0, 0, 4, 0, 0, 0, 2};
+        //     // int[] cluesForTest = {0, 3, 0, 1, 4, 0, 5, 0, 0, 1, 0, 0, 0, 0, 0, 4, 3, 0, 0, 3};
+        //     // int[] cluesForTest = {5, 0, 0, 0, 0, 1, 0, 0, 2, 3, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0};
+        //     SolvePuzzle(cluesForTest);
+        //
+        // }
 
-            Console.WriteLine(test1.Max());
 
-            var testSet = listTests
-                .Where(s => s.Count != 1)
-                .SelectMany(n => n)
-                .GroupBy(n => n)
-                .Where(g => g.Count() == 1)
-                .ToHashSet();
-
-
-            var test = listTests
-                .Where(s => s.Count != 1)
-                .SelectMany(n => n)
-                .GroupBy(n => n)
-                .Where(g => g.Count() == 1)
-                .ToHashSet();
-
-            foreach (var one in test)
-            {
-                Console.WriteLine(one.Key);
-            }
-
-
-            //todo                           v           v           v           v
-            // int[] cluesForTest = {1, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-            int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0}; //todo  <--- good
-            //todo                                 v                 v                 v                v
-            // int[] cluesForTest = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6};
-            //todo                              v              v              v             v
-            // int[] cluesForTest = {2, 0, 0, 3, 2, 0, 3, 0, 0, 5, 0, 0, 3, 0, 0, 0, 2, 0, 0, 0};
-            // int[] cluesForTest = {0, 0, 1, 5, 3, 0, 3, 1, 0, 0, 2, 0, 4, 0, 4, 0, 0, 0, 0, 3};
-            // int[] cluesForTest = {0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0};
-            // int[] cluesForTest = {0, 2, 0, 0, 0, 0, 0, 0, 5, 0, 4, 0, 0, 0, 0, 4, 0, 0, 0, 2};
-            // int[] cluesForTest = {0, 3, 0, 1, 4, 0, 5, 0, 0, 1, 0, 0, 0, 0, 0, 4, 3, 0, 0, 3};
-            // int[] cluesForTest = {5, 0, 0, 0, 0, 1, 0, 0, 2, 3, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0};
-            SolvePuzzle(cluesForTest);
-        }
 
         // const int Max = 4, Max = 4, MAXNUMBERS = 4;
         // static int countGood = 0;
@@ -64,7 +69,8 @@ namespace Katas
 
         public static int[][] SolvePuzzle(int[] clues)
         {
-            const int Max = 4;
+
+            var Max = clues.Length / 4;
             int[] upClues;
             int[] rightClues;
             int[] bottomClues;
@@ -86,17 +92,34 @@ namespace Katas
             {
                 FindSingleInRowOrColumnAndSet(board, Max);
                 RemoveAllReadyFromCrossSets(board, Max);
-                SetSecondHighestOppositeToClueTwo(board, upClues, rightClues, bottomClues, leftClues, Max);
+                //todo check if clue two left and if not pass next Handle
+                HandleCombinationsWithClueTwo(board, upClues, rightClues, bottomClues, leftClues, Max);
+
                 // SetHighestNextToLastAdjacentToClue2(board, upClues, rightClues, bottomClues, leftClues, Max);
                 Console.WriteLine("test");
             }
 
             Console.WriteLine(board[0]);
 
-            return new int[1][];
+            return MakeAnswer(Max, board);
         }
 
-        private static void SetSecondHighestOppositeToClueTwo(
+        private static int[][] MakeAnswer(int Max, HashSet<int>[][] board)
+        {
+            var answer = new int[Max][];
+            for (var y = 0; y < Max; y++)
+            {
+                answer[y] = new int[Max];
+                for (var x = 0; x < Max; x++)
+                {
+                    answer[y][x] = board[y][x].First();
+                }
+            }
+
+            return answer;
+        }
+
+        private static void HandleCombinationsWithClueTwo(
             IReadOnlyList<HashSet<int>[]> board,
             IReadOnlyList<int> upClues,
             IReadOnlyList<int> rightClues,
@@ -107,44 +130,50 @@ namespace Katas
             for(var x = 0; x < Max; x++)
             {
                 if (upClues[x] != 2) continue;
-                if (board[0][x].Count == 1) continue;
                 var column = new HashSet<int>[Max];
                 for (int y = Max - 1, i = 0; y >= 0; y--, i++)
                 {
                     column[i] = board[y][x];
                 }
+                SetHighestNextToAdjacentClueTwoLogic(column, Max);
+                // if (board[0][x].Count == 1) continue;
                 SetSecondHighestOppositeToClueTwoLogic(column, Max);
-
             }
             for(var y = 0; y < Max; y++)
             {
                 if (rightClues[y] != 2) continue;
-                if (board[y][Max - 1].Count == 1) continue;
+                SetHighestNextToAdjacentClueTwoLogic(board[y], Max);
+                // if (board[y][Max - 1].Count == 1) continue;
                 SetSecondHighestOppositeToClueTwoLogic(board[y], Max);
-
             }
             for(var x = 0; x < Max; x++)
             {
                 if (bottomClues[x] != 2) continue;
-                if (board[Max- 1][x].Count == 1) continue;
                 var column = new HashSet<int>[Max];
                 for (int y = 0, i = 0; y < Max; y++, i++)
                 {
                     column[i] = board[y][x];
                 }
+                SetHighestNextToAdjacentClueTwoLogic(column, Max);
+                // if (board[Max- 1][x].Count == 1) continue;
                 SetSecondHighestOppositeToClueTwoLogic(column, Max);
             }
             for(var y = 0; y < Max; y++)
             {
                 if (leftClues[y] != 2) continue;
-                if (board[y][0].Count == 1) continue;
+                SetHighestNextToAdjacentClueTwoLogic(board[y].Reverse().ToArray(), Max);
+                // if (board[y][0].Count == 1) continue;
                 SetSecondHighestOppositeToClueTwoLogic(board[y].Reverse().ToArray(), Max);
+
             }
         }
 
-        private static void SetSecondHighestOppositeToClueTwoLogic(IEnumerable<HashSet<int>> columnOrRow, int Max)
+        private static void SetHighestNextToAdjacentClueTwoLogic(HashSet<int>[] columnOrRow, int Max)
         {
-            if (!columnOrRow.Where(s => s.Count == 1).Any(s => s.First().Equals(Max))) return;
+            if (!columnOrRow.Where(s => s.Count == 1).Any(s => s.First().Equals(1))) return;
+            if (columnOrRow.Count(s => s.Count == 1) == Max) return;
+            columnOrRow = columnOrRow.Reverse().ToArray();
+            if(columnOrRow[0].Count != 1) return;
             var testOrder = false;
             foreach (var set in columnOrRow)
             {
@@ -152,7 +181,24 @@ namespace Katas
                 if (set.Count > 1 && testOrder == false) testOrder = true;
                 if (set.Count == 1) return;
             }
+            if (!testOrder) return;
+            var setLast = columnOrRow.First(s => s.Count > 1);
+            setLast.Clear();
+            setLast.Add(Max);
+        }
 
+        private static void SetSecondHighestOppositeToClueTwoLogic(IEnumerable<HashSet<int>> columnOrRow, int Max)
+        {
+            if (columnOrRow.Last().Count == 1) return;  //todo to check
+            if (!columnOrRow.Where(s => s.Count == 1).Any(s => s.First().Equals(Max))) return;
+            if (columnOrRow.Count(s => s.Count == 1) == Max) return;
+            var testOrder = false;
+            foreach (var set in columnOrRow)
+            {
+                if (testOrder == false && set.Count == 1) continue;
+                if (set.Count > 1 && testOrder == false) testOrder = true;
+                if (set.Count == 1) return;
+            }
             if (!testOrder) return;
             var setLast = columnOrRow.Last();
             var max = setLast.Max();
