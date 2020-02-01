@@ -38,11 +38,11 @@ namespace Katas
             //     {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0}; //todo <--- good
 
             // int[] cluesForTest =  {0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0};
-            int[] cluesForTest = {3, 0, 3, 3, 0, 0, 0, 1, 3, 0, 2, 0, 0, 3, 2, 0, 4, 0, 0, 0, 0, 3, 0, 0};
+            int[] cluesForTest =  {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0};
             var dictFortest = new Dictionary<int[], string>();
-            dictFortest.Add(new int[] {4, 1}, "3");
-            dictFortest.Add(new int[] {5, 2}, "2");
-            SolvePuzzle(cluesForTest);
+            dictFortest.Add(new int[]{4,1}, "3");
+            dictFortest.Add(new int[]{5,2}, "2");
+            SolvePuzzle(cluesForTest, true, dictFortest);
         }
 
 
@@ -136,11 +136,12 @@ namespace Katas
                         //     continue;
                         // }
                         var nextBoard = DFS(copyBoard, upClues, rightClues, bottomClues, leftClues, Max, readySets);
-                        if (nextBoard.Length != 1 && nextBoard.SelectMany(s => s).Count(s => s.Length == 1) == Max * Max
-                                                  && IsBoardDevelopmental(nextBoard, upClues, rightClues, bottomClues,
-                                                      leftClues, Max)
-                            // && readySets != null
-                            // && readySets.All(readySet => nextBoard[readySet.Key[0]][readySet.Key[1]].Contains(readySet.Value))
+                        if (nextBoard.Length != 1
+                            && nextBoard.SelectMany(s => s).Count(s => s.Length == 1) == Max * Max
+                            && IsBoardDevelopmental(nextBoard, upClues, rightClues, bottomClues, leftClues, Max)
+                            &&
+                            ((readySets != null && readySets.All(readySet => nextBoard[readySet.Key[0]][readySet.Key[1]].Contains(readySet.Value))
+                             || readySets == null))
                         )
                         {
                             Console.WriteLine("return 100% from FOR");

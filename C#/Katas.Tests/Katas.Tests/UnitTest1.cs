@@ -441,7 +441,7 @@ public class KataTests
     }
 
     [Test]
-    public void WholeBoard6x6_WithReadySetsLeftOne()
+    public void WholeBoard6x6_WithReadySetsLeftOne() //todo <--- this is ok when on inside dsf conditions
     {
         int[] cluesForTest =  {0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0};
         var dictFortest = new Dictionary<int[], string>();
