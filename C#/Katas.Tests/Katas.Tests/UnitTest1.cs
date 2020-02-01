@@ -224,7 +224,7 @@ public class KataTests
             new [] {2, 3, 1, 4},
             new [] {4, 1, 2, 3}
         };
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, false));
     }
 
     [Test]
@@ -238,7 +238,7 @@ public class KataTests
             new [] {4, 2, 3, 1},
             new [] {1, 3, 2, 4}
         };
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, false));
     }
 
     [Test]
@@ -252,7 +252,7 @@ public class KataTests
             new [] {1, 4, 2, 3},
             new [] {2, 3, 4, 1}
         };
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, false));
     }
 
     [Test]
@@ -266,7 +266,7 @@ public class KataTests
             new [] {2, 1, 4, 3},
             new [] {3, 4, 1, 2}
         };
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, false));
     }
 
     [Test]
@@ -283,7 +283,7 @@ public class KataTests
             new [] {123,   123,  5,    6,  134,   234},
             new [] {123,   4,    123,  5,  13,    6}
         };
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, false));
     }
 
     [Test]
@@ -300,7 +300,7 @@ public class KataTests
             new [] {123, 4, 123, 5, 13, 6}
         };
         expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, false));
     }
 
     [Test]
@@ -318,7 +318,7 @@ public class KataTests
         };
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, false));
     }
 
     [Test]
@@ -337,7 +337,7 @@ public class KataTests
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, false));
     }
 
     [Test]
@@ -356,7 +356,7 @@ public class KataTests
         // expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest));
     }
 
     [Test]
@@ -375,7 +375,7 @@ public class KataTests
         expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest));
     }
 
     [Test]
@@ -394,7 +394,7 @@ public class KataTests
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest));
     }
 
     [Test]
@@ -413,7 +413,7 @@ public class KataTests
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest));
     }
 
     [Test]
@@ -437,7 +437,7 @@ public class KataTests
         // expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000, dictFortest));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest));
     }
 
     [Test]
@@ -461,7 +461,7 @@ public class KataTests
         expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000, dictFortest));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest));
     }
 
     [Test]
@@ -485,7 +485,7 @@ public class KataTests
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
         // expected = RotateLeft(expected);
-        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, 1000, dictFortest));
+        Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest));
     }
 
     // [Test]
