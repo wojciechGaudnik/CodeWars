@@ -96,7 +96,7 @@ namespace Katas
             // int[] cluesForTest = {0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2}; //todo  <--- good
             // int[] cluesForTest = {0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0}; //todo  <--- good
             // int[] cluesForTest = {0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0}; //todo  <--- good
-            // int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
+            int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
             // int[] cluesForTest = {0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0};  //todo <--- good
             // int[] cluesForTest = {0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0};  //todo <--- good
             // int[] cluesForTest = {4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0};  //todo <--- good
@@ -140,13 +140,19 @@ namespace Katas
             //     {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
             // int[] cluesForTest =
             //     {0, 2, 0, 0, 0, 0,    4, 0, 4, 2, 0, 0,    0, 0, 0, 0, 4, 3,    4, 0, 2, 0, 0, 0}; //todo <--- good
-            int[] cluesForTest =
-                {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0}; //todo <--- good
+            // int[] cluesForTest =
+            //     {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0}; //todo <--- good
+
+            // int[] cluesForTest =  {0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0};
+
+            var dictFortest = new Dictionary<int[], string>();
+            dictFortest.Add(new int[]{4,1}, "3");
+            dictFortest.Add(new int[]{5,2}, "2");
             SolvePuzzle(cluesForTest, 1000);
         }
 
 
-        public static int[][] SolvePuzzle(int[] clues, int stepForTest)
+        public static int[][] SolvePuzzle(int[] clues, int stepForTest, Dictionary<int[], string> readySets = null)
         {
             var Max = clues.Length / 4;
             var board = new string[Max][];
@@ -164,38 +170,48 @@ namespace Katas
             FillAndRemoveAllReadyFromCrossSets(board, Max);
             RemoveSecondTallestSkyscraperFromEdgeClueTwo(board, upClues, rightClues, bottomClues, leftClues, Max);
 
-
-            // DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
+            DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
             ScanAll(ref board, upClues, rightClues, bottomClues, leftClues, Max, stepForTest);
+            DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
+
+
 
             if (stepForTest == 1000)
             {
-                board = DFS(board, upClues, rightClues, bottomClues, leftClues, Max);
+                board = DFS(board, upClues, rightClues, bottomClues, leftClues, Max, readySets);
             }
 
 
 
 
 
+            if (board.Length != 1)
+            {
+                DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
+            }
+            else
+            {
+                Console.WriteLine("Not resolved !!!");
+                return new int[1][];
+            }
 
-            DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
             return MakeAnswer(board, Max);
         }
 
-        private static string[][] DFS(string[][] board, int[] upClues, int[] rightClues, int[] bottomClues, int[] leftClues, int Max)
+        private static string[][] DFS(string[][] board, int[] upClues, int[] rightClues, int[] bottomClues, int[] leftClues, int Max, Dictionary<int[], string> readySets = null)
         {
             // todo if false then false
             if (board.Length == 1)
             {
-                Console.WriteLine("Return bad");
+                Console.WriteLine("Return bad from beginning DFS");
                 return board;
             }
 
-            // todo if ok then return board    <--- unnesesery ???
-            if (board.SelectMany(s => s).Count(s => s.Length == 1) == Max * Max
-                && IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max))
+            // todo if ok then return board
+            if (board.SelectMany(s => s).Count(s => s.Length == 1) == Max * Max)
+            // if (board.Length != 1)
             {
-                Console.WriteLine("Return ok");
+                Console.WriteLine("Return ok from beginning DFS");
                 return board;
             }
 
@@ -221,28 +237,32 @@ namespace Katas
                     {
                         string[][] copyBoard = board.Select(s => s.ToArray()).ToArray();
                         copyBoard[y][x] = oneNumberForTest.ToString();
+                        DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
                         if (!RemoveSettedNumberNew(ref copyBoard, y, x, upClues, rightClues, bottomClues, leftClues, null, Max))
                             continue;
-                        // todo add handle comibination two
-                        if (!IsBoardDevelopmental(copyBoard, upClues, rightClues, bottomClues, leftClues, Max))
-                        {
-                            continue;
-                        }
-                        var nextBoard = DFS(copyBoard, upClues, rightClues, bottomClues, leftClues, Max);
+                        DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
+                        // todo add handle comibination two  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                        // if (!IsBoardDevelopmental(copyBoard, upClues, rightClues, bottomClues, leftClues, Max))
+                        // {
+                        //     continue;
+                        // }
+                        var nextBoard = DFS(copyBoard, upClues, rightClues, bottomClues, leftClues, Max, readySets);
                         if (nextBoard.Length != 1 && nextBoard.SelectMany(s => s).Count(s => s.Length == 1) == Max * Max
                             && IsBoardDevelopmental(nextBoard, upClues, rightClues, bottomClues, leftClues, Max)
+                            // && readySets != null
+                            // && readySets.All(readySet => nextBoard[readySet.Key[0]][readySet.Key[1]].Contains(readySet.Value))
                             )
                         {
-                            Console.WriteLine("return copyBoard;");
+                            Console.WriteLine("return 100% from FOR");
                             return nextBoard;
                         }
                     }
-                    Console.WriteLine("return new string[1][]; <--- after for ");
+                    Console.WriteLine("Return bad from end FOR DFS ");
                     return new string[1][];
                 }
             }
 
-            Console.WriteLine("return new string[1][];");
+            Console.WriteLine("Return bad from end DFS <--- not resolved ");
             return new string[1][];
         }
 
@@ -268,42 +288,33 @@ namespace Katas
             bool? columnOrRow,  //todo true column
             int Max)
         {
-            var alone = board[Y][X][0];
-            var listCoordinatesNewSettedNumbers = new List<int[]>();
+            var settedNumber = board[Y][X][0];
+            var coordinatesNewSettedNumbers = new List<int[]>();
+            var coordinatesToFind = new List<int[]>();
             if (columnOrRow == null || columnOrRow == false)  // todo ROW
             {
                 for (var x = 0; x < Max; x++) //todo search row Y
                 {
-                    if(X == x || !board[Y][x].Contains(alone)) continue;
-                    board[Y][x] = board[Y][x].Replace(alone.ToString(), "");
+                    if(X == x || !board[Y][x].Contains(settedNumber)) continue;
+                    board[Y][x] = board[Y][x].Replace(settedNumber.ToString(), "");
                     if (!IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max)) return false; // todo check if ok when after for ???
-                    if (board[Y][x].Length == 1)
-                    {
-                        // if (!FindAloneAndSetNew(board, Y, -1, upClues, rightClues, bottomClues, leftClues, Max)) return false;
-                        listCoordinatesNewSettedNumbers.Add(new []{Y, x});
-                    }
-                    if (!FindAloneAndSetNew(board, -1, x, upClues, rightClues, bottomClues, leftClues, Max)) return false;
-                    // DisplayBoard(board, Max);
+                    if (board[Y][x].Length != 1) coordinatesToFind.Add(new []{-1, x});
+                    if (board[Y][x].Length == 1) coordinatesNewSettedNumbers.Add(new []{Y, x});
                 }
             }
             if (columnOrRow == null || columnOrRow == true)  // todo COLUMN
             {
                 for (var y = 0; y < Max; y++) //todo search row Y
                 {
-                    if(Y == y || !board[y][X].Contains(alone)) continue;
-                    board[y][X] = board[y][X].Replace(alone.ToString(), "");
+                    if(Y == y || !board[y][X].Contains(settedNumber)) continue;
+                    board[y][X] = board[y][X].Replace(settedNumber.ToString(), "");
                     if (!IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max)) return false; // todo check if ok when after for ???
-                    if (board[y][X].Length == 1)
-                    {
-                        // if (!FindAloneAndSetNew(board, -1, X, upClues, rightClues, bottomClues, leftClues, Max)) return false;
-                        listCoordinatesNewSettedNumbers.Add(new []{y, X});
-                    }
-                    if (!FindAloneAndSetNew(board, y, -1, upClues, rightClues, bottomClues, leftClues, Max)) return false;
-                    // DisplayBoard(board, Max);
+                    if (board[y][X].Length != 1) coordinatesToFind.Add(new []{y, -1});
+                    if (board[y][X].Length == 1) coordinatesNewSettedNumbers.Add(new []{y, X});
                 }
             }
 
-            foreach (var coordinatesNewSettedNumber in listCoordinatesNewSettedNumbers)
+            foreach (var coordinatesNewSettedNumber in coordinatesNewSettedNumbers)
             {
                 if (!RemoveSettedNumberNew(
                     ref board,
@@ -316,12 +327,18 @@ namespace Katas
                     null,
                     Max)) return false;
             }
+
+            foreach (var coordinateToFind in coordinatesToFind)
+            {
+                if (!FindAloneAndSetNew(ref board, coordinateToFind[0], coordinateToFind[1], upClues,
+                    rightClues, bottomClues, leftClues, Max)) return false;
+            }
             return true;
         }
 
 
         private static bool FindAloneAndSetNew(
-            string[][] board,
+            ref string[][] board,
             int Y,
             int X,
             int[] upClues,
@@ -330,22 +347,22 @@ namespace Katas
             int[] leftClues,
             int Max)
         {
+            var coordinatesNewSettedNumbers = new List<int[]>();
             if (Y > -1) //todo find in ROW !!!
             {
                 var rowOrColumn = board[Y];
 
                 var alone = FindAloneLogic(rowOrColumn);
-                if (string.IsNullOrEmpty(alone)) return true;
-                // if (alone?.Length == 0) return true;  // todo check if ok
-                for (var x = 0; x < Max; x++)
+                if (!string.IsNullOrEmpty(alone))
                 {
-                    if (!board[Y][x].Contains(alone)) continue;
-                    board[Y][x] = alone;
-                    if (!IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max)) return false;
-                    if (alone.Length == 1 && !FindAloneAndSetNew(board, Y, -1, upClues, rightClues, bottomClues, leftClues, Max)) return false;
-                    if (alone.Length != 1) break;
-                    if (!RemoveSettedNumberNew(ref board, Y, x, upClues, rightClues, bottomClues, leftClues, true, Max))
-                        return false;
+                    for (var x = 0; x < Max; x++)
+                    {
+                        if (!board[Y][x].Contains(alone)) continue;
+                        board[Y][x] = alone;
+                        if (!IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max)) return false;
+                        if (alone.Length == 1) coordinatesNewSettedNumbers.Add(new []{Y, x});
+                        if (alone.Length != 1) break;
+                    }
                 }
             }
 
@@ -355,18 +372,38 @@ namespace Katas
                 for (var y = 0; y < Max; y++) rowOrColumn[y] = board[y][X];
 
                 var alone = FindAloneLogic(rowOrColumn);
-                if (string.IsNullOrEmpty(alone)) return true;
-                // if (alone?.Length == 0) return true;  // todo check if ok
-                for (var y = 0; y < Max; y++)
+                if (!string.IsNullOrEmpty(alone))
                 {
-                    if (!board[y][X].Contains(alone)) continue;
-                    board[y][X] = alone;
-                    if (!IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max)) return false;
-                    if (alone.Length == 1 && !FindAloneAndSetNew(board, -1, X, upClues, rightClues, bottomClues, leftClues, Max)) return false;
-                    if (alone.Length != 1) break;
-                    if (!RemoveSettedNumberNew(ref board, y, X, upClues, rightClues, bottomClues, leftClues, false, Max))
-                        return false;
-                }
+                    for (var y = 0; y < Max; y++)
+                    {
+                        if (!board[y][X].Contains(alone)) continue;
+                        board[y][X] = alone;
+                        if (!IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max)) return false;
+                        if (alone.Length == 1) coordinatesNewSettedNumbers.Add(new []{y, X});
+                        if (alone.Length != 1) break;
+                    }
+                }  //todo pass!!!
+
+            }
+
+            foreach (var coordinatesNewSettedNumber in coordinatesNewSettedNumbers)
+            {
+                if (!RemoveSettedNumberNew(
+                    ref board,
+                    coordinatesNewSettedNumber[0],
+                    coordinatesNewSettedNumber[1],
+                    upClues,
+                    rightClues,
+                    bottomClues,
+                    leftClues,
+                    null,
+                    Max)) return false;
+            }
+
+            foreach (var coordinatesNewSettedNumber in coordinatesNewSettedNumbers)
+            {
+                if (!FindAloneAndSetNew(ref board, coordinatesNewSettedNumber[0], coordinatesNewSettedNumber[1], upClues,
+                    rightClues, bottomClues, leftClues, Max)) return false;
             }
             return true;
         }
@@ -513,17 +550,20 @@ namespace Katas
             int stepForTest)
         {
             var forTest = 0;
-            while (board.SelectMany(s => s).Any(s => s.Length != 1) && forTest++ < stepForTest) //todo remove this
+            while (board.SelectMany(s => s).Any(s => s.Length != 1) && forTest++ < 2) //todo remove this
             {
                 for (var y = 0; y < Max; y++)
                 {
-                    FindAloneAndSetNew(board, y, -1, upClues, rightClues, bottomClues, leftClues, Max);
+                    FindAloneAndSetNew(ref board, y, -1, upClues, rightClues, bottomClues, leftClues, Max);
+                    // DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
                 }
                 for (var x = 0; x < Max; x++)
                 {
-                    FindAloneAndSetNew(board, -1, x, upClues, rightClues, bottomClues, leftClues, Max);
+                    FindAloneAndSetNew(ref board, -1, x, upClues, rightClues, bottomClues, leftClues, Max);
+                    // DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
                 }
                 HandleCombinationsWithClueTwo(ref board, upClues, rightClues, bottomClues, leftClues, Max);  //todo for check DFS
+                // DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
             }
         }
 
