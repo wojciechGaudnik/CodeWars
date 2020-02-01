@@ -96,7 +96,7 @@ namespace Katas
             // int[] cluesForTest = {0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2}; //todo  <--- good
             // int[] cluesForTest = {0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0}; //todo  <--- good
             // int[] cluesForTest = {0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0}; //todo  <--- good
-            int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
+            // int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
             // int[] cluesForTest = {0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0};  //todo <--- good
             // int[] cluesForTest = {0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0};  //todo <--- good
             // int[] cluesForTest = {4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0};  //todo <--- good
@@ -144,7 +144,7 @@ namespace Katas
             //     {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0}; //todo <--- good
 
             // int[] cluesForTest =  {0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0};
-
+            int[] cluesForTest =  {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0};
             var dictFortest = new Dictionary<int[], string>();
             dictFortest.Add(new int[]{4,1}, "3");
             dictFortest.Add(new int[]{5,2}, "2");
@@ -237,10 +237,10 @@ namespace Katas
                     {
                         string[][] copyBoard = board.Select(s => s.ToArray()).ToArray();
                         copyBoard[y][x] = oneNumberForTest.ToString();
-                        DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
+                        // DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
                         if (!RemoveSettedNumberNew(ref copyBoard, y, x, upClues, rightClues, bottomClues, leftClues, null, Max))
                             continue;
-                        DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
+                        // DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
                         // todo add handle comibination two  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                         // if (!IsBoardDevelopmental(copyBoard, upClues, rightClues, bottomClues, leftClues, Max))
                         // {
@@ -550,7 +550,7 @@ namespace Katas
             int stepForTest)
         {
             var forTest = 0;
-            while (board.SelectMany(s => s).Any(s => s.Length != 1) && forTest++ < 2) //todo remove this
+            while (board.SelectMany(s => s).Any(s => s.Length != 1) && forTest++ < stepForTest) //todo remove this
             {
                 for (var y = 0; y < Max; y++)
                 {
