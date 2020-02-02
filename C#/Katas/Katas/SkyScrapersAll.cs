@@ -11,100 +11,18 @@ namespace Katas
         {
             //todo check string or StringBuilder faster  ?
 
-            // int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0}; //todo  <--- good
-            // int[] cluesForTest = {0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2}; //todo  <--- good
-            // int[] cluesForTest = {0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0}; //todo  <--- good
-            // int[] cluesForTest = {0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0}; //todo  <--- good
-            // int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
-            // int[] cluesForTest = {0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0};  //todo <--- good
-            // int[] cluesForTest = {0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0};  //todo <--- good
-            // int[] cluesForTest = {4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0};  //todo <--- good
-            // int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0};
-            // int[] cluesForTest = {0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-            // int[] cluesForTest = {1, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-            // int[] cluesForTest = {0, 2, 0, 0, 0, 0,   4, 0, 4, 2, 0, 0,   0, 0, 0, 0, 4, 3,    4, 0, 2, 0, 0, 0}; //todo <--- good
-
-
-            // int[] cluesForTest = {3, 2, 3, 2, 3, 1, 1, 2, 3, 2, 2, 4, 3, 2, 2, 1, 2, 4, 3, 2, 2, 1, 3, 3};
-            // int[] cluesForTest = {0, 0, 0, 0, 0, 0, 3, 0, 0, 3, 4, 0, 0, 0, 0, 0};
-
-
-            // int[] cluesForTest = {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; //todo <--- good
-            // int[] cluesForTest =
-            //     {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
-            // int[] cluesForTest =
-            //     {0, 2, 0, 0, 0, 0,    4, 0, 4, 2, 0, 0,    0, 0, 0, 0, 4, 3,    4, 0, 2, 0, 0, 0}; //todo <--- good
-            // int[] cluesForTest =
-            //     {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0}; //todo <--- good
-
-            // int[] cluesForTest =  {0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0};
-
-
-
-
-
-
-            // todo zero
-            // int[] cluesForTest =  {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0};
-            // var dictFortest = new Dictionary<int[], string>();
-            // dictFortest.Add(new int[]{4,1}, "3");
-            // dictFortest.Add(new int[]{5,2}, "2");
-
-            // todo one
-            // int[] cluesForTest =  {0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0};
+            // int[] cluesForTest =  {
+            //     1, 3, 4, 0, 0, 2, 4, 3, 5,
+            //     4, 4, 0, 2, 3, 2, 3, 0, 0,
+            //     0, 3, 3, 0, 0, 5, 3, 3, 5,
+            //     4, 0, 0, 0, 0, 3, 5, 0, 0
+            // };
             // var dictFortest = new Dictionary<int[], string>();
             // dictFortest.Add(new int[]{4,4}, "3");
-            // dictFortest.Add(new int[]{3,5}, "2");
-            // SolvePuzzle(cluesForTest, true, dictFortest);
-
-            // int[] cluesForTest =  {0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3,    0, 0, 0, 3, 4, 0};
-            // var dictFortest = new Dictionary<int[], string>();
-            // dictFortest.Add(new int[]{4,4}, "3");
-            // SolvePuzzle(cluesForTest, true, dictFortest);
 
 
-            // int[] cluesForTest =  {0, 2, 2, 2, 0, 4,    0, 4, 2, 0, 0, 0,    0, 3, 2, 0, 4, 0,    3, 0, 0, 0, 0, 0};
-            // var dictFortest = new Dictionary<int[], string>();
-            // dictFortest.Add(new int[]{3,2}, "4");
-            // dictFortest.Add(new int[]{4,4}, "1");
-            // // dictFortest.Add(new int[]{3,5}, "1");
-            // SolvePuzzle(cluesForTest, true, dictFortest);
-
-
-
-            // int[] cluesForTest =  {0, 0, 0, 2, 0, 3,    0, 0, 0, 3, 4, 0,    0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0};
-            // var dictFortest = new Dictionary<int[], string>();
-            // dictFortest.Add(new int[]{1,1}, "3");
-            // SolvePuzzle(cluesForTest, true, dictFortest);
-
-            // int[] cluesForTest =  {0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3,    0, 0, 0, 3, 4, 0};
-            // var dictFortest = new Dictionary<int[], string>();
-            // dictFortest.Add(new int[]{4,4}, "3");
-            // SolvePuzzle(cluesForTest, true, dictFortest);
-
-            // int[] cluesForTest =  {2, 0, 0, 1,    0, 3, 0, 3,    0, 0, 0, 0,    0, 2, 0, 0};
-            // SolvePuzzle(cluesForTest, true);
-            // SolvePuzzle(MoveLeft(cluesForTest));
-            // SolvePuzzle(MoveLeft(MoveLeft(cluesForTest)));
-
-
-            int[] cluesForTest =  {0, 0, 0, 0,    0, 2, 0, 0,    2, 0, 0, 0,   0, 3, 0, 3};
-            int[] upClues;
-            int[] rightClues;
-            int[] bottomClues;
-            int[] leftClues;
-            SkyScrapersAll.SetClues(cluesForTest, out upClues, out rightClues, out bottomClues, out leftClues);
-
-            string[][] board =
-            {
-                new [] {"1", "2", "4", "3"},
-                new [] {"3", "4", "1", "2"},
-                new [] {"2", "13", "3", "14"},
-                new [] {"4", "13", "2", "1"},
-            };
-            SkyScrapersAll.IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, 4);
-
-
+            int[] cluesForTest =  {0, 0, 0, 0,    0, 0, 1, 0,    0, 0, 2, 2,    0, 0, 0, 2};
+            SolvePuzzle(cluesForTest, true);
         }
 
 
@@ -126,19 +44,14 @@ namespace Katas
             FillAndRemoveAllReadyFromCrossSets(board, Max);
             RemoveSecondTallestSkyscraperFromEdgeClueTwo(board, upClues, rightClues, bottomClues, leftClues, Max);
 
-            DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
             ScanAll(ref board, upClues, rightClues, bottomClues, leftClues, Max);
-            DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
 
             if (dfsOn)
             {
                 board = DFS(board, upClues, rightClues, bottomClues, leftClues, Max, readySets);
             }
 
-            if (board.Length != 1)
-            {
-                DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
-            }
+            if (board.Length != 1) DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
             else
             {
                 Console.WriteLine("Not resolved !!!");
@@ -153,16 +66,33 @@ namespace Katas
             // todo if false then false
             if (board.Length == 1)
             {
-                Console.WriteLine("Return bad from beginning DFS");
+                // Console.WriteLine("Return bad from beginning DFS");
                 return board;
             }
 
             // todo if ok then return board
             if (board.SelectMany(s => s).Count(s => s.Length == 1) == Max * Max)
             {
-                Console.WriteLine("Return ok from beginning DFS");
+                // Console.WriteLine("Return ok from beginning DFS");
                 return board;
             }
+
+            // if (board.Length != 1
+            //     && board.SelectMany(s => s).Count(s => s.Length == 1) == Max * Max
+            //     && IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max)
+            //     && (
+            //         readySets != null
+            //         && readySets.All(readySet => board[readySet.Key[0]][readySet.Key[1]].
+            //             Contains(readySet.Value))
+            //         || readySets == null)
+            // )
+            // {
+            //     // Console.WriteLine("return 100% OK from FOR");
+            //     return board;
+            // }
+
+
+
 
             // todo copy board find smallest set
             var firstSmallestSetX = 0;
@@ -186,15 +116,10 @@ namespace Katas
                     {
                         string[][] copyBoard = board.Select(s => s.ToArray()).ToArray();
                         copyBoard[y][x] = oneNumberForTest.ToString();
-                        DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
+                        // DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
                         if (!RemoveSettedNumberNew(ref copyBoard, y, x, upClues, rightClues, bottomClues, leftClues,
-                            null, Max))
-                        {
-                            DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
-                            continue;
-                        }
+                            null, Max)) continue;
 
-                        DisplayBoard(copyBoard, Max, upClues, rightClues, bottomClues, leftClues);
                         // todo add handle comibination two  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                         // if (!IsBoardDevelopmental(copyBoard, upClues, rightClues, bottomClues, leftClues, Max))
                         // {
@@ -211,17 +136,19 @@ namespace Katas
                                 || readySets == null)
                         )
                         {
-                            Console.WriteLine("return 100% OK from FOR");
+                            // Console.WriteLine("return 100% OK from FOR");
                             return nextBoard;
                         }
+                        // var test = DFS(copyBoard, upClues, rightClues, bottomClues, leftClues, Max, readySets);
+                        // return test;
                     }
 
-                    Console.WriteLine("Return bad from end FOR DFS ");
+                    // Console.WriteLine("Return bad from end FOR DFS ");
                     return new string[1][];
                 }
             }
 
-            Console.WriteLine("Return bad from end DFS <--- not resolved ");
+            // Console.WriteLine("Return bad from end DFS <--- not resolved ");
             return new string[1][];
         }
 
@@ -260,7 +187,7 @@ namespace Katas
                 {
                     if (Y == y || !board[y][X].Contains(settedNumber)) continue;
                     board[y][X] = board[y][X].Replace(settedNumber.ToString(), "");
-                    DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
+                    // DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
                     if (!IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, Max))
                         return false; // todo check if ok when after for ???
                     if (board[y][X].Length != 1) coordinatesToFind.Add(new[] {y, -1});
@@ -268,7 +195,7 @@ namespace Katas
                     // todo break ??
                 }
             }
-            DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
+            // DisplayBoard(board, Max, upClues, rightClues, bottomClues, leftClues);
             foreach (var coordinatesNewSettedNumber in coordinatesNewSettedNumbers)
             {
                 if (!RemoveSettedNumberNew(
@@ -1233,3 +1160,100 @@ namespace Katas
 
 
             // Console.WriteLine(IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, 6));
+
+
+
+            // int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0}; //todo  <--- good
+            // int[] cluesForTest = {0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2}; //todo  <--- good
+            // int[] cluesForTest = {0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0}; //todo  <--- good
+            // int[] cluesForTest = {0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0}; //todo  <--- good
+            // int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
+            // int[] cluesForTest = {0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0};  //todo <--- good
+            // int[] cluesForTest = {0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0};  //todo <--- good
+            // int[] cluesForTest = {4, 4, 0, 3, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0};  //todo <--- good
+            // int[] cluesForTest = {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0};
+            // int[] cluesForTest = {0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+            // int[] cluesForTest = {1, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+            // int[] cluesForTest = {0, 2, 0, 0, 0, 0,   4, 0, 4, 2, 0, 0,   0, 0, 0, 0, 4, 3,    4, 0, 2, 0, 0, 0}; //todo <--- good
+
+
+            // int[] cluesForTest = {3, 2, 3, 2, 3, 1, 1, 2, 3, 2, 2, 4, 3, 2, 2, 1, 2, 4, 3, 2, 2, 1, 3, 3};
+            // int[] cluesForTest = {0, 0, 0, 0, 0, 0, 3, 0, 0, 3, 4, 0, 0, 0, 0, 0};
+
+
+            // int[] cluesForTest = {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; //todo <--- good
+            // int[] cluesForTest =
+            //     {0, 0, 0, 2, 2, 0, 0, 0, 0, 6, 3, 0, 0, 4, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0}; //todo <--- good
+            // int[] cluesForTest =
+            //     {0, 2, 0, 0, 0, 0,    4, 0, 4, 2, 0, 0,    0, 0, 0, 0, 4, 3,    4, 0, 2, 0, 0, 0}; //todo <--- good
+            // int[] cluesForTest =
+            //     {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0}; //todo <--- good
+
+            // int[] cluesForTest =  {0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0};
+
+
+
+
+
+
+            // todo zero
+            // int[] cluesForTest =  {3, 0, 3, 3, 0, 0,    0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0};
+            // var dictFortest = new Dictionary<int[], string>();
+            // dictFortest.Add(new int[]{4,1}, "3");
+            // dictFortest.Add(new int[]{5,2}, "2");
+
+            // todo one
+            // int[] cluesForTest =  {0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0};
+            // var dictFortest = new Dictionary<int[], string>();
+            // dictFortest.Add(new int[]{4,4}, "3");
+            // dictFortest.Add(new int[]{3,5}, "2");
+            // SolvePuzzle(cluesForTest, true, dictFortest);
+
+            // int[] cluesForTest =  {0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3,    0, 0, 0, 3, 4, 0};
+            // var dictFortest = new Dictionary<int[], string>();
+            // dictFortest.Add(new int[]{4,4}, "3");
+            // SolvePuzzle(cluesForTest, true, dictFortest);
+
+
+            // int[] cluesForTest =  {0, 2, 2, 2, 0, 4,    0, 4, 2, 0, 0, 0,    0, 3, 2, 0, 4, 0,    3, 0, 0, 0, 0, 0};
+            // var dictFortest = new Dictionary<int[], string>();
+            // dictFortest.Add(new int[]{3,2}, "4");
+            // dictFortest.Add(new int[]{4,4}, "1");
+            // // dictFortest.Add(new int[]{3,5}, "1");
+            // SolvePuzzle(cluesForTest, true, dictFortest);
+
+
+
+            // int[] cluesForTest =  {0, 0, 0, 2, 0, 3,    0, 0, 0, 3, 4, 0,    0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0};
+            // var dictFortest = new Dictionary<int[], string>();
+            // dictFortest.Add(new int[]{1,1}, "3");
+            // SolvePuzzle(cluesForTest, true, dictFortest);
+
+            // int[] cluesForTest =  {0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3,    0, 0, 0, 3, 4, 0};
+            // var dictFortest = new Dictionary<int[], string>();
+            // dictFortest.Add(new int[]{4,4}, "3");
+            // SolvePuzzle(cluesForTest, true, dictFortest);
+
+            // int[] cluesForTest =  {2, 0, 0, 1,    0, 3, 0, 3,    0, 0, 0, 0,    0, 2, 0, 0};
+            // SolvePuzzle(cluesForTest, true);
+            // SolvePuzzle(MoveLeft(cluesForTest));
+            // SolvePuzzle(MoveLeft(MoveLeft(cluesForTest)));
+
+
+            // int[] cluesForTest =  {0, 0, 0, 0,    0, 2, 0, 0,    2, 0, 0, 0,   0, 3, 0, 3};
+            // int[] upClues;
+            // int[] rightClues;
+            // int[] bottomClues;
+            // int[] leftClues;
+            // SkyScrapersAll.SetClues(cluesForTest, out upClues, out rightClues, out bottomClues, out leftClues);
+            //
+            // string[][] board =
+            // {
+            //     new [] {"1", "2", "4", "3"},
+            //     new [] {"3", "4", "1", "2"},
+            //     new [] {"2", "13", "3", "14"},
+            //     new [] {"4", "13", "2", "1"},
+            // };
+            // SkyScrapersAll.IsBoardDevelopmental(board, upClues, rightClues, bottomClues, leftClues, 4);
+            //
+            // Console.WriteLine(0.3 + 0.3);

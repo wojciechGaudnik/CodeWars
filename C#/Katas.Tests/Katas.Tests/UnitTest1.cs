@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 using Katas;
 using NUnit.Framework;
 
@@ -10,6 +8,7 @@ public class KataTests
 {
     SkyScrapersAll kata = new SkyScrapersAll();
 
+    //todo wrong <------------------------------------------------------------------------------------------------------
     [Test]
     public void CheckIfWrong1()
     {
@@ -49,7 +48,6 @@ public class KataTests
     [Test]
     public void CheckIfWrong5()
     {
-        // string[] forTest = {"3", "1", "6", "2", "5", "4"};
         string[] forTest = {"4", "5", "2", "6", "1", "3"};
         var clue = 3;
         var expected = true;
@@ -83,6 +81,8 @@ public class KataTests
         Assert.AreEqual(expected, SkyScrapersAll.IsWrongClue(forTest, clue, 4));
     }
 
+
+    //todo CluesTwoSet <------------------------------------------------------------------------------------------------
     [Test]
     public void CluesTwo1()
     {
@@ -150,18 +150,14 @@ public class KataTests
     public void CluesTwoTodo0()
     {
         string[] forTest = {"3456", "3456", "3456", "3456", "12", "12"};
-        string[] expected = {"3456", "3456", "3456", "6", "12", "12"};
         var answer = SkyScrapersAll.SetHighestNextToAdjacentClueTwoLogic(ref forTest, 6);
         Assert.AreEqual(false, answer);
     }
-
-
 
     [Test]
     public void CluesTwoTodo1()
     {
         string[] forTest = {"12", "56", "56", "56", "3", "4"};
-        string[] expected = {"12", "56", "56", "6", "3", "4"};
         var answer = SkyScrapersAll.SetHighestNextToAdjacentClueTwoLogic(ref forTest, 6);
         Assert.AreEqual(false, answer);
     }
@@ -170,7 +166,6 @@ public class KataTests
     public void CluesTwoTodo2()
     {
         string[] forTest = {"12", "36", "56", "12", "12", "4"};
-        string[] expected = {"12", "56", "6", "12", "3", "4"};
         var answer = SkyScrapersAll.SetHighestNextToAdjacentClueTwoLogic(ref forTest, 6);
         Assert.AreEqual(false, answer);
     }
@@ -179,7 +174,6 @@ public class KataTests
     public void CluesTwoOK()
     {
         string[] forTest = {"1245", "124", "1245", "3", "6", "1245"};
-        // string[] expected = {"1245", "124", "1245", "3", "6", "1245"};
         var answer = SkyScrapersAll.SetHighestNextToAdjacentClueTwoLogic(ref forTest, 6);
         Assert.AreEqual(false, answer);
     }
@@ -205,7 +199,6 @@ public class KataTests
     public void CluesTwoSecond3Todo()
     {
         string[] forTest = {"12", "12", "6", "1345", "345", "1234"};
-        string[] expected = {"12", "12", "6", "1345", "345", "4"};
         var answer = SkyScrapersAll.SetSecondHighestOppositeClueTwoLogic(ref forTest, 6);
         Assert.AreEqual(false, answer);
     }
@@ -214,13 +207,14 @@ public class KataTests
     public void CluesTwoSecond4Todo()
     {
         string[] forTest = {"12", "12", "6", "1345", "1345", "1345"};
-        string[] expected = {"12", "12", "6", "1345", "1345", "5"};
         var answer = SkyScrapersAll.SetSecondHighestOppositeClueTwoLogic(ref forTest, 6);
         Assert.AreEqual(false, answer);
     }
 
+
+    //todo developmental <----------------------------------------------------------------------------------------------
     [Test]
-    public void DevelopmentalZero() //todo <--- this is ok when on inside dsf conditions
+    public void DevelopmentalZero()
     {
         int[] cluesForTest =  {0, 0, 0, 2, 0, 3,   0, 0, 0, 3, 4, 0,    0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0};
         int[] upClues;
@@ -239,14 +233,13 @@ public class KataTests
             new [] {"2", "4", "1", "5", "3", "6"}
         };
         Assert.AreEqual(true, SkyScrapersAll.IsBoardDevelopmental(expected, upClues, rightClues, bottomClues, leftClues, 6));
-
         var dictFortest = new Dictionary<int[], string>();
         dictFortest.Add(new int[]{1,1}, "3");
         Assert.AreEqual(true, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest).Length != 1);
     }
 
     [Test]
-    public void DevelopmentalOne() //todo <--- this is ok when on inside dsf conditions
+    public void DevelopmentalOne()
     {
         int[] cluesForTest =  {0, 0, 0, 3, 4, 0,    0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3};
         int[] upClues;
@@ -266,14 +259,13 @@ public class KataTests
         };
         expected = RotateLeft(expected);
         Assert.AreEqual(true, SkyScrapersAll.IsBoardDevelopmental(expected, upClues, rightClues, bottomClues, leftClues, 6));
-
         var dictFortest = new Dictionary<int[], string>();
         dictFortest.Add(new int[]{4,1}, "3");
         Assert.AreEqual(true, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest).Length != 1);
     }
 
     [Test]
-    public void DevelopmentalTwo() //todo <--- this is ok when on inside dsf conditions
+    public void DevelopmentalTwo()
     {
         int[] cluesForTest =  {0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3,   0, 0, 0, 3, 4, 0};
         int[] upClues;
@@ -294,18 +286,12 @@ public class KataTests
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
         Assert.AreEqual(true, SkyScrapersAll.IsBoardDevelopmental(expected, upClues, rightClues, bottomClues, leftClues, 6));
-
         var dictFortest = new Dictionary<int[], string>();
-        // dictFortest.Add(new int[]{4,4}, "3");  // todo <--- errorr !!!
         Assert.AreEqual(true, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest).Length != 1);
     }
 
-
-
-
-
     [Test]
-    public void DevelopmentalTree() //todo <--- this is ok when on inside dsf conditions
+    public void DevelopmentalTree()
     {
         int[] cluesForTest =  {0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3,   0, 0, 0, 3, 4, 0,   0, 3, 2, 0, 0, 5};
         int[] upClues;
@@ -329,9 +315,8 @@ public class KataTests
         Assert.AreEqual(true, SkyScrapersAll.IsBoardDevelopmental(expected, upClues, rightClues, bottomClues, leftClues, 6));
     }
 
-
     [Test]
-    public void DevelopmentalBug() //todo <--- this is ok when on inside dsf conditions
+    public void DevelopmentalBug()
     {
         int[] cluesForTest =  {0, 0, 0, 0,    0, 2, 0, 0,    2, 0, 0, 0,   0, 3, 0, 3};
         int[] upClues;
@@ -351,10 +336,11 @@ public class KataTests
     }
 
 
+    //todo whole <------------------------------------------------------------------------------------------------------
     [Test]
     public void WholeBoard4x4_1()
     {
-        int[] cluesForTest = {0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0}; //todo  <--- good
+        int[] cluesForTest = {0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0};
         int[][] expected =
         {
             new [] {1, 4, 3, 2},
@@ -368,7 +354,7 @@ public class KataTests
     [Test]
     public void WholeBoard4x4_2()
     {
-        int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0}; //todo  <--- good
+        int[] cluesForTest = {0, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0};
         int[][] expected =
         {
             new [] {2, 1, 4, 3},
@@ -382,7 +368,7 @@ public class KataTests
     [Test]
     public void WholeBoard4x4_3()
     {
-        int[] cluesForTest = {0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2}; //todo  <--- good
+        int[] cluesForTest = {0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2};
         int[][] expected =
         {
             new [] {3, 2, 1, 4},
@@ -396,7 +382,7 @@ public class KataTests
     [Test]
     public void WholeBoard4x4_4()
     {
-        int[] cluesForTest = {0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0}; //todo  <--- good
+        int[] cluesForTest = {0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 0, 2, 0, 0};
         int[][] expected =
         {
             new [] {4, 2, 3, 1},
@@ -519,9 +505,6 @@ public class KataTests
             new [] {1, 2, 5, 6, 4, 3},
             new [] {3, 4, 2, 5, 1, 6}
         };
-        // expected = RotateLeft(expected);
-        // expected = RotateLeft(expected);
-        // expected = RotateLeft(expected);
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest));
     }
 
@@ -539,8 +522,6 @@ public class KataTests
             new [] {3, 4, 2, 5, 1, 6}
         };
         expected = RotateLeft(expected);
-        // expected = RotateLeft(expected);
-        // expected = RotateLeft(expected);
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest));
     }
 
@@ -559,7 +540,6 @@ public class KataTests
         };
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
-        // expected = RotateLeft(expected);
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest));
     }
 
@@ -604,13 +584,12 @@ public class KataTests
     }
 
     [Test]
-    public void WholeBoard6x6_WithReadySetsLeftOne() //todo <--- this is ok when on inside dsf conditions
+    public void WholeBoard6x6_WithReadySetsLeftOne()
     {
         int[] cluesForTest =  {0, 1, 3, 0, 2, 0,    0, 3, 2, 0, 4, 0,    0, 0, 0, 3, 0, 0,    3, 0, 3, 3, 0, 0};
         var dictFortest = new Dictionary<int[], string>();
         dictFortest.Add(new int[]{4,4}, "3");
         dictFortest.Add(new int[]{3,5}, "2");
-
 
         int[][] expected =
         {
@@ -625,9 +604,8 @@ public class KataTests
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest));
     }
 
-
     [Test]
-    public void WholeBoard6x6_WithReadySetsLeftTwoZero() //todo <--- this is ok when on inside dsf conditions
+    public void WholeBoard6x6_WithReadySetsLeftTwoZero()
     {
         int[] cluesForTest =  {0, 0, 0, 2, 0, 3,    0, 0, 0, 3, 4, 0,    0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0};
         var dictFortest = new Dictionary<int[], string>();
@@ -646,9 +624,8 @@ public class KataTests
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest));
     }
 
-
     [Test]
-    public void WholeBoard6x6_WithReadySetsLeftTwoOne() //todo <--- this is ok when on inside dsf conditions
+    public void WholeBoard6x6_WithReadySetsLeftTwoOne()
     {
         int[] cluesForTest =  {0, 0, 0, 3, 4, 0,    0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3};
         var dictFortest = new Dictionary<int[], string>();
@@ -668,9 +645,8 @@ public class KataTests
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest));
     }
 
-
-    [Test]  //todo <--- have too work !!!
-    public void WholeBoard6x6_WithReadySetsLeftTwoTwo() //todo <--- this is ok when on inside dsf conditions
+    [Test]
+    public void WholeBoard6x6_WithReadySetsLeftTwoTwo()
     {
         int[] cluesForTest =  {0, 3, 2, 0, 0, 5,    0, 0, 4, 0, 0, 0,    0, 0, 0, 2, 0, 3,    0, 0, 0, 3, 4, 0};
         var dictFortest = new Dictionary<int[], string>();
@@ -688,11 +664,6 @@ public class KataTests
         };
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
-        foreach (var test in expected)
-        {
-            Console.WriteLine(string.Join(", ", test));
-
-        }
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest));
     }
 
@@ -716,27 +687,8 @@ public class KataTests
         };
         expected = RotateLeft(expected);
         expected = RotateLeft(expected);
-        // expected = RotateLeft(expected);
         Assert.AreEqual(expected, SkyScrapersAll.SolvePuzzle(cluesForTest, true, dictFortest));
     }
-
-    // [Test]
-    // public void RemoveAloneTest()
-    // {
-    //     string[][] forTest =
-    //     {
-    //         new [] {"6", "1", "5", "2", "4", "3"},
-    //         new [] {"2", "4", "6", "5", "3", "1"},
-    //         new [] {"1", "2", "3", "4", "5", "6"},
-    //         new [] {"3", "356", "1", "36", "2", "4"}, // todo first 3 get stack overfloo
-    //         new [] {"4", "36", "2", "136", "16", "5"},
-    //         new [] {"35", "35", "4", "136", "16", "2"}
-    //     };
-    //     string[][] expected = forTest.Select(s => s.ToArray()).ToArray();
-    //
-    //     SkyScrapersAll.RemoveAlone(forTest, 3, -1, '3', 6);
-    //     Assert.AreEqual(expected, forTest);
-    // }
 
     public T[][] RotateLeft<T>(T[][] board)
     {
