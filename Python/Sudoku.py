@@ -1,3 +1,5 @@
+# http://norvig.com/sudoku.html
+
 import assign as assign
 
 
