@@ -1,15 +1,48 @@
-using System;
-using Katas;
 using NUnit.Framework;
+using System;
+using System.Linq;
+using System.Text;
+using Katas;
 
-[TestFixture]
-public class Tests
+public class SolutionTest
 {
     [Test]
-    public static void FixedTest()
+    public void SampleTests()
     {
-        Assert.AreEqual(new int[]{118, 334}, HowManyNumbers3.FindAll(10, 3));
-        Assert.AreEqual(new int[]{999, 999}, HowManyNumbers3.FindAll(27, 3));
-        Assert.AreEqual(new int[]{116999, 566666}, HowManyNumbers3.FindAll(35, 6));
+
+        char[][] board =
+        {
+            new []{'E','A','R','A'},
+            new []{'N','L','E','C'},
+            new []{'I','A','I','S'},
+            new []{'B','Y','O','R'}
+        };
+
+        var toCheck = new[] {
+            "C",
+            "EAR",
+            "EARS",
+            "BAILER",
+            "RSCAREIOYBAILNEA",
+            "CEREAL",
+            "ROBES"
+
+        };
+        var expecteds = new[] { true, true, false, true, true, false, false };
+
+        for (int i = 0; i < toCheck.Length; i++)
+        {
+            Assert.AreEqual(expecteds[i], new Boggle(DeepCopy(board), toCheck[i]).Check());
+        }
+    }
+
+    private char[][] DeepCopy(char[][] arr)
+    {
+        return arr.Select(a =>
+        {
+            var target = new char[a.Length];
+            Array.Copy(a, target, a.Length);
+            return target;
+        }).ToArray();
     }
 }
