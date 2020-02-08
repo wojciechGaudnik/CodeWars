@@ -1,48 +1,29 @@
-using NUnit.Framework;
-using System;
-using System.Linq;
-using System.Text;
 using Katas;
 
-public class SolutionTest
+namespace Solution
 {
-    [Test]
-    public void SampleTests()
+    using NUnit.Framework;
+    using System;
+    using System.Collections.Generic;
+
+    [TestFixture]
+    public class Sample_Test
     {
-
-        char[][] board =
+        private static IEnumerable<TestCaseData> testCases
         {
-            new []{'E','A','R','A'},
-            new []{'N','L','E','C'},
-            new []{'I','A','I','S'},
-            new []{'B','Y','O','R'}
-        };
+            get
+            {
+                yield return new TestCaseData(1)
+                    .Returns(true)
+                    .SetDescription("1 is narcissitic");
+                yield return new TestCaseData(371)
+                    .Returns(true)
+                    .SetDescription("371 is narcissitic");
 
-        var toCheck = new[] {
-            "C",
-            "EAR",
-            "EARS",
-            "BAILER",
-            "RSCAREIOYBAILNEA",
-            "CEREAL",
-            "ROBES"
-
-        };
-        var expecteds = new[] { true, true, false, true, true, false, false };
-
-        for (int i = 0; i < toCheck.Length; i++)
-        {
-            Assert.AreEqual(expecteds[i], new Boggle(DeepCopy(board), toCheck[i]).Check());
+            }
         }
-    }
 
-    private char[][] DeepCopy(char[][] arr)
-    {
-        return arr.Select(a =>
-        {
-            var target = new char[a.Length];
-            Array.Copy(a, target, a.Length);
-            return target;
-        }).ToArray();
+        [Test, TestCaseSource("testCases")]
+        public bool Test(int n) => DoesMyNumberLookBigInThisKyu6.Narcissistic(n);
     }
 }

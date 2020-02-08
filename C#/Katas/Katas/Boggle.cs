@@ -4,22 +4,6 @@ namespace Katas
 {
     public class Boggle
     {
-        public static void Main(string[] args)
-        {
-            // todo 50.22 <--- on CW
-            // todo 44.22 <--- on CW
-
-            char[][] board =
-            {
-                new[] {'E', 'A', 'R', 'A'},
-                new[] {'N', 'L', 'E', 'C'},
-                new[] {'I', 'A', 'I', 'S'},
-                new[] {'B', 'Y', 'O', 'R'}
-            };
-            Boggle boggle = new Boggle(board, "EAR");
-        }
-
-
         private char[][] board;
         private string word;
         private int max;
