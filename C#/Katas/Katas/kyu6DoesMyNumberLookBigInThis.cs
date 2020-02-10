@@ -2,13 +2,8 @@ using System;
 
 namespace Katas
 {
-    public class DoesMyNumberLookBigInThisKyu6
+    public class kyu6DoesMyNumberLookBigInThis
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Narcissistic(153));
-        }
-
         public static bool Narcissistic(int value)
         {
             var sum = 0;

@@ -1,29 +1,15 @@
+using System;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution
-{
-    using NUnit.Framework;
-    using System;
-    using System.Collections.Generic;
+[TestFixture]
+public class WhichAreInTests {
 
-    [TestFixture]
-    public class Sample_Test
-    {
-        private static IEnumerable<TestCaseData> testCases
-        {
-            get
-            {
-                yield return new TestCaseData(1)
-                    .Returns(true)
-                    .SetDescription("1 is narcissitic");
-                yield return new TestCaseData(371)
-                    .Returns(true)
-                    .SetDescription("371 is narcissitic");
-
-            }
-        }
-
-        [Test, TestCaseSource("testCases")]
-        public bool Test(int n) => DoesMyNumberLookBigInThisKyu6.Narcissistic(n);
+    [Test]
+    public void Test1() {
+        string[] a1 = new string[] { "arp", "live", "strong" };
+        string[] a2 = new string[] { "lively", "alive", "harp", "sharp", "armstrong" };
+        string[] r = new string[] { "arp", "live", "strong" };
+        Assert.AreEqual(r, kyu6WhichAreIn.inArray(a1, a2));
     }
 }
