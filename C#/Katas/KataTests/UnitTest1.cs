@@ -1,15 +1,27 @@
+using NUnit.Framework;
 using System;
 using Katas;
-using NUnit.Framework;
 
 [TestFixture]
-public class WhichAreInTests {
+public class DeleteNthTests
+{
+    [Test]
+    public void TestSimple()
+    {
+        var expected = new int[] {20, 37, 21};
+
+        var actual = kyu6DeleteOccurrencesOfAnElementIfItOccursMoreThanNNimes.DeleteNth(new int[] {20, 37, 20, 21}, 1);
+
+        CollectionAssert.AreEqual(expected, actual);
+    }
 
     [Test]
-    public void Test1() {
-        string[] a1 = new string[] { "arp", "live", "strong" };
-        string[] a2 = new string[] { "lively", "alive", "harp", "sharp", "armstrong" };
-        string[] r = new string[] { "arp", "live", "strong" };
-        Assert.AreEqual(r, kyu6WhichAreIn.inArray(a1, a2));
+    public void TestSimple2()
+    {
+        var expected = new int[] {1, 1, 3, 3, 7, 2, 2, 2};
+
+        var actual = kyu6DeleteOccurrencesOfAnElementIfItOccursMoreThanNNimes.DeleteNth(new int[] {1,1,3,3,7,2,2,2,2}, 3);
+
+        CollectionAssert.AreEqual(expected, actual);
     }
 }
