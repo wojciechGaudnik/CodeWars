@@ -1,27 +1,19 @@
-using NUnit.Framework;
-using System;
 using Katas;
 
-[TestFixture]
-public class DeleteNthTests
+namespace Solution
 {
-    [Test]
-    public void TestSimple()
+    using NUnit.Framework;
+    using System;
+
+    [TestFixture]
+    public class KataTests
     {
-        var expected = new int[] {20, 37, 21};
-
-        var actual = kyu6DeleteOccurrencesOfAnElementIfItOccursMoreThanNNimes.DeleteNth(new int[] {20, 37, 20, 21}, 1);
-
-        CollectionAssert.AreEqual(expected, actual);
-    }
-
-    [Test]
-    public void TestSimple2()
-    {
-        var expected = new int[] {1, 1, 3, 3, 7, 2, 2, 2};
-
-        var actual = kyu6DeleteOccurrencesOfAnElementIfItOccursMoreThanNNimes.DeleteNth(new int[] {1,1,3,3,7,2,2,2,2}, 3);
-
-        CollectionAssert.AreEqual(expected, actual);
+        [Test]
+        public void BasicTests()
+        {
+            Assert.AreEqual(string.Join(",", new [] { "*" }), string.Join(",", kyu6BuildTower.TowerBuilder(1)));
+            Assert.AreEqual(string.Join(",", new [] { " * ", "***" }), string.Join(",", kyu6BuildTower.TowerBuilder(2)));
+            Assert.AreEqual(string.Join(",", new [] { "  *  ", " *** ", "*****" }), string.Join(",", kyu6BuildTower.TowerBuilder(3)));
+        }
     }
 }
