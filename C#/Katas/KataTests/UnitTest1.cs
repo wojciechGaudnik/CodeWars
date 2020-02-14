@@ -6,14 +6,12 @@ namespace Solution
     using System;
 
     [TestFixture]
-    public class KataTests
+    public class Tests
     {
         [Test]
-        public void BasicTests()
+        public void SampleTests()
         {
-            Assert.AreEqual(string.Join(",", new [] { "*" }), string.Join(",", kyu6BuildTower.TowerBuilder(1)));
-            Assert.AreEqual(string.Join(",", new [] { " * ", "***" }), string.Join(",", kyu6BuildTower.TowerBuilder(2)));
-            Assert.AreEqual(string.Join(",", new [] { "  *  ", " *** ", "*****" }), string.Join(",", kyu6BuildTower.TowerBuilder(3)));
+            Assert.AreEqual(true, kyu6Detect_Pangram.IsPangram("The quick brown fox jumps over the lazy dog."));
         }
     }
 }
