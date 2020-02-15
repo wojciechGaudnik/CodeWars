@@ -6,12 +6,13 @@ namespace Solution
     using System;
 
     [TestFixture]
-    public class Tests
+    public class SplitStringTests
     {
         [Test]
-        public void SampleTests()
+        public void BasicTests()
         {
-            Assert.AreEqual(true, kyu6Detect_Pangram.IsPangram("The quick brown fox jumps over the lazy dog."));
+            Assert.AreEqual(new string[] { "ab", "c_" }, kyu6SplitStrings.Solution("abc"));
+            Assert.AreEqual(new string[] { "ab", "cd", "ef" }, kyu6SplitStrings.Solution("abcdef"));
         }
     }
 }
