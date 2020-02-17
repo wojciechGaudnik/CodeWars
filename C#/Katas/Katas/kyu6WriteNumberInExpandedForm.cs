@@ -6,12 +6,6 @@ namespace Katas
 {
     public class kyu6WriteNumberInExpandedForm
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(ExpandedForm(70304));
-            Console.WriteLine(ExpandedForm(9000000));
-        }
-
         public static string ExpandedForm(long num)
         {
             var answer = new StringBuilder();

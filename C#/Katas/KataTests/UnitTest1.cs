@@ -4,16 +4,22 @@ namespace Solution
 {
     using NUnit.Framework;
     using System;
+    using System.Collections.Generic;
 
     [TestFixture]
-    public class SolutionTest
+    public class Sample_Tests
     {
-        [Test]
-        public void BasicTests()
+        private static IEnumerable<TestCaseData> testCases
         {
-            Assert.That(kyu6WriteNumberInExpandedForm.ExpandedForm(12), Is.EqualTo("10 + 2"));
-            Assert.That(kyu6WriteNumberInExpandedForm.ExpandedForm(42), Is.EqualTo("40 + 2"));
-            Assert.That(kyu6WriteNumberInExpandedForm.ExpandedForm(70304), Is.EqualTo("70000 + 300 + 4"));
+            get
+            {
+                yield return new TestCaseData("man i need a taxi up to ubud").Returns("taxi");
+                yield return new TestCaseData("what time are we climbing up to the volcano").Returns("volcano");
+                yield return new TestCaseData("take me to semynak").Returns("semynak");
+            }
         }
+
+        [Test, TestCaseSource("testCases")]
+        public string Test(string s) => kyu6HigestScoringWord.High(s);
     }
 }
