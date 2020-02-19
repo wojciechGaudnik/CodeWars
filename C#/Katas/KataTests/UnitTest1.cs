@@ -7,19 +7,28 @@ namespace Solution
     using System.Collections.Generic;
 
     [TestFixture]
-    public class Sample_Tests
+    public class SolutionTest
     {
-        private static IEnumerable<TestCaseData> testCases
+        [Test]
+        public void TestCases()
         {
-            get
-            {
-                yield return new TestCaseData("man i need a taxi up to ubud").Returns("taxi");
-                yield return new TestCaseData("what time are we climbing up to the volcano").Returns("volcano");
-                yield return new TestCaseData("take me to semynak").Returns("semynak");
-            }
-        }
+            Assert.AreEqual(true, kyu6IPValidation.is_valid_IP("0.0.0.0"));
+            Assert.AreEqual(true, kyu6IPValidation.is_valid_IP("12.255.56.1"));
+            Assert.AreEqual(true, kyu6IPValidation.is_valid_IP("137.255.156.100"));
 
-        [Test, TestCaseSource("testCases")]
-        public string Test(string s) => kyu6HigestScoringWord.High(s);
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP(""));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("abc.def.ghi.jkl"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("123.456.789.0"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56.00"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56.7.8"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.256.78"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("1234.34.56"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("pr12.34.56.78"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56.78sf"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56 .1"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56.-1"));
+            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("123.045.067.089"));
+        }
     }
 }
