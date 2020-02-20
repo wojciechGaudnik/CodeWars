@@ -2,33 +2,18 @@ using Katas;
 
 namespace Solution
 {
-    using NUnit.Framework;
     using System;
-    using System.Collections.Generic;
+    using NUnit.Framework;
 
     [TestFixture]
-    public class SolutionTest
+    public class Tests
     {
         [Test]
-        public void TestCases()
+        public static void ShouldWorkForSomeExamples()
         {
-            Assert.AreEqual(true, kyu6IPValidation.is_valid_IP("0.0.0.0"));
-            Assert.AreEqual(true, kyu6IPValidation.is_valid_IP("12.255.56.1"));
-            Assert.AreEqual(true, kyu6IPValidation.is_valid_IP("137.255.156.100"));
-
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP(""));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("abc.def.ghi.jkl"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("123.456.789.0"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56.00"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56.7.8"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.256.78"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("1234.34.56"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("pr12.34.56.78"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56.78sf"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56 .1"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("12.34.56.-1"));
-            Assert.AreEqual(false, kyu6IPValidation.is_valid_IP("123.045.067.089"));
+            Assert.AreEqual("ThIs", kyu6WelrdStringCase.ToWeirdCase("This"));
+            Assert.AreEqual("Is", kyu6WelrdStringCase.ToWeirdCase("is"));
+            Assert.AreEqual("ThIs Is A TeSt", kyu6WelrdStringCase.ToWeirdCase("This is a test"));
         }
     }
 }
