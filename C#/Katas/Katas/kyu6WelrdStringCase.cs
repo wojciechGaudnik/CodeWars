@@ -1,16 +1,9 @@
-using System;
 using System.Text;
 
 namespace Katas
 {
     public class kyu6WelrdStringCase
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(ToWeirdCase("This"));
-
-        }
-
         public static string ToWeirdCase(string s)
         {
             var answer = new StringBuilder();
