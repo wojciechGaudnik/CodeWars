@@ -1,28 +1,15 @@
+using System;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution
-{
-    using NUnit.Framework;
-    using System;
+[TestFixture]
+public class TortoiseTests {
 
-    [TestFixture]
-    public class SolutionTest
-    {
-        [TestCase("a clash of KINGS", "a an the of", "A Clash of Kings")]
-        [TestCase("THE WIND IN THE WILLOWS", "The In", "The Wind in the Willows")]
-        public void MyTest(string sampleTitle, string sampleMinorWords, string expected)
-        {
-            Assert.AreEqual(expected, kyu6TitleCase.TitleCase(sampleTitle, sampleMinorWords));
-        }
-        [Test]
-        public void MyTest2()
-        {
-            Assert.AreEqual("", kyu6TitleCase.TitleCase(""));
-        }
-        [Test]
-        public void MyTest3()
-        {
-            Assert.AreEqual("The Quick Brown Fox", kyu6TitleCase.TitleCase("the quick brown fox"));
-        }
+    [Test]
+    public void Test1() {
+        Console.WriteLine("****** Basic Tests");
+        Assert.AreEqual(new int[]{0, 32, 18}, kyu6TortoiseRacing.Race(720, 850, 70));
+        Assert.AreEqual(new int[]{3, 21, 49}, kyu6TortoiseRacing.Race(80, 91, 37));
+        Assert.AreEqual(new int[]{2, 0, 0}, kyu6TortoiseRacing.Race(80, 100, 40));
     }
 }

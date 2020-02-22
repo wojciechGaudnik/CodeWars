@@ -1,19 +1,11 @@
-using System;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 
 namespace Katas
 {
     public class kyu6TitleCase
     {
-        public static void Main(string[] args)
-        {
-            // Console.WriteLine(TitleCase("a clash of KINGS"));
-            Console.WriteLine(TitleCase("THE WIND IN THE WILLOWS", "in The"));
-        }
-
         public static string TitleCase(string title, string minorWords="")
         {
             if(title == null) return "";
