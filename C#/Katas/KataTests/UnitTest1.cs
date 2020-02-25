@@ -1,48 +1,25 @@
-using System;
-using System.Text;
-using Katas;
 using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using Katas;
 
 [TestFixture]
-public class DiamondTest
+public class Tests
 {
-
     [Test]
-    public void TestNull()
+    public static void FixedTest_aaaa()
     {
-        Assert.IsNull(kyu6GiveMeADiamond.print(0));
-        Assert.IsNull(kyu6GiveMeADiamond.print(-2));
-        Assert.IsNull(kyu6GiveMeADiamond.print(2));
+        Dictionary<char, int> d = new Dictionary<char, int>();
+        d.Add('a', 4);
+        Assert.AreEqual(d, kyu6CountCharactersInYourString.Count("aaaa"));
     }
 
     [Test]
-    public void TestDiamond1()
+    public static void FixedTest_aabb()
     {
-        var expected = new StringBuilder();
-        expected.Append("*\n");
-        Assert.AreEqual(expected.ToString(), kyu6GiveMeADiamond.print(1));
-    }
-    [Test]
-    public void TestDiamond3()
-    {
-        var expected = new StringBuilder();
-        expected.Append(" *\n");
-        expected.Append("***\n");
-        expected.Append(" *\n");
-
-        Assert.AreEqual(expected.ToString(), kyu6GiveMeADiamond.print(3));
-    }
-
-    [Test]
-    public void TestDiamond5()
-    {
-        var expected = new StringBuilder();
-        expected.Append("  *\n");
-        expected.Append(" ***\n");
-        expected.Append("*****\n");
-        expected.Append(" ***\n");
-        expected.Append("  *\n");
-
-        Assert.AreEqual(expected.ToString(), kyu6GiveMeADiamond.print(5));
+        Dictionary<char, int> d = new Dictionary<char, int>();
+        d.Add('a', 2);
+        d.Add('b', 2);
+        Assert.AreEqual(d, kyu6CountCharactersInYourString.Count("aabb"));
     }
 }
