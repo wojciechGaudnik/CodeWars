@@ -1,21 +1,9 @@
-using System;
 using System.Text;
 
 namespace Katas
 {
     public class kyu6SimpleEncryption_1_AlternatingSplit
     {
-        public static void Main(string[] args)
-        {
-            string test = "abcd!";
-
-            Console.WriteLine(Encrypt(test, 1));
-            Console.WriteLine(Decrypt("bdac!", 1));
-            // Console.WriteLine(Encrypt("This is a test!", 1).Equals("hsi  etTi sats!"));
-            // Console.WriteLine(Decrypt("hsi  etTi sats!", 1));
-            // Console.WriteLine(Encrypt("s eT ashi tist!", 2));
-        }
-
         public static string Encrypt(string text, int n)
         {
             if(n < 1) return text;
