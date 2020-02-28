@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,12 +5,6 @@ namespace Katas
 {
     public class kyu6GoodvsEvil
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(GoodVsEvil("1 1 1 1 1 1", "0 1 1 1 1 1 1"));
-        }
-
-
         public static string GoodVsEvil(string good, string evil)
         {
             var goodTeam = new List<int>(){1, 2, 3, 3, 4, 10};

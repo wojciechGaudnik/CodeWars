@@ -1,25 +1,19 @@
+using NUnit.Framework;
 using System;
 using Katas;
-using NUnit.Framework;
 
 [TestFixture]
-public class GoodVsEvil
+public class Tests
 {
     [Test]
-    public static void EvilShouldWin()
+    [TestCase(451999277, 41177722899, ExpectedResult=1)]
+    [TestCase(1222345, 12345, ExpectedResult=0)]
+    [TestCase(12345, 12345, ExpectedResult=0)]
+    [TestCase(666789, 12345667, ExpectedResult=1)]
+    [TestCase(10560002, 100, ExpectedResult=1)]
+    [TestCase(1112, 122, ExpectedResult=0)]
+    public static int FixedTest(long s1, long s2)
     {
-        Assert.AreEqual("Battle Result: Evil eradicates all trace of Good", kyu6GoodvsEvil.GoodVsEvil("1 1 1 1 1 1", "1 1 1 1 1 1 1"));
-    }
-
-    [Test]
-    public static void GoodShouldTriumph()
-    {
-        Assert.AreEqual("Battle Result: Good triumphs over Evil", kyu6GoodvsEvil.GoodVsEvil("0 0 0 0 0 10", "0 1 1 1 1 0 0"));
-    }
-
-    [Test]
-    public static void ShouldBeATie()
-    {
-        Assert.AreEqual("Battle Result: No victor on this battle field", kyu6GoodvsEvil.GoodVsEvil("1 0 0 0 0 0", "1 0 0 0 0 0 0"));
+        return kyu6TripleTrouble.TripleDouble(s1, s2);
     }
 }
