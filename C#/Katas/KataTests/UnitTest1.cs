@@ -1,24 +1,51 @@
+using System;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution {
-    using NUnit.Framework;
-    using System;
+[TestFixture]
+public class CalcTest
+{
+    private kyu6ReversePolishNotationCalculator calc = new kyu6ReversePolishNotationCalculator();
 
-    [TestFixture]
-    public class SampleTests {
-        [Test]
-        public void TestCases()
-        {
-            var _ = new kyu6ValidateCreditCardNumber();
-            Assert.AreEqual(false,_.validate("477 073 360"));
-            Assert.AreEqual(true,_.validate("5422 0148 5514"));
-            Assert.AreEqual(true,_.validate("8314 7046 0245"));
-            Assert.AreEqual(false,_.validate("6654 6310 43044"));
-            Assert.AreEqual(true,_.validate("0768 2757 5685 6340"));
-            Assert.AreEqual(false,_.validate("7164 6207 74042"));
-            Assert.AreEqual(true,_.validate("8383 7332 3570 8514"));
-            Assert.AreEqual(true,_.validate("481 135"));
-            Assert.AreEqual(true,_.validate("355 032 5363"));
-        }
+    [Test]
+    public void ShouldWorkWithEmptyString()
+    {
+        Assert.AreEqual(0, calc.evaluate(""), 0, "Should work with empty string");
+    }
+
+    [Test]
+    public void ShouldParseNumbers()
+    {
+        Assert.AreEqual(3, calc.evaluate("3"), 0, "Should parse numbers");
+    }
+
+    [Test]
+    public void ShouldParseFloatNumbers()
+    {
+        Assert.AreEqual(3.5, calc.evaluate("3.5"), 0, "Should parse float numbers");
+    }
+
+    [Test]
+    public void ShouldSupportAddition()
+    {
+        Assert.AreEqual(4, calc.evaluate("1 3 +"), 0, "Should support addition");
+    }
+
+    [Test]
+    public void ShouldSupportMultiplication()
+    {
+        Assert.AreEqual(3, calc.evaluate("1 3 *"), 0, "Should support multiplication");
+    }
+
+    [Test]
+    public void ShouldSupportSubstraction()
+    {
+        Assert.AreEqual(-2, calc.evaluate("1 3 -"), 0, "Should support substraction");
+    }
+
+    [Test]
+    public void ShouldSupportDivision()
+    {
+        Assert.AreEqual(2, calc.evaluate("4 2 /"), 0, "Should support division");
     }
 }
