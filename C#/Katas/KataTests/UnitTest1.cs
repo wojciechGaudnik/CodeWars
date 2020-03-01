@@ -1,19 +1,24 @@
-using NUnit.Framework;
-using System;
 using Katas;
 
-[TestFixture]
-public class Tests
-{
-    [Test]
-    [TestCase(451999277, 41177722899, ExpectedResult=1)]
-    [TestCase(1222345, 12345, ExpectedResult=0)]
-    [TestCase(12345, 12345, ExpectedResult=0)]
-    [TestCase(666789, 12345667, ExpectedResult=1)]
-    [TestCase(10560002, 100, ExpectedResult=1)]
-    [TestCase(1112, 122, ExpectedResult=0)]
-    public static int FixedTest(long s1, long s2)
-    {
-        return kyu6TripleTrouble.TripleDouble(s1, s2);
+namespace Solution {
+    using NUnit.Framework;
+    using System;
+
+    [TestFixture]
+    public class SampleTests {
+        [Test]
+        public void TestCases()
+        {
+            var _ = new kyu6ValidateCreditCardNumber();
+            Assert.AreEqual(false,_.validate("477 073 360"));
+            Assert.AreEqual(true,_.validate("5422 0148 5514"));
+            Assert.AreEqual(true,_.validate("8314 7046 0245"));
+            Assert.AreEqual(false,_.validate("6654 6310 43044"));
+            Assert.AreEqual(true,_.validate("0768 2757 5685 6340"));
+            Assert.AreEqual(false,_.validate("7164 6207 74042"));
+            Assert.AreEqual(true,_.validate("8383 7332 3570 8514"));
+            Assert.AreEqual(true,_.validate("481 135"));
+            Assert.AreEqual(true,_.validate("355 032 5363"));
+        }
     }
 }

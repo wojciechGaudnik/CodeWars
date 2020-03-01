@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 
@@ -6,13 +5,6 @@ namespace Katas
 {
     public class kyu6TripleTrouble
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(TripleDouble(451999277, 41177722899));
-            // Console.WriteLine(TripleDouble(1112, 122));
-
-        }
-
         public static int TripleDouble(long num1, long num2)
         {
             var num1Matches = Regex.Matches(num1.ToString(), "(\\d)\\1\\1").Select(m => m.Value).ToList();
