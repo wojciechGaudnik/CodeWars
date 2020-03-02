@@ -1,51 +1,25 @@
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public class CalcTest
+namespace Solution
 {
-    private kyu6ReversePolishNotationCalculator calc = new kyu6ReversePolishNotationCalculator();
+    using NUnit.Framework;
+    using System;
+    using System.Collections.Generic;
 
-    [Test]
-    public void ShouldWorkWithEmptyString()
+    [TestFixture]
+    public class Sample_Test
     {
-        Assert.AreEqual(0, calc.evaluate(""), 0, "Should work with empty string");
-    }
+        private static IEnumerable<TestCaseData> testCases
+        {
+            get
+            {
+                yield return new TestCaseData(5, 3).Returns(new Tuple<int, int>(3, 5));
+                yield return new TestCaseData(4, 6).Returns(new Tuple<int, int>(3, 2));
+                yield return new TestCaseData(5, 5).Returns(new Tuple<int, int>(1, 1));
+            }
+        }
 
-    [Test]
-    public void ShouldParseNumbers()
-    {
-        Assert.AreEqual(3, calc.evaluate("3"), 0, "Should parse numbers");
-    }
-
-    [Test]
-    public void ShouldParseFloatNumbers()
-    {
-        Assert.AreEqual(3.5, calc.evaluate("3.5"), 0, "Should parse float numbers");
-    }
-
-    [Test]
-    public void ShouldSupportAddition()
-    {
-        Assert.AreEqual(4, calc.evaluate("1 3 +"), 0, "Should support addition");
-    }
-
-    [Test]
-    public void ShouldSupportMultiplication()
-    {
-        Assert.AreEqual(3, calc.evaluate("1 3 *"), 0, "Should support multiplication");
-    }
-
-    [Test]
-    public void ShouldSupportSubstraction()
-    {
-        Assert.AreEqual(-2, calc.evaluate("1 3 -"), 0, "Should support substraction");
-    }
-
-    [Test]
-    public void ShouldSupportDivision()
-    {
-        Assert.AreEqual(2, calc.evaluate("4 2 /"), 0, "Should support division");
+        [Test, TestCaseSource("testCases")]
+        public Tuple<int, int> Test(int x, int y) => kyu6TwoJoggers.NbrOfLaps(x, y);
     }
 }
