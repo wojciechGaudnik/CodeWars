@@ -1,13 +1,7 @@
-using System;
-
 namespace Katas
 {
     public class kyu6CheckingGroups
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Check("{(})"));
-        }
 
         public static bool Check(string input)
         {
