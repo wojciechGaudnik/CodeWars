@@ -1,15 +1,9 @@
-using System;
 using System.Linq;
 
 namespace Katas
 {
     public class kyu6GroupedByCommas
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(GroupByCommas(1000000000));
-        }
-
         public static string GroupByCommas(int n)
         {
             var answer = string.Join("", n.ToString().Reverse());
