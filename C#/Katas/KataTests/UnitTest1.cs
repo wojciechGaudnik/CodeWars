@@ -1,17 +1,25 @@
-using System;
-using System.Collections.Generic;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public class backwardsPrimeTests {
-    [Test]
-    public void Test13() {
-        Assert.AreEqual("13 17 31 37 71 73 79 97", kyu6BackwardsReadPrimes.backwardsPrime(1, 100));
-    }
-    [Test]
-    public void Test21() {
-        Assert.AreEqual("9923 9931 9941 9967", kyu6BackwardsReadPrimes.backwardsPrime(9900, 10000));
-    }
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
+    using System.Collections.Generic;
 
+    [TestFixture]
+    public class Sample_Test
+    {
+        private static IEnumerable<TestCaseData> testCases
+        {
+            get
+            {
+                yield return new TestCaseData(new int[,] {{1, 0}, {0, 0}}).Returns(new Tuple<int, int>(0, 0));
+                yield return new TestCaseData(new int[,] {{1, 0, 0}, {0, 0, 0}, {0, 0, 0}}).Returns(new Tuple<int, int>(0, 0));
+                yield return new TestCaseData(new int[,] {{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 1, 0}, {0, 0, 0, 0}}).Returns(new Tuple<int, int>(2, 2));
+            }
+        }
+
+        [Test, TestCaseSource("testCases")]
+        public Tuple<int, int> Test(int[,] field) => kyu6FindTheMine.MineLocation(field);
+    }
 }

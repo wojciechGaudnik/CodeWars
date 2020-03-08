@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using System.Text;
 
@@ -6,18 +5,7 @@ namespace Katas
 {
     public class kyu6BackwardsReadPrimes
     {
-        public static void Main(string[] args)
-        {
-            foreach (var one in backwardsPrime(301, 399).Split(" "))
-            {
-                Console.WriteLine(one);
-            }
 
-            for (var i = 0; i < 10; i++)
-            {
-                Console.WriteLine(i + ": " + (i & 1));
-            }
-        }
 
         public static string backwardsPrime(long start, long end)
         {
