@@ -3,23 +3,20 @@ using Katas;
 namespace Solution
 {
     using NUnit.Framework;
-    using System;
-    using System.Collections.Generic;
 
     [TestFixture]
-    public class Sample_Test
+    public class Tests
     {
-        private static IEnumerable<TestCaseData> testCases
+        [TestCase("zodiac", 26)]
+        [TestCase("chruschtschov", 80)]
+        [TestCase("khrushchev", 38)]
+        [TestCase("strength", 57)]
+        [TestCase("catchphrase", 73)]
+        [TestCase("twelfthstreet", 103)]
+        [TestCase("mischtschenkoana", 80)]
+        public void BasicTests(string input, int expected)
         {
-            get
-            {
-                yield return new TestCaseData(new int[,] {{1, 0}, {0, 0}}).Returns(new Tuple<int, int>(0, 0));
-                yield return new TestCaseData(new int[,] {{1, 0, 0}, {0, 0, 0}, {0, 0, 0}}).Returns(new Tuple<int, int>(0, 0));
-                yield return new TestCaseData(new int[,] {{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 1, 0}, {0, 0, 0, 0}}).Returns(new Tuple<int, int>(2, 2));
-            }
+            Assert.That(kyu6ConstantValue.Solve(input), Is.EqualTo(expected));
         }
-
-        [Test, TestCaseSource("testCases")]
-        public Tuple<int, int> Test(int[,] field) => kyu6FindTheMine.MineLocation(field);
     }
 }

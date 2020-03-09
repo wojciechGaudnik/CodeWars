@@ -4,10 +4,6 @@ namespace Katas
 {
     public class kyu6FindTheMine
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(MineLocation(new int[,] {{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 1, 0}, {0, 0, 0, 0}}));
-        }
         public static Tuple<int, int> MineLocation(int[,] field)
         {
             var size = (int)Math.Sqrt(field.Length);
