@@ -1,18 +1,16 @@
+using System;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution
-{
-    using NUnit.Framework;
-    using System;
+[TestFixture]
+public class StatTests {
 
-    [TestFixture]
-    public class KataTests
-    {
-        [Test]
-        public void BasicTest()
-        {
-            var arr = new int[] { 12, 10, 8, 12, 7, 6, 4, 10, 12 };
-            Assert.AreEqual(12, kyu6HighestRankNumberInAnArray.HighestRank(arr));
-        }
+    [Test]
+    public static void BasicTest() {
+        Assert.AreEqual("Range: 01|01|18 Average: 01|38|05 Median: 01|32|34",
+            kyu6StatisticsForAnAthleticAssociation.stat("01|15|59, 1|47|16, 01|17|20, 1|32|34, 2|17|17"));
+        Assert.AreEqual("Range: 00|31|17 Average: 02|26|18 Median: 02|22|00",
+            kyu6StatisticsForAnAthleticAssociation.stat("02|15|59, 2|47|16, 02|17|20, 2|32|34, 2|17|17, 2|22|00, 2|31|41"));
     }
+
 }
