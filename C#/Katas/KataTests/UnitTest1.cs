@@ -1,14 +1,19 @@
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public class CarboatTests {
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
 
-    [Test]
-    public static void BasicTest() {
-        Assert.AreEqual("[[M: 37 B: 5 C: 4][M: 100 B: 14 C: 11]]", kyu6HowMuch.howmuch(1, 100));
-        Assert.AreEqual("[]", kyu6HowMuch.howmuch(2950, 2950));
+    [TestFixture]
+    public class SolutionTest
+    {
+        [Test]
+        public void SampleTest()
+        {
+            Assert.AreEqual(1.414,  kyu6CalculateHypotenuseOfRight_angledTriangle.CalculateHypotenuse(1, 1));
+            Assert.AreEqual(5.000,  kyu6CalculateHypotenuseOfRight_angledTriangle.CalculateHypotenuse(3, 4));
+            Assert.AreEqual(12.728, kyu6CalculateHypotenuseOfRight_angledTriangle.CalculateHypotenuse(9, 9));
+        }
     }
-
 }
