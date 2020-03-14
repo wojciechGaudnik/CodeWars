@@ -5,11 +5,6 @@ namespace Katas
 {
     public class kyu6StatisticsForAnAthleticAssociation
     {
-        public static void Main(string[] args)
-        {
-
-        }
-
         public static string stat(string strg)
         {
             if (strg == "") return "";
