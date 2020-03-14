@@ -5,13 +5,13 @@ namespace Solution {
     using System;
 
     [TestFixture]
-    public class SolutionTest {
+    public class SolutionTest
+    {
         [Test]
-        public void BasicTests() {
-            Assert.AreEqual(new int[][] {}, kyu6PyramidArray.Pyramid(0));
-            Assert.AreEqual(new int[][] { new int[] { 1 } }, kyu6PyramidArray.Pyramid(1));
-            Assert.AreEqual(new int[][] { new int[] { 1 }, new int[] { 1, 1 } }, kyu6PyramidArray.Pyramid(2));
-            Assert.AreEqual(new int[][] { new int[] { 1 }, new int[] { 1, 1 }, new int[] { 1, 1, 1 } }, kyu6PyramidArray.Pyramid(3));
+        public void SampleTest()
+        {
+            Assert.AreEqual("ac", kuy6BackspacesInString.CleanString("abc#d##c"));
+            Assert.AreEqual("", kuy6BackspacesInString.CleanString("abc####d##c#"));
         }
     }
 }
