@@ -4,10 +4,6 @@ namespace Katas
 {
     public class kyu6CalculateHypotenuseOfRight_angledTriangle
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(CalculateHypotenuse(1,1));
-        }
 
         public static double CalculateHypotenuse(double a, double b)
         {
