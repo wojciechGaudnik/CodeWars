@@ -1,39 +1,23 @@
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public static class SalesmanTravelTests
+namespace Solution
 {
-    static string ad = "123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432,"
-    + "54 Holy Grail Street Niagara Town ZP 32908,3200 Main Rd. Bern AE 56210,1 Gordon St. Atlanta RE 13000,"
-    + "10 Pussy Cat Rd. Chicago EX 34342,10 Gordon St. Atlanta RE 13000,58 Gordon Road Atlanta RE 13000,"
-    + "22 Tokyo Av. Tedmondville SW 43098,674 Paris bd. Abbeville AA 45521,10 Surta Alley Goodtown GG 30654,"
-    + "45 Holy Grail Al. Niagara Town ZP 32908,320 Main Al. Bern AE 56210,14 Gordon Park Atlanta RE 13000,"
-    + "100 Pussy Cat Rd. Chicago EX 34342,2 Gordon St. Atlanta RE 13000,5 Gordon Road Atlanta RE 13000,"
-    + "2200 Tokyo Av. Tedmondville SW 43098,67 Paris St. Abbeville AA 45521,11 Surta Avenue Goodtown GG 30654,"
-    + "45 Holy Grail Al. Niagara Town ZP 32918,320 Main Al. Bern AE 56215,14 Gordon Park Atlanta RE 13200,"
-    + "100 Pussy Cat Rd. Chicago EX 34345,2 Gordon St. Atlanta RE 13222,5 Gordon Road Atlanta RE 13001,"
-    + "2200 Tokyo Av. Tedmondville SW 43198,67 Paris St. Abbeville AA 45522,11 Surta Avenue Goodville GG 30655,"
-    + "2222 Tokyo Av. Tedmondville SW 43198,670 Paris St. Abbeville AA 45522,114 Surta Avenue Goodville GG 30655,"
-    + "2 Holy Grail Street Niagara Town ZP 32908,3 Main Rd. Bern AE 56210,77 Gordon St. Atlanta RE 13000";
+    using NUnit.Framework;
+    using System;
 
-    static string code = "OH 43071,NY 56432,ZP 32908,AE 56210,RE 13000,EX 34342,SW 43098,AA 45521,GG 30654,ZP 32908,AE 56215,RE 13200,EX 34345,"
-    + "RE 13222,RE 13001,SW 43198,AA 45522,GG 30655,XX 32321,YY 45098";
-
-    private static void testing(string actual, string expected)
+    [TestFixture]
+    public class CalculateStringRotationTests
     {
-        Assert.AreEqual(expected, actual);
-    }
-
-[Test]
-    public static void test1()
-    {
-        Console.WriteLine("Testing Travel");
-        testing(kyu6SalesmansTravel.Travel(ad, "AA 45522"), "AA 45522:Paris St. Abbeville,Paris St. Abbeville/67,670");
-        testing(kyu6SalesmansTravel.Travel(ad, "EX 34342"), "EX 34342:Pussy Cat Rd. Chicago,Pussy Cat Rd. Chicago/10,100");
-        testing(kyu6SalesmansTravel.Travel(ad, "EX 34345"), "EX 34345:Pussy Cat Rd. Chicago/100");
-        testing(kyu6SalesmansTravel.Travel(ad, "AA 45521"), "AA 45521:Paris bd. Abbeville,Paris St. Abbeville/674,67");
-        testing(kyu6SalesmansTravel.Travel(ad, "AE 56215"), "AE 56215:Main Al. Bern/320");
+        [Test]
+        public void BasicTests()
+        {
+            Assert.AreEqual(4, kyu6CalculateStringRotation.ShiftedDiff("eecoff","coffee"));
+            Assert.AreEqual(-1, kyu6CalculateStringRotation.ShiftedDiff("Moose","moose"));
+            Assert.AreEqual(2, kyu6CalculateStringRotation.ShiftedDiff("isn't","'tisn"));
+            Assert.AreEqual(0, kyu6CalculateStringRotation.ShiftedDiff("Esham","Esham"));
+            Assert.AreEqual(0, kyu6CalculateStringRotation.ShiftedDiff(" "," "));
+            Assert.AreEqual(-1, kyu6CalculateStringRotation.ShiftedDiff("hoop","pooh"));
+            Assert.AreEqual(-1, kyu6CalculateStringRotation.ShiftedDiff("  "," "));
+        }
     }
 }
