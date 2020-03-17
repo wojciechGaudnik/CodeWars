@@ -1,18 +1,8 @@
-using System;
 
 namespace Katas
 {
     public class kyu6CalculateStringRotation
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(ShiftedDiff("eecoff","coffee"));
-            Console.WriteLine("abcd".Substring(0, 1));
-            Console.WriteLine("abcd".Substring(1, 1));
-            Console.WriteLine("abcd".Substring(2, 1));
-            Console.WriteLine("abcd".Substring(3, 1));
-        }
-
         public static int ShiftedDiff(string first, string second)
         {
             if (first.Length != second.Length) return -1;

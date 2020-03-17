@@ -1,23 +1,26 @@
+using NUnit.Framework;
+using System;
 using Katas;
 
-namespace Solution
+namespace Kata
 {
-    using NUnit.Framework;
-    using System;
-
     [TestFixture]
-    public class CalculateStringRotationTests
+    public class ArrayTest
     {
         [Test]
-        public void BasicTests()
+        public void Test1()
         {
-            Assert.AreEqual(4, kyu6CalculateStringRotation.ShiftedDiff("eecoff","coffee"));
-            Assert.AreEqual(-1, kyu6CalculateStringRotation.ShiftedDiff("Moose","moose"));
-            Assert.AreEqual(2, kyu6CalculateStringRotation.ShiftedDiff("isn't","'tisn"));
-            Assert.AreEqual(0, kyu6CalculateStringRotation.ShiftedDiff("Esham","Esham"));
-            Assert.AreEqual(0, kyu6CalculateStringRotation.ShiftedDiff(" "," "));
-            Assert.AreEqual(-1, kyu6CalculateStringRotation.ShiftedDiff("hoop","pooh"));
-            Assert.AreEqual(-1, kyu6CalculateStringRotation.ShiftedDiff("  "," "));
+            var num = new int[] {2, 3, 9};
+            var newNum = new int[] {2, 4, 0};
+            Assert.AreEqual(newNum, kyu6Plus1Array.UpArray(num));
+        }
+
+        [Test]
+        public void Test2()
+        {
+            var num = new int[] {4, 3, 2, 5};
+            var newNum = new int[] {4, 3, 2, 6};
+            Assert.AreEqual(newNum, kyu6Plus1Array.UpArray(num));
         }
     }
 }
