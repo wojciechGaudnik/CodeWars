@@ -1,16 +1,9 @@
-using System;
 using System.Linq;
 
 namespace Katas
 {
     public class kyu6Plus1Array
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(string.Join("", UpArray(new[] {9, 9, 9})));
-
-        }
-
         public static int[] UpArray(int[] num)
         {
             if(num.Length == 0 || num.Any(i => i < 0 || i > 9)) return null;
