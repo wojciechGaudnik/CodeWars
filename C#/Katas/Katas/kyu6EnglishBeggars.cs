@@ -6,15 +6,6 @@ namespace Katas
 {
     public class kyu6EnglishBeggars
     {
-        public static void Main(string[] args)
-        {
-            int[] test = { 1, 2, 3, 4, 5 };
-            foreach (var one in Beggars(test, 0))
-            {
-                Console.WriteLine(one);
-            }
-        }
-
         public static int[] Beggars(int[] values, int n)
         {
             // if (values.Length == 0) return values;
