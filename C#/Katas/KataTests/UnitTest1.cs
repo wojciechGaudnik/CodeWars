@@ -4,22 +4,16 @@ namespace Solution
 {
     using NUnit.Framework;
     using System;
-    using System.Collections.Generic;
+    using System.Linq;
 
-    [TestFixture]
-    public class BasicTest
+    public class KataTests
     {
-        private static IEnumerable<TestCaseData> testCases
+        [Test]
+        public void ExampleTests()
         {
-            get
-            {
-                yield return new TestCaseData(new Node1(10, new Node1(1), new Node1(2))).Returns(13).SetDescription("Simple Test");
-                yield return new TestCaseData(new Node1(11, new Node1(0), new Node1(0, null, new Node1(1)))).Returns(12).SetDescription("Handles unbalanced trees");
-            }
+            Assert.AreEqual("srot the inner ctonnet in dsnnieedcg oredr", kyu6SrotTheInnerCtonnetInDsnnieedcgOredr.SortTheInnerContent("sort the inner content in descending order"));
+            Assert.AreEqual("wiat for me", kyu6SrotTheInnerCtonnetInDsnnieedcgOredr.SortTheInnerContent("wait for me"));
+            Assert.AreEqual("tihs ktaa is esay", kyu6SrotTheInnerCtonnetInDsnnieedcgOredr.SortTheInnerContent("this kata is easy"));
         }
-
-        [Test, TestCaseSource("testCases")]
-        public int Test(Node1 root) =>
-            kyu6SumTheTree.SumTree(root);
     }
 }

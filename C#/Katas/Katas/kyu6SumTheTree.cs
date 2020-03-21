@@ -1,16 +1,8 @@
-using System;
 
 namespace Katas
 {
     public class kyu6SumTheTree
     {
-        public static void Main(string[] args)
-        {
-            var test = new Node1(66, new Node1( 66, new Node1(1, new Node1(1))), new Node1(66) );
-            Console.WriteLine(66 * 3);
-            Console.WriteLine(SumTree(test));
-        }
-
         public static int SumTree(Node1 root)
         {
             return SumNode(root);
