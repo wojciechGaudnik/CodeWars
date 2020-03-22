@@ -3,17 +3,64 @@ using Katas;
 namespace Solution
 {
     using NUnit.Framework;
-    using System;
-    using System.Linq;
 
-    public class KataTests
+    [TestFixture]
+    class kyu6Christmas_treeTests
     {
-        [Test]
-        public void ExampleTests()
-        {
-            Assert.AreEqual("srot the inner ctonnet in dsnnieedcg oredr", kyu6SrotTheInnerCtonnetInDsnnieedcgOredr.SortTheInnerContent("sort the inner content in descending order"));
-            Assert.AreEqual("wiat for me", kyu6SrotTheInnerCtonnetInDsnnieedcgOredr.SortTheInnerContent("wait for me"));
-            Assert.AreEqual("tihs ktaa is esay", kyu6SrotTheInnerCtonnetInDsnnieedcgOredr.SortTheInnerContent("this kata is easy"));
-        }
+      	[Test]
+      	public void ChristmasTreeTest_0()
+      	{
+            Assert.AreEqual("", kyu6Christmas_tree.ChristmasTree(0));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_1()
+      	{
+        		Assert.AreEqual("*", kyu6Christmas_tree.ChristmasTree(1));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_2()
+      	{
+        		Assert.AreEqual(" * \n***", kyu6Christmas_tree.ChristmasTree(2));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_3()
+      	{
+        		Assert.AreEqual("  *  \n *** \n*****", kyu6Christmas_tree.ChristmasTree(3));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_4()
+      	{
+        		Assert.AreEqual("   *   \n  ***  \n ***** \n*******", kyu6Christmas_tree.ChristmasTree(4));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_5()
+      	{
+        		Assert.AreEqual("    *    \n   ***   \n  *****  \n ******* \n*********", kyu6Christmas_tree.ChristmasTree(5));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_6()
+      	{
+        		Assert.AreEqual("     *     \n    ***    \n   *****   \n  *******  \n ********* \n***********", kyu6Christmas_tree.ChristmasTree(6));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_7()
+      	{
+        		Assert.AreEqual("      *      \n     ***     \n    *****    \n   *******   \n  *********  \n *********** \n*************", kyu6Christmas_tree.ChristmasTree(7));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_8()
+      	{
+        		Assert.AreEqual("       *       \n      ***      \n     *****     \n    *******    \n   *********   \n  ***********  \n ************* \n***************", kyu6Christmas_tree.ChristmasTree(8));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_9()
+      	{
+        		Assert.AreEqual("        *        \n       ***       \n      *****      \n     *******     \n    *********    \n   ***********   \n  *************  \n *************** \n*****************", kyu6Christmas_tree.ChristmasTree(9));
+      	}
+      	[Test]
+      	public void ChristmasTreeTest_10()
+      	{
+        		Assert.AreEqual("         *         \n        ***        \n       *****       \n      *******      \n     *********     \n    ***********    \n   *************   \n  ***************  \n ***************** \n*******************", kyu6Christmas_tree.ChristmasTree(10));
+      	}
     }
 }

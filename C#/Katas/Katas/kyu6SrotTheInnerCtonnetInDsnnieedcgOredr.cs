@@ -5,11 +5,6 @@ namespace Katas
 {
     public class kyu6SrotTheInnerCtonnetInDsnnieedcgOredr
     {
-        public static void Main(string[] args)
-        {
-
-        }
-
         public static string SortTheInnerContent(string words)
         {
             var answer = new StringBuilder();
