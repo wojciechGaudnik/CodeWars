@@ -1,66 +1,73 @@
+using NUnit.Framework;
+using System;
 using Katas;
 
-namespace Solution
+namespace CodeWars
 {
-    using NUnit.Framework;
-
     [TestFixture]
-    class kyu6Christmas_treeTests
+    class KataTestClass
     {
-      	[Test]
-      	public void ChristmasTreeTest_0()
-      	{
-            Assert.AreEqual("", kyu6Christmas_tree.ChristmasTree(0));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_1()
-      	{
-        		Assert.AreEqual("*", kyu6Christmas_tree.ChristmasTree(1));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_2()
-      	{
-        		Assert.AreEqual(" * \n***", kyu6Christmas_tree.ChristmasTree(2));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_3()
-      	{
-        		Assert.AreEqual("  *  \n *** \n*****", kyu6Christmas_tree.ChristmasTree(3));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_4()
-      	{
-        		Assert.AreEqual("   *   \n  ***  \n ***** \n*******", kyu6Christmas_tree.ChristmasTree(4));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_5()
-      	{
-        		Assert.AreEqual("    *    \n   ***   \n  *****  \n ******* \n*********", kyu6Christmas_tree.ChristmasTree(5));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_6()
-      	{
-        		Assert.AreEqual("     *     \n    ***    \n   *****   \n  *******  \n ********* \n***********", kyu6Christmas_tree.ChristmasTree(6));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_7()
-      	{
-        		Assert.AreEqual("      *      \n     ***     \n    *****    \n   *******   \n  *********  \n *********** \n*************", kyu6Christmas_tree.ChristmasTree(7));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_8()
-      	{
-        		Assert.AreEqual("       *       \n      ***      \n     *****     \n    *******    \n   *********   \n  ***********  \n ************* \n***************", kyu6Christmas_tree.ChristmasTree(8));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_9()
-      	{
-        		Assert.AreEqual("        *        \n       ***       \n      *****      \n     *******     \n    *********    \n   ***********   \n  *************  \n *************** \n*****************", kyu6Christmas_tree.ChristmasTree(9));
-      	}
-      	[Test]
-      	public void ChristmasTreeTest_10()
-      	{
-        		Assert.AreEqual("         *         \n        ***        \n       *****       \n      *******      \n     *********     \n    ***********    \n   *************   \n  ***************  \n ***************** \n*******************", kyu6Christmas_tree.ChristmasTree(10));
-      	}
+        private int[,] maze = new int[,] { { 1, 1, 1, 1, 1, 1, 1 },
+                                       { 1, 0, 0, 0, 0, 0, 3 },
+                                       { 1, 0, 1, 0, 1, 0, 1 },
+                                       { 0, 0, 1, 0, 0, 0, 1 },
+                                       { 1, 0, 1, 0, 1, 0, 1 },
+                                       { 1, 0, 0, 0, 0, 0, 1 },
+                                       { 1, 2, 1, 0, 1, 0, 1 } };
+
+        [TestCase]
+        public void FinishTest1()
+        {
+            string[] directions = new string[] { "N", "N", "N", "N", "N", "E", "E", "E", "E", "E" };
+            kyu6MazeRunner test = new kyu6MazeRunner();
+            string result = test.mazeRunner(maze, directions);
+            Assert.AreEqual("Finish", result, "Should return: 'Finish'");
+        }
+
+        [TestCase]
+        public void FinishTest2()
+        {
+            string[] directions = new string[] { "N","N","N","N","N","E","E","S","S","E","E","N","N","E" };
+            kyu6MazeRunner test = new kyu6MazeRunner();
+            string result = test.mazeRunner(maze, directions);
+            Assert.AreEqual("Finish", result, "Should return: 'Finish'");
+        }
+
+        [TestCase]
+        public void FinishTest3()
+        {
+            string[] directions = new string[] { "N","N","N","N","N","E","E","E","E","E","W","W" };
+            kyu6MazeRunner test = new kyu6MazeRunner();
+            string result = test.mazeRunner(maze, directions);
+            Assert.AreEqual("Finish", result, "Should return: 'Finish'");
+        }
+
+        [TestCase]
+        public void DeadTest1()
+        {
+            string[] directions = new string[] { "N","N","N","W","W" };
+            kyu6MazeRunner test = new kyu6MazeRunner();
+            string result = test.mazeRunner(maze, directions);
+            Assert.AreEqual("Dead", result, "Should return: 'Dead'");
+        }
+
+        [TestCase]
+        public void DeadTest2()
+        {
+            string[] directions = new string[] { "N","N","N","N","N","E","E","S","S","S","S","S","S" };
+            kyu6MazeRunner test = new kyu6MazeRunner();
+            string result = test.mazeRunner(maze, directions);
+            Assert.AreEqual("Dead", result, "Should return: 'Dead'");
+        }
+
+        [TestCase]
+        public void LostTest1()
+        {
+            string[] directions = new string[] { "N","E","E","E","E" };
+            kyu6MazeRunner test = new kyu6MazeRunner();
+            string result = test.mazeRunner(maze, directions);
+            Assert.AreEqual("Lost", result, "Should return: 'Lost'");
+        }
+
     }
 }

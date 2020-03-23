@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,18 +5,6 @@ namespace Katas
 {
     public class kyu6Christmas_tree
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(ChristmasTree(0));
-            Console.WriteLine(" --- ");
-            Console.WriteLine(ChristmasTree(1));
-            Console.WriteLine(" --- ");
-            Console.WriteLine(ChristmasTree(2));
-            Console.WriteLine(" --- ");
-            Console.WriteLine(ChristmasTree(3));
-            Console.WriteLine(" --- ");
-        }
-
         public static string ChristmasTree(int height)
         {
             if(height == 0) return "";
