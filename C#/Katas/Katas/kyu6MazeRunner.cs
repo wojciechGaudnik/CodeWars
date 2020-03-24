@@ -13,14 +13,6 @@ namespace Katas
             { 1, 0, 0, 0, 0, 0, 1 },
             { 1, 2, 1, 0, 1, 0, 1 } };
 
-        public static void Main(string[] args)
-        {
-            string[] directions = new string[] { "N", "N", "N", "N", "N", "E", "E", "E", "E", "E" };
-            var test = new kyu6MazeRunner();
-            Console.WriteLine(test.mazeRunner(maze, directions));
-
-        }
-
         public string mazeRunner(int[,] maze, string[] directions)
         {
             var maxY  = maze.GetLength(0);
