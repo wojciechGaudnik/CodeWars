@@ -5,11 +5,6 @@ namespace Katas
 {
     public class kyu6StringAverage
     {
-        public static void Main(string[] args)
-        {
-
-        }
-
         public static string AverageString(string str)
         {
             var dictionary = new Dictionary<string, int>
