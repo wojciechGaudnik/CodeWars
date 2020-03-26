@@ -5,15 +5,6 @@ namespace Katas
 {
     public class kyu6MovesInSquaredStrings_II_
     {
-        public static void Main(string[] args)
-        {
-            var test = "abcd\nefgh\nijkl\nmnop";
-            Console.WriteLine(Rot(test));
-            Console.WriteLine(SelfieAndRot(test));
-            Console.WriteLine("---");
-
-        }
-
         public static string Rot(string strng) {
             return string.
                 Join("\n", strng

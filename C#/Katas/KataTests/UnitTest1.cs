@@ -1,27 +1,22 @@
+using NUnit.Framework;
 using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public static class Opstrings1Tests
+public class SolutionTest
 {
-    private static void testing(string actual, string expected)
+    [Test]
+    public void BasicTest1()
     {
-        Assert.AreEqual(expected, actual);
+        Assert.AreEqual("1112111121311", kyu6NumericalsOfAString.Numericals("Hello, World!"));
     }
     [Test]
-    public static void test1()
+    public void BasicTest2()
     {
-        Console.WriteLine("Fixed Tests Rot");
-        testing(kyu6MovesInSquaredStrings_II_.Oper(kyu6MovesInSquaredStrings_II_.Rot, "fijuoo\nCqYVct\nDrPmMJ\nerfpBA\nkWjFUG\nCVUfyL"),
-            "LyfUVC\nGUFjWk\nABpfre\nJMmPrD\ntcVYqC\nooujif");
-        testing(kyu6MovesInSquaredStrings_II_.Oper(kyu6MovesInSquaredStrings_II_.Rot, "rkKv\ncofM\nzXkh\nflCB"),
-            "BClf\nhkXz\nMfoc\nvKkr");
-
-        Console.WriteLine("Fixed Tests SelfieAndRot");
-        testing(kyu6MovesInSquaredStrings_II_.Oper(kyu6MovesInSquaredStrings_II_.SelfieAndRot, "xZBV\njsbS\nJcpN\nfVnP"),
-            "xZBV....\njsbS....\nJcpN....\nfVnP....\n....PnVf\n....NpcJ\n....Sbsj\n....VBZx");
-        testing(kyu6MovesInSquaredStrings_II_.Oper(kyu6MovesInSquaredStrings_II_.SelfieAndRot, "uLcq\nJkuL\nYirX\nnwMB"),
-            "uLcq....\nJkuL....\nYirX....\nnwMB....\n....BMwn\n....XriY\n....LukJ\n....qcLu");
+        Assert.AreEqual("11121111213112111131224132411122", kyu6NumericalsOfAString.Numericals("Hello, World! It's me, JomoPipi!"));
+    }
+    [Test]
+    public void BasicTest3()
+    {
+        Assert.AreEqual("11121122342", kyu6NumericalsOfAString.Numericals("hello hello"));
     }
 }
