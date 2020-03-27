@@ -1,22 +1,39 @@
-using NUnit.Framework;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Katas;
+using NUnit.Framework;
 
-public class SolutionTest
+[TestFixture]
+public class MyTest
 {
     [Test]
-    public void BasicTest1()
+    public void FirstTest()
     {
-        Assert.AreEqual("1112111121311", kyu6NumericalsOfAString.Numericals("Hello, World!"));
+        StringAssert.AreEqualIgnoringCase("06:35",kyu6ClockInMirror.WhatIsTheTime("05:25"));
     }
+
     [Test]
-    public void BasicTest2()
+    public void SecondTest()
     {
-        Assert.AreEqual("11121111213112111131224132411122", kyu6NumericalsOfAString.Numericals("Hello, World! It's me, JomoPipi!"));
+        StringAssert.AreEqualIgnoringCase("11:59",kyu6ClockInMirror.WhatIsTheTime("12:01"));
     }
+
     [Test]
-    public void BasicTest3()
+    public void ThirdTest()
     {
-        Assert.AreEqual("11121122342", kyu6NumericalsOfAString.Numericals("hello hello"));
+        StringAssert.AreEqualIgnoringCase("12:02", kyu6ClockInMirror.WhatIsTheTime("11:58"));
+    }
+
+    [Test]
+    public void FourhTest()
+    {
+        StringAssert.AreEqualIgnoringCase("12:00", kyu6ClockInMirror.WhatIsTheTime("12:00"));
+    }
+
+    [Test]
+    public void FifthTest()
+    {
+        StringAssert.AreEqualIgnoringCase("02:00", kyu6ClockInMirror.WhatIsTheTime("10:00"));
     }
 }

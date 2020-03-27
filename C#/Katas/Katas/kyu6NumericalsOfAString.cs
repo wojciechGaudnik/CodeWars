@@ -5,11 +5,6 @@ namespace Katas
 {
     public class kyu6NumericalsOfAString
     {
-        public static void Main(string[] args)
-        {
-
-        }
-
         public static string Numericals(string s)
         {
             var dictionary = new Dictionary<char, int>();
