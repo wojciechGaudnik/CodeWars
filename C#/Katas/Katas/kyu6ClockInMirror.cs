@@ -1,26 +1,9 @@
-using System;
 using System.Collections.Generic;
 
 namespace Katas
 {
     public class kyu6ClockInMirror
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(WhatIsTheTime("09:00"));
-            Console.WriteLine(WhatIsTheTime("10:00"));
-            Console.WriteLine(WhatIsTheTime("11:00"));
-            Console.WriteLine(WhatIsTheTime("12:00"));
-            Console.WriteLine(WhatIsTheTime("01:00"));
-            Console.WriteLine(WhatIsTheTime("02:00"));
-            Console.WriteLine(WhatIsTheTime("03:00"));
-            // Console.WriteLine(WhatIsTheTime("12:22"));
-            // Console.WriteLine(WhatIsTheTime("11:38"));
-            // Console.WriteLine(WhatIsTheTime("11:30"));
-            Console.WriteLine(WhatIsTheTime("05:25").Equals("06:35"));
-            Console.WriteLine(WhatIsTheTime("05:25"));
-        }
-
         public static string WhatIsTheTime(string timeInMirror)
         {
             var hours = int.Parse(timeInMirror.Split(":")[0]);
