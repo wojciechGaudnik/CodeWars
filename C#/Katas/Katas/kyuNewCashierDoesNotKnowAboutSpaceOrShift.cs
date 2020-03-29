@@ -6,13 +6,6 @@ namespace Katas
 {
     public class kyuNewCashierDoesNotKnowAboutSpaceOrShift
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(GetOrder("pizzachickenfriesburgercokemilkshakefriessandwich"));
-
-
-        }
-
         public static string GetOrder(string input)
         {
             var names = new LinkedList<string>();

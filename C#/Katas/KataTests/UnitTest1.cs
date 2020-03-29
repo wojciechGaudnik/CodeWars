@@ -1,21 +1,18 @@
-using NUnit.Framework;
-using System;
 using Katas;
 
-[TestFixture]
-public class OrderTest
-{
-    [Test]
-    public void Test1()
-    {
-        Assert.AreEqual("Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke",
-            kyuNewCashierDoesNotKnowAboutSpaceOrShift.GetOrder("milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza"));
-    }
+namespace Solution {
+    using NUnit.Framework;
+    using System;
 
-    [Test]
-    public void Test2()
+    [TestFixture]
+    public class Test
     {
-        Assert.AreEqual("Burger Fries Fries Chicken Pizza Sandwich Milkshake Coke",
-            kyuNewCashierDoesNotKnowAboutSpaceOrShift.GetOrder("pizzachickenfriesburgercokemilkshakefriessandwich"));
+        [Test]
+        public void BasicTests()
+        {
+            Assert.AreEqual(true, kyu6AreWeAlternate.IsAlt("amazon"));
+            Assert.AreEqual(false, kyu6AreWeAlternate.IsAlt("apple"));
+            Assert.AreEqual(true, kyu6AreWeAlternate.IsAlt("banana"));
+        }
     }
 }
