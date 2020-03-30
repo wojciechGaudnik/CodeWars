@@ -1,17 +1,9 @@
-using System;
 using System.Linq;
 
 namespace Katas
 {
     public class kyu6AreWeAlternate
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(IsAlt("amazon"));
-            Console.WriteLine(IsAlt("cicab"));
-            Console.WriteLine(IsAlt("jeiac"));
-        }
-
         public static bool IsAlt(string word)
         {
             var vowels = new []{'a', 'e', 'i', 'o', 'u'};
