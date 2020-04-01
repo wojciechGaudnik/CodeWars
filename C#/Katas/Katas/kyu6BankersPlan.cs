@@ -4,10 +4,6 @@ namespace Katas
 {
     public class kyu6BankersPlan
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Fortune(9999, 61.8161, 10000, 3, 0));
-        }
 
         public static Boolean Fortune(int f0, double p, int c0, int n, double i)
         {
