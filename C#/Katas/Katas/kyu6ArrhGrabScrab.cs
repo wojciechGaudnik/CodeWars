@@ -6,13 +6,6 @@ namespace Katas
 {
     public class kyu6ArrhGrabScrab
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(string.Join(" ",
-                Grabscrab("ortsp", new List<string> {"sport", "parrot", "ports", "matey"})));
-
-        }
-
         public static List<string> Grabscrab(string anagram, List<string> dictionary)
         {
             var sortedAnagram = sortString(anagram);
