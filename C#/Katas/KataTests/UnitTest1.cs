@@ -1,26 +1,24 @@
 using Katas;
 
-namespace myjinxin
-{
+namespace Solution {
     using NUnit.Framework;
     using System;
 
     [TestFixture]
-    public class myjinxin
+    public class SolutionTest
     {
+        private static object[] sampleTestCases = new object[]
+        {
+            new object[] {4.2, 4},
+            new object[] {4.4, 4.5},
+            new object[] {4.6, 4.5},
+            new object[] {4.8, 5},
+        };
 
-        [Test]
-        public void BasicTests(){
-            var kata=new kyu6SimpleFun79DeleteADigit();
-
-            Assert.AreEqual(52,kata.DeleteDigit(152));
-
-            Assert.AreEqual(101,kata.DeleteDigit(1001));
-
-            Assert.AreEqual(1,kata.DeleteDigit(10));
-
-
+        [Test, TestCaseSource("sampleTestCases")]
+        public void SampleTest(double n, double expected)
+        {
+            Assert.AreEqual(expected, kyu6RoundByHalfSteps.Solution(n));
         }
-
     }
 }

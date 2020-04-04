@@ -4,12 +4,6 @@ namespace Katas
 {
     public class kyu6SimpleFun79DeleteADigit
     {
-        public static void Main(string[] args)
-        {
-            var test = new kyu6SimpleFun79DeleteADigit();
-            Console.WriteLine(test.DeleteDigit(152));
-        }
-
         public int DeleteDigit(int n)
         {
             var max = int.MinValue;
