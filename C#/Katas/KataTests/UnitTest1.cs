@@ -1,14 +1,16 @@
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public class PlugboardTestConstruction {
-    [Test]
-    public void ValidConstruction() {
-        var pb = new kyu6TheEnigmaMachinePart1ThePlugboard("AB");
-        Assert.AreEqual('B', pb.process('A'), "A has to be translated to B with 'AB'");
-        Assert.AreEqual('A', pb.process('B'), "B has to be translated to A with 'AB'");
-        Assert.AreEqual('C', pb.process('C'), "C has to stay C with 'AB'");
+namespace Solution {
+    using NUnit.Framework;
+
+    [TestFixture]
+    public class SampleTests
+    {
+        [Test]
+        public void Tests()
+        {
+            Assert.AreEqual(new (int, int)[]{(1, 3), (2, 4)}, kyu6DifferenceOf2.TwosDifference(new int[]{1, 2, 3, 4}));
+            Assert.AreEqual(new (int, int)[]{(1, 3), (4, 6)}, kyu6DifferenceOf2.TwosDifference(new int[]{1, 3, 4, 6}));
+        }
     }
 }

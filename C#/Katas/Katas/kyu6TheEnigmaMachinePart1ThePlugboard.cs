@@ -6,14 +6,6 @@ namespace Katas
 {
     public class kyu6TheEnigmaMachinePart1ThePlugboard
     {
-        public static void Main(string[] args)
-        {
-            var test = "ABCDEFGHIJKLMNOPQRST";
-            Console.WriteLine(test.Length);
-
-
-        }
-
         Dictionary<char, char> ce = new Dictionary<char, char>();
         Dictionary<char, char> de = new Dictionary<char, char>();
 
