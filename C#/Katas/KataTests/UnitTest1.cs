@@ -2,15 +2,24 @@ using Katas;
 
 namespace Solution {
     using NUnit.Framework;
+    using System;
 
     [TestFixture]
-    public class SampleTests
+    public class SolutionTest
     {
-        [Test]
-        public void Tests()
+        private static object[] Example_Test_Cases = new object[]
         {
-            Assert.AreEqual(new (int, int)[]{(1, 3), (2, 4)}, kyu6DifferenceOf2.TwosDifference(new int[]{1, 2, 3, 4}));
-            Assert.AreEqual(new (int, int)[]{(1, 3), (4, 6)}, kyu6DifferenceOf2.TwosDifference(new int[]{1, 3, 4, 6}));
+            new object[] {"12:00", 0},
+            new object[] {"12:00", 360},
+            new object[] {"03:00", 90},
+            new object[] {"06:00", 180},
+            new object[] {"09:00", 270},
+        };
+
+        [Test, TestCaseSource(typeof(SolutionTest), "Example_Test_Cases")]
+        public void Example_Test(string expected, double test)
+        {
+            Assert.AreEqual(expected, kyu6ClockyMcClockFace.WhatTimeIsIt(test));
         }
     }
 }

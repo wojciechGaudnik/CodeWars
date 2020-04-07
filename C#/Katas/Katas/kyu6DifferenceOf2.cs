@@ -6,12 +6,6 @@ namespace Katas
 {
     public class kyu6DifferenceOf2
     {
-        public static void Main(string[] args)
-        {
-            var test = new[] {1, 23, 3, 4, 7};
-            Console.WriteLine(string.Join(", ", TwosDifference(test)));
-        }
-
         public static (int, int)[] TwosDifference(int[] array)
         {
             Array.Sort(array);
