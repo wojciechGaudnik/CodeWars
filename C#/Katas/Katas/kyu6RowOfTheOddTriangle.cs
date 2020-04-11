@@ -7,6 +7,7 @@ namespace Katas
         public static void Main(string[] args)
         {
             Console.WriteLine(OddRow(13));
+            Console.WriteLine("teste");
         }
 
         public static long[] OddRow(int n)
