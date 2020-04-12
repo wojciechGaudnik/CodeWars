@@ -4,12 +4,6 @@ namespace Katas
 {
     public class kyu6RowOfTheOddTriangle
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(OddRow(13));
-            Console.WriteLine("teste");
-        }
-
         public static long[] OddRow(int n)
         {
             if(n == 1) return new long[]{1};

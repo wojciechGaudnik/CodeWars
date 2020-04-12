@@ -3,15 +3,21 @@ using Katas;
 using NUnit.Framework;
 
 [TestFixture]
-public class KataTest
-{
-    private kyu7NinjavsSamuraiStrike ninja = new kyu7NinjavsSamuraiStrike("Ninja");
-    private kyu7NinjavsSamuraiStrike samurai = new kyu7NinjavsSamuraiStrike("Samurai");
+public static class BallTests {
+
+    private static void testing(int actual, int expected)
+    {
+        Assert.AreEqual(expected, actual);
+    }
 
     [Test]
-    public void Tests()
+    public static void test1()
     {
-        samurai.Strike(ninja, 4);
-        Assert.AreEqual(60, ninja.Health);
+        testing(kyu6BallUpwards.MaxBall(37), 10);
+        testing(kyu6BallUpwards.MaxBall(45), 13);
+        testing(kyu6BallUpwards.MaxBall(99), 28);
+        testing(kyu6BallUpwards.MaxBall(85), 24);
+        testing(kyu6BallUpwards.MaxBall(85), 24);
+        testing(kyu6BallUpwards.MaxBall(23), 7);
     }
 }
