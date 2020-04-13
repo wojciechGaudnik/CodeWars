@@ -19,5 +19,6 @@ public static class BallTests {
         testing(kyu6BallUpwards.MaxBall(85), 24);
         testing(kyu6BallUpwards.MaxBall(85), 24);
         testing(kyu6BallUpwards.MaxBall(23), 7);
+        testing(kyu6BallUpwards.MaxBall(136), 39);
     }
 }
