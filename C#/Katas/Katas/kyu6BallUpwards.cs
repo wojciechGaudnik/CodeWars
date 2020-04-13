@@ -6,9 +6,7 @@ namespace Katas
     {
         public static void Main(string[] args)
         {
-            // Console.WriteLine(MaxBall(23));
-            Console.WriteLine(PlayerRankUp(99));
-            Console.WriteLine(PlayerRankUp(101));
+            Console.WriteLine(MaxBall(23));
 
         }
 
