@@ -1,24 +1,24 @@
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public static class BallTests {
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
 
-    private static void testing(int actual, int expected)
+    [TestFixture]
+    public class KataTest
     {
-        Assert.AreEqual(expected, actual);
-    }
+        [Test]
+        public void BasicTests()
+        {
+            Assert.AreEqual(1, kyu6MutalRecursion.F(0));
+            Assert.AreEqual(0, kyu6MutalRecursion.M(0));
 
-    [Test]
-    public static void test1()
-    {
-        testing(kyu6BallUpwards.MaxBall(37), 10);
-        testing(kyu6BallUpwards.MaxBall(45), 13);
-        testing(kyu6BallUpwards.MaxBall(99), 28);
-        testing(kyu6BallUpwards.MaxBall(85), 24);
-        testing(kyu6BallUpwards.MaxBall(85), 24);
-        testing(kyu6BallUpwards.MaxBall(23), 7);
-        testing(kyu6BallUpwards.MaxBall(136), 39);
+            Assert.AreEqual(1, kyu6MutalRecursion.F(1));
+            Assert.AreEqual(0, kyu6MutalRecursion.M(1));
+
+            Assert.AreEqual(2, kyu6MutalRecursion.F(2));
+            Assert.AreEqual(1, kyu6MutalRecursion.M(2));
+        }
     }
 }

@@ -4,13 +4,6 @@ namespace Katas
 {
     public class kyu6BallUpwards
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(MaxBall(15));
-            // Console.WriteLine(MaxBall(23));
-
-        }
-
         public static int MaxBall(int v0)
         {
             var v = Decimal.Divide(v0 * 5, 18);
