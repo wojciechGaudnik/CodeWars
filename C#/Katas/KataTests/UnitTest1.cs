@@ -1,24 +1,28 @@
+using NUnit.Framework;
+using System;
 using Katas;
 
-namespace Solution
+[TestFixture]
+public class ListTests
 {
-    using NUnit.Framework;
-    using System;
-
-    [TestFixture]
-    public class KataTest
+    [Test]
+    public void When03_Then6()
     {
-        [Test]
-        public void BasicTests()
-        {
-            Assert.AreEqual(1, kyu6MutalRecursion.F(0));
-            Assert.AreEqual(0, kyu6MutalRecursion.M(0));
-
-            Assert.AreEqual(1, kyu6MutalRecursion.F(1));
-            Assert.AreEqual(0, kyu6MutalRecursion.M(1));
-
-            Assert.AreEqual(2, kyu6MutalRecursion.F(2));
-            Assert.AreEqual(1, kyu6MutalRecursion.M(2));
-        }
+        Assert.AreEqual(6,kyu6TwistedSum.Solution(3));
+    }
+    [Test]
+    public void When10_Then46()
+    {
+        Assert.AreEqual(46,kyu6TwistedSum.Solution(10));
+    }
+    [Test]
+    public void When11_Then48()
+    {
+        Assert.AreEqual(48,kyu6TwistedSum.Solution(11));
+    }
+    [Test]
+    public void When12_Then51()
+    {
+        Assert.AreEqual(51,kyu6TwistedSum.Solution(12));
     }
 }
