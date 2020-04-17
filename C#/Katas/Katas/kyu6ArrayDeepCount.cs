@@ -35,18 +35,18 @@ namespace Katas
             }
         };
 
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(DeepCount(new object[] {1, 2, 3}));
-            Console.WriteLine(DeepCount(new object[] {"x", "y", new object[] {"z"}}));
-            // Console.WriteLine(DeepCount(Basic_Test_Cases[4]));
-        }
-
         public static int DeepCount(object a)
         {
             var sum = 0;
-            if (!(a is IEnumerable test) || a is string) return sum;
-            return ((object[]) test).Length + ((object[]) test).Sum(DeepCount);
+            if (a is IEnumerable test && !(a is String))
+            {
+                sum = ((object[])test).Length;
+                foreach (var one in (object[])test)
+                {
+                    sum += DeepCount(one);
+                }
+            }
+            return sum;
         }
 
 
