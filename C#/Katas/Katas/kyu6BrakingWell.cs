@@ -1,15 +1,9 @@
 using System;
-using System.Threading;
 
 namespace Katas
 {
     public class kyu6BrakingWell
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Dist(144, 0.3));
-        }
-
         private static double g = 9.81;
 
         public static double Dist(double v, double mu) 		  // suppose reaction time is 1
