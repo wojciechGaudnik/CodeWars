@@ -14,7 +14,7 @@ namespace Katas
         public RGB Parse(string color)
         {
             if (presetColors.ContainsKey(color.ToLower())) color = presetColors[color.ToLower()];
-            if (color.Length == 4) color = "#" + color[1] + color[1] + color[2] + color[2] + color[3] + color[3];
+            if (color.Length == 4) color = string.Format("#{0}{0}{1}{1}{2}{2}", color[1], color[2], color[3]);
             if (color[0].Equals('#') && color.Length == 7)
             {
                 return new RGB(
