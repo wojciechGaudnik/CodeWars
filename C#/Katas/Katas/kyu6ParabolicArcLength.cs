@@ -4,11 +4,6 @@ namespace Katas
 {
     public class kyu6ParabolicArcLength
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(lenCurve(10));
-        }
-
         public static double lenCurve(int n)
         {
             var h = 1.0 / n;
