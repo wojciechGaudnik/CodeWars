@@ -4,13 +4,6 @@ namespace Katas
 {
     public class kyu6RotateArrayJS
     {
-        public static void Main(string[] args)
-        {
-            var data = new object[] { 1, 2, 3, 4, 5 };
-            Console.WriteLine(string.Join(",", Rotate(data, 2)));
-            // Console.WriteLine(string.Join(",", Rotate(data, 6)));
-        }
-
         public static object[] Rotate(object[] array, int n)
         {
             object[] answer = new object[array.Length];
