@@ -21,7 +21,7 @@ namespace Katas
         }
     }
 
-    public class Node
+    public partial class Node
     {
         public Node Left;
         public Node Right;

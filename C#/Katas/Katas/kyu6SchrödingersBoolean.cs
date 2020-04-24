@@ -1,5 +1,3 @@
-using System;
-
 namespace Katas
 {
     public class kyu6SchrödingersBoolean
@@ -15,13 +13,5 @@ namespace Katas
         {
             return true;
         }
-
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(kyu6SchrödingersBoolean.omnibool == true);
-            Console.WriteLine(kyu6SchrödingersBoolean.omnibool == false);
-        }
-
-
     }
 }
