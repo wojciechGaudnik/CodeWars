@@ -1,65 +1,78 @@
+using NUnit.Framework;
+using System;
+using System.Linq;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using Katas;
 
-namespace Solution
+[TestFixture]
+public class BingoCardTests
 {
-  using NUnit.Framework;
-  using System;
-
-  [TestFixture]
-  public class SolutionTest
-  {
-    [Test, Description("should be able to handle an empty list.")]
-    public void EmptyTest()
+    [Test]
+    public void CardHas24Numbers()
     {
-      Assert.AreEqual(12, Node.InsertNth(null, 0, 12).Data, "should be able to insert a node on an empty/null list.");
-      Assert.AreEqual(null, Node.InsertNth(null, 0, 12).Next, "value at index 1 should be null.");
+        Assert.AreEqual(24, kyu6BingoCard.GetCard().Length);
     }
 
-    [Test, Description("should be able to insert a new node at the head of a list.")]
-    public void TestIndex0()
+    [Test]
+    public void EachNumberOnCardIsUnique()
     {
-      Assert.AreEqual(23, Node.InsertNth(Node.BuildOneTwoThree(), 0, 23).Data, "should be able to insert new node at head of list.");
-      Assert.AreEqual(1, Node.InsertNth(Node.BuildOneTwoThree(), 0, 23).Next.Data, "value for node at index 1 should be 1.");
-      Assert.AreEqual(2, Node.InsertNth(Node.BuildOneTwoThree(), 0, 23).Next.Next.Data, "value for node at index 2 should be 2.");
-      Assert.AreEqual(3, Node.InsertNth(Node.BuildOneTwoThree(), 0, 23).Next.Next.Next.Data, "value for node at index 3 should be 3.");
-      Assert.AreEqual(null, Node.InsertNth(Node.BuildOneTwoThree(), 0, 23).Next.Next.Next.Next, "value at index 4 should be null.");
+        var card = kyu6BingoCard.GetCard();
+        Assert.AreEqual(card.Length, card.ToList().Distinct().Count());
     }
 
-    [Test, Description("should be able to insert a new node at index 1 of a list.")]
-    public void TestIndex1()
+    [TestCase("B", 5)]
+    [TestCase("I", 5)]
+    [TestCase("N", 4)]
+    [TestCase("G", 5)]
+    [TestCase("O", 5)]
+    public void ColumnContainsCorrectNumberOfItems(string column, int count)
     {
-      Assert.AreEqual(1, Node.InsertNth(Node.BuildOneTwoThree(), 1, 23).Data, "value for node at index 0 should remain unchanged.");
-      Assert.AreEqual(23, Node.InsertNth(Node.BuildOneTwoThree(), 1, 23).Next.Data, "value for node at index 1 should be 23.");
-      // Assert.AreEqual(2, Node.InsertNth(Node.BuildOneTwoThree(), 1, 23).Next.Next.Data, "value for node at index 2 should be 2.");
-      // Assert.AreEqual(3, Node.InsertNth(Node.BuildOneTwoThree(), 1, 23).Next.Next.Next.Data, "value for node at index 3 should be 3.");
-      // Assert.AreEqual(null, Node.InsertNth(Node.BuildOneTwoThree(), 1, 23).Next.Next.Next.Next, "value at index 4 should be null.");
+        var numbers = kyu6BingoCard.GetCard().Where(x => x.StartsWith(column)).ToList();
+        Assert.AreEqual(count, numbers.Count);
     }
 
-    [Test, Description("should be able to insert a new node at index 2 of a list.")]
-    public void TestIndex2()
+    [Test]
+    public void NumbersAreOrderedByColumn()
     {
-      Assert.AreEqual(1, Node.InsertNth(Node.BuildOneTwoThree(), 2, 23).Data, "value for node at index 0 should remain unchanged.");
-      Assert.AreEqual(2, Node.InsertNth(Node.BuildOneTwoThree(), 2, 23).Next.Data, "value for node at index 1 should remain unchanged.");
-      Assert.AreEqual(23, Node.InsertNth(Node.BuildOneTwoThree(), 2, 23).Next.Next.Data, "value for node at index 2 should be 23.");
-      Assert.AreEqual(3, Node.InsertNth(Node.BuildOneTwoThree(), 2, 23).Next.Next.Next.Data, "value for node at index 3 should be 3.");
-      Assert.AreEqual(null, Node.InsertNth(Node.BuildOneTwoThree(), 2, 23).Next.Next.Next.Next, "value at index 4 should be null.");
+        var columns = string.Join("", kyu6BingoCard.GetCard().ToList()
+            .Select(x => x.Substring(0, 1)).ToArray());
+
+        Assert.IsTrue(Regex.IsMatch(columns, "^[B]*[I]*[N]*[G]*[O]*$"));
     }
 
-    [Test, Description("should be able to insert a new node at the tail of a list.")]
-    public void TestIndex3()
+    [TestCase("B", 1, 15)]
+    [TestCase("I", 16, 30)]
+    [TestCase("N", 31, 45)]
+    [TestCase("G", 46, 60)]
+    [TestCase("O", 61, 75)]
+    public void NumbersWithinColumnAreAllInTheCorrectRange(string column, int start, int end)
     {
-      Assert.AreEqual(1, Node.InsertNth(Node.BuildOneTwoThree(), 3, 23).Data, "head should remain unchanged after inserting new node at tail");
-      Assert.AreEqual(2, Node.InsertNth(Node.BuildOneTwoThree(), 3, 23).Next.Data, "value at index 1 should remain unchanged after inserting new node at tail");
-      Assert.AreEqual(3, Node.InsertNth(Node.BuildOneTwoThree(), 3, 23).Next.Next.Data, "value at index 2 should remain unchanged after inserting new node at tail");
-      Assert.AreEqual(23, Node.InsertNth(Node.BuildOneTwoThree(), 3, 23).Next.Next.Next.Data, "value for node at index 3 should be 23.");
-      Assert.AreEqual(null, Node.InsertNth(Node.BuildOneTwoThree(), 3, 23).Next.Next.Next.Next, "value at index 4 should be null.");
+        var numbers = kyu6BingoCard.GetCard().Where(x => x.StartsWith(column)).ToList();
+
+        foreach (var number in numbers)
+        {
+            var n = Convert.ToInt32(number.Substring(1));
+            Assert.GreaterOrEqual(n, start, "Column {0} should be in the range between {1} and {2}, found: {3}", column, start, end, number);
+            Assert.LessOrEqual(n, end, "Column {0} should be in the range between {1} and {2}, found: {3}", column, start, end, number);
+        }
     }
 
-    [Test, Description("should throw ArgumentOutOfRangeException if index is out of range")]
-    public void ExceptionTest()
+    [Test]
+    public void NumbersWithinColumnAreInRandomOrder()
     {
-      Assert.Throws<ArgumentOutOfRangeException>(() => Node.InsertNth(Node.BuildOneTwoThree(), 4, 23), "Invalid index value should throw ArugmentException");
-      Assert.Throws<ArgumentOutOfRangeException>(() => Node.InsertNth(Node.BuildOneTwoThree(), -4, 23), "Invalid index value should throw ArugmentException");
+        var card = kyu6BingoCard.GetCard().Select(x => Convert.ToInt32(x.Substring(1))).ToArray();
+
+        var isRandom = false;
+        for (var i = 1; i < card.Length; i++)
+        {
+            if (card[i - 1] > card[i])
+            {
+                isRandom = true;
+                break;
+            }
+        }
+
+        Assert.IsTrue(isRandom, "Unlikely result, is the list ordered?");
     }
-  }
 }
