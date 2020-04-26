@@ -6,11 +6,6 @@ namespace Katas
 {
     public class kyu6BingoCard
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(string.Join(", ", GetCard()));
-        }
-        
         public static string[] GetCard()
         {
             var answer = new LinkedList<string>();
@@ -45,6 +40,6 @@ namespace Katas
             return answer.ToArray();
         }
 
-        
+
     }
 }
