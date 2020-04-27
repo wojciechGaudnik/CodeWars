@@ -1,24 +1,40 @@
+using System;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution {
-    using NUnit.Framework;
-    using System;
-
-    [TestFixture]
-    public class SolutionTest
+[TestFixture]
+public static class OpstringsTests
+{
+    private static void testing(string actual, string expected)
     {
+        Assert.AreEqual(expected, actual);
+    }
 
-        [Test]
-        public void SampleTest1()
+    [Test]
+    public static void test1()
+    {
+        Console.WriteLine("Fixed Tests Rot90Clock");
+        testing(
+            kyu6MovesInSquaredStringsIII.Oper(kyu6MovesInSquaredStringsIII.Rot90Clock,
+                "rgavce\nvGcEKl\ndChZVW\nxNWgXR\niJBYDO\nSdmEKb"),
+            "Sixdvr\ndJNCGg\nmBWhca\nEYgZEv\nKDXVKc\nbORWle");
+    }
+
+    [Test]
+    public static void test2()
+    {
+        Console.WriteLine("Fixed Tests Diag1Sym");
+        testing(
+            kyu6MovesInSquaredStringsIII.Oper(kyu6MovesInSquaredStringsIII.Diag1Sym,
+                "wuUyPC\neNHWxw\nehifmi\ntBTlFI\nvWNpdv\nIFkGjZ"),
+            "weetvI\nuNhBWF\nUHiTNk\nyWflpG\nPxmFdj\nCwiIvZ");
+    }
+
+    [Test]
+        public static void test3()
         {
-            Assert.AreEqual(10, kyu6IntegerDepth.ComputeDepth(1));
-        }
-
-        [Test]
-        public void SampleTest2()
-        {
-            Assert.AreEqual(9, kyu6IntegerDepth.ComputeDepth(42));
-        }
-
+        Console.WriteLine("Fixed Tests SelfieAndDiag1");
+        testing(kyu6MovesInSquaredStringsIII.Oper(kyu6MovesInSquaredStringsIII.SelfieAndDiag1, "NJVGhr\nMObsvw\ntPhCtl\nsoEnhi\nrtQRLK\nzjliWg"),
+            "NJVGhr|NMtsrz\nMObsvw|JOPotj\ntPhCtl|VbhEQl\nsoEnhi|GsCnRi\nrtQRLK|hvthLW\nzjliWg|rwliKg");
     }
 }
