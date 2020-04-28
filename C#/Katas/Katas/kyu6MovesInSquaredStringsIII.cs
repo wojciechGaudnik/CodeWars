@@ -6,13 +6,6 @@ namespace Katas
 {
     public class kyu6MovesInSquaredStringsIII
     {
-        public static void Main(string[] args)
-        {
-
-            var test = "rgavce\nvGcEKl\ndChZVW\nxNWgXR\niJBYDO\nSdmEKb";
-            Console.WriteLine(kyu6MovesInSquaredStringsIII.Rot90Clock(test));
-        }
-
         public static string Rot90Clock(string strng) {
             var answer = new StringBuilder();
             var strngArr = strng.Split('\n').ToArray();
