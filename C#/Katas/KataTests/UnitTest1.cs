@@ -1,36 +1,19 @@
-// using Katas;
-//
-// namespace Tree {
-//
-//     using NUnit.Framework;
-//     using System;
-//
-//     [TestFixture]
-//     public class SolutionTest
-//     {
-//         /**
-//      * null
-//      */
-//         [Test]
-//         public void MaxSumInNullTree()
-//         {
-//             TreeNode root = null;
-//             Assert.AreEqual(0, Solution.MaxSum(root));
-//         }
-//
-//         /**
-//      *      5//      *    /   \
-//      *  -22    11
-//      *  / \    / \
-//      * 9  50  9   2
-//      */
-//         [Test]
-//         public void MaxSumInPerfectTree()
-//         {
-//             TreeNode left = TreeNode.Leaf(-22).WithLeaves(9, 50);
-//             TreeNode right = TreeNode.Leaf(11).WithLeaves(9, 2);
-//             TreeNode root = TreeNode.Join(5, left, right);
-//             Assert.AreEqual(33, Solution.MaxSum(root));
-//         }
-//     }
-// }
+using NUnit.Framework;
+using System;
+using Katas;
+
+namespace Solution
+{
+    [TestFixture]
+    public class SolutionTest
+    {
+        [Test]
+        public void SimpleTests()
+        {
+            Assert.AreEqual(0, kyu6ShortestStepsToANumber.ShortestStepsToNum(1));
+            Assert.AreEqual(4, kyu6ShortestStepsToANumber.ShortestStepsToNum(12));
+            Assert.AreEqual(4, kyu6ShortestStepsToANumber.ShortestStepsToNum(16));
+            Assert.AreEqual(9, kyu6ShortestStepsToANumber.ShortestStepsToNum(71));
+        }
+    }
+}

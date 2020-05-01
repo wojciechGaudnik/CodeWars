@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -24,25 +23,6 @@ namespace Katas
             {
                 this.value = value;
             }
-        }
-
-        public static void Main(string[] args)
-        {
-
-            var test1 = new[] {1, 2};
-            Console.WriteLine(test1.Skip(1).ToArray().Length > 0);
-            Console.WriteLine(test1.Skip(1).Skip(1).Skip(1).ToArray().Length > 0);
-
-
-            // var test = ArrayToTree(new[] {1, 2, 3, 4, 5});
-            var test = ArrayToTree(new int[] {17, 0, -4, 3, 15});
-            Console.WriteLine(test.value);
-            Console.WriteLine(test.left.value);
-            Console.WriteLine(test.right.value);
-            Console.WriteLine(test.left.left.value);
-            Console.WriteLine(test.right.value);
-            var test = new TreeNode(1, null,null);
-
         }
 
         public static TreeNode ArrayToTree(int[] array)
