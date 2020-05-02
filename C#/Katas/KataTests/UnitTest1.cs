@@ -1,19 +1,19 @@
-using NUnit.Framework;
 using System;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution
+[TestFixture]
+public class Tests
 {
-    [TestFixture]
-    public class SolutionTest
+    [Test]
+    public static void ExampleTests()
     {
-        [Test]
-        public void SimpleTests()
-        {
-            Assert.AreEqual(0, kyu6ShortestStepsToANumber.ShortestStepsToNum(1));
-            Assert.AreEqual(4, kyu6ShortestStepsToANumber.ShortestStepsToNum(12));
-            Assert.AreEqual(4, kyu6ShortestStepsToANumber.ShortestStepsToNum(16));
-            Assert.AreEqual(9, kyu6ShortestStepsToANumber.ShortestStepsToNum(71));
-        }
+        Assert.AreEqual(123, kyu6LucasNumbers.lucasnum(-10));
+        Assert.AreEqual(-11, kyu6LucasNumbers.lucasnum(-5));
+        Assert.AreEqual(-1, kyu6LucasNumbers.lucasnum(-1));
+        Assert.AreEqual(2, kyu6LucasNumbers.lucasnum(0));
+        Assert.AreEqual(1, kyu6LucasNumbers.lucasnum(1));
+        Assert.AreEqual(11, kyu6LucasNumbers.lucasnum(5));
+        Assert.AreEqual(123, kyu6LucasNumbers.lucasnum(10));
     }
 }
