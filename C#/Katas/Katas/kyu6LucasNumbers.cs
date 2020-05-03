@@ -4,11 +4,6 @@ namespace Katas
 {
     public class kyu6LucasNumbers
     {
-        public static void Main(string[] args)
-        {
-
-        }
-
         public static long lucasnum(int n)
         {
             long n0 = 2;

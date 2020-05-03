@@ -1,19 +1,27 @@
+using NUnit.Framework;
 using System;
 using Katas;
-using NUnit.Framework;
 
 [TestFixture]
-public class Tests
+public class StairsTests
 {
     [Test]
-    public static void ExampleTests()
+    public void Test1()
     {
-        Assert.AreEqual(123, kyu6LucasNumbers.lucasnum(-10));
-        Assert.AreEqual(-11, kyu6LucasNumbers.lucasnum(-5));
-        Assert.AreEqual(-1, kyu6LucasNumbers.lucasnum(-1));
-        Assert.AreEqual(2, kyu6LucasNumbers.lucasnum(0));
-        Assert.AreEqual(1, kyu6LucasNumbers.lucasnum(1));
-        Assert.AreEqual(11, kyu6LucasNumbers.lucasnum(5));
-        Assert.AreEqual(123, kyu6LucasNumbers.lucasnum(10));
+        Assert.AreEqual(6, kyu6VasyaAndStairs.NumberOfSteps(10, 2));
+    }
+
+    [Test]
+    public void Test2()
+    {
+        Assert.AreEqual(-1, kyu6VasyaAndStairs.NumberOfSteps(3, 5));
+    }
+
+    [Test]
+    public void Test3()
+    {
+        Assert.AreEqual(10, kyu6VasyaAndStairs.NumberOfSteps(18, 10));
+        Assert.AreEqual(20, kyu6VasyaAndStairs.NumberOfSteps(21, 10));
+        Assert.AreEqual(2, kyu6VasyaAndStairs.NumberOfSteps(2, 2));
     }
 }
