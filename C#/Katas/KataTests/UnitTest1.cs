@@ -1,27 +1,17 @@
-using NUnit.Framework;
-using System;
 using Katas;
 
-[TestFixture]
-public class StairsTests
-{
-    [Test]
-    public void Test1()
-    {
-        Assert.AreEqual(6, kyu6VasyaAndStairs.NumberOfSteps(10, 2));
-    }
+namespace Solution {
+    using NUnit.Framework;
+    using System;
 
-    [Test]
-    public void Test2()
-    {
-        Assert.AreEqual(-1, kyu6VasyaAndStairs.NumberOfSteps(3, 5));
-    }
+    [TestFixture]
+    public class SolutionTest {
 
-    [Test]
-    public void Test3()
-    {
-        Assert.AreEqual(10, kyu6VasyaAndStairs.NumberOfSteps(18, 10));
-        Assert.AreEqual(20, kyu6VasyaAndStairs.NumberOfSteps(21, 10));
-        Assert.AreEqual(2, kyu6VasyaAndStairs.NumberOfSteps(2, 2));
+        [Test]
+        public void ExampleTests() {
+            Assert.AreEqual(11.691, kyu6CalculateTheAreaOfARegularNSidesPolygonInsideACircleOfRadiusR.AreaOfPolygonInsideCircle(3,3));
+            Assert.AreEqual(8, kyu6CalculateTheAreaOfARegularNSidesPolygonInsideACircleOfRadiusR.AreaOfPolygonInsideCircle(2,4));
+            Assert.AreEqual(14.86, kyu6CalculateTheAreaOfARegularNSidesPolygonInsideACircleOfRadiusR.AreaOfPolygonInsideCircle(2.5,5));
+        }
     }
 }
