@@ -5,13 +5,38 @@ namespace Solution {
     using System;
 
     [TestFixture]
-    public class SolutionTest {
+    public class ExampleTests
+    {
+        [Test]
+        public void LongestAtTheBeginning()
+        {
+            Assert.AreEqual(new Tuple<char?, int> ('a', 4), kyu6CharacterWithLongestConsecutiveRepetition.LongestRepetition("aaaabb"));
+            Assert.AreEqual(new Tuple<char?, int> ('b', 5), kyu6CharacterWithLongestConsecutiveRepetition.LongestRepetition("abbbbb"));
+        }
 
         [Test]
-        public void ExampleTests() {
-            Assert.AreEqual(11.691, kyu6CalculateTheAreaOfARegularNSidesPolygonInsideACircleOfRadiusR.AreaOfPolygonInsideCircle(3,3));
-            Assert.AreEqual(8, kyu6CalculateTheAreaOfARegularNSidesPolygonInsideACircleOfRadiusR.AreaOfPolygonInsideCircle(2,4));
-            Assert.AreEqual(14.86, kyu6CalculateTheAreaOfARegularNSidesPolygonInsideACircleOfRadiusR.AreaOfPolygonInsideCircle(2.5,5));
+        public void LongestAtTheEnd()
+        {
+            Assert.AreEqual(new Tuple<char?, int> ('a', 4), kyu6CharacterWithLongestConsecutiveRepetition.LongestRepetition("bbbaaabaaaa"));
+        }
+
+        [Test]
+        public void LongestInTheMiddle()
+        {
+            Assert.AreEqual(new Tuple<char?, int> ('u', 3), kyu6CharacterWithLongestConsecutiveRepetition.LongestRepetition("cbdeuuu900"));
+        }
+
+        [Test]
+        public void MultipleLongest()
+        {
+            Assert.AreEqual(new Tuple<char?, int> ('a', 2), kyu6CharacterWithLongestConsecutiveRepetition.LongestRepetition("aabb"));
+            Assert.AreEqual(new Tuple<char?, int> ('b', 1), kyu6CharacterWithLongestConsecutiveRepetition.LongestRepetition("ba"));
+        }
+
+        [Test]
+        public void EmptyString()
+        {
+            Assert.AreEqual(new Tuple<char?, int> (null, 0),  kyu6CharacterWithLongestConsecutiveRepetition.LongestRepetition(""));
         }
     }
 }
