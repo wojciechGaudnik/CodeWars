@@ -1,14 +1,7 @@
-using System;
-
 namespace Katas
 {
     public class kyu6SqrtApproximation
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(SqrtApproximation(5));
-        }
-
         public static object SqrtApproximation(int n)
         {
             for(var k = 0;;k++)

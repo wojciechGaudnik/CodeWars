@@ -6,13 +6,16 @@ namespace Solution
     using System;
 
     [TestFixture]
-    public class KataTests
+    public class NumberPyramidTests
     {
         [Test]
         public void BasicTests()
         {
-            Assert.AreEqual(2, kyu6SqrtApproximation.SqrtApproximation(4), "Should work for integer roots.");
-            Assert.AreEqual(new int[] { 2,3 }, kyu6SqrtApproximation.SqrtApproximation(5), "Should work for range approximation.");
+            Assert.AreEqual("", kyu6CompleteThePattern8NumberPyramid.Pattern(0));
+            Assert.AreEqual("", kyu6CompleteThePattern8NumberPyramid.Pattern(-25));
+            Assert.AreEqual("1", kyu6CompleteThePattern8NumberPyramid.Pattern(1));
+            Assert.AreEqual("   1   \n  121  \n 12321 \n1234321", kyu6CompleteThePattern8NumberPyramid.Pattern(4));
+            Assert.AreEqual("      1      \n     121     \n    12321    \n   1234321   \n  123454321  \n 12345654321 \n1234567654321", kyu6CompleteThePattern8NumberPyramid.Pattern(7));
         }
     }
 }
