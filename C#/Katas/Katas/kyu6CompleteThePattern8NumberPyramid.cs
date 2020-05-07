@@ -7,14 +7,6 @@ namespace Katas
 {
     public class kyu6CompleteThePattern8NumberPyramid
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Pattern(1));
-            Console.WriteLine(Pattern(5));
-            Console.WriteLine(Pattern(15));
-            Console.WriteLine("12345678901234543210987654321".Equals("12345678901234543210987654321"));
-        }
-
         public static string Pattern(int n)
         {
             var answerArray = new LinkedList<string>();
