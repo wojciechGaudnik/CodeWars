@@ -1,21 +1,14 @@
-using NUnit.Framework;
-using System;
 using Katas;
+using NUnit.Framework;
 
-class ExampleTest
+[TestFixture]
+public class Tests
 {
     [Test]
-    public void FixedTest()
+    [TestCase(100000, ExpectedResult="100,000")]
+    [TestCase(5678545, ExpectedResult="5,678,545")]
+    public static string FixedTest(int num)
     {
-        Assert.AreEqual(new[] { 1, 2, 3 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 1, 2, 3, 4, 5 }, 3));
-        Assert.AreEqual(new[] { 3, 2, 1 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 5, 4, 3, 2, 1 }, 3));
-        Assert.AreEqual(new[] { 1, 2, 1 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 1, 2, 3, 1, 2 }, 3));
-        Assert.AreEqual(new[] { 1, -4, 0 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 1, 2, 3, -4, 0 }, 3));
-        Assert.AreEqual(new int[0], kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 1, 2, 3, 4, 5 }, 0));
-        Assert.AreEqual(new[] { 1, 2, 3, 4, 5 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 1, 2, 3, 4, 5 }, 5));
-        Assert.AreEqual(new[] { 1, 2, 3, 2 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 1, 2, 3, 4, 2 }, 4));
-        Assert.AreEqual(new[] { 2, 1 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 2, 1, 2, 3, 4, 2 }, 2));
-        Assert.AreEqual(new[] { 2, 1, 2 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 2, 1, 2, 3, 4, 2 }, 3));
-        Assert.AreEqual(new[] { 2, 1, 2, 2 }, kyu6NSmallestElementsInOriginalOrder.FirstNSmallest(new[] { 2, 1, 2, 3, 4, 2 }, 4));
+        return kyu6NumberFormat.NumberFormat(num);
     }
 }
