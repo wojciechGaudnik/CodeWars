@@ -1,14 +1,7 @@
-using System;
-
 namespace Katas
 {
     public class kyu6NumberFormat
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(NumberFormat(-420902));
-        }
-
         public static string NumberFormat(int number)
         {
             var numberStr = number.ToString();
