@@ -1,20 +1,38 @@
+using NUnit.Framework;
+using System;
 using Katas;
 
-namespace Solution
+public class ExampleTests
 {
-    using NUnit.Framework;
-    using System;
-
-    [TestFixture]
-    public class Tests
+    [Test]
+    public void TestBob27Male()
     {
-        [Test]
-        public void BasicTests()
-        {
-            Assert.AreEqual(0, kyu6DeadAnts.DeadAntCount("ant ant ant ant"));
-            Assert.AreEqual(0, kyu6DeadAnts.DeadAntCount(null));
-            Assert.AreEqual(2, kyu6DeadAnts.DeadAntCount("ant anantt aantnt"));
-            Assert.AreEqual(1, kyu6DeadAnts.DeadAntCount("ant ant .... a nt"));
-        }
+        var dm = new kyu6FIXMEHello().SetName("Bob").SetAge(27).SetSex('M');
+        var expected = "Hello. My name is Bob. I am 27. I am male.";
+        Assert.AreEqual(expected, dm.Hello());
+    }
+
+    [Test]
+    public void Test27MaleBob()
+    {
+        var dm = new kyu6FIXMEHello().SetAge(27).SetSex('M').SetName("Bob");
+        var expected = "Hello. I am 27. I am male. My name is Bob.";
+        Assert.AreEqual(expected, dm.Hello());
+    }
+
+    [Test]
+    public void TestAliceFemale()
+    {
+        var dm = new kyu6FIXMEHello().SetName("Alice").SetSex('F');
+        var expected = "Hello. My name is Alice. I am female.";
+        Assert.AreEqual(expected, dm.Hello());
+    }
+
+    [Test]
+    public void TestBatman()
+    {
+        var dm = new kyu6FIXMEHello().SetName("Batman");
+        var expected = "Hello. My name is Batman.";
+        Assert.AreEqual(expected, dm.Hello());
     }
 }

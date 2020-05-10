@@ -1,21 +1,10 @@
 using System;
 using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace Katas
 {
     public class kyu6DeadAnts
     {
-        public static void Main(string[] args)
-        {
-            var before = "...ant...ant..nat.ant.t..ant...ant..ant..ant.anant..t";
-            var matches = Regex.Matches(before, "ant");
-            Console.WriteLine(matches.Count);
-
-
-
-        }
-
         public static int DeadAntCount(string ants)
         {
             if (ants == null) return 0;
