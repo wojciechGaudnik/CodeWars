@@ -1,22 +1,7 @@
-using System;
-using System.Collections.Generic;
-
 namespace Katas
 {
     public class kyu6FIXMEHello
     {
-        public static void Main(string[] args)
-        {
-            Queue<string> var = new Queue<string>();
-            var.Enqueue("1");
-            var.Enqueue("2");
-            var.Enqueue("3");
-            Console.WriteLine(var.Dequeue());
-            var test = new kyu6FIXMEHello().SetName("Bob").SetAge(27).SetSex('M');
-            Console.WriteLine(test.Hello());
-
-        }
-
         private string name;
         private int age;
         private char sex;
