@@ -1,23 +1,21 @@
+using System;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution
-{
-    using NUnit.Framework;
-    using System;
+[TestFixture]
+public static class PentanacciTests {
 
-    [TestFixture]
-    public class KataTests
-    {
-        [Test]
-        public void BasicTests()
-        {
-            Assert.AreEqual("st", kyu6OrdinalNumbers.Ordinal(1));
-            Assert.AreEqual("th", kyu6OrdinalNumbers.Ordinal(11));
-            Assert.AreEqual("th", kyu6OrdinalNumbers.Ordinal(111));
-            Assert.AreEqual("st", kyu6OrdinalNumbers.Ordinal(121));
-            Assert.AreEqual("th", kyu6OrdinalNumbers.Ordinal(20));
-            Assert.AreEqual("nd", kyu6OrdinalNumbers.Ordinal(52));
-            Assert.AreEqual("d", kyu6OrdinalNumbers.Ordinal(903, true));
+    private static void testing(long actual, long expected) {
+        Assert.AreEqual(expected, actual);
+    }
+
+    [Test]
+    public static void test1() {
+        Console.WriteLine("Fixed Tests: CountOddPentaFib, low values");
+        long[] lstI = new long[] {45, 68, 76, 100, 121};
+        long[] resultsI = new long[] {15, 23, 25, 33, 40};
+        for (int i = 0; i <= 4; i++) {
+            testing(kyu6Pentabonscci.CountOddPentaFib(lstI[i]), resultsI[i]);
         }
     }
 }

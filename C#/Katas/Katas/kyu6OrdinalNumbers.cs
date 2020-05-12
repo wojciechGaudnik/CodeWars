@@ -5,11 +5,6 @@ namespace Katas
 {
     public class kyu6OrdinalNumbers
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Ordinal(0, true));
-        }
-
         public static string Ordinal(int number, bool brief = false)
         {
             Console.WriteLine(number + brief.ToString());
