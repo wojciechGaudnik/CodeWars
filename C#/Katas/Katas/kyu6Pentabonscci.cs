@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
@@ -7,16 +6,6 @@ namespace Katas
 {
     public class kyu6Pentabonscci
     {
-        public static void Main(string[] args)
-        {
-
-
-
-            Console.WriteLine(CountOddPentaFib(121));
-
-
-        }
-
         public static long CountOddPentaFib(long n)
         {
             long answer = 1;
