@@ -1,21 +1,7 @@
-using System;
-
 namespace Katas
 {
     public class kyu6DiseaseSpread
     {
-        public static void Main(string[] args)
-        {
-            var  tm = 14;
-            var n = 336;
-            var s0 = 996;
-            var i0 = 2;
-            var b = 0.00206;
-            var a = 0.41;
-            Console.WriteLine(Epidemic(tm, n, s0, i0, b, a));
-
-        }
-
         public static int Epidemic(int tm, int n, int s0, int i0, double b, double a)
         {
             var dt = (double) tm / n;
