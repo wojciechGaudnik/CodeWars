@@ -1,20 +1,36 @@
-using NUnit.Framework;
-using System.Linq;
+using System;
 using Katas;
+using NUnit.Framework;
 
 [TestFixture]
-class Tests
+public class KataTestf
 {
-    [TestCase("2 10", "2 15", 1)]
-    [TestCase("2 10", "3 10", 1)]
-    [TestCase("2 10", "2 10", 0)]
-    [TestCase("3 9", "5 6", -1)]
-    [TestCase("7 7", "5 8", -1)]
-    public void BasicTests(string a, string b, int expected)
+    [Test]
+    public void _0_TankState()
     {
-        var one = Foo(a);
-        var two = Foo(b);
-        Assert.That(kyu6ComparePowers.ComparePowers(one, two), Is.EqualTo(expected));
+        IUnit tank = new Tank();
+
+        Assert.AreEqual(true, tank.CanMove);
+        Assert.AreEqual(5, tank.Damage);
     }
-    int[] Foo(string s) => s.Split().Select(int.Parse).ToArray();
+
+    [Test]
+    public void _1_SiegeState()
+    {
+        IUnit tank = new Tank();
+        tank.State = new SiegeState();
+
+        Assert.AreEqual(false, tank.CanMove);
+        Assert.AreEqual(20, tank.Damage);
+    }
+
+    [Test]
+    public void _2_MixState()
+    {
+        IUnit tank = new Tank();
+
+        Assert.AreEqual(true, tank.CanMove);
+        tank.State = new SiegeState();
+        Assert.AreEqual(20, tank.Damage);
+    }
 }
