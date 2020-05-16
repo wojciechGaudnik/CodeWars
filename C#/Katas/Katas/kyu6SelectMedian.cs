@@ -1,79 +1,79 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Katas
 {
     public class kyu6SelectMedian
     {
-        public static void Main(string[] args)
+        // public static void Main(string[] args)
+        // {
+        //     // System.Reflection()
+        //     Warrior[] inputTest = {
+        //         new Warrior(4),
+        //         new Warrior(2),
+        //         new Warrior(1),
+        //         new Warrior(5),
+        //         new Warrior(6),
+        //         new Warrior(3),
+        //     };
+        //
+        //     inputTest = inputTest.Skip(1).ToArray();
+        //
+        //     // Console.WriteLine(string.Join(",", inputTest.Select(w => ((Warrior) w).m_internal)));
+        //     // return;
+        //
+        //
+        //     Warrior[] input = {
+        //         new Warrior(1),
+        //         new Warrior(4),
+        //         new Warrior(5),
+        //         new Warrior(3),
+        //         new Warrior(2),
+        //     };
+        //     var target = 3;
+        //     Warrior.ResetCompareCount();
+        //     Console.WriteLine(((Warrior)SelectMedian(input, target)).m_internal + " <--- target");
+        //     Console.WriteLine(Warrior.CompareCount + " <---CompareCount");
+        // }
+
+        public static IWarrior SelectMedian(IWarrior[] warriors, int target)
         {
-            // System.Reflection()
-            Warrior[] input = {
-                new Warrior(1),
-                new Warrior(4),
-                new Warrior(5),
-                new Warrior(3),
-                new Warrior(2),
-            };
-            Warrior.ResetCompareCount();
-            Console.WriteLine(((Warrior)SelectMedian(input)).m_internal);
-            Console.WriteLine(Warrior.CompareCount);
-        }
+            Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)));
 
-        public static IWarrior SelectMedian(IWarrior[] warriors)
-        {
-            var betterList = new ArrayList();
-            var worstList = new ArrayList();
-            for (var i = 0; i < warriors.Length - 2; i += 2)
+            var k = target;
+            var n = warriors.Length;
+            var pivot = warriors[warriors.Length - 1];
+            var i = 0;
+            for (var j = 0; j < n - 1; j++)
             {
-                if (warriors[i].IsBetter(warriors[i + 1]))
-                {
-                    betterList.Add(warriors[i]);
-                    worstList.Add(warriors[i + 1]);
-                }
-                else
-                {
-                    betterList.Add(warriors[i + 1]);
-                    worstList.Add(warriors[i]);
-                }
+               if (pivot.IsBetter(warriors[j]))
+               {
+                   (warriors[j], warriors[i]) = (warriors[i], warriors[j]);
+                   i++;
+               }
+               Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)));
             }
-
-            if (((IWarrior) betterList[1]).IsBetter((IWarrior) betterList[0]))
-            {
-                (betterList[0], betterList[1]) = (betterList[1], betterList[0]);
-            };
-            if (((IWarrior) worstList[1]).IsBetter((IWarrior) worstList[0]))
-            {
-                (worstList[0], worstList[1]) = (worstList[1], worstList[0]);
-            };
-
-            if (warriors[4].IsBetter((IWarrior) betterList[0]))
-            {
-                return ((IWarrior)betterList[1]).IsBetter((IWarrior)worstList[0]) ? (IWarrior)betterList[1]:(IWarrior)worstList[0];
-            }
-
-            if (warriors[4].IsBetter((IWarrior) worstList[0]))
-            {
-                return ((IWarrior)betterList[1]).IsBetter((IWarrior)worstList[0]) ? (IWarrior)worstList[0] : (IWarrior)betterList[1];
-            }
-            return ((IWarrior)betterList[1]).IsBetter((IWarrior)worstList[0]) ? (IWarrior)worstList[0] : (IWarrior)betterList[1];
-
-
-
-
-
-
-
-
-
-
-
-
-            // Here be code
-            throw new NotImplementedException();
+            var last = warriors.Length - 1;
+            (warriors[last], warriors[i]) = (warriors[i], warriors[last]);
+            Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)));
+            if (i == n - k) return warriors[i];
+            return (i < n - k) ? SelectMedian(warriors.Skip(i).ToArray(), target) : SelectMedian(warriors.Take(i).ToArray(), target);
         }
     }
+
+    // for (i = 0; i < n - 1; i++)
+    // {
+    // for (var j = i + 1; j < n; j++)
+    // {
+    //     if (pivot.IsBetter(warriors[j]))
+    //     {
+    //         (warriors[j], warriors[i]) = (warriors[i], warriors[j]);
+    //         break;
+    //     }
+    // }
+    // }
 
 
     public interface IWarrior {
