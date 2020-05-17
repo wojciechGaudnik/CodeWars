@@ -6,26 +6,6 @@ namespace Katas
 {
     public class kyu6MostFrequentWeekDays
     {
-        public static void Main(string[] args)
-        {
-            var year = new DateTime(2427, 1, 1);
-            Console.WriteLine(year.DayOfWeek);
-            year = year.AddDays(1);
-            Console.WriteLine(year.DayOfWeek);
-            year = year.AddDays(1);
-            Console.WriteLine(year.DayOfWeek);
-            year = year.AddDays(1);
-            Console.WriteLine(year.DayOfWeek);
-            year = year.AddDays(1);
-            Console.WriteLine(year.DayOfWeek);
-            year = year.AddDays(1);
-            Console.WriteLine(year.DayOfWeek);
-            year = year.AddDays(1);
-            Console.WriteLine(year.DayOfWeek);
-            Console.WriteLine(string.Join(", ", MostFrequentDays(2860) ));
-            Console.WriteLine("fuck");
-        }
-
         public static string[] MostFrequentDays(int year)
         {
             var yearDateTime = new DateTime(year, 1, 1);
