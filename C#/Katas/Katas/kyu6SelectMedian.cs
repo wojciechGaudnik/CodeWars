@@ -5,43 +5,51 @@ namespace Katas
 {
     public class kyu6SelectMedian
     {
-        public static void Main(string[] args)
-        {
-            // System.Reflection()
-            Warrior[] inputTest = {
-                new Warrior(4),
-                new Warrior(2),
-                new Warrior(1),
-                new Warrior(5),
-                new Warrior(6),
-                new Warrior(3),
-            };
-
-            inputTest = inputTest.Skip(1).ToArray();
-
-            // Console.WriteLine(string.Join(",", inputTest.Select(w => ((Warrior) w).m_internal)));
-            // return;
-
-
-            Warrior[] input = {
-                new Warrior(4),
-                new Warrior(5),
-                new Warrior(3),
-                new Warrior(2),
-                new Warrior(1),
-            };
-            var target = 3;
-            Warrior.ResetCompareCount();
-            // Console.WriteLine(((Warrior)SelectMedian2(input, target)).m_internal + " <--- target");
-            Console.WriteLine(((Warrior)SelectMedian(input)).m_internal + " <--- target");
-            Console.WriteLine(Warrior.CompareCount + " <---CompareCount");
-        }
+        // public static void Main(string[] args)
+        // {
+        //     // System.Reflection()
+        //     Warrior[] inputTest = {
+        //         new Warrior(4),
+        //         new Warrior(2),
+        //         new Warrior(1),
+        //         new Warrior(5),
+        //         new Warrior(6),
+        //         new Warrior(3),
+        //     };
+        //
+        //     inputTest = inputTest.Skip(1).ToArray();
+        //
+        //     // Console.WriteLine(string.Join(",", inputTest.Select(w => ((Warrior) w).m_internal)));
+        //     // return;
+        //
+        //
+        //     Warrior[] input = {
+        //         new Warrior(4),
+        //         new Warrior(5),
+        //         new Warrior(3),
+        //         new Warrior(2),
+        //         new Warrior(1),
+        //     };
+        //     var target = 3;
+        //     Warrior.ResetCompareCount();
+        //     // Console.WriteLine(((Warrior)SelectMedian2(input, target)).m_internal + " <--- target");
+        //     Console.WriteLine(((Warrior)SelectMedian(input)).m_internal + " <--- target");
+        //     Console.WriteLine(Warrior.CompareCount + " <---CompareCount");
+        // }
 
         public static IWarrior SelectMedian(IWarrior[] warriors)
         {
+            IWarrior[] warriorsCopy = new IWarrior[warriors.Length];
+            Array.Copy(warriors, 0, warriorsCopy, 0, warriors.Length);
+
+            return SelectMedianWithK(warriorsCopy);
+        }
+
+        public static IWarrior SelectMedianWithK(IWarrior[] warriors, int k = 3)
+        {
             Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)));
+
             if (warriors.Length == 1) return warriors[0];
-            var k = 3;
             var n = warriors.Length;
             var pivot = warriors[warriors.Length - 1];
             var i = 0;
@@ -57,9 +65,22 @@ namespace Katas
             var last = warriors.Length - 1;
             (warriors[last], warriors[i]) = (warriors[i], warriors[last]);
             if (n - k == i) return warriors[i];
-            Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)) + " <----> compare " + Warrior.CompareCount);
-            return (n - k > i) ? SelectMedian(warriors.Skip(i + 1).ToArray()) : SelectMedian(warriors.Take(i ).ToArray());
+            Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)) + " <---> Warrior.CompareCount " + Warrior.CompareCount);
+            return (n - k > i) ? SelectMedianWithK(warriors.Skip(i + 1).ToArray(), k) : SelectMedianWithK(warriors.Take(i ).ToArray(), k - i);
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         public static IWarrior SelectMedian2(IWarrior[] warriors, int target)
         {
