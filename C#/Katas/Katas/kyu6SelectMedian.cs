@@ -35,39 +35,78 @@ namespace Katas
         //     // Console.WriteLine(((Warrior)SelectMedian2(input, target)).m_internal + " <--- target");
         //     Console.WriteLine(((Warrior)SelectMedian(input)).m_internal + " <--- target");
         //     Console.WriteLine(Warrior.CompareCount + " <---CompareCount");
+        //
+        //     Node test = null;
+        //
         // }
+
 
         public static IWarrior SelectMedian(IWarrior[] warriors)
         {
             IWarrior[] warriorsCopy = new IWarrior[warriors.Length];
             Array.Copy(warriors, 0, warriorsCopy, 0, warriors.Length);
 
-            return SelectMedianWithK(warriorsCopy);
+            Node A = new Node(warriors[0]);
+            Node B = new Node(warriors[1]);
+            Node C = new Node(warriors[2]);
+            Node D = new Node(warriors[3]);
+            Node E = new Node(warriors[4]);
+
+            if (A.Value.IsBetter(B.Value)) A.Left = B;
+            else B.Left = A;
+
+            if (A.Value.IsBetter(C.Value)) A.Right = C;
+            else C.Left = A;
+
+            return null;
         }
 
-        public static IWarrior SelectMedianWithK(IWarrior[] warriors, int k = 3)
+        public class Node
         {
-            Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)));
+            public Node Left;
+            public Node Right;
+            public IWarrior Value;
 
-            if (warriors.Length == 1) return warriors[0];
-            var n = warriors.Length;
-            var pivot = warriors[warriors.Length - 1];
-            var i = 0;
-            for (var j = 0; j < n - 1; j++)
+            public Node(IWarrior v)
             {
-                if (pivot.IsBetter(warriors[j]))
-                {
-                    (warriors[j], warriors[i]) = (warriors[i], warriors[j]);
-                    i++;
-                }
-                Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)));
+                Value = v;
             }
-            var last = warriors.Length - 1;
-            (warriors[last], warriors[i]) = (warriors[i], warriors[last]);
-            if (n - k == i) return warriors[i];
-            Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)) + " <---> Warrior.CompareCount " + Warrior.CompareCount);
-            return (n - k > i) ? SelectMedianWithK(warriors.Skip(i + 1).ToArray(), k) : SelectMedianWithK(warriors.Take(i ).ToArray(), k - i);
         }
+
+
+
+
+        // public static IWarrior SelectMedian(IWarrior[] warriors)
+        // {
+        //     IWarrior[] warriorsCopy = new IWarrior[warriors.Length];
+        //     Array.Copy(warriors, 0, warriorsCopy, 0, warriors.Length);
+        //
+        //     return SelectMedianWithK(warriorsCopy);
+        // }
+        //
+        // public static IWarrior SelectMedianWithK(IWarrior[] warriors, int k = 3)
+        // {
+        //     Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)));
+        //
+        //     if (warriors.Length == 1) return warriors[0];
+        //     var n = warriors.Length;
+        //     var pivot = warriors[warriors.Length - 1];
+        //     var i = 0;
+        //     for (var j = 0; j < n - 1; j++)
+        //     {
+        //         if (pivot.IsBetter(warriors[j]))
+        //         {
+        //             (warriors[j], warriors[i]) = (warriors[i], warriors[j]);
+        //             i++;
+        //         }
+        //         Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)));
+        //     }
+        //     var last = warriors.Length - 1;
+        //     (warriors[last], warriors[i]) = (warriors[i], warriors[last]);
+        //     if (n - k == i) return warriors[i];
+        //     Console.WriteLine(string.Join(",", warriors.Select(w => ((Warrior) w).m_internal)) + " <---> Warrior.CompareCount " + Warrior.CompareCount);
+        //     return (n - k > i) ? SelectMedianWithK(warriors.Skip(i + 1).ToArray(), k) : SelectMedianWithK(warriors.Take(i ).ToArray(), k - i);
+        // }
 
 
 

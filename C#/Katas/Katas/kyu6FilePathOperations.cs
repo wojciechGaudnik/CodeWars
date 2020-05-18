@@ -8,24 +8,6 @@ namespace Katas
 
     public class FileMaster
     {
-
-        public static void Main(string[] args)
-        {
-            var test = "/Users/person1/Pictures/house.png";
-            var testFileMaster = new FileMaster("lllwms/vbvufx/ryctaw/xwpidn/glpeva/mvlocy.xyz");
-            Console.WriteLine(testFileMaster.extension());
-            Console.WriteLine(testFileMaster.filename());
-            Console.WriteLine(testFileMaster.dirpath());
-
-
-            // Regex regex = new Regex("^.+\\/");
-            // foreach (Match one in regex.Matches(test))
-            // {
-            //     Console.WriteLine(string.Join("", one.Value.Skip(1).Take(one.Value.Length - 2)));
-            //
-            // }
-        }
-
         private string filePath;
 
         public FileMaster(string filepath)
