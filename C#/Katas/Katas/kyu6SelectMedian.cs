@@ -5,40 +5,52 @@ namespace Katas
 {
     public class kyu6SelectMedian
     {
-        // public static void Main(string[] args)
-        // {
-        //     // System.Reflection()
-        //     Warrior[] inputTest = {
-        //         new Warrior(4),
-        //         new Warrior(2),
-        //         new Warrior(1),
-        //         new Warrior(5),
-        //         new Warrior(6),
-        //         new Warrior(3),
-        //     };
-        //
-        //     inputTest = inputTest.Skip(1).ToArray();
-        //
-        //     // Console.WriteLine(string.Join(",", inputTest.Select(w => ((Warrior) w).m_internal)));
-        //     // return;
-        //
-        //
-        //     Warrior[] input = {
-        //         new Warrior(4),
-        //         new Warrior(5),
-        //         new Warrior(3),
-        //         new Warrior(2),
-        //         new Warrior(1),
-        //     };
-        //     var target = 3;
-        //     Warrior.ResetCompareCount();
-        //     // Console.WriteLine(((Warrior)SelectMedian2(input, target)).m_internal + " <--- target");
-        //     Console.WriteLine(((Warrior)SelectMedian(input)).m_internal + " <--- target");
-        //     Console.WriteLine(Warrior.CompareCount + " <---CompareCount");
-        //
-        //     Node test = null;
-        //
-        // }
+        public static void Main(string[] args)
+        {
+            // System.Reflection()
+            Warrior[] inputTest = {
+                new Warrior(4),
+                new Warrior(2),
+                new Warrior(1),
+                new Warrior(5),
+                new Warrior(6),
+                new Warrior(3),
+            };
+
+            inputTest = inputTest.Skip(1).ToArray();
+
+            // Console.WriteLine(string.Join(",", inputTest.Select(w => ((Warrior) w).m_internal)));
+            // return;
+
+
+            // Warrior[] input = {
+            //     new Warrior(4),
+            //     new Warrior(5),
+            //     new Warrior(3),
+            //     new Warrior(2),
+            //     new Warrior(1),
+            // };
+
+            Warrior[] input = new Warrior[]{
+                new Warrior(2),
+                new Warrior(5),
+                new Warrior(4),
+                new Warrior(3),
+                new Warrior(1),
+            };
+            // var rnd = new Random();
+            // input = input.OrderBy(x => rnd.Next()).ToArray();
+
+
+            var target = 3;
+            Warrior.ResetCompareCount();
+            // Console.WriteLine(((Warrior)SelectMedian2(input, target)).m_internal + " <--- target");
+            Console.WriteLine(((Warrior)SelectMedian(input)).m_internal + " <--- target");
+            Console.WriteLine(Warrior.CompareCount + " <---CompareCount");
+            Console.WriteLine(string.Join(",", input.Select(w => ((Warrior) w).m_internal)));
+            Node test = null;
+
+        }
 
 
         public static IWarrior SelectMedian(IWarrior[] warriors)
@@ -46,34 +58,21 @@ namespace Katas
             IWarrior[] warriorsCopy = new IWarrior[warriors.Length];
             Array.Copy(warriors, 0, warriorsCopy, 0, warriors.Length);
 
-            Node A = new Node(warriors[0]);
-            Node B = new Node(warriors[1]);
-            Node C = new Node(warriors[2]);
-            Node D = new Node(warriors[3]);
-            Node E = new Node(warriors[4]);
+            (IWarrior a, IWarrior b, IWarrior c, IWarrior d, IWarrior e)
+                = (warriorsCopy[0], warriorsCopy[1], warriorsCopy[2], warriorsCopy[3], warriorsCopy[4]);
 
-            if (A.Value.IsBetter(B.Value)) A.Left = B;
-            else B.Left = A;
+            if(a.IsBetter(b)) (a, b) = (b, a);
+            if(d.IsBetter(e)) (d, e) = (e, d);
+            if(a.IsBetter(d)) (a, b, d, e) = (d, e, a, b);
 
-            if (A.Value.IsBetter(C.Value)) A.Right = C;
-            else C.Left = A;
-
-            return null;
-        }
-
-        public class Node
-        {
-            public Node Left;
-            public Node Right;
-            public IWarrior Value;
-
-            public Node(IWarrior v)
+            if (c.IsBetter(b))
             {
-                Value = v;
+                if (d.IsBetter(b)) return (d.IsBetter(c)) ? c : d;
+                return (b.IsBetter(e)) ? e: b;
             }
+            if (d.IsBetter(c)) return (d.IsBetter(b)) ? b: d;
+            return (c.IsBetter(e)) ? e: c;
         }
-
-
 
 
         // public static IWarrior SelectMedian(IWarrior[] warriors)

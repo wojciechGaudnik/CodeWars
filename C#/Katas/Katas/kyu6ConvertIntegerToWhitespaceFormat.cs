@@ -1,16 +1,10 @@
 using System;
 using System.Text;
-using System.Text.RegularExpressions;
 
 namespace Katas
 {
     public class kyu6ConvertIntegerToWhitespaceFormat
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(WhitespaceNumber(100));
-        }
-
         public static string WhitespaceNumber(int n)
         {
             if(n == 0) return " \n";
