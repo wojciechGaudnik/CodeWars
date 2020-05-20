@@ -1,110 +1,73 @@
+// using Katas;
+//
+// namespace myjinxin
+// {
+//     using NUnit.Framework;
+//     using System;
+//
+//     [TestFixture]
+//     public class myjinxin
+//     {
+//
+//         [Test]
+//         public void BasicTests(){
+//             var kata=new kyu4SimpleFun119SubSetsParity();
+//
+//             Assert.AreEqual("ODD",kata.SubsetsParity(3,2));
+//
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(2,1));
+//
+//             Assert.AreEqual("ODD",kata.SubsetsParity(1,1));
+//
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(20,10));
+//
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(48,12));
+//
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(48000,120));
+//
+//         }
+//
+//         [Test]
+//         public void BasicTests1(){
+//             var kata=new kyu4SimpleFun119SubSetsParity();
+//
+//             Assert.AreEqual("ODD",kata.SubsetsParity(61,5));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(80,14));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(64,29));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(71,19));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(85,55));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(23,9));
+//         }
+//
+//         [Test]
+//         public void BasicTests2(){
+//             var kata=new kyu4SimpleFun119SubSetsParity();
+//
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(65,19));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(66,42));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(34,15));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(75,57));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(79,36));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(2,1));
+//             Assert.AreEqual("ODD",kata.SubsetsParity(29,20));
+//         }
+//
+//
+//     }
+// }
+
+
 using System;
-using System.Linq;
 using Katas;
 using NUnit.Framework;
 
 [TestFixture]
-public class MedianTests
-{
-    [Test]
-    public void SimpleTest0(){
-        Warrior.ResetCompareCount();
-        try {
-            Warrior[] input = {
-                new Warrior(3),
-                new Warrior(1),
-                new Warrior(2),
-                new Warrior(4),
-                new Warrior(5),
-            };
-            Warrior.ResetCompareCount();
-            Assert.AreSame(input[0], kyu6SelectMedian.SelectMedian(input));
-            Assert.LessOrEqual(Warrior.CompareCount, 6);
-        } catch(Exception ex){
-            Assert.Fail(ex.Message);
-        }
-    }
+public static class BeforeAfterPrimesTests {
 
     [Test]
-    public void SimpleTest1(){
-        Warrior.ResetCompareCount();
-        try {
-            Warrior[] input = new Warrior[]{
-                new Warrior(1),
-                new Warrior(4),
-                new Warrior(5),
-                new Warrior(3),
-                new Warrior(2),
-            };
-            Warrior.ResetCompareCount();
-            Assert.AreSame(input[3], kyu6SelectMedian.SelectMedian(input));
-            Assert.LessOrEqual(Warrior.CompareCount, 6);
-        } catch(Exception ex){
-            Assert.Fail(ex.Message);
-        }
-    }
-
-    [Test]
-    public void SimpleTest2(){
-        Warrior.ResetCompareCount();
-        try {
-            Warrior[] input = new Warrior[]{
-                new Warrior(4),
-                new Warrior(5),
-                new Warrior(3),
-                new Warrior(2),
-                new Warrior(1),
-            };
-            Warrior.ResetCompareCount();
-            var actual = kyu6SelectMedian.SelectMedian(input);
-            Console.WriteLine(((Warrior)actual).m_internal + " <--- ((Warrior)actual).m_internal");
-            Console.WriteLine((input[2]).m_internal + " <--- (input[3]).m_internal");
-            Assert.AreSame(input[2], kyu6SelectMedian.SelectMedian(input));
-            // Assert.LessOrEqual(Warrior.CompareCount, 6);
-        } catch(Exception ex){
-            Assert.Fail(ex.Message);
-        }
-    }
-
-    [Test]
-    public void SimpleTest3(){
-        try {
-            Warrior[] input = new Warrior[]{
-                new Warrior(5),
-                new Warrior(3),
-                new Warrior(2),
-                new Warrior(1),
-                new Warrior(4),
-            };
-            Warrior.ResetCompareCount();
-            var actual = kyu6SelectMedian.SelectMedian(input);
-            Console.WriteLine(((Warrior)actual).m_internal + " <--- ((Warrior)actual).m_internal");
-            Console.WriteLine((input[1]).m_internal + " <--- (input[1]).m_internal");
-            Assert.AreSame(input[1], actual);
-            // Assert.LessOrEqual(Warrior.CompareCount, 6);
-        } catch(Exception ex){
-            Assert.Fail(ex.Message);
-        }
-    }
-
-    [Test]
-    public void SimpleTest4(){
-        try {
-            Warrior[] input = new Warrior[]{
-                new Warrior(2),
-                new Warrior(5),
-                new Warrior(4),
-                new Warrior(3),
-                new Warrior(1),
-            };
-            Warrior.ResetCompareCount();
-            var actual = kyu6SelectMedian.SelectMedian(input);
-            Assert.AreSame(input[3], actual);
-            // Assert.LessOrEqual(Warrior.CompareCount, 6);
-        } catch(Exception ex){
-            Assert.Fail(ex.Message);
-        }
+    public static void test1() {
+        Assert.AreEqual(new int[] {89, 101}, kyu6SurroundingPrimesForAValue.PrimeBefAft(97));
+        Assert.AreEqual(new int[] {97, 101}, kyu6SurroundingPrimesForAValue.PrimeBefAft(100));
+        Assert.AreEqual(new int[] {97, 103}, kyu6SurroundingPrimesForAValue.PrimeBefAft(101));
     }
 }
-
-
