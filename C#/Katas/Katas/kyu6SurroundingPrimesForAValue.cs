@@ -1,14 +1,7 @@
-using System;
-
 namespace Katas
 {
     public class kyu6SurroundingPrimesForAValue
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(string.Join(", ", PrimeBefAft(1693)));
-        }
-
         public static long[] PrimeBefAft(long num)
         {
             var smaller = num;

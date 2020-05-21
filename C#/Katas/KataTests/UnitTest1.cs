@@ -57,17 +57,24 @@
 // }
 
 
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public static class BeforeAfterPrimesTests {
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
 
-    [Test]
-    public static void test1() {
-        Assert.AreEqual(new int[] {89, 101}, kyu6SurroundingPrimesForAValue.PrimeBefAft(97));
-        Assert.AreEqual(new int[] {97, 101}, kyu6SurroundingPrimesForAValue.PrimeBefAft(100));
-        Assert.AreEqual(new int[] {97, 103}, kyu6SurroundingPrimesForAValue.PrimeBefAft(101));
+    [TestFixture]
+    public class BinaryNumbersTests
+    {
+        [Test]
+        public void BasicTests()
+        {
+            Assert.AreEqual("1001", kyu6AddingBinaryNumbers.Add("111","10"));
+            Assert.AreEqual("10010", kyu6AddingBinaryNumbers.Add("1101","101"));
+            Assert.AreEqual("100100", kyu6AddingBinaryNumbers.Add("1101","10111"));
+            Assert.AreEqual("11", kyu6AddingBinaryNumbers.Add("0011","00"));
+            Assert.AreEqual("11", kyu6AddingBinaryNumbers.Add("00","0011"));
+        }
     }
 }
