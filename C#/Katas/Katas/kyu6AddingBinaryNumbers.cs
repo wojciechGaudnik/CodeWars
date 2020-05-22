@@ -1,22 +1,10 @@
 using System;
-using System.ComponentModel;
-using System.Linq;
 using System.Text;
 
 namespace Katas
 {
     public class kyu6AddingBinaryNumbers
     {
-        public static void Main(string[] args)
-        {
-            var first = "111";
-            var second = "10";
-            Console.WriteLine(Convert.ToInt64(first, 2));
-            Console.WriteLine(Convert.ToString(7, 2));
-            // Console.WriteLine(test);
-            Console.WriteLine(Add("1101","10111"));
-        }
-
         public static string Add(string a, string b)
         {
             Console.WriteLine(a + " <---> " + b);

@@ -14,16 +14,11 @@
 //             var kata=new kyu4SimpleFun119SubSetsParity();
 //
 //             Assert.AreEqual("ODD",kata.SubsetsParity(3,2));
-//
 //             Assert.AreEqual("EVEN",kata.SubsetsParity(2,1));
-//
 //             Assert.AreEqual("ODD",kata.SubsetsParity(1,1));
-//
 //             Assert.AreEqual("EVEN",kata.SubsetsParity(20,10));
-//
 //             Assert.AreEqual("EVEN",kata.SubsetsParity(48,12));
-//
-//             Assert.AreEqual("EVEN",kata.SubsetsParity(48000,120));
+//             // Assert.AreEqual("EVEN",kata.SubsetsParity(48000,120));
 //
 //         }
 //
@@ -56,25 +51,40 @@
 //     }
 // }
 
-
 using Katas;
 
-namespace Solution
+namespace smile67Kata
 {
     using NUnit.Framework;
     using System;
-
     [TestFixture]
-    public class BinaryNumbersTests
+    public class smile67KataTest
     {
         [Test]
-        public void BasicTests()
+        public void smile67KataTest_withoutRandom1()
         {
-            Assert.AreEqual("1001", kyu6AddingBinaryNumbers.Add("111","10"));
-            Assert.AreEqual("10010", kyu6AddingBinaryNumbers.Add("1101","101"));
-            Assert.AreEqual("100100", kyu6AddingBinaryNumbers.Add("1101","10111"));
-            Assert.AreEqual("11", kyu6AddingBinaryNumbers.Add("0011","00"));
-            Assert.AreEqual("11", kyu6AddingBinaryNumbers.Add("00","0011"));
+            Assert.AreEqual(256, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(128));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom2()
+        {
+            Assert.AreEqual(2, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(1));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom3()
+        {
+            Assert.AreEqual(1279, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(1022));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom4()
+        {
+            Assert.AreEqual(191, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(127));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom5()
+        {
+            Assert.AreEqual(1253359, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(1253343));
         }
     }
 }
+
