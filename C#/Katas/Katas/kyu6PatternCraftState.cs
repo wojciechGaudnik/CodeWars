@@ -1,11 +1,11 @@
-namespace Katas
+namespace KatasCraftState
 {
     public class kyu6PatternCraftState
     {
 
     }
 
-    public interface IUnit
+    public partial interface IUnit
     {
         IUnitState State { get; set; }
         bool CanMove { get; }

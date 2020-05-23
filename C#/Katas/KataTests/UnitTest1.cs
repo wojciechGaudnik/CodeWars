@@ -51,40 +51,47 @@
 //     }
 // }
 
+using System;
 using Katas;
+using NUnit.Framework;
 
-namespace smile67Kata
+[TestFixture]
+public class KataTestf
 {
-    using NUnit.Framework;
-    using System;
-    [TestFixture]
-    public class smile67KataTest
+    [Test]
+    public void _0_WalkMove()
     {
-        [Test]
-        public void smile67KataTest_withoutRandom1()
-        {
-            Assert.AreEqual(256, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(128));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom2()
-        {
-            Assert.AreEqual(2, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(1));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom3()
-        {
-            Assert.AreEqual(1279, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(1022));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom4()
-        {
-            Assert.AreEqual(191, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(127));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom5()
-        {
-            Assert.AreEqual(1253359, new kyu6Basics08FindNextHigherNumberWithSameBits1s().nextHigher(1253343));
-        }
+        IUnit viking = new Viking();
+
+        viking.Move();
+        Assert.AreEqual(1, viking.Position);
+        viking.Move();
+        Assert.AreEqual(2, viking.Position);
+    }
+
+    [Test]
+    public void _1_FlyMove()
+    {
+        IUnit viking = new Viking();
+        viking.MoveBehavior = new Fly();
+
+        viking.Move();
+        Assert.AreEqual(10, viking.Position);
+        viking.Move();
+        Assert.AreEqual(20, viking.Position);
+    }
+
+    [Test]
+    public void _2_MixMove()
+    {
+        IUnit viking = new Viking();
+
+        viking.Move();
+        Assert.AreEqual(1, viking.Position);
+
+        viking.MoveBehavior = new Fly();
+        viking.Move();
+        Assert.AreEqual(11, viking.Position);
     }
 }
 
