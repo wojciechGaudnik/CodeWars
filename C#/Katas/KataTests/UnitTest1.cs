@@ -51,47 +51,18 @@
 //     }
 // }
 
-using System;
 using Katas;
 using NUnit.Framework;
 
 [TestFixture]
-public class KataTestf
+public class SolutionTest
 {
     [Test]
-    public void _0_WalkMove()
+    public void Examples()
     {
-        IUnit viking = new Viking();
-
-        viking.Move();
-        Assert.AreEqual(1, viking.Position);
-        viking.Move();
-        Assert.AreEqual(2, viking.Position);
-    }
-
-    [Test]
-    public void _1_FlyMove()
-    {
-        IUnit viking = new Viking();
-        viking.MoveBehavior = new Fly();
-
-        viking.Move();
-        Assert.AreEqual(10, viking.Position);
-        viking.Move();
-        Assert.AreEqual(20, viking.Position);
-    }
-
-    [Test]
-    public void _2_MixMove()
-    {
-        IUnit viking = new Viking();
-
-        viking.Move();
-        Assert.AreEqual(1, viking.Position);
-
-        viking.MoveBehavior = new Fly();
-        viking.Move();
-        Assert.AreEqual(11, viking.Position);
+        Assert.AreEqual("This is a test!", kyu6VolwelShifting.VowelShift("This is a test!", 0));
+        Assert.AreEqual("Thes is i tast!", kyu6VolwelShifting.VowelShift("This is a test!", 1));
+        Assert.AreEqual("This as e tist!", kyu6VolwelShifting.VowelShift("This is a test!", 3));
+        Assert.AreEqual("OSOmZHShFfoUZxDcgffrNkQqiGIrg!", kyu6VolwelShifting.VowelShift("USimZHShFfIOZxDcgffrNkQqOGorg!", 27));
     }
 }
-

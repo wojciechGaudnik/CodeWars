@@ -2,10 +2,6 @@ namespace Katas
 {
     public class kyu6PatternCraftStrategy
     {
-        public static void Main(string[] args)
-        {
-
-        }
     }
 
     public interface IUnit
