@@ -7,11 +7,6 @@ namespace Katas
 {
     public class kyu6VolwelShifting
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(VowelShift("USimZHShFfIOZxDcgffrNkQqOGorg!", 27));
-        }
-
         public static string VowelShift(string text, int n)
         {
             if (n == 0) return text;
