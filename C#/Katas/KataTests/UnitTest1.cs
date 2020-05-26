@@ -45,23 +45,47 @@
 //             Assert.AreEqual("EVEN",kata.SubsetsParity(79,36));
 //             Assert.AreEqual("EVEN",kata.SubsetsParity(2,1));
 //             Assert.AreEqual("ODD",kata.SubsetsParity(29,20));
+//             Assert.AreEqual("EVEN",kata.SubsetsParity(35,4));
 //         }
 //
 //
 //     }
 // }
+//
 
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-class Tests
+namespace myjinxin
 {
-    [Test]
-    [TestCase(new[] { 3, 8, 3, 6, 5, 7, 9, 1 }, new[] { 1, 8, 3, 3, 5, 6, 9, 7 })]
-    [TestCase(new[] { 9, 4, 5, 3, 5, 7, 2, 56, 8, 2, 6, 8, 0 }, new[] { 0, 2, 2, 4, 8, 8, 3, 5, 5, 6, 9, 7, 56 })]
-    public void BasicTests(int[] input, int[] expected)
+    using NUnit.Framework;
+    using System;
+
+    [TestFixture]
+    public class myjinxin
     {
-        Assert.That(kyu6SortingByBits.SortByBit(input), Is.EqualTo(expected));
+
+        [Test]
+        public void BasicTests(){
+            var kata=new kyu6SimpleFun19CountBlackCells();
+
+            Assert.AreEqual(6,  kata.CountBlackCells(3,4));
+
+            Assert.AreEqual(7,  kata.CountBlackCells(3,3));
+
+            Assert.AreEqual(6,  kata.CountBlackCells(2,5));
+
+            Assert.AreEqual(1,  kata.CountBlackCells(1,1));
+
+            Assert.AreEqual(2,  kata.CountBlackCells(1,2));
+
+            Assert.AreEqual(239,  kata.CountBlackCells(1,239));
+
+            Assert.AreEqual(86,  kata.CountBlackCells(33,44));
+
+            Assert.AreEqual(30,  kata.CountBlackCells(16,8));
+
+            Assert.AreEqual(17774,  kata.CountBlackCells(6666,8888));
+
+        }
     }
 }

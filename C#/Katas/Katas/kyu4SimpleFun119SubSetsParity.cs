@@ -9,53 +9,47 @@ namespace Katas
     {
         // public static void Main(string[] args)
         // {
-        //     var testKata = new kyu4SimpleFun119SubSetsParity();
-        //     Console.WriteLine(testKata.SubsetsParity(48, 12));
-        //     // Console.WriteLine(testKata.SubsetsParity2(61, 5));
-        //     // Console.WriteLine(testKata.SubsetsParity(3, 2));
-        //     // Console.WriteLine(testKata.SubsetsParity2(3, 2) + " <--- OK ");
-        //
-        //     // n p k p            n
-        //     // n p k n            o
-        //     // n n k p            n
-        //     // n n k n            n
-        //     // for (var n = 1001; n < 10001; n += 2)
-        //     // {
-        //     //     for (var k = 11; k < 1000; k += 2)
-        //     //     {
-        //     //         Console.WriteLine(testKata.SubsetsParity(n, k));
-        //     //     }
-        //     // }
-        //
-        //     // for (int n = 11, k = 11; k <= n && n < 10000; n += 1)
-        //     // {
-        //     //     {
-        //     //         Console.WriteLine(testKata.SubsetsParity(n, k) + " n:" + n + " k:" + k + " (n - k) % 2 ---> " + ((n % k) % 2));
-        //     //     }
-        //     // }
-        //     // testKata.SubsetsParity(52, 5);
-        //     // l = 713897640
-        //     // m = 120
-        //     Console.WriteLine(testKata.SubsetsParity(7, 3));
         //     var watch = System.Diagnostics.Stopwatch.StartNew();
-        //     // var first = true;
-        //     // var second = false;
-        //     // for (var i = 0; i < 1000000000; i++)
-        //     // {
-        //     //     if(first && second) first = false;
-        //     // }
         //
+        //     var testKata = new kyu4SimpleFun119SubSetsParity();
+        //     // Console.WriteLine(testKata.SubsetsParity(2, 0));
+        //     // Console.WriteLine(testKata.SubsetsParity(2, 1));
+        //     // Console.WriteLine(testKata.SubsetsParity(2, 2));
+        //     // Console.WriteLine(testKata.SubsetsParity(3, 3));
         //
         //
         //     watch.Stop();
-        //     Console.WriteLine(watch.ElapsedMilliseconds + " <---");
+        //     Console.WriteLine(watch.ElapsedMilliseconds + " ms <---");
         //     // Console.WriteLine(Math.Pow());
         //
         //
         //     // Console.WriteLine(testKata.SubsetsParity(81, 15) + " EVEN <--- OK ");
+        //     Console.WriteLine(testKata.SubsetsParity(5, 2) + " EVEN <--- OK ");
         // }
 
-        public string SubsetsParity(int n, int k) //todo
+
+
+
+
+
+        public string SubsetsParity(int n, int k) //todo 4 ms
+        {
+            Console.WriteLine("n=" + n + "  k=" + k);
+            if (k == n || k == 0) return "ODD";
+            if (n % 2 == 0 && k % 2 == 1) return "EVEN";
+            if (k > n - k) k = n - k;
+            var l = new BigInteger(n);
+            var m = new BigInteger(1);
+            for (var i = 1; i < k; i++)
+            {
+                l *= --n;
+                m *= i + 1;
+            }
+            return (BigInteger.Divide(l, m)) % 2 == 0 ? "EVEN" : "ODD";
+        }
+
+
+        public string SubsetsParity11(int n, int k) //todo much too long
         {
             return binomialCoeff(n, k) ? "ODD" : "EVEN";
         }

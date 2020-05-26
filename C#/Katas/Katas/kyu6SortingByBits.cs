@@ -5,14 +5,6 @@ namespace Katas
 {
     public class kyu6SortingByBits
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Convert.ToString(8, 2));
-            // Console.WriteLine(string.Join(", ", SortByBit(new[] {9, 4, 5, 3, 5, 7, 2, 56, 8, 2, 6, 8, 0})));
-            Console.WriteLine(string.Join(", ", SortByBit(new[] {1,2,4,8,8,4})));
-
-        }
-
         public static int[] SortByBit(int[] array)
         {
             return array
