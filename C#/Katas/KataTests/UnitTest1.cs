@@ -55,37 +55,32 @@
 
 using Katas;
 
-namespace myjinxin
+namespace smile67Kata
 {
     using NUnit.Framework;
     using System;
-
     [TestFixture]
-    public class myjinxin
+    public class smile67KataTest
     {
-
         [Test]
-        public void BasicTests(){
-            var kata=new kyu6SimpleFun19CountBlackCells();
-
-            Assert.AreEqual(6,  kata.CountBlackCells(3,4));
-
-            Assert.AreEqual(7,  kata.CountBlackCells(3,3));
-
-            Assert.AreEqual(6,  kata.CountBlackCells(2,5));
-
-            Assert.AreEqual(1,  kata.CountBlackCells(1,1));
-
-            Assert.AreEqual(2,  kata.CountBlackCells(1,2));
-
-            Assert.AreEqual(239,  kata.CountBlackCells(1,239));
-
-            Assert.AreEqual(86,  kata.CountBlackCells(33,44));
-
-            Assert.AreEqual(30,  kata.CountBlackCells(16,8));
-
-            Assert.AreEqual(17774,  kata.CountBlackCells(6666,8888));
-
+        public void smile67KataTest_withoutRandom1()
+        {
+            Assert.AreEqual("47", new kyu6Basics03StringsNumbersAndCalculation().calculateString(";$%§fsdfsd235??df/sdfgf5gh.000kk0000"));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom2()
+        {
+            Assert.AreEqual("54929268", new kyu6Basics03StringsNumbersAndCalculation().calculateString("sdfsd23454sdf*2342"));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom3()
+        {
+            Assert.AreEqual("-210908", new kyu6Basics03StringsNumbersAndCalculation().calculateString("fsdfsd235???34.4554s4234df-sdfgf2g3h4j442"));
+        }
+        [Test]
+        public void smile67KataTest_withoutRandom4()
+        {
+            Assert.AreEqual("234676", new kyu6Basics03StringsNumbersAndCalculation().calculateString("fsdfsd234.4554s4234df+sf234442"));
         }
     }
 }
