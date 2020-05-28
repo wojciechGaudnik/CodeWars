@@ -55,32 +55,19 @@
 
 using Katas;
 
-namespace smile67Kata
+namespace Solution
 {
     using NUnit.Framework;
     using System;
+
     [TestFixture]
-    public class smile67KataTest
+    public class KataTests
     {
         [Test]
-        public void smile67KataTest_withoutRandom1()
+        public void BasicTests()
         {
-            Assert.AreEqual("47", new kyu6Basics03StringsNumbersAndCalculation().calculateString(";$%§fsdfsd235??df/sdfgf5gh.000kk0000"));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom2()
-        {
-            Assert.AreEqual("54929268", new kyu6Basics03StringsNumbersAndCalculation().calculateString("sdfsd23454sdf*2342"));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom3()
-        {
-            Assert.AreEqual("-210908", new kyu6Basics03StringsNumbersAndCalculation().calculateString("fsdfsd235???34.4554s4234df-sdfgf2g3h4j442"));
-        }
-        [Test]
-        public void smile67KataTest_withoutRandom4()
-        {
-            Assert.AreEqual("234676", new kyu6Basics03StringsNumbersAndCalculation().calculateString("fsdfsd234.4554s4234df+sf234442"));
+            Assert.AreEqual(0, kyu6CalculateNumberOfInversionsInArray.CountInversions(new int[] { 1, 2, 3 }), "Sorted array has 0 inversions");
+            Assert.AreEqual(1, kyu6CalculateNumberOfInversionsInArray.CountInversions(new int[] { 2, 1, 3 }), "Array [2,1,3] only has one inversion");
         }
     }
 }
