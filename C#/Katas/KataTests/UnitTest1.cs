@@ -1,4 +1,4 @@
-// using Katas;
+// using kyu6StringSubpatternRecognitionIs;
 //
 // namespace myjinxin
 // {
@@ -53,21 +53,24 @@
 // }
 //
 
+using NUnit.Framework;
+using System;
 using Katas;
 
-namespace Solution
+class ExampleTest
 {
-    using NUnit.Framework;
-    using System;
-
-    [TestFixture]
-    public class KataTests
+    [Test]
+    public void FixedTest()
     {
-        [Test]
-        public void BasicTests()
-        {
-            Assert.AreEqual(0, kyu6CalculateNumberOfInversionsInArray.CountInversions(new int[] { 1, 2, 3 }), "Sorted array has 0 inversions");
-            Assert.AreEqual(1, kyu6CalculateNumberOfInversionsInArray.CountInversions(new int[] { 2, 1, 3 }), "Array [2,1,3] only has one inversion");
-        }
+        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("a"));
+        Assert.AreEqual(true, kyu6StringSubpatternRecognitionI.HasSubpattern("aaaa"));
+        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("abcd"));
+        Assert.AreEqual(true, kyu6StringSubpatternRecognitionI.HasSubpattern("abababab"));
+        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("ababababa"));
+        Assert.AreEqual(true, kyu6StringSubpatternRecognitionI.HasSubpattern("123a123a123a"));
+        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("123A123a123a"));
+        Assert.AreEqual(true, kyu6StringSubpatternRecognitionI.HasSubpattern("abbaabbaabba"));
+        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("abbabbabba"));
+        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("abcdabcabcd"));
     }
 }

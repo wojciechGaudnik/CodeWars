@@ -2,11 +2,6 @@ namespace Katas
 {
     public class kyu6CalculateNumberOfInversionsInArray
     {
-        public static void Main(string[] args)
-        {
-
-        }
-
         public static int CountInversions(int[] array)
         {
             var answer = 0;
