@@ -7,41 +7,71 @@ namespace Katas
 {
     public class kyu4SimpleFun119SubSetsParity
     {
-        // public static void Main(string[] args)
-        // {
-        //     var watch = System.Diagnostics.Stopwatch.StartNew();
-        //
-        //     // var testKata = new kyu4SimpleFun119SubSetsParity();
-        //     // Console.WriteLine(testKata.SubsetsParity(2, 0));
-        //
-        //     watch.Stop();
-        //     Console.WriteLine(watch.ElapsedMilliseconds + "ms");
-        //     Console.WriteLine(((Math.Pow(10, 10) / 2) / 8 ) / 1000);
-        // }
-
-        private bool[][] pOET;
-
-        public kyu4SimpleFun119SubSetsParity()
+        public static void Main(string[] args)
         {
-            var size = (int) Math.Pow(10, 6);
-            pOET = new bool[size][];
-            pOET[0] = new []{true};
-            pOET[1] = new []{true, true};
-            for (var n = 2 ;n < size; n++)
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+
+            var testKata = new kyu4SimpleFun119SubSetsParity();
+            Console.WriteLine(testKata.SubsetsParity(85, 55));
+
+            watch.Stop();
+            // Console.WriteLine(watch.ElapsedMilliseconds + "ms");
+            // Console.WriteLine(((Math.Pow(10, 10) / 2) / 8 ) / 1000);
+            // Console.WriteLine(5 >> 1);
+            // Console.WriteLine(Math.Sqrt(5));
+        }
+
+        public string SubsetsParity(int n, int k)
+        {
+            if (n == k) return "ODD";
+            while (k != 0)
             {
-                Console.WriteLine(n);
-                pOET[n] = new bool[n + 1];
-                pOET[n][0] = true;
-                pOET[n][n] = true;
-                for (var k = 1; k < n; k++)
-                {
-                    pOET[n][k] = pOET[n - 1][k - 1] ^ pOET[n - 1][k];
-                }
+                if (n % 2 == 0 && k % 2 == 1) return "EVEN";
+                k /= 2;
+                n /= 2;
             }
+            return "ODD";
+        }
+
+        public string SubsetsParity321(int n, int k) //todo 4 ms
+        {
+            if (n == k) return "ODD";
+            if (n % 2 == 0 && k % 2 == 1) return "EVEN";
+            var l = new BigInteger(n);
+            var m = new BigInteger(1);
+            for (var i = 1; i < k; i++)
+            {
+                l *= --n;
+                m *= i + 1;
+                if (l % 2 == 0 && m % 2 == 1) return "EVEN";
+            }
+            return (BigInteger.Divide(l, m)) % 2 == 0 ? "EVEN" : "ODD";
         }
 
 
-        public string SubsetsParity(int n, int k) //todo 2.7 s
+        private bool[][] pOET;
+
+        // public kyu4SimpleFun119SubSetsParity()
+        // {
+        //     var size = (int) Math.Pow(10, 6);
+        //     pOET = new bool[size][];
+        //     pOET[0] = new []{true};
+        //     pOET[1] = new []{true, true};
+        //     for (var n = 2 ;n < size; n++)
+        //     {
+        //         Console.WriteLine(n);
+        //         pOET[n] = new bool[n + 1];
+        //         pOET[n][0] = true;
+        //         pOET[n][n] = true;
+        //         for (var k = 1; k < n; k++)
+        //         {
+        //             pOET[n][k] = pOET[n - 1][k - 1] ^ pOET[n - 1][k];
+        //         }
+        //     }
+        // }
+
+
+        public string SubsetsParity22(int n, int k) //todo 2.7 s
         {
             if (n == 1 || n == k ) return "ODD";
             if (n % 2 == 0 && k % 2 == 1) return "EVEN";
@@ -70,7 +100,7 @@ namespace Katas
 
 
 
-        public string SubsetsParity22(int n, int k) //todo 4 ms
+        public string SubsetsParity222(int n, int k) //todo 4 ms
         {
             Console.WriteLine("n=" + n + "  k=" + k);
             if (k == n || k == 0) return "ODD";
@@ -125,21 +155,6 @@ namespace Katas
             }
             return next[k] ? "ODD" : "EVEN";
         }
-
-        public string SubsetsParity4(int n, int k) //todo 4 ms
-        {
-            if (n == k) return "ODD";
-            if (n % 2 == 0 && k % 2 == 1) return "EVEN";
-            var l = new BigInteger(n);
-            var m = new BigInteger(1);
-            for (var i = 1; i < k; i++)
-            {
-                l *= --n;
-                m *= i + 1;
-            }
-            return (BigInteger.Divide(l, m)) % 2 == 0 ? "EVEN" : "ODD";
-        }
-
 
         public string SubsetsParity5(int n, int k) //todo 4 ms
         {

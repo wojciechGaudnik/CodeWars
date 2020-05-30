@@ -1,9 +1,12 @@
 # Project Title
-https://www.codewars.com/users/bq666/badges/large - automatic!
-[CodeWars](https://codewars.com)
+
+![CodeWars](https://www.codewars.com/users/bq666/badges/micro)
+![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/bq666.png)
+
 
   
 This is a part of solved and in progress Katas from Code Wars
+
 
 ## Getting Started
 My first learning project whose purpose was to implement Enigma cipher with many more combinations. Simple setup with 2048 key bit and with 100 rotors gives 2.96E+722 combinations. With -f switch we can much more cross this limit. Standard Enigma can give us 150 million combinations. 

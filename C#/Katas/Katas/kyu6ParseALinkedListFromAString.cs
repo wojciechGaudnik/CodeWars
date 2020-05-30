@@ -1,26 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 
 namespace KatasNew
 {
     public class kyu6ParseALinkedListFromAString
     {
-        public static void Main(string[] args)
-        {
-            var test = Parse("1 -> 2 -> 3 -> null");
-            // var data1 = test.Data;
-            // var next1 = test.Next;
-            // var data2 = next1.Data;
-            // var next2 = next1.Next;
-
-            Console.WriteLine(test.Data);
-            Console.WriteLine(test.Next.Data);
-            Console.WriteLine(test.Next.Next.Data);
-
-
-        }
-
         public static Node Parse(string nodes)
         {
             var split = nodes.Split(" -> ");
