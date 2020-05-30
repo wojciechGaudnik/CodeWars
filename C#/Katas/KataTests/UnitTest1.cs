@@ -53,24 +53,21 @@
 // }
 //
 
-using NUnit.Framework;
-using System;
-using Katas;
-
-class ExampleTest
+namespace KatasNew
 {
-    [Test]
-    public void FixedTest()
+    using NUnit.Framework;
+    using System;
+
+    [TestFixture]
+    public class SolutionTest
     {
-        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("a"));
-        Assert.AreEqual(true, kyu6StringSubpatternRecognitionI.HasSubpattern("aaaa"));
-        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("abcd"));
-        Assert.AreEqual(true, kyu6StringSubpatternRecognitionI.HasSubpattern("abababab"));
-        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("ababababa"));
-        Assert.AreEqual(true, kyu6StringSubpatternRecognitionI.HasSubpattern("123a123a123a"));
-        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("123A123a123a"));
-        Assert.AreEqual(true, kyu6StringSubpatternRecognitionI.HasSubpattern("abbaabbaabba"));
-        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("abbabbabba"));
-        Assert.AreEqual(false, kyu6StringSubpatternRecognitionI.HasSubpattern("abcdabcabcd"));
+        [Test, Description("should pass the example tests provided in the Description")]
+        public void SampleTest()
+        {
+            Assert.AreEqual(new Node(1, new Node(2, new Node(3))), kyu6ParseALinkedListFromAString.Parse("1 -> 2 -> 3 -> null"));
+            Assert.AreEqual(new Node(0, new Node(1, new Node(4, new Node(9, new Node(16))))), kyu6ParseALinkedListFromAString.Parse("0 -> 1 -> 4 -> 9 -> 16 -> null"));
+            Assert.AreEqual(null, kyu6ParseALinkedListFromAString.Parse("null"));
+        }
     }
 }
+

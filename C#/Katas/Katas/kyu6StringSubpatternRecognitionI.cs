@@ -1,18 +1,7 @@
-using System;
-
 namespace Katas
 {
     public class kyu6StringSubpatternRecognitionI
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(HasSubpattern("abbabbabba"));
-
-
-
-
-        }
-
         public static bool HasSubpattern(string str)
         {
             for (var i = 1; i < str.Length; i++)
