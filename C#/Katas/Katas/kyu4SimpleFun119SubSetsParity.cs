@@ -1,19 +1,7 @@
-using System;
-
 namespace Katas
 {
     public class kyu4SimpleFun119SubSetsParity
     {
-        public static void Main(string[] args)
-        {
-            var watch = System.Diagnostics.Stopwatch.StartNew();
-
-            var testKata = new kyu4SimpleFun119SubSetsParity();
-            Console.WriteLine(testKata.SubsetsParity(85, 55));
-
-            watch.Stop();
-        }
-
         public string SubsetsParity(int n, int k)
         {
             if (n == k) return "ODD";
