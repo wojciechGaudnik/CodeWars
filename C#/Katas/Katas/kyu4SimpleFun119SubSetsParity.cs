@@ -7,19 +7,19 @@ namespace Katas
 {
     public class kyu4SimpleFun119SubSetsParity
     {
-        public static void Main(string[] args)
-        {
-            var watch = System.Diagnostics.Stopwatch.StartNew();
-
-            var testKata = new kyu4SimpleFun119SubSetsParity();
-            Console.WriteLine(testKata.SubsetsParity(85, 55));
-
-            watch.Stop();
-            // Console.WriteLine(watch.ElapsedMilliseconds + "ms");
-            // Console.WriteLine(((Math.Pow(10, 10) / 2) / 8 ) / 1000);
-            // Console.WriteLine(5 >> 1);
-            // Console.WriteLine(Math.Sqrt(5));
-        }
+        // public static void Main(string[] args)
+        // {
+        //     var watch = System.Diagnostics.Stopwatch.StartNew();
+        //
+        //     var testKata = new kyu4SimpleFun119SubSetsParity();
+        //     Console.WriteLine(testKata.SubsetsParity(85, 55));
+        //
+        //     watch.Stop();
+        //     // Console.WriteLine(watch.ElapsedMilliseconds + "ms");
+        //     // Console.WriteLine(((Math.Pow(10, 10) / 2) / 8 ) / 1000);
+        //     // Console.WriteLine(5 >> 1);
+        //     // Console.WriteLine(Math.Sqrt(5));
+        // }
 
         public string SubsetsParity(int n, int k)
         {
