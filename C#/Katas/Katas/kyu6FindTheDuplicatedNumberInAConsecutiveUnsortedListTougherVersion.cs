@@ -1,14 +1,7 @@
-using System;
-
 namespace Katas
 {
     public class kyu6FindTheDuplicatedNumberInAConsecutiveUnsortedListTougherVersion
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(FindDup(new[] { 8,2,6,3,7,2,5,1,4 }));
-        }
-
         public static int FindDup(int[] arr)
         {
             for (var i = 0; i < arr.Length - 1; i++)
