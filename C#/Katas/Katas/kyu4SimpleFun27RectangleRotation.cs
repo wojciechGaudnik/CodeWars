@@ -4,11 +4,6 @@ namespace Katas
 {
     public class kyu4SimpleFun27RectangleRotation
     {
-        public static void Main(string[] args)
-        {
-            var test = new kyu4SimpleFun27RectangleRotation();
-            Console.WriteLine(test.RectangleRotation(6, 4));
-        }
         public int RectangleRotation(int a, int b)
         {
             var c = (decimal)Math.Sqrt(2);
