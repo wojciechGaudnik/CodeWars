@@ -7,24 +7,6 @@ namespace Katas
 {
     public class kyu4LongestCommonSubsequencePerformanceVersion
     {
-        public static void Main(string[] args)
-        {
-            var a = "abcdefghijklmnopq";
-            var b = "apcdefghijklmnobq";
-            // a = "abcdaf";
-            // b = "acbcf";
-            // a = "132535365";
-            // b = "123456789";
-            a = "anothertest";
-            b = "notatest";
-
-
-            Console.WriteLine(Lcs(b, a));
-
-
-
-        }
-
         public static string Lcs(string a, string b)
         {
             if (a == "" || b == "") return "";
@@ -62,46 +44,6 @@ namespace Katas
             return answer.ToString();
         }
 
-        private static void printArray(string a, string b, int[,] array)
-        {
-            Console.WriteLine("      " + string.Join("", b.Select(c => c + " ,").ToArray()));
-            for (var i = 0; i <= a.Length; i++)
-            {
-                var line = "   ";
-                if (i > 0 && i <= a.Length)
-                {
-                    line = a[i - 1] + "| ";
-                }
-
-                for (var j = 0; j <= b.Length; j++)
-                {
-                    line += array[i, j] + " ,";
-                }
-
-                Console.WriteLine(line);
-            }
-        }
-
-
-        public static string Lcs2(string a, string b)
-        {
-            if (a == "" || b == "") return "";
-            var commonA = string.Join("", a.Where(b.Contains));
-            var commonB = string.Join("", b.Where(a.Contains));
-            if (commonA == "" || commonB == "") return "";
-            (commonA, commonB) = (commonA.Length > commonB.Length) ? (commonA, commonB) : (commonB, commonA);
-            for (var k = commonB.Length; k > 0; k--)
-            {
-
-            }
-            Console.WriteLine(a);
-            Console.WriteLine(commonA);
-            Console.WriteLine(b);
-            Console.WriteLine(commonB);
-
-
-            return "";
-        }
 
         private static IEnumerable<IEnumerable<T>> GetVariation<T>(IEnumerable<T> word, int k)
         {
@@ -114,35 +56,6 @@ namespace Katas
                         yield return new[] {first}.Concat(second);
                 ++i;
             }
-        }
-
-
-        public static string Lcs1(string a, string b)
-        {
-            if (a == "" || b == "") return "";
-
-            var first = LcsTool(a, b);
-            var second = LcsTool(b, a);
-            return  first.Length > second.Length ? first : second;
-        }
-
-        private static string LcsTool(string a, string b)
-        {
-            var answerFirst = new StringBuilder();
-            var jBuff = 0;
-            foreach (var t in a)
-            {
-                for (var j = jBuff; j < b.Length; j++)
-                {
-                    if (t != b[j]) continue;
-                    answerFirst.Append(t);
-                    jBuff = j + 1;
-                    break;
-                }
-            }
-
-            Console.WriteLine(a[0]);
-            return answerFirst.ToString();
         }
     }
 }

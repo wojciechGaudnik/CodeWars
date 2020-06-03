@@ -1,26 +1,69 @@
-using NUnit.Framework;
-using System;
-using System.Text;
+// using NUnit.Framework;
+// using System;
+// using System.Numerics;
+// using Katas;
+//
+// public class SolutionTest
+// {
+//     [Test]
+//     public void SampleTests()
+//     {
+//         Assert.AreEqual(new BigInteger(7), kyu4CountOnesInASegment.CountOnes(5, 7));
+//         Assert.AreEqual(new BigInteger(51), kyu4CountOnesInASegment.CountOnes(12, 29));
+//     }
+// }
+//
+// // 0 <-> 1 <-> 1 <-> 1
+// // 1 <-> 2 <-> 10 <-> 2
+// // 2 <-> 4 <-> 100 <-> 5
+// // 3 <-> 8 <-> 1000 <-> 13
+// // 4 <-> 16 <-> 10000 <-> 33
+// // 5 <-> 32 <-> 100000 <-> 81
+// // 6 <-> 64 <-> 1000000 <-> 193
+// // 7 <-> 128 <-> 10000000 <-> 449
+// // 8 <-> 256 <-> 100000000 <-> 1025
+// // 9 <-> 512 <-> 1000000000 <-> 2305
+// // 10 <-> 1024 <-> 10000000000 <-> 5121
+// // 11 <-> 2048 <-> 100000000000 <-> 11265
+// // 12 <-> 4096 <-> 1000000000000 <-> 24577
+// // 13 <-> 8192 <-> 10000000000000 <-> 53249
+// // 14 <-> 16384 <-> 100000000000000 <-> 114689
+// // 15 <-> 32768 <-> 1000000000000000 <-> 245761
+// // 16 <-> 65536 <-> 10000000000000000 <-> 524289
+// // 17 <-> 131072 <-> 100000000000000000 <-> 1114113
+// // 18 <-> 262144 <-> 1000000000000000000 <-> 2359297
+// // 19 <-> 524288 <-> 10000000000000000000 <-> 4980737
+// // 20 <-> 1048576 <-> 100000000000000000000 <-> 10485761
+// // 21 <-> 2097152 <-> 1000000000000000000000 <-> 22020097
+// // 22 <-> 4194304 <-> 10000000000000000000000 <-> 46137345
+// // 23 <-> 8388608 <-> 100000000000000000000000 <-> 96468993
+// // 24 <-> 16777216 <-> 1000000000000000000000000 <-> 201326593
+// // 25 <-> 33554432 <-> 10000000000000000000000000 <-> 419430401
+// // 26 <-> 67108864 <-> 100000000000000000000000000 <-> 872415233
+// // 27 <-> 134217728 <-> 1000000000000000000000000000 <-> 1811939329
+// // 28 <-> 268435456 <-> 10000000000000000000000000000 <-> 3758096385
+// // 29 <-> 536870912 <-> 100000000000000000000000000000 <-> 7784628225
+// // 30 <-> 1073741824 <-> 1000000000000000000000000000000 <-> 16106127361
+
 using Katas;
 
-[TestFixture]
-public class Test
+namespace Solution
 {
-    [Test]
-    public void FixedTests()
-    {
-        Assert.AreEqual("", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("", ""));
-        Assert.AreEqual("", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("abc", ""));
-        Assert.AreEqual("", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("", "abc"));
-        Assert.AreEqual("", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("a", "b"));
-        Assert.AreEqual("a", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("a", "a"));
-        Assert.AreEqual("ac", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("abc", "ac"));
-        Assert.AreEqual("abc", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("abcdef", "abc"));
-        Assert.AreEqual("acf", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("abcdef", "acf"));
-        Assert.AreEqual("nottest", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("anothertest", "notatest"));
-        Assert.AreEqual("12356", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("132535365", "123456789"));
-        Assert.AreEqual("final", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("nothardlythefinaltest", "zzzfinallyzzz"));
-        Assert.AreEqual("acdefghijklmnoq", kyu4LongestCommonSubsequencePerformanceVersion.Lcs("abcdefghijklmnopq", "apcdefghijklmnobq"));
-    }
+    using NUnit.Framework;
+    using System;
 
+    [TestFixture]
+    public class KataTests
+    {
+        [Test]
+        public void BasicTests()
+        {
+            Func<int,bool> isEven = (num) => num % 2 == 0;
+
+            Assert.AreEqual(new int[0], kyu6TheTakeWhileFunction.TakeWhile(new int[0], isEven));
+            Assert.AreEqual(new int[] { 2,6,4,10 }, kyu6TheTakeWhileFunction.TakeWhile(new int[] { 2,6,4,10,1,5,4,3 }, isEven));
+            Assert.AreEqual(new int[] { 998,996,12,-1000,200,0 }, kyu6TheTakeWhileFunction.TakeWhile(new int[] { 998,996,12,-1000,200,0,1,1,1 }, isEven));
+            Assert.AreEqual(new int[] { 2,4,10,100,64,78,92 }, kyu6TheTakeWhileFunction.TakeWhile(new int[] { 2,4,10,100,64,78,92 }, isEven));
+        }
+    }
 }
