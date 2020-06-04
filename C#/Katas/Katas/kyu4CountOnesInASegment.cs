@@ -1,56 +1,52 @@
 using System;
-using System.Data.Common;
 using System.Linq;
 using System.Numerics;
 using System.Text;
-using System.Threading;
 
 namespace Katas
 {
     public class kyu4CountOnesInASegment
     {
-        // public static void Main(string[] args)
-        // {
-        //     // int worker = 0;
-        //     // int io = 0;
-        //     // ThreadPool.GetAvailableThreads(out worker, out io);
-        //     //
-        //     // Console.WriteLine("Thread pool threads available at startup: ");
-        //     // Console.WriteLine("   Worker threads: {0:N0}", worker);
-        //     // Console.WriteLine("   Asynchronous I/O threads: {0:N0}", io);
-        //     // Console.WriteLine(sumOnes(0, 4));
-        //     // Console.WriteLine(sumOnes(0, 8));
-        //     // Console.WriteLine(sumOnes(4, 8));
-        //     // Console.WriteLine(sumOnes(4, 7));
-        //
-        //     // long test = 1;
-        //     // for (var i = 0; i < 65; i++)
-        //     // {
-        //     //     Console.WriteLine(i + " <-> " + test + " <-> " +  Convert.ToString(test, 2) + " <-> " + CountOnesBF(0, test));
-        //     //     test = test << 1;
-        //     // }
-        //
-        //
-        //     // double sum = 0;
-        //     // var places = 5;
-        //     // for (var i = 1; i <= places; i++)
-        //     // {
-        //     //     Console.WriteLine(Factorial(i));
-        //     //     // sum += BigInteger.Divide(Factorial(places), Factorial(places - i));
-        //     // }
-        //
-        //     // Console.WriteLine(sum + 1);
-        //     Console.WriteLine(CountOnesBF(0, 32));
-        //     Console.WriteLine(Factorial(5) / Factorial(1));
-        //     Console.WriteLine(Factorial(5) / Factorial(2));
-        //     Console.WriteLine(Factorial(5) / Factorial(3));
-        //     Console.WriteLine(Factorial(5) / Factorial(4));
-        //     Console.WriteLine(Factorial(5) / Factorial(5));
-        // }
-
-        public static BigInteger CountOnes(long left, long right)
+        public static void Main(string[] args)
         {
-            return new BigInteger();
+            Console.WriteLine(CountOnes(93960293923410, 153413882626292));
+        }
+
+        public static BigInteger CountOnes(long left, long right) //todo 11.3 sek
+        {
+            return CountFrom0ToNumberBigger(right) - CountFrom0ToNumberBigger(left) + Convert.ToString(left, 2).Count(c => c == '1');
+        }
+
+        private static BigInteger CountFrom0ToNumberBigger(long number)
+        {
+            BigInteger leftSum = 0;
+            var numberBuff = number;
+            while (true)
+            {
+                Console.WriteLine(numberBuff);
+                BigInteger partSum = Convert.ToString(numberBuff, 2).Count(c => c == '1');
+                if (partSum == 1)
+                {
+                    leftSum += CountFrom0ToNumber(numberBuff);
+                    break;
+                }
+                leftSum += partSum;
+                numberBuff--;
+            }
+            return leftSum;
+        }
+
+        private static BigInteger CountFrom0ToNumber(BigInteger number)
+        {
+            BigInteger countFromO = 1;
+            BigInteger sequence = 0;
+            for (BigInteger n = 1; n < number; n <<= 1)
+            {
+                countFromO = countFromO * 2 + sequence;
+                sequence = sequence * 2 + 1;
+            }
+
+            return countFromO;
         }
 
         public static BigInteger CountOnesBF(long left, long right)
@@ -62,6 +58,16 @@ namespace Katas
             }
             return sum;
         }
+
+
+
+
+
+
+
+
+
+
 
         public static BigInteger Factorial(int n)
         {
