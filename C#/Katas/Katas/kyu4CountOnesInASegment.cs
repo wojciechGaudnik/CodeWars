@@ -7,10 +7,11 @@ namespace Katas
 {
     public class kyu4CountOnesInASegment
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(CountOnes(93960293923410, 153413882626292));
-        }
+        // public static void Main(string[] args)
+        // {
+        //     Console.WriteLine(CountOnesBF(0, 12));
+        //     // Console.WriteLine(CountOnes(93960293923410, 153413882626292));
+        // }
 
         public static BigInteger CountOnes(long left, long right) //todo 11.3 sek
         {
