@@ -1,27 +1,27 @@
-// using NUnit.Framework;
-// using System;
-// using System.Numerics;
-// using Katas;
-//
-// public class SolutionTest
-// {
-//     [Test]
-//     public void SampleTests()
-//     {
-//         Assert.AreEqual(new BigInteger(7), kyu4CountOnesInASegment.CountOnes(5, 7));
-//         Assert.AreEqual(new BigInteger(51), kyu4CountOnesInASegment.CountOnes(12, 29));
-//         Assert.AreEqual(new BigInteger(205274), kyu4CountOnesInASegment.CountOnes(1200, 29000));
-//         Assert.AreEqual(new BigInteger(916107), kyu4CountOnesInASegment.CountOnes(193303, 289384));
-//         Assert.AreEqual(new BigInteger(1590906), kyu4CountOnesInASegment.CountOnes(121234, 291324));
-//         Assert.AreEqual(new BigInteger(18673286), kyu4CountOnesInASegment.CountOnes(1212341, 2913249));
-//         Assert.AreEqual(new BigInteger(4056185136), kyu4CountOnesInASegment.CountOnes(12123, 291324912));
-//
-//
-//
-//         Assert.AreEqual(new BigInteger(1432400583258076), kyu4CountOnesInASegment.CountOnes(93960293923410, 153413882626292));
-//     }
-// }
-//
+using NUnit.Framework;
+using System;
+using System.Numerics;
+using Katas;
+
+public class SolutionTest
+{
+    [Test]
+    public void SampleTests()
+    {
+        Assert.AreEqual(new BigInteger(7), kyu4CountOnesInASegment.CountOnes(5, 7));
+        Assert.AreEqual(new BigInteger(51), kyu4CountOnesInASegment.CountOnes(12, 29));
+        Assert.AreEqual(new BigInteger(205274), kyu4CountOnesInASegment.CountOnes(1200, 29000));
+        Assert.AreEqual(new BigInteger(916107), kyu4CountOnesInASegment.CountOnes(193303, 289384));
+        Assert.AreEqual(new BigInteger(1590906), kyu4CountOnesInASegment.CountOnes(121234, 291324));
+        Assert.AreEqual(new BigInteger(18673286), kyu4CountOnesInASegment.CountOnes(1212341, 2913249));
+        Assert.AreEqual(new BigInteger(4056185136), kyu4CountOnesInASegment.CountOnes(12123, 291324912));
+
+
+
+        Assert.AreEqual(new BigInteger(1432400583258076), kyu4CountOnesInASegment.CountOnes(93960293923410, 153413882626292));
+    }
+}
+
 // // 0 <-> 1 <-> 1 <-> 1
 // // 1 <-> 2 <-> 10 <-> 2
 // // 2 <-> 4 <-> 100 <-> 5
