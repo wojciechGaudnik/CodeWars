@@ -6,39 +6,6 @@ namespace Katas
 {
     public class kyu4CountOnesInASegment
     {
-        public static void Main(string[] args)
-        {
-            // for (var i = 0; i < 50; i++)
-            // {
-            //     var text = "";
-            //     text += Convert.ToString(i, 2) + "  ";
-            //     text += "CountOnesBF i=" + i + " " + CountOnesBF(0, i) + " <---> ";
-            //     text += "CountFrom0ToNumber " + CountFrom0ToNumber(i);
-            //     text += ((Convert.ToString(i, 2).Count(c => c == '1') == 1)
-            //         ? "<--"
-            //         : "");
-            //
-            //     Console.WriteLine(text);
-            // }
-            //
-            // Console.WriteLine("------------");0
-            //
-            // for (var i = 0; i < 20; i++)
-            // {
-            //     Console.WriteLine("" + i + " <---> " + Convert.ToString(i, 2));
-            // }
-
-
-            // CountFrom0ToProperNumber(2);
-            // CountFrom0ToProperNumber(3);
-            // CountFrom0ToProperNumber(15);
-            // CountFrom0ToProperNumber(16);
-
-            Console.WriteLine(CountFrom0ToProperNumber(30));
-
-            // Console.WriteLine(CountOnes(93960293923410, 153413882626292));
-        }
-
         public static BigInteger CountOnes(long left, long right) //todo 11.3 sek
         {
             return
