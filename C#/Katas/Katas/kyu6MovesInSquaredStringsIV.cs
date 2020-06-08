@@ -6,12 +6,6 @@ namespace Katas
 {
     public class kyu6MovesInSquaredStringsIV
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Rot90Counter("EcGcXJ\naaygcA\nNgIshN\nyOrCZE\neBEqpm\nNkxCgw"));
-            Console.WriteLine("JANEmw\nXchZpg\ncgsCqC\nGyIrEx\ncagOBk\nEaNyeN");
-        }
-
         public static string Rot90Counter(string strng) {
             var arrayStrings = strng.Split("\n").Select(s => s.ToCharArray()).ToArray();
             var arrayStringsAnswer = strng.Split("\n").Select(s => s.ToCharArray()).ToArray();

@@ -1,28 +1,24 @@
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public static class OpstringsTests
+namespace myjinxin
 {
-    private static void testing(string actual, string expected)
-    {
-        Assert.AreEqual(expected, actual);
-    }
-    [Test]
-    public static void test1()
-    {
-        Console.WriteLine("Fixed Tests Rot90Counter");
-        testing(kyu6MovesInSquaredStringsIV.Oper(kyu6MovesInSquaredStringsIV.Rot90Counter, "EcGcXJ\naaygcA\nNgIshN\nyOrCZE\neBEqpm\nNkxCgw"),
-            "JANEmw\nXchZpg\ncgsCqC\nGyIrEx\ncagOBk\nEaNyeN");
+    using NUnit.Framework;
+    using System;
 
-        Console.WriteLine("Fixed Tests Diag2Sym");
-        testing(kyu6MovesInSquaredStringsIV.Oper(kyu6MovesInSquaredStringsIV.Diag2Sym, "LmvLyg\nDKELBm\nylJhui\nXRXqHD\nzlisCT\nhPqxYb"),
-            "bTDimg\nYCHuBy\nxsqhLL\nqiXJEv\nPlRlKm\nhzXyDL");
+    [TestFixture]
+    public class myjinxin
+    {
 
-        Console.WriteLine("Fixed Tests SelfieDiag2Counterclock");
-        testing(kyu6MovesInSquaredStringsIV.Oper(kyu6MovesInSquaredStringsIV.SelfieDiag2Counterclock,
-                "NJVGhr\nMObsvw\ntPhCtl\nsoEnhi\nrtQRLK\nzjliWg"),
-            "NJVGhr|gKilwr|rwliKg\nMObsvw|WLhtvh|hvthLW\ntPhCtl|iRnCsG|GsCnRi\nsoEnhi|lQEhbV|VbhEQl\nrtQRLK|jtoPOJ|JOPotj\nzjliWg|zrstMN|NMtsrz");
+        [Test]
+        public void BasicTests(){
+            var kata=new kyu6SimpleFun23SquareDigitsSequence();
+
+            Assert.AreEqual(9,  kata.SquareDigitsSequence(16));
+
+            Assert.AreEqual(4,  kata.SquareDigitsSequence(103));
+
+            Assert.AreEqual(2,  kata.SquareDigitsSequence(1));
+
+        }
     }
 }
