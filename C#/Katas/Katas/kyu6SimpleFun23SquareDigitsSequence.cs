@@ -6,14 +6,6 @@ namespace Katas
 {
     public class kyu6SimpleFun23SquareDigitsSequence
     {
-        public static void Main(string[] args)
-        {
-            var test = new kyu6SimpleFun23SquareDigitsSequence();
-            Console.WriteLine(test.SquareDigitsSequence(16));
-            Console.WriteLine(test.SquareDigitsSequence(103));
-            Console.WriteLine(test.SquareDigitsSequence(1));
-        }
-
         public int SquareDigitsSequence(int a0){
             var number = a0;
             var count = 0;

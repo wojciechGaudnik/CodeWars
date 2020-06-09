@@ -1,24 +1,20 @@
+using NUnit.Framework;
+using System;
 using Katas;
 
-namespace myjinxin
-{
-    using NUnit.Framework;
-    using System;
+namespace DoragonSoruja {
 
     [TestFixture]
-    public class myjinxin
+    public class SolutionTest
     {
-
         [Test]
-        public void BasicTests(){
-            var kata=new kyu6SimpleFun23SquareDigitsSequence();
-
-            Assert.AreEqual(9,  kata.SquareDigitsSequence(16));
-
-            Assert.AreEqual(4,  kata.SquareDigitsSequence(103));
-
-            Assert.AreEqual(2,  kata.SquareDigitsSequence(1));
-
+        public void SampleTest()
+        {
+            Assert.AreEqual("VALID", kyu6ValidateMyPassword.validator("Username123"));
+            Assert.AreEqual("INVALID", kyu6ValidateMyPassword.validator("Username"));
+            Assert.AreEqual("INVALID", kyu6ValidateMyPassword.validator("123"));
+            Assert.AreEqual("INVALID", kyu6ValidateMyPassword.validator("Username123!"));
+            Assert.AreEqual("INVALID", kyu6ValidateMyPassword.validator("ThisPasswordIsTooLong1234"));
         }
     }
 }
