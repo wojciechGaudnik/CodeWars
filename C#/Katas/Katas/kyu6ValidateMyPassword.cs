@@ -4,11 +4,6 @@ namespace Katas
 {
     public class kyu6ValidateMyPassword
     {
-        public static void Main(string[] args)
-        {
-
-        }
-
         public static string validator(string password)
         {
             Console.WriteLine(password);
