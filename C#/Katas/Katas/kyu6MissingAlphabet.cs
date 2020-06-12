@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,12 +6,6 @@ namespace Katas
 {
     public class kyu6MissingAlphabet
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(InsertMissingLetters("hello"));
-            Console.WriteLine("hIJKMNPQRSTUVWXYZeFGIJKMNPQRSTUVWXYZlMNPQRSTUVWXYZloPQRSTUVWXYZ");
-        }
-
         public static string InsertMissingLetters(string str) {
             var alpha = string.Join("",
                 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
