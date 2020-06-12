@@ -36,7 +36,7 @@ namespace KatasMarineWeapon
 
         public MarineWeaponUpgrade(IMarine marine)
         {
-        
+
         }
 
         public int Damage { get; set; }
