@@ -6,6 +6,10 @@ namespace KatasMarineWeapon
     {
         public static void Main(string[] args)
         {
+            IMarine marine = new Marine(10, 1);
+            // Console.WriteLine(marine.Damage);
+            // var marineUpgradeWeapon = new MarineWeaponUpgrade(marine).Damage;
+            Console.WriteLine(new MarineWeaponUpgrade(marine).Damage);
 
         }
     }
@@ -22,6 +26,7 @@ namespace KatasMarineWeapon
     {
         public Marine(int damage, int armor)
         {
+            Console.WriteLine(damage + " " + armor + " <--- Marine");
             Damage = damage;
             Armor = armor;
         }
@@ -36,7 +41,8 @@ namespace KatasMarineWeapon
 
         public MarineWeaponUpgrade(IMarine marine)
         {
-
+            this.Damage = marine.Damage + 1;
+            this.Armor = marine.Armor;
         }
 
         public int Damage { get; set; }
@@ -50,6 +56,8 @@ namespace KatasMarineWeapon
 
         public MarineArmorUpgrade(IMarine marine)
         {
+            this.Damage = marine.Damage;
+            this.Armor = marine.Armor + 1;
 
         }
 

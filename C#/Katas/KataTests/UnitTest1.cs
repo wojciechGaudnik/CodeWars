@@ -34,4 +34,22 @@ public class KataTest
 
         Assert.AreEqual(23, marine.Damage);
     }
+
+    [Test]
+    public void _3_MultiUpgrade()
+    {
+        IMarine marine = new Marine(21, 19);
+        marine = new MarineWeaponUpgrade(marine);
+        marine = new MarineArmorUpgrade(marine);
+        marine = new MarineWeaponUpgrade(marine);
+        marine = new MarineWeaponUpgrade(marine);
+        marine = new MarineArmorUpgrade(marine);
+        marine = new MarineWeaponUpgrade(marine);
+        marine = new MarineArmorUpgrade(marine);
+        marine = new MarineWeaponUpgrade(marine);
+        marine = new MarineArmorUpgrade(marine);
+        // marine = new MarineWeaponUpgrade(marine);
+
+        Assert.AreEqual(27, new MarineWeaponUpgrade(marine).Armor);
+    }
 }
