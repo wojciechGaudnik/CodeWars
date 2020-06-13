@@ -1,21 +1,6 @@
 namespace KatasMarineWeapon
 {
     using System;
-
-    public class kyu6PatternCraftDecorator
-    {
-        public static void Main(string[] args)
-        {
-            IMarine marine = new Marine(10, 1);
-            // Console.WriteLine(marine.Damage);
-            // var marineUpgradeWeapon = new MarineWeaponUpgrade(marine).Damage;
-            Console.WriteLine(new MarineWeaponUpgrade(marine).Damage);
-
-        }
-    }
-
-
-
     public interface IMarine
     {
         int Damage { get; set; }
