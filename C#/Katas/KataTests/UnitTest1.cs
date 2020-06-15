@@ -1,22 +1,17 @@
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public static class CycleTests
-{
-    private static void dotest(int n, int expected) {
-        Console.WriteLine("n: {0}, expected: {1}", n, expected);
-        Assert.AreEqual(expected, kyu61nCycle.Running(n));
-    }
-    [Test]
-    public static void fixedtest()
+namespace Learning {
+    using NUnit.Framework;
+    using System;
+    [TestFixture]
+    public class CypherTest
     {
-        Console.WriteLine("Fixed Tests");
-        dotest(33, 2);
-        dotest(18118, -1);
-        dotest(69, 22);
-        dotest(197, 98);
-        dotest(65, -1);
+        [Test]
+        public void BasicTest()
+        {
+            Assert.AreEqual("66542", kyu6MrSafetysTreasures.Unlock("Nokia") );
+            Assert.AreEqual("82588", kyu6MrSafetysTreasures.Unlock("Valut"));
+            Assert.AreEqual("864538", kyu6MrSafetysTreasures.Unlock("toilet"));
+        }
     }
 }
