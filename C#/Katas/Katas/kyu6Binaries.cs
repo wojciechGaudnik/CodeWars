@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,12 +6,6 @@ namespace Katas
 {
     public class kyu6Binaries
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(Code("62"));
-            Console.WriteLine(Decode("10001111"));
-        }
-
         private static Dictionary<string, string> dict = new Dictionary<string, string>()
         {
             {"0", "10"},
