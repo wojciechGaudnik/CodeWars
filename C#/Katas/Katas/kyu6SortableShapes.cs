@@ -1,34 +1,10 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace Katas
 {
     public class kyu6SortableShapes
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("test");
-            var CustomShape = new CustomShape(1.1234);
-            var CustomShape2 = new CustomShape(1.1234);
-            var Square = new Square(1.1234);
-            var list = new List<Shape>();
-            list.Add(CustomShape);
-            list.Add(Square);
-            Console.WriteLine(CustomShape.Equals(CustomShape2));
-
-            list.Sort();
-
-            foreach (var one in list)
-            {
-                Console.WriteLine(one);
-
-            }
-
-
-        }
-
-
     }
 
     public abstract class Shape : IComparable
