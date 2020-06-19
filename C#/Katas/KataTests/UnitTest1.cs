@@ -1,34 +1,89 @@
-using System;
 using Katas;
 using NUnit.Framework;
 
-[TestFixture]
-public static class ApproxFloatTests {
-
-    private static void assertFuzzyEquals(double act, double exp)
+namespace CodeWars
+{
+    [TestFixture]
+    class KataTestClass
     {
-        bool inrange;
-        double merr = 1e-12;
-        if (exp == 0.0)
-            inrange = Math.Abs(act) <= merr;
-        else {
-            double e = Math.Abs((act - exp) / exp);
-            inrange = e <= 1e-12;
+        [TestCase]
+        public void BasicTest1()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "";
+            Assert.AreEqual(1, game.fish(shoal));
         }
-        if (inrange == false) {
-            string specifier = "#.0000000000000000";
-            Console.WriteLine(
-                "Expected must be near: " + exp.ToString(specifier) +", but got: " + act.ToString(specifier));
-        }
-        Assert.AreEqual(true, inrange);
-    }
 
-    [Test]
-    public static void test1() {
-        Console.WriteLine("Fixed Tests: f");
-        assertFuzzyEquals (kyu6FloatingPointApproximationI.f(2.6e-08), 1.29999999155e-08);
-        assertFuzzyEquals (kyu6FloatingPointApproximationI.f(1.4e-09), 6.999999997549999e-10);
-        assertFuzzyEquals (kyu6FloatingPointApproximationI.f(5.0e-06), 2.499996875007812e-06);
-        assertFuzzyEquals (kyu6FloatingPointApproximationI.f(2.4e-07), 1.1999999280000085e-07);
+        [TestCase]
+        public void BasicTest2()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "0";
+            Assert.AreEqual(1, game.fish(shoal));
+        }
+
+        [TestCase]
+        public void BasicTest3()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "6";
+            Assert.AreEqual(1, game.fish(shoal));
+        }
+
+        [TestCase]
+        public void BasicTest4()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "1111";
+            Assert.AreEqual(2, game.fish(shoal));
+        }
+
+        [TestCase]
+        public void BasicTest5()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "11112222";
+            Assert.AreEqual(3, game.fish(shoal));
+        }
+
+        [TestCase]
+        public void BasicTest6()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "111122223333";
+            Assert.AreEqual(4, game.fish(shoal));
+        }
+
+        [TestCase]
+        public void BasicTest7()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "111111111111";
+            Assert.AreEqual(3, game.fish(shoal));
+        }
+
+        [TestCase]
+        public void ExtraTest8()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "111111111111111111112222222222";
+            Assert.AreEqual(5, game.fish(shoal));
+        }
+
+        [TestCase]
+        public void BasicTest9()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "151128241212192113722321331";
+            Assert.AreEqual(5, game.fish(shoal));
+        }
+
+        [TestCase]
+        public void BasicTest10()
+        {
+            kyu6PlentyOfFishInThePond game = new kyu6PlentyOfFishInThePond();
+            string shoal = "614441785129353531554618368152839734689390953222796956813817188694";
+            Assert.AreEqual(13, game.fish(shoal));
+        }
     }
 }
