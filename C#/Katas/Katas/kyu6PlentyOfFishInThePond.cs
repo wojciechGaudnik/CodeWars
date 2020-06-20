@@ -6,18 +6,6 @@ namespace Katas
 {
     public class kyu6PlentyOfFishInThePond
     {
-        public static void Main(string[] args)
-        {
-            var shoal = "151128241212192113722321331";
-            // Console.WriteLine(new kyu6PlentyOfFishInThePond().fish(shoal));
-            shoal = "1111";
-            // Console.WriteLine(new kyu6PlentyOfFishInThePond().fish(shoal));
-            shoal = "614441785129353531554618368152839734689390953222796956813817188694";
-            Console.WriteLine(new kyu6PlentyOfFishInThePond().fish(shoal));
-
-
-        }
-
         public int fish(string shoal)
         {
             Console.WriteLine(shoal);
