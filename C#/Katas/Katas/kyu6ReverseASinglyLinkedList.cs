@@ -6,15 +6,6 @@ namespace KatasNewNode
 {
     public class kyu6ReverseASinglyLinkedList
     {
-        public static void Main(string[] args)
-        {
-            var test = new Node(new int[] {1, 2, 3});
-            var reversed = ReverseList(test);
-
-
-            Console.WriteLine(test);
-
-        }
         public static Node ReverseList(Node node)
         {
             Console.WriteLine(node);
