@@ -1,5 +1,5 @@
 using System;
-using System.Linq;
+using System.Numerics;
 
 namespace Katas
 {
@@ -7,23 +7,29 @@ namespace Katas
     {
         public static void Main(string[] args)
         {
+            // Console.WriteLine(SumMy(1, 7, 3));
+            // Console.WriteLine(SequenceSum(1, 7, 3));
             // Console.WriteLine(SequenceSum(780, 68515438, 5));
-            // Console.WriteLine(SequenceSum(3, 13, 4));
-            // Console.WriteLine(SumMy(3, 13, 4));
-            // Console.WriteLine(SumMy(3, 13, 2));
-            // long partSum = Enumerable.Range(1, 13702931).Sum();
-            // Console.WriteLine(partSum);
-            // var start = 780;
-            // var end = 68515438;
-            // var step = 5;
-            var start = 1;
-            var end = 8;
-            var step = 3;
-            var numberStepsBetween = (end / step) - (start / step);
-            var sumStarts = start * numberStepsBetween;
-            var sumNumberOfSteps = (numberStepsBetween / 2) * (numberStepsBetween + 1);
-            var sumSteps = sumNumberOfSteps * step;
-            Console.WriteLine(sumSteps + sumStarts);
+            // Console.WriteLine(SequenceSum(-2, 4, 658));
+            Console.WriteLine(SequenceSum(97912879, -432, -1));
+            Console.WriteLine(4793465985897232);
+            Console.WriteLine(long.MaxValue);
+            Console.WriteLine(double.MaxValue);
+
+
+            // --->21 592683 -1<---
+            // --->-368 86058849 -1<---
+            // --->95780629 84 -1<---
+            // --->-549459 4 -1<---
+            // --->1322881 -570062 -1<---
+            // --->5 64722 -1<---
+            // --->-967 94895 -1<---
+            // --->-120 -26 -1<---
+            // --->-7 -44 -1<---
+            // --->33 -11350 -1<---
+            // --->-1202 3185113 -1<---
+            // --->97912879 -432 -1<--- <--- źle liczy !!!
+
 
 
 
@@ -31,15 +37,32 @@ namespace Katas
 
         public static long SequenceSum(long start, long end, long step)
         {
-            if ((end - start) + Math.Abs(step) < end - start) return 0;
+            Console.WriteLine("--->" + start + " " + end + " " + step + "<---") ;
+            if (start == end) return 0;
+            if (start > 0 && end >= 0 && step > 0 && start > end) return 0;
+            if (start < 0 && end <= 0 && step < 0 && start < end) return 0;
+            if (start >= 0 && end < 0 && step > 0) return 0;
+            if (start <= 0 && end > 0 && step < 0) return 0;
+            if (start < 0 && end < 0 && step > 0 && start > end) return 0;
+            if (start > 0 && end > 0 && step < 0 && start < end) return 0;
             if (start < 0 && end < 0 & step < 0)
             {
                 start = Math.Abs(start);
                 end = Math.Abs(end);
                 step = Math.Abs(step);
-                return -SumMyBetter(start, end, step);
+                return -SequenceSumBetter(start, end, step);
             }
-            return SumMyBetter(start, end, step);
+            return SequenceSumBetter(start, end, step);
+        }
+
+        private static long SequenceSumBetter(long start, long end, long step)
+        {
+            var numberOfNumbers = ((end - start) / step);
+            // var allSteps = (Math.Pow(numberOfNumbers, 2) + numberOfNumbers) / 2;  //todo <--- good !
+            var allSteps = (BigInteger.Pow(new BigInteger(numberOfNumbers), 2) + numberOfNumbers) / 2;
+            // var allSteps = (numberOfNumbers / 2) * ( numberOfNumbers + 1);
+            Console.WriteLine(((numberOfNumbers * start) + step * allSteps) + start);
+            return (long) ((numberOfNumbers * start) + step * allSteps) + start;
         }
 
         private static long SumMy(long start, long end, long step)
@@ -48,17 +71,6 @@ namespace Katas
             long sum = 0;
             for (var i = start; i <= end; i += step) sum += i;
             return sum;
-        }
-
-        private static long SumMyBetter(long start, long end, long step)
-        {
-            long sum = 0;
-            if (start % step != 0) sum += start;
-            if (end % step != 0) sum += end;
-            var part = (int) ((end / step) - (start / step));
-            var partSum = Enumerable.Range(1, part).Sum();
-
-            return (sum + part * step) + part * start;
         }
     }
 }
