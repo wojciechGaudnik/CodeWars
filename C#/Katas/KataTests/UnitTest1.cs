@@ -1,24 +1,20 @@
 using Katas;
 
-namespace Solution {
+namespace Solution
+{
     using NUnit.Framework;
     using System;
-    
+
     [TestFixture]
-    public class SolutionTest
+    public class TopsTest
     {
-        [Test]
+        [Test, Description("Should work for basic strings")]
         public void BasicTest()
         {
-            Assert.AreEqual(12,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(2, 6, 2));  // +1
-            Assert.AreEqual(15,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(1, 5, 1));
-            Assert.AreEqual(5,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(1, 5, 3));  // +1
-            Assert.AreEqual(469436517521190,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(780, 68515438, 5)); // + 780
-            Assert.AreEqual(-5,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(-1, -5, -3)); // -1
-            Assert.AreEqual(-26,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(-24, -2, 22));
-            Assert.AreEqual(-2,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(-2, 4, 658));
-            Assert.AreEqual(0,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(16, 15, 3));
-            // Assert.AreEqual(4793465985897232,kyu6SumOfaSequenceHardCoreVersion.SequenceSum(97912879, -432, -1));
+            Assert.AreEqual(String.Empty, kyu6StringTops.Tops(String.Empty));
+            Assert.AreEqual("2", kyu6StringTops.Tops("12"));
+            Assert.AreEqual("3pgb", kyu6StringTops.Tops("abcdefghijklmnopqrstuvwxyz12345"));
+            Assert.AreEqual("M3pgb", kyu6StringTops.Tops("abcdefghijklmnopqrstuvwxyz1236789ABCDEFGHIJKLMN"));
         }
     }
 }
