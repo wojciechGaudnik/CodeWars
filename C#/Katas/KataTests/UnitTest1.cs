@@ -53,24 +53,24 @@
 //     }
 // }
 
+
 using Katas;
 
-namespace Solution {
-    using NUnit.Framework;
+namespace Solution
+{
     using System;
+    using NUnit.Framework;
+
     [TestFixture]
-    public class SolutionTest
+    public class TrailingZeros
     {
         [Test]
-        public void Test0()
+        public void BasicTests()
         {
-            Assert.AreEqual(0, kyu5MaximumSubarraySum.MaxSequence(new int[0]));
-        }
-        [Test]
-        public void Test1()
-        {
-            Assert.AreEqual(6, kyu5MaximumSubarraySum.MaxSequence(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
-            Assert.AreEqual(93, kyu5MaximumSubarraySum.MaxSequence(new int[]{-14, 9, 35, 22, -33, 2, -4, -12, -33, 12, 12, 11, 8, -34, -30, -26, 32, -13, -28, -30, -19, -7, -25, 30, 6, 29, -36, -2, -25, 18, 21, 1, 35, -38, 8, 23, -12, 3, 5, 11, 5, -28, -39, -34, -25, -15, 1, 33, 23, 36}));
+            Assert.AreEqual(1, kyu5NumberOfTrailingZerosOfN.TrailingZeros(5));
+            Assert.AreEqual(6, kyu5NumberOfTrailingZerosOfN.TrailingZeros(25));
+            Assert.AreEqual(131, kyu5NumberOfTrailingZerosOfN.TrailingZeros(531));
         }
     }
 }
+
