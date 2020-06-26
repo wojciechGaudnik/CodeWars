@@ -54,23 +54,22 @@
 // }
 
 
+using System;
+using NUnit.Framework;
+using System.Numerics;
 using Katas;
 
-namespace Solution
-{
-    using System;
-    using NUnit.Framework;
+[TestFixture]
+public class SumFctTests {
 
-    [TestFixture]
-    public class TrailingZeros
-    {
-        [Test]
-        public void BasicTests()
-        {
-            Assert.AreEqual(1, kyu5NumberOfTrailingZerosOfN.TrailingZeros(5));
-            Assert.AreEqual(6, kyu5NumberOfTrailingZerosOfN.TrailingZeros(25));
-            Assert.AreEqual(131, kyu5NumberOfTrailingZerosOfN.TrailingZeros(531));
-        }
+    [Test]
+    public void Test1() {
+        Assert.AreEqual(new BigInteger(80), kyu5PerimeterOfSquaresInaRectangle.perimeter(new BigInteger(5)));
+    }
+    [Test]
+    public void Test2() {
+        Assert.AreEqual(new BigInteger(216), kyu5PerimeterOfSquaresInaRectangle.perimeter(new BigInteger(7)));
     }
 }
+
 

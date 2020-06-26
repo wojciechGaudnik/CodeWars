@@ -4,10 +4,6 @@ namespace Katas
 {
     public class kyu5NumberOfTrailingZerosOfN
     {
-        public static void Main(string[] args)
-        {
-
-        }
         public static int TrailingZeros(int n)
         {
             var answer = 0;
