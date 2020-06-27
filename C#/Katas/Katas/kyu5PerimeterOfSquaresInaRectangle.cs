@@ -1,16 +1,9 @@
-using System;
 using System.Numerics;
 
 namespace Katas
 {
     public class kyu5PerimeterOfSquaresInaRectangle
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(perimeter(7) * 4);
-
-        }
-
         public static BigInteger perimeter(BigInteger n)
         {
             BigInteger firstFib = 1;
