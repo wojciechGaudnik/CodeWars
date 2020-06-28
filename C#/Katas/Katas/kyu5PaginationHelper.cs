@@ -5,10 +5,6 @@ namespace Katas
 {
     public class Test2
     {
-        public static void Main(string[] args)
-        {
-            
-        }
     }
     public class Kyu5PaginationHelper<T>
     {
