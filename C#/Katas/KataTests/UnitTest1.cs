@@ -54,65 +54,28 @@
 // }
 
 
-using NUnit.Framework;
-using System;
-using Katas;
-
-public class PerfectPowerTest
-{
-    [Test]
-    public void Test0()
-    {
-        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(0), "0 is not a perfect number");
-    }
-
-    [Test]
-    public void Test1()
-    {
-        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(1), "1 is not a perfect number");
-    }
-
-    [Test]
-    public void Test2()
-    {
-        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(2), "2 is not a perfect number");
-    }
-
-    [Test]
-    public void Test3()
-    {
-        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(3), "3 is not a perfect number");
-    }
-
-    [Test]
-    public void Test4()
-    {
-        Assert.AreEqual((2, 2), kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(4), "4 = 2^2");
-    }
-
-    [Test]
-    public void Test5()
-    {
-        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(5), "5 is not a perfect power");
-    }
-
-    [Test]
-    public void Test8()
-    {
-        Assert.AreEqual((2, 3), kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(8), "8 = 2^3");
-    }
-
-    [Test]
-    public void Test9()
-    {
-        Assert.AreEqual((3, 2), kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(9), "9 = 3^2");
-    }
-
-    [Test]
-    public void TestUpTo500()
-    {
-        var pp = new int[] { 4, 8, 9, 16, 25, 27, 32, 36, 49, 64, 81, 100, 121, 125, 128, 144, 169, 196, 216, 225, 243, 256, 289, 324, 343, 361, 400, 441, 484 };
-        foreach (var i in pp)
-            Assert.IsNotNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(i), $"{i} is a perfect power");
-    }
-}
+// using System;
+// using NUnit.Framework;
+// using System.Linq;
+// using System.Collections;
+// using System.Collections.Generic;
+//
+// [TestFixture]
+// public class SumOfKTests {
+//
+//     [Test]
+//     public void Test1() {
+//         Console.WriteLine("****** Basic Tests");
+//         List<int> ts = new List<int> {50, 55, 56, 57, 58};
+//         int? n = SumOfK.chooseBestSum(163, 3, ts);
+//         Assert.AreEqual(163, n);
+//
+//         ts = new List<int> {50};
+//         n = SumOfK.chooseBestSum(163, 3, ts);
+//         Assert.AreEqual(null, n);
+//
+//         ts = new List<int> {91, 74, 73, 85, 73, 81, 87};
+//         n = SumOfK.chooseBestSum(230, 3, ts);
+//         Assert.AreEqual(228, n);
+//     }
+// }

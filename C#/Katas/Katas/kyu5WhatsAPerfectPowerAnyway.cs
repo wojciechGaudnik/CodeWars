@@ -4,18 +4,6 @@ namespace Katas
 {
     public class kyu5WhatsAPerfectPowerAnyway
     {
-        public static void Main(string[] args)
-        {
-            // Console.WriteLine(IsPerfectPower(128));
-            // Console.WriteLine(IsPerfectPower(32));
-            // Console.WriteLine(IsPerfectPower(27));
-            // Console.WriteLine(IsPerfectPower(9));
-            // Console.WriteLine(IsPerfectPower(100));
-            Console.WriteLine(IsPerfectPower(8000000));
-            // Console.WriteLine(Math.Pow(19, 5));
-
-        }
-
         public static (int, int)? IsPerfectPower(int n)
         {
             if (n < 4) return null;
