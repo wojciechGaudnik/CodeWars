@@ -54,27 +54,65 @@
 // }
 
 
+using NUnit.Framework;
 using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public static class kyu5GapInPrimesTests {
+public class PerfectPowerTest
+{
+    [Test]
+    public void Test0()
+    {
+        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(0), "0 is not a perfect number");
+    }
 
-[Test]
-    public static void test1() {
-        Assert.AreEqual(new long[] {101, 103}, kyu5GapInPrimes.Gap(2,100,110));
-        Assert.AreEqual(new long[] {103, 107}, kyu5GapInPrimes.Gap(4,100,110));
-        Assert.AreEqual(null, kyu5GapInPrimes.Gap(6,100,110));
-        Assert.AreEqual(new long[] {359, 367}, kyu5GapInPrimes.Gap(8,300,400));
-        Assert.AreEqual(new long[] {337, 347}, kyu5GapInPrimes.Gap(10,300,400));
-        Assert.AreEqual(new long[] {141179, 141181}, kyu5GapInPrimes.Gap(2,140982,141982));
-        Assert.AreEqual(new long[] {764051, 764053}, kyu5GapInPrimes.Gap(2,764006,765006));
-        Assert.AreEqual(new long[] {100000000431437, 100000000431439}, kyu5GapInPrimes.Gap(2,100000000430000,1100000000056450));
-        for (var i = 0; i < 1000; i++)
-        {
-            Assert.AreEqual(new long[] {337, 347}, kyu5GapInPrimes.Gap(10,300,400));
-        }
+    [Test]
+    public void Test1()
+    {
+        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(1), "1 is not a perfect number");
+    }
 
+    [Test]
+    public void Test2()
+    {
+        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(2), "2 is not a perfect number");
+    }
+
+    [Test]
+    public void Test3()
+    {
+        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(3), "3 is not a perfect number");
+    }
+
+    [Test]
+    public void Test4()
+    {
+        Assert.AreEqual((2, 2), kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(4), "4 = 2^2");
+    }
+
+    [Test]
+    public void Test5()
+    {
+        Assert.IsNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(5), "5 is not a perfect power");
+    }
+
+    [Test]
+    public void Test8()
+    {
+        Assert.AreEqual((2, 3), kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(8), "8 = 2^3");
+    }
+
+    [Test]
+    public void Test9()
+    {
+        Assert.AreEqual((3, 2), kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(9), "9 = 3^2");
+    }
+
+    [Test]
+    public void TestUpTo500()
+    {
+        var pp = new int[] { 4, 8, 9, 16, 25, 27, 32, 36, 49, 64, 81, 100, 121, 125, 128, 144, 169, 196, 216, 225, 243, 256, 289, 324, 343, 361, 400, 441, 484 };
+        foreach (var i in pp)
+            Assert.IsNotNull(kyu5WhatsAPerfectPowerAnyway.IsPerfectPower(i), $"{i} is a perfect power");
     }
 }
