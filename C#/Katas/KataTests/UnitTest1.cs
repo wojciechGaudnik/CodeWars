@@ -79,3 +79,32 @@
 //         Assert.AreEqual(228, n);
 //     }
 // }
+
+using System;
+using Katas;
+using NUnit.Framework;
+
+[TestFixture]
+public static class kyu5JosephusSurvivorTests 
+{
+
+    private static void testing(int actual, int expected) 
+    {
+        Assert.AreEqual(expected, actual);
+    }
+    [Test]
+    public static void test1() 
+    {        
+        Console.WriteLine("Basic Tests JosSurvivor");
+        testing(kyu5JosephusSurvivor.JosSurvivor(7,3),4);
+        testing(kyu5JosephusSurvivor.JosSurvivor(11,19),10);
+        testing(kyu5JosephusSurvivor.JosSurvivor(40,3),28);
+        testing(kyu5JosephusSurvivor.JosSurvivor(14,2),13);
+        testing(kyu5JosephusSurvivor.JosSurvivor(100,1),100);
+        testing(kyu5JosephusSurvivor.JosSurvivor(1,300),1);
+        testing(kyu5JosephusSurvivor.JosSurvivor(2,300),1);
+        testing(kyu5JosephusSurvivor.JosSurvivor(5,300),1);
+        testing(kyu5JosephusSurvivor.JosSurvivor(7,300),7);
+        testing(kyu5JosephusSurvivor.JosSurvivor(300,300),265);
+    }
+}
