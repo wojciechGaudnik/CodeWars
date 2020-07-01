@@ -80,31 +80,22 @@
 //     }
 // }
 
-using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public static class kyu5JosephusSurvivorTests 
+namespace Solution
 {
+    using NUnit.Framework;
+    using System;
 
-    private static void testing(int actual, int expected) 
+    [TestFixture]
+    public class Sample_Test
     {
-        Assert.AreEqual(expected, actual);
-    }
-    [Test]
-    public static void test1() 
-    {        
-        Console.WriteLine("Basic Tests JosSurvivor");
-        testing(kyu5JosephusSurvivor.JosSurvivor(7,3),4);
-        testing(kyu5JosephusSurvivor.JosSurvivor(11,19),10);
-        testing(kyu5JosephusSurvivor.JosSurvivor(40,3),28);
-        testing(kyu5JosephusSurvivor.JosSurvivor(14,2),13);
-        testing(kyu5JosephusSurvivor.JosSurvivor(100,1),100);
-        testing(kyu5JosephusSurvivor.JosSurvivor(1,300),1);
-        testing(kyu5JosephusSurvivor.JosSurvivor(2,300),1);
-        testing(kyu5JosephusSurvivor.JosSurvivor(5,300),1);
-        testing(kyu5JosephusSurvivor.JosSurvivor(7,300),7);
-        testing(kyu5JosephusSurvivor.JosSurvivor(300,300),265);
+        [Test, Description("Sample Tests")]
+        public void Test()
+        {
+            Assert.AreEqual("128.114.17.104", kyu5Int32ToIPv4.UInt32ToIP(2154959208));
+            Assert.AreEqual("0.0.0.0", kyu5Int32ToIPv4.UInt32ToIP(0));
+            Assert.AreEqual("128.32.10.1", kyu5Int32ToIPv4.UInt32ToIP(2149583361));
+        }
     }
 }
