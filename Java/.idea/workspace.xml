@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../C#/Katas/Katas/SquareIntoSquaresProtectTrees.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas.Tests/Katas.Tests/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Katas/Katas/CodewarsStyleRankingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Katas/Katas/CodewarsStyleRankingSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WojTechM/MaximumSumPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WojTechM/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/DeafRats2_detectApproaching/DeafRats2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/DeafRats2_detectApproaching/DeafRats2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/GCD_FIB_FIND/GCDandFIBandFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/GCD_FIB_FIND/GCDandFIBandFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/Polinomio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/Polinomio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +51,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Java" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -46,7 +68,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -102,7 +123,7 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Decompose">
+  <component name="RunManager" selected="Application.MaximumSumPath">
     <configuration name="Decompose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Decompose" />
       <module name="Java" />
@@ -110,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.Math" />
+    <configuration name="MaximumSumPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WojTechM.MaximumSumPath" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="WojTechM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,28 +187,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSumPath" />
         <item itemvalue="Application.Decompose" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Math" />
       </list>
     </recent_temporary>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -256,69 +265,49 @@
       <workItem from="1575404043959" duration="2678000" />
       <workItem from="1577604456424" duration="708000" />
       <workItem from="1577605978775" duration="27000" />
+      <workItem from="1593637354291" duration="8023000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2516" height="475" key="GridCell.Tab.0.bottom" timestamp="1577605163954">
-      <screen x="4000" y="1440" width="2560" height="1440" />
+    <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog" timestamp="1593670882600">
+      <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2516" height="475" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980613" />
-    <state width="2516" height="475" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
-    <state width="2516" height="475" key="GridCell.Tab.0.center" timestamp="1577605163953">
-      <screen x="4000" y="1440" width="2560" height="1440" />
+    <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
+    <state width="2514" height="332" key="GridCell.Tab.0.bottom" timestamp="1593681227153">
+      <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2516" height="475" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980613" />
-    <state width="2516" height="475" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163953" />
-    <state width="2516" height="475" key="GridCell.Tab.0.left" timestamp="1577605163953">
-      <screen x="4000" y="1440" width="2560" height="1440" />
+    <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
+    <state width="2514" height="332" key="GridCell.Tab.0.center" timestamp="1593681227152">
+      <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2516" height="475" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980612" />
-    <state width="2516" height="475" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163953" />
-    <state width="2516" height="475" key="GridCell.Tab.0.right" timestamp="1577605163954">
-      <screen x="4000" y="1440" width="2560" height="1440" />
+    <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
+    <state width="2514" height="332" key="GridCell.Tab.0.left" timestamp="1593681227152">
+      <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2516" height="475" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980613" />
-    <state width="2516" height="475" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
-    <state width="2516" height="475" key="GridCell.Tab.1.bottom" timestamp="1577605163955">
-      <screen x="4000" y="1440" width="2560" height="1440" />
+    <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
+    <state width="2514" height="332" key="GridCell.Tab.0.right" timestamp="1593681227152">
+      <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2516" height="475" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980645" />
-    <state width="2516" height="475" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163955" />
-    <state width="2516" height="475" key="GridCell.Tab.1.center" timestamp="1577605163954">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2516" height="475" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980645" />
-    <state width="2516" height="475" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
-    <state width="2516" height="475" key="GridCell.Tab.1.left" timestamp="1577605163954">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2516" height="475" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980645" />
-    <state width="2516" height="475" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
-    <state width="2516" height="475" key="GridCell.Tab.1.right" timestamp="1577605163954">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2516" height="475" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@1440.1440.2560.1440" timestamp="1577604980645" />
-    <state width="2516" height="475" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.407.1440.2560@4000.1440.2560.1440" timestamp="1577605163954" />
+    <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

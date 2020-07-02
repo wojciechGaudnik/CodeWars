@@ -5,14 +5,6 @@ namespace Katas
 {
     public class kyu5Int32ToIPv4
     {
-        public static void Main(string[] args)
-        {
-            var test = 2149583361;
-            Console.WriteLine(UInt32ToIP(test));
-            Console.WriteLine(UInt32ToIP(1));
-
-        }
-
         public static string UInt32ToIP(uint ip)
         {
             var binary = Convert.ToString(ip, 2);

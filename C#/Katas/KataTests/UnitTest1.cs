@@ -88,14 +88,17 @@ namespace Solution
     using System;
 
     [TestFixture]
-    public class Sample_Test
+    public class Tests
     {
-        [Test, Description("Sample Tests")]
-        public void Test()
+        [Test]
+        public void SampleTests()
         {
-            Assert.AreEqual("128.114.17.104", kyu5Int32ToIPv4.UInt32ToIP(2154959208));
-            Assert.AreEqual("0.0.0.0", kyu5Int32ToIPv4.UInt32ToIP(0));
-            Assert.AreEqual("128.32.10.1", kyu5Int32ToIPv4.UInt32ToIP(2149583361));
+            Assert.AreEqual("test_controller", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("TestController"));
+            Assert.AreEqual("this_is_beautiful_day", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("ThisIsBeautifulDay"));
+            Assert.AreEqual("am7_days", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("Am7Days"));
+            Assert.AreEqual("my3_code_is4_times_better", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("My3CodeIs4TimesBetter"));
+            Assert.AreEqual("arbitrarily_sending_different_types_to_functions_makes_katas_cool", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("ArbitrarilySendingDifferentTypesToFunctionsMakesKatasCool"));
+            Assert.AreEqual("1", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore(1), "Numbers should be turned to strings!");
         }
     }
 }
