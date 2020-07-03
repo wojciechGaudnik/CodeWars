@@ -6,13 +6,6 @@ namespace Katas
 {
     public class kyu5ConvertPascalCaseStringIntoSnake_case
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("ArbitrarilySendingDifferentTypesToFunctionsMakeskyu5ConvertPascalCaseStringIntoSnake_casesCool");
-            Console.WriteLine(ToUnderscore("ArbitrarilySendingDifferentTypesToFunctionsMakeskyu5ConvertPascalCaseStringIntoSnake_casesCool"));
-
-        }
-
         public static string ToUnderscore(int str) => Convert.ToString(str);
         public static string ToUnderscore(string str) =>
             string.Join("",

@@ -80,25 +80,34 @@
 //     }
 // }
 
+using System;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution
+[TestFixture]
+public class StringMergerTests
 {
-    using NUnit.Framework;
-    using System;
-
-    [TestFixture]
-    public class Tests
+    [Test]
+    public void HappyPath1()
     {
+        Assert.IsTrue(kyu5MergedStringChecker.isMerge("codewars", "code", "wars"), "codewars can be created from code and wars");
+    }
+
+    [Test]
+    public void HappyPath2()
+    {
+        Assert.IsTrue(kyu5MergedStringChecker.isMerge("codewars", "cdwr", "oeas"), "codewars can be created from cdwr and oeas");
+    }
+
+    [Test]
+    public void SadPath1()
+    {
+        Assert.IsFalse(kyu5MergedStringChecker.isMerge("codewars", "cod", "wars"), "Codewars are not codwars");
+    }
+
         [Test]
-        public void SampleTests()
-        {
-            Assert.AreEqual("test_controller", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("TestController"));
-            Assert.AreEqual("this_is_beautiful_day", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("ThisIsBeautifulDay"));
-            Assert.AreEqual("am7_days", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("Am7Days"));
-            Assert.AreEqual("my3_code_is4_times_better", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("My3CodeIs4TimesBetter"));
-            Assert.AreEqual("arbitrarily_sending_different_types_to_functions_makes_katas_cool", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore("ArbitrarilySendingDifferentTypesToFunctionsMakesKatasCool"));
-            Assert.AreEqual("1", kyu5ConvertPascalCaseStringIntoSnake_case.ToUnderscore(1), "Numbers should be turned to strings!");
-        }
+    public void HappyPath3()
+    {
+        Assert.IsFalse(kyu5MergedStringChecker.isMerge("Bananas from Bahamas", "Bahas", "Bananas from am"), "ok");
     }
 }
