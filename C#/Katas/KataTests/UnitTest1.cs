@@ -80,34 +80,16 @@
 //     }
 // }
 
+using NUnit.Framework;
 using System;
 using Katas;
-using NUnit.Framework;
 
-[TestFixture]
-public class StringMergerTests
+public class CountIPAddressesTest
 {
     [Test]
-    public void HappyPath1()
+    public void SmapleTest()
     {
-        Assert.IsTrue(kyu5MergedStringChecker.isMerge("codewars", "code", "wars"), "codewars can be created from code and wars");
-    }
-
-    [Test]
-    public void HappyPath2()
-    {
-        Assert.IsTrue(kyu5MergedStringChecker.isMerge("codewars", "cdwr", "oeas"), "codewars can be created from cdwr and oeas");
-    }
-
-    [Test]
-    public void SadPath1()
-    {
-        Assert.IsFalse(kyu5MergedStringChecker.isMerge("codewars", "cod", "wars"), "Codewars are not codwars");
-    }
-
-        [Test]
-    public void HappyPath3()
-    {
-        Assert.IsFalse(kyu5MergedStringChecker.isMerge("Bananas from Bahamas", "Bahas", "Bananas from am"), "ok");
+        Assert.AreEqual(50, kyu5CountIPAddresses.IpsBetween("10.0.0.0", "10.0.0.50"));
+        Assert.AreEqual(246, kyu5CountIPAddresses.IpsBetween("20.0.0.10", "20.0.1.0"));
     }
 }

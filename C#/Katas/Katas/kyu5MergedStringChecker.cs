@@ -5,16 +5,6 @@ namespace Katas
 {
     public class kyu5MergedStringChecker
     {
-        public static void Main(string[] args)
-        {
-            // Console.WriteLine("codewars can be c from code and wars");
-            // Console.WriteLine(isMerge("codewars", "code", "wars"));
-            // Console.WriteLine(isMerge("codewars", "cdwr", "oeas"));
-            Console.WriteLine(isMerge("Bananas from Bahamas", "Bahas", "Bananas from am"));
-            Console.WriteLine(isMerge("Bananas from Bahamas",  "Bananas from am", "Bahas"));
-
-        }
-
         public static bool isMerge(string s, string part1, string part2)
         {
             if (s.Length <= 0) return s.Length == 0 && part1.Length == 0 && part2.Length == 0;
