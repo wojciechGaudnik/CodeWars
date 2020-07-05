@@ -6,12 +6,6 @@ namespace Katas
 {
     public class kyu5CountIPAddresses
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(IpsBetween("10.0.0.0", "10.0.0.50"));
-
-        }
-
         public static long IpsBetween(string start, string end)
         {
             return ConvertIPtoLong(end) - ConvertIPtoLong(start);

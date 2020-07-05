@@ -80,16 +80,54 @@
 //     }
 // }
 
-using NUnit.Framework;
-using System;
+// using Katas;
+//
+// namespace Solution {
+//     using NUnit.Framework;
+//     using System;
+//     using System.Collections.Generic;
+//
+//     [TestFixture]
+//     public class ParseMoleculeTest
+//     {
+//         [Test]
+//         public void DescriptionExampleTests()
+//         {
+//             CollectionAssert.AreEquivalent(new Dictionary<string, int> {{"H", 2}, {"O", 1}}, kyu5MoleculeToAtoms.ParseMolecule("H2O"));
+//             CollectionAssert.AreEquivalent(new Dictionary<string, int> {{"Mg", 1}, {"O", 2}, {"H", 2}}, kyu5MoleculeToAtoms.ParseMolecule("Mg(OH)2"));
+//             CollectionAssert.AreEquivalent(new Dictionary<string, int> {{"K", 4}, {"O", 14}, {"N", 2}, {"S", 4}}, kyu5MoleculeToAtoms.ParseMolecule("K4[ON(SO3)2]2"));
+//         }
+//     }
+// }
+
+
 using Katas;
 
-public class CountIPAddressesTest
-{
-    [Test]
-    public void SmapleTest()
+namespace Solution {
+    using NUnit.Framework;
+    using System;
+
+    // TODO: Replace examples and use TDD development by writing your own tests
+
+    [TestFixture]
+    public class SolutionTest
     {
-        Assert.AreEqual(50, kyu5CountIPAddresses.IpsBetween("10.0.0.0", "10.0.0.50"));
-        Assert.AreEqual(246, kyu5CountIPAddresses.IpsBetween("20.0.0.10", "20.0.1.0"));
+        [TestCase("this is a string!!", "dGhpcyBpcyBhIHN0cmluZyEh")]
+        [TestCase("ee", "ZWU=")]
+        [TestCase("e", "ZQ==")]
+        [TestCase("", "")]
+        public void SampleValueEncodeTest(string value, string expected)
+        {
+            Assert.AreEqual(expected, kyu5Base64Encoding.ToBase64(value));
+        }
+
+        [TestCase("dGhpcyBpcyBhIHN0cmluZyEh", "this is a string!!")]
+        [TestCase("ZWU=", "ee")]
+        [TestCase("ZQ==", "e")]
+        [TestCase("", "")]
+        public void SampleValueDecodeTest(string value, string expected)
+        {
+            Assert.AreEqual(expected, kyu5Base64Encoding.FromBase64(value));
+        }
     }
 }
