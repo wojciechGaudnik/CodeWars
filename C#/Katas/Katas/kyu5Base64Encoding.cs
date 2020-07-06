@@ -4,13 +4,6 @@ namespace Katas
 {
     public class kyu5Base64Encoding
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(ToBase64("this is a string!!"));
-            Console.WriteLine(FromBase64("dGhpcyBpcyBhIHN0cmluZyEh"));
-
-        }
-
         public static string ToBase64(string s) =>
             Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(s));
 

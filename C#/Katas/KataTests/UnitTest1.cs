@@ -80,54 +80,28 @@
 //     }
 // }
 
-// using Katas;
-//
-// namespace Solution {
-//     using NUnit.Framework;
-//     using System;
-//     using System.Collections.Generic;
-//
-//     [TestFixture]
-//     public class ParseMoleculeTest
-//     {
-//         [Test]
-//         public void DescriptionExampleTests()
-//         {
-//             CollectionAssert.AreEquivalent(new Dictionary<string, int> {{"H", 2}, {"O", 1}}, kyu5MoleculeToAtoms.ParseMolecule("H2O"));
-//             CollectionAssert.AreEquivalent(new Dictionary<string, int> {{"Mg", 1}, {"O", 2}, {"H", 2}}, kyu5MoleculeToAtoms.ParseMolecule("Mg(OH)2"));
-//             CollectionAssert.AreEquivalent(new Dictionary<string, int> {{"K", 4}, {"O", 14}, {"N", 2}, {"S", 4}}, kyu5MoleculeToAtoms.ParseMolecule("K4[ON(SO3)2]2"));
-//         }
-//     }
-// }
-
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using Katas;
+using NUnit.Framework;
 
-namespace Solution {
-    using NUnit.Framework;
-    using System;
-
-    // TODO: Replace examples and use TDD development by writing your own tests
-
-    [TestFixture]
-    public class SolutionTest
+[TestFixture]
+public class KataTest
+{
+    [Test]
+    public void TestDictionary1()
     {
-        [TestCase("this is a string!!", "dGhpcyBpcyBhIHN0cmluZyEh")]
-        [TestCase("ee", "ZWU=")]
-        [TestCase("e", "ZQ==")]
-        [TestCase("", "")]
-        public void SampleValueEncodeTest(string value, string expected)
-        {
-            Assert.AreEqual(expected, kyu5Base64Encoding.ToBase64(value));
-        }
+        kyu5DidYouMean kata = new kyu5DidYouMean(new List<string> { "cherry", "pineapple", "melon", "strawberry", "raspberry" });
+        Assert.AreEqual("strawberry", kata.FindMostSimilar("strawbery"));
+        Assert.AreEqual("cherry", kata.FindMostSimilar("berry"));
+    }
 
-        [TestCase("dGhpcyBpcyBhIHN0cmluZyEh", "this is a string!!")]
-        [TestCase("ZWU=", "ee")]
-        [TestCase("ZQ==", "e")]
-        [TestCase("", "")]
-        public void SampleValueDecodeTest(string value, string expected)
-        {
-            Assert.AreEqual(expected, kyu5Base64Encoding.FromBase64(value));
-        }
+    [Test]
+    public void TestDictionary2()
+    {
+        kyu5DidYouMean kata = new kyu5DidYouMean(new List<string> { "javascript", "java", "ruby", "php", "python", "coffeescript" });
+        Assert.AreEqual("java", kata.FindMostSimilar("heaven"));
+        Assert.AreEqual("javascript", kata.FindMostSimilar("javascript"));
     }
 }
