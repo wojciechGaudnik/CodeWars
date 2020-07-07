@@ -1,24 +1,10 @@
-MAX_N = 20
+import codewars_test as Test
+import codewars_test as test
 
-factorail_table = dict()
-factorail_table[0] = 1
-for i in range(1, MAX_N):
-	factorail_table[i] = factorail_table[i-1] * i
+from kyu8CoefficientsOfTheQuadraticEquation import quadratic
 
-def perm(ith, s):
-	if factorail_table[len(s)] <= ith or ith < 0:
-		raise ValueError
-	elif len(s) == 1:
-		return s
-	else:
-		sub_seq_len = factorail_table[len(s)-1]
-		head_idx = ith // sub_seq_len
-		next_ith = ith % sub_seq_len
-		head = s[head_idx]
-		next_s = ''.join(s.split(s[head_idx]))
-		return head + perm(next_ith, next_s)
+test.assert_equals(quadratic(0,1), (1, -1, 0))
+test.assert_equals(quadratic(4,9), (1, -13, 36))
+test.assert_equals(quadratic(2,6), (1, -8, 12))
+test.assert_equals(quadratic(-5,-4), (1, 9, 20))
 
-if __name__ == '__main__':
-	s = 'abc'
-	for i in range(factorail_table[len(s)]):
-		print(perm(i, s))

@@ -10,7 +10,7 @@ namespace Katas
         {
 
         }
-        
+
         private IEnumerable<string> words;
 
         public kyu5DidYouMean(IEnumerable<string> words)
