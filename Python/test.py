@@ -1,10 +1,10 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu8CoefficientsOfTheQuadraticEquation import quadratic
+from kyu8FilterOutTheGeese import goose_filter
 
-test.assert_equals(quadratic(0,1), (1, -1, 0))
-test.assert_equals(quadratic(4,9), (1, -13, 36))
-test.assert_equals(quadratic(2,6), (1, -8, 12))
-test.assert_equals(quadratic(-5,-4), (1, 9, 20))
+Test.describe("Basic tests")
+Test.assert_equals(goose_filter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]),["Mallard", "Hook Bill", "Crested", "Blue Swedish"])
+Test.assert_equals(goose_filter(["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]),["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"])
+Test.assert_equals(goose_filter(["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]),[])
 
