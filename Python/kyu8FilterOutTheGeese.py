@@ -12,3 +12,5 @@ def goose_filter(birds):
 
 print(goose_filter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]))
 
+x = 143
+print("{:e}".format(x**x))
