@@ -1,10 +1,9 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu8FilterOutTheGeese import goose_filter
+from kyu8ThinkfulNumberDrillsPixelartPlanning import is_divisible
 
-Test.describe("Basic tests")
-Test.assert_equals(goose_filter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]),["Mallard", "Hook Bill", "Crested", "Blue Swedish"])
-Test.assert_equals(goose_filter(["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]),["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"])
-Test.assert_equals(goose_filter(["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]),[])
-
+Test.assert_equals(is_divisible(4050, 27), True)
+Test.assert_equals(is_divisible(4066, 27), False)
+Test.assert_equals(is_divisible(10000, 20), True)
+Test.assert_equals(is_divisible(10005, 20), False)
