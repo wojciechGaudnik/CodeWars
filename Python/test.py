@@ -1,10 +1,11 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu8GrasshopperCheckForFactor import check_for_factor
-from kyu8HolidayVIIIDutyFree import duty_free
-from kyu8WelcomeToTheCity import say_hello
+from kyu8RegexpBasicsIsItADigit import is_digit
 
-Test.describe("Basic tests")
-Test.assert_equals(duty_free(12, 50, 1000), 166)
-Test.assert_equals(duty_free(17, 10, 500), 294)
+Test.describe("Sample tests")
+Test.assert_equals(is_digit(""), False)
+Test.assert_equals(is_digit("7"), True)
+Test.assert_equals(is_digit(" "), False)
+Test.assert_equals(is_digit("a"), False)
+Test.assert_equals(is_digit("a5"), False)
