@@ -1,17 +1,17 @@
 import codewars_test as Test
 import codewars_test as test
 
+from kyu6FormatAStringOfNamesLikeBartLisaMaggie import namelist
+from kyu6MultiTapKeypadTextEntryOnAnOldMobilePhone import presses
+from kyu6PrefillAnArray import prefill
 from kyu7SumOfASequence import sequence_sum
 
-Test.describe("Basic tests")
-Test.assert_equals(sequence_sum(2, 6, 2), 12)
-Test.assert_equals(sequence_sum(1, 5, 1), 15)
-Test.assert_equals(sequence_sum(1, 5, 3), 5)
-Test.assert_equals(sequence_sum(0, 15, 3), 45)
-Test.assert_equals(sequence_sum(16, 15, 3), 0)
-Test.assert_equals(sequence_sum(2, 24, 22), 26)
-Test.assert_equals(sequence_sum(2, 2, 2), 2)
-Test.assert_equals(sequence_sum(2, 2, 1), 2)
-Test.assert_equals(sequence_sum(1, 15, 3), 35)
-Test.assert_equals(sequence_sum(15, 1, 3), 0)
+Test.assert_equals(prefill(3,1), [1,1,1])
+Test.assert_equals(prefill(2,'abc'), ['abc','abc'])
+Test.assert_equals(prefill('1',1), [1])
+Test.assert_equals(prefill(3, prefill(2,'2d')), [['2d','2d'],['2d','2d'],['2d','2d']])
+try:
+	prefill('xyz', 1)
+except TypeError as err:
+	Test.assert_equals(str(err), "xyz is invalid")
 
