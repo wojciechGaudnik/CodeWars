@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text;
 
 namespace Katas
+
 {
     public class kyu5DidYouMean
     {
