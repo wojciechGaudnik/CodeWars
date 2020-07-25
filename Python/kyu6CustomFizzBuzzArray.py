@@ -14,6 +14,4 @@ def fizz_buzz_custom(string_one="Fizz", string_two="Buzz", num_one=3, num_two=5)
 			continue
 		answer.append(n)
 	return answer
-		
-for n in fizz_buzz_custom():
-	print(n)
+	
