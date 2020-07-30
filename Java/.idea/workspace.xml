@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/WojTechM/MaximumSumPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WojTechM/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/kyu6ASCIIHexConverter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/DeafRats2_detectApproaching/DeafRats2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/DeafRats2_detectApproaching/DeafRats2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/GCD_FIB_FIND/GCDandFIBandFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/GCD_FIB_FIND/GCDandFIBandFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/Polinomio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/Polinomio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1PHQzH4J6W7Ih2U2SjLhjOZFTup" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,7 +79,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Enigma/Forest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -266,6 +261,7 @@
       <workItem from="1577604456424" duration="708000" />
       <workItem from="1577605978775" duration="27000" />
       <workItem from="1593637354291" duration="8023000" />
+      <workItem from="1596017352246" duration="671000" />
     </task>
     <servers />
   </component>
@@ -288,6 +284,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2508" y="1933" key="FileChooserDialogImpl" timestamp="1596017426727">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2508" y="1933" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1596017426727" />
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog" timestamp="1593670882600">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -308,6 +308,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
+    <state x="2362" y="1953" key="MultipleFileMergeDialog" timestamp="1596017411897">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2362" y="1953" key="MultipleFileMergeDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1596017411897" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
