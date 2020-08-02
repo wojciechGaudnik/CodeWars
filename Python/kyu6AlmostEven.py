@@ -6,5 +6,3 @@ def split_integer(num, parts):
 			answer[n] += 1
 	return answer
 
-# print(split_integer(20, 6))
-print(split_integer(11, 3))
