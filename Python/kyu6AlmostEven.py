@@ -5,4 +5,3 @@ def split_integer(num, parts):
 		for n in range(len(answer) - 1, len(answer) - 1 - (num_sum), -1):
 			answer[n] += 1
 	return answer
-
