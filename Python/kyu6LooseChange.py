@@ -14,5 +14,3 @@ def loose_change(cents):
 	cents -= answer['Nickels'] * 5
 	answer['Pennies'] = cents
 	return answer
-
-print(loose_change(29))
