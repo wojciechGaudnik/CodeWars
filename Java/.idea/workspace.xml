@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Python/kyu6FrogJumping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/kyu6INeedMoreSpeed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/kyu6RunLengthEncoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/kyu6UnwantedDollars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/kyu6LooseChange.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/kyu6LooseChange.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -269,7 +261,7 @@
       <workItem from="1596098723278" duration="598000" />
       <workItem from="1596219612520" duration="2658000" />
       <workItem from="1596285839674" duration="597000" />
-      <workItem from="1596357040002" duration="1859000" />
+      <workItem from="1596357040002" duration="2457000" />
     </task>
     <servers />
   </component>
