@@ -1,18 +1,17 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu6CasinoChips import solve
-from kyu6CatAandMouseHarderVersion import cat_mouse
+from kyu6HowManyReindeers import reindeer
 
-@test.describe('Fixed Tests')
-def fixed_tests():
-	@test.it('Basic Test Cases')
-	def basic_tests():
-		test.assert_equals(solve([1,1,1]), 1)
-		test.assert_equals(solve([12,12,12]), 18)
-		test.assert_equals(solve([1,2,1]), 2)
-		test.assert_equals(solve([4,1,1]), 2)
-		test.assert_equals(solve([8,2,8]), 9)
-		test.assert_equals(solve([8,1,4]), 5)
-		test.assert_equals(solve([7,4,10]), 10)
-		test.assert_equals(solve([1,23,2]), 3)
+test.describe('Santas Reindeers')
+test.it('Should return the correct number of reindeers')
+test.assert_equals(reindeer(0), 2, '0 presents')
+test.assert_equals(reindeer(1), 3, '1 present')
+test.assert_equals(reindeer(30), 3, '30 presents')
+
+test.it('Should throw an error')
+try:
+	reindeer(200)
+	test.fail('Expected error for 200 presents')
+except Exception:
+	test.it('Threw an error!')
