@@ -6,5 +6,3 @@ def reindeer(presents):
 		answer += 1
 		presents -= 30
 	return answer
-
-print(reindeer(151))
