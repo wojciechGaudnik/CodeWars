@@ -7,6 +7,4 @@ def uniq(seq):
 			answer.append(e)
 	return answer
 
-# print(''.join(uniq([None,'a','a'])))
-
 
