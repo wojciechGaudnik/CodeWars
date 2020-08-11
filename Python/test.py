@@ -1,17 +1,15 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu6CalculateTheFunctionfxForASimpleLinearSequenceEasy import get_function
-from kyu6FibonacciReloaded import fib
-from kyu6FramedReflection import mirror
-from kyu6NumberOfAnagramsInAnArrayOfWords import anagram_counter
-from kyu6OrganiseDuplicateNumbersInList import group
-from kyu6SearchInMultidimensionalArray import locate
+from kyu6CatKataPart1 import peaceful_yard
+from kyu6PeteTheBakerPpart2 import get_missing_ingredients
 
 
-Test.describe("Basic tests")
-Test.assert_equals(group([3, 2, 6, 2, 1, 3]), [[3, 3], [2, 2], [6], [1]])
-Test.assert_equals(group([3, 2, 6, 2]), [[3], [2, 2], [6]])
-Test.assert_equals(group([]), [])
-Test.assert_equals(group([1, 100, 4, 2, 4]), [[1], [100], [4, 4], [2]])
-Test.assert_equals(group([-1, 1, -1]), [[-1, -1], [1]])
+test.describe("Example tests")
+test.it("Only one cat is in the yard")
+test.assert_equals(peaceful_yard(["------------", "------------", "-L----------", "------------", "------------", "------------"], 10), True)
+test.it("There are two cats in the yard, and they are closer than the minimum distance")
+test.assert_equals(peaceful_yard(["------------", "---M--------", "------------", "------------", "-------R----", "------------"], 6), False)
+test.it("All three cats are in the yard, all further apart than or equal to the minimum distance")
+test.assert_equals(peaceful_yard(["-----------L", "--R---------", "------------", "------------", "------------", "--M---------"], 4), True)
+
