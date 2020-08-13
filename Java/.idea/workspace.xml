@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="" />
+    <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python/kyu6RankVector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
