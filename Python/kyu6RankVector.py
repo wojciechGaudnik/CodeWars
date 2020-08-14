@@ -10,5 +10,3 @@ def ranks(a):
 			answer[i] = rank
 		rank += v
 	return answer
-	
-

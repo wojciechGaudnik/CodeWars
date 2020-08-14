@@ -1,13 +1,12 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu6CatKataPart1 import peaceful_yard
-from kyu6CompareVersions import compare_versions
-from kyu6PeteTheBakerPpart2 import get_missing_ingredients
-from kyu6PrimeFactorization import PrimeFactorizer
-from kyu6RankVector import ranks
-from kyu6SortSentencePseudoAlphabetically import pseudo_sort
+from kyu6PairsOfBears import bears
+from kyu6PointsOnALine import on_line
 
-Test.assert_equals(ranks([]), [])
-Test.assert_equals(ranks([2]), [1])
-Test.assert_equals(ranks([2,2]), [1,1])
+Test.describe("Basic tests")
+Test.assert_equals(bears(7, '8j8mBliB8gimjB8B8jlB'), ["B8B8B8",False])
+Test.assert_equals(bears(3, '88Bifk8hB8BB8BBBB888chl8BhBfd'), ["8BB8B8B88B",True])
+Test.assert_equals(bears(8, '8'), ["",False])
+Test.assert_equals(bears(1, 'j8BmB88B88gkBBlf8hg8888lbe88'), ["8BB88B",True])
+Test.assert_equals(bears(0, '8j888aam'), ["",True])
