@@ -1,12 +1,13 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu6PairsOfBears import bears
-from kyu6PointsOnALine import on_line
+from kyu680sKids7ShesASmallWonder import Robot
+from kyu6MultiplesOf3And5Redux import solution
+from kyu6SimplePrimeStreaming import solve
 
-Test.describe("Basic tests")
-Test.assert_equals(bears(7, '8j8mBliB8gimjB8B8jlB'), ["B8B8B8",False])
-Test.assert_equals(bears(3, '88Bifk8hB8BB8BBBB888chl8BhBfd'), ["8BB8B8B88B",True])
-Test.assert_equals(bears(8, '8'), ["",False])
-Test.assert_equals(bears(1, 'j8BmB88B88gkBBlf8hg8888lbe88'), ["8BB88B",True])
-Test.assert_equals(bears(0, '8j888aam'), ["",True])
+vicky = Robot()
+Test.assert_equals(vicky.learn_word('hello'),'Thank you for teaching me hello')
+Test.assert_equals(vicky.learn_word('world'),'Thank you for teaching me world')
+Test.assert_equals(vicky.learn_word('goodbye'),'Thank you for teaching me goodbye')
+Test.assert_equals(vicky.learn_word('world'),'I already know the word world')
+Test.assert_equals(vicky.learn_word('World'),'I already know the word World')
