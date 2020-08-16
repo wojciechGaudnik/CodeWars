@@ -1,13 +1,14 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu680sKids7ShesASmallWonder import Robot
-from kyu6MultiplesOf3And5Redux import solution
-from kyu6SimplePrimeStreaming import solve
+from kyu6MakingChange import make_change
+from kyu6MasterOfFiles import is_img, is_audio
+from kyu6PingPongServiceProblem import service
 
-vicky = Robot()
-Test.assert_equals(vicky.learn_word('hello'),'Thank you for teaching me hello')
-Test.assert_equals(vicky.learn_word('world'),'Thank you for teaching me world')
-Test.assert_equals(vicky.learn_word('goodbye'),'Thank you for teaching me goodbye')
-Test.assert_equals(vicky.learn_word('world'),'I already know the word world')
-Test.assert_equals(vicky.learn_word('World'),'I already know the word World')
+test.assert_equals(service("1:2"), "first", 'when the score is 0:5 it should be second player\'s turn')
+test.assert_equals(service("0:5"), "second", 'when the score is 0:5 it should be second player\'s turn')
+test.assert_equals(service("5:5"), "first", 'when the score is 5:5 it should be first player\'s turn')
+test.assert_equals(service("11:11"), "first", 'when the score is 11:11 it should be first player\'s turn')
+test.assert_equals(service("14:15"), "second", 'when the score is 14:15 it should be second player\'s turn')
+test.assert_equals(service("21:21"), "second")
+test.assert_equals(service("88:88"), "first")
