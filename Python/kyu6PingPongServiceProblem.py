@@ -8,7 +8,3 @@ def service(score):
 	if ((first + second) // 2) % 2 == 0:
 		return "first"
 	return "second"
-	
-	
-
-	

@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WojTechM/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WojTechM/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/kyu6PingPongServiceProblem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/kyu6PingPongServiceProblem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +265,10 @@
       <workItem from="1596098723278" duration="598000" />
       <workItem from="1596219612520" duration="2658000" />
       <workItem from="1596285839674" duration="597000" />
-      <workItem from="1596357040002" duration="3720000" />
+      <workItem from="1596357040002" duration="3729000" />
+      <workItem from="1597584504966" duration="601000" />
+      <workItem from="1597604971396" duration="1234000" />
+      <workItem from="1597662439419" duration="599000" />
     </task>
     <servers />
   </component>

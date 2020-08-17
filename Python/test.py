@@ -1,14 +1,13 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu6MakingChange import make_change
-from kyu6MasterOfFiles import is_img, is_audio
-from kyu6PingPongServiceProblem import service
+from kyu6ManhattanDistance import manhattan_distance
+from kyu6PermutationsAndDotProducts import min_dot
+from kyu6ThinkfulDictionaryDrillsMultipleModes import modes
 
-test.assert_equals(service("1:2"), "first", 'when the score is 0:5 it should be second player\'s turn')
-test.assert_equals(service("0:5"), "second", 'when the score is 0:5 it should be second player\'s turn')
-test.assert_equals(service("5:5"), "first", 'when the score is 5:5 it should be first player\'s turn')
-test.assert_equals(service("11:11"), "first", 'when the score is 11:11 it should be first player\'s turn')
-test.assert_equals(service("14:15"), "second", 'when the score is 14:15 it should be second player\'s turn')
-test.assert_equals(service("21:21"), "second")
-test.assert_equals(service("88:88"), "first")
+test.assert_equals(modes("tomato"), ["o", "t"])
+test.assert_equals(modes([1, 3, 3, 7]), [3])
+test.assert_equals(modes(["redder"]), [])
+test.assert_equals(modes([8, 8, 6, 6, 6, 8]), [])
+
+
