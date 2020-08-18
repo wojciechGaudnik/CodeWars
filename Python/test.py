@@ -1,13 +1,12 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu6ManhattanDistance import manhattan_distance
-from kyu6PermutationsAndDotProducts import min_dot
-from kyu6ThinkfulDictionaryDrillsMultipleModes import modes
+from kyu6BindingWithinTheListMonad import bind
 
-test.assert_equals(modes("tomato"), ["o", "t"])
-test.assert_equals(modes([1, 3, 3, 7]), [3])
-test.assert_equals(modes(["redder"]), [])
-test.assert_equals(modes([8, 8, 6, 6, 6, 8]), [])
+test.assert_equals( bind([1,2,3], lambda a: [a]), [1,2,3] )
+test.assert_equals( bind([7,8,9], lambda a: [[a]]), [[7],[8],[9]] )
+test.assert_equals( bind([3,4,5], lambda a: [[a,-a]]), [[3,-3],[4,-4],[5,-5]] )
+test.assert_equals( bind([5,6,7], lambda a: [str(a)]), ["5","6","7"] )
+
 
 

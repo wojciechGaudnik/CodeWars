@@ -18,4 +18,3 @@ def modes(data):
 			answer.append(k)
 	return list(sorted(answer))
 
-print(modes([9, 8, 0, 7, 7, 7, 0, 8]))
