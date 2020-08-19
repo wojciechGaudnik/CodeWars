@@ -1,12 +1,15 @@
 import codewars_test as Test
 import codewars_test as test
 
+from kyu6AlternatingLoops import combine
 from kyu6BindingWithinTheListMonad import bind
+from kyu6CrackThePIN import crack
+from kyu6LinkedListsRemoveDuplicates import remove_duplicates, Node
 
-test.assert_equals( bind([1,2,3], lambda a: [a]), [1,2,3] )
-test.assert_equals( bind([7,8,9], lambda a: [[a]]), [[7],[8],[9]] )
-test.assert_equals( bind([3,4,5], lambda a: [[a,-a]]), [[3,-3],[4,-4],[5,-5]] )
-test.assert_equals( bind([5,6,7], lambda a: [str(a)]), ["5","6","7"] )
+import random
+import hashlib
+@test.describe("Should pass all of these")
 
-
-
+def exampleTests():
+	test.assert_equals(crack("827ccb0eea8a706c4c34a16891f84e7b"), "12345")
+	test.assert_equals(crack("86aa400b65433b608a9db30070ec60cd"), "00078")
