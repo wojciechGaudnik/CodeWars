@@ -8,4 +8,3 @@ def bind(lst,func):
 		for x in func(e):
 			answer.append(x)
 	return answer
-	

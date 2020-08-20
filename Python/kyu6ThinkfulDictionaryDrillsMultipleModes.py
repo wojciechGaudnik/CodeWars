@@ -17,4 +17,3 @@ def modes(data):
 		if v == max_value:
 			answer.append(k)
 	return list(sorted(answer))
-
