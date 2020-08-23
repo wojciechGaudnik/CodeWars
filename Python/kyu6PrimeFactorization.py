@@ -30,3 +30,5 @@ class PrimeFactorizer:
 					D.setdefault(p + q, []).append(p)
 				del D[q]
 			q += 1
+
+print(PrimeFactorizer(44).factor)
