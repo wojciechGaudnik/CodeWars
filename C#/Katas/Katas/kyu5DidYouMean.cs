@@ -7,10 +7,10 @@ namespace Katas
 {
     public class kyu5DidYouMean
     {
-        public static void Main(string[] args)
-        {
-
-        }
+        // public static void Main(string[] args)
+        // {
+        //
+        // }
 
         private IEnumerable<string> words;
 

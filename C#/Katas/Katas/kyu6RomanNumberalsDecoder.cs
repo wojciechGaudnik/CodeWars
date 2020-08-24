@@ -5,6 +5,10 @@ namespace Katas
 {
     public class kyu6RomanNumberalsDecoder
     {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine(Solution("XXI"));
+        }
         public static int Solution(string roman)
         {
             var dic = new Dictionary<String, int>()
