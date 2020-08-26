@@ -1,14 +1,22 @@
 import codewars_test as Test
 import codewars_test as test
 
+from kyu4ExplosiveSum import exp_sum
+from kyu5AChainAddingFunction import add
 from kyu5StringIncrementer import increment_string
 from kyu6PolybiusSquareCipherEncode import polybius
+from kyu6SimplifyTheNumber import simplify
 from kyu6TheNthmallestInteger import nth_smallest
 
-Test.assert_equals(increment_string("foo"), "foo1")
-Test.assert_equals(increment_string("foobar001"), "foobar002")
-Test.assert_equals(increment_string("foobar1"), "foobar2")
-Test.assert_equals(increment_string("foobar00"), "foobar01")
-Test.assert_equals(increment_string("foobar99"), "foobar100")
-Test.assert_equals(increment_string("foobar099"), "foobar100")
-Test.assert_equals(increment_string(""), "1")
+test.describe('testing exp_sum')
+test.it('***** Very basic tests *****\n')
+test.assert_equals(exp_sum(1), 1)
+test.assert_equals(exp_sum(2), 2)
+test.assert_equals(exp_sum(3), 3)
+test.it('_____ So far so good _____\n')
+test.it('\n***** Funcionality tests *****\n')
+test.assert_equals(exp_sum(4), 5)
+test.assert_equals(exp_sum(5), 7)
+test.assert_equals(exp_sum(10), 42)
+test.assert_equals(exp_sum(100), 190569292)
+
