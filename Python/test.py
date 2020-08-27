@@ -1,22 +1,29 @@
 import codewars_test as Test
 import codewars_test as test
 
-from kyu4ExplosiveSum import exp_sum
-from kyu5AChainAddingFunction import add
-from kyu5StringIncrementer import increment_string
-from kyu6PolybiusSquareCipherEncode import polybius
-from kyu6SimplifyTheNumber import simplify
-from kyu6TheNthmallestInteger import nth_smallest
+from kyu4SimplifyingMultilinearPolynomials import simplify
 
-test.describe('testing exp_sum')
-test.it('***** Very basic tests *****\n')
-test.assert_equals(exp_sum(1), 1)
-test.assert_equals(exp_sum(2), 2)
-test.assert_equals(exp_sum(3), 3)
-test.it('_____ So far so good _____\n')
-test.it('\n***** Funcionality tests *****\n')
-test.assert_equals(exp_sum(4), 5)
-test.assert_equals(exp_sum(5), 7)
-test.assert_equals(exp_sum(10), 42)
-test.assert_equals(exp_sum(100), 190569292)
+test.it("Test reduction by equivalence")
+test.assert_equals(simplify("dc+dcba"), "cd+abcd")
+
+test.assert_equals(simplify("2xy-yx"),"xy")
+
+test.assert_equals(simplify("-a+5ab+3a-c-2a"),"-c+5ab")
+
+test.it("Test monomial length ordering")
+test.assert_equals(simplify("-abc+3a+2ac"),"3a+2ac-abc")
+
+test.assert_equals(simplify("xyz-xz"),"-xz+xyz")
+
+test.it("Test lexicographic ordering")
+test.assert_equals(simplify("a+ca-ab"),"a-ab+ac")
+
+test.assert_equals(simplify("xzy+zby"),"byz+xyz")
+
+test.it("Test no leading +")
+test.assert_equals(simplify("-y+x"),"x-y")
+
+test.assert_equals(simplify("y-x"),"-x+y")
+test.assert_equals(simplify("+n-5hn+7tjhn-4nh-3n-6hnjt+2jhn+9hn"),"-2n+2hjn+hjnt")
+
 
