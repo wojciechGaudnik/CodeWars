@@ -17,4 +17,5 @@ test.assert_equals(bowling_score('6/ 5/ 6/ 2/ 3/ 0/ 1/ 8/ 3/ 6/5'), 139)
 test.assert_equals(bowling_score('61 13 1/ 81 81 27 03 X 5/ 12'), 93)
 test.assert_equals(bowling_score('04 X 7/ 35 2/ 90 05 9/ 72 53'), 112)
 test.assert_equals(bowling_score('X 7/ 6/ 52 32 90 81 3/ 15 53'), 106)
+test.assert_equals(bowling_score('X 62 52 50 43 1/ 45 20 X XX1'), 121)
 
