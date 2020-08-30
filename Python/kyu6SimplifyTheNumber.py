@@ -9,4 +9,3 @@ def simplify(number):
 		if int(d) > 0:
 			answer = d + "*" + str(10 ** i) + "+" + answer
 	return answer.rstrip('+')
-
