@@ -20,11 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poker_test/PokerHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/kyu4RankingPokerHands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a_plus_b_equals_one_two_three/kyu6/Dinglemouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a_plus_b_equals_one_two_three/kyu6/ExampleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/area_or_perimeter/kyu8/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/area_or_perimeter/kyu8/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/count_the_digit/kyu7/CountDig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/count_the_digit/kyu7/CountDigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grasshopper_debug/kyu8/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grasshopper_debug/kyu8/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guess_the_number/kyu6/GuessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guess_the_number/kyu6/Guesser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guess_the_number/kyu6/GuesserSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/make_a_function_that_does_arithmetic/kyu7/ArithmeticFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/make_a_function_that_does_arithmetic/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple_square_numbers/ku6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple_square_numbers/ku6/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/kyu6SimplifyTheNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/kyu6SimplifyTheNumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/DeafRats2_detectApproaching/DeafRats2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/DeafRats2_detectApproaching/DeafRats2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/GCD_FIB_FIND/GCDandFIBandFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/GCD_FIB_FIND/GCDandFIBandFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/Polinomio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/Polinomio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +72,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -70,20 +93,22 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.108597286" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.108597286" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.23558404" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.023656974" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="Repository.Attach.Sources" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.054507338" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,23 +117,33 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.3045977" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="All" />
-      <recent name="FunWithListsLength" />
-      <recent name="FunWithListsMap" />
-      <recent name="Leetspeak" />
-      <recent name="Twisted_3_7" />
+      <recent name="a_plus_b_equals_one_two_three.kyu6" />
+      <recent name="simple_square_numbers.ku6" />
+      <recent name="guess_the_number.kyu6" />
+      <recent name="make_a_function_that_does_arithmetic.kyu7" />
+      <recent name="count_the_digit.kyu7" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/make_a_function_that_does_arithmetic/kyu7" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/wojciechGaudnik/QuestStoreAWSSpring.git" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="guess_the_number.kyu6" />
     </key>
   </component>
   <component name="Regex">
@@ -122,20 +157,13 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PokerHand">
-    <configuration name="Decompose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Decompose" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumSumPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WojTechM.MaximumSumPath" />
+  <component name="RunManager" selected="JUnit.ExampleTests">
+    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_plus_b_equals_one_two_three.kyu6.Dinglemouse" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WojTechM.*" />
+          <option name="PATTERN" value="a_plus_b_equals_one_two_three.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,54 +171,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poker_test.PokerHand" />
+    <configuration name="ExampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poker_test.*" />
+          <option name="PATTERN" value="a_plus_b_equals_one_two_three.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="All.Test" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="All.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="All.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="All" />
-      <option name="MAIN_CLASS_NAME" value="All.SolutionTest" />
+      <option name="PACKAGE_NAME" value="a_plus_b_equals_one_two_three.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="a_plus_b_equals_one_two_three.kyu6.ExampleTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests.testGreater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_plus_b_equals_one_two_three.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_plus_b_equals_one_two_three.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="a_plus_b_equals_one_two_three.kyu6.ExampleTests" />
+      <option name="METHOD_NAME" value="testGreater" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests.testLess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_plus_b_equals_one_two_three.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_plus_b_equals_one_two_three.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="a_plus_b_equals_one_two_three.kyu6.ExampleTests" />
+      <option name="METHOD_NAME" value="testLess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.basicTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simple_square_numbers.ku6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simple_square_numbers.ku6" />
+      <option name="MAIN_CLASS_NAME" value="simple_square_numbers.ku6.SolutionTest" />
+      <option name="METHOD_NAME" value="basicTests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PokerHand" />
-        <item itemvalue="Application.MaximumSumPath" />
-        <item itemvalue="Application.Decompose" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.ExampleTests" />
+        <item itemvalue="JUnit.ExampleTests.testGreater" />
+        <item itemvalue="Application.Dinglemouse" />
+        <item itemvalue="JUnit.ExampleTests.testLess" />
+        <item itemvalue="JUnit.SolutionTest.basicTests" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +325,7 @@
       <workItem from="1597662439419" duration="599000" />
       <workItem from="1597819419646" duration="605000" />
       <workItem from="1597820458914" duration="69000" />
-      <workItem from="1598779264679" duration="663000" />
+      <workItem from="1598779264679" duration="21157000" />
     </task>
     <servers />
   </component>
@@ -298,6 +348,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2184" y="1833" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598804698587">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2184" y="1833" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598804698587" />
+    <state x="2457" y="1967" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598804696596">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2457" y="1967" key="#com.intellij.ide.util.TreeClassChooserDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598804696596" />
+    <state x="2519" y="1848" width="872" height="653" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598801585553">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2519" y="1848" width="872" height="653" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598801585553" />
     <state x="2508" y="1933" key="FileChooserDialogImpl" timestamp="1596017426727">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -306,50 +368,71 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
-    <state width="1234" height="515" key="GridCell.Tab.0.bottom" timestamp="1598779679538">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598779407087" />
-    <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
-    <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
-    <state width="1234" height="515" key="GridCell.Tab.0.center" timestamp="1598779679538">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598779407087" />
-    <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
-    <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="1234" height="515" key="GridCell.Tab.0.left" timestamp="1598779679538">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598779407087" />
-    <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
-    <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="1234" height="515" key="GridCell.Tab.0.right" timestamp="1598779679538">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598779407087" />
-    <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
-    <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="1234" height="515" key="GridCell.Tab.1.bottom" timestamp="1598779679603">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="1234" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="1234" height="515" key="GridCell.Tab.1.center" timestamp="1598779679603">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="1234" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="1234" height="515" key="GridCell.Tab.1.left" timestamp="1598779679603">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="1234" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="1234" height="515" key="GridCell.Tab.1.right" timestamp="1598779679603">
-      <screen x="4000" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="1234" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state x="2362" y="1953" key="MultipleFileMergeDialog" timestamp="1596017411897">
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1598866740558">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598866740558" />
+    <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
+    <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
+    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1598866740558">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598866740558" />
+    <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
+    <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
+    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1598866740558">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598866740558" />
+    <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
+    <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
+    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1598866740558">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598866740558" />
+    <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
+    <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1598860557247">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598860557247" />
+    <state width="1234" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
+    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1598860557247">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598860557247" />
+    <state width="1234" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
+    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1598860557247">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598860557247" />
+    <state width="1234" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
+    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1598860557247">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598860557247" />
+    <state width="1234" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
+    <state x="4256" y="1585" key="MergeDialog" timestamp="1598799683979">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="4256" y="1585" key="MergeDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598799683979" />
+    <state x="4922" y="1953" key="MultipleFileMergeDialog" timestamp="1598799683997">
+      <screen x="4000" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="4922" y="1953" key="MultipleFileMergeDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598799683997" />
     <state x="2362" y="1953" key="MultipleFileMergeDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1596017411897" />
+    <state x="2221" y="1810" key="SettingsEditor" timestamp="1598851253719">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2221" y="1810" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598851253719" />
+    <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598851240771">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598851240771" />
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598861198509">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598861198509" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

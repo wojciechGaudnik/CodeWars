@@ -34,5 +34,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="org.projectlombok:lombok:1.18.8" level="project" />
+    <orderEntry type="library" name="org.slf4j:integration:1.7.30" level="project" />
+    <orderEntry type="library" name="Simple Logging Facade for Java:1.6.2" level="project" />
   </component>
 </module>
