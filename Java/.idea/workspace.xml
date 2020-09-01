@@ -20,33 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a_plus_b_equals_one_two_three/kyu6/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a_plus_b_equals_one_two_three/kyu6/ExampleTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area_or_perimeter/kyu8/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area_or_perimeter/kyu8/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/count_the_digit/kyu7/CountDig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/count_the_digit/kyu7/CountDigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grasshopper_debug/kyu8/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grasshopper_debug/kyu8/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guess_the_number/kyu6/GuessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guess_the_number/kyu6/Guesser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guess_the_number/kyu6/GuesserSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/make_a_function_that_does_arithmetic/kyu7/ArithmeticFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/make_a_function_that_does_arithmetic/kyu7/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple_square_numbers/ku6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple_square_numbers/ku6/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple_fun_missing_alphabets/kyu6/MissingAlphabets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple_fun_missing_alphabets/kyu6/SampleTestsJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple_fun_prime_string/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/Dinglemouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/DeafRats2_detectApproaching/DeafRats2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/DeafRats2_detectApproaching/DeafRats2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/GCD_FIB_FIND/GCDandFIBandFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/GCD_FIB_FIND/GCDandFIBandFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/JomoPipi/JomoPipi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/Polinomio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/StringPolynomialConverter/Polinomio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/TimeFormatter/TimeFormatter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,11 +102,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="the_spider_and_the_fly_jumping_pider.kyu6" />
+      <recent name="simple_fun_missing_alphabets.kyu6" />
       <recent name="a_plus_b_equals_one_two_three.kyu6" />
       <recent name="simple_square_numbers.ku6" />
       <recent name="guess_the_number.kyu6" />
-      <recent name="make_a_function_that_does_arithmetic.kyu7" />
-      <recent name="count_the_digit.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -157,13 +136,13 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.ExampleTests">
+  <component name="RunManager" selected="Application.Dinglemouse">
     <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a_plus_b_equals_one_two_three.kyu6.Dinglemouse" />
+      <option name="MAIN_CLASS_NAME" value="the_spider_and_the_fly_jumping_pider.kyu6.Dinglemouse" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_plus_b_equals_one_two_three.kyu6.*" />
+          <option name="PATTERN" value="the_spider_and_the_fly_jumping_pider.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,64 +150,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simple_fun_prime_string.kyu6.Kata" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_plus_b_equals_one_two_three.kyu6.*" />
+          <option name="PATTERN" value="simple_fun_prime_string.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_plus_b_equals_one_two_three.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="a_plus_b_equals_one_two_three.kyu6.ExampleTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the_spider_and_the_fly_jumping_pider.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="the_spider_and_the_fly_jumping_pider.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="the_spider_and_the_fly_jumping_pider.kyu6.ExampleTests" />
+      <option name="METHOD_NAME" value="example" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTestsJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simple_fun_missing_alphabets.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simple_fun_missing_alphabets.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="simple_fun_missing_alphabets.kyu6.SampleTestsJava" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTests.testGreater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleTestsJava.sampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_plus_b_equals_one_two_three.kyu6.*" />
+          <option name="PATTERN" value="simple_fun_missing_alphabets.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_plus_b_equals_one_two_three.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="a_plus_b_equals_one_two_three.kyu6.ExampleTests" />
-      <option name="METHOD_NAME" value="testGreater" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTests.testLess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a_plus_b_equals_one_two_three.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="a_plus_b_equals_one_two_three.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="a_plus_b_equals_one_two_three.kyu6.ExampleTests" />
-      <option name="METHOD_NAME" value="testLess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.basicTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simple_square_numbers.ku6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simple_square_numbers.ku6" />
-      <option name="MAIN_CLASS_NAME" value="simple_square_numbers.ku6.SolutionTest" />
-      <option name="METHOD_NAME" value="basicTests" />
+      <option name="PACKAGE_NAME" value="simple_fun_missing_alphabets.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="simple_fun_missing_alphabets.kyu6.SampleTestsJava" />
+      <option name="METHOD_NAME" value="sampleTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExampleTests" />
-        <item itemvalue="JUnit.ExampleTests.testGreater" />
         <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="JUnit.ExampleTests.testLess" />
-        <item itemvalue="JUnit.SolutionTest.basicTests" />
+        <item itemvalue="JUnit.ExampleTests.example" />
+        <item itemvalue="JUnit.SampleTestsJava.sampleTests" />
+        <item itemvalue="JUnit.SampleTestsJava" />
+        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +301,8 @@
       <workItem from="1597662439419" duration="599000" />
       <workItem from="1597819419646" duration="605000" />
       <workItem from="1597820458914" duration="69000" />
-      <workItem from="1598779264679" duration="21157000" />
+      <workItem from="1598779264679" duration="25986000" />
+      <workItem from="1598976614281" duration="2662000" />
     </task>
     <servers />
   </component>
@@ -368,49 +345,49 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1598866740558">
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1598979228637">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598866740558" />
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598979228637" />
     <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
-    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1598866740558">
+    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1598979228637">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598866740558" />
+    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598979228637" />
     <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1598866740558">
+    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1598979228637">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598866740558" />
+    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598979228637" />
     <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1598866740558">
+    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1598979228637">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598866740558" />
+    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598979228637" />
     <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1598860557247">
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1598978787317">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598860557247" />
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978787317" />
     <state width="1234" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1598860557247">
+    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1598978787317">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598860557247" />
+    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978787317" />
     <state width="1234" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1598860557247">
+    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1598978787317">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598860557247" />
+    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978787317" />
     <state width="1234" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1598860557247">
+    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1598978787317">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598860557247" />
+    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978787317" />
     <state width="1234" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
     <state x="4256" y="1585" key="MergeDialog" timestamp="1598799683979">
       <screen x="4000" y="1440" width="2560" height="1440" />
@@ -429,10 +406,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598851240771" />
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598861198509">
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598978056249">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598861198509" />
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978056249" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
