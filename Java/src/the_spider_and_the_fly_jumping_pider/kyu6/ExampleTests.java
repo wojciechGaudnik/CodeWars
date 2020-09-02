@@ -2,7 +2,6 @@ package the_spider_and_the_fly_jumping_pider.kyu6;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 public class ExampleTests {
 

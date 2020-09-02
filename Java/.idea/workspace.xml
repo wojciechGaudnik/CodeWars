@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/simple_fun_missing_alphabets/kyu6/MissingAlphabets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple_fun_missing_alphabets/kyu6/SampleTestsJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple_fun_prime_string/kyu6/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divisible_ints/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divisible_ints/kyu6/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractions_class/kyu6/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractions_class/kyu6/FractionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grill_it/kyu6/GrillIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grill_it/kyu6/GrillItTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3045977" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -102,11 +104,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fractions_class.kyu6" />
+      <recent name="grill_it.kyu6" />
+      <recent name="divisible_ints.kyu6" />
       <recent name="the_spider_and_the_fly_jumping_pider.kyu6" />
       <recent name="simple_fun_missing_alphabets.kyu6" />
-      <recent name="a_plus_b_equals_one_two_three.kyu6" />
-      <recent name="simple_square_numbers.ku6" />
-      <recent name="guess_the_number.kyu6" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -136,13 +138,13 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Dinglemouse">
-    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="the_spider_and_the_fly_jumping_pider.kyu6.Dinglemouse" />
+  <component name="RunManager" selected="JUnit.FractionTests">
+    <configuration name="Fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fractions_class.kyu6.Fraction" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="the_spider_and_the_fly_jumping_pider.kyu6.*" />
+          <option name="PATTERN" value="fractions_class.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,73 +152,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_fun_prime_string.kyu6.Kata" />
+    <configuration name="FractionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_fun_prime_string.kyu6.*" />
+          <option name="PATTERN" value="fractions_class.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTests.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="the_spider_and_the_fly_jumping_pider.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="the_spider_and_the_fly_jumping_pider.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="the_spider_and_the_fly_jumping_pider.kyu6.ExampleTests" />
-      <option name="METHOD_NAME" value="example" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTestsJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simple_fun_missing_alphabets.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simple_fun_missing_alphabets.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="simple_fun_missing_alphabets.kyu6.SampleTestsJava" />
+      <option name="PACKAGE_NAME" value="fractions_class.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="fractions_class.kyu6.FractionTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTestsJava.sampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FractionTests.T1_GeneralTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_fun_missing_alphabets.kyu6.*" />
+          <option name="PATTERN" value="fractions_class.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simple_fun_missing_alphabets.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="simple_fun_missing_alphabets.kyu6.SampleTestsJava" />
-      <option name="METHOD_NAME" value="sampleTests" />
+      <option name="PACKAGE_NAME" value="fractions_class.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="fractions_class.kyu6.FractionTests" />
+      <option name="METHOD_NAME" value="T1_GeneralTests" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTests.T3_ToStringTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fractions_class.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fractions_class.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="fractions_class.kyu6.FractionTests" />
+      <option name="METHOD_NAME" value="T3_ToStringTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrillItTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grill_it.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="grill_it.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="grill_it.kyu6.GrillItTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="JUnit.ExampleTests.example" />
-        <item itemvalue="JUnit.SampleTestsJava.sampleTests" />
-        <item itemvalue="JUnit.SampleTestsJava" />
-        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.FractionTests" />
+        <item itemvalue="Application.Fraction" />
+        <item itemvalue="JUnit.FractionTests.T1_GeneralTests" />
+        <item itemvalue="JUnit.FractionTests.T3_ToStringTests" />
+        <item itemvalue="JUnit.GrillItTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +306,7 @@
       <workItem from="1597819419646" duration="605000" />
       <workItem from="1597820458914" duration="69000" />
       <workItem from="1598779264679" duration="25986000" />
-      <workItem from="1598976614281" duration="2662000" />
+      <workItem from="1598976614281" duration="14994000" />
     </task>
     <servers />
   </component>
@@ -329,6 +333,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2184" y="1833" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598804698587" />
+    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599036854478">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599036854478" />
     <state x="2457" y="1967" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598804696596">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -337,57 +345,58 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2519" y="1848" width="872" height="653" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598801585553" />
-    <state x="2508" y="1933" key="FileChooserDialogImpl" timestamp="1596017426727">
+    <state x="2875" y="2001" key="FileChooserDialogImpl" timestamp="1599027453830">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
+    <state x="2875" y="2001" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599027453830" />
     <state x="2508" y="1933" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1596017426727" />
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog" timestamp="1593670882600">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1598979228637">
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1599037855825">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598979228637" />
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037855825" />
     <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
-    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1598979228637">
+    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1599037855825">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598979228637" />
+    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037855825" />
     <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1598979228637">
+    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1599037855825">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598979228637" />
+    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037855825" />
     <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1598979228637">
+    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1599037855825">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598979228637" />
+    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037855825" />
     <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1598978787317">
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1599037334703">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978787317" />
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037334703" />
     <state width="1234" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1598978787317">
+    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1599037334702">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978787317" />
+    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037334702" />
     <state width="1234" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1598978787317">
+    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1599037334702">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978787317" />
+    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037334702" />
     <state width="1234" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1598978787317">
+    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1599037334702">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978787317" />
+    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037334702" />
     <state width="1234" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
     <state x="4256" y="1585" key="MergeDialog" timestamp="1598799683979">
       <screen x="4000" y="1440" width="2560" height="1440" />
@@ -398,18 +407,22 @@
     </state>
     <state x="4922" y="1953" key="MultipleFileMergeDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598799683997" />
     <state x="2362" y="1953" key="MultipleFileMergeDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1596017411897" />
-    <state x="2221" y="1810" key="SettingsEditor" timestamp="1598851253719">
+    <state x="2221" y="1810" key="SettingsEditor" timestamp="1599027477758">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2221" y="1810" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598851253719" />
+    <state x="2221" y="1810" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599027477758" />
     <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598851240771">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598851240771" />
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598978056249">
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599035248592">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598978056249" />
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599035248592" />
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1599031998712">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599031998712" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
