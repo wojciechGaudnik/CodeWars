@@ -6,17 +6,6 @@ public class Fraction implements Comparable<Fraction> {
 	private final long top;
 	private final long bottom;
 
-	public static void main(String[] args) {
-		System.out.println(5 * 8);
-		System.out.println(4 * 8);
-		var fract1 = new Fraction(2, 5);
-		var fract2 = fract1.add(new Fraction(2, 5));
-		System.out.println(20 % 5);
-		System.out.println(20 % 4);
-		System.out.println(20 % 3);
-
-	}
-
 	public Fraction(long numerator, long denominator) {
 		top = numerator;
 		bottom = denominator;

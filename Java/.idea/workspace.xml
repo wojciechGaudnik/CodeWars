@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/divisible_ints/kyu6/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divisible_ints/kyu6/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fractions_class/kyu6/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fractions_class/kyu6/FractionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grill_it/kyu6/GrillIt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grill_it/kyu6/GrillItTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parse_bank_account_number/kyu6/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vasya_and_system_of_equations/ky6/SystemOfEq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vasya_and_system_of_equations/ky6/SystemTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/whats_your_poison/kyu6/FindThePoison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/whats_your_poison/kyu6/FindThePoisonExampleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractions_class/kyu6/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fractions_class/kyu6/Fraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +103,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="vasya_and_system_of_equations.ky6" />
+      <recent name="whats_your_poison.kyu6" />
       <recent name="fractions_class.kyu6" />
       <recent name="grill_it.kyu6" />
       <recent name="divisible_ints.kyu6" />
-      <recent name="the_spider_and_the_fly_jumping_pider.kyu6" />
-      <recent name="simple_fun_missing_alphabets.kyu6" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -138,13 +137,13 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.FractionTests">
-    <configuration name="Fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fractions_class.kyu6.Fraction" />
+  <component name="RunManager" selected="JUnit.SystemTests">
+    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parse_bank_account_number.kyu6.BankAccount" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fractions_class.kyu6.*" />
+          <option name="PATTERN" value="parse_bank_account_number.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,63 +151,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindThePoison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whats_your_poison.kyu6.FindThePoison" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fractions_class.kyu6.*" />
+          <option name="PATTERN" value="whats_your_poison.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fractions_class.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="fractions_class.kyu6.FractionTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractionTests.T1_GeneralTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SystemOfEq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vasya_and_system_of_equations.ky6.SystemOfEq" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fractions_class.kyu6.*" />
+          <option name="PATTERN" value="vasya_and_system_of_equations.ky6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fractions_class.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="fractions_class.kyu6.FractionTests" />
-      <option name="METHOD_NAME" value="T1_GeneralTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindThePoisonExampleTest.basicTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whats_your_poison.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whats_your_poison.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="whats_your_poison.kyu6.FindThePoisonExampleTest" />
+      <option name="METHOD_NAME" value="basicTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractionTests.T3_ToStringTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SystemTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fractions_class.kyu6.*" />
+          <option name="PATTERN" value="vasya_and_system_of_equations.ky6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fractions_class.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="fractions_class.kyu6.FractionTests" />
-      <option name="METHOD_NAME" value="T3_ToStringTests" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GrillItTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="grill_it.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="grill_it.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="grill_it.kyu6.GrillItTest" />
+      <option name="PACKAGE_NAME" value="vasya_and_system_of_equations.ky6" />
+      <option name="MAIN_CLASS_NAME" value="vasya_and_system_of_equations.ky6.SystemTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FractionTests" />
-        <item itemvalue="Application.Fraction" />
-        <item itemvalue="JUnit.FractionTests.T1_GeneralTests" />
-        <item itemvalue="JUnit.FractionTests.T3_ToStringTests" />
-        <item itemvalue="JUnit.GrillItTest" />
+        <item itemvalue="JUnit.SystemTests" />
+        <item itemvalue="Application.SystemOfEq" />
+        <item itemvalue="Application.BankAccount" />
+        <item itemvalue="JUnit.FindThePoisonExampleTest.basicTests" />
+        <item itemvalue="Application.FindThePoison" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +300,7 @@
       <workItem from="1597819419646" duration="605000" />
       <workItem from="1597820458914" duration="69000" />
       <workItem from="1598779264679" duration="25986000" />
-      <workItem from="1598976614281" duration="14994000" />
+      <workItem from="1598976614281" duration="22632000" />
     </task>
     <servers />
   </component>
@@ -354,49 +348,49 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1599037855825">
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1599131357450">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037855825" />
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131357450" />
     <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
-    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1599037855825">
+    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1599131357450">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037855825" />
+    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131357450" />
     <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1599037855825">
+    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1599131357450">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037855825" />
+    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131357450" />
     <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1599037855825">
+    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1599131357450">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037855825" />
+    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131357450" />
     <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1599037334703">
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1599131292621">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037334703" />
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131292621" />
     <state width="1234" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1599037334702">
+    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1599131292621">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037334702" />
+    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131292621" />
     <state width="1234" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1599037334702">
+    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1599131292621">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037334702" />
+    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131292621" />
     <state width="1234" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1599037334702">
+    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1599131292621">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599037334702" />
+    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131292621" />
     <state width="1234" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
     <state x="4256" y="1585" key="MergeDialog" timestamp="1598799683979">
       <screen x="4000" y="1440" width="2560" height="1440" />
@@ -411,14 +405,22 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2221" y="1810" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599027477758" />
+    <state width="1286" height="708" key="XDebugger.FullValuePopup" timestamp="1599119000874">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="1286" height="708" key="XDebugger.FullValuePopup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599119000874" />
+    <state x="2262" y="1906" key="caller.chooser.dialog" timestamp="1599131765747">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2262" y="1906" key="caller.chooser.dialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599131765747" />
     <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598851240771">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598851240771" />
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599035248592">
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599149337306">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599035248592" />
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599149337306" />
     <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1599031998712">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
