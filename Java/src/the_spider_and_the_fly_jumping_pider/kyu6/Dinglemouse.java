@@ -13,4 +13,3 @@ public class Dinglemouse {
 		return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2) - 2 * b * a * Math.cos(Math.toRadians(angle)));
 	}
 }
-   

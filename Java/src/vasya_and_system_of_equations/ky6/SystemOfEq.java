@@ -20,4 +20,3 @@ public class SystemOfEq {
 		return 0;
 	}
 }
-   

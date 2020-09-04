@@ -15,4 +15,3 @@ public class GrillIt {
 				.collect(Collectors.joining())).reverse().toString();
 	}
 }
-   

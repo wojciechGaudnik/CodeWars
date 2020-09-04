@@ -10,4 +10,3 @@ public class Solution {
 		return (answer < n)? (long)Math.pow(answer, 2): -1;
 	}
 }
-   

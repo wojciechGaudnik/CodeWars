@@ -29,4 +29,3 @@ public class BankAccount {
 		return Long.parseLong(String.valueOf(number));
 	}
 }
-   

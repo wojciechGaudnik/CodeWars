@@ -38,4 +38,3 @@ public class Fraction implements Comparable<Fraction> {
 		return top + "/" + bottom;
 	}
 }
-   

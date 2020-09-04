@@ -18,4 +18,4 @@ public class FindThePoison {
 		return Integer.parseInt(test, 2);
 	}
 }
-   
+
