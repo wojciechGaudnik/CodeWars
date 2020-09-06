@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/find_the_smallest/kyu6/ToSmallest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/find_the_smallest/kyu6/ToSmallestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_variation_on_caesar_cipher/kyu5/CaesarCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_variation_on_caesar_cipher/kyu5/CaesarCipherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorial_decomposition/kyu5/FactDecomp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorial_decomposition/kyu5/FactDecompTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/going_to_zero_or_to_infinity/kyu5/SuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/going_to_zero_or_to_infinity/kyu5/SuiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snakes_and_ladders/kyu5/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snakes_and_ladders/kyu5/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/square_matrix_multiplication/kyu5/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/square_matrix_multiplication/kyu5/KataTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +99,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="factorial_decomposition.kyu5" />
       <recent name="find_the_smallest.kyu6" />
       <recent name="virst_variation_on_caesar_cipher.kyu5" />
       <recent name="first_variation_on_caesar_cipher.kyu5" />
       <recent name="phone_directory.kyu5" />
-      <recent name="square_matrix_multiplication.kyu5" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -138,13 +133,13 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.ToSmallestTest">
-    <configuration name="CaesarCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first_variation_on_caesar_cipher.kyu5.CaesarCipher" />
+  <component name="RunManager" selected="JUnit.FactDecompTest">
+    <configuration name="FactDecomp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factorial_decomposition.kyu5.FactDecomp" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="first_variation_on_caesar_cipher.kyu5.*" />
+          <option name="PATTERN" value="factorial_decomposition.kyu5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,18 +160,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaesarCipherTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactDecompTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="first_variation_on_caesar_cipher.kyu5.*" />
+          <option name="PATTERN" value="factorial_decomposition.kyu5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="first_variation_on_caesar_cipher.kyu5" />
-      <option name="MAIN_CLASS_NAME" value="first_variation_on_caesar_cipher.kyu5.CaesarCipherTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="factorial_decomposition.kyu5" />
+      <option name="MAIN_CLASS_NAME" value="factorial_decomposition.kyu5.FactDecompTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactDecompTest" />
+        <item itemvalue="Application.FactDecomp" />
         <item itemvalue="JUnit.ToSmallestTest" />
         <item itemvalue="Application.ToSmallest" />
         <item itemvalue="JUnit.ToSmallestTest.test" />
-        <item itemvalue="Application.CaesarCipher" />
-        <item itemvalue="JUnit.CaesarCipherTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +298,7 @@
       <workItem from="1597819419646" duration="605000" />
       <workItem from="1597820458914" duration="69000" />
       <workItem from="1598779264679" duration="25986000" />
-      <workItem from="1598976614281" duration="67840000" />
+      <workItem from="1598976614281" duration="72173000" />
     </task>
     <servers />
   </component>
@@ -368,49 +362,49 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
-    <state width="2514" height="515" key="GridCell.Tab.0.bottom" timestamp="1599399914604">
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1599404052537">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599399914604" />
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599404052537" />
     <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
-    <state width="2514" height="515" key="GridCell.Tab.0.center" timestamp="1599399914604">
+    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1599404052537">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599399914604" />
+    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599404052537" />
     <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="515" key="GridCell.Tab.0.left" timestamp="1599399914604">
+    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1599404052537">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599399914604" />
+    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599404052537" />
     <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="515" key="GridCell.Tab.0.right" timestamp="1599399914604">
+    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1599404052537">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599399914604" />
+    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599404052537" />
     <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1599399914642">
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1599404048026">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599399914642" />
+    <state width="2514" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599404048026" />
     <state width="1234" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1599399914642">
+    <state width="2514" height="515" key="GridCell.Tab.1.center" timestamp="1599404048026">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599399914642" />
+    <state width="2514" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599404048026" />
     <state width="1234" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1599399914642">
+    <state width="2514" height="515" key="GridCell.Tab.1.left" timestamp="1599404048026">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599399914642" />
+    <state width="2514" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599404048026" />
     <state width="1234" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1599399914642">
+    <state width="2514" height="515" key="GridCell.Tab.1.right" timestamp="1599404048026">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599399914642" />
+    <state width="2514" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599404048026" />
     <state width="1234" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
     <state x="4256" y="1585" key="MergeDialog" timestamp="1598799683979">
       <screen x="4000" y="1440" width="2560" height="1440" />
@@ -437,10 +431,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598851240771" />
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599382577564">
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599401565579">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599382577564" />
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599401565579" />
     <state x="2458" y="1939" key="extract.method.dialog" timestamp="1599400075746">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -468,9 +462,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/find_the_smallest/kyu6/ToSmallest.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="43" />
+          <url>file://$PROJECT_DIR$/src/factorial_decomposition/kyu5/FactDecomp.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
