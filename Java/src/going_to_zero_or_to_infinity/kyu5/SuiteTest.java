@@ -1,7 +1,6 @@
 package going_to_zero_or_to_infinity.kyu5;
 
 import static org.junit.Assert.*;
-import java.util.Random;
 
 import org.junit.Test;
 

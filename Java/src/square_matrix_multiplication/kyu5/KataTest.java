@@ -1,10 +1,5 @@
 package square_matrix_multiplication.kyu5;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import java.util.Random;
-import java.util.function.IntSupplier;
-
 import org.junit.Assert;
 import org.junit.Test;
 

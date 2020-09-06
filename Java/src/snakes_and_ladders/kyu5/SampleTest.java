@@ -2,7 +2,6 @@ package snakes_and_ladders.kyu5;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 public class SampleTest {
 	@Test
