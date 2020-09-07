@@ -5,12 +5,6 @@ import java.util.List;
 
 public class CaesarCipher {
 
-	public static void main(String[] args) {
-		var test1 = movingShift(" uoxIirmoveNreefckgieaoiEcooqo", 2);
-
-		System.out.println(demovingShift(test1, 2));
-	}
-
 	public static List<String>  movingShift(String s, int shift) {
 		var listAnswer = new LinkedList<String>();
 		var answer = new StringBuilder();

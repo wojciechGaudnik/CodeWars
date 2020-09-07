@@ -2,7 +2,6 @@ package factorial_decomposition.kyu5;
 
 
 import org.junit.Test;
-import org.junit.runners.JUnit4;
 import static org.junit.Assert.*;
 
 public class FactDecompTest {
