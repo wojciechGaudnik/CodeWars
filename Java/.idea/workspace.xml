@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diophantine_equation/kyu5/Dioph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diophantine_equation/kyu5/DiophTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/help_your_granny/kyu5/Tour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/help_your_granny/kyu5/TourTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factorial_decomposition/kyu5/FactDecompTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factorial_decomposition/kyu5/FactDecompTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first_variation_on_caesar_cipher/kyu5/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_variation_on_caesar_cipher/kyu5/CaesarCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phone_directory/kyu5/PhoneDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phone_directory/kyu5/PhoneDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorial/kyu7/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorial/kyu7/FactorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/help_your_granny/kyu5/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/help_your_granny/kyu5/Tour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +99,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="factorial.kyu7" />
       <recent name="help_your_granny.kyu5" />
       <recent name="diophantine_equation.kyu5" />
       <recent name="factorial_decomposition.kyu5" />
       <recent name="find_the_smallest.kyu6" />
-      <recent name="virst_variation_on_caesar_cipher.kyu5" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -138,13 +133,26 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.TourTest">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="Dioph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diophantine_equation.kyu5.Dioph" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="diophantine_equation.kyu5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factorial.kyu7.Factorial" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorial.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,22 +188,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiophTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diophantine_equation.kyu5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="diophantine_equation.kyu5" />
-      <option name="MAIN_CLASS_NAME" value="diophantine_equation.kyu5.DiophTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -213,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="JUnit.TourTest" />
         <item itemvalue="Application.Tour" />
         <item itemvalue="Application.Dioph" />
         <item itemvalue="JUnit.DiophTest" />
-        <item itemvalue="JUnit.DiophTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +295,7 @@
       <workItem from="1597819419646" duration="605000" />
       <workItem from="1597820458914" duration="69000" />
       <workItem from="1598779264679" duration="25986000" />
-      <workItem from="1598976614281" duration="80267000" />
+      <workItem from="1598976614281" duration="81434000" />
     </task>
     <servers />
   </component>
@@ -371,28 +363,28 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1599463466671">
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1599463572419">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599463466671" />
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599463572419" />
     <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
-    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1599463466671">
+    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1599463572419">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599463466671" />
+    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599463572419" />
     <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1599463466671">
+    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1599463572419">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599463466671" />
+    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599463572419" />
     <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1599463466671">
+    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1599463572419">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599463466671" />
+    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599463572419" />
     <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
     <state width="2514" height="515" key="GridCell.Tab.1.bottom" timestamp="1599463371850">
@@ -440,10 +432,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2441" y="2126" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598851240771" />
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599458682640">
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599591354181">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599458682640" />
+    <state x="2499" y="1995" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599591354181" />
     <state x="2458" y="1939" key="extract.method.dialog" timestamp="1599400075746">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
