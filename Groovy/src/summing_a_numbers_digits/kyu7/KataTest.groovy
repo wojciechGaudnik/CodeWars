@@ -3,7 +3,7 @@ package summing_a_numbers_digits.kyu7;
 import org.junit.Test;
 
 
-public class KataTest {
+class KataTest {
 	@Test
 	void "Basic tests"() {
 		println "Testing for 10"
