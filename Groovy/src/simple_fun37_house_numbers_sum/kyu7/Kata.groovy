@@ -13,7 +13,5 @@ class Kata {
             }
         }
         return answer
-//        xs.takeWhile{it}.sum(0)
-
     }
 }

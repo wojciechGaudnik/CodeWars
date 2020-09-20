@@ -7,6 +7,5 @@ class Kata {
         for(def i = 1; i <= m; i++)
             answer.add(n * i)
         return answer
-//        for (i in (1..m)){r << i*n}
     }
 }

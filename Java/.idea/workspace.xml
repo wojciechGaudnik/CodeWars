@@ -20,14 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/fizz_buzz_cuckoo_clock/kyu7/Kata.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/fizz_buzz_cuckoo_clock/kyu7/KataTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/selective_array_reversing/kyu6/SelReverse.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/selective_array_reversing/kyu6/SelReverseTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/simple_web_framework_1_create_a_basic_router/kyu6/Router.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/simple_web_framework_1_create_a_basic_router/kyu6/RouterTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/the_wheat_rice_and_chessboard_problem/kyu7/Kata.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/the_wheat_rice_and_chessboard_problem/kyu7/KataTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/Snipets/Snipets.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/cumulative_triangle/kyu6/Kata.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/cumulative_triangle/kyu6/KataTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/ranking_nba_teams/kyu/Nba.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/ranking_nba_teams/kyu/NbaTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Groovy/src/ordered_count_of_characters/kyu7/Kata.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../Groovy/src/ordered_count_of_characters/kyu7/Kata.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Groovy/src/return_the_first_m_multiples_of_n/kyu7/Kata.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../Groovy/src/return_the_first_m_multiples_of_n/kyu7/Kata.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Groovy/src/selective_array_reversing/kyu6/SelReverse.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../Groovy/src/selective_array_reversing/kyu6/SelReverse.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Groovy/src/simple_fun37_house_numbers_sum/kyu7/Kata.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../Groovy/src/simple_fun37_house_numbers_sum/kyu7/Kata.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Groovy/src/small_enough_beginner/kyu7/Kata.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../Groovy/src/small_enough_beginner/kyu7/Kata.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,11 +108,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ranking_nba_teams.kyu" />
+      <recent name="cumulative_triangle.kyu6" />
       <recent name="selective_array_reversing.kyu6" />
       <recent name="simple_web_framework_1_create_a_basic_router.kyu6" />
       <recent name="the_wheat_rice_and_chessboard_problem.kyu7" />
-      <recent name="fizz_buzz_cuckoo_clock.kyu7" />
-      <recent name="extra_perfect_numbers_special_numbers_series7.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="spock.lang.Specification" />
@@ -141,13 +143,13 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.SelReverseTest">
-    <configuration name="SelReverse (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selective_array_reversing.kyu6.SelReverse" />
+  <component name="RunManager" selected="JUnit.NbaTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cumulative_triangle.kyu6.Kata" />
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selective_array_reversing.kyu6.*" />
+          <option name="PATTERN" value="cumulative_triangle.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selective_array_reversing.kyu6.SelReverse" />
+    <configuration name="Nba (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ranking_nba_teams.kyu.Nba" />
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selective_array_reversing.kyu6.*" />
+          <option name="PATTERN" value="ranking_nba_teams.kyu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,48 +170,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RouterTest.Should modify existing routes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Nba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ranking_nba_teams.kyu.Nba" />
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_web_framework_1_create_a_basic_router.kyu6.*" />
+          <option name="PATTERN" value="ranking_nba_teams.kyu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simple_web_framework_1_create_a_basic_router.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="simple_web_framework_1_create_a_basic_router.kyu6.RouterTest" />
-      <option name="METHOD_NAME" value="Should modify existing routes" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NbaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selective_array_reversing.kyu6.*" />
+          <option name="PATTERN" value="ranking_nba_teams.kyu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="selective_array_reversing.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="selective_array_reversing.kyu6.SelReverseTest" />
+      <option name="PACKAGE_NAME" value="ranking_nba_teams.kyu" />
+      <option name="MAIN_CLASS_NAME" value="ranking_nba_teams.kyu.NbaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelReverseTest.Basic tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NbaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selective_array_reversing.kyu6.*" />
+          <option name="PATTERN" value="ranking_nba_teams.kyu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="selective_array_reversing.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="selective_array_reversing.kyu6.SelReverseTest" />
-      <option name="METHOD_NAME" value="Basic tests" />
+      <option name="PACKAGE_NAME" value="ranking_nba_teams.kyu" />
+      <option name="MAIN_CLASS_NAME" value="ranking_nba_teams.kyu.NbaTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SelReverseTest" />
-        <item itemvalue="JUnit.SelReverseTest.Basic tests" />
-        <item itemvalue="Application.SelReverse (1)" />
-        <item itemvalue="Application.SelReverse" />
-        <item itemvalue="JUnit.RouterTest.Should modify existing routes" />
+        <item itemvalue="JUnit.NbaTest" />
+        <item itemvalue="Application.Nba" />
+        <item itemvalue="JUnit.NbaTest.test1" />
+        <item itemvalue="Application.Nba (1)" />
+        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +310,7 @@
       <workItem from="1599759408191" duration="3712000" />
       <workItem from="1599920992307" duration="4474000" />
       <workItem from="1599936636342" duration="599000" />
-      <workItem from="1599989959061" duration="22047000" />
+      <workItem from="1599989959061" duration="30821000" />
     </task>
     <servers />
   </component>
@@ -346,10 +345,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2184" y="1833" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598804698587" />
-    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599319996815">
+    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600610725295">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599319996815" />
+    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610725295" />
     <state x="2533" y="1862" key="#com.intellij.ide.util.MemberChooser" timestamp="1599921248591">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -379,49 +378,49 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1600536157624">
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1600610982940">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600536157624" />
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610982940" />
     <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
-    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1600536157624">
+    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1600610982940">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600536157624" />
+    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610982940" />
     <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1600536157624">
+    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1600610982940">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600536157624" />
+    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610982940" />
     <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1600536157624">
+    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1600610982940">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600536157624" />
+    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610982940" />
     <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="488" key="GridCell.Tab.1.bottom" timestamp="1599931772441">
+    <state width="2514" height="488" key="GridCell.Tab.1.bottom" timestamp="1600610794944">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="488" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599931772441" />
+    <state width="2514" height="488" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610794944" />
     <state width="1234" height="515" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="488" key="GridCell.Tab.1.center" timestamp="1599931772441">
+    <state width="2514" height="488" key="GridCell.Tab.1.center" timestamp="1600610794944">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="488" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599931772441" />
+    <state width="2514" height="488" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610794944" />
     <state width="1234" height="515" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="488" key="GridCell.Tab.1.left" timestamp="1599931772441">
+    <state width="2514" height="488" key="GridCell.Tab.1.left" timestamp="1600610794944">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="488" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599931772441" />
+    <state width="2514" height="488" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610794944" />
     <state width="1234" height="515" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
-    <state width="2514" height="488" key="GridCell.Tab.1.right" timestamp="1599931772441">
+    <state width="2514" height="488" key="GridCell.Tab.1.right" timestamp="1600610794944">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="488" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599931772441" />
+    <state width="2514" height="488" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600610794944" />
     <state width="1234" height="515" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679603" />
     <state x="4256" y="1585" key="MergeDialog" timestamp="1598799683979">
       <screen x="4000" y="1440" width="2560" height="1440" />
@@ -456,22 +455,26 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2373" y="1789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600105865330" />
-    <state x="2499" y="1995" width="620" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600535035579">
+    <state x="2499" y="1995" width="620" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600602993305">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2499" y="1995" width="620" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600535035579" />
+    <state x="2499" y="1995" width="620" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600602993305" />
     <state x="2458" y="1939" key="extract.method.dialog" timestamp="1599400075746">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2458" y="1939" key="extract.method.dialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599400075746" />
+    <state x="2424" y="1914" width="617" height="522" key="find.popup" timestamp="1600589309781">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2424" y="1914" width="617" height="522" key="find.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600589309781" />
     <state x="2319" y="1879" key="new project wizard" timestamp="1599920396813">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2319" y="1879" key="new project wizard/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599920396813" />
-    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1600534782402">
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1600602113746">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600534782402" />
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600602113746" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

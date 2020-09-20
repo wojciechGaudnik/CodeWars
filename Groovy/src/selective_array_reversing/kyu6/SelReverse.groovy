@@ -13,6 +13,5 @@ class SelReverse {
         }
         answer.addAll(arr[-1..i])
         return answer
-//        (l == 0) ? arr : arr.collate(l)*.reverse().flatten()
     }
 }
