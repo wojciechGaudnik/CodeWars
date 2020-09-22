@@ -1,4 +1,4 @@
-package ranking_nba_teams.kyu
+package ranking_nba_teams.kyu6
 
 class Nba {
 

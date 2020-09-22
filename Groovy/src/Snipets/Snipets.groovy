@@ -7,5 +7,7 @@ class Snipets {
         //        for (i in (1..m)){r << i*n}
         //        return arr.every {it <= limit}
         //        xs.takeWhile{it}.sum(0)
+        //        string.tr('ab', 'ba')
+
     }
 }
