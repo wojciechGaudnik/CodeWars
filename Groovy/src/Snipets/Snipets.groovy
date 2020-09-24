@@ -8,6 +8,6 @@ class Snipets {
         //        return arr.every {it <= limit}
         //        xs.takeWhile{it}.sum(0)
         //        string.tr('ab', 'ba')
-
+        //        return arr ? arr.swap(0, arr.size() - 1) : arr;
     }
 }
