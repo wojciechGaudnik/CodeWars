@@ -9,5 +9,15 @@ class Snipets {
         //        xs.takeWhile{it}.sum(0)
         //        string.tr('ab', 'ba')
         //        return arr ? arr.swap(0, arr.size() - 1) : arr;
+
     }
+
+//    static def countSpecDigits(integers, digits) {
+//
+//        def list = integers.join("")
+//
+//        digits.collect {
+//            [it, list.count("${it}")]
+//        }
+//    }
 }
