@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/floating_point_approximation_ii/kyu6/ApproxInter.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/floating_point_approximation_ii/kyu6/ApproxInterTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/words_to_hex/kyu6/Kata.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/words_to_hex/kyu6/KataTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,11 +100,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="words_to_hex.kyu6" />
       <recent name="floating_point_approximation_ii.kyu6" />
       <recent name="method_for_counting_total_occurence_of_specific_digits.kyu7" />
       <recent name="simple_fun20_first_reverse_try.kyu7" />
       <recent name="simple_fun63_shape_area.kyu7" />
-      <recent name="switcheroo.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="spock.lang.Specification" />
@@ -135,8 +135,8 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.ApproxInterTest">
-    <configuration name="ApproxInter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KataTest">
+    <configuration name="ApproxInter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="floating_point_approximation_ii.kyu6.ApproxInter" />
       <module name="Groovy" />
       <extension name="coverage">
@@ -149,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApproxInter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="floating_point_approximation_ii.kyu6.ApproxInter" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="words_to_hex.kyu6.Kata" />
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="floating_point_approximation_ii.kyu6.*" />
+          <option name="PATTERN" value="words_to_hex.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,33 +177,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApproxInterTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="floating_point_approximation_ii.kyu6.*" />
+          <option name="PATTERN" value="words_to_hex.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="floating_point_approximation_ii.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="floating_point_approximation_ii.kyu6.ApproxInterTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="words_to_hex.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="words_to_hex.kyu6.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApproxInterTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest.Sample Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="floating_point_approximation_ii.kyu6.*" />
+          <option name="PATTERN" value="words_to_hex.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="floating_point_approximation_ii.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="floating_point_approximation_ii.kyu6.ApproxInterTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="words_to_hex.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="words_to_hex.kyu6.KataTest" />
+      <option name="METHOD_NAME" value="Sample Tests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="JUnit.KataTest.Sample Tests" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.ApproxInterTest" />
         <item itemvalue="Application.ApproxInter" />
-        <item itemvalue="JUnit.ApproxInterTest.test3" />
-        <item itemvalue="Application.ApproxInter (1)" />
-        <item itemvalue="JUnit.ApproxInterTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +305,7 @@
       <workItem from="1599920992307" duration="4474000" />
       <workItem from="1599936636342" duration="599000" />
       <workItem from="1599989959061" duration="36148000" />
-      <workItem from="1600977638319" duration="8450000" />
+      <workItem from="1600977638319" duration="11392000" />
     </task>
     <servers />
   </component>
@@ -374,28 +373,28 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2425" y="2098" width="771" height="153" key="GitCloneDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593670882600" />
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1601132068954">
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom" timestamp="1601198815014">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601132068954" />
+    <state width="2514" height="323" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601198815014" />
     <state width="1234" height="515" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227153" />
-    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1601132068954">
+    <state width="2514" height="323" key="GridCell.Tab.0.center" timestamp="1601198815014">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601132068954" />
+    <state width="2514" height="323" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601198815014" />
     <state width="1234" height="515" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1601132068954">
+    <state width="2514" height="323" key="GridCell.Tab.0.left" timestamp="1601198815014">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601132068954" />
+    <state width="2514" height="323" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601198815014" />
     <state width="1234" height="515" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
-    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1601132068954">
+    <state width="2514" height="323" key="GridCell.Tab.0.right" timestamp="1601198815014">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601132068954" />
+    <state width="2514" height="323" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601198815014" />
     <state width="1234" height="515" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@4000.1440.2560.1440" timestamp="1598779679538" />
     <state width="2514" height="332" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593681227152" />
     <state width="2514" height="488" key="GridCell.Tab.1.bottom" timestamp="1601128318379">
@@ -451,10 +450,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2373" y="1789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600799370951" />
-    <state x="2499" y="1995" width="666" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601127006470">
+    <state x="2499" y="1995" width="666" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601196543388">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2499" y="1995" width="666" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601127006470" />
+    <state x="2499" y="1995" width="666" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1601196543388" />
     <state x="2458" y="1939" key="extract.method.dialog" timestamp="1599400075746">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>

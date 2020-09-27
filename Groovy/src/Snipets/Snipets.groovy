@@ -9,7 +9,7 @@ class Snipets {
         //        xs.takeWhile{it}.sum(0)
         //        string.tr('ab', 'ba')
         //        return arr ? arr.swap(0, arr.size() - 1) : arr;
-
+        //        words.split().collect { w -> "#" + w.take(3).collect { c -> Integer.toHexString((int) c) }.join().padRight(6, '0')}
     }
 
 //    static def countSpecDigits(integers, digits) {
