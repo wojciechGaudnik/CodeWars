@@ -1,4 +1,4 @@
-package Snipets
+    package Snipets
 
 class Snipets {
     public static void main(String[] args) {
@@ -10,6 +10,9 @@ class Snipets {
         //        string.tr('ab', 'ba')
         //        return arr ? arr.swap(0, arr.size() - 1) : arr;
         //        words.split().collect { w -> "#" + w.take(3).collect { c -> Integer.toHexString((int) c) }.join().padRight(6, '0')}
+        //        it?.charAt(2)
+        //        a.collate(2, 1, false).sum { Math.abs(it[0] - it[1]) }
+
     }
 
 //    static def countSpecDigits(integers, digits) {
