@@ -12,6 +12,7 @@ class Snipets {
         //        words.split().collect { w -> "#" + w.take(3).collect { c -> Integer.toHexString((int) c) }.join().padRight(6, '0')}
         //        it?.charAt(2)
         //        a.collate(2, 1, false).sum { Math.abs(it[0] - it[1]) }
+        //        arr.indexOf('odd') in arr
 
     }
 
