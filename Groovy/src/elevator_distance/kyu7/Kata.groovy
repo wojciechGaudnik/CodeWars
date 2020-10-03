@@ -1,9 +1,6 @@
 package elevator_distance.kyu7
 
 class Kata {
-    public static void main(String[] args) {
-        println(elevatorDistance([5,2,8]))
-    }
 
     static int elevatorDistance(a) {
         def answer = 0

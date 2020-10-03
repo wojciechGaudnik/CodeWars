@@ -13,6 +13,8 @@ class Snipets {
         //        it?.charAt(2)
         //        a.collate(2, 1, false).sum { Math.abs(it[0] - it[1]) }
         //        arr.indexOf('odd') in arr
+        //        i < 10 ? i : digitsAverage("$i".collect { it as int }.collate(2,1,false).collect { Math.round((it[0] + it[1]) / 2)}.join() as int)
+
 
     }
 

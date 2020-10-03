@@ -2,10 +2,6 @@ package words_to_hex.kyu6
 
 class Kata {
 
-    public static void main(String[] args) {
-        println(wordsToHex("ala ma kota"))
-    }
-
     static String[] wordsToHex(String words) {
         words.split(' ').collect {
             def answer = new StringBuilder("000000")
