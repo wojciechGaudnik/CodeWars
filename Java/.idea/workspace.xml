@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d19c69-e69b-499e-bd82-6c1f42051ddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/simple_fun_198_cake_slice/kyu7/Kata.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Groovy/src/simple_fun_198_cake_slice/kyu7/KataTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Groovy/src/simple_fun9_array_packing/kyu7/Kata.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../Groovy/src/simple_fun9_array_packing/kyu7/Kata.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/simple_fun7_will_you/kyu7/Kata.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Groovy/src/simple_fun7_will_you/kyu7/KataTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,11 +100,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simple_fun7_will_you.kyu7" />
       <recent name="simple_fun_198_cake_slice.kyu7" />
       <recent name="simple_fun9_array_packing.kyu7" />
       <recent name="stacked_balls_3d_square_base.kyu7" />
       <recent name="alphabetical_sequence.kyu7" />
-      <recent name="only_one.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="spock.lang.Specification" />
@@ -136,7 +135,7 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (2)">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
     <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simple_fun_198_cake_slice.kyu7.Kata" />
       <module name="Groovy" />
@@ -163,16 +162,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Groovy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacked_balls_3d_square_base.kyu7.*" />
+          <option name="PATTERN" value="simple_fun7_will_you.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stacked_balls_3d_square_base.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="stacked_balls_3d_square_base.kyu7.DinglemouseTest" />
+      <option name="PACKAGE_NAME" value="simple_fun7_will_you.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="simple_fun7_will_you.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest (2)" />
         <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.DinglemouseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +305,7 @@
       <workItem from="1599936636342" duration="599000" />
       <workItem from="1599989959061" duration="36148000" />
       <workItem from="1600977638319" duration="19877000" />
-      <workItem from="1601577578851" duration="24457000" />
+      <workItem from="1601577578851" duration="25287000" />
     </task>
     <servers />
   </component>
@@ -452,10 +451,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2373" y="1789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1600799370951" />
-    <state x="2499" y="1995" width="666" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602610116739">
+    <state x="2499" y="1995" width="666" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602700304749">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2499" y="1995" width="666" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602610116739" />
+    <state x="2499" y="1995" width="666" height="440" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602700304749" />
     <state x="2458" y="1939" key="extract.method.dialog" timestamp="1599400075746">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
