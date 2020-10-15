@@ -1,11 +1,8 @@
 package People;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.runners.JUnit4;
-import java.security.SecureRandom;
-import java.math.BigInteger;
-import java.lang.reflect.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class PeopleTest {
 

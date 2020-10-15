@@ -1,8 +1,8 @@
 package HQ;
 
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SolutionTest {
 	@Test

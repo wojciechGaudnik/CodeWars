@@ -1,10 +1,11 @@
 package TripleSorter;
 
-import java.util.List;
-import java.util.ArrayList;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 
 public class TripleSorterTest {
