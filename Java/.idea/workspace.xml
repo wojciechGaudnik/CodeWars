@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pokerhand_straight_or_not/kyu7/PokerHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pokerhand_straight_or_not/kyu7/PokerHandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/anagram_detection/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/anagram_detection/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokerhand_straight_or_not/kyu7/PokerHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokerhand_straight_or_not/kyu7/PokerHand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,19 +73,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="anagram_detection.kyu7" />
       <recent name="pokerhand_straight_or_not.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokerHandTest">
-    <configuration name="Geometry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="area_of_a_square.kyu8.Geometry" />
+  <component name="RunManager" selected="JUnit.KataTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="anagram_detection.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="area_of_a_square.kyu8.*" />
+          <option name="PATTERN" value="anagram_detection.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,17 +107,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeometryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="area_of_a_square.kyu8.*" />
+          <option name="PATTERN" value="anagram_detection.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="area_of_a_square.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="area_of_a_square.kyu8.GeometryTest" />
+      <option name="PACKAGE_NAME" value="anagram_detection.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="anagram_detection.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest.exampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="anagram_detection.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="anagram_detection.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="anagram_detection.kyu7.KataTest" />
+      <option name="METHOD_NAME" value="exampleTests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,29 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerHandTest.test2IsStraight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pokerhand_straight_or_not.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pokerhand_straight_or_not.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="pokerhand_straight_or_not.kyu7.PokerHandTest" />
-      <option name="METHOD_NAME" value="test2IsStraight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.KataTest.exampleTests" />
         <item itemvalue="JUnit.PokerHandTest" />
         <item itemvalue="Application.PokerHand" />
-        <item itemvalue="JUnit.PokerHandTest.test2IsStraight" />
-        <item itemvalue="JUnit.GeometryTest" />
-        <item itemvalue="Application.Geometry" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +178,8 @@
       <workItem from="1602795506155" duration="18000" />
       <workItem from="1602795536023" duration="2000" />
       <workItem from="1602795561127" duration="914000" />
-      <workItem from="1602843034594" duration="4886000" />
+      <workItem from="1602843034594" duration="6486000" />
+      <workItem from="1602958151603" duration="1184000" />
     </task>
     <servers />
   </component>
@@ -183,52 +187,45 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1602876176622">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1602959265456">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876176622" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1602876176621">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959265456" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1602959265456">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876176621" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1602876176621">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959265456" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1602959265456">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876176621" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1602876176621">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959265456" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1602959265456">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876176621" />
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1602876112724">
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959265456" />
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1602876257555">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876112724" />
-    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1602876112724">
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
+    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1602876257555">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876112724" />
-    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1602876112724">
+    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
+    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1602876257555">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876112724" />
-    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1602876112724">
+    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
+    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1602876257555">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876112724" />
-    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602873249845">
+    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
+    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602958222596">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602873249845" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pokerhand_straight_or_not/kyu7/PokerHand.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602958222596" />
+    <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2458" y="1925" key="extract.method.dialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959026225" />
   </component>
 </project>

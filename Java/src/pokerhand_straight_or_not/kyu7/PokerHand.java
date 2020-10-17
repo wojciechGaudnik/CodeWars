@@ -5,18 +5,6 @@ import java.util.stream.Collectors;
 
 public class PokerHand {
 
-	public static void main(String[] args) {
-		ArrayList<Integer> hand = new ArrayList<Integer>();
-		hand.add(7);
-		hand.add(3);
-		hand.add(5);
-		hand.add(4);
-		hand.add(6);
-		hand.add(4);
-		hand.add(2);
-		System.out.println(IsStraight(hand));
-
-	}
 	public static boolean IsStraight(ArrayList<Integer> cards) {
 		if (cards.size() < 5 || cards.size() > 7) return false;
 		if (cards.contains(14)) cards.add(1);
