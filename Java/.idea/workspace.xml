@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/are_the_numbers_in_order/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/are_the_numbers_in_order/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing_1_2_3/kyu7/LineNumbering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing_1_2_3/kyu7/LineNumberingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="testing_1_2_3.kyu7" />
       <recent name="are_the_numbers_in_order.kyu7" />
       <recent name="anagram_detection.kyu7" />
       <recent name="pokerhand_straight_or_not.kyu7" />
@@ -80,13 +81,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (1)">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="anagram_detection.kyu7.Kata" />
+  <component name="RunManager" selected="JUnit.LineNumberingTest">
+    <configuration name="LineNumbering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing_one_two_three.kyu7.LineNumbering" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="anagram_detection.kyu7.*" />
+          <option name="PATTERN" value="testing_one_two_three.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,29 +138,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest.exampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LineNumberingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="anagram_detection.kyu7.*" />
+          <option name="PATTERN" value="testing_one_two_three.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="anagram_detection.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="anagram_detection.kyu7.KataTest" />
-      <option name="METHOD_NAME" value="exampleTests" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="testing_one_two_three.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="testing_one_two_three.kyu7.LineNumberingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LineNumberingTest" />
+        <item itemvalue="Application.LineNumbering" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.KataTest.exampleTests" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,7 @@
       <workItem from="1602795536023" duration="2000" />
       <workItem from="1602795561127" duration="914000" />
       <workItem from="1602843034594" duration="6486000" />
-      <workItem from="1602958151603" duration="2935000" />
+      <workItem from="1602958151603" duration="5989000" />
     </task>
     <servers />
   </component>
@@ -187,22 +187,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1602959357201">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1603031511450">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959357201" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1602959357201">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603031511450" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1603031511450">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959357201" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1602959357201">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603031511450" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1603031511450">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959357201" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1602959357201">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603031511450" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1603031511450">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959357201" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603031511450" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1602876257555">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -219,10 +219,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
-    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603031174884">
+    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603135374954">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603031174884" />
+    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603135374954" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
