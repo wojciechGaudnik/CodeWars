@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sorted_yes_no_how/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorted_yes_no_how/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/most_digits/kyu7/MostDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/most_digits/kyu7/MostDigitsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -82,13 +83,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="Minimum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="form_the_minimum.kyu7.Minimum" />
+  <component name="RunManager" selected="Application.MostDigits">
+    <configuration name="MostDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="most_digits.kyu7.MostDigits" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="form_the_minimum.kyu7.*" />
+          <option name="PATTERN" value="most_digits.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,21 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetMeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greet_me.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="greet_me.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="greet_me.kyu7.GreetMeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinimumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -134,6 +120,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="form_the_minimum.kyu7" />
       <option name="MAIN_CLASS_NAME" value="form_the_minimum.kyu7.MinimumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MostDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="most_digits.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="most_digits.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="most_digits.kyu7.MostDigitsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostDigits" />
+        <item itemvalue="JUnit.MostDigitsTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.MinimumTest" />
-        <item itemvalue="Application.Minimum" />
-        <item itemvalue="JUnit.GreetMeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +186,8 @@
       <workItem from="1603308051040" duration="1293000" />
       <workItem from="1603392805593" duration="944000" />
       <workItem from="1603481163912" duration="2790000" />
-      <workItem from="1603569393052" duration="2907000" />
+      <workItem from="1603569393052" duration="4280000" />
+      <workItem from="1603823747656" duration="302000" />
     </task>
     <servers />
   </component>
@@ -197,22 +199,22 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603308505447" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1603637307159">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1603751980249">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603637307159" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1603637307159">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603751980249" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1603751980248">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603637307159" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1603637307159">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603751980248" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1603751980248">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603637307159" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1603637307159">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603751980248" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1603751980248">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603637307159" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603751980248" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1602876257555">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
