@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort_arrays_minus_one/kyu7/SortArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort_arrays_minus_one/kyu7/SortArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/speed_control/kyu7/GpsSpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/speed_control/kyu7/GpsSpeedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,17 +73,30 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="speed_control.kyu7" />
       <recent name="sort_arrays_minus_one.kyu7" />
       <recent name="most_digits.kyu7" />
       <recent name="sorted_yes_no_how.kyu7" />
       <recent name="form_the_minimum.kyu7" />
-      <recent name="greet_me.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortArray">
+  <component name="RunManager" selected="JUnit.GpsSpeedTest">
+    <configuration name="GpsSpeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="speed_control.kyu7.GpsSpeed" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="speed_control.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MostDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="most_digits.kyu7.MostDigits" />
       <module name="CodeWars" />
@@ -110,31 +123,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GpsSpeedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="most_digits.kyu7.*" />
+          <option name="PATTERN" value="speed_control.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="most_digits.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="most_digits.kyu7.MostDigitsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorted_yes_no_how.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sorted_yes_no_how.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="sorted_yes_no_how.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="speed_control.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="speed_control.kyu7.GpsSpeedTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GpsSpeedTest" />
+        <item itemvalue="Application.GpsSpeed" />
         <item itemvalue="Application.SortArray" />
         <item itemvalue="JUnit.SortArrayTest" />
         <item itemvalue="Application.MostDigits" />
-        <item itemvalue="JUnit.MostDigitsTest" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +186,7 @@
       <workItem from="1603481163912" duration="2790000" />
       <workItem from="1603569393052" duration="4280000" />
       <workItem from="1603823747656" duration="1403000" />
-      <workItem from="1603916254641" duration="1380000" />
+      <workItem from="1603916254641" duration="3905000" />
     </task>
     <servers />
   </component>
@@ -200,45 +198,56 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603308505447" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1603918287979">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1604001085906">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603918287979" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1603918287979">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604001085906" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1604001085906">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603918287979" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1603918287979">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604001085906" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1604001085906">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603918287979" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1603918287979">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604001085906" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1604001085906">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603918287979" />
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1602876257555">
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604001085906" />
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1604000798694">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
-    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1602876257555">
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604000798694" />
+    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1604000798694">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
-    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1602876257555">
+    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604000798694" />
+    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1604000798694">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
-    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1602876257555">
+    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604000798694" />
+    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1604000798694">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602876257555" />
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603918124096">
+    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604000798694" />
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603985304665">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603918124096" />
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603985304665" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2458" y="1925" key="extract.method.dialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959026225" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/speed_control/kyu7/GpsSpeed.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
