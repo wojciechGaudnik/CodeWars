@@ -1,12 +1,8 @@
 package basic_sequence_practice.kyu7;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class SequenceSum {
-	public static void main(String[] args) {
-		System.out.println(Arrays.toString(sumOfN(5)));
-	}
 
 	public static int[] sumOfN(int n) {
 		var list = new ArrayList<Integer>();
