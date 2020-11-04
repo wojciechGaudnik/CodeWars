@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/area_of_a_circle/kyu7/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/area_of_a_circle/kyu7/CircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,20 +81,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CircleTest">
-    <configuration name="CaffeineBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="caffeine_script.kyu7.CaffeineBuzz" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="caffeine_script.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GCDTest">
     <configuration name="Partlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parts_of_a_list.kyu7.Partlist" />
       <module name="CodeWars" />
@@ -139,6 +125,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GCDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greatest_common_divisor.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="greatest_common_divisor.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="greatest_common_divisor.kyu7.GCDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PartlistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GCDTest" />
         <item itemvalue="JUnit.CircleTest" />
         <item itemvalue="JUnit.PartlistTest" />
         <item itemvalue="Application.Partlist" />
         <item itemvalue="JUnit.CaffeineBuzzTest" />
-        <item itemvalue="Application.CaffeineBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +190,8 @@
       <workItem from="1603823747656" duration="1403000" />
       <workItem from="1603916254641" duration="8136000" />
       <workItem from="1604342803999" duration="1548000" />
-      <workItem from="1604417275983" duration="310000" />
+      <workItem from="1604417275983" duration="975000" />
+      <workItem from="1604517506217" duration="965000" />
     </task>
     <servers />
   </component>
@@ -201,22 +203,22 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603308505447" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1604417616954">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1604417640299">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417616954" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1604417616954">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417640299" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1604417640299">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417616954" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1604417616954">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417640299" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1604417640299">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417616954" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1604417616954">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417640299" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1604417640299">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417616954" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417640299" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1604000798694">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
