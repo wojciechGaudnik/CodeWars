@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSeven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSevenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,41 +73,26 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="a_rule_of_divisibility_by_7.kyu7" />
+      <recent name="greatest_common_divisor.kyu7" />
       <recent name="area_of_a_circle.kyu7" />
       <recent name="parts_of_a_list.kyu7" />
       <recent name="caffeine_script.kyu7" />
-      <recent name="flatten_and_sort_an_array.kyu7" />
-      <recent name="basic_sequence_practice.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GCDTest">
-    <configuration name="Partlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parts_of_a_list.kyu7.Partlist" />
+  <component name="RunManager" selected="JUnit.DivSevenTest">
+    <configuration name="DivSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_rule_of_divisibility_by_7.kyu7.DivSeven" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parts_of_a_list.kyu7.*" />
+          <option name="PATTERN" value="a_rule_of_divisibility_by_7.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaffeineBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="caffeine_script.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="caffeine_script.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="caffeine_script.kyu7.CaffeineBuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +107,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="area_of_a_circle.kyu7" />
       <option name="MAIN_CLASS_NAME" value="area_of_a_circle.kyu7.CircleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivSevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_rule_of_divisibility_by_7.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_rule_of_divisibility_by_7.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="a_rule_of_divisibility_by_7.kyu7.DivSevenTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DivSevenTest" />
+        <item itemvalue="Application.DivSeven" />
         <item itemvalue="JUnit.GCDTest" />
         <item itemvalue="JUnit.CircleTest" />
         <item itemvalue="JUnit.PartlistTest" />
-        <item itemvalue="Application.Partlist" />
-        <item itemvalue="JUnit.CaffeineBuzzTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +193,7 @@
       <workItem from="1603916254641" duration="8136000" />
       <workItem from="1604342803999" duration="1548000" />
       <workItem from="1604417275983" duration="975000" />
-      <workItem from="1604517506217" duration="965000" />
+      <workItem from="1604517506217" duration="2749000" />
     </task>
     <servers />
   </component>
@@ -203,45 +205,56 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603308505447" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1604417640299">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1604588922681">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417640299" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1604417640299">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588922681" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1604588922681">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417640299" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1604417640299">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588922681" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1604588922681">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417640299" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1604417640299">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588922681" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1604588922681">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417640299" />
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1604000798694">
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588922681" />
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1604588916405">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604000798694" />
-    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1604000798694">
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588916405" />
+    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1604588916405">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604000798694" />
-    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1604000798694">
+    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588916405" />
+    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1604588916405">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604000798694" />
-    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1604000798694">
+    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588916405" />
+    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1604588916405">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604000798694" />
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604417325336">
+    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588916405" />
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604588026360">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604417325336" />
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588026360" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2458" y="1925" key="extract.method.dialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959026225" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSeven.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
