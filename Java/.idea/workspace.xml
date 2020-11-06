@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSeven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSevenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sum_of_triangular_numbers/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sum_of_triangular_numbers/kyu7/KataTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +72,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sum_of_triangular_numbers.kyu7" />
       <recent name="a_rule_of_divisibility_by_7.kyu7" />
       <recent name="greatest_common_divisor.kyu7" />
       <recent name="area_of_a_circle.kyu7" />
       <recent name="parts_of_a_list.kyu7" />
-      <recent name="caffeine_script.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DivSevenTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="DivSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a_rule_of_divisibility_by_7.kyu7.DivSeven" />
       <module name="CodeWars" />
@@ -97,17 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sum_of_triangular_numbers.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="area_of_a_circle.kyu7.*" />
+          <option name="PATTERN" value="sum_of_triangular_numbers.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="area_of_a_circle.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="area_of_a_circle.kyu7.CircleTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,16 +139,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartlistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parts_of_a_list.kyu7.*" />
+          <option name="PATTERN" value="sum_of_triangular_numbers.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parts_of_a_list.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="parts_of_a_list.kyu7.PartlistTest" />
+      <option name="PACKAGE_NAME" value="sum_of_triangular_numbers.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="sum_of_triangular_numbers.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.DivSevenTest" />
         <item itemvalue="Application.DivSeven" />
         <item itemvalue="JUnit.GCDTest" />
-        <item itemvalue="JUnit.CircleTest" />
-        <item itemvalue="JUnit.PartlistTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +191,7 @@
       <workItem from="1604342803999" duration="1548000" />
       <workItem from="1604417275983" duration="975000" />
       <workItem from="1604517506217" duration="2749000" />
+      <workItem from="1604693654386" duration="512000" />
     </task>
     <servers />
   </component>
@@ -237,10 +235,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588916405" />
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604588026360">
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604693826290">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588026360" />
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604693826290" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
