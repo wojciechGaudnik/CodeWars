@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/averages_of_numbers/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,17 +72,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simple_beads_count.kyu7" />
       <recent name="sum_of_triangular_numbers.kyu7" />
       <recent name="a_rule_of_divisibility_by_7.kyu7" />
       <recent name="greatest_common_divisor.kyu7" />
       <recent name="area_of_a_circle.kyu7" />
-      <recent name="parts_of_a_list.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeadsCounterTest">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
     <configuration name="BeadsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simple_beads_count.kyu7.BeadsCounter" />
       <module name="CodeWars" />
@@ -121,16 +124,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivSevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a_rule_of_divisibility_by_7.kyu7.*" />
+          <option name="PATTERN" value="averages_of_numbers.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="a_rule_of_divisibility_by_7.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="a_rule_of_divisibility_by_7.kyu7.DivSevenTest" />
+      <option name="PACKAGE_NAME" value="averages_of_numbers.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="averages_of_numbers.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.BeadsCounterTest" />
         <item itemvalue="Application.BeadsCounter" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.DivSevenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +191,7 @@
       <workItem from="1604342803999" duration="1548000" />
       <workItem from="1604417275983" duration="975000" />
       <workItem from="1604517506217" duration="2749000" />
-      <workItem from="1604693654386" duration="1394000" />
+      <workItem from="1604693654386" duration="2930000" />
     </task>
     <servers />
   </component>
@@ -200,22 +203,22 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603308505447" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1604694359986">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1604744627553">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604694359986" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1604694359986">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604744627553" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1604744627553">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604694359986" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1604694359986">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604744627553" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1604744627553">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604694359986" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1604694359986">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604744627553" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1604744627553">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604694359986" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604744627553" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1604588916405">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -232,10 +235,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604588916405" />
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604693826290">
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604744468740">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604693826290" />
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1604744468740" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
