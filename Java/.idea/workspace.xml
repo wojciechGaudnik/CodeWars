@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/alphabet_symmetry/kyu7/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alphabet_symmetry/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product_array_array_series5/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product_array_array_series5/kyu7/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,23 +73,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="product_array_array_series5.kyu7" />
       <recent name="alphabet_symmetry.kyu7" />
       <recent name="folding_your_way_to_the_moon.kyu7" />
       <recent name="simple_beads_count.kyu7" />
       <recent name="sum_of_triangular_numbers.kyu7" />
-      <recent name="a_rule_of_divisibility_by_7.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
-    <configuration name="PaperFolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="folding_your_way_to_the_moon.kyu7.PaperFolder" />
+  <component name="RunManager" selected="JUnit.KataTest (1)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="product_array_array_series5.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="folding_your_way_to_the_moon.kyu7.*" />
+          <option name="PATTERN" value="product_array_array_series5.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +114,12 @@
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="averages_of_numbers.kyu7.*" />
+          <option name="PATTERN" value="product_array_array_series5.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="averages_of_numbers.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="averages_of_numbers.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="product_array_array_series5.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="product_array_array_series5.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.PaperFolderTest" />
-        <item itemvalue="Application.PaperFolder" />
-        <item itemvalue="JUnit.KataTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -205,42 +205,46 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603308505447" />
-    <state width="2514" height="486" key="GridCell.Tab.0.bottom" timestamp="1605024724953">
+    <state x="2283" y="1871" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605108656425">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024724953" />
-    <state width="2514" height="486" key="GridCell.Tab.0.center" timestamp="1605024724953">
+    <state x="2283" y="1871" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605108656425" />
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1605109244841">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024724953" />
-    <state width="2514" height="486" key="GridCell.Tab.0.left" timestamp="1605024724953">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605109244841" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1605109244841">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024724953" />
-    <state width="2514" height="486" key="GridCell.Tab.0.right" timestamp="1605024724953">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605109244841" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1605109244841">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024724953" />
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1605024698080">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605109244841" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1605109244841">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024698080" />
-    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1605024698080">
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605109244841" />
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1605024766615">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024698080" />
-    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1605024698079">
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024766615" />
+    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1605024766615">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024698079" />
-    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1605024698080">
+    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024766615" />
+    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1605024766615">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024698080" />
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605024056147">
+    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024766615" />
+    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1605024766615">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024056147" />
+    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024766615" />
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605108603565">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605108603565" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -249,6 +253,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2428" y="1933" key="refactoring.ChangeSignatureDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024089324" />
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1605108899518">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605108899518" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
