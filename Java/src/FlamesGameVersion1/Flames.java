@@ -5,10 +5,6 @@ import java.util.stream.Collectors;
 
 public class Flames {
 
-	public static void main(String[] args) {
-		System.out.println(showRelationship("JOE", "ANN"));
-	}
-
 	public static String showRelationship(String male, String female) {
 		System.out.println(male + " " + female);
 		List<String> flames = new ArrayList<>() {{

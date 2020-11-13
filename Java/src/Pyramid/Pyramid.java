@@ -1,16 +1,6 @@
 package Pyramid;
 
 public class Pyramid{
-	public static void main(String[] args) {
-		String test = "\u001F";
-		System.out.println(watchPyramidFromTheSide(test));
-		System.out.println("---------");
-		System.out.println(watchPyramidFromAbove(test));
-		System.out.println("---------");
-		System.out.println(countVisibleCharactersOfThePyramid(test));
-		System.out.println("---------");
-		System.out.println(countAllCharactersOfThePyramid(test));
-	}
 
 	public static String watchPyramidFromTheSide(String characters){
 		if(characters == null ) return null;

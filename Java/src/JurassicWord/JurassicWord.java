@@ -14,18 +14,6 @@ public class JurassicWord {
 	static String flowers = "iii.....iii";
 	static String leaves = "\\|\\|\\|.....\\|\\|\\|";
 
-	public static void main(String[] args) {
-//		System.out.println(lunchTime("_CVvvvVC}>"));
-//		System.out.println(lunchTime("iiiuuVuuiii"));
-//		System.out.println(lunchTime("oG3uuVuuG3'"));
-//		System.out.println(lunchTime("XXXuuVuuXXX"));
-		System.out.println(lunchTime("uVuuVuuVuuu") + " < --- expected:<[Something] is eating something...> ");
-		System.out.println(lunchTime("I*)uuVuuV1:") + " < --- expected:<[A triceratops] is eating something...>");
-		System.out.println(lunchTime("XXXuuVuuXXX") + " < --- expected:<[A triceratops] is eating something...>");
-	}
-
-
-
 	public static String lunchTime (String scene) {
 		Map<String, String> dishMap = new HashMap<>() {{
 			put("dead dino", dead_dino);
@@ -49,9 +37,6 @@ public class JurassicWord {
 		for (Map.Entry<String, String> entryAnimal : animalMap.entrySet()) {
 			Pattern pattern = Pattern.compile(entryAnimal.getValue());
 			Matcher matcher = pattern.matcher(scene);
-//			System.out.println(matcher.find());
-//			System.out.println(matcher.find());
-//			System.out.println("--------");
 			if(matcher.find() && !matcher.find()) animal = entryAnimal.getKey();
 		}
 		if (!animal.equals("Something")) animal = "A " + animal;

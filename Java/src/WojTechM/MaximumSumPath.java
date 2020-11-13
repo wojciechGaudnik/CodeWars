@@ -23,20 +23,6 @@ package WojTechM;
 
 class MaximumSumPath {
 
-	public static void main(String[] args) {
-//		var nodel = new TreeNode(2, 4, 5);
-//		var noder = new TreeNode(3, 6, 7);
-//		var nodec = new TreeNode(1, nodel, noder);
-
-		var nodel = new TreeNode(1, 1, 50);
-		var noder = new TreeNode(30, 1, 1);
-		var nodec = new TreeNode(10, nodel, noder);
-
-		System.out.println(maxSumPath(nodec));
-
-
-	}
-
 	static int maxSumPath(TreeNode root) {
 		if (root != null) {
 			return root.value + (Math.max(maxSumPath(root.left), maxSumPath(root.right)));

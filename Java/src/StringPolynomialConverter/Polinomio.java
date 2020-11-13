@@ -2,11 +2,6 @@ package StringPolynomialConverter;
 
 public class Polinomio {
 
-	public static void main(String[] args) {
-//		System.out.println(convertToString(new int[]{0,1,-1,0,5,0,0,1}));
-		System.out.println(convertString(new int[]{1,0,0,0,0}));
-	}
-
 	public static String convertString(int[] pol) {
 		if (pol.length == 0) return "";
 		StringBuilder answer = new StringBuilder();

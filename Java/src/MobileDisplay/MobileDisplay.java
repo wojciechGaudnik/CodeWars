@@ -1,19 +1,6 @@
 package MobileDisplay;
 
-import java.util.function.Function;
-
 public class MobileDisplay {
-
-	public static void main(String[] args) {
-		System.out.println(51/27);
-		System.out.println(76/40);
-		System.out.println("n=98  p=78 height=76 halfVertical=39  <---- OK !!!");
-		System.out.println("n=98  p=78 height=76 halfVertical=40  <---- ZLE  !!!");
-		System.out.println(mobileDisplay(14,76));
-		Function<Integer, String> myFunc = x -> x + " test";
-		System.out.println(myFunc.apply(10));
-
-	}
 
 	public static String mobileDisplay(int n, int p){
 		if (n < 15 && p > 70) {

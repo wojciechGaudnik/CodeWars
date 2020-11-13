@@ -10,14 +10,6 @@ public class FindIndexOfSubArray {
 		this.arr = arr;
 	}
 
-	public static void main(String[] args) {
-		FindIndexOfSubArray test = new FindIndexOfSubArray(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 81, 39, 4, 20, 24, 49, 97, 74, 80, 45, 18, 17, 37, 26, 61, 46, 27, 65, 77, 43, 24, 8, 46, 80, 95, 49, 99, 2, 23, 85, 72, 1, 92, 66, 56, 90, 95, 33, 12, 42});
-		System.out.println("should return [1,49]");
-		System.out.println(Arrays.toString(test.findIndexOfSubArray()));
-	}
-
-
-
 	public int[] findIndexOfSubArray(){
 		List<Integer> list1 = Arrays.stream(arr).boxed().collect(Collectors.toList());
 		List<Integer> list2 = Arrays.stream(arr).boxed().collect(Collectors.toList());

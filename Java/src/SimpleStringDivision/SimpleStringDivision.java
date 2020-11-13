@@ -1,12 +1,6 @@
 package SimpleStringDivision;
 
-import java.util.Arrays;
-
 public class SimpleStringDivision {
-
-	public static void main(String[] args) {
-		System.out.println(solve("1 2 36 4 8", 2));
-	}
 
 	public static int solve(String s, int k) {
 		String[] pairs = s.split(" ");

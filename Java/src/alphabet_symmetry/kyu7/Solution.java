@@ -1,12 +1,6 @@
 package alphabet_symmetry.kyu7;
 
-import java.util.Arrays;
-
 public class Solution {
-
-	public static void main(String[] args) {
-		System.out.println(Arrays.toString(solve(new String[]{"abode", "ABc", "xyzD"})));
-	}
 
 	public static int[] solve(String[] arr){
 		var answer = new int[arr.length];

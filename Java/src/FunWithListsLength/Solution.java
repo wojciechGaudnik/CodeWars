@@ -1,27 +1,9 @@
 package FunWithListsLength;
 
-import lombok.experimental.Helper;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 class Solution {
-
-	public static void main(String[] args) {
-		Node node = new Node("aaa");
-		node.next = new Node("b");
-		node.next.next = new Node("abc");
-		System.out.println(length(node));
-		System.out.println(lastIndexOf(null, "b"));
-		System.out.println(weatherInfo(21));
-		System.out.println(weatherInfo(50).equals("10.0 is above freezing temperature"));
-		System.out.println(5/9.0);
-//				-11.66666666666666[6]
-//				-11.66666666666666[8]
-		System.out.println(find_average(new int[]{1, 2, 3}));
-	}
 
 	public static double find_average(int[] array){
 		int sum = 0;

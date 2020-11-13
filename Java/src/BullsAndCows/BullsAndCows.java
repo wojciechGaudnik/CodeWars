@@ -42,10 +42,4 @@ public class BullsAndCows {
 		turns++;
 		return answer;
 	}
-
-	public static void main(String[] args) {
-		BullsAndCows test = new BullsAndCows(7134);
-		System.out.println(test.compareWith(1324));
-
-	}
 }

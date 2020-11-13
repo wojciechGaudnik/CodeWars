@@ -8,10 +8,6 @@ import static java.util.stream.IntStream.of;
 
 public class Kata {
 
-	public static void main(String[] args) {
-		mergeArrays(new int[]{1, 2, 3, 4}, new int[]{5, 4, 3, 2, 1});
-	}
-
 	public static int[] mergeArrays(int[] first, int[] second) {
 		return Stream.of(Arrays.stream(first), Arrays.stream(second))
 				.flatMapToInt(i -> i)

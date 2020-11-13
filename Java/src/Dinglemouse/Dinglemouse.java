@@ -4,17 +4,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Dinglemouse {
-	public static void main(String[] args) {
-		ArrayList<String> alphabets = new ArrayList<>(Arrays.asList("A", "B", "A", "D", "A"));
-		System.out.println(alphabets);
-		alphabets.removeAll(Collections.singleton("A"));
-		System.out.println(alphabets);
-
-		List<String> animals = Arrays.asList("cow", "cat", "fly", "bird", "spider", "dog", "fly", "dog", "spider", "cow", "horse", "bird", "cat", "goat", "bird", "fly", "cat", "bird", "goat");
-		List<String> autopsy = Arrays.asList("spider", "dog", "dog", "spider", "horse");
-		System.out.println(Dinglemouse.oldLadySwallows(animals));
-
-	}
 
 	public static List<String> oldLadySwallows(final List<String> animals) {
 		Map<String, Integer> mapAnimals = new HashMap<>() {{

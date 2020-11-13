@@ -5,9 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/maximum_gap_array_series_4/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maximum_gap_array_series_4/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automorphic_number_special_numbers_series_6/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automorphic_number_special_numbers_series_6/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/All/CommonDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/All/CommonDivisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/All/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/All/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BullsAndCows/BullsAndCows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BullsAndCows/BullsAndCows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dinglemouse/Dinglemouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dinglemouse/Dinglemouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dinglemouse2/Dinglemouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dinglemouse2/Dinglemouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExampleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindIndexOfSubArray/FindIndexOfSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindIndexOfSubArray/FindIndexOfSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindSubstring/FindSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindSubstring/FindSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlamesGameVersion1/Flames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlamesGameVersion1/Flames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsMap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunWithListsMap/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JomoPipi/JomoPipi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JomoPipi/JomoPipi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JurassicWord/JurassicWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JurassicWord/JurassicWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Math/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Math/Math.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSortedArrays/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedArrays/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plural/Plural.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plural/Plural.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pyramid/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pyramid/Pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rotator/Rotator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rotator/Rotator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sheep/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sheep/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleStringDivision/SimpleStringDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleStringDivision/SimpleStringDivision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringCombat/StringCombat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCombat/StringCombat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringPolynomialConverter/Polinomio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringPolynomialConverter/Polinomio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheBigPronicChallenge/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheBigPronicChallenge/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WojTechM/MaximumSumPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WojTechM/MaximumSumPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alphabet_symmetry/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/alphabet_symmetry/kyu7/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +102,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="automorphic_number_special_numbers_series_6.kyu7" />
       <recent name="maximum_gap_array_series_4.kyu7" />
       <recent name="product_array_array_series5.kyu7" />
       <recent name="alphabet_symmetry.kyu7" />
       <recent name="folding_your_way_to_the_moon.kyu7" />
-      <recent name="simple_beads_count.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="product_array_array_series5.kyu7.Solution" />
       <module name="CodeWars" />
@@ -97,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alphabet_symmetry.kyu7.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automorphic_number_special_numbers_series_6.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alphabet_symmetry.kyu7.*" />
+          <option name="PATTERN" value="automorphic_number_special_numbers_series_6.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,16 +154,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alphabet_symmetry.kyu7.*" />
+          <option name="PATTERN" value="automorphic_number_special_numbers_series_6.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alphabet_symmetry.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="alphabet_symmetry.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="automorphic_number_special_numbers_series_6.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="automorphic_number_special_numbers_series_6.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +223,8 @@
       <workItem from="1604517506217" duration="2749000" />
       <workItem from="1604693654386" duration="2930000" />
       <workItem from="1604948898368" duration="2565000" />
-      <workItem from="1605193751363" duration="415000" />
+      <workItem from="1605193751363" duration="1045000" />
+      <workItem from="1605278981790" duration="2437000" />
     </task>
     <servers />
   </component>
@@ -210,46 +240,50 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2283" y="1871" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605108656425" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1605109575061">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1605297957580">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605109575061" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1605109575061">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605297957580" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1605297957580">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605109575061" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1605109575061">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605297957580" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1605297957580">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605109575061" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1605109575061">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605297957580" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1605297957580">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605109575061" />
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1605024766615">
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605297957580" />
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1605297669567">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024766615" />
-    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1605024766615">
+    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605297669567" />
+    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1605297669567">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024766615" />
-    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1605024766615">
+    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605297669567" />
+    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1605297669567">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024766615" />
-    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1605024766615">
+    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605297669567" />
+    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1605297669567">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024766615" />
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605193866941">
+    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605297669567" />
+    <state x="2473" y="1982" width="619" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605296627103">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="551" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605193866941" />
+    <state x="2473" y="1982" width="619" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605296627103" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2458" y="1925" key="extract.method.dialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1602959026225" />
+    <state x="2066" y="1644" width="1347" height="1131" key="find.popup" timestamp="1605296531483">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2066" y="1644" width="1347" height="1131" key="find.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605296531483" />
     <state x="2428" y="1933" key="refactoring.ChangeSignatureDialog" timestamp="1605024089324">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -266,6 +300,11 @@
           <url>file://$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSeven.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/automorphic_number_special_numbers_series_6/kyu7/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

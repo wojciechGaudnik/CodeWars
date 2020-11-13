@@ -5,10 +5,6 @@ import java.util.stream.Collectors;
 
 public class StringCombat {
 
-	public static void main(String[] args) {
-
-	}
-
 	public static String combat(String s1, String s2) {
 		if (s1 == null || s2 == null)return "Draw";
 		if (s1 == null && s2.length() == 0) return "Draw";

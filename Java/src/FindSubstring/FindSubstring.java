@@ -9,14 +9,7 @@ import java.util.Arrays;
 
 public class FindSubstring {
 
-	public static void main(String[] args) {
-		System.out.println(FindSubstring.longestSubstring("<jQ/+Y=}5=/V>(RhXbgb7>i^>V)SZaP8?X/h/*<OV^Vd)dS6R0OS0 Q{YW6R/U/f", "4bYZSNVWWR8Xk^bc&5YSc }j){lh%3 dN<iQ 8l d g802>fOlaagbM(6`6128/g??3i&=Z*7*1"));
-
-	}
-
-
 	static int longestSubstring(String a, String b){
-//		System.out.println(a + "\n <---> \n" + b);
 		char[] aChars = a.toCharArray();
 		char[] bChars = b.toCharArray();
 		List<Character> both = new ArrayList<>();
