@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oRing_arrays/kyu7/OrArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oRing_arrays/kyu7/OrArraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/row_weights/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/row_weights/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +83,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrArraysTest">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minimum_steps_array_series6.kyu7.Kata" />
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="OrArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oRing_arrays.kyu7.OrArrays" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minimum_steps_array_series6.kyu7.*" />
+          <option name="PATTERN" value="oRing_arrays.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oRing_arrays.kyu7.OrArrays" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="row_weights.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oRing_arrays.kyu7.*" />
+          <option name="PATTERN" value="row_weights.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,16 +140,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array_leaders_array_series_3.kyu7.*" />
+          <option name="PATTERN" value="row_weights.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="array_leaders_array_series_3.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="array_leaders_array_series_3.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="row_weights.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="row_weights.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.OrArraysTest" />
         <item itemvalue="Application.OrArrays" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.SolutionTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,8 @@
       <workItem from="1604693654386" duration="2930000" />
       <workItem from="1604948898368" duration="2565000" />
       <workItem from="1605193751363" duration="1045000" />
-      <workItem from="1605278981790" duration="6288000" />
+      <workItem from="1605278981790" duration="7739000" />
+      <workItem from="1605639128576" duration="1928000" />
     </task>
     <servers />
   </component>
@@ -211,22 +212,22 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2283" y="1871" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605108656425" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1605551032295">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1605551290665">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605551032295" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1605551032295">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605551290665" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1605551290665">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605551032295" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1605551032295">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605551290665" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1605551290665">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605551032295" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1605551032295">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605551290665" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1605551290665">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605551032295" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605551290665" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1605297669567">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
