@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/see_you_next_happy_year/kyu7/HappyYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/see_you_next_happy_year/kyu7/HappyYearTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disarium_number_special_numbers_series3/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disarium_number_special_numbers_series3/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/see_you_next_happy_year/kyu7/HappyYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/see_you_next_happy_year/kyu7/HappyYear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +74,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="disarium_number_special_numbers_series3.kyu7" />
       <recent name="see_you_next_happy_year.kyu7" />
       <recent name="oRing_arrays.kyu7" />
       <recent name="minimum_steps_array_series6.kyu7" />
       <recent name="array_leaders_array_series_3.kyu7" />
-      <recent name="automorphic_number_special_numbers_series_6.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HappyYearTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="HappyYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="see_you_next_happy_year.kyu7.HappyYear" />
       <module name="CodeWars" />
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="row_weights.kyu7.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="disarium_number_special_numbers_series3.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="row_weights.kyu7.*" />
+          <option name="PATTERN" value="disarium_number_special_numbers_series3.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,16 +126,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oRing_arrays.kyu7.*" />
+          <option name="PATTERN" value="disarium_number_special_numbers_series3.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oRing_arrays.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="oRing_arrays.kyu7.OrArraysTest" />
+      <option name="PACKAGE_NAME" value="disarium_number_special_numbers_series3.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="disarium_number_special_numbers_series3.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.HappyYearTest" />
         <item itemvalue="Application.HappyYear" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.OrArraysTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,22 +222,22 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605677469831" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1605681578904">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1605805978301">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605681578904" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1605681578904">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605805978301" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1605805978301">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605681578904" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1605681578904">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605805978301" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1605805978301">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605681578904" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1605681578904">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605805978301" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1605805978301">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605681578904" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605805978301" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1605681168437">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -257,10 +258,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2221" y="1810" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605680560531" />
-    <state x="2473" y="1982" width="619" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605680566799">
+    <state x="2473" y="1982" width="619" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605805784052">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="619" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605680566799" />
+    <state x="2473" y="1982" width="619" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605805784052" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
