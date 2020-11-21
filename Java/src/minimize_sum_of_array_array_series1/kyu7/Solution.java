@@ -4,10 +4,6 @@ import java.util.Arrays;
 
 public class Solution {
 
-	public static void main(String[] args) {
-		System.out.println(minSum(new int[]{12,6,10,26,3,24}));
-	}
-
 	public static int minSum(int[] passed){
 		Arrays.sort(passed);
 		var sum = 0;
