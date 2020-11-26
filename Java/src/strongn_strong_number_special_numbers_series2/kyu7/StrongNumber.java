@@ -2,18 +2,6 @@ package strongn_strong_number_special_numbers_series2.kyu7;
 
 public class StrongNumber {
 
-	public static void main(String[] args) {
-		var strongNumber = new StrongNumber();
-		System.out.println(isStrongNumber(1));
-		System.out.println(isStrongNumber(2));
-		System.out.println(isStrongNumber(145));
-		System.out.println(isStrongNumber(7));
-		System.out.println(isStrongNumber(93));
-		System.out.println(isStrongNumber(185));
-	}
-
-
-
 	static int[] factorials = new int[10];
 
 	{
