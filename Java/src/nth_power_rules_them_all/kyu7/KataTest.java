@@ -1,13 +1,11 @@
 package nth_power_rules_them_all.kyu7;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 class KataTest {
-	@Test
-	public void basicTests() {
-		assertEquals(30, Kata.modifiedSum(new int[] {1,2,3}, 3));
-		assertEquals(30, Kata.modifiedSum(new int[] {1,2}, 5));
-	}
+//	@Test
+//	public void exampleTests() {
+//		Tester.doTest(new int[]{4,8,6}, 2);
+//		Tester.doTest(new int[]{1,2,3,4}, 0);
+//		Tester.doTest(new int[]{}, 0);
+//		Tester.doTest(new int[]{1}, 0);
+//	}
 }
