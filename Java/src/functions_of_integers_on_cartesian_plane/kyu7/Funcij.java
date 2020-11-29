@@ -4,10 +4,6 @@ import java.math.BigInteger;
 
 public class Funcij {
 
-	public static void main(String[] args) {
-		System.out.println(sumax(5000));
-	}
-
 	public static BigInteger sumin(int n) {
 		BigInteger sum = BigInteger.ZERO;
 		for (var i = n; i > 0; i--) {
