@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/jumping_number_special_numbers_series/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jumping_number_special_numbers_series/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,23 +73,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="jumping_number_special_numbers_series.kyu7" />
       <recent name="the_poet_and_the_pendulum.kyu7" />
       <recent name="array_element_parity.kyu7" />
       <recent name="nth_power_rules_them_all.kyu7" />
       <recent name="functions_of_integers_on_cartesian_plane.kyu7" />
-      <recent name="strongn_strong_number_special_numbers_series2.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
-    <configuration name="Poet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="the_poet_and_the_pendulum.kyu7.Poet" />
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="special_number_special_numbers_series_5.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="the_poet_and_the_pendulum.kyu7.*" />
+          <option name="PATTERN" value="special_number_special_numbers_series_5.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="special_number_special_numbers_series_5.kyu7.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jumping_number_special_numbers_series.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="special_number_special_numbers_series_5.kyu7.*" />
+          <option name="PATTERN" value="jumping_number_special_numbers_series.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +144,12 @@
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array_element_parity.kyu7.*" />
+          <option name="PATTERN" value="jumping_number_special_numbers_series.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="array_element_parity.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="array_element_parity.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="jumping_number_special_numbers_series.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="jumping_number_special_numbers_series.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.PoetTest" />
-        <item itemvalue="Application.Poet" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -255,10 +257,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2221" y="1810" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605680560531" />
-    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606760880685">
+    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606933034021">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606760880685" />
+    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606933034021" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1602959026225">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -275,10 +277,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2428" y="1933" key="refactoring.ChangeSignatureDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024089324" />
-    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1606243938209">
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1606933291391">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606243938209" />
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606933291391" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
