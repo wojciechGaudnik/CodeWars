@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/going_to_the_cinema/kyu7/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/going_to_the_cinema/kyu7/MovieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maximum_triplet_sum_array_series7/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maximum_triplet_sum_array_series7/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lost_number_in_number_sequence/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lost_number_in_number_sequence/kyu7/Kata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +73,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="maximum_triplet_sum_array_series7.kyu7" />
       <recent name="going_to_the_cinema.kyu7" />
       <recent name="lost_number_in_number_sequence.kyu7" />
       <recent name="sort_out_the_men_from_boys.kyu7" />
       <recent name="tidy_number_special_numbers_series9.kyu7" />
-      <recent name="balanced_number_special_numbers_series1.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lost_number_in_number_sequence.kyu7.Kata" />
       <module name="CodeWars" />
@@ -111,32 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maximum_triplet_sum_array_series7.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lost_number_in_number_sequence.kyu7.*" />
+          <option name="PATTERN" value="maximum_triplet_sum_array_series7.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lost_number_in_number_sequence.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="lost_number_in_number_sequence.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort_out_the_men_from_boys.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort_out_the_men_from_boys.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="sort_out_the_men_from_boys.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,13 +138,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maximum_triplet_sum_array_series7.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="maximum_triplet_sum_array_series7.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="maximum_triplet_sum_array_series7.kyu7.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.MovieTest" />
         <item itemvalue="Application.Movie" />
         <item itemvalue="Application.Kata (1)" />
-        <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,22 +219,22 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606049026791" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1607367371184">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1607457121634">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607367371184" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1607367371184">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607457121634" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1607457121634">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607367371184" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1607367371184">
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607457121634" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1607457121634">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607367371184" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1607367371184">
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607457121634" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1607457121634">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607367371184" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607457121634" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1607366968013">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
@@ -258,10 +255,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2221" y="1810" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605680560531" />
-    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607365922714">
+    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607456533061">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607365922714" />
+    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607456533061" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1607028488054">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
