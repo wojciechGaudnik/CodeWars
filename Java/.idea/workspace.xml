@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/how_many_days_are_we_represented_in_a_foreign_country/kyu7/Representation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/how_many_days_are_we_represented_in_a_foreign_country/kyu7/RepresentationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/palindrome_chain_length/kyu7/Palindromes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/palindrome_chain_length/kyu7/PalindromesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="palindrome_chain_length.kyu7" />
       <recent name="how_many_days_are_we_represented_in_a_foreign_country.kyu7" />
       <recent name="thinking_testing_uniq_or_not_uniq.kyu7" />
       <recent name="red_knight.kyu7" />
       <recent name="simple_string_characters.kyu7" />
-      <recent name="responsible_drinking.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -86,13 +86,13 @@
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Representation">
-    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinking_testing_uniq_or_not_uniq.kyu7.Kata" />
+  <component name="RunManager" selected="JUnit.PalindromesTest">
+    <configuration name="Palindromes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="palindrome_chain_length.kyu7.Palindromes" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinking_testing_uniq_or_not_uniq.kyu7.*" />
+          <option name="PATTERN" value="palindrome_chain_length.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,21 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeWarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="red_knight.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="red_knight.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="red_knight.kyu7.CodeWarsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -138,6 +123,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="thinking_testing_uniq_or_not_uniq.kyu7" />
       <option name="MAIN_CLASS_NAME" value="thinking_testing_uniq_or_not_uniq.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="palindrome_chain_length.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="palindrome_chain_length.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="palindrome_chain_length.kyu7.PalindromesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromesTest" />
+        <item itemvalue="Application.Palindromes" />
         <item itemvalue="Application.Representation" />
         <item itemvalue="JUnit.RepresentationTest" />
         <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="Application.Kata (1)" />
-        <item itemvalue="JUnit.CodeWarsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,10 +272,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="646" height="446" key="SwitcherDM/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607766142280" />
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607868849588">
+    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607964219924">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1607868849588" />
+    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1607964219924" />
     <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607765945148" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1607028488054">
       <screen x="1440" y="1440" width="2560" height="1440" />
@@ -293,9 +293,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2428" y="1933" key="refactoring.ChangeSignatureDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024089324" />
-    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1606933291391">
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1607964350600">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1607964350600" />
     <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606933291391" />
   </component>
   <component name="XDebuggerManager">
