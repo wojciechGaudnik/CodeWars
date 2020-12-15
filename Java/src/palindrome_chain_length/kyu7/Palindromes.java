@@ -2,10 +2,6 @@ package palindrome_chain_length.kyu7;
 
 public class Palindromes {
 
-	public static void main(String[] args) {
-		System.out.println(palindromeChainLength(89));
-	}
-
 	public static int palindromeChainLength (long n) {
 		var answer = 0;
 		while (!isPalindrome(n)) {
