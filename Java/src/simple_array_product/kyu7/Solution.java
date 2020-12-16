@@ -4,11 +4,6 @@ import java.util.Arrays;
 
 public class Solution {
 
-	public static void main(String[] args) {
-//		System.out.println(solve(new int [][]{{-2, -15, -12, -8, -16}, { -10, -5}, {-4, -15, -7}}));
-		System.out.println(solve(new int [][]{{14,2},{0,-16},{-12,-16}}));
-		System.out.println(-16 * -16 * 14);
-	}
 	public static int solve(int [][] arr){
 		for (var one : arr) {
 			Arrays.sort(one);
