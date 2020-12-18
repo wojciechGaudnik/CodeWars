@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/kids_3_punky_brewsters_ocks/kyu7/EightiesKids3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kids_3_punky_brewsters_ocks/kyu7/EightiesKids3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kids_3_punky_brewsters_ocks.kyu7" />
+      <recent name="converting_from_base_10_to_16_dare_you.kyu7" />
       <recent name="excessively_abundant_numbers.kyu7" />
       <recent name="simple_array_product.kyu7" />
       <recent name="palindrome_chain_length.kyu7" />
-      <recent name="how_many_days_are_we_represented_in_a_foreign_country.kyu7" />
-      <recent name="thinking_testing_uniq_or_not_uniq.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -82,7 +86,7 @@
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HexadecimalTest">
+  <component name="RunManager" selected="JUnit.EightiesKids3Test">
     <configuration name="Hexadecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="converting_from_base_10_to_16_dare_you.kyu7.Hexadecimal" />
       <module name="CodeWars" />
@@ -96,15 +100,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excessively_abundant_numbers.kyu7.Kata" />
+    <configuration name="EightiesKids3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excessively_abundant_numbers.kyu7.*" />
+          <option name="PATTERN" value="kids_3_punky_brewsters_ocks.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="kids_3_punky_brewsters_ocks.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="kids_3_punky_brewsters_ocks.kyu7.EightiesKids3Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightiesKids3Test.testPunky" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kids_3_punky_brewsters_ocks.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kids_3_punky_brewsters_ocks.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="kids_3_punky_brewsters_ocks.kyu7.EightiesKids3Test" />
+      <option name="METHOD_NAME" value="testPunky" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,28 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simple_array_product.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simple_array_product.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="simple_array_product.kyu7.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EightiesKids3Test" />
+        <item itemvalue="JUnit.EightiesKids3Test.testPunky" />
         <item itemvalue="JUnit.HexadecimalTest" />
         <item itemvalue="Application.Hexadecimal" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,25 +227,25 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606049026791" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1608150410322">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1608276212446">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608150410322" />
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608276212446" />
     <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1608150410322">
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1608276212446">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608150410322" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608276212446" />
     <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1608150410322">
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1608276212446">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608150410322" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608276212446" />
     <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1608150410322">
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1608276212446">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608150410322" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608276212446" />
     <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1608023241352">
       <screen x="1440" y="1440" width="2560" height="1440" />
@@ -268,10 +275,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="646" height="446" key="SwitcherDM/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607766142280" />
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608148628977">
+    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608320776395">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608148628977" />
+    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608320776395" />
     <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607765945148" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1607028488054">
       <screen x="1440" y="1440" width="2560" height="1440" />
