@@ -1,0 +1,4 @@
+function colorOf(r, g, b) {
+    print("hello")
+
+}
