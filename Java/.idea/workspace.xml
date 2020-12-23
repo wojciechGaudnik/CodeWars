@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/how_far_will_I_go/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/how_far_will_I_go/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/where_is_vasya/kyu7/WereIsVasyaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/where_is_vasya/kyu7/WhereIsVasya.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,20 +73,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="where_is_vasya.kyu7" />
       <recent name="how_far_will_I_go.kyu7" />
       <recent name="monty_hall_problem.kyu7" />
       <recent name="lunar_mathematics_addition.kyu7" />
       <recent name="sorting_the_odd_way.kyu7" />
-      <recent name="kids_3_punky_brewsters_ocks.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="where_is_vasya.kyu7" />
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
+  <component name="RunManager" selected="Application.WhereIsVasya">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="how_far_will_I_go.kyu7.Kata" />
       <module name="CodeWars" />
@@ -113,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhereIsVasya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="where_is_vasya.kyu7.WhereIsVasya" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="where_is_vasya.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -123,21 +137,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="how_far_will_I_go.kyu7" />
       <option name="MAIN_CLASS_NAME" value="how_far_will_I_go.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LunarCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lunar_mathematics_addition.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lunar_mathematics_addition.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="lunar_mathematics_addition.kyu7.LunarCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhereIsVasya" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.MontyHallTest" />
         <item itemvalue="Application.MontyHall" />
-        <item itemvalue="JUnit.LunarCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,25 +224,25 @@
     </state>
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608458650556" />
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606049026791" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1608666507217">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1608749770052">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666507217" />
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608749770052" />
     <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1608666507217">
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1608749770052">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666507217" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608749770052" />
     <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1608666507217">
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1608749770052">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666507217" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608749770052" />
     <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1608666507217">
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1608749770052">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666507217" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608749770052" />
     <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1608666393508">
       <screen x="1440" y="1440" width="2560" height="1440" />
@@ -273,10 +272,10 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="646" height="446" key="SwitcherDM/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607766142280" />
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608666008011">
+    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608749079943">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666008011" />
+    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608749079943" />
     <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607765945148" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1607028488054">
       <screen x="1440" y="1440" width="2560" height="1440" />
@@ -312,11 +311,6 @@
           <url>file://$PROJECT_DIR$/src/simple_array_product/kyu7/Solution.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/how_far_will_I_go/kyu7/Kata.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
