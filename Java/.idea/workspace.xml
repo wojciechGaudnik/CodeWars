@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arithmetic_sequence/kyu7/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmetic_sequence/kyu7/SequenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/halving_sum/kyu7/HalvingSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/halving_sum/kyu7/HalvingSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regexp_basics_is_it_a_vowel/kyu7/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regexp_basics_is_it_a_vowel/kyu7/StringUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="regexp_basics_is_it_a_vowel.kyu7" />
       <recent name="arithmetic_sequence.kyu7" />
       <recent name="halving_sum.kyu7" />
       <recent name="where_is_vasya.kyu7" />
       <recent name="how_far_will_I_go.kyu7" />
-      <recent name="monty_hall_problem.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -88,7 +86,7 @@
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SequenceTest">
+  <component name="RunManager" selected="JUnit.StringUtilsTest">
     <configuration name="HalvingSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="halving_sum.kyu7.HalvingSum" />
       <module name="CodeWars" />
@@ -128,21 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="how_far_will_I_go.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="how_far_will_I_go.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="how_far_will_I_go.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -158,13 +141,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regexp_basics_is_it_a_vowel.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regexp_basics_is_it_a_vowel.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="regexp_basics_is_it_a_vowel.kyu7.StringUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilsTest" />
         <item itemvalue="JUnit.SequenceTest" />
         <item itemvalue="Application.Sequence" />
         <item itemvalue="Application.HalvingSum" />
         <item itemvalue="Application.WhereIsVasya" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,10 +271,11 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="646" height="446" key="SwitcherDM/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607766142280" />
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608891447222">
+    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608981156238">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891447222" />
+    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608981156238" />
     <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607765945148" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1607028488054">
       <screen x="1440" y="1440" width="2560" height="1440" />
