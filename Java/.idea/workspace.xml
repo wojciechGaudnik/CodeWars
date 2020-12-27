@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/regexp_basics_is_it_a_vowel/kyu7/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/regexp_basics_is_it_a_vowel/kyu7/StringUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regexp_basics_is_it_a_vowel/kyu7/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/regexp_basics_is_it_a_vowel/kyu7/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilsTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="HalvingSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="halving_sum.kyu7.HalvingSum" />
       <module name="CodeWars" />
@@ -113,19 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhereIsVasya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="where_is_vasya.kyu7.WhereIsVasya" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="where_is_vasya.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -136,6 +122,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="arithmetic_sequence.kyu7" />
       <option name="MAIN_CLASS_NAME" value="arithmetic_sequence.kyu7.SequenceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="last.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="last.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="last.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.StringUtilsTest" />
         <item itemvalue="JUnit.SequenceTest" />
         <item itemvalue="Application.Sequence" />
         <item itemvalue="Application.HalvingSum" />
-        <item itemvalue="Application.WhereIsVasya" />
       </list>
     </recent_temporary>
   </component>
