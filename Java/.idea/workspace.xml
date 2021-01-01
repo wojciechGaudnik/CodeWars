@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic_calculator/kyu7/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_calculator/kyu7/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regexp_basics_is_it_a_letter/kyu7/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,7 +85,7 @@
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.StringUtilsTest">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_calculator.kyu7.Calculator" />
       <module name="CodeWars" />
@@ -144,16 +142,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name_array_capping.kyu7.*" />
+          <option name="PATTERN" value="regexp_basics_is_it_a_letter.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="name_array_capping.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="name_array_capping.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="regexp_basics_is_it_a_letter.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="regexp_basics_is_it_a_letter.kyu7.StringUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilsTest" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="JUnit.CompleteThePatternTest" />
         <item itemvalue="Application.CompleteThePattern" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,29 +225,29 @@
     </state>
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608458650556" />
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606049026791" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1609407911031">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1609408048150">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609407911031" />
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609408048150" />
     <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1609407911031">
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1609408048150">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609407911031" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609408048150" />
     <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1609407911031">
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1609408048150">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609407911031" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609408048150" />
     <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1609407911031">
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1609408048150">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609407911031" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609408048150" />
     <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1609339950315">
       <screen x="1440" y="1440" width="2560" height="1440" />
