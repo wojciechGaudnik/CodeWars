@@ -5,10 +5,6 @@ import java.util.stream.IntStream;
 
 public class CompleteThePattern {
 
-	public static void main(String[] args) {
-		System.out.println(pattern(5));
-	}
-
 	public static String pattern (int n) {
 		if (n <= 0) {
 			return "";
