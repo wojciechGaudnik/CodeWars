@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/smallest_value_of_an_array/kyu7/ArraysKata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smallest_value_of_an_array/kyu7/ArraysKataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sum_of_odd_cubed_numbers/kyu7/FindOddCubes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sum_of_odd_cubed_numbers/kyu7/FindOddCubesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sum_of_odd_cubed_numbers.kyu7" />
       <recent name="smallest_value_of_an_array.kyu7" />
       <recent name="reverse_a_number.kyu7" />
       <recent name="remove_duplicates.kyu7" />
       <recent name="collatz_conjecture_length.kyu7" />
-      <recent name="regexp_basics_is_it_a_letter.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -87,7 +87,7 @@
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArraysKataTest">
+  <component name="RunManager" selected="JUnit.FindOddCubesTest">
     <configuration name="ArraysKata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="smallest_value_of_an_array.kyu7.ArraysKata" />
       <module name="CodeWars" />
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reverse_a_number.kyu7.ReverseNumber" />
+    <configuration name="FindOddCubes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sum_of_odd_cubed_numbers.kyu7.FindOddCubes" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reverse_a_number.kyu7.*" />
+          <option name="PATTERN" value="sum_of_odd_cubed_numbers.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +129,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindOddCubesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sum_of_odd_cubed_numbers.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sum_of_odd_cubed_numbers.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="sum_of_odd_cubed_numbers.kyu7.FindOddCubesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -144,28 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="remove_duplicates.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="remove_duplicates.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="remove_duplicates.kyu7.UniqueArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindOddCubesTest" />
+        <item itemvalue="Application.FindOddCubes" />
         <item itemvalue="JUnit.ArraysKataTest" />
         <item itemvalue="Application.ArraysKata" />
         <item itemvalue="JUnit.ReverseNumberTest" />
-        <item itemvalue="Application.ReverseNumber" />
-        <item itemvalue="JUnit.UniqueArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,29 +227,29 @@
     </state>
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608458650556" />
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606049026791" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1609853377184">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1609945360451">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609853377184" />
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609945360451" />
     <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1609853377184">
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1609945360451">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609853377184" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609945360451" />
     <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1609853377184">
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1609945360451">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609853377184" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609945360451" />
     <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1609853377184">
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1609945360451">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609853377184" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609945360451" />
     <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1609339950315">
       <screen x="1440" y="1440" width="2560" height="1440" />
@@ -283,11 +283,11 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="646" height="446" key="SwitcherDM/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607766142280" />
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609852878531">
+    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609945121179">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891447222" />
-    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609852878531" />
+    <state x="2473" y="1982" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609945121179" />
     <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607765945148" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1607028488054">
       <screen x="1440" y="1440" width="2560" height="1440" />
