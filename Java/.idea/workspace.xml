@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shorter_concat_reverse_longer/kyu7/ReverseLonger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shorter_concat_reverse_longer/kyu7/ReverseLongerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +83,7 @@
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseLongerTest">
+  <component name="RunManager" selected="JUnit.DecToolsTest">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alphabet_war.kyu7.Kata" />
       <module name="CodeWars" />
@@ -114,6 +110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DecToolsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number_of_decimal_digits.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="number_of_decimal_digits.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="number_of_decimal_digits.kyu7.DecToolsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -124,21 +135,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="alphabet_war.kyu7" />
       <option name="MAIN_CLASS_NAME" value="alphabet_war.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PowersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="counting_power_sets.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="counting_power_sets.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="counting_power_sets.kyu7.PowersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DecToolsTest" />
         <item itemvalue="JUnit.ReverseLongerTest" />
         <item itemvalue="Application.ReverseLonger" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.PowersTest" />
       </list>
     </recent_temporary>
   </component>
