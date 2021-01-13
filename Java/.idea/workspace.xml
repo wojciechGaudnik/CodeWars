@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/to_leet_speak/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alternate_case/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alternate_case/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coloured_triangles/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coloured_triangles/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="alternate_case.kyu7" />
+      <recent name="coloured_triangles.kyu7" />
+      <recent name="to_leet_speak.kyu7" />
       <recent name="number_of_decimal_digits.kyu7" />
       <recent name="shorter_concat_reverse_longer.kyu7" />
-      <recent name="alphabet_war.kyu7" />
-      <recent name="counting_power_sets.kyu7" />
-      <recent name="sum_of_odd_cubed_numbers.kyu7" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -86,7 +89,7 @@
       <recent name="responsible_drinking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Kata (1)">
+  <component name="RunManager" selected="JUnit.KataTest (2)">
     <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="to_leet_speak.kyu7.Kata" />
       <module name="CodeWars" />
@@ -100,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLonger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="shorter_concat_reverse_longer.kyu7.ReverseLonger" />
+    <configuration name="Kata (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alternate_case.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shorter_concat_reverse_longer.kyu7.*" />
+          <option name="PATTERN" value="alternate_case.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,46 +116,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecToolsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coloured_triangles.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number_of_decimal_digits.kyu7.*" />
+          <option name="PATTERN" value="coloured_triangles.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="number_of_decimal_digits.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="number_of_decimal_digits.kyu7.DecToolsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alternate_case.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alternate_case.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="alternate_case.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="to_leet_speak.kyu7.*" />
+          <option name="PATTERN" value="coloured_triangles.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="to_leet_speak.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="to_leet_speak.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseLongerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shorter_concat_reverse_longer.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shorter_concat_reverse_longer.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="shorter_concat_reverse_longer.kyu7.ReverseLongerTest" />
+      <option name="PACKAGE_NAME" value="coloured_triangles.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="coloured_triangles.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (2)" />
+        <item itemvalue="Application.Kata (2)" />
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="Application.Kata (1)" />
-        <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="JUnit.DecToolsTest" />
-        <item itemvalue="JUnit.ReverseLongerTest" />
-        <item itemvalue="Application.ReverseLonger" />
       </list>
     </recent_temporary>
   </component>
@@ -226,29 +227,29 @@
     </state>
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608458650556" />
     <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606049026791" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1610176323775">
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1610350452635">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610176323775" />
+    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610350452635" />
     <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1610176323774">
+    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1610350452634">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610176323774" />
+    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610350452634" />
     <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1610176323774">
+    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1610350452634">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610176323774" />
+    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610350452634" />
     <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1610176323774">
+    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1610350452635">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610176323774" />
+    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610350452635" />
     <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
     <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1609339950315">
       <screen x="1440" y="1440" width="2560" height="1440" />
@@ -282,11 +283,11 @@
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state width="646" height="446" key="SwitcherDM/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607766142280" />
-    <state x="2473" y="1982" width="513" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610302644006">
+    <state x="2473" y="1982" width="513" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610568547555">
       <screen x="1440" y="1440" width="2560" height="1440" />
     </state>
     <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891447222" />
-    <state x="2473" y="1982" width="513" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610302644006" />
+    <state x="2473" y="1982" width="513" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610568547555" />
     <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607765945148" />
     <state x="2458" y="1925" key="extract.method.dialog" timestamp="1607028488054">
       <screen x="1440" y="1440" width="2560" height="1440" />
