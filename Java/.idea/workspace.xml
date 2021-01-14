@@ -5,11 +5,343 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/alternate_case/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alternate_case/kyu7/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coloured_triangles/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coloured_triangles/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/find_count_of_most_frequent_item_in_an_array/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/find_count_of_most_frequent_item_in_an_array/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.8-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.8-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/All/CommonDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/All/CommonDivisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/All/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/All/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/All/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/All/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMI/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BMI/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BullsAndCows/BullsAndCows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BullsAndCows/BullsAndCows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BullsAndCows/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BullsAndCows/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountPositivesSumNegatives/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CountPositivesSumNegatives/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountPositivesSumNegatives/KataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CountPositivesSumNegatives/KataTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeafRats2_detectApproaching/DeafRats2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DeafRats2_detectApproaching/DeafRats2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dinglemouse/Dinglemouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dinglemouse/Dinglemouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dinglemouse/DinglemouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dinglemouse/DinglemouseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dinglemouse2/Dinglemouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dinglemouse2/Dinglemouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dinglemouse2/DinglemouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dinglemouse2/DinglemouseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExampleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExelColumn/GetExcelColumnTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExelColumn/GetExcelColumnTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExelColumn/GetExcelColumnTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExelColumn/GetExcelColumnTitleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindIndexOfSubArray/FindIndexOfSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindIndexOfSubArray/FindIndexOfSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindIndexOfSubArray/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindIndexOfSubArray/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindNidle/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindNidle/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindNidle/NeedleExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindNidle/NeedleExampleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindSubstring/FindSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindSubstring/FindSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindSubstring/FindSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindSubstring/FindSubstringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlamesGameVersion1/Flames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlamesGameVersion1/Flames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlamesGameVersion1/FlamesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlamesGameVersion1/FlamesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsLength/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunWithListsLength/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsLength/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunWithListsLength/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsLength/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunWithListsLength/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsMap/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunWithListsMap/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsMap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunWithListsMap/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithListsMap/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunWithListsMap/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GCD_FIB_FIND/GCDandFIBandFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GCD_FIB_FIND/GCDandFIBandFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HQ/HQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HQ/HQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HQ/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HQ/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JomoPipi/JomoPipi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JomoPipi/JomoPipi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JomoPipi/JomoPipiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JomoPipi/JomoPipiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JomoPipi/MatrixShiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JomoPipi/MatrixShiftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JurassicWord/ExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JurassicWord/ExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JurassicWord/JurassicWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JurassicWord/JurassicWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetspeak/EncodeSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leetspeak/EncodeSimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetspeak/Leetspeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leetspeak/Leetspeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Math/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/Math.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Math/MathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/MathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSortedArrays/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergeSortedArrays/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSortedArrays/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergeSortedArrays/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MobileDisplay/MobileDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MobileDisplay/MobileDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MobileDisplay/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MobileDisplay/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NameMe/NameMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NameMe/NameMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NameMe/NameMeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NameMe/NameMeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/PeopleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/PeopleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plural/Plural.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plural/Plural.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plural/PluralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plural/PluralTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pyramid/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pyramid/Pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pyramid/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pyramid/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReturnRandomly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReturnRandomly/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReturnRandomly/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReturnRandomly/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rotator/Rotator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rotator/Rotator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rotator/RotatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rotator/RotatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sheep/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sheep/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sheep/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sheep/CounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleStringDivision/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleStringDivision/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleStringDivision/SimpleStringDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleStringDivision/SimpleStringDivision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringCombat/StringCombat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCombat/StringCombat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringCombat/StringCombatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCombat/StringCombatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringPolynomialConverter/Polinomio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringPolynomialConverter/Polinomio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringPolynomialConverter/PolinomioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringPolynomialConverter/PolinomioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheBigPronicChallenge/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TheBigPronicChallenge/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheBigPronicChallenge/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TheBigPronicChallenge/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeFormatter/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TimeFormatter/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeFormatter/TimeFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TimeFormatter/TimeFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TripleSorter/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TripleSorter/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TripleSorter/TripleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TripleSorter/TripleSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TripleSorter/TripleSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TripleSorter/TripleSorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwentyOneSticks/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwentyOneSticks/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwentyOneSticks/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwentyOneSticks/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twisted_3_7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Twisted_3_7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twisted_3_7/KataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Twisted_3_7/KataTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WojTechM/MaximumSumPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WojTechM/MaximumSumPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WojTechM/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WojTechM/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkingDays/WorkingDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkingDays/WorkingDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkingDays/WorkingDaysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkingDays/WorkingDaysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XOR/XOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XOR/XOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XOR/XORTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XOR/XORTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_plus_b_equals_one_two_three/kyu6/Dinglemouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a_plus_b_equals_one_two_three/kyu6/Dinglemouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_plus_b_equals_one_two_three/kyu6/ExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a_plus_b_equals_one_two_three/kyu6/ExampleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a_rule_of_divisibility_by_7/kyu7/DivSeven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSevenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a_rule_of_divisibility_by_7/kyu7/DivSevenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alphabet_symmetry/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alphabet_symmetry/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alphabet_symmetry/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alphabet_symmetry/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alphabet_war/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alphabet_war/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alphabet_war/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alphabet_war/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alternate_capitalization/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alternate_capitalization/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alternate_capitalization/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alternate_capitalization/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alternate_case/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alternate_case/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alternate_case/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alternate_case/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/anagram_detection/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram_detection/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/anagram_detection/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram_detection/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/are_the_numbers_in_order/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/are_the_numbers_in_order/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/are_the_numbers_in_order/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/are_the_numbers_in_order/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/area_of_a_circle/kyu7/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/area_of_a_circle/kyu7/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/area_of_a_circle/kyu7/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/area_of_a_circle/kyu7/CircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/area_of_a_square/kyu8/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/area_of_a_square/kyu8/Geometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/area_of_a_square/kyu8/GeometryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/area_of_a_square/kyu8/GeometryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/area_or_perimeter/kyu8/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/area_or_perimeter/kyu8/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/area_or_perimeter/kyu8/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/area_or_perimeter/kyu8/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic_sequence/kyu7/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic_sequence/kyu7/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic_sequence/kyu7/SequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic_sequence/kyu7/SequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_element_parity/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_element_parity/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_element_parity/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_element_parity/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_leaders_array_series_3/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_leaders_array_series_3/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_leaders_array_series_3/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_leaders_array_series_3/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automorphic_number_special_numbers_series_6/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automorphic_number_special_numbers_series_6/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automorphic_number_special_numbers_series_6/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automorphic_number_special_numbers_series_6/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/averages_of_numbers/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/averages_of_numbers/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/averages_of_numbers/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/averages_of_numbers/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/balanced_number_special_numbers_series1/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/balanced_number_special_numbers_series1/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/balanced_number_special_numbers_series1/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/balanced_number_special_numbers_series1/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_calculator/kyu7/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_calculator/kyu7/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_calculator/kyu7/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_calculator/kyu7/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_sequence_practice/kyu7/SequenceSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_sequence_practice/kyu7/SequenceSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_sequence_practice/kyu7/SequenceSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_sequence_practice/kyu7/SequenceSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/caffeine_script/kyu7/CaffeineBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/caffeine_script/kyu7/CaffeineBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/caffeine_script/kyu7/CaffeineBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/caffeine_script/kyu7/CaffeineBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collatz_conjecture_length/kyu7/Collatz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collatz_conjecture_length/kyu7/Collatz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collatz_conjecture_length/kyu7/CollatzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collatz_conjecture_length/kyu7/CollatzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coloured_triangles/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coloured_triangles/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coloured_triangles/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coloured_triangles/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/complete_the_pattern_2/Kyu7/CompleteThePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/complete_the_pattern_2/Kyu7/CompleteThePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/complete_the_pattern_2/Kyu7/CompleteThePatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/complete_the_pattern_2/Kyu7/CompleteThePatternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consecutive_ducks/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/consecutive_ducks/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consecutive_ducks/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/consecutive_ducks/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/converting_from_base_10_to_16_dare_you/kyu7/Hexadecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/converting_from_base_10_to_16_dare_you/kyu7/Hexadecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/converting_from_base_10_to_16_dare_you/kyu7/HexadecimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/converting_from_base_10_to_16_dare_you/kyu7/HexadecimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/count_the_digit/kyu7/CountDig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/count_the_digit/kyu7/CountDig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/count_the_digit/kyu7/CountDigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/count_the_digit/kyu7/CountDigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/count_the_divisors_of_a_number/kyu7/DividerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/count_the_divisors_of_a_number/kyu7/DividerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/count_the_divisors_of_a_number/kyu7/FindDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/count_the_divisors_of_a_number/kyu7/FindDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counting_power_sets/kyu7/Powers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counting_power_sets/kyu7/Powers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counting_power_sets/kyu7/PowersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counting_power_sets/kyu7/PowersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deodorant_evaporator/kyu7/Evaporator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deodorant_evaporator/kyu7/Evaporator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deodorant_evaporator/kyu7/EvaporatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deodorant_evaporator/kyu7/EvaporatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diophantine_equation/kyu5/Dioph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diophantine_equation/kyu5/Dioph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diophantine_equation/kyu5/DiophTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diophantine_equation/kyu5/DiophTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/disarium_number_special_numbers_series3/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/disarium_number_special_numbers_series3/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/disarium_number_special_numbers_series3/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/disarium_number_special_numbers_series3/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divisible_ints/kyu6/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/divisible_ints/kyu6/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divisible_ints/kyu6/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/divisible_ints/kyu6/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excessively_abundant_numbers/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excessively_abundant_numbers/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excessively_abundant_numbers/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excessively_abundant_numbers/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factorial/kyu7/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorial/kyu7/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factorial/kyu7/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorial/kyu7/FactorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factorial_decomposition/kyu5/FactDecomp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorial_decomposition/kyu5/FactDecomp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factorial_decomposition/kyu5/FactDecompTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factorial_decomposition/kyu5/FactDecompTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/find_screen_size/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_screen_size/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/find_screen_size/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_screen_size/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/find_the_smallest/kyu6/ToSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_the_smallest/kyu6/ToSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/find_the_smallest/kyu6/ToSmallestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_the_smallest/kyu6/ToSmallestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_variation_on_caesar_cipher/kyu5/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_variation_on_caesar_cipher/kyu5/CaesarCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_variation_on_caesar_cipher/kyu5/CaesarCipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_variation_on_caesar_cipher/kyu5/CaesarCipherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flatten_and_sort_an_array/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flatten_and_sort_an_array/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flatten_and_sort_an_array/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flatten_and_sort_an_array/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/folding_your_way_to_the_moon/kyu7/PaperFolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/folding_your_way_to_the_moon/kyu7/PaperFolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/folding_your_way_to_the_moon/kyu7/PaperFolderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/folding_your_way_to_the_moon/kyu7/PaperFolderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form_the_largest/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/form_the_largest/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form_the_largest/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/form_the_largest/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form_the_minimum/kyu7/Minimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/form_the_minimum/kyu7/Minimum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form_the_minimum/kyu7/MinimumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/form_the_minimum/kyu7/MinimumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractions_class/kyu6/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fractions_class/kyu6/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractions_class/kyu6/FractionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fractions_class/kyu6/FractionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions_of_integers_on_cartesian_plane/kyu7/Funcij.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions_of_integers_on_cartesian_plane/kyu7/Funcij.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions_of_integers_on_cartesian_plane/kyu7/FuncijTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions_of_integers_on_cartesian_plane/kyu7/FuncijTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/going_to_the_cinema/kyu7/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/going_to_the_cinema/kyu7/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/going_to_the_cinema/kyu7/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/going_to_the_cinema/kyu7/MovieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/going_to_zero_or_to_infinity/kyu5/Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/going_to_zero_or_to_infinity/kyu5/Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/going_to_zero_or_to_infinity/kyu5/SuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/going_to_zero_or_to_infinity/kyu5/SuiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grasshopper_debug/kyu8/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grasshopper_debug/kyu8/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grasshopper_debug/kyu8/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grasshopper_debug/kyu8/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greatest_common_divisor/kyu7/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greatest_common_divisor/kyu7/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greatest_common_divisor/kyu7/GCDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greatest_common_divisor/kyu7/GCDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greet_me/kyu7/GreetMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet_me/kyu7/GreetMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greet_me/kyu7/GreetMeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet_me/kyu7/GreetMeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grill_it/kyu6/GrillIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grill_it/kyu6/GrillIt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grill_it/kyu6/GrillItTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grill_it/kyu6/GrillItTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guess_the_number/kyu6/GuessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guess_the_number/kyu6/GuessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guess_the_number/kyu6/Guesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guess_the_number/kyu6/Guesser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guess_the_number/kyu6/GuesserSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guess_the_number/kyu6/GuesserSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halving_sum/kyu7/HalvingSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/halving_sum/kyu7/HalvingSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/halving_sum/kyu7/HalvingSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/halving_sum/kyu7/HalvingSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/help_your_granny/kyu5/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/help_your_granny/kyu5/Tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/help_your_granny/kyu5/TourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/help_your_granny/kyu5/TourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/how_far_will_I_go/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/how_far_will_I_go/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/how_far_will_I_go/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/how_far_will_I_go/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/how_many_consecutive_numbers_are_needed/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/how_many_consecutive_numbers_are_needed/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/how_many_days_are_we_represented_in_a_foreign_country/kyu7/Representation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/how_many_days_are_we_represented_in_a_foreign_country/kyu7/Representation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/how_many_days_are_we_represented_in_a_foreign_country/kyu7/RepresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/how_many_days_are_we_represented_in_a_foreign_country/kyu7/RepresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jumping_number_special_numbers_series/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jumping_number_special_numbers_series/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jumping_number_special_numbers_series/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jumping_number_special_numbers_series/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kids_3_punky_brewsters_ocks/kyu7/EightiesKids3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kids_3_punky_brewsters_ocks/kyu7/EightiesKids3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kids_3_punky_brewsters_ocks/kyu7/EightiesKids3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kids_3_punky_brewsters_ocks/kyu7/EightiesKids3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/last/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/last/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/last/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/last/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/longest_common_subsequence/kyu5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/longest_common_subsequence/kyu5/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/longest_common_subsequence/kyu5/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/longest_common_subsequence/kyu5/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lost_number_in_number_sequence/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lost_number_in_number_sequence/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lost_number_in_number_sequence/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lost_number_in_number_sequence/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lunar_mathematics_addition/kyu7/LunarCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lunar_mathematics_addition/kyu7/LunarCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lunar_mathematics_addition/kyu7/LunarCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lunar_mathematics_addition/kyu7/LunarCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/make_a_function_that_does_arithmetic/kyu7/ArithmeticFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/make_a_function_that_does_arithmetic/kyu7/ArithmeticFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/make_a_function_that_does_arithmetic/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/make_a_function_that_does_arithmetic/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maximum_gap_array_series_4/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maximum_gap_array_series_4/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maximum_gap_array_series_4/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maximum_gap_array_series_4/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maximum_length_difference/kyu7/MaxDiffLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maximum_length_difference/kyu7/MaxDiffLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maximum_length_difference/kyu7/MaxDiffLengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maximum_length_difference/kyu7/MaxDiffLengthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maximum_triplet_sum_array_series7/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maximum_triplet_sum_array_series7/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maximum_triplet_sum_array_series7/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maximum_triplet_sum_array_series7/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimize_sum_of_array_array_series1/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/minimize_sum_of_array_array_series1/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimize_sum_of_array_array_series1/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/minimize_sum_of_array_array_series1/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimum_steps_array_series6/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/minimum_steps_array_series6/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimum_steps_array_series6/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/minimum_steps_array_series6/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monty_hall_problem/kyu7/MontyHall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monty_hall_problem/kyu7/MontyHall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monty_hall_problem/kyu7/MontyHallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monty_hall_problem/kyu7/MontyHallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/most_digits/kyu7/MostDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/most_digits/kyu7/MostDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/most_digits/kyu7/MostDigitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/most_digits/kyu7/MostDigitsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name_array_capping/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name_array_capping/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name_array_capping/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name_array_capping/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nth_power_rules_them_all/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nth_power_rules_them_all/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nth_power_rules_them_all/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nth_power_rules_them_all/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number_of_decimal_digits/kyu7/DecTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/number_of_decimal_digits/kyu7/DecTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number_of_decimal_digits/kyu7/DecToolsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/number_of_decimal_digits/kyu7/DecToolsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oRing_arrays/kyu7/OrArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oRing_arrays/kyu7/OrArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oRing_arrays/kyu7/OrArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oRing_arrays/kyu7/OrArraysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/palindrome_chain_length/kyu7/Palindromes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindrome_chain_length/kyu7/Palindromes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/palindrome_chain_length/kyu7/PalindromesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindrome_chain_length/kyu7/PalindromesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_bank_account_number/kyu6/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parse_bank_account_number/kyu6/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parts_of_a_list/kyu7/Partlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parts_of_a_list/kyu7/Partlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parts_of_a_list/kyu7/PartlistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parts_of_a_list/kyu7/PartlistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phone_directory/kyu5/PhoneDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/phone_directory/kyu5/PhoneDir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phone_directory/kyu5/PhoneDirTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/phone_directory/kyu5/PhoneDirTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poker_test/PokerHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poker_test/PokerHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokerhand_straight_or_not/kyu7/PokerHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokerhand_straight_or_not/kyu7/PokerHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokerhand_straight_or_not/kyu7/PokerHandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokerhand_straight_or_not/kyu7/PokerHandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product_array_array_series5/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/product_array_array_series5/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product_array_array_series5/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/product_array_array_series5/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/red_knight/kyu7/CodeWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/red_knight/kyu7/CodeWars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/red_knight/kyu7/CodeWarsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/red_knight/kyu7/CodeWarsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regexp_basics_is_it_a_letter/kyu7/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_letter/kyu7/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regexp_basics_is_it_a_letter/kyu7/StringUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_letter/kyu7/StringUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regexp_basics_is_it_a_vowel/kyu7/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_vowel/kyu7/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regexp_basics_is_it_a_vowel/kyu7/StringUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_vowel/kyu7/StringUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/remove_duplicate_words/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/remove_duplicate_words/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/remove_duplicate_words/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/remove_duplicate_words/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/remove_duplicates/kyu7/UniqueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/remove_duplicates/kyu7/UniqueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/remove_duplicates/kyu7/UniqueArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/remove_duplicates/kyu7/UniqueArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/responsible_drinking/kyu7/DringkinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/responsible_drinking/kyu7/DringkinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/responsible_drinking/kyu7/Drinkin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/responsible_drinking/kyu7/Drinkin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reverse_a_number/kyu7/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reverse_a_number/kyu7/ReverseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reverse_a_number/kyu7/ReverseNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reverse_a_number/kyu7/ReverseNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/round_up_to_the_next_multiple_of_5/kyu7/RoundToTheNextMultipleOf5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/round_up_to_the_next_multiple_of_5/kyu7/RoundToTheNextMultipleOf5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/round_up_to_the_next_multiple_of_5/kyu7/RoundToTheNextMultipleOf5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/round_up_to_the_next_multiple_of_5/kyu7/RoundToTheNextMultipleOf5Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/row_weights/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/row_weights/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/row_weights/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/row_weights/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/see_you_next_happy_year/kyu7/HappyYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/see_you_next_happy_year/kyu7/HappyYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/see_you_next_happy_year/kyu7/HappyYearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/see_you_next_happy_year/kyu7/HappyYearTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shorter_concat_reverse_longer/kyu7/ReverseLonger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shorter_concat_reverse_longer/kyu7/ReverseLonger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shorter_concat_reverse_longer/kyu7/ReverseLongerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shorter_concat_reverse_longer/kyu7/ReverseLongerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_array_product/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_array_product/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_array_product/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_array_product/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_beads_count/kyu7/BeadsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_beads_count/kyu7/BeadsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_beads_count/kyu7/BeadsCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_beads_count/kyu7/BeadsCounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_directions_reversal/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_directions_reversal/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_directions_reversal/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_directions_reversal/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_fun_missing_alphabets/kyu6/MissingAlphabets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_fun_missing_alphabets/kyu6/MissingAlphabets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_fun_missing_alphabets/kyu6/SampleTestsJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_fun_missing_alphabets/kyu6/SampleTestsJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_fun_prime_string/kyu6/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_fun_prime_string/kyu6/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_square_numbers/ku6/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_square_numbers/ku6/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_square_numbers/ku6/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_square_numbers/ku6/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_string_characters/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_string_characters/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple_string_characters/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_string_characters/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smallest_value_of_an_array/kyu7/ArraysKata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smallest_value_of_an_array/kyu7/ArraysKata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smallest_value_of_an_array/kyu7/ArraysKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smallest_value_of_an_array/kyu7/ArraysKataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snakes_and_ladders/kyu5/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snakes_and_ladders/kyu5/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snakes_and_ladders/kyu5/SnakesLadders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/snakes_and_ladders/kyu5/SnakesLadders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_arrays_minus_one/kyu7/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort_arrays_minus_one/kyu7/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_arrays_minus_one/kyu7/SortArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort_arrays_minus_one/kyu7/SortArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_out_the_men_from_boys/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort_out_the_men_from_boys/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_out_the_men_from_boys/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort_out_the_men_from_boys/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_the_gift_code/kyu7/GiftSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort_the_gift_code/kyu7/GiftSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_the_gift_code/kyu7/GiftSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort_the_gift_code/kyu7/GiftSorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorted_yes_no_how/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorted_yes_no_how/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorted_yes_no_how/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorted_yes_no_how/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting_the_odd_way/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting_the_odd_way/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting_the_odd_way/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting_the_odd_way/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/special_number_special_numbers_series_5/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/special_number_special_numbers_series_5/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/special_number_special_numbers_series_5/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/special_number_special_numbers_series_5/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/speed_control/kyu7/GpsSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/speed_control/kyu7/GpsSpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/speed_control/kyu7/GpsSpeedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/speed_control/kyu7/GpsSpeedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/square_matrix_multiplication/kyu5/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/square_matrix_multiplication/kyu5/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/square_matrix_multiplication/kyu5/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/square_matrix_multiplication/kyu5/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strongn_strong_number_special_numbers_series2/kyu7/StrongNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strongn_strong_number_special_numbers_series2/kyu7/StrongNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strongn_strong_number_special_numbers_series2/kyu7/StrongNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strongn_strong_number_special_numbers_series2/kyu7/StrongNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum_of_array_singles/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_array_singles/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum_of_array_singles/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_array_singles/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum_of_odd_cubed_numbers/kyu7/FindOddCubes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_odd_cubed_numbers/kyu7/FindOddCubes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum_of_odd_cubed_numbers/kyu7/FindOddCubesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_odd_cubed_numbers/kyu7/FindOddCubesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum_of_triangular_numbers/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_triangular_numbers/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum_of_triangular_numbers/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_triangular_numbers/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testing_one_two_three/kyu7/LineNumbering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testing_one_two_three/kyu7/LineNumbering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testing_one_two_three/kyu7/LineNumberingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testing_one_two_three/kyu7/LineNumberingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_poet_and_the_pendulum/kyu7/Poet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/the_poet_and_the_pendulum/kyu7/Poet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_poet_and_the_pendulum/kyu7/PoetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/the_poet_and_the_pendulum/kyu7/PoetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/Dinglemouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/the_spider_and_the_fly_jumping_pider/kyu6/Dinglemouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thinking_testing_uniq_or_not_uniq/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thinking_testing_uniq_or_not_uniq/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thinking_testing_uniq_or_not_uniq/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thinking_testing_uniq_or_not_uniq/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tidy_number_special_numbers_series9/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tidy_number_special_numbers_series9/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tidy_number_special_numbers_series9/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tidy_number_special_numbers_series9/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/to_leet_speak/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/to_leet_speak/kyu7/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/to_leet_speak/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/to_leet_speak/kyu7/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vasya_and_system_of_equations/ky6/SystemOfEq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasya_and_system_of_equations/ky6/SystemOfEq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vasya_and_system_of_equations/ky6/SystemTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasya_and_system_of_equations/ky6/SystemTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whats_your_poison/kyu6/FindThePoison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/whats_your_poison/kyu6/FindThePoison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whats_your_poison/kyu6/FindThePoisonExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/whats_your_poison/kyu6/FindThePoisonExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/where_is_vasya/kyu7/WereIsVasyaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/where_is_vasya/kyu7/WereIsVasyaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/where_is_vasya/kyu7/WhereIsVasya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/where_is_vasya/kyu7/WhereIsVasya.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +376,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -57,7 +389,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript" />
+    <property name="last_opened_file_path" value="/mnt/SAMSUNG_EVO_2/home/bq666/Workspace/CodeWars/Java/lib/lombok-1.18.8.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,35 +399,35 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="alternate_case.kyu7" />
-      <recent name="coloured_triangles.kyu7" />
-      <recent name="to_leet_speak.kyu7" />
-      <recent name="number_of_decimal_digits.kyu7" />
-      <recent name="shorter_concat_reverse_longer.kyu7" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="where_is_vasya.kyu7" />
       <recent name="responsible_drinking.kyu7" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="find_count_of_most_frequent_item_in_an_array.kyu7" />
+      <recent name="alternate_case.kyu7" />
+      <recent name="coloured_triangles.kyu7" />
+      <recent name="to_leet_speak.kyu7" />
+      <recent name="number_of_decimal_digits.kyu7" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (2)">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
     <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="to_leet_speak.kyu7.Kata" />
+      <option name="MAIN_CLASS_NAME" value="find_count_of_most_frequent_item_in_an_array.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="to_leet_speak.kyu7.*" />
+          <option name="PATTERN" value="find_count_of_most_frequent_item_in_an_array.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +435,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alternate_case.kyu7.Kata" />
+    <configuration name="TripleSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TripleSorter.TripleSorter" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alternate_case.kyu7.*" />
+          <option name="PATTERN" value="TripleSorter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,15 +448,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coloured_triangles.kyu7.Kata" />
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coloured_triangles.kyu7.*" />
+          <option name="PATTERN" value="find_count_of_most_frequent_item_in_an_array.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="find_count_of_most_frequent_item_in_an_array.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="find_count_of_most_frequent_item_in_an_array.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +495,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KataTest (2)" />
-        <item itemvalue="Application.Kata (2)" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="Application.Kata (1)" />
+        <item itemvalue="Application.TripleSorter" />
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="JUnit.KataTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,119 +542,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2273" y="1933" key="#com.intellij.debugger.streams.ui.EvaluationAwareTraceWindow" timestamp="1605681127171">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2273" y="1933" key="#com.intellij.debugger.streams.ui.EvaluationAwareTraceWindow/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605681127171" />
-    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1609357180897">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609357180897" />
-    <state x="1540" y="1570" width="2360" height="1210" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1603308505447" />
-    <state x="2283" y="1871" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605108656425">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2283" y="1871" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605108656425" />
-    <state x="2507" y="1918" key="FileChooserDialogImpl" timestamp="1608458650556">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608458650556" />
-    <state x="2507" y="1918" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606049026791" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom" timestamp="1610350452635">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610350452635" />
-    <state width="2514" height="396" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center" timestamp="1610350452634">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610350452634" />
-    <state width="2514" height="396" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left" timestamp="1610350452634">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610350452634" />
-    <state width="2514" height="396" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right" timestamp="1610350452635">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891466756" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610350452635" />
-    <state width="2514" height="396" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607713610271" />
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom" timestamp="1609339950315">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666393508" />
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609339950315" />
-    <state width="2514" height="486" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607366968013" />
-    <state width="2514" height="486" key="GridCell.Tab.1.center" timestamp="1609339950315">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666393508" />
-    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609339950315" />
-    <state width="2514" height="486" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607366968013" />
-    <state width="2514" height="486" key="GridCell.Tab.1.left" timestamp="1609339950315">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666393508" />
-    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609339950315" />
-    <state width="2514" height="486" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607366968013" />
-    <state width="2514" height="486" key="GridCell.Tab.1.right" timestamp="1609339950315">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608666393508" />
-    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1609339950315" />
-    <state width="2514" height="486" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607366968013" />
-    <state x="2221" y="1810" key="SettingsEditor" timestamp="1605680560531">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2221" y="1810" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605680560531" />
-    <state width="646" height="446" key="SwitcherDM" timestamp="1607766142280">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state width="646" height="446" key="SwitcherDM/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607766142280" />
-    <state x="2473" y="1982" width="513" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610568547555">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2473" y="1982" width="687" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608891447222" />
-    <state x="2473" y="1982" width="513" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/1440.0.2560.1440/0.413.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1610568547555" />
-    <state x="2473" y="1982" width="629" height="385" key="com.intellij.testIntegration.createTest.CreateTestDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607765945148" />
-    <state x="2458" y="1925" key="extract.method.dialog" timestamp="1607028488054">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2458" y="1925" key="extract.method.dialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1607028488054" />
-    <state x="2066" y="1644" width="1347" height="1131" key="find.popup" timestamp="1605296531483">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2066" y="1644" width="1347" height="1131" key="find.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605296531483" />
-    <state x="2100" y="1777" key="new project wizard" timestamp="1605963202071">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2100" y="1777" key="new project wizard/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605963202071" />
-    <state x="2428" y="1933" key="refactoring.ChangeSignatureDialog" timestamp="1605024089324">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2428" y="1933" key="refactoring.ChangeSignatureDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1605024089324" />
-    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1608366220065">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608366220065" />
-    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1606933291391" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/a_rule_of_divisibility_by_7/kyu7/DivSeven.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/a_rule_of_divisibility_by_7/kyu7/DivSeven.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/simple_array_product/kyu7/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/simple_array_product/kyu7/Solution.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

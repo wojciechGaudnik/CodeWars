@@ -9,5 +9,6 @@ public class Kata {
 				.mapToObj(c -> (char) c)
 				.map(c -> (Character.isLowerCase(c) ? Character.toUpperCase(c) : Character.toLowerCase((c))))
 				.collect(Collector.of(StringBuilder::new, StringBuilder::append, StringBuilder::append, StringBuilder::toString));
+//		Collectors.joining("")
 	}
 }
