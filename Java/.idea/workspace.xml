@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bumps_in_the_road/kyu7/BumpsTheRoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bumps_in_the_road/kyu7/BumpsTheRoadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/looking_for_a_benefactor/kyu7/NewAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/looking_for_a_benefactor/kyu7/NewAverageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TripleSorter/TripleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TripleSorter/TripleSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/find_count_of_most_frequent_item_in_an_array/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_count_of_most_frequent_item_in_an_array/kyu7/Kata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +82,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="looking_for_a_benefactor.kyu7" />
+      <recent name="bumps_in_the_road.kyu7" />
       <recent name="word_values.kyu7" />
       <recent name="find_count_of_most_frequent_item_in_an_array.kyu7" />
       <recent name="alternate_case.kyu7" />
-      <recent name="coloured_triangles.kyu7" />
-      <recent name="to_leet_speak.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BumpsTheRoadTest">
-    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="find_count_of_most_frequent_item_in_an_array.kyu7.Kata" />
+  <component name="RunManager" selected="JUnit.NewAverageTest">
+    <configuration name="NewAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="looking_for_a_benefactor.kyu7.NewAverage" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="find_count_of_most_frequent_item_in_an_array.kyu7.*" />
+          <option name="PATTERN" value="looking_for_a_benefactor.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,16 +131,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewAverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="find_count_of_most_frequent_item_in_an_array.kyu7.*" />
+          <option name="PATTERN" value="looking_for_a_benefactor.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="find_count_of_most_frequent_item_in_an_array.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="find_count_of_most_frequent_item_in_an_array.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="looking_for_a_benefactor.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="looking_for_a_benefactor.kyu7.NewAverageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NewAverageTest" />
+        <item itemvalue="Application.NewAverage" />
         <item itemvalue="JUnit.BumpsTheRoadTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="Application.Kata (1)" />
       </list>
     </recent_temporary>
   </component>

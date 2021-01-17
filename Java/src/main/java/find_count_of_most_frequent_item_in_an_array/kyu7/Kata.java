@@ -5,9 +5,6 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Kata {
-	public static void main(String[] args) {
-		System.out.println(mostFrequentItemCount(new int[] {3, -1, -1, -1, 2, 3, -1, 3, -1, 2, 4, 9, 3}));
-	}
 
 	public static int mostFrequentItemCount(int[] collection) {
 		return (int) Arrays.stream(collection)

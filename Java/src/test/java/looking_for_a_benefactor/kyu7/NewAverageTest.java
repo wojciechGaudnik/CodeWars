@@ -1,0 +1,40 @@
+package looking_for_a_benefactor.kyu7;
+
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
+public class NewAverageTest {
+
+	private static void testing(long actual, long expected) {
+		assertEquals(expected, actual);
+	}
+
+	@Test
+	public void test() {
+		System.out.println("Fixed Tests newAvg");
+		double[] a = new double[] {14.0, 30.0, 5.0, 7.0, 9.0, 11.0, 16.0};
+		testing(NewAverage.newAvg(a, 90), 628);
+	}
+
+	@Test
+	public void test1() {
+		System.out.println("Fixed Tests newAvg");
+		double[] a = new double[] {14, 30, 5, 7, 9, 11, 15};
+		testing(NewAverage.newAvg(a, 92), 645);
+	}
+
+	@Test
+	public void test2() {
+		System.out.println("Fixed Tests newAvg");
+		double[] a = new double[]{70121.70000000001, 8331.400000000001, 57741.200000000004, 48692.600000000006, 62576.8, 146176.80000000002, 48792.700000000004, 142919.7, 178772.0, 73590.0, 9518.300000000001, 181071.00000000003, 191485.80000000002, 143882.2, 195814.30000000002, 187880.00000000003, 130559.00000000001, 73265.5, 195082.80000000002, 154411.40000000002, 1969.0000000000002, 165864.6, 72307.40000000001, 152166.30000000002, 104797.00000000001, 89965.70000000001, 25787.300000000003, 134598.2, 91580.50000000001, 114249.3, 201628.90000000002, 46813.8, 97847.20000000001, 38573.700000000004, 130213.6, 20575.5, 189370.50000000003, 195679.00000000003, 73520.70000000001, 34927.200000000004, 119662.40000000001, 119753.70000000001, 110233.20000000001, 12732.500000000002, 156462.90000000002, 73299.6, 134777.5, 60447.200000000004, 144161.6, 97142.1, 28116.000000000004, 182216.1, 118709.8, 197722.80000000002, 131401.6, 190066.80000000002, 123620.20000000001, 52714.200000000004, 118899.00000000001, 169485.80000000002, 69153.70000000001, 79291.3, 203436.2, 184232.40000000002};
+		testing(NewAverage.newAvg(a, 121714.42500000002), 750579);
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testIllegalArgumentException1() {
+		System.out.println("--- Exception 1 ---");
+		double[]a = new double[] {14, 30, 5, 7, 9, 11, 15};
+		NewAverage.newAvg(a, 2);
+	}
+}
