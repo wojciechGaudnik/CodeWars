@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/looking_for_a_benefactor/kyu7/NewAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/looking_for_a_benefactor/kyu7/NewAverageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/all_inclusive/kyu7/Rotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/all_inclusive/kyu7/RotationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TripleSorter/TripleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TripleSorter/TripleSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/find_count_of_most_frequent_item_in_an_array/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_count_of_most_frequent_item_in_an_array/kyu7/Kata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +80,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="all_inclusive.kyu7" />
       <recent name="looking_for_a_benefactor.kyu7" />
       <recent name="bumps_in_the_road.kyu7" />
       <recent name="word_values.kyu7" />
       <recent name="find_count_of_most_frequent_item_in_an_array.kyu7" />
-      <recent name="alternate_case.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NewAverageTest">
+  <component name="RunManager" selected="JUnit.RotationsTest">
     <configuration name="NewAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="looking_for_a_benefactor.kyu7.NewAverage" />
       <module name="CodeWars" />
@@ -103,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="word_values.kyu7.Solution" />
+    <configuration name="Rotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all_inclusive.kyu7.Rotations" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="word_values.kyu7.*" />
+          <option name="PATTERN" value="all_inclusive.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,16 +144,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RotationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="word_values.kyu7.*" />
+          <option name="PATTERN" value="all_inclusive.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="word_values.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="word_values.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="all_inclusive.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="all_inclusive.kyu7.RotationsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RotationsTest" />
+        <item itemvalue="Application.Rotations" />
         <item itemvalue="JUnit.NewAverageTest" />
         <item itemvalue="Application.NewAverage" />
         <item itemvalue="JUnit.BumpsTheRoadTest" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
