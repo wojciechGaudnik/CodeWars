@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/building_blocks/kyu7/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/building_blocks/kyu7/BlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/max_diff_easy/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/max_diff_easy/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simple_consecutive_pairs/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_consecutive_pairs/kyu7/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +80,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="max_diff_easy.kyu7" />
       <recent name="building_blocks.kyu7" />
       <recent name="simple_consecutive_pairs.kyu7" />
       <recent name="simple_remove_duplicates.kyu7" />
       <recent name="product_of_maximums_of_array_array_series.kyu7" />
-      <recent name="indexed_capitalization.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BlockTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="Block" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="building_blocks.kyu7.Block" />
       <module name="CodeWars" />
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_consecutive_pairs.kyu7.Solution" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="max_diff_easy.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_consecutive_pairs.kyu7.*" />
+          <option name="PATTERN" value="max_diff_easy.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,6 +129,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="max_diff_easy.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="max_diff_easy.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="max_diff_easy.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -145,28 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simple_remove_duplicates.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simple_remove_duplicates.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="simple_remove_duplicates.kyu7.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.BlockTest" />
         <item itemvalue="Application.Block" />
         <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.SolutionTest (2)" />
       </list>
     </recent_temporary>
   </component>
