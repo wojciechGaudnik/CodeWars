@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/my_languages/kyu7/MyLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/my_languages/kyu7/MyLanguagesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/building_blocks/kyu7/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/building_blocks/kyu7/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/max_diff_easy/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/max_diff_easy/kyu7/Kata.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,20 +82,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="my_languages.kyu7" />
       <recent name="max_diff_easy.kyu7" />
       <recent name="building_blocks.kyu7" />
       <recent name="simple_consecutive_pairs.kyu7" />
       <recent name="simple_remove_duplicates.kyu7" />
-      <recent name="product_of_maximums_of_array_array_series.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
-    <configuration name="Block" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="building_blocks.kyu7.Block" />
+  <component name="RunManager" selected="JUnit.MyLanguagesTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="max_diff_easy.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="building_blocks.kyu7.*" />
+          <option name="PATTERN" value="max_diff_easy.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="max_diff_easy.kyu7.Kata" />
+    <configuration name="MyLanguages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my_languages.kyu7.MyLanguages" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="max_diff_easy.kyu7.*" />
+          <option name="PATTERN" value="my_languages.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,16 +146,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLanguagesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_consecutive_pairs.kyu7.*" />
+          <option name="PATTERN" value="my_languages.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simple_consecutive_pairs.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="simple_consecutive_pairs.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="my_languages.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="my_languages.kyu7.MyLanguagesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLanguagesTest" />
+        <item itemvalue="Application.MyLanguages" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.BlockTest" />
-        <item itemvalue="Application.Block" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
       </list>
     </recent_temporary>
   </component>

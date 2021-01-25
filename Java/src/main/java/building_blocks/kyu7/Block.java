@@ -1,10 +1,6 @@
 package building_blocks.kyu7;
 
 public class Block {
-	public static void main(String[] args) {
-		var test = new Block(new int[]{2, 4, 6});
-		System.out.println(2 * 4 * 6);
-	}
 
 	int width;
 	int length;
