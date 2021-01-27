@@ -9,6 +9,4 @@ public class Solution {
 		var bPart = b.chars().mapToObj(c -> (char) c).filter(c -> a.indexOf(c) == -1).map(Object::toString).collect(Collectors.joining());
 		return aPart + bPart;
 	}
-
-
 }
