@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/compare_strings_by_sum_of_chars/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/count_all_the_sheep_on_farm_in_the_heights_of_new_zealand/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/numbers_in_strings/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/compare_strings_by_sum_of_chars/kyu7/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/count_all_the_sheep_on_farm_in_the_heights_of_new_zealand/kyu7/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/numbers_in_strings/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/credit_card_issuer_checking/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unique_string_characters/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unique_string_characters/kyu7/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +80,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="credit_card_issuer_checking.kyu7" />
       <recent name="count_all_the_sheep_on_farm_in_the_heights_of_new_zealand.kyu7" />
       <recent name="numbers_in_strings.kyu7" />
       <recent name="compare_strings_by_sum_of_chars.kyu7" />
       <recent name="unique_string_characters.kyu7" />
-      <recent name="my_languages.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
     <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="count_all_the_sheep_on_farm_in_the_heights_of_new_zealand.kyu7.Kata" />
       <module name="CodeWars" />
@@ -106,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compare_strings_by_sum_of_chars.kyu7.Kata" />
+    <configuration name="Kata (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="credit_card_issuer_checking.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="compare_strings_by_sum_of_chars.kyu7.*" />
+          <option name="PATTERN" value="credit_card_issuer_checking.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,16 +127,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="compare_strings_by_sum_of_chars.kyu7.*" />
+          <option name="PATTERN" value="credit_card_issuer_checking.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="compare_strings_by_sum_of_chars.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="compare_strings_by_sum_of_chars.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="credit_card_issuer_checking.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="credit_card_issuer_checking.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
+        <item itemvalue="Application.Kata (2)" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Kata (1)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +219,18 @@
           <line>16</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="cardNumber.substring(0, 3)" />
+        <watch expression="cardNumber.charAt(0)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
