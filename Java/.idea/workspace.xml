@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/longest_vowel_chain/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/partial_word_searching/kyu7/WordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/longest_vowel_chain/kyu7/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/partial_word_searching/kyu7/WordSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/partial_word_searching/kyu7/kyu7Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/insert_dashes/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/insert_dashes/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/longest_vowel_chain/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/longest_vowel_chain/kyu7/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +81,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="insert_dashes.kyu7" />
       <recent name="longest_vowel_chain.kyu7" />
       <recent name="partial_word_searching.kyu7" />
       <recent name="partial_word_searching" />
       <recent name="credit_card_issuer_checking.kyu7" />
-      <recent name="count_all_the_sheep_on_farm_in_the_heights_of_new_zealand.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.KataTest">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insert_dashes.kyu7.Solution" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="insert_dashes.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="longest_vowel_chain.kyu7.Solution" />
       <module name="CodeWars" />
@@ -104,29 +115,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="partial_word_searching.kyu7.WordSearch" />
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="partial_word_searching.kyu7.*" />
+          <option name="PATTERN" value="insert_dashes.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="credit_card_issuer_checking.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="credit_card_issuer_checking.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="credit_card_issuer_checking.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="insert_dashes.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="insert_dashes.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.WordSearchTest" />
-        <item itemvalue="Application.WordSearch" />
-        <item itemvalue="JUnit.KataTest (1)" />
       </list>
     </recent_temporary>
   </component>
