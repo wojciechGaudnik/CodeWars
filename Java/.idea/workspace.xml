@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/insert_dashes/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/insert_dashes/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/convert_a_linked_list_to_a_string/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/find_sum_of_top_left_to_bottom_right_diagonals/kyu7/Diagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linked_lists_push_build_one_two_three/kyu7/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/convert_a_linked_list_to_a_string/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/find_sum_of_top_left_to_bottom_right_diagonals/kyu7/DiagonalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linked_lists_push_build_one_two_three/kyu7/NodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/longest_vowel_chain/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/longest_vowel_chain/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/insert_dashes/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insert_dashes/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/partial_word_searching/kyu7/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/partial_word_searching/kyu7/WordSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,20 +86,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="linked_lists_push_build_one_two_three.kyu7" />
+      <recent name="find_sum_of_top_left_to_bottom_right_diagonals.kyu7" />
+      <recent name="convert_a_linked_list_to_a_string.kyu7" />
       <recent name="insert_dashes.kyu7" />
       <recent name="longest_vowel_chain.kyu7" />
-      <recent name="partial_word_searching.kyu7" />
-      <recent name="partial_word_searching" />
-      <recent name="credit_card_issuer_checking.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insert_dashes.kyu7.Solution" />
+  <component name="RunManager" selected="JUnit.NodeTest">
+    <configuration name="Diagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="find_sum_of_top_left_to_bottom_right_diagonals.kyu7.Diagonal" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insert_dashes.kyu7.*" />
+          <option name="PATTERN" value="find_sum_of_top_left_to_bottom_right_diagonals.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="longest_vowel_chain.kyu7.Solution" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="convert_a_linked_list_to_a_string.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="longest_vowel_chain.kyu7.*" />
+          <option name="PATTERN" value="convert_a_linked_list_to_a_string.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,58 +120,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiagonalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insert_dashes.kyu7.*" />
+          <option name="PATTERN" value="find_sum_of_top_left_to_bottom_right_diagonals.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="insert_dashes.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="insert_dashes.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="find_sum_of_top_left_to_bottom_right_diagonals.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="find_sum_of_top_left_to_bottom_right_diagonals.kyu7.DiagonalTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="longest_vowel_chain.kyu7.*" />
+          <option name="PATTERN" value="linked_lists_push_build_one_two_three.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="longest_vowel_chain.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="longest_vowel_chain.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="linked_lists_push_build_one_two_three.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="linked_lists_push_build_one_two_three.kyu7.NodeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NodeTest.testBuild123" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="partial_word_searching.kyu7.*" />
+          <option name="PATTERN" value="linked_lists_push_build_one_two_three.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="partial_word_searching.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="partial_word_searching.kyu7.WordSearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="linked_lists_push_build_one_two_three.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="linked_lists_push_build_one_two_three.kyu7.NodeTest" />
+      <option name="METHOD_NAME" value="testBuild123" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.WordSearchTest" />
+        <item itemvalue="JUnit.NodeTest" />
+        <item itemvalue="JUnit.NodeTest.testBuild123" />
+        <item itemvalue="JUnit.DiagonalTest" />
+        <item itemvalue="Application.Diagonal" />
+        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>

@@ -3,9 +3,6 @@ package insert_dashes.kyu7;
 import java.util.ArrayList;
 
 public class Solution {
-	public static void main(String[] args) {
-		System.out.println(insertDash(454793));
-	}
 
 	public static String insertDash(int num) {
 		StringBuilder answer = new StringBuilder();

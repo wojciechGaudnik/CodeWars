@@ -1,12 +1,8 @@
 package partial_word_searching.kyu7;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 
 public class WordSearch {
-	public static void main(String[] args) {
-		System.out.println(Arrays.toString(findWord("me", new String[]{"home", "milk", "Mercury", "fish"})));
-	}
 
 	static String[] findWord(String x, String[] y){
 		var answer = new LinkedList<String>();
