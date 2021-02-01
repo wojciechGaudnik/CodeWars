@@ -1,9 +1,6 @@
 package linked_lists_push_build_one_two_three.kyu7;
 
 public class Node {
-	public static void main(String[] args) {
-
-	}
 
 	int data;
 	Node next = null;
