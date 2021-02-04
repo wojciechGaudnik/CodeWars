@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/kyu7/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/atm/kyu7/ATMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/broken_sequence/kyu7/BrokenSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/broken_sequence/kyu7/BrokenSequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/formatting_decimal_places/kyu7/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formatting_decimal_places/kyu7/Numbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,14 +81,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="broken_sequence.kyu7" />
       <recent name="atm.kyu7" />
       <recent name="formatting_decimal_places.kyu7" />
       <recent name="simple_string_reversal.kyu7" />
       <recent name="linked_lists_push_build_one_two_three.kyu7" />
-      <recent name="find_sum_of_top_left_to_bottom_right_diagonals.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ATMTest">
+  <component name="RunManager" selected="JUnit.BrokenSequenceTest">
     <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="atm.kyu7.ATM" />
       <module name="CodeWars" />
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="formatting_decimal_places.kyu7.Numbers" />
+    <configuration name="BrokenSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="broken_sequence.kyu7.BrokenSequence" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="formatting_decimal_places.kyu7.*" />
+          <option name="PATTERN" value="broken_sequence.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +130,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BrokenSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="broken_sequence.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="broken_sequence.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="broken_sequence.kyu7.BrokenSequenceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -144,28 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simple_string_reversal.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simple_string_reversal.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="simple_string_reversal.kyu7.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BrokenSequenceTest" />
+        <item itemvalue="Application.BrokenSequence" />
         <item itemvalue="JUnit.ATMTest" />
         <item itemvalue="Application.ATM" />
         <item itemvalue="JUnit.NumbersTest" />
-        <item itemvalue="Application.Numbers" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
