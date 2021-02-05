@@ -1,12 +1,6 @@
 package broken_sequence.kyu7;
 
 public class BrokenSequence{
-	public static void main(String[] args) {
-		var test = new BrokenSequence();
-		System.out.println(test.findMissingNumber(  "2 1 4 3 a"));
-		var test2 = "1 2 3 4 ";
-		System.out.println(test2.matches(".*[a-b].*"));
-	}
 
 	public int findMissingNumber(String sequence) {
 		if (sequence.equals("")) {
@@ -23,4 +17,5 @@ public class BrokenSequence{
 		}
 		return 0;
 	}
+
 }
