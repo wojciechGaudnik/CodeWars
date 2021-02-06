@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/makeBackronym/kyu7/Backronym.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/makeBackronym/kyu7/BackronymTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/the_old_switcheroo/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/the_old_switcheroo/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/broken_sequence/kyu7/BrokenSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/broken_sequence/kyu7/BrokenSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,27 +80,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="the_old_switcheroo.kyu7" />
       <recent name="makeBackronym.kyu7" />
       <recent name="broken_sequence.kyu7" />
       <recent name="atm.kyu7" />
       <recent name="formatting_decimal_places.kyu7" />
-      <recent name="simple_string_reversal.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Backronym">
-    <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atm.kyu7.ATM" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="atm.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="Backronym" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="makeBackronym.kyu7.Backronym" />
       <module name="CodeWars" />
@@ -128,17 +114,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ATMTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="the_old_switcheroo.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="atm.kyu7.*" />
+          <option name="PATTERN" value="the_old_switcheroo.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="atm.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="atm.kyu7.ATMTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,13 +142,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the_old_switcheroo.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="the_old_switcheroo.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="the_old_switcheroo.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="Application.Backronym" />
         <item itemvalue="JUnit.BrokenSequenceTest" />
         <item itemvalue="Application.BrokenSequence" />
-        <item itemvalue="JUnit.ATMTest" />
-        <item itemvalue="Application.ATM" />
       </list>
     </recent_temporary>
   </component>
