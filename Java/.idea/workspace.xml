@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/the_old_switcheroo/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/the_old_switcheroo/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/over_the_road/kyu7/CodeWars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/over_the_road/kyu7/CodeWarsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +80,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="over_the_road.kyu7" />
       <recent name="the_old_switcheroo.kyu7" />
       <recent name="makeBackronym.kyu7" />
       <recent name="broken_sequence.kyu7" />
       <recent name="atm.kyu7" />
-      <recent name="formatting_decimal_places.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
+  <component name="RunManager" selected="JUnit.CodeWarsTest">
     <configuration name="Backronym" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="makeBackronym.kyu7.Backronym" />
       <module name="CodeWars" />
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrokenSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="broken_sequence.kyu7.BrokenSequence" />
+    <configuration name="CodeWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="over_the_road.kyu7.CodeWars" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="broken_sequence.kyu7.*" />
+          <option name="PATTERN" value="over_the_road.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,16 +127,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrokenSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeWarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="broken_sequence.kyu7.*" />
+          <option name="PATTERN" value="over_the_road.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="broken_sequence.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="broken_sequence.kyu7.BrokenSequenceTest" />
+      <option name="PACKAGE_NAME" value="over_the_road.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="over_the_road.kyu7.CodeWarsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CodeWarsTest" />
+        <item itemvalue="Application.CodeWars" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="Application.Backronym" />
-        <item itemvalue="JUnit.BrokenSequenceTest" />
-        <item itemvalue="Application.BrokenSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +223,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/over_the_road/kyu7/CodeWars.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
