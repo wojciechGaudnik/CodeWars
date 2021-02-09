@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Silly_16_18_214/kyu7/SillyAdditon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Silly_16_18_214/kyu7/SillyAdditonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inspiring_strings/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/inspiring_strings/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Silly_16_18_214/kyu7/SillyAdditon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Silly_16_18_214/kyu7/SillyAdditon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,20 +89,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="inspiring_strings.kyu7" />
       <recent name="Silly_16_18_214.kyu7" />
       <recent name="over_the_road.kyu7" />
       <recent name="the_old_switcheroo.kyu7" />
       <recent name="makeBackronym.kyu7" />
-      <recent name="broken_sequence.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SillyAdditonTest">
-    <configuration name="CodeWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="over_the_road.kyu7.CodeWars" />
+  <component name="RunManager" selected="JUnit.KataTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inspiring_strings.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="over_the_road.kyu7.*" />
+          <option name="PATTERN" value="inspiring_strings.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +142,12 @@
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="the_old_switcheroo.kyu7.*" />
+          <option name="PATTERN" value="inspiring_strings.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="the_old_switcheroo.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="the_old_switcheroo.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="inspiring_strings.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="inspiring_strings.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.SillyAdditonTest" />
         <item itemvalue="Application.SillyAdditon" />
         <item itemvalue="JUnit.CodeWarsTest" />
-        <item itemvalue="Application.CodeWars" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>

@@ -4,10 +4,6 @@ import java.util.stream.Collectors;
 
 public class SillyAdditon {
 
-	public static void main(String[] args) {
-		System.out.println(add(16, 18));
-	}
-
 	public static int add(int num1, int num2) {
 		var num1Arr = new StringBuilder(String.valueOf(num1)).reverse().chars().mapToObj(c -> (char) c).collect(Collectors.toList());
 		var num2Arr = new StringBuilder(String.valueOf(num2)).reverse().chars().mapToObj(c -> (char) c).collect(Collectors.toList());
