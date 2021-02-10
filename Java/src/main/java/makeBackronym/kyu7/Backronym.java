@@ -4,9 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Backronym {
-	public static void main(String[] args) {
-		System.out.println(makeBackronym("pm")+ "<---");
-	}
 
 	private static Map<String, String> dictionary =new HashMap<>(){{
 		put("P", "perfect");

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inspiring_strings/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/inspiring_strings/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spacify/kyu7/Spacify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spacify/kyu7/SpacifyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Silly_16_18_214/kyu7/SillyAdditon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Silly_16_18_214/kyu7/SillyAdditon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/makeBackronym/kyu7/Backronym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/makeBackronym/kyu7/Backronym.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../helloDns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringProExamAnswers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,14 +89,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="spacify.kyu7" />
       <recent name="inspiring_strings.kyu7" />
       <recent name="Silly_16_18_214.kyu7" />
       <recent name="over_the_road.kyu7" />
       <recent name="the_old_switcheroo.kyu7" />
-      <recent name="makeBackronym.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
+  <component name="RunManager" selected="JUnit.SpacifyTest">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inspiring_strings.kyu7.Kata" />
       <module name="CodeWars" />
@@ -110,30 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SillyAdditon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Silly_16_18_214.kyu7.SillyAdditon" />
+    <configuration name="Spacify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacify.kyu7.Spacify" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Silly_16_18_214.kyu7.*" />
+          <option name="PATTERN" value="spacify.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CodeWarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="over_the_road.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="over_the_road.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="over_the_road.kyu7.CodeWarsTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,13 +153,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpacifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spacify.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spacify.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="spacify.kyu7.SpacifyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpacifyTest" />
+        <item itemvalue="Application.Spacify" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.SillyAdditonTest" />
-        <item itemvalue="Application.SillyAdditon" />
-        <item itemvalue="JUnit.CodeWarsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,11 +234,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/over_the_road/kyu7/CodeWars.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
