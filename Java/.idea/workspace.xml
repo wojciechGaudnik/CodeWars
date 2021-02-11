@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/spacify/kyu7/Spacify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/spacify/kyu7/SpacifyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/numbers_with_this_digit_inside/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/numbers_with_this_digit_inside/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/makeBackronym/kyu7/Backronym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/makeBackronym/kyu7/Backronym.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,20 +88,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="numbers_with_this_digit_inside.kyu7" />
       <recent name="spacify.kyu7" />
       <recent name="inspiring_strings.kyu7" />
       <recent name="Silly_16_18_214.kyu7" />
       <recent name="over_the_road.kyu7" />
-      <recent name="the_old_switcheroo.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpacifyTest">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inspiring_strings.kyu7.Kata" />
+  <component name="RunManager" selected="JUnit.KataTest (1)">
+    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numbers_with_this_digit_inside.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inspiring_strings.kyu7.*" />
+          <option name="PATTERN" value="numbers_with_this_digit_inside.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,6 +122,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="numbers_with_this_digit_inside.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="numbers_with_this_digit_inside.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="numbers_with_this_digit_inside.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -133,21 +147,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="inspiring_strings.kyu7" />
       <option name="MAIN_CLASS_NAME" value="inspiring_strings.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SillyAdditonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Silly_16_18_214.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Silly_16_18_214.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="Silly_16_18_214.kyu7.SillyAdditonTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
+        <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.SpacifyTest" />
         <item itemvalue="Application.Spacify" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.SillyAdditonTest" />
       </list>
     </recent_temporary>
   </component>
