@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/the_fusc_function_part_1/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/the_fusc_function_part_1/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/whats_my_golf_score/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/whats_my_golf_score/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/the_fusc_function_part_1/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/the_fusc_function_part_1/kyu7/Kata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,20 +89,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="whats_my_golf_score.kyu7" />
       <recent name="the_fusc_function_part_1.kyu7" />
       <recent name="numbers_with_this_digit_inside.kyu7" />
       <recent name="spacify.kyu7" />
       <recent name="inspiring_strings.kyu7" />
-      <recent name="Silly_16_18_214.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Kata">
-    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numbers_with_this_digit_inside.kyu7.Kata" />
+  <component name="RunManager" selected="JUnit.KataTest (2)">
+    <configuration name="Kata (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whats_my_golf_score.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numbers_with_this_digit_inside.kyu7.*" />
+          <option name="PATTERN" value="whats_my_golf_score.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,6 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whats_my_golf_score.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="whats_my_golf_score.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="whats_my_golf_score.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -152,28 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpacifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spacify.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spacify.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="spacify.kyu7.SpacifyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (2)" />
+        <item itemvalue="Application.Kata (2)" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="Application.Kata (1)" />
-        <item itemvalue="JUnit.SpacifyTest" />
       </list>
     </recent_temporary>
   </component>

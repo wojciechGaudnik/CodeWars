@@ -1,10 +1,6 @@
 package the_fusc_function_part_1.kyu7;
 
 public class Kata {
-	public static void main(String[] args) {
-		System.out.println(fusc(85));
-	}
-
 	public static int fusc(int n) {
 		if (n == 1) {
 			return 1;
