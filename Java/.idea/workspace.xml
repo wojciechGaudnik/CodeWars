@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/whats_my_golf_score/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/whats_my_golf_score/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selective_fear_of_numbers/kyu7/Arithmophobia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selective_fear_of_numbers/kyu7/ArithmophobiaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/the_fusc_function_part_1/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/the_fusc_function_part_1/kyu7/Kata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +88,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="selective_fear_of_numbers.kyu7" />
       <recent name="whats_my_golf_score.kyu7" />
       <recent name="the_fusc_function_part_1.kyu7" />
       <recent name="numbers_with_this_digit_inside.kyu7" />
       <recent name="spacify.kyu7" />
-      <recent name="inspiring_strings.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (2)">
+  <component name="RunManager" selected="JUnit.ArithmophobiaTest">
+    <configuration name="Arithmophobia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selective_fear_of_numbers.kyu7.Arithmophobia" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selective_fear_of_numbers.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kata (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="whats_my_golf_score.kyu7.Kata" />
       <module name="CodeWars" />
@@ -123,16 +135,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArithmophobiaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numbers_with_this_digit_inside.kyu7.*" />
+          <option name="PATTERN" value="selective_fear_of_numbers.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="numbers_with_this_digit_inside.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="numbers_with_this_digit_inside.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="selective_fear_of_numbers.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="selective_fear_of_numbers.kyu7.ArithmophobiaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,28 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="the_fusc_function_part_1.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="the_fusc_function_part_1.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="the_fusc_function_part_1.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArithmophobiaTest" />
+        <item itemvalue="Application.Arithmophobia" />
         <item itemvalue="JUnit.KataTest (2)" />
         <item itemvalue="Application.Kata (2)" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="JUnit.KataTest (1)" />
       </list>
     </recent_temporary>
   </component>
