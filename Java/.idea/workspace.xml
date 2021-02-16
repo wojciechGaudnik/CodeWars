@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/selective_fear_of_numbers/kyu7/Arithmophobia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selective_fear_of_numbers/kyu7/ArithmophobiaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/is_n_divisigle_by/kyu7/Divisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/is_n_divisigle_by/kyu7/DivisibleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/help_the_fruit_guy/kyu7/FruitGuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/help_the_fruit_guy/kyu7/FruitGuy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/help_the_fruit_guy/kyu7/FruitGuyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/help_the_fruit_guy/kyu7/FruitGuyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringProExamAnswers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../a" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,14 +90,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="is_n_divisigle_by.kyu7" />
+      <recent name="help_the_fruit_guy.kyu7" />
       <recent name="selective_fear_of_numbers.kyu7" />
       <recent name="whats_my_golf_score.kyu7" />
       <recent name="the_fusc_function_part_1.kyu7" />
-      <recent name="numbers_with_this_digit_inside.kyu7" />
-      <recent name="spacify.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArithmophobiaTest">
+  <component name="RunManager" selected="Application.Divisible">
     <configuration name="Arithmophobia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selective_fear_of_numbers.kyu7.Arithmophobia" />
       <module name="CodeWars" />
@@ -109,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="whats_my_golf_score.kyu7.Kata" />
+    <configuration name="Divisible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="is_n_divisigle_by.kyu7.Divisible" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="whats_my_golf_score.kyu7.*" />
+          <option name="PATTERN" value="is_n_divisigle_by.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="the_fusc_function_part_1.kyu7.Kata" />
+    <configuration name="FruitGuy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="help_the_fruit_guy.kyu7.FruitGuy" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="the_fusc_function_part_1.kyu7.*" />
+          <option name="PATTERN" value="help_the_fruit_guy.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,16 +152,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivisibleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="whats_my_golf_score.kyu7.*" />
+          <option name="PATTERN" value="is_n_divisigle_by.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="whats_my_golf_score.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="whats_my_golf_score.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="is_n_divisigle_by.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="is_n_divisigle_by.kyu7.DivisibleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Divisible" />
+        <item itemvalue="JUnit.DivisibleTest" />
+        <item itemvalue="Application.FruitGuy" />
         <item itemvalue="JUnit.ArithmophobiaTest" />
         <item itemvalue="Application.Arithmophobia" />
-        <item itemvalue="JUnit.KataTest (2)" />
-        <item itemvalue="Application.Kata (2)" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
