@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/is_n_divisigle_by/kyu7/Divisible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/is_n_divisigle_by/kyu7/DivisibleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/help_the_fruit_guy/kyu7/FruitGuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/help_the_fruit_guy/kyu7/FruitGuy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/help_the_fruit_guy/kyu7/FruitGuyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/help_the_fruit_guy/kyu7/FruitGuyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,20 +93,7 @@
       <recent name="the_fusc_function_part_1.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Divisible">
-    <configuration name="Arithmophobia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selective_fear_of_numbers.kyu7.Arithmophobia" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selective_fear_of_numbers.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SummationTest">
     <configuration name="Divisible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="is_n_divisigle_by.kyu7.Divisible" />
       <module name="CodeWars" />
@@ -137,17 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmophobiaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Summation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="summy.kyu7.Summation" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selective_fear_of_numbers.kyu7.*" />
+          <option name="PATTERN" value="summy.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="selective_fear_of_numbers.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="selective_fear_of_numbers.kyu7.ArithmophobiaTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,13 +148,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SummationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="summy.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="summy.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="summy.kyu7.SummationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SummationTest" />
+        <item itemvalue="Application.Summation" />
         <item itemvalue="Application.Divisible" />
         <item itemvalue="JUnit.DivisibleTest" />
         <item itemvalue="Application.FruitGuy" />
-        <item itemvalue="JUnit.ArithmophobiaTest" />
-        <item itemvalue="Application.Arithmophobia" />
       </list>
     </recent_temporary>
   </component>
