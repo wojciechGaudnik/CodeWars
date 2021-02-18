@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Covfefe/kyu7/Covefefe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Covfefe/kyu7/CoveveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../a" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../task" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,20 +88,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Covfefe.kyu7" />
+      <recent name="summy.kyu7" />
       <recent name="is_n_divisigle_by.kyu7" />
       <recent name="help_the_fruit_guy.kyu7" />
       <recent name="selective_fear_of_numbers.kyu7" />
-      <recent name="whats_my_golf_score.kyu7" />
-      <recent name="the_fusc_function_part_1.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SummationTest">
-    <configuration name="Divisible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="is_n_divisigle_by.kyu7.Divisible" />
+  <component name="RunManager" selected="Application.Covfefe">
+    <configuration name="Covfefe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Covfefe.kyu7.Covfefe" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="is_n_divisigle_by.kyu7.*" />
+          <option name="PATTERN" value="Covfefe.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FruitGuy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="help_the_fruit_guy.kyu7.FruitGuy" />
+    <configuration name="Divisible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="is_n_divisigle_by.kyu7.Divisible" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="help_the_fruit_guy.kyu7.*" />
+          <option name="PATTERN" value="is_n_divisigle_by.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,16 +135,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisibleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoveveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="is_n_divisigle_by.kyu7.*" />
+          <option name="PATTERN" value="Covfefe.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="is_n_divisigle_by.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="is_n_divisigle_by.kyu7.DivisibleTest" />
+      <option name="PACKAGE_NAME" value="Covfefe.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="Covfefe.kyu7.CoveveTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Covfefe" />
+        <item itemvalue="JUnit.CoveveTest" />
         <item itemvalue="JUnit.SummationTest" />
         <item itemvalue="Application.Summation" />
         <item itemvalue="Application.Divisible" />
-        <item itemvalue="JUnit.DivisibleTest" />
-        <item itemvalue="Application.FruitGuy" />
       </list>
     </recent_temporary>
   </component>
