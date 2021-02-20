@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/a_254_shades_of_grey/kyu7/ShadesOfGrey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/a_254_shades_of_grey/kyu7/ShadesOfGreyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/invisible_cubes/kyu7/NotVisibleCubes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/invisible_cubes/kyu7/NotVisibleCubesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/a_254_shades_of_grey/kyu7/ShadesOfGrey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a_254_shades_of_grey/kyu7/ShadesOfGrey.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,20 +89,33 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="invisible_cubes.kyu7" />
       <recent name="a_254_shades_of_grey.kyu7" />
       <recent name="Covfefe.kyu7" />
       <recent name="summy.kyu7" />
       <recent name="is_n_divisigle_by.kyu7" />
-      <recent name="help_the_fruit_guy.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShadesOfGrey">
+  <component name="RunManager" selected="JUnit.NotVisibleCubesTest">
     <configuration name="Covfefe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Covfefe.kyu7.Covfefe" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Covfefe.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotVisibleCubes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="invisible_cubes.kyu7.NotVisibleCubes" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="invisible_cubes.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,16 +136,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoveveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NotVisibleCubesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Covfefe.kyu7.*" />
+          <option name="PATTERN" value="invisible_cubes.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Covfefe.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="Covfefe.kyu7.CoveveTest" />
+      <option name="PACKAGE_NAME" value="invisible_cubes.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="invisible_cubes.kyu7.NotVisibleCubesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,28 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SummationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="summy.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="summy.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="summy.kyu7.SummationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NotVisibleCubesTest" />
+        <item itemvalue="Application.NotVisibleCubes" />
         <item itemvalue="Application.ShadesOfGrey" />
         <item itemvalue="JUnit.ShadesOfGreyTest" />
         <item itemvalue="Application.Covfefe" />
-        <item itemvalue="JUnit.CoveveTest" />
-        <item itemvalue="JUnit.SummationTest" />
       </list>
     </recent_temporary>
   </component>
