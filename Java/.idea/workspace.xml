@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thinking_and_testing_A_and_B/kyu7/ThinkingAndTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thinking_and_testing_A_and_B/kyu7/ThinkingAndTestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linked_lists_get_nth_node/kyu7/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linked_lists_get_nth_node/kyu7/NodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,14 +88,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="linked_lists_get_nth_node.kyu7" />
       <recent name="thinking_and_testing_A_and_B.kyu7" />
       <recent name="invisible_cubes.kyu7" />
       <recent name="a_254_shades_of_grey.kyu7" />
       <recent name="Covfefe.kyu7" />
-      <recent name="summy.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThinkingAndTestingTest">
+  <component name="RunManager" selected="JUnit.NodeTest">
     <configuration name="NotVisibleCubes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="invisible_cubes.kyu7.NotVisibleCubes" />
       <module name="CodeWars" />
@@ -122,6 +122,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_lists_get_nth_node.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linked_lists_get_nth_node.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="linked_lists_get_nth_node.kyu7.NodeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NotVisibleCubesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -132,21 +147,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="invisible_cubes.kyu7" />
       <option name="MAIN_CLASS_NAME" value="invisible_cubes.kyu7.NotVisibleCubesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShadesOfGreyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a_254_shades_of_grey.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="a_254_shades_of_grey.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="a_254_shades_of_grey.kyu7.ShadesOfGreyTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NodeTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest" />
         <item itemvalue="JUnit.NotVisibleCubesTest" />
         <item itemvalue="Application.NotVisibleCubes" />
         <item itemvalue="Application.ShadesOfGrey" />
-        <item itemvalue="JUnit.ShadesOfGreyTest" />
       </list>
     </recent_temporary>
   </component>
