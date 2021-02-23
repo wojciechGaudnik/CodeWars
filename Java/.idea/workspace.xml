@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/linked_lists_get_nth_node/kyu7/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linked_lists_get_nth_node/kyu7/NodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/the_office_i_outed/kyu7/TheOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/the_office_i_outed/kyu7/TheOfficeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thinking_and_testing_A_and_B/kyu7/ThinkingAndTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thinking_and_testing_A_and_B/kyu7/ThinkingAndTesting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,33 +89,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="the_office_i_outed.kyu7" />
       <recent name="linked_lists_get_nth_node.kyu7" />
       <recent name="thinking_and_testing_A_and_B.kyu7" />
       <recent name="invisible_cubes.kyu7" />
       <recent name="a_254_shades_of_grey.kyu7" />
-      <recent name="Covfefe.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NodeTest">
-    <configuration name="NotVisibleCubes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="invisible_cubes.kyu7.NotVisibleCubes" />
+  <component name="RunManager" selected="JUnit.TheOfficeTest">
+    <configuration name="TheOffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="the_office_i_outed.kyu7.TheOffice" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="invisible_cubes.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShadesOfGrey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a_254_shades_of_grey.kyu7.ShadesOfGrey" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a_254_shades_of_grey.kyu7.*" />
+          <option name="PATTERN" value="the_office_i_outed.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,6 +140,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheOfficeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the_office_i_outed.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="the_office_i_outed.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="the_office_i_outed.kyu7.TheOfficeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -169,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TheOfficeTest" />
+        <item itemvalue="Application.TheOffice" />
         <item itemvalue="JUnit.NodeTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest" />
         <item itemvalue="JUnit.NotVisibleCubesTest" />
-        <item itemvalue="Application.NotVisibleCubes" />
-        <item itemvalue="Application.ShadesOfGrey" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +236,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/the_office_i_outed/kyu7/TheOffice.java</url>
+          <line>22</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
