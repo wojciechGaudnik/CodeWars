@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/the_office_i_outed/kyu7/TheOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/the_office_i_outed/kyu7/TheOfficeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spoonerize_me/kyu7/Spooner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spoonerize_me/kyu7/SpoonerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thinking_and_testing_A_and_B/kyu7/ThinkingAndTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thinking_and_testing_A_and_B/kyu7/ThinkingAndTesting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +88,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="spoonerize_me.kyu7" />
       <recent name="the_office_i_outed.kyu7" />
       <recent name="linked_lists_get_nth_node.kyu7" />
       <recent name="thinking_and_testing_A_and_B.kyu7" />
       <recent name="invisible_cubes.kyu7" />
-      <recent name="a_254_shades_of_grey.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TheOfficeTest">
+  <component name="RunManager" selected="JUnit.SpoonerTest">
+    <configuration name="Spooner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spoonerize_me.kyu7.Spooner" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spoonerize_me.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheOffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="the_office_i_outed.kyu7.TheOffice" />
       <module name="CodeWars" />
@@ -125,16 +137,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotVisibleCubesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpoonerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="invisible_cubes.kyu7.*" />
+          <option name="PATTERN" value="spoonerize_me.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="invisible_cubes.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="invisible_cubes.kyu7.NotVisibleCubesTest" />
+      <option name="PACKAGE_NAME" value="spoonerize_me.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="spoonerize_me.kyu7.SpoonerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,28 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinking_and_testing_A_and_B.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thinking_and_testing_A_and_B.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="thinking_and_testing_A_and_B.kyu7.ThinkingAndTestingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpoonerTest" />
+        <item itemvalue="Application.Spooner" />
         <item itemvalue="JUnit.TheOfficeTest" />
         <item itemvalue="Application.TheOffice" />
         <item itemvalue="JUnit.NodeTest" />
-        <item itemvalue="JUnit.ThinkingAndTestingTest" />
-        <item itemvalue="JUnit.NotVisibleCubesTest" />
       </list>
     </recent_temporary>
   </component>
