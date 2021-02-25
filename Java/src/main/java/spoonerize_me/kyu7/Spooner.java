@@ -1,10 +1,6 @@
 package spoonerize_me.kyu7;
 
 public class Spooner {
-	public static void main(String[] args) {
-		var test = new Spooner();
-		System.out.println(test.spoonerize("nit picking"));
-	}
 
 	public String spoonerize(String words) {
 		var split = words.split(" ");
