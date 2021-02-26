@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/simple_fun_2_circle_of_numbers/kyu7/CircleOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simple_fun_2_circle_of_numbers/kyu7/CircleOfNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,14 +88,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simple_fun_2_circle_of_numbers.kyu7" />
+      <recent name="is_it_negative_zero.kyu7" />
       <recent name="spoonerize_me.kyu7" />
       <recent name="the_office_i_outed.kyu7" />
       <recent name="linked_lists_get_nth_node.kyu7" />
-      <recent name="thinking_and_testing_A_and_B.kyu7" />
-      <recent name="invisible_cubes.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NegativeZeroValidatorTest">
+  <component name="RunManager" selected="JUnit.CircleOfNumbersTest">
+    <configuration name="CircleOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simple_fun_2_circle_of_numbers.kyu7.CircleOfNumbers" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simple_fun_2_circle_of_numbers.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NegativeZeroValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="is_it_negative_zero.kyu7.NegativeZeroValidator" />
       <module name="CodeWars" />
@@ -107,15 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spooner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spoonerize_me.kyu7.Spooner" />
+    <configuration name="CircleOfNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spoonerize_me.kyu7.*" />
+          <option name="PATTERN" value="simple_fun_2_circle_of_numbers.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="simple_fun_2_circle_of_numbers.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="simple_fun_2_circle_of_numbers.kyu7.CircleOfNumbersTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,28 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheOfficeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="the_office_i_outed.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="the_office_i_outed.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="the_office_i_outed.kyu7.TheOfficeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircleOfNumbersTest" />
+        <item itemvalue="Application.CircleOfNumbers" />
         <item itemvalue="JUnit.NegativeZeroValidatorTest" />
         <item itemvalue="Application.NegativeZeroValidator" />
         <item itemvalue="JUnit.SpoonerTest" />
-        <item itemvalue="Application.Spooner" />
-        <item itemvalue="JUnit.TheOfficeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,12 +235,9 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/the_office_i_outed/kyu7/TheOffice.java</url>
-          <line>22</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/simple_fun_2_circle_of_numbers/kyu7/CircleOfNumbers.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
