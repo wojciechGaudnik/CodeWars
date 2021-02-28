@@ -2,9 +2,6 @@ package delta_bits.kyu7;
 
 
 public class DeltaBits {
-	public static void main(String[] args) {
-		System.out.println(convertBits(7, 17));
-	}
 
 	public static int convertBits(int a, int b) {
 		var aString = String.format("%32s", Integer.toBinaryString(a)).replace(' ', '0');
