@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/consecutive_letters/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interactive_dictionary/kyu7/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/consecutive_letters/kyu7/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactive_dictionary/kyu7/DictionaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/double_sort/kyu7/DoubleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nice_array/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/double_sort/kyu7/DoubleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nice_array/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delta_bits/kyu7/DeltaBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delta_bits/kyu7/DeltaBits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interactive_dictionary/kyu7/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interactive_dictionary/kyu7/Dictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,20 +91,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="nice_array.kyu7" />
+      <recent name="double_sort.kyu7" />
       <recent name="interactive_dictionary.kyu7" />
       <recent name="consecutive_letters.kyu7" />
       <recent name="correct_the_time_string.kyu7" />
-      <recent name="help_suzuki_rake_his_garden.kyu7" />
-      <recent name="delta_bits.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DictionaryTest">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="consecutive_letters.kyu7.Solution" />
+  <component name="RunManager" selected="JUnit.KataTest">
+    <configuration name="DoubleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="double_sort.kyu7.DoubleSort" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="consecutive_letters.kyu7.*" />
+          <option name="PATTERN" value="double_sort.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="correct_the_time_string.kyu7.Solution" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nice_array.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="correct_the_time_string.kyu7.*" />
+          <option name="PATTERN" value="nice_array.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,31 +140,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="consecutive_letters.kyu7.*" />
+          <option name="PATTERN" value="double_sort.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="consecutive_letters.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="consecutive_letters.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="double_sort.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="double_sort.kyu7.DoubleSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="correct_the_time_string.kyu7.*" />
+          <option name="PATTERN" value="nice_array.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="correct_the_time_string.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="correct_the_time_string.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="nice_array.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="nice_array.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="Application.DoubleSort" />
+        <item itemvalue="JUnit.DoubleSortTest" />
         <item itemvalue="JUnit.DictionaryTest" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>

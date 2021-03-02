@@ -3,9 +3,6 @@ package interactive_dictionary.kyu7;
 import java.util.HashMap;
 
 public class Dictionary {
-	public static void main(String[] args) {
-
-	}
 
 	HashMap<String, String> map;
 
