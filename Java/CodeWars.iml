@@ -38,5 +38,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.auto.value:auto-value:1.7.4" level="project" />
   </component>
 </module>

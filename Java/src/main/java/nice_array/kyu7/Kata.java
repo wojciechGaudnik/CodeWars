@@ -6,9 +6,6 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class Kata {
-	public static void main(String[] args) {
-		System.out.println(isNice(new Integer[]{2, 10, 9 ,3}));
-	}
 
 	public static boolean isNice(Integer[] arr) {
 		Objects.requireNonNull(arr);

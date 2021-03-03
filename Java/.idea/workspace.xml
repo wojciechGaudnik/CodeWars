@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/double_sort/kyu7/DoubleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nice_array/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/double_sort/kyu7/DoubleSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nice_array/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/letterbox_paint_squad/kyu7/Dinglemouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/max_min_arrays/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/letterbox_paint_squad/kyu7/DinglemouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/max_min_arrays/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interactive_dictionary/kyu7/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interactive_dictionary/kyu7/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nice_array/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nice_array/kyu7/Kata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,20 +93,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="letterbox_paint_squad.kyu7" />
+      <recent name="max_min_arrays.kyu7" />
       <recent name="nice_array.kyu7" />
       <recent name="double_sort.kyu7" />
       <recent name="interactive_dictionary.kyu7" />
-      <recent name="consecutive_letters.kyu7" />
-      <recent name="correct_the_time_string.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
-    <configuration name="DoubleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="double_sort.kyu7.DoubleSort" />
+  <component name="RunManager" selected="JUnit.DinglemouseTest">
+    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letterbox_paint_squad.kyu7.Dinglemouse" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="double_sort.kyu7.*" />
+          <option name="PATTERN" value="letterbox_paint_squad.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nice_array.kyu7.Kata" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="max_min_arrays.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nice_array.kyu7.*" />
+          <option name="PATTERN" value="max_min_arrays.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,31 +127,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interactive_dictionary.kyu7.*" />
+          <option name="PATTERN" value="letterbox_paint_squad.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interactive_dictionary.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="interactive_dictionary.kyu7.DictionaryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="double_sort.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="double_sort.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="double_sort.kyu7.DoubleSortTest" />
+      <option name="PACKAGE_NAME" value="letterbox_paint_squad.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="letterbox_paint_squad.kyu7.DinglemouseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,13 +157,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="max_min_arrays.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="max_min_arrays.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="max_min_arrays.kyu7.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DinglemouseTest" />
+        <item itemvalue="Application.Dinglemouse" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
-        <item itemvalue="Application.DoubleSort" />
-        <item itemvalue="JUnit.DoubleSortTest" />
-        <item itemvalue="JUnit.DictionaryTest" />
       </list>
     </recent_temporary>
   </component>
