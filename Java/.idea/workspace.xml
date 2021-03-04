@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/letterbox_paint_squad/kyu7/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/max_min_arrays/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/letterbox_paint_squad/kyu7/DinglemouseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/max_min_arrays/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic_progression/kyu7/Progression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replace_every_nth/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arithmetic_progression/kyu7/ProgressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/replace_every_nth/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nice_array/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nice_array/kyu7/Kata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,20 +90,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="arithmetic_progression.kyu7" />
+      <recent name="replace_every_nth.kyu7" />
       <recent name="letterbox_paint_squad.kyu7" />
       <recent name="max_min_arrays.kyu7" />
       <recent name="nice_array.kyu7" />
-      <recent name="double_sort.kyu7" />
-      <recent name="interactive_dictionary.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DinglemouseTest">
-    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letterbox_paint_squad.kyu7.Dinglemouse" />
+  <component name="RunManager" selected="JUnit.ProgressionTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replace_every_nth.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="letterbox_paint_squad.kyu7.*" />
+          <option name="PATTERN" value="replace_every_nth.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="max_min_arrays.kyu7.Solution" />
+    <configuration name="Progression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic_progression.kyu7.Progression" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="max_min_arrays.kyu7.*" />
+          <option name="PATTERN" value="arithmetic_progression.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,22 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="letterbox_paint_squad.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="letterbox_paint_squad.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="letterbox_paint_squad.kyu7.DinglemouseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
@@ -157,16 +139,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="max_min_arrays.kyu7.*" />
+          <option name="PATTERN" value="replace_every_nth.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="max_min_arrays.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="max_min_arrays.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="replace_every_nth.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="replace_every_nth.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic_progression.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arithmetic_progression.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="arithmetic_progression.kyu7.ProgressionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DinglemouseTest" />
-        <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.ProgressionTest" />
+        <item itemvalue="Application.Progression" />
+        <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
