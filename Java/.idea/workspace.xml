@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic_progression/kyu7/Progression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replace_every_nth/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arithmetic_progression/kyu7/ProgressionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/replace_every_nth/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/plus_minus_plus_plus_count/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simple_string_reversal_II/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/plus_minus_plus_plus_count/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simple_string_reversal_II/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,20 +90,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simple_string_reversal_II.kyu7" />
+      <recent name="plus_minus_plus_plus_count.kyu7" />
       <recent name="arithmetic_progression.kyu7" />
       <recent name="replace_every_nth.kyu7" />
       <recent name="letterbox_paint_squad.kyu7" />
-      <recent name="max_min_arrays.kyu7" />
-      <recent name="nice_array.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProgressionTest">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="replace_every_nth.kyu7.Kata" />
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simple_string_reversal_II.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="replace_every_nth.kyu7.*" />
+          <option name="PATTERN" value="simple_string_reversal_II.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Progression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic_progression.kyu7.Progression" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="plus_minus_plus_plus_count.kyu7.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic_progression.kyu7.*" />
+          <option name="PATTERN" value="plus_minus_plus_plus_count.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,46 +124,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nice_array.kyu7.*" />
+          <option name="PATTERN" value="letterbox_paint_squad.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nice_array.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="nice_array.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="letterbox_paint_squad.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="letterbox_paint_squad.kyu7.DinglemouseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="replace_every_nth.kyu7.*" />
+          <option name="PATTERN" value="simple_string_reversal_II.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="replace_every_nth.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="replace_every_nth.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="simple_string_reversal_II.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="simple_string_reversal_II.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic_progression.kyu7.*" />
+          <option name="PATTERN" value="plus_minus_plus_plus_count.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arithmetic_progression.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="arithmetic_progression.kyu7.ProgressionTest" />
+      <option name="PACKAGE_NAME" value="plus_minus_plus_plus_count.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="plus_minus_plus_plus_count.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProgressionTest" />
-        <item itemvalue="Application.Progression" />
-        <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.DinglemouseTest" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
