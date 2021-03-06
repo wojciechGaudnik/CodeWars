@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/plus_minus_plus_plus_count/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simple_string_reversal_II/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/plus_minus_plus_plus_count/kyu7/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/simple_string_reversal_II/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/alternate_square_sum/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/check_three_and_two/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/count_the_characters/kyu7/CC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string_array_duplicates/kyu6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alternate_square_sum/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/check_three_and_two/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/count_the_characters/kyu7/CCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/string_array_duplicates/kyu6/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,20 +94,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="string_array_duplicates.kyu6" />
+      <recent name="count_the_characters.kyu7" />
+      <recent name="alternate_square_sum.kyu7" />
+      <recent name="check_three_and_two.kyu7" />
       <recent name="simple_string_reversal_II.kyu7" />
-      <recent name="plus_minus_plus_plus_count.kyu7" />
-      <recent name="arithmetic_progression.kyu7" />
-      <recent name="replace_every_nth.kyu7" />
-      <recent name="letterbox_paint_squad.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_string_reversal_II.kyu7.Solution" />
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="CC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="count_the_characters.kyu7.CC" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_string_reversal_II.kyu7.*" />
+          <option name="PATTERN" value="count_the_characters.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="plus_minus_plus_plus_count.kyu7.Solution" />
+      <option name="MAIN_CLASS_NAME" value="string_array_duplicates.kyu6.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="plus_minus_plus_plus_count.kyu7.*" />
+          <option name="PATTERN" value="string_array_duplicates.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,31 +128,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="letterbox_paint_squad.kyu7.*" />
+          <option name="PATTERN" value="count_the_characters.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="letterbox_paint_squad.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="letterbox_paint_squad.kyu7.DinglemouseTest" />
+      <option name="PACKAGE_NAME" value="count_the_characters.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="count_the_characters.kyu7.CCTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_string_reversal_II.kyu7.*" />
+          <option name="PATTERN" value="alternate_square_sum.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simple_string_reversal_II.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="simple_string_reversal_II.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="alternate_square_sum.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="alternate_square_sum.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,12 +162,12 @@
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="plus_minus_plus_plus_count.kyu7.*" />
+          <option name="PATTERN" value="string_array_duplicates.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="plus_minus_plus_plus_count.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="plus_minus_plus_plus_count.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="string_array_duplicates.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="string_array_duplicates.kyu6.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.DinglemouseTest" />
-        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.CCTest" />
+        <item itemvalue="Application.CC" />
+        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
