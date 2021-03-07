@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alternate_square_sum/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/check_three_and_two/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/count_the_characters/kyu7/CC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string_array_duplicates/kyu6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alternate_square_sum/kyu7/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/check_three_and_two/kyu7/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/count_the_characters/kyu7/CCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/string_array_duplicates/kyu6/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/error_correction_1_hamming_code/kyu6/CodeWars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remove_the_parentheses/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/error_correction_1_hamming_code/kyu6/CodeWarsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/remove_the_parentheses/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,20 +90,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="error_correction_1_hamming_code.kyu6" />
+      <recent name="remove_the_parentheses.kyu7" />
       <recent name="string_array_duplicates.kyu6" />
       <recent name="count_the_characters.kyu7" />
       <recent name="alternate_square_sum.kyu7" />
-      <recent name="check_three_and_two.kyu7" />
-      <recent name="simple_string_reversal_II.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="CC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="count_the_characters.kyu7.CC" />
+  <component name="RunManager" selected="Application.CodeWars">
+    <configuration name="CodeWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="error_correction_1_hamming_code.kyu6.CodeWars" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="count_the_characters.kyu7.*" />
+          <option name="PATTERN" value="error_correction_1_hamming_code.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string_array_duplicates.kyu6.Solution" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remove_the_parentheses.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string_array_duplicates.kyu6.*" />
+          <option name="PATTERN" value="remove_the_parentheses.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,58 +124,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeWarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="count_the_characters.kyu7.*" />
+          <option name="PATTERN" value="error_correction_1_hamming_code.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="count_the_characters.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="count_the_characters.kyu7.CCTest" />
+      <option name="PACKAGE_NAME" value="error_correction_1_hamming_code.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="error_correction_1_hamming_code.kyu6.CodeWarsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeWarsTest.test_decode_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alternate_square_sum.kyu7.*" />
+          <option name="PATTERN" value="error_correction_1_hamming_code.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alternate_square_sum.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="alternate_square_sum.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="error_correction_1_hamming_code.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="error_correction_1_hamming_code.kyu6.CodeWarsTest" />
+      <option name="METHOD_NAME" value="test_decode_function" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeWarsTest.test_encode_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string_array_duplicates.kyu6.*" />
+          <option name="PATTERN" value="error_correction_1_hamming_code.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string_array_duplicates.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="string_array_duplicates.kyu6.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="error_correction_1_hamming_code.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="error_correction_1_hamming_code.kyu6.CodeWarsTest" />
+      <option name="METHOD_NAME" value="test_encode_function" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.CCTest" />
-        <item itemvalue="Application.CC" />
-        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.CodeWars" />
+        <item itemvalue="JUnit.CodeWarsTest.test_decode_function" />
+        <item itemvalue="JUnit.CodeWarsTest.test_encode_function" />
+        <item itemvalue="JUnit.CodeWarsTest" />
+        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
