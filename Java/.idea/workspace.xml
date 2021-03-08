@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/error_correction_1_hamming_code/kyu6/CodeWars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/remove_the_parentheses/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/error_correction_1_hamming_code/kyu6/CodeWarsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/remove_the_parentheses/kyu7/KataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/email_address_obfuscator/kyu7/EmailObfuscator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,26 +93,13 @@
       <recent name="alternate_square_sum.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodeWars">
+  <component name="RunManager" selected="JUnit.EmailObfuscatorTest">
     <configuration name="CodeWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="error_correction_1_hamming_code.kyu6.CodeWars" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="error_correction_1_hamming_code.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="remove_the_parentheses.kyu7.Kata" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="remove_the_parentheses.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,13 +154,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmailObfuscatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="email_address_obfuscator.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="email_address_obfuscator.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="email_address_obfuscator.kyu7.EmailObfuscatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmailObfuscatorTest" />
         <item itemvalue="Application.CodeWars" />
         <item itemvalue="JUnit.CodeWarsTest.test_decode_function" />
         <item itemvalue="JUnit.CodeWarsTest.test_encode_function" />
         <item itemvalue="JUnit.CodeWarsTest" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
