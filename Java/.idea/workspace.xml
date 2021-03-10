@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculate_mean_and_concatenate_string/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/calculate_mean_and_concatenate_string/kyu7/KataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cartesian_neighbors/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cartesian_neighbors/kyu7/KataTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +87,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cartesian_neighbors.kyu7" />
       <recent name="calculate_mean_and_concatenate_string.kyu7" />
       <recent name="email_address_obfuscator.kyu7" />
       <recent name="error_correction_1_hamming_code.kyu6" />
       <recent name="remove_the_parentheses.kyu7" />
-      <recent name="string_array_duplicates.kyu6" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.KataTest">
