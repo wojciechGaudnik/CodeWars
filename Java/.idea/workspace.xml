@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cartesian_neighbors/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cartesian_neighbors/kyu7/KataTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,13 +91,13 @@
       <recent name="remove_the_parentheses.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
-    <configuration name="CodeWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="error_correction_1_hamming_code.kyu6.CodeWars" />
+  <component name="RunManager" selected="JUnit.KataTest (1)">
+    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MOD_256_without_the_MOD_operator.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="error_correction_1_hamming_code.kyu6.*" />
+          <option name="PATTERN" value="MOD_256_without_the_MOD_operator.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,22 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeWarsTest.test_decode_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="error_correction_1_hamming_code.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="error_correction_1_hamming_code.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="error_correction_1_hamming_code.kyu6.CodeWarsTest" />
-      <option name="METHOD_NAME" value="test_decode_function" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmailObfuscatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -147,6 +128,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="email_address_obfuscator.kyu7" />
       <option name="MAIN_CLASS_NAME" value="email_address_obfuscator.kyu7.EmailObfuscatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MOD_256_without_the_MOD_operator.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MOD_256_without_the_MOD_operator.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="MOD_256_without_the_MOD_operator.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
+        <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.EmailObfuscatorTest" />
-        <item itemvalue="Application.CodeWars" />
-        <item itemvalue="JUnit.CodeWarsTest.test_decode_function" />
       </list>
     </recent_temporary>
   </component>
