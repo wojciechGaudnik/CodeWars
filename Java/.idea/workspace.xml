@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/binary_calculator/kyu7/BinaryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/binary_calculator/kyu7/BinaryCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/c_wars/kyu7/CWarsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,20 +90,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="binary_calculator.kyu7" />
+      <recent name="c_wars.kyu7" />
       <recent name="cartesian_neighbors.kyu7" />
       <recent name="calculate_mean_and_concatenate_string.kyu7" />
       <recent name="email_address_obfuscator.kyu7" />
-      <recent name="error_correction_1_hamming_code.kyu6" />
-      <recent name="remove_the_parentheses.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (1)">
-    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MOD_256_without_the_MOD_operator.kyu7.Kata" />
+  <component name="RunManager" selected="JUnit.BinaryCalculatorTest">
+    <configuration name="BinaryCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_calculator.kyu7.BinaryCalculator" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MOD_256_without_the_MOD_operator.kyu7.*" />
+          <option name="PATTERN" value="binary_calculator.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculate_mean_and_concatenate_string.kyu7.Kata" />
+    <configuration name="CWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c_wars.kyu7.CWars" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculate_mean_and_concatenate_string.kyu7.*" />
+          <option name="PATTERN" value="c_wars.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,16 +124,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailObfuscatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="email_address_obfuscator.kyu7.*" />
+          <option name="PATTERN" value="binary_calculator.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="email_address_obfuscator.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="email_address_obfuscator.kyu7.EmailObfuscatorTest" />
+      <option name="PACKAGE_NAME" value="binary_calculator.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="binary_calculator.kyu7.BinaryCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CWarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c_wars.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="c_wars.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="c_wars.kyu7.CWarsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,28 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="calculate_mean_and_concatenate_string.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="calculate_mean_and_concatenate_string.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="calculate_mean_and_concatenate_string.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryCalculatorTest" />
+        <item itemvalue="Application.BinaryCalculator" />
+        <item itemvalue="Application.CWars" />
+        <item itemvalue="JUnit.CWarsTest" />
         <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="Application.Kata (1)" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.EmailObfuscatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +235,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
