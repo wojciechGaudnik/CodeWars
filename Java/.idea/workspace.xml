@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/binary_calculator/kyu7/BinaryCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/binary_calculator/kyu7/BinaryCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/c_wars/kyu7/CWarsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/the_office_boredom_score/kyu7/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/the_office_boredom_score/kyu7/TheOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/the_office_boredom_score/kyu7/TheOfficeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +90,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="the_office_boredom_score.kyu7" />
       <recent name="binary_calculator.kyu7" />
       <recent name="c_wars.kyu7" />
       <recent name="cartesian_neighbors.kyu7" />
       <recent name="calculate_mean_and_concatenate_string.kyu7" />
-      <recent name="email_address_obfuscator.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryCalculatorTest">
+  <component name="RunManager" selected="JUnit.TheOfficeTest">
     <configuration name="BinaryCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binary_calculator.kyu7.BinaryCalculator" />
       <module name="CodeWars" />
@@ -139,43 +139,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CWarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheOfficeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="c_wars.kyu7.*" />
+          <option name="PATTERN" value="the_office_boredom_score.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="c_wars.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="c_wars.kyu7.CWarsTest" />
+      <option name="PACKAGE_NAME" value="the_office_boredom_score.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="the_office_boredom_score.kyu7.TheOfficeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheOfficeTest.basic2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MOD_256_without_the_MOD_operator.kyu7.*" />
+          <option name="PATTERN" value="the_office_boredom_score.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MOD_256_without_the_MOD_operator.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="MOD_256_without_the_MOD_operator.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="the_office_boredom_score.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="the_office_boredom_score.kyu7.TheOfficeTest" />
+      <option name="METHOD_NAME" value="basic2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TheOfficeTest" />
+        <item itemvalue="JUnit.TheOfficeTest.basic2" />
         <item itemvalue="JUnit.BinaryCalculatorTest" />
         <item itemvalue="Application.BinaryCalculator" />
         <item itemvalue="Application.CWars" />
-        <item itemvalue="JUnit.CWarsTest" />
-        <item itemvalue="JUnit.KataTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -235,11 +236,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

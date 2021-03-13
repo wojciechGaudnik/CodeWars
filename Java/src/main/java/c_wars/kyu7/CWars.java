@@ -8,7 +8,7 @@ public class CWars {
 	public static String initials(String name){
 		System.out.println(name);
 		var split = name.split(" ");
-		var answer = new StringBuffer();
+		StringBuilder answer = new StringBuilder();
 		for (var i = 0; i < split.length - 1; i++) {
 			answer.append(Character.toUpperCase(split[i].charAt(0))).append(".");
 		}
