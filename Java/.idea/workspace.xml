@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/the_office_boredom_score/kyu7/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/the_office_boredom_score/kyu7/TheOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/the_office_boredom_score/kyu7/TheOfficeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/complete_the_pattern_4/kyu7/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/complete_the_pattern_4/kyu7/PatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dna/courses-java-mm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,33 +88,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="complete_the_pattern_4.kyu7" />
       <recent name="the_office_boredom_score.kyu7" />
       <recent name="binary_calculator.kyu7" />
       <recent name="c_wars.kyu7" />
       <recent name="cartesian_neighbors.kyu7" />
-      <recent name="calculate_mean_and_concatenate_string.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TheOfficeTest">
-    <configuration name="BinaryCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_calculator.kyu7.BinaryCalculator" />
+  <component name="RunManager" selected="JUnit.PatternTest">
+    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="complete_the_pattern_4.kyu7.Pattern" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binary_calculator.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c_wars.kyu7.CWars" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="c_wars.kyu7.*" />
+          <option name="PATTERN" value="complete_the_pattern_4.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,6 +119,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="binary_calculator.kyu7" />
       <option name="MAIN_CLASS_NAME" value="binary_calculator.kyu7.BinaryCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="complete_the_pattern_4.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="complete_the_pattern_4.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="complete_the_pattern_4.kyu7.PatternTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PatternTest" />
+        <item itemvalue="Application.Pattern" />
         <item itemvalue="JUnit.TheOfficeTest" />
         <item itemvalue="JUnit.TheOfficeTest.basic2" />
         <item itemvalue="JUnit.BinaryCalculatorTest" />
-        <item itemvalue="Application.BinaryCalculator" />
-        <item itemvalue="Application.CWars" />
       </list>
     </recent_temporary>
   </component>
