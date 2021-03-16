@@ -1,9 +1,6 @@
 package c_wars.kyu7;
 
 public class CWars {
-	public static void main(String[] args) {
-		System.out.println(initials(""));
-	}
 
 	public static String initials(String name){
 		System.out.println(name);
