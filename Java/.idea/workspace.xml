@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/reverse_the_bits_in_an_integer/kyu7/BitsOfInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/reverse_the_bits_in_an_integer/kyu7/BitsOfIntegerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +92,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="reverse_the_bits_in_an_integer.kyu7" />
       <recent name="happy_birthday_darling.kyu7" />
       <recent name="complete_the_pattern_4.kyu7" />
       <recent name="the_office_boredom_score.kyu7" />
       <recent name="binary_calculator.kyu7" />
-      <recent name="c_wars.kyu7" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.BitsOfIntegerTest">
