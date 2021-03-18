@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/number_of_rectangles_in_a_grid/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/number_of_rectangles_in_a_grid/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/santa_s_naughty_list/kyu7/FindList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/santa_s_naughty_list/kyu7/FindListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/number_of_rectangles_in_a_grid/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/number_of_rectangles_in_a_grid/kyu7/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,20 +95,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="santa_s_naughty_list.kyu7" />
       <recent name="number_of_rectangles_in_a_grid.kyu7" />
       <recent name="reverse_the_bits_in_an_integer.kyu7" />
       <recent name="happy_birthday_darling.kyu7" />
       <recent name="complete_the_pattern_4.kyu7" />
-      <recent name="the_office_boredom_score.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="BitsOfInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reverse_the_bits_in_an_integer.kyu7.BitsOfInteger" />
+  <component name="RunManager" selected="JUnit.FindListTest">
+    <configuration name="FindList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="santa_s_naughty_list.kyu7.FindList" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reverse_the_bits_in_an_integer.kyu7.*" />
+          <option name="PATTERN" value="santa_s_naughty_list.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,16 +144,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="happy_birthday_darling.kyu7.*" />
+          <option name="PATTERN" value="santa_s_naughty_list.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="happy_birthday_darling.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="happy_birthday_darling.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="santa_s_naughty_list.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="santa_s_naughty_list.kyu7.FindListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindListTest" />
+        <item itemvalue="Application.FindList" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.BitsOfIntegerTest" />
-        <item itemvalue="Application.BitsOfInteger" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
