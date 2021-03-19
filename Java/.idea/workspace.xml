@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/santa_s_naughty_list/kyu7/FindList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/santa_s_naughty_list/kyu7/FindListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GCDsum/kyu7/GCDsum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GCDsum/kyu7/GCDsumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/number_of_rectangles_in_a_grid/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/number_of_rectangles_in_a_grid/kyu7/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +94,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="GCDsum.kyu7" />
       <recent name="santa_s_naughty_list.kyu7" />
       <recent name="number_of_rectangles_in_a_grid.kyu7" />
       <recent name="reverse_the_bits_in_an_integer.kyu7" />
       <recent name="happy_birthday_darling.kyu7" />
-      <recent name="complete_the_pattern_4.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindListTest">
+  <component name="RunManager" selected="JUnit.GCDsumTest">
     <configuration name="FindList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="santa_s_naughty_list.kyu7.FindList" />
       <module name="CodeWars" />
@@ -116,30 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number_of_rectangles_in_a_grid.kyu7.Solution" />
+    <configuration name="GCDsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GCDsum.kyu7.GCDsum" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number_of_rectangles_in_a_grid.kyu7.*" />
+          <option name="PATTERN" value="GCDsum.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BitsOfIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reverse_the_bits_in_an_integer.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="reverse_the_bits_in_an_integer.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="reverse_the_bits_in_an_integer.kyu7.BitsOfIntegerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,6 +138,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="santa_s_naughty_list.kyu7" />
       <option name="MAIN_CLASS_NAME" value="santa_s_naughty_list.kyu7.FindListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCDsumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GCDsum.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GCDsum.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="GCDsum.kyu7.GCDsumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GCDsumTest" />
+        <item itemvalue="Application.GCDsum" />
         <item itemvalue="JUnit.FindListTest" />
         <item itemvalue="Application.FindList" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.BitsOfIntegerTest" />
       </list>
     </recent_temporary>
   </component>
