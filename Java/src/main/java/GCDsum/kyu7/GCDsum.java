@@ -1,11 +1,6 @@
 package GCDsum.kyu7;
 
-import java.util.Arrays;
-
 public class GCDsum {
-	public static void main(String[] args) {
-		System.out.println(Arrays.toString(solve(8, 2)));
-	}
 
 	public static int[] solve(int s, int g){
 		for (int a = s, b = 0; a >= b; a--, b++) {

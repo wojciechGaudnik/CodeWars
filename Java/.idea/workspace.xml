@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/histogram_H1/kyu7/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/histogram_H1/kyu7/DinglemouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simple_letter_removal/kyu7/SimpleLetterRemoval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simple_letter_removal/kyu7/SimpleLetterRemovalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GCDsum/kyu7/GCDsum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GCDsum/kyu7/GCDsum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,14 +95,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simple_letter_removal.kyu7" />
       <recent name="histogram_H1.kyu7" />
       <recent name="GCDsum.kyu7" />
       <recent name="santa_s_naughty_list.kyu7" />
       <recent name="number_of_rectangles_in_a_grid.kyu7" />
-      <recent name="reverse_the_bits_in_an_integer.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DinglemouseTest">
+  <component name="RunManager" selected="JUnit.SimpleLetterRemovalTest">
     <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="histogram_H1.kyu7.Dinglemouse" />
       <module name="CodeWars" />
@@ -115,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GCDsum.kyu7.GCDsum" />
+    <configuration name="SimpleLetterRemoval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simple_letter_removal.kyu7.SimpleLetterRemoval" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GCDsum.kyu7.*" />
+          <option name="PATTERN" value="simple_letter_removal.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,21 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="santa_s_naughty_list.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="santa_s_naughty_list.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="santa_s_naughty_list.kyu7.FindListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GCDsumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -173,13 +159,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleLetterRemovalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simple_letter_removal.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simple_letter_removal.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="simple_letter_removal.kyu7.SimpleLetterRemovalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleLetterRemovalTest" />
+        <item itemvalue="Application.SimpleLetterRemoval" />
         <item itemvalue="JUnit.DinglemouseTest" />
         <item itemvalue="Application.Dinglemouse" />
         <item itemvalue="JUnit.GCDsumTest" />
-        <item itemvalue="Application.GCDsum" />
-        <item itemvalue="JUnit.FindListTest" />
       </list>
     </recent_temporary>
   </component>
