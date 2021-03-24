@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ean_validation/kyu7/EANValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ean_validation/kyu7/EANValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/changing_letters/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/changing_letters/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/batman_quotes/kyu7/BatmanQuotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/batman_quotes/kyu7/BatmanQuotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simple_letter_removal/kyu7/SimpleLetterRemoval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_letter_removal/kyu7/SimpleLetterRemoval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,20 +96,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="changing_letters.kyu7" />
       <recent name="ean_validation.kyu7" />
       <recent name="batman_quotes.kyu7" />
       <recent name="simple_letter_removal.kyu7" />
       <recent name="histogram_H1.kyu7" />
-      <recent name="GCDsum.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EANValidatorTest">
-    <configuration name="BatmanQuotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="batman_quotes.kyu7.BatmanQuotes" />
+  <component name="RunManager" selected="JUnit.KataTest">
+    <configuration name="EANValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ean_validation.kyu7.EANValidator" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="batman_quotes.kyu7.*" />
+          <option name="PATTERN" value="ean_validation.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EANValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ean_validation.kyu7.EANValidator" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="changing_letters.kyu7.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ean_validation.kyu7.*" />
+          <option name="PATTERN" value="changing_letters.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,16 +160,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleLetterRemovalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_letter_removal.kyu7.*" />
+          <option name="PATTERN" value="changing_letters.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simple_letter_removal.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="simple_letter_removal.kyu7.SimpleLetterRemovalTest" />
+      <option name="PACKAGE_NAME" value="changing_letters.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="changing_letters.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.EANValidatorTest" />
         <item itemvalue="Application.EANValidator" />
         <item itemvalue="JUnit.BatmanQuotesTest" />
-        <item itemvalue="Application.BatmanQuotes" />
-        <item itemvalue="JUnit.SimpleLetterRemovalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,11 +241,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ean_validation/kyu7/EANValidator.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

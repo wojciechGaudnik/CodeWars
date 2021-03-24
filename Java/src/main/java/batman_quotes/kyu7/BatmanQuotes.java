@@ -1,7 +1,7 @@
 package batman_quotes.kyu7;
 
 public class BatmanQuotes {
-	public static String getQuote(String[] quotes, String hero){
+	public static String getQuote(String[] quotes, String hero) {
 		var index = -1;
 		for (var one : hero.toCharArray()) {
 			if (Character.isDigit(one)) {
