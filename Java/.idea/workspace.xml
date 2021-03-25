@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/changing_letters/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/changing_letters/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/how_many_times_does_it_contain/kyu7/StringCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/batman_quotes/kyu7/BatmanQuotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/batman_quotes/kyu7/BatmanQuotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simple_letter_removal/kyu7/SimpleLetterRemoval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple_letter_removal/kyu7/SimpleLetterRemoval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,20 +100,7 @@
       <recent name="histogram_H1.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
-    <configuration name="EANValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ean_validation.kyu7.EANValidator" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ean_validation.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringCounterTest">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="changing_letters.kyu7.Kata" />
       <module name="CodeWars" />
@@ -130,17 +114,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BatmanQuotesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="how_many_times_does_it_contain.kyu7.StringCounter" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="batman_quotes.kyu7.*" />
+          <option name="PATTERN" value="how_many_times_does_it_contain.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="batman_quotes.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="batman_quotes.kyu7.BatmanQuotesTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,13 +157,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="how_many_times_does_it_contain.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="how_many_times_does_it_contain.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="how_many_times_does_it_contain.kyu7.StringCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCounterTest" />
+        <item itemvalue="Application.StringCounter" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.EANValidatorTest" />
-        <item itemvalue="Application.EANValidator" />
-        <item itemvalue="JUnit.BatmanQuotesTest" />
       </list>
     </recent_temporary>
   </component>
