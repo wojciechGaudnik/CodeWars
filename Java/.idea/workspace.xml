@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy_line/kyu7/Easyline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exclamation_marks_series_5_remove_all_exclamation_marks_from_the_end_of_words/kyu7/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/easy_line/kyu7/EasylineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exclamation_marks_series_5_remove_all_exclamation_marks_from_the_end_of_words/kyu7/RTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/easy_line/kyu7/Easyline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/easy_line/kyu7/Easyline.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <recent name="ean_validation.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RTest">
+  <component name="RunManager" selected="JUnit.EasylineTest">
     <configuration name="Easyline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy_line.kyu7.Easyline" />
       <module name="CodeWars" />
@@ -130,15 +127,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="how_many_times_does_it_contain.kyu7.StringCounter" />
+    <configuration name="EasylineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="how_many_times_does_it_contain.kyu7.*" />
+          <option name="PATTERN" value="easy_line.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="easy_line.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="easy_line.kyu7.EasylineTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EasylineTest" />
+        <item itemvalue="Application.Easyline" />
         <item itemvalue="JUnit.RTest" />
         <item itemvalue="Application.R" />
-        <item itemvalue="Application.Easyline" />
         <item itemvalue="JUnit.StringCounterTest" />
-        <item itemvalue="Application.StringCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -239,16 +238,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/easy_line/kyu7/Easyline.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/exclamation_marks_series_5_remove_all_exclamation_marks_from_the_end_of_words/kyu7/R.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
