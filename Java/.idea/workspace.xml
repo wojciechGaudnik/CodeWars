@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/a0_my_katas/TimeWhereverIgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tv_remote/kyu7/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/a0_my_katas/TimeWhereverIgoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tv_remote/kyu7/DinglemouseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/changing_letters/kyu7/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/changing_letters/kyu7/Kata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/how_many_times_does_it_contain/kyu7/StringCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/how_many_times_does_it_contain/kyu7/StringCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +96,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="regexp_basics_is_it_a_hexadecimal_number.kyu7" />
       <recent name="tv_remote.kyu7" />
       <recent name="a0_my_katas" />
       <recent name="exclamation_marks_series_5_remove_all_exclamation_marks_from_the_end_of_words.kyu7" />
       <recent name="easy_line.kyu7" />
-      <recent name="how_many_times_does_it_contain.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DinglemouseTest">
+  <component name="RunManager" selected="JUnit.StringUtilsTest">
     <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tv_remote.kyu7.Dinglemouse" />
       <module name="CodeWars" />
@@ -152,16 +145,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasylineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy_line.kyu7.*" />
+          <option name="PATTERN" value="regexp_basics_is_it_a_hexadecimal_number.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="easy_line.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="easy_line.kyu7.EasylineTest" />
+      <option name="PACKAGE_NAME" value="regexp_basics_is_it_a_hexadecimal_number.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="regexp_basics_is_it_a_hexadecimal_number.kyu7.StringUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilsTest" />
         <item itemvalue="JUnit.DinglemouseTest" />
         <item itemvalue="Application.Dinglemouse" />
         <item itemvalue="Application.TimeWhereverIgo" />
         <item itemvalue="JUnit.TimeWhereverIgoTest" />
-        <item itemvalue="JUnit.EasylineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +241,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtilsTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
