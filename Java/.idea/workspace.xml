@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/message_validator/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/message_validator/kyu6/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +97,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="message_validator.kyu6" />
       <recent name="regexp_basics_is_it_a_hexadecimal_number.kyu7" />
       <recent name="tv_remote.kyu7" />
       <recent name="a0_my_katas" />
       <recent name="exclamation_marks_series_5_remove_all_exclamation_marks_from_the_end_of_words.kyu7" />
-      <recent name="easy_line.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilsTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tv_remote.kyu7.Dinglemouse" />
       <module name="CodeWars" />
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeWhereverIgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a0_my_katas.TimeWhereverIgo" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="message_validator.kyu6.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a0_my_katas.*" />
+          <option name="PATTERN" value="message_validator.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,6 +146,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="message_validator.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="message_validator.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="message_validator.kyu6.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -160,28 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeWhereverIgoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="a0_my_katas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="a0_my_katas" />
-      <option name="MAIN_CLASS_NAME" value="a0_my_katas.TimeWhereverIgoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.StringUtilsTest" />
         <item itemvalue="JUnit.DinglemouseTest" />
         <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="Application.TimeWhereverIgo" />
-        <item itemvalue="JUnit.TimeWhereverIgoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,17 +244,11 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtilsTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/src/main/java/message_validator/kyu6/Kata.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="cardNumber.substring(0, 3)" />
-        <watch expression="cardNumber.charAt(0)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
