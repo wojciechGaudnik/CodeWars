@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/message_validator/kyu6/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/message_validator/kyu6/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_combinations/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/array_combinations/kyu6/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_is_it_a_hexadecimal_number/kyu7/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,20 +96,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="array_combinations.kyu6" />
       <recent name="message_validator.kyu6" />
       <recent name="regexp_basics_is_it_a_hexadecimal_number.kyu7" />
       <recent name="tv_remote.kyu7" />
       <recent name="a0_my_katas" />
-      <recent name="exclamation_marks_series_5_remove_all_exclamation_marks_from_the_end_of_words.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
-    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tv_remote.kyu7.Dinglemouse" />
+  <component name="RunManager" selected="Application.Kata (1)">
+    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_combinations.kyu6.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tv_remote.kyu7.*" />
+          <option name="PATTERN" value="array_combinations.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.StringUtilsTest" />
         <item itemvalue="JUnit.DinglemouseTest" />
-        <item itemvalue="Application.Dinglemouse" />
       </list>
     </recent_temporary>
   </component>
@@ -242,11 +241,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/message_validator/kyu6/Kata.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
