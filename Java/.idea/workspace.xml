@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/quarter_of_the_year/kyu8/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/quarter_of_the_year/kyu8/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,11 +96,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="quarter_of_the_year.kyu8" />
+      <recent name="n_th_power.kyu8" />
       <recent name="array_combinations.kyu6" />
       <recent name="message_validator.kyu6" />
       <recent name="regexp_basics_is_it_a_hexadecimal_number.kyu7" />
-      <recent name="tv_remote.kyu7" />
-      <recent name="a0_my_katas" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.KataTest (1)">

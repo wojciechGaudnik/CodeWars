@@ -6,9 +6,6 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Kata {
-	public static void main(String[] args) {
-		System.out.println(isAValidMessage("code4hello5"));
-	}
 
 	public static boolean isAValidMessage(String message) {
 		if (message.equals("0") || message.equals("")) return true;
