@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/quarter_of_the_year/kyu8/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/quarter_of_the_year/kyu8/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simple_time_difference/kyu6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simple_time_difference/kyu6/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,14 +96,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simple_time_difference.kyu6" />
       <recent name="quarter_of_the_year.kyu8" />
       <recent name="n_th_power.kyu8" />
       <recent name="array_combinations.kyu6" />
       <recent name="message_validator.kyu6" />
-      <recent name="regexp_basics_is_it_a_hexadecimal_number.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (1)">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array_combinations.kyu6.Kata" />
       <module name="CodeWars" />
@@ -130,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="message_validator.kyu6.Kata" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simple_time_difference.kyu6.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="message_validator.kyu6.*" />
+          <option name="PATTERN" value="simple_time_difference.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,16 +158,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="message_validator.kyu6.*" />
+          <option name="PATTERN" value="simple_time_difference.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="message_validator.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="message_validator.kyu6.KataTest" />
+      <option name="PACKAGE_NAME" value="simple_time_difference.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="simple_time_difference.kyu6.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="Application.Kata (2)" />
         <item itemvalue="Application.Kata (1)" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
