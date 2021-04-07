@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sequence_convergence/kyu6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sequence_convergence/kyu6/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hndshake_problem/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hndshake_problem/kyu6/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,20 +96,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hndshake_problem.kyu6" />
       <recent name="sequence_convergence.kyu6" />
       <recent name="simple_nearest_prime.kyu6" />
       <recent name="trumpness_detector.kyu6" />
       <recent name="simple_time_difference.kyu6" />
-      <recent name="quarter_of_the_year.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_nearest_prime.kyu6.Solution" />
+  <component name="RunManager" selected="Application.Kata">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hndshake_problem.kyu6.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_nearest_prime.kyu6.*" />
+          <option name="PATTERN" value="hndshake_problem.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,6 +139,21 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hndshake_problem.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hndshake_problem.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="hndshake_problem.kyu6.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,28 +188,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrumpdetectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trumpness_detector.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="trumpness_detector.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="trumpness_detector.kyu6.TrumpdetectorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="JUnit.TrumpdetectorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,7 @@
       <workItem from="1605676899843" duration="11000" />
       <workItem from="1617618808244" duration="70000" />
       <workItem from="1617618891433" duration="524000" />
-      <workItem from="1617619424510" duration="4081000" />
+      <workItem from="1617619424510" duration="6966000" />
     </task>
     <servers />
   </component>
@@ -279,6 +279,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/trumpness_detector/kyu6/Trumpdetector.java</url>
           <line>18</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hndshake_problem/kyu6/Kata.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
