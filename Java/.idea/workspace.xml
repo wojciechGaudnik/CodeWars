@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hndshake_problem/kyu6/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hndshake_problem/kyu6/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/follow_that_spy/kyu6/Routes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/follow_that_spy/kyu6/RoutesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,14 +96,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="follow_that_spy.kyu6" />
       <recent name="hndshake_problem.kyu6" />
       <recent name="sequence_convergence.kyu6" />
       <recent name="simple_nearest_prime.kyu6" />
       <recent name="trumpness_detector.kyu6" />
-      <recent name="simple_time_difference.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Kata">
+  <component name="RunManager" selected="JUnit.RoutesTest">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hndshake_problem.kyu6.Kata" />
       <module name="CodeWars" />
@@ -117,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sequence_convergence.kyu6.Solution" />
+    <configuration name="Routes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="follow_that_spy.kyu6.Routes" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sequence_convergence.kyu6.*" />
+          <option name="PATTERN" value="follow_that_spy.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,16 +158,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoutesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_nearest_prime.kyu6.*" />
+          <option name="PATTERN" value="follow_that_spy.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simple_nearest_prime.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="simple_nearest_prime.kyu6.SolutionTest" />
+      <option name="PACKAGE_NAME" value="follow_that_spy.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="follow_that_spy.kyu6.RoutesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoutesTest" />
+        <item itemvalue="Application.Routes" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,7 @@
       <workItem from="1605676899843" duration="11000" />
       <workItem from="1617618808244" duration="70000" />
       <workItem from="1617618891433" duration="524000" />
-      <workItem from="1617619424510" duration="6966000" />
+      <workItem from="1617619424510" duration="10178000" />
     </task>
     <servers />
   </component>
@@ -281,11 +281,23 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/hndshake_problem/kyu6/Kata.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/src/main/java/follow_that_spy/kyu6/Routes.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/follow_that_spy/kyu6/Routes.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="listB" />
+        <watch expression="listA" />
+        <watch expression="queue" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
