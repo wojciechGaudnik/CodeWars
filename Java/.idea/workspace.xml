@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/difference_of_volumes_of_cuboids/kyu8/CuboidVolumes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/integers_recreation_two/kyu6/SqProd2Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/difference_of_volumes_of_cuboids/kyu8/CuboidVolumesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/integers_recreation_two/kyu6/SqProd2SumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/integers_recreation_two/kyu6/SqProd2Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/integers_recreation_two/kyu6/SqProd2Sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,20 +97,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="a_wolf_in_sheep_s_clothing.kyu8" />
       <recent name="difference_of_volumes_of_cuboids.kyu8" />
       <recent name="integers_recreation_two.kyu6" />
       <recent name="tic_tac_toe_like_table_generator.kyu6" />
       <recent name="follow_that_spy.kyu6" />
-      <recent name="hndshake_problem.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuboidVolumesTest">
-    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tic_tac_toe_like_table_generator.kyu6.Kata" />
+  <component name="RunManager" selected="JUnit.ZywOoTest">
+    <configuration name="SqProd2Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="integers_recreation_two.kyu6.SqProd2Sum" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tic_tac_toe_like_table_generator.kyu6.*" />
+          <option name="PATTERN" value="integers_recreation_two.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqProd2Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="integers_recreation_two.kyu6.SqProd2Sum" />
+    <configuration name="ZywOo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_wolf_in_sheep_s_clothing.kyu8.ZywOo" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="integers_recreation_two.kyu6.*" />
+          <option name="PATTERN" value="a_wolf_in_sheep_s_clothing.kyu8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,21 +159,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tic_tac_toe_like_table_generator.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tic_tac_toe_like_table_generator.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="tic_tac_toe_like_table_generator.kyu6.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SqProd2SumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -190,13 +174,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZywOoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_wolf_in_sheep_s_clothing.kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_wolf_in_sheep_s_clothing.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="a_wolf_in_sheep_s_clothing.kyu8.ZywOoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CuboidVolumesTest" />
-        <item itemvalue="JUnit.SqProd2SumTest" />
+        <item itemvalue="JUnit.ZywOoTest" />
+        <item itemvalue="Application.ZywOo" />
         <item itemvalue="Application.SqProd2Sum" />
-        <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="Application.Kata (1)" />
+        <item itemvalue="JUnit.SqProd2SumTest" />
+        <item itemvalue="JUnit.CuboidVolumesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +234,7 @@
       <workItem from="1605676899843" duration="11000" />
       <workItem from="1617618808244" duration="70000" />
       <workItem from="1617618891433" duration="524000" />
-      <workItem from="1617619424510" duration="19593000" />
+      <workItem from="1617619424510" duration="24088000" />
     </task>
     <servers />
   </component>
@@ -286,6 +285,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/follow_that_spy/kyu6/Routes.java</url>
           <line>25</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/integers_recreation_two/kyu6/SqProd2Sum.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/integers_recreation_two/kyu6/SqProd2Sum.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
