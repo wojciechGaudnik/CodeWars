@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/enumerable_magic_25_take_the_first_n_elements/kyu8/ZywOo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enumerable_magic_25_take_the_first_n_elements/kyu8/ZywOo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tip_calculator/kyu8/TipCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tip_calculator/kyu8/TipCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,27 +96,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tip_calculator.kyu8" />
       <recent name="enumerable_magic_25_take_the_first_n_elements.kyu8" />
       <recent name="grasshopper_basic_function_fixer.kyu8" />
       <recent name="smallest_unused_ID.kyu8" />
       <recent name="lario_and_muigi_pipe_problem.kyu8" />
-      <recent name="a_wolf_in_sheep_s_clothing.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ZywOoTest (1)">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lario_and_muigi_pipe_problem.kyu8.Kata" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lario_and_muigi_pipe_problem.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TipCalculatorTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -171,6 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TipCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tip_calculator.kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tip_calculator.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="tip_calculator.kyu8.TipCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZywOoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -188,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TipCalculatorTest" />
         <item itemvalue="JUnit.ZywOoTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +236,7 @@
       <workItem from="1617618808244" duration="70000" />
       <workItem from="1617618891433" duration="524000" />
       <workItem from="1617619424510" duration="25754000" />
-      <workItem from="1618337939024" duration="2655000" />
+      <workItem from="1618337939024" duration="4348000" />
     </task>
     <servers />
   </component>
