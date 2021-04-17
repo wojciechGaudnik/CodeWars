@@ -10,8 +10,8 @@ public class SqProd2Sum {
 
 	public static void main(String[] args) {
 		System.out.println("1");
+		System.out.println("2");
 	}
-
 	public static List<long[]> prod2Sum(long a, long b, long c, long d) {
 		var answer = new LinkedList<long[]>();
 		long number = (long) ((Math.pow(a, 2) + Math.pow(b, 2)) * (Math.pow(c, 2) + Math.pow(d, 2)));
