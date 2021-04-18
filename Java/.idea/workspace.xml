@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/make_a_window/kyu6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/make_a_window/kyu6/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/integers_recreation_two/kyu6/SqProd2Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/integers_recreation_two/kyu6/SqProd2Sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,14 +100,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="make_a_window.kyu6" />
       <recent name="integers_recreation_two.kyu6" />
       <recent name="tip_calculator.kyu8" />
       <recent name="enumerable_magic_25_take_the_first_n_elements.kyu8" />
       <recent name="grasshopper_basic_function_fixer.kyu8" />
-      <recent name="smallest_unused_ID.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SqProd2SumTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="SqProd2Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="integers_recreation_two.kyu6.SqProd2Sum" />
       <module name="CodeWars" />
@@ -147,6 +149,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="make_a_window.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="make_a_window.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="make_a_window.kyu6.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SqProd2SumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -177,28 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZywOoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="enumerable_magic_25_take_the_first_n_elements.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="enumerable_magic_25_take_the_first_n_elements.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="enumerable_magic_25_take_the_first_n_elements.kyu8.ZywOoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SqProd2SumTest" />
         <item itemvalue="Application.SqProd2Sum" />
         <item itemvalue="JUnit.CuboidVolumesTest" />
         <item itemvalue="JUnit.TipCalculatorTest" />
-        <item itemvalue="JUnit.ZywOoTest (1)" />
       </list>
     </recent_temporary>
   </component>
