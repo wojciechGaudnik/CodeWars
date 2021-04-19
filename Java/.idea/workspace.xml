@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/find_last_fibonacci_digit_hardcore_version/kyu6/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/find_last_fibonacci_digit_hardcore_version/kyu6/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/miles_per_gallon_to_kilometers_per_liter/kyu8/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/miles_per_gallon_to_kilometers_per_liter/kyu8/ConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,20 +100,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="miles_per_gallon_to_kilometers_per_liter.kyu8" />
       <recent name="find_last_fibonacci_digit_hardcore_version.kyu6" />
       <recent name="make_a_window.kyu6" />
       <recent name="integers_recreation_two.kyu6" />
       <recent name="tip_calculator.kyu8" />
-      <recent name="enumerable_magic_25_take_the_first_n_elements.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Kata">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="find_last_fibonacci_digit_hardcore_version.kyu6.Kata" />
+  <component name="RunManager" selected="JUnit.ConverterTest">
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="miles_per_gallon_to_kilometers_per_liter.kyu8.Converter" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="find_last_fibonacci_digit_hardcore_version.kyu6.*" />
+          <option name="PATTERN" value="miles_per_gallon_to_kilometers_per_liter.kyu8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqProd2Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="integers_recreation_two.kyu6.SqProd2Sum" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="find_last_fibonacci_digit_hardcore_version.kyu6.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="integers_recreation_two.kyu6.*" />
+          <option name="PATTERN" value="find_last_fibonacci_digit_hardcore_version.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,6 +143,21 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="miles_per_gallon_to_kilometers_per_liter.kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="miles_per_gallon_to_kilometers_per_liter.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="miles_per_gallon_to_kilometers_per_liter.kyu8.ConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,28 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqProd2SumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="integers_recreation_two.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="integers_recreation_two.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="integers_recreation_two.kyu6.SqProd2SumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConverterTest" />
+        <item itemvalue="Application.Converter" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SqProd2SumTest" />
-        <item itemvalue="Application.SqProd2Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -295,11 +295,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOo.java</url>
           <line>5</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/find_last_fibonacci_digit_hardcore_version/kyu6/Kata.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
