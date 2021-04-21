@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/repeatIt/kyu8/RepeatIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multiplication_table_for_number/kyu8/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/multiplication_table_for_number/kyu8/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -98,14 +100,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="multiplication_table_for_number.kyu8" />
+      <recent name="repeatIt.kyu8" />
       <recent name="miles_per_gallon_to_kilometers_per_liter.kyu8" />
       <recent name="find_last_fibonacci_digit_hardcore_version.kyu6" />
       <recent name="make_a_window.kyu6" />
-      <recent name="integers_recreation_two.kyu6" />
-      <recent name="tip_calculator.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RepeatItTest">
+  <component name="RunManager" selected="Application.Kata (1)">
     <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="miles_per_gallon_to_kilometers_per_liter.kyu8.Converter" />
       <module name="CodeWars" />
@@ -119,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="find_last_fibonacci_digit_hardcore_version.kyu6.Kata" />
+    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiplication_table_for_number.kyu8.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="find_last_fibonacci_digit_hardcore_version.kyu6.*" />
+          <option name="PATTERN" value="multiplication_table_for_number.kyu8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.RepeatItTest" />
         <item itemvalue="Application.RepeatIt" />
         <item itemvalue="JUnit.ConverterTest" />
         <item itemvalue="Application.Converter" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
