@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/how_old_will_i_be_in_2099/kyu8/AgeDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/how_old_will_i_be_in_2099/kyu8/AgeDiffTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/determine_the_date_by_the_day_number/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/determine_the_date_by_the_day_number/kyu6/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,14 +100,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="determine_the_date_by_the_day_number.kyu6" />
       <recent name="how_old_will_i_be_in_2099.kyu8" />
       <recent name="multiplication_table_for_number.kyu8" />
       <recent name="repeatIt.kyu8" />
       <recent name="miles_per_gallon_to_kilometers_per_liter.kyu8" />
-      <recent name="find_last_fibonacci_digit_hardcore_version.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AgeDiffTest">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
     <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multiplication_table_for_number.kyu8.Kata" />
       <module name="CodeWars" />
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="repeatIt.kyu8.RepeatIt" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="determine_the_date_by_the_day_number.kyu6.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="repeatIt.kyu8.*" />
+          <option name="PATTERN" value="determine_the_date_by_the_day_number.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,6 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="determine_the_date_by_the_day_number.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="determine_the_date_by_the_day_number.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="determine_the_date_by_the_day_number.kyu6.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -175,28 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatItTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="repeatIt.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="repeatIt.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="repeatIt.kyu8.RepeatItTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.AgeDiffTest" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata (1)" />
-        <item itemvalue="JUnit.RepeatItTest" />
-        <item itemvalue="Application.RepeatIt" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +238,7 @@
       <workItem from="1617619424510" duration="25754000" />
       <workItem from="1618337939024" duration="5258000" />
       <workItem from="1618607205612" duration="6880000" />
-      <workItem from="1619205872963" duration="315000" />
+      <workItem from="1619205872963" duration="2919000" />
     </task>
     <servers />
   </component>
