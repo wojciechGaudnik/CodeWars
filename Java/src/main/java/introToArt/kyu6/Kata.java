@@ -3,9 +3,6 @@ package introToArt.kyu6;
 import java.util.Arrays;
 
 public class Kata {
-	public static void main(String[] args) {
-		System.out.println(String.join("\n", getW(1)));
-	}
 
 	public static String[] getW(int height) {
 		if (height <= 1) {
