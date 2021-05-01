@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/find_the_integral/kyu8/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/find_the_integral/kyu8/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/duck_duck_goose/kyu8/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/duck_duck_goose/kyu8/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sum_of_differences_in_array/kyu8/ZywOo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_differences_in_array/kyu8/ZywOo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/find_the_integral/kyu8/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/find_the_integral/kyu8/Kata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,15 @@
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SCOPE" value="All" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/sum_of_differences_in_array/kyu8/ZywOo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/duck_duck_goose/kyu8/Kata.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/find_the_integral/kyu8/KataTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/find_the_integral/kyu8/Kata.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/sum_of_differences_in_array/kyu8/ZywOoTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/push_a_hash_an_object_into_array/kyu8/PushAnObjectIntoArray.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/push_a_hash_an_object_into_array/kyu8/PushAnObjectIntoArrayTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="NamedScopeManager">
     <scope name="Unnamed" pattern="" />
@@ -101,14 +111,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="duck_duck_goose.kyu8" />
       <recent name="find_the_integral.kyu8" />
       <recent name="sum_of_differences_in_array.kyu8" />
       <recent name="push_a_hash_an_object_into_array.kyu8" />
       <recent name="multiple_of_index.kyu8" />
-      <recent name="introToArt.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
+    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="duck_duck_goose.kyu8.Kata" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="duck_duck_goose.kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="find_the_integral.kyu8.Kata" />
       <module name="CodeWars" />
@@ -122,28 +145,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZywOo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sum_of_differences_in_array.kyu8.ZywOo" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sum_of_differences_in_array.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="duck_duck_goose.kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="duck_duck_goose.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="duck_duck_goose.kyu8.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,21 +181,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="find_the_integral.kyu8" />
       <option name="MAIN_CLASS_NAME" value="find_the_integral.kyu8.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PushAnObjectIntoArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="push_a_hash_an_object_into_array.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="push_a_hash_an_object_into_array.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="push_a_hash_an_object_into_array.kyu8.PushAnObjectIntoArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
+        <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.ZywOoTest" />
-        <item itemvalue="Application.ZywOo (1)" />
-        <item itemvalue="JUnit.PushAnObjectIntoArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +250,8 @@
       <workItem from="1618337939024" duration="5258000" />
       <workItem from="1618607205612" duration="6880000" />
       <workItem from="1619205872963" duration="16121000" />
-      <workItem from="1619805244733" duration="1036000" />
+      <workItem from="1619805244733" duration="1733000" />
+      <workItem from="1619880210940" duration="2403000" />
     </task>
     <servers />
   </component>
