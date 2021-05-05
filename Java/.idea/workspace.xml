@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/age_range_compatibility_equation/kyu8/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/age_range_compatibility_equation/kyu8/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be_concise_i_the_ternary_operator/kyu8/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be_concise_i_the_ternary_operator/kyu8/CTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,14 +109,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="be_concise_i_the_ternary_operator.kyu8" />
       <recent name="age_range_compatibility_equation.kyu8" />
       <recent name="wilson_primes.kyu8" />
       <recent name="find_the_slope.kyu8" />
       <recent name="duck_duck_goose.kyu8" />
-      <recent name="find_the_integral.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
+  <component name="RunManager" selected="JUnit.CTest">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="age_range_compatibility_equation.kyu8.Kata" />
       <module name="CodeWars" />
@@ -156,6 +156,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be_concise_i_the_ternary_operator.kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be_concise_i_the_ternary_operator.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="be_concise_i_the_ternary_operator.kyu8.CTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -166,21 +181,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="age_range_compatibility_equation.kyu8" />
       <option name="MAIN_CLASS_NAME" value="age_range_compatibility_equation.kyu8.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlopeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="find_the_slope.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="find_the_slope.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="find_the_slope.kyu8.SlopeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CTest" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.WilsonPrimeTest" />
         <item itemvalue="Application.WilsonPrime" />
-        <item itemvalue="JUnit.SlopeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +252,7 @@
       <workItem from="1619205872963" duration="16121000" />
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
-      <workItem from="1619977530797" duration="5047000" />
+      <workItem from="1619977530797" duration="6647000" />
     </task>
     <servers />
   </component>
@@ -308,11 +308,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOo.java</url>
           <line>5</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/age_range_compatibility_equation/kyu8/Kata.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
