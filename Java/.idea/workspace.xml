@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pythagorean_triple/kyu8/PythagoreanTriple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy_logs/kyu8/EasyLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/easy_logs/kyu8/EasyLogsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/age_range_compatibility_equation/kyu8/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/age_range_compatibility_equation/kyu8/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pythagorean_triple/kyu8/PythagoreanTriple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pythagorean_triple/kyu8/PythagoreanTriple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -107,14 +111,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="easy_logs.kyu8" />
+      <recent name="pythagorean_triple.kyu8" />
       <recent name="be_concise_i_the_ternary_operator.kyu8" />
       <recent name="age_range_compatibility_equation.kyu8" />
       <recent name="wilson_primes.kyu8" />
-      <recent name="find_the_slope.kyu8" />
-      <recent name="duck_duck_goose.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PythagoreanTripleTest">
+  <component name="RunManager" selected="JUnit.EasyLogsTest">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="age_range_compatibility_equation.kyu8.Kata" />
       <module name="CodeWars" />
@@ -156,6 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EasyLogsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy_logs.kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="easy_logs.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="easy_logs.kyu8.EasyLogsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -186,28 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WilsonPrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wilson_primes.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wilson_primes.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="wilson_primes.kyu8.WilsonPrimeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EasyLogsTest" />
         <item itemvalue="JUnit.PythagoreanTripleTest" />
         <item itemvalue="JUnit.CTest" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.WilsonPrimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +256,7 @@
       <workItem from="1619205872963" duration="16121000" />
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
-      <workItem from="1619977530797" duration="7282000" />
+      <workItem from="1619977530797" duration="8364000" />
     </task>
     <servers />
   </component>
