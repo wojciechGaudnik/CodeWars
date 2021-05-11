@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/is_valid_identifier/kyu7/IdentifierChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/is_valid_identifier/kyu7/IdentifierCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/currying_functions_multiply_all_elements_in_an_array/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/currying_functions_multiply_all_elements_in_an_array/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,14 +109,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="currying_functions_multiply_all_elements_in_an_array.kyu7" />
       <recent name="is_valid_identifier.kyu7" />
       <recent name="fuel_calculator.kyu8" />
       <recent name="localize_the_barycenter_of_a_triangle.kyu8" />
       <recent name="easy_logs.kyu8" />
-      <recent name="pythagorean_triple.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IdentifierCheckerTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -190,16 +190,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PythagoreanTripleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pythagorean_triple.kyu8.*" />
+          <option name="PATTERN" value="currying_functions_multiply_all_elements_in_an_array.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pythagorean_triple.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="pythagorean_triple.kyu8.PythagoreanTripleTest" />
+      <option name="PACKAGE_NAME" value="currying_functions_multiply_all_elements_in_an_array.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="currying_functions_multiply_all_elements_in_an_array.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.IdentifierCheckerTest" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.BarycenterTest" />
         <item itemvalue="JUnit.EasyLogsTest" />
-        <item itemvalue="JUnit.PythagoreanTripleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1619205872963" duration="16121000" />
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
-      <workItem from="1619977530797" duration="14120000" />
+      <workItem from="1619977530797" duration="15083000" />
     </task>
     <servers />
   </component>
