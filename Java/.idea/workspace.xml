@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/currying_functions_multiply_all_elements_in_an_array/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/currying_functions_multiply_all_elements_in_an_array/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/all_star_code_challenge_22/kyu7/TimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/all_star_code_challenge_22/kyu7/TimeConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/localize_the_barycenter_of_a_triangle/kyu8/Barycenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localize_the_barycenter_of_a_triangle/kyu8/Barycenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,16 +117,14 @@
       <recent name="easy_logs.kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TimeConverterTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,21 +139,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="localize_the_barycenter_of_a_triangle.kyu8" />
       <option name="MAIN_CLASS_NAME" value="localize_the_barycenter_of_a_triangle.kyu8.BarycenterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EasyLogsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy_logs.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="easy_logs.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="easy_logs.kyu8.EasyLogsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,13 +189,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="all_star_code_challenge_22.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="all_star_code_challenge_22.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="all_star_code_challenge_22.kyu7.TimeConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeConverterTest" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.IdentifierCheckerTest" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.BarycenterTest" />
-        <item itemvalue="JUnit.EasyLogsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +256,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
+      <workItem from="1620830928952" duration="328000" />
     </task>
     <servers />
   </component>
@@ -312,11 +312,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOo.java</url>
           <line>5</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/is_valid_identifier/kyu7/IdentifierChecker.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
