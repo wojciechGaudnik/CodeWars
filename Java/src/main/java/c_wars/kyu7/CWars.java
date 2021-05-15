@@ -2,8 +2,7 @@ package c_wars.kyu7;
 
 public class CWars {
 
-	public static String initials(String name){
-		System.out.println(name);
+	public static String initials(String name){ //<--- broken ??? on codeWars ?
 		var split = name.split(" ");
 		StringBuilder answer = new StringBuilder();
 		for (var i = 0; i < split.length - 1; i++) {
