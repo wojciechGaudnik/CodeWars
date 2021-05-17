@@ -18,4 +18,5 @@ public class Crypto {
 		}
 		return answer.deleteCharAt(answer.length() - 1).toString();
 	}
+
 }
