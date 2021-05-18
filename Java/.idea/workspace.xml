@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bingo_or_not/kyu7/BingoOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bingo_or_not/kyu7/BingoOrNotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/largest_pair_sum_in_array/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/largest_pair_sum_in_array/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cryptanalysis_word_patterns/kyu7/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cryptanalysis_word_patterns/kyu7/Crypto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,14 +109,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="largest_pair_sum_in_array.kyu7" />
       <recent name="bingo_or_not.kyu7" />
       <recent name="cryptanalysis_word_patterns.kyu7" />
       <recent name="determine_if_the_poker_hand_is_flush.kyu7" />
       <recent name="c_wars.kyu7" />
-      <recent name="the_office_III_broken_photocopier.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BingoOrNotTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="BingoOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bingo_or_not.kyu7.BingoOrNot" />
       <module name="CodeWars" />
@@ -185,16 +184,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="determine_if_the_poker_hand_is_flush.kyu7.*" />
+          <option name="PATTERN" value="largest_pair_sum_in_array.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="determine_if_the_poker_hand_is_flush.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="determine_if_the_poker_hand_is_flush.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="largest_pair_sum_in_array.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="largest_pair_sum_in_array.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.BingoOrNotTest" />
         <item itemvalue="Application.BingoOrNot" />
         <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.CryptoTest" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +251,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="9657000" />
+      <workItem from="1620830928952" duration="11475000" />
     </task>
     <servers />
   </component>
