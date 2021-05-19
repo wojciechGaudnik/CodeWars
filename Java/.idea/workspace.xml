@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/largest_pair_sum_in_array/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/largest_pair_sum_in_array/kyu7/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ordering_the_words/kyu7/Ordering.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -116,7 +114,7 @@
       <recent name="c_wars.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.OrderingTest">
     <configuration name="BingoOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bingo_or_not.kyu7.BingoOrNot" />
       <module name="CodeWars" />
@@ -169,16 +167,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CryptoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cryptanalysis_word_patterns.kyu7.*" />
+          <option name="PATTERN" value="ordering_the_words.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cryptanalysis_word_patterns.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="cryptanalysis_word_patterns.kyu7.CryptoTest" />
+      <option name="PACKAGE_NAME" value="ordering_the_words.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="ordering_the_words.kyu7.OrderingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -201,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderingTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.BingoOrNotTest" />
         <item itemvalue="Application.BingoOrNot" />
         <item itemvalue="Application.Kata (1)" />
-        <item itemvalue="JUnit.CryptoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +249,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="11475000" />
+      <workItem from="1620830928952" duration="12175000" />
     </task>
     <servers />
   </component>
