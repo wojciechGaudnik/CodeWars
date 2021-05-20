@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ordering_the_words/kyu7/Ordering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ultimate_array_reverser/kyu7/ArrayReverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ultimate_array_reverser/kyu7/ArrayReverserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -107,14 +109,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ultimate_array_reverser.kyu7" />
+      <recent name="ordering_the_words.kyu7" />
       <recent name="largest_pair_sum_in_array.kyu7" />
       <recent name="bingo_or_not.kyu7" />
       <recent name="cryptanalysis_word_patterns.kyu7" />
-      <recent name="determine_if_the_poker_hand_is_flush.kyu7" />
-      <recent name="c_wars.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderingTest">
+  <component name="RunManager" selected="JUnit.ArrayReverserTest">
     <configuration name="BingoOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bingo_or_not.kyu7.BingoOrNot" />
       <module name="CodeWars" />
@@ -128,25 +130,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="determine_if_the_poker_hand_is_flush.kyu7.Kata" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="determine_if_the_poker_hand_is_flush.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayReverserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ultimate_array_reverser.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ultimate_array_reverser.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="ultimate_array_reverser.kyu7.ArrayReverserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayReverserTest" />
         <item itemvalue="JUnit.OrderingTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.BingoOrNotTest" />
         <item itemvalue="Application.BingoOrNot" />
-        <item itemvalue="Application.Kata (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +253,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="12175000" />
+      <workItem from="1620830928952" duration="14346000" />
     </task>
     <servers />
   </component>
