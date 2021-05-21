@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ultimate_array_reverser/kyu7/ArrayReverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ultimate_array_reverser/kyu7/ArrayReverserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compound_array/kyu7/CompoundArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/compound_array/kyu7/CompoundArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,27 +109,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="compound_array.kyu7" />
       <recent name="ultimate_array_reverser.kyu7" />
       <recent name="ordering_the_words.kyu7" />
       <recent name="largest_pair_sum_in_array.kyu7" />
       <recent name="bingo_or_not.kyu7" />
-      <recent name="cryptanalysis_word_patterns.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayReverserTest">
-    <configuration name="BingoOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bingo_or_not.kyu7.BingoOrNot" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bingo_or_not.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CompoundArrayTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -171,6 +158,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompoundArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compound_array.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="compound_array.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="compound_array.kyu7.CompoundArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -203,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompoundArrayTest" />
         <item itemvalue="JUnit.ArrayReverserTest" />
         <item itemvalue="JUnit.OrderingTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.BingoOrNotTest" />
-        <item itemvalue="Application.BingoOrNot" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +255,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="14346000" />
+      <workItem from="1620830928952" duration="15666000" />
     </task>
     <servers />
   </component>
@@ -309,6 +311,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOo.java</url>
           <line>5</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/compound_array/kyu7/CompoundArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/compound_array/kyu7/CompoundArray.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
