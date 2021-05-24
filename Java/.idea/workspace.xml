@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tv_remote_shift_and_space/kyu6/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tv_remote_shift_and_space/kyu6/DinglemouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tv_remote_wrap/kyu6/Dinglemouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tv_remote_wrap/kyu6/DinglemouseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,14 +109,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tv_remote_wrap.kyu6" />
       <recent name="tv_remote_shift_and_space.kyu6" />
       <recent name="powers_of_i.kyu7" />
       <recent name="compound_array.kyu7" />
       <recent name="ultimate_array_reverser.kyu7" />
-      <recent name="ordering_the_words.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DinglemouseTest">
+  <component name="RunManager" selected="JUnit.DinglemouseTest (1)">
     <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tv_remote_shift_and_space.kyu6.Dinglemouse" />
       <module name="CodeWars" />
@@ -130,25 +130,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="powers_of_i.kyu7.Kata" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="powers_of_i.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DinglemouseTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tv_remote_wrap.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tv_remote_wrap.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="tv_remote_wrap.kyu6.DinglemouseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DinglemouseTest (1)" />
         <item itemvalue="JUnit.DinglemouseTest" />
         <item itemvalue="JUnit.DinglemouseTest.example" />
         <item itemvalue="Application.Dinglemouse" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +254,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="24125000" />
+      <workItem from="1620830928952" duration="25138000" />
     </task>
     <servers />
   </component>
