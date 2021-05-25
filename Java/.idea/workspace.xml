@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tv_remote_wrap/kyu6/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tv_remote_wrap/kyu6/DinglemouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word_to_initial_number/kyu7/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/word_to_initial_number/kyu7/ConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,20 +109,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="word_to_initial_number.kyu7" />
       <recent name="tv_remote_wrap.kyu6" />
       <recent name="tv_remote_shift_and_space.kyu6" />
       <recent name="powers_of_i.kyu7" />
       <recent name="compound_array.kyu7" />
-      <recent name="ultimate_array_reverser.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DinglemouseTest (1)">
-    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tv_remote_shift_and_space.kyu6.Dinglemouse" />
+  <component name="RunManager" selected="Application.Converter">
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="word_to_initial_number.kyu7.Converter" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tv_remote_shift_and_space.kyu6.*" />
+          <option name="PATTERN" value="word_to_initial_number.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +136,21 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="word_to_initial_number.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="word_to_initial_number.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="word_to_initial_number.kyu7.ConverterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,28 +202,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="powers_of_i.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="powers_of_i.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="powers_of_i.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Converter" />
+        <item itemvalue="JUnit.ConverterTest" />
         <item itemvalue="JUnit.DinglemouseTest (1)" />
         <item itemvalue="JUnit.DinglemouseTest" />
         <item itemvalue="JUnit.DinglemouseTest.example" />
-        <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="25138000" />
+      <workItem from="1620830928952" duration="26944000" />
     </task>
     <servers />
   </component>
