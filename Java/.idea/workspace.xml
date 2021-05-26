@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/word_to_initial_number/kyu7/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/word_to_initial_number/kyu7/ConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/overflowing_with_longing/kyu7/Multiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/overflowing_with_longing/kyu7/MultiplierTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/word_to_initial_number/kyu7/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/word_to_initial_number/kyu7/Converter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,14 +110,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="overflowing_with_longing.kyu7" />
       <recent name="word_to_initial_number.kyu7" />
       <recent name="tv_remote_wrap.kyu6" />
       <recent name="tv_remote_shift_and_space.kyu6" />
       <recent name="powers_of_i.kyu7" />
-      <recent name="compound_array.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Converter">
+  <component name="RunManager" selected="JUnit.MultiplierTest">
     <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="word_to_initial_number.kyu7.Converter" />
       <module name="CodeWars" />
@@ -186,29 +187,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinglemouseTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiplierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tv_remote_shift_and_space.kyu6.*" />
+          <option name="PATTERN" value="overflowing_with_longing.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tv_remote_shift_and_space.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="tv_remote_shift_and_space.kyu6.DinglemouseTest" />
-      <option name="METHOD_NAME" value="example" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="overflowing_with_longing.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="overflowing_with_longing.kyu7.MultiplierTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiplierTest" />
         <item itemvalue="Application.Converter" />
         <item itemvalue="JUnit.ConverterTest" />
         <item itemvalue="JUnit.DinglemouseTest (1)" />
         <item itemvalue="JUnit.DinglemouseTest" />
-        <item itemvalue="JUnit.DinglemouseTest.example" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="26944000" />
+      <workItem from="1620830928952" duration="28070000" />
     </task>
     <servers />
   </component>

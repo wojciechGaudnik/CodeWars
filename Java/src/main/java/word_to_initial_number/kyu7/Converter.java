@@ -24,5 +24,3 @@ public class Converter {
 		return Long.parseLong(answer.toString());
 	}
 }
-
-j
