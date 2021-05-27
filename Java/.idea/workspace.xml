@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/overflowing_with_longing/kyu7/Multiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/overflowing_with_longing/kyu7/MultiplierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linked_lists_append/kyu7/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/linked_lists_append/kyu7/NodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/word_to_initial_number/kyu7/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/word_to_initial_number/kyu7/Converter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,11 +109,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="linked_lists_append.kyu7" />
       <recent name="overflowing_with_longing.kyu7" />
       <recent name="word_to_initial_number.kyu7" />
       <recent name="tv_remote_wrap.kyu6" />
       <recent name="tv_remote_shift_and_space.kyu6" />
-      <recent name="powers_of_i.kyu7" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MultiplierTest">
@@ -254,7 +253,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="28070000" />
+      <workItem from="1620830928952" duration="29672000" />
     </task>
     <servers />
   </component>
