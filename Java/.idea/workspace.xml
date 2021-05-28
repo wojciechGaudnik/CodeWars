@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/linked_lists_append/kyu7/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/linked_lists_append/kyu7/NodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/not_prime_numbers/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string_task/kyu7/StringTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/not_prime_numbers/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/string_task/kyu7/StringTaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -109,20 +111,33 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="string_task.kyu7" />
+      <recent name="not_prime_numbers.kyu7" />
       <recent name="linked_lists_append.kyu7" />
       <recent name="overflowing_with_longing.kyu7" />
       <recent name="word_to_initial_number.kyu7" />
-      <recent name="tv_remote_wrap.kyu6" />
-      <recent name="tv_remote_shift_and_space.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiplierTest">
+  <component name="RunManager" selected="JUnit.StringTaskTest">
     <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="word_to_initial_number.kyu7.Converter" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="word_to_initial_number.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="not_prime_numbers.kyu7.Solution" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="not_prime_numbers.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,36 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinglemouseTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tv_remote_wrap.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tv_remote_wrap.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="tv_remote_wrap.kyu6.DinglemouseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tv_remote_shift_and_space.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tv_remote_shift_and_space.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="tv_remote_shift_and_space.kyu6.DinglemouseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultiplierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -201,13 +186,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_task.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string_task.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="string_task.kyu7.StringTaskTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringTaskTest" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.MultiplierTest" />
         <item itemvalue="Application.Converter" />
         <item itemvalue="JUnit.ConverterTest" />
-        <item itemvalue="JUnit.DinglemouseTest (1)" />
-        <item itemvalue="JUnit.DinglemouseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +253,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="29672000" />
+      <workItem from="1620830928952" duration="33755000" />
     </task>
     <servers />
   </component>
@@ -309,6 +309,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOo.java</url>
           <line>5</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/not_prime_numbers/kyu7/Solution.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
