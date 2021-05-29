@@ -1,72 +1,82 @@
 package not_prime_numbers.kyu7;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Solution {
 
-	public static void main(String[] args) {
-//		System.out.println(isPrime(2));
-//		System.out.println(isPrime(3));
-//		System.out.println(isPrime(5));
-//		System.out.println(isPrime(7));
-////		System.out.println(first(999));
-////		System.out.println("2".compareTo("3"));
-////
-////		System.out.println("3".compareTo("2"));
-////		System.out.println(first(123456789));
-//
-//
-//		var test = new StringBuilder();
-//		for (var i = 1; i < 10; i++) {
-//			test.insert(0, i);
-//		}
-//		System.out.println(test);
-		System.out.println(first(999));
-		System.out.println(10 % 10);
-		System.out.println(1 % 10);
-		System.out.println(2 % 10);
-		System.out.println(3 % 10);
-	}
-
-	private static Map<String, String> primes = new HashMap<>();
+	private static Map<Character, Character> primes = new HashMap<>();
 
 	static {
-		primes.put("2", "3");
-		primes.put("3", "5");
-		primes.put("5", "7");
-		primes.put("7", "2");
+		primes.put('2', '3');
+		primes.put('3', '5');
+		primes.put('5', '7');
+		primes.put('7', '2');
 	}
 
-	private static int first(int number) {
-		var primes = "2357";
+	public static List<Integer> notPrimes(int a, int b) {
+		var answer = new LinkedList<Integer>();
+		a = first(a);
+		while (a < b) {
+			if (!isPrime(a)) {
+				answer.add(a);
+			}
+			a = next(a);
+		}
+		return answer.stream().sorted().collect(Collectors.toList());
+	}
+
+	private static int first(int num) {
+		while (true) {
+			if (String.valueOf(num).replaceAll("2|3|5|7", "").equals("")) {
+				return num;
+			}
+			num++;
+		}
+	}
+
+	private static int first1(int num) {
+		var number = String.valueOf(num);
 		var answer = new StringBuilder();
-		for (var one : String.valueOf(number).toCharArray()) {
-			if (!primes.contains(String.valueOf(one))) {
-				for (var i = (int) one % 10; ; i++) {
-					if (primes.contains(String.valueOf(i))) {
-						answer.insert(0, i);
-						break;
-					}
+		var prime = "2357";
+		for (var one : number.toCharArray()) {
+			var oneInt = Integer.parseInt(String.valueOf(one));
+			while (!prime.contains(String.valueOf(oneInt))) {
+				oneInt++;
+				if (oneInt >= 10) {
+					oneInt = 1;
 				}
+			}
+			answer.insert(0, oneInt);
+		}
+		if (number.charAt(0) == '8' || number.charAt(0) == '9') {
+			answer.insert(0, 2);
+		}
+		return Integer.parseInt(answer.reverse().toString());
+	}
+
+	private static int next(int num) {
+		var number = new StringBuilder(String.valueOf(num)).reverse().toString();
+		var switchDigit = true;
+		var answer = new StringBuilder();
+		for (var one : number.toCharArray()) {
+			if (switchDigit && one == '7') {
+				answer.insert(0, primes.get(one));
+			} else if (switchDigit) {
+				answer.insert(0, primes.get(one));
+				switchDigit = false;
 			} else {
 				answer.insert(0, one);
 			}
 		}
-		return Integer.parseInt(answer.toString());
-	}
-
-	public static List<Integer> notPrimes(int a, int b) {
-		var answer = new ArrayList<Integer>();
-		var answer2 = new LinkedList<Integer>();
-
-//		for (var i = 1; ; i += 10) {
-//
-//		}
-		return answer;
+		if (switchDigit) {
+			answer.insert(0, '2');
+		}
+		number = answer.toString();
+		return Integer.parseInt(number);
 	}
 
 
