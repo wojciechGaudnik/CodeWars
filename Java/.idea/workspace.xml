@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/word_segmentation_max_match/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/word_segmentation_max_match/kyu6/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/not_prime_numbers/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/not_prime_numbers/kyu7/Solution.java" afterDir="false" />
     </list>
-    <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/not_prime_numbers/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/not_prime_numbers/kyu7/Solution.java" afterDir="false" />
-    </list>
+    <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,16 +55,6 @@
     <setting file="file://$PROJECT_DIR$/src/test/java/sum_of_differences_in_array/kyu8/ZywOoTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/push_a_hash_an_object_into_array/kyu8/PushAnObjectIntoArray.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/push_a_hash_an_object_into_array/kyu8/PushAnObjectIntoArrayTest.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/not_prime_numbers/kyu7/Solution.java">
-      <ranges>
-        <range start1="2" end1="3" start2="2" end2="2" changelist="cc9f06ae-e12c-4d72-9687-2acc105232c6" />
-        <range start1="7" end1="7" start2="6" end2="7" changelist="cc9f06ae-e12c-4d72-9687-2acc105232c6" />
-        <range start1="27" end1="32" start2="27" end2="108" changelist="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" />
-        <range start1="34" end1="71" start2="110" end2="110" changelist="cc9f06ae-e12c-4d72-9687-2acc105232c6" />
-      </ranges>
-    </file>
   </component>
   <component name="NamedScopeManager">
     <scope name="Unnamed" pattern="" />
@@ -121,14 +110,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="word_segmentation_max_match.kyu6" />
       <recent name="string_task.kyu7" />
       <recent name="not_prime_numbers.kyu7" />
       <recent name="linked_lists_append.kyu7" />
       <recent name="overflowing_with_longing.kyu7" />
-      <recent name="word_to_initial_number.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="not_prime_numbers.kyu7.Solution" />
       <module name="CodeWars" />
@@ -153,17 +142,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="overflowing_with_longing.kyu7.*" />
+          <option name="PATTERN" value="word_segmentation_max_match.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="overflowing_with_longing.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="overflowing_with_longing.kyu7.MultiplierTest" />
+      <option name="PACKAGE_NAME" value="word_segmentation_max_match.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="word_segmentation_max_match.kyu6.KataTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest.goodLuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="word_segmentation_max_match.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="word_segmentation_max_match.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="word_segmentation_max_match.kyu6.KataTest" />
+      <option name="METHOD_NAME" value="goodLuck" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,28 +204,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string_task.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string_task.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="string_task.kyu7.StringTaskTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="JUnit.KataTest.goodLuck" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.SolutionTest.basicTests" />
-        <item itemvalue="JUnit.StringTaskTest" />
-        <item itemvalue="JUnit.MultiplierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +257,7 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="42042000" />
+      <workItem from="1620830928952" duration="44031000" />
     </task>
     <servers />
   </component>
