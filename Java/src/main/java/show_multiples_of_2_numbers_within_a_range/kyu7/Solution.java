@@ -5,16 +5,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Solution {
-	public static void main(String[] args) {
-		System.out.println(findMultiples(20, 16, 1000));
-		System.out.println(8 % 4);
-		System.out.println(4 % 8);
-	}
 
 	public static List<Integer> findMultiples1(int s1, int s2, int s3) {
-		System.out.println(s1);
-		System.out.println(s2);
-		System.out.println(s3);
 		List<Integer> arr = new ArrayList<Integer>();
 		for (int i = s1; i * s1 < s3; i++) {
 			if ((s1 * i) % s2 == 0) {
