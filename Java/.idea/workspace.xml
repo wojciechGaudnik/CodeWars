@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/snail_crawls_up/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/snail_crawls_up/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/killer_garage_door/kyu6/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/killer_garage_door/kyu6/DoorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/show_multiples_of_2_numbers_within_a_range/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/show_multiples_of_2_numbers_within_a_range/kyu7/Solution.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -104,6 +104,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="killer_garage_door.kyu6" />
       <recent name="where_is_vasya.kyu7" />
       <recent name="responsible_drinking.kyu7" />
     </key>
@@ -111,20 +112,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="killer_garage_door.kyu6" />
       <recent name="snail_crawls_up.kyu7" />
       <recent name="show_multiples_of_2_numbers_within_a_range.kyu7" />
       <recent name="recursion_101.kyu7" />
       <recent name="word_segmentation_max_match.kyu6" />
-      <recent name="string_task.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (1)">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="show_multiples_of_2_numbers_within_a_range.kyu7.Solution" />
+  <component name="RunManager" selected="JUnit.DoorTest">
+    <configuration name="Door" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="killer_garage_door.kyu6.Door" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="show_multiples_of_2_numbers_within_a_range.kyu7.*" />
+          <option name="PATTERN" value="killer_garage_door.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +133,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="killer_garage_door.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="killer_garage_door.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="killer_garage_door.kyu6.DoorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoorTest.testExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="killer_garage_door.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="killer_garage_door.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="killer_garage_door.kyu6.DoorTest" />
+      <option name="METHOD_NAME" value="testExample2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,36 +187,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="snail_crawls_up.kyu7" />
       <option name="MAIN_CLASS_NAME" value="snail_crawls_up.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="word_segmentation_max_match.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="word_segmentation_max_match.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="word_segmentation_max_match.kyu6.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion_101.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="recursion_101.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="recursion_101.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DoorTest" />
+        <item itemvalue="JUnit.DoorTest.testExample2" />
+        <item itemvalue="Application.Door" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.SolutionTest (2)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +260,8 @@
       <workItem from="1619805244733" duration="1733000" />
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
-      <workItem from="1620830928952" duration="49295000" />
+      <workItem from="1620830928952" duration="49932000" />
+      <workItem from="1622670237830" duration="7251000" />
     </task>
     <servers />
   </component>
@@ -312,6 +317,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOo.java</url>
           <line>5</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/killer_garage_door/kyu6/Door.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
