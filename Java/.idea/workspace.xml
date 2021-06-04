@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/killer_garage_door/kyu6/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/killer_garage_door/kyu6/DoorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_functional_programming_part_1_the_beginning/kyu7/FunctionalProgramming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/java_functional_programming_part_1_the_beginning/kyu7/FunctionalProgrammingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/java_functional_programming_part_1_the_beginning/kyu7/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -22,9 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Enum" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,6 +105,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
       <recent name="killer_garage_door.kyu6" />
       <recent name="where_is_vasya.kyu7" />
       <recent name="responsible_drinking.kyu7" />
@@ -112,11 +114,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
       <recent name="killer_garage_door.kyu6" />
       <recent name="snail_crawls_up.kyu7" />
       <recent name="show_multiples_of_2_numbers_within_a_range.kyu7" />
       <recent name="recursion_101.kyu7" />
-      <recent name="word_segmentation_max_match.kyu6" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DoorTest">
@@ -261,7 +263,7 @@
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
-      <workItem from="1622670237830" duration="7251000" />
+      <workItem from="1622670237830" duration="9068000" />
     </task>
     <servers />
   </component>
@@ -320,14 +322,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/killer_garage_door/kyu6/Door.java</url>
-          <line>61</line>
+          <line>49</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="killer_garage_door.kyu6.Door$KillerDoor" memberName="state" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="answer" />
+        <watch expression="((KillerDoor)this).histogramLevels" custom="killer_garage_door.kyu6.Door.KillerDoor" />
       </configuration>
       <configuration name="Application">
         <watch expression="test2" />
