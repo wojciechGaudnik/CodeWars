@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_functional_programming_part_2_multiple_functions/kyu7/FunctionalProgramming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/java_functional_programming_part_2_multiple_functions/kyu7/FunctionalProgrammingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ghostbusters_whitespace_removal/kyu7/Ghostbusters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ghostbusters_whitespace_removal/kyu7/GhostbustersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_functional_programming_part_1_the_beginning/kyu7/FunctionalProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_functional_programming_part_1_the_beginning/kyu7/FunctionalProgramming.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,27 +116,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ghostbusters_whitespace_removal.kyu7" />
       <recent name="java_functional_programming_part_2_multiple_functions.kyu7" />
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
       <recent name="killer_garage_door.kyu6" />
       <recent name="snail_crawls_up.kyu7" />
-      <recent name="show_multiples_of_2_numbers_within_a_range.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionalProgrammingTest">
-    <configuration name="Door" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="killer_garage_door.kyu6.Door" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="killer_garage_door.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GhostbustersTest">
     <configuration name="FunctionalProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_functional_programming_part_2_multiple_functions.kyu7.FunctionalProgramming" />
       <module name="CodeWars" />
@@ -210,13 +196,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GhostbustersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ghostbusters_whitespace_removal.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ghostbusters_whitespace_removal.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="ghostbusters_whitespace_removal.kyu7.GhostbustersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GhostbustersTest" />
         <item itemvalue="JUnit.FunctionalProgrammingTest" />
         <item itemvalue="Application.FunctionalProgramming" />
         <item itemvalue="JUnit.DoorTest" />
         <item itemvalue="JUnit.DoorTest.testExample2" />
-        <item itemvalue="Application.Door" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +265,7 @@
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
-      <workItem from="1622670237830" duration="11412000" />
+      <workItem from="1622670237830" duration="12558000" />
     </task>
     <servers />
   </component>
