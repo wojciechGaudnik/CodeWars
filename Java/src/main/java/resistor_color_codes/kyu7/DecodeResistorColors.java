@@ -29,7 +29,7 @@ public class DecodeResistorColors {
 		if (ohms < 1000) {
 			return (int)ohms + " ohms, " + precision;
 		} else if (ohms < 1000000) {
-			return (ohms / 1000)  + "k ohms, " + precision;
+			return ((ohms / 1000) + "k ohms, " + precision).replaceAll("\\.0", "");
 		} else {
 			return ((ohms / 1000000) + "M ohms, " + precision).replaceAll("\\.0", "");
 		}
