@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/resistor_color_codes/kyu7/DecodeResistorColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resistor_color_codes/kyu7/DecodeResistorColorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatterns/observer/observer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/ForecastDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/WeatherStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/FlyBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/FlyBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/Strategy.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +133,7 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DecodeResistorColorsTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="DateDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="target_date.kyu7.DateDays" />
       <module name="CodeWars" />
@@ -183,21 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalProgrammingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_functional_programming_part_2_multiple_functions.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java_functional_programming_part_2_multiple_functions.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="java_functional_programming_part_2_multiple_functions.kyu7.FunctionalProgrammingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GhostbustersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -213,13 +205,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_merge.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string_merge.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="string_merge.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.DecodeResistorColorsTest" />
         <item itemvalue="JUnit.DateDaysTest" />
         <item itemvalue="Application.DateDays" />
         <item itemvalue="JUnit.GhostbustersTest" />
-        <item itemvalue="JUnit.FunctionalProgrammingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +274,7 @@
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
-      <workItem from="1622670237830" duration="16859000" />
+      <workItem from="1622670237830" duration="18464000" />
     </task>
     <servers />
   </component>
