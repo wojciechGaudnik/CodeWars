@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lucky_number/kyu7/LuckyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lucky_number/kyu7/LuckyNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/heros_root/kyu7/IntSqRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/heros_root/kyu7/IntSqRootTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/ForecastDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/ForecastDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Main.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +116,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="heros_root.kyu7" />
       <recent name="lucky_number.kyu7" />
       <recent name="string_merge.kyu7" />
       <recent name="resistor_color_codes.kyu7" />
       <recent name="target_date.kyu7" />
-      <recent name="ghostbusters_whitespace_removal.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LuckyNumberTest">
+  <component name="RunManager" selected="JUnit.IntSqRootTest">
     <configuration name="LuckyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lucky_number.kyu7.LuckyNumber" />
       <module name="CodeWars" />
@@ -152,21 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="target_date.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="target_date.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="target_date.kyu7.DateDaysTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DecodeResistorColorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -177,6 +160,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="resistor_color_codes.kyu7" />
       <option name="MAIN_CLASS_NAME" value="resistor_color_codes.kyu7.DecodeResistorColorsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntSqRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heros_root.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="heros_root.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="heros_root.kyu7.IntSqRootTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntSqRootTest" />
         <item itemvalue="JUnit.LuckyNumberTest" />
         <item itemvalue="Application.LuckyNumber" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.DecodeResistorColorsTest" />
-        <item itemvalue="JUnit.DateDaysTest" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +264,7 @@
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
-      <workItem from="1622670237830" duration="19673000" />
+      <workItem from="1622670237830" duration="21325000" />
     </task>
     <servers />
   </component>
@@ -332,6 +330,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/resistor_color_codes/kyu7/DecodeResistorColors.java</url>
           <line>24</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/heros_root/kyu7/IntSqRoot.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
