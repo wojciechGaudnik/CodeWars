@@ -5,9 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/heros_root/kyu7/IntSqRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/heros_root/kyu7/IntSqRootTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thinking_testing_true_or_false/kyu7/ThinkingAndTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/thinking_testing_true_or_false/kyu7/ThinkingAndTestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/others.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/src/main/java/other/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/src/main/java/other/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/BinarySearchStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/BubbleSortStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/LinearSearchStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/QuickSortStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/SearchStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/SortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy_plus_lambda/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy_plus_lambda/Context.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/observer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/CurrentConditionsDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/ForecastDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/WeatherStation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/FlyBehaviour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/FlyWithWings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/strategy.iml" beforeDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +116,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaPatternsAndOther" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,20 +147,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="thinking_testing_true_or_false.kyu7" />
       <recent name="heros_root.kyu7" />
       <recent name="lucky_number.kyu7" />
       <recent name="string_merge.kyu7" />
       <recent name="resistor_color_codes.kyu7" />
-      <recent name="target_date.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntSqRootTest">
-    <configuration name="LuckyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lucky_number.kyu7.LuckyNumber" />
+  <component name="RunManager" selected="JUnit.ThinkingAndTestingTest">
+    <configuration name="ThinkingAndTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinking_testing_true_or_false.kyu7.ThinkingAndTesting" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lucky_number.kyu7.*" />
+          <option name="PATTERN" value="thinking_testing_true_or_false.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,21 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecodeResistorColorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="resistor_color_codes.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="resistor_color_codes.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="resistor_color_codes.kyu7.DecodeResistorColorsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IntSqRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -175,21 +191,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="heros_root.kyu7" />
       <option name="MAIN_CLASS_NAME" value="heros_root.kyu7.IntSqRootTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string_merge.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string_merge.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="string_merge.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,13 +211,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinking_testing_true_or_false.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thinking_testing_true_or_false.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="thinking_testing_true_or_false.kyu7.ThinkingAndTestingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThinkingAndTestingTest.myTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinking_testing_true_or_false.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thinking_testing_true_or_false.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="thinking_testing_true_or_false.kyu7.ThinkingAndTestingTest" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThinkingAndTestingTest" />
+        <item itemvalue="Application.ThinkingAndTesting" />
+        <item itemvalue="JUnit.ThinkingAndTestingTest.myTest" />
         <item itemvalue="JUnit.IntSqRootTest" />
         <item itemvalue="JUnit.LuckyNumberTest" />
-        <item itemvalue="Application.LuckyNumber" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="JUnit.DecodeResistorColorsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +296,7 @@
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
-      <workItem from="1622670237830" duration="21325000" />
+      <workItem from="1622670237830" duration="24332000" />
     </task>
     <servers />
   </component>
@@ -333,7 +365,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/heros_root/kyu7/IntSqRoot.java</url>
-          <line>20</line>
+          <line>16</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>

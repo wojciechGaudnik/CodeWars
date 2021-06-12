@@ -1,5 +1,3 @@
-package observer;
-
 public class CurrentConditionsDisplay implements Observer{
 
 	private int temp;
