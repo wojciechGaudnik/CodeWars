@@ -2,19 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>JavaPatterns</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>JavaPatterns</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>observer</module>
-        <module>others</module>
-        <module>strategy</module>
-        <module>strategy_plus_lambda</module>
-        <module>consumer_vs_supplier</module>
-    </modules>
+    <artifactId>consumer_vs_supplier</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

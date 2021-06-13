@@ -5,40 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thinking_testing_true_or_false/kyu7/ThinkingAndTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thinking_testing_true_or_false/kyu7/ThinkingAndTestingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/others.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/src/main/java/other/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/src/main/java/other/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/BinarySearchStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/BubbleSortStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/LinearSearchStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/QuickSortStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/SearchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/SortStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy_plus_lambda/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy_plus_lambda/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fun_with_lists_reduce/kyu6/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fun_with_lists_reduce/kyu6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/html_dynamic_color_string_generation/kyu6/GenerateColorRGB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fun_with_lists_reduce/kyu6/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/html_dynamic_color_string_generation/kyu6/GenerateColorRGBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/consumer/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/consumer/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/supplier/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/observer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/CurrentConditionsDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/ForecastDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/observer/src/observer/WeatherStation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/Duck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/FlyBehaviour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/FlyWithWings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/MallardDuck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/src/strategy/Strategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatterns/strategy/strategy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/CurrentConditionsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/CurrentConditionsDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/ForecastDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/ForecastDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +37,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -147,14 +130,27 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fun_with_lists_reduce.kyu6" />
+      <recent name="html_dynamic_color_string_generation.kyu6" />
       <recent name="thinking_testing_true_or_false.kyu7" />
       <recent name="heros_root.kyu7" />
       <recent name="lucky_number.kyu7" />
-      <recent name="string_merge.kyu7" />
-      <recent name="resistor_color_codes.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThinkingAndTestingTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="GenerateColorRGB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="html_dynamic_color_string_generation.kyu6.GenerateColorRGB" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="html_dynamic_color_string_generation.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThinkingAndTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thinking_testing_true_or_false.kyu7.ThinkingAndTesting" />
       <module name="CodeWars" />
@@ -181,31 +177,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntSqRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenerateColorRGBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heros_root.kyu7.*" />
+          <option name="PATTERN" value="html_dynamic_color_string_generation.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="heros_root.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="heros_root.kyu7.IntSqRootTest" />
+      <option name="PACKAGE_NAME" value="html_dynamic_color_string_generation.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="html_dynamic_color_string_generation.kyu6.GenerateColorRGBTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LuckyNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lucky_number.kyu7.*" />
+          <option name="PATTERN" value="fun_with_lists_reduce.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lucky_number.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="lucky_number.kyu7.LuckyNumberTest" />
+      <option name="PACKAGE_NAME" value="fun_with_lists_reduce.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="fun_with_lists_reduce.kyu6.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,29 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThinkingAndTestingTest.myTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinking_testing_true_or_false.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thinking_testing_true_or_false.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="thinking_testing_true_or_false.kyu7.ThinkingAndTestingTest" />
-      <option name="METHOD_NAME" value="myTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.GenerateColorRGB" />
+        <item itemvalue="JUnit.GenerateColorRGBTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest" />
         <item itemvalue="Application.ThinkingAndTesting" />
-        <item itemvalue="JUnit.ThinkingAndTestingTest.myTest" />
-        <item itemvalue="JUnit.IntSqRootTest" />
-        <item itemvalue="JUnit.LuckyNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +276,7 @@
       <workItem from="1619880210940" duration="2403000" />
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
-      <workItem from="1622670237830" duration="24332000" />
+      <workItem from="1622670237830" duration="28506000" />
     </task>
     <servers />
   </component>
@@ -319,54 +299,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a_rule_of_divisibility_by_7/kyu7/DivSeven.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/simple_array_product/kyu7/Solution.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/credit_card_issuer_checking/kyu7/Kata.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/trumpness_detector/kyu6/Trumpdetector.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/fun_with_lists_reduce/kyu6/Solution.java</url>
           <line>6</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/trumpness_detector/kyu6/Trumpdetector.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/follow_that_spy/kyu6/Routes.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/a_wolf_in_sheep_s_clothing/kyu8/ZywOo.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/killer_garage_door/kyu6/Door.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/resistor_color_codes/kyu7/DecodeResistorColors.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/heros_root/kyu7/IntSqRoot.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="36" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
