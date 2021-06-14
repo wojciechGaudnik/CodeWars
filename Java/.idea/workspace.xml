@@ -5,23 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun_with_lists_reduce/kyu6/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun_with_lists_reduce/kyu6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/html_dynamic_color_string_generation/kyu6/GenerateColorRGB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fun_with_lists_reduce/kyu6/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/html_dynamic_color_string_generation/kyu6/GenerateColorRGBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/consumer/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/consumer/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/supplier/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principal_diagonal_VS_secondary_diagonal/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/principal_diagonal_VS_secondary_diagonal/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/client/GrpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/service/GrpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/service/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/proto/HelloService.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/CurrentConditionsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/CurrentConditionsDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/ForecastDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/ForecastDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/src/main/java/observer/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +36,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -130,14 +129,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="principal_diagonal_VS_secondary_diagonal" />
       <recent name="fun_with_lists_reduce.kyu6" />
       <recent name="html_dynamic_color_string_generation.kyu6" />
       <recent name="thinking_testing_true_or_false.kyu7" />
       <recent name="heros_root.kyu7" />
-      <recent name="lucky_number.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="GenerateColorRGB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="html_dynamic_color_string_generation.kyu6.GenerateColorRGB" />
       <module name="CodeWars" />
@@ -151,28 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThinkingAndTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinking_testing_true_or_false.kyu7.ThinkingAndTesting" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinking_testing_true_or_false.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,6 +171,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="html_dynamic_color_string_generation.kyu6" />
       <option name="MAIN_CLASS_NAME" value="html_dynamic_color_string_generation.kyu6.GenerateColorRGBTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="principal_diagonal_VS_secondary_diagonal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="principal_diagonal_VS_secondary_diagonal" />
+      <option name="MAIN_CLASS_NAME" value="principal_diagonal_VS_secondary_diagonal.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.GenerateColorRGB" />
         <item itemvalue="JUnit.GenerateColorRGBTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest" />
-        <item itemvalue="Application.ThinkingAndTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -277,6 +276,7 @@
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
       <workItem from="1622670237830" duration="28506000" />
+      <workItem from="1623616101568" duration="1427000" />
     </task>
     <servers />
   </component>

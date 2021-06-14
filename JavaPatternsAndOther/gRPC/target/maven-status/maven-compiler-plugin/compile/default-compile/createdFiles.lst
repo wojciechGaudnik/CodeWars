@@ -1,0 +1,17 @@
+dev/gaudnik/grpc/HelloServiceGrpc.class
+dev/gaudnik/grpc/HelloResponse$1.class
+dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceFutureStub.class
+dev/gaudnik/grpc/HelloRequest$Builder.class
+dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceDescriptorSupplier.class
+dev/gaudnik/grpc/HelloResponse$Builder.class
+dev/gaudnik/grpc/HelloRequest.class
+dev/gaudnik/grpc/HelloServiceOuterClass$1.class
+dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceStub.class
+dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceBlockingStub.class
+dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceImplBase.class
+dev/gaudnik/grpc/HelloServiceGrpc$MethodHandlers.class
+dev/gaudnik/grpc/HelloServiceOuterClass.class
+dev/gaudnik/grpc/HelloResponseOrBuilder.class
+dev/gaudnik/grpc/HelloResponse.class
+dev/gaudnik/grpc/HelloRequestOrBuilder.class
+dev/gaudnik/grpc/HelloRequest$1.class

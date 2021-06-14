@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>dev.gaudnik</groupId>
     <artifactId>JavaPatterns</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -14,6 +14,8 @@
         <module>strategy</module>
         <module>strategy_plus_lambda</module>
         <module>consumer_vs_supplier</module>
+        <module>decorator</module>
+        <module>gRPC</module>
     </modules>
 
     <properties>
