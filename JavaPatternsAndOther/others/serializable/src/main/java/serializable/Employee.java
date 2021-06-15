@@ -1,4 +1,4 @@
-package other;
+package serializable;
 
 import java.io.Serializable;
 import java.util.StringJoiner;

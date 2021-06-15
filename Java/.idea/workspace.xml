@@ -5,22 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/principal_diagonal_VS_secondary_diagonal/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/principal_diagonal_VS_secondary_diagonal/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/client/GrpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/service/GrpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/service/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/proto/HelloService.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizza_payments/kyu7/PizzaPayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizza_payments/kyu7/PizzaPaymentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/CoffeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/WithMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/WithSugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/observer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/employee.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/employee.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/client/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/src/main/java/client/GrpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/service/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/src/main/java/service/GrpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/java/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/src/main/java/service/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/src/main/proto/HelloService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/src/main/proto/HelloService.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/classes/HelloService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/classes/HelloService.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/generated-sources/protobuf/grpc-java/dev/gaudnik/grpc/HelloServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/grpc-java/dev/gaudnik/grpc/HelloServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloServiceOuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloServiceOuterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/any.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/any.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/api.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/api.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/compiler/plugin.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/descriptor.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/descriptor.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/duration.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/duration.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/empty.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/empty.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/field_mask.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/field_mask.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/source_context.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/source_context.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/struct.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/struct.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/timestamp.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/timestamp.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/type.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/type.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/wrappers.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/wrappers.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/src/main/java/other/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/src/main/java/serializable/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/src/main/java/other/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/src/main/java/serializable/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,20 +154,33 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pizza_payments.kyu7" />
       <recent name="principal_diagonal_VS_secondary_diagonal" />
       <recent name="fun_with_lists_reduce.kyu6" />
       <recent name="html_dynamic_color_string_generation.kyu6" />
       <recent name="thinking_testing_true_or_false.kyu7" />
-      <recent name="heros_root.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+  <component name="RunManager" selected="JUnit.PizzaPaymentsTest">
     <configuration name="GenerateColorRGB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="html_dynamic_color_string_generation.kyu6.GenerateColorRGB" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="html_dynamic_color_string_generation.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaPayments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pizza_payments.kyu7.PizzaPayments" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizza_payments.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,16 +199,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateColorRGBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PizzaPaymentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="html_dynamic_color_string_generation.kyu6.*" />
+          <option name="PATTERN" value="pizza_payments.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="html_dynamic_color_string_generation.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="html_dynamic_color_string_generation.kyu6.GenerateColorRGBTest" />
+      <option name="PACKAGE_NAME" value="pizza_payments.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="pizza_payments.kyu7.PizzaPaymentsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,28 +244,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinking_testing_true_or_false.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thinking_testing_true_or_false.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="thinking_testing_true_or_false.kyu7.ThinkingAndTestingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PizzaPaymentsTest" />
+        <item itemvalue="Application.PizzaPayments" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.GenerateColorRGB" />
-        <item itemvalue="JUnit.GenerateColorRGBTest" />
-        <item itemvalue="JUnit.ThinkingAndTestingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +299,7 @@
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
       <workItem from="1622670237830" duration="28506000" />
-      <workItem from="1623616101568" duration="1427000" />
+      <workItem from="1623616101568" duration="5031000" />
     </task>
     <servers />
   </component>
@@ -296,15 +319,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fun_with_lists_reduce/kyu6/Solution.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="killer_garage_door.kyu6.Door$KillerDoor" memberName="state" />

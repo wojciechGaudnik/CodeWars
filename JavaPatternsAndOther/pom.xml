@@ -15,7 +15,6 @@
         <module>strategy_plus_lambda</module>
         <module>consumer_vs_supplier</module>
         <module>decorator</module>
-        <module>gRPC</module>
     </modules>
 
     <properties>

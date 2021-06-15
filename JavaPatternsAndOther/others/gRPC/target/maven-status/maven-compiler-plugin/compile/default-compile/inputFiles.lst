@@ -1,0 +1,9 @@
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/src/main/java/client/GrpcClient.java
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequestOrBuilder.java
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponse.java
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/src/main/java/service/HelloServiceImpl.java
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/grpc-java/dev/gaudnik/grpc/HelloServiceGrpc.java
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloServiceOuterClass.java
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequest.java
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/src/main/java/service/GrpcServer.java
+/home/bq666/Workspace/CodeWars/JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponseOrBuilder.java

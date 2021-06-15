@@ -2,9 +2,12 @@ dev/gaudnik/grpc/HelloServiceGrpc.class
 dev/gaudnik/grpc/HelloResponse$1.class
 dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceFutureStub.class
 dev/gaudnik/grpc/HelloRequest$Builder.class
+service/GrpcServer.class
 dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceDescriptorSupplier.class
+client/GrpcClient.class
 dev/gaudnik/grpc/HelloResponse$Builder.class
 dev/gaudnik/grpc/HelloRequest.class
+service/HelloServiceImpl.class
 dev/gaudnik/grpc/HelloServiceOuterClass$1.class
 dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceStub.class
 dev/gaudnik/grpc/HelloServiceGrpc$HelloServiceBlockingStub.class
