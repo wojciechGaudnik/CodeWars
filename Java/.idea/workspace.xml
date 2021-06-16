@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort_an_array_by_value_and_index/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sort_an_array_by_value_and_index/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizza_payments/kyu7/PizzaPayments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizza_payments/kyu7/PizzaPayments.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,27 +116,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sort_an_array_by_value_and_index.kyu7" />
       <recent name="pizza_payments.kyu7" />
       <recent name="principal_diagonal_VS_secondary_diagonal" />
       <recent name="fun_with_lists_reduce.kyu6" />
       <recent name="html_dynamic_color_string_generation.kyu6" />
-      <recent name="thinking_testing_true_or_false.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PizzaPaymentsTest">
-    <configuration name="GenerateColorRGB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="html_dynamic_color_string_generation.kyu6.GenerateColorRGB" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="html_dynamic_color_string_generation.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="PizzaPayments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pizza_payments.kyu7.PizzaPayments" />
       <module name="CodeWars" />
@@ -155,6 +143,21 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort_an_array_by_value_and_index.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort_an_array_by_value_and_index.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="sort_an_array_by_value_and_index.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.PizzaPaymentsTest" />
         <item itemvalue="Application.PizzaPayments" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.GenerateColorRGB" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +263,7 @@
       <workItem from="1619977530797" duration="15083000" />
       <workItem from="1620830928952" duration="49932000" />
       <workItem from="1622670237830" duration="28506000" />
-      <workItem from="1623616101568" duration="5864000" />
+      <workItem from="1623616101568" duration="8874000" />
     </task>
     <servers />
   </component>
