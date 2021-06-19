@@ -1,14 +1,25 @@
-package TimeFormatter;
+package read_the_time.kyu6;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TimeFormatter {
+public class Solution {
 
-	public static void main(String[] args) {
-		System.out.println(toHumanTime("13:25"));
+
+	public static String solve(String time) {
+		if (time.equals("00:00")) {
+			return "midnight";
+		}
+		if (time.split(":")[0].equals("00")) {
+			return toHumanTime(time).replace(" twelve", " midnight");
+		}
+		if (time.split(":")[0].equals("23")) {
+			return toHumanTime(time).replace(" twelve", " midnight");
+		}
+		return toHumanTime(time);
 	}
+
 
 	public static String toHumanTime(String time) {
 		String[] timeStr = time.replaceAll("(pm|am)", "").trim().split(":");
@@ -40,7 +51,6 @@ public class TimeFormatter {
 			put(30, "half ");
 		}};
 
-
 		if (timeDigit[minutes] == 0) {
 			return digToRead.get(timeDigit[hours] % 12) + "o'clock";
 		}
@@ -56,7 +66,7 @@ public class TimeFormatter {
 			return "quarter to " + digToRead.get((timeDigit[hours] % 12) + 1).trim();
 		}
 
-		if (timeDigit[minutes] == 1){
+		if (timeDigit[minutes] == 1) {
 			return "one minute past " + digToRead.get(timeDigit[hours] % 12).trim();
 		}
 		if (timeDigit[minutes] == 59) {
@@ -71,8 +81,8 @@ public class TimeFormatter {
 		}
 
 		if (timeDigit[minutes] < 30) {
-			return digToRead.get(20).trim() + "-" + digToRead.get(timeDigit[minutes] % 10) + "minutes past " + digToRead.get(timeDigit[hours] % 12).trim();
+			return digToRead.get(20).trim() + " " + digToRead.get(timeDigit[minutes] % 10) + "minutes past " + digToRead.get(timeDigit[hours] % 12).trim();
 		}
-		return digToRead.get(20).trim() + "-" + digToRead.get((60 - timeDigit[minutes]) % 10) + "minutes to " + digToRead.get((1 + timeDigit[hours]) % 12).trim();
+		return digToRead.get(20).trim() + " " + digToRead.get((60 - timeDigit[minutes]) % 10) + "minutes to " + digToRead.get((1 + timeDigit[hours]) % 12).trim();
 	}
 }
