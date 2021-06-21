@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/camel_case_to_underscore/CamelCaseTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simple_fun_319_number_and_IP_address/NumberAndIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/camel_case_to_underscore/CamelCaseTranslatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/simple_fun_319_number_and_IP_address/NumberAndIPAddressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simple_equation_reversal/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simple_equation_reversal/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/ClockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/FixedTimeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/RegistryInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/SystemTimeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/TimeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/ZoneIdDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -119,27 +124,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simple_equation_reversal.kyu7" />
       <recent name="camel_case_to_underscore" />
       <recent name="simple_fun_319_number_and_IP_address" />
       <recent name="possibilities_of_throwing_a_coin_n_times.kyu6" />
       <recent name="fun_with_lists_filter.kyu6" />
-      <recent name="read_the_time.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CamelCaseTranslatorTest">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="possibilities_of_throwing_a_coin_n_times.kyu6.Kata" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="possibilities_of_throwing_a_coin_n_times.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="NumberAndIPAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simple_fun_319_number_and_IP_address.NumberAndIPAddress" />
       <module name="CodeWars" />
@@ -209,13 +201,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simple_equation_reversal.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simple_equation_reversal.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="simple_equation_reversal.kyu7.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.CamelCaseTranslatorTest" />
         <item itemvalue="JUnit.NumberAndIPAddressTest" />
         <item itemvalue="Application.NumberAndIPAddress" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +273,7 @@
       <workItem from="1622670237830" duration="28506000" />
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
-      <workItem from="1624101233786" duration="9384000" />
+      <workItem from="1624101233786" duration="10648000" />
     </task>
     <servers />
   </component>
