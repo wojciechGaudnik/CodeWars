@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cat_years_dog_years_2/kyu7/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cat_years_dog_years_2/kyu7/DinglemouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/between_extremes/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/between_extremes/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -117,35 +117,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="between_extremes.kyu7" />
       <recent name="cat_years_dog_years_2.kyu7" />
       <recent name="suzuki_needs_help_lining_up_his_students.kyu7" />
       <recent name="zebulan_s_nightmare.kyu7" />
       <recent name="simple_equation_reversal.kyu7" />
-      <recent name="camel_case_to_underscore" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DinglemouseTest">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CamelCaseTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="camel_case_to_underscore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="camel_case_to_underscore" />
-      <option name="MAIN_CLASS_NAME" value="camel_case_to_underscore.CamelCaseTranslatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,6 +146,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="cat_years_dog_years_2.kyu7" />
       <option name="MAIN_CLASS_NAME" value="cat_years_dog_years_2.kyu7.DinglemouseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="between_extremes.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="between_extremes.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="between_extremes.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.DinglemouseTest" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.ZebulansNightmareTest" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.CamelCaseTranslatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +268,7 @@
       <workItem from="1622670237830" duration="28506000" />
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
-      <workItem from="1624101233786" duration="15754000" />
+      <workItem from="1624101233786" duration="17025000" />
     </task>
     <servers />
   </component>
@@ -288,6 +288,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cat_years_dog_years_2/kyu7/Dinglemouse.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="killer_garage_door.kyu6.Door$KillerDoor" memberName="state" />
