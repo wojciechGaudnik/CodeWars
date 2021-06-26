@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/between_extremes/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/between_extremes/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/the_first_non_repeated_character_in_a_string/kyu7/FirstNonRepeated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bonuses/kyu7/BonusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/the_first_non_repeated_character_in_a_string/kyu7/FirstNonRepeatedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -117,14 +119,40 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="the_first_non_repeated_character_in_a_string.kyu7" />
+      <recent name="bonuses.kyu7" />
       <recent name="between_extremes.kyu7" />
       <recent name="cat_years_dog_years_2.kyu7" />
       <recent name="suzuki_needs_help_lining_up_his_students.kyu7" />
-      <recent name="zebulan_s_nightmare.kyu7" />
-      <recent name="simple_equation_reversal.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (1)">
+  <component name="RunManager" selected="JUnit.FirstNonRepeatedTest">
+    <configuration name="Bonus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.Bonus" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bonuses.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstNonRepeated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="the_first_non_repeated_character_in_a_string.kyu7.FirstNonRepeated" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the_first_non_repeated_character_in_a_string.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -136,76 +164,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cat_years_dog_years_2.kyu7.*" />
+          <option name="PATTERN" value="bonuses.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cat_years_dog_years_2.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="cat_years_dog_years_2.kyu7.DinglemouseTest" />
+      <option name="PACKAGE_NAME" value="bonuses.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.BonusTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="between_extremes.kyu7.*" />
+          <option name="PATTERN" value="bonuses.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="between_extremes.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="between_extremes.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="bonuses.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.BonusTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstNonRepeatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="suzuki_needs_help_lining_up_his_students.kyu7.*" />
+          <option name="PATTERN" value="the_first_non_repeated_character_in_a_string.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="suzuki_needs_help_lining_up_his_students.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="suzuki_needs_help_lining_up_his_students.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simple_equation_reversal.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simple_equation_reversal.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="simple_equation_reversal.kyu7.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZebulansNightmareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zebulan_s_nightmare.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="zebulan_s_nightmare.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="zebulan_s_nightmare.kyu7.ZebulansNightmareTest" />
+      <option name="PACKAGE_NAME" value="the_first_non_repeated_character_in_a_string.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="the_first_non_repeated_character_in_a_string.kyu7.FirstNonRepeatedTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="JUnit.DinglemouseTest" />
-        <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="JUnit.ZebulansNightmareTest" />
-        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.FirstNonRepeatedTest" />
+        <item itemvalue="Application.FirstNonRepeated" />
+        <item itemvalue="JUnit.BonusTest" />
+        <item itemvalue="Application.Bonus" />
+        <item itemvalue="JUnit.BonusTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +267,7 @@
       <workItem from="1622670237830" duration="28506000" />
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
-      <workItem from="1624101233786" duration="17025000" />
+      <workItem from="1624101233786" duration="28262000" />
     </task>
     <servers />
   </component>
@@ -295,6 +294,11 @@
           <line>10</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/the_first_non_repeated_character_in_a_string/kyu7/FirstNonRepeated.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -303,6 +307,10 @@
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="Arrays.stream(answer).sum()" />
+        <watch expression="ch != one" language="JAVA" />
+      </configuration>
       <configuration name="Application">
         <watch expression="test2" />
       </configuration>
