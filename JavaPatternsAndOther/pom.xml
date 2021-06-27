@@ -16,6 +16,7 @@
         <module>consumer_vs_supplier</module>
         <module>decorator</module>
         <module>factory</module>
+        <module>singleton</module>
     </modules>
 
     <properties>
