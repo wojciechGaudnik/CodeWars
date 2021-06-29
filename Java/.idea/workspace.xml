@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/triangle_area/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/triangle_area/kyu7/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stanton_measure/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stanton_measure/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/MusicsOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/AlexaDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/KitchenLights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/NoOpCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,14 +124,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="stanton_measure.kyu7" />
       <recent name="triangle_area.kyu7" />
       <recent name="find_the_squares.kyu7" />
       <recent name="the_first_non_repeated_character_in_a_string.kyu7" />
       <recent name="bonuses.kyu7" />
-      <recent name="between_extremes.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
     <configuration name="Bonus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.Bonus" />
       <module name="CodeWars" />
@@ -166,16 +171,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstNonRepeatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="the_first_non_repeated_character_in_a_string.kyu7.*" />
+          <option name="PATTERN" value="stanton_measure.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="the_first_non_repeated_character_in_a_string.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="the_first_non_repeated_character_in_a_string.kyu7.FirstNonRepeatedTest" />
+      <option name="PACKAGE_NAME" value="stanton_measure.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="stanton_measure.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.BonusTest" />
         <item itemvalue="Application.Bonus" />
-        <item itemvalue="JUnit.FirstNonRepeatedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +273,7 @@
       <workItem from="1622670237830" duration="28506000" />
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
-      <workItem from="1624101233786" duration="37808000" />
+      <workItem from="1624101233786" duration="38965000" />
     </task>
     <servers />
   </component>
