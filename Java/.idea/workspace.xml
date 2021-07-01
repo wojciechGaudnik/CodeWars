@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/suitcase_packing/kyu7/MrSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suitcase_packing/kyu7/MrSquereTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/KitchenLightsOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ShiftLeft/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShiftLeft/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/EverythingOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/EverythingOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/KitchenLightsOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/MusicOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/MusicOnCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/KitchenLightsOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/KitchenLightsOnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/MusicsOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/AlexaDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/hardware/AlexaDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/KitchenLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/hardware/KitchenLights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/hardware/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/command/NoOpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/command/src/main/java/comands/NoOpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/mvnw.cmd" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,35 +131,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ShiftLeft.kyu7" />
       <recent name="suitcase_packing.kyu7" />
       <recent name="stanton_measure.kyu7" />
       <recent name="triangle_area.kyu7" />
       <recent name="find_the_squares.kyu7" />
-      <recent name="the_first_non_repeated_character_in_a_string.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MrSquereTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BonusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bonuses.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bonuses.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.BonusTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,6 +195,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ShiftLeft.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ShiftLeft.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="ShiftLeft.kyu7.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -215,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.MrSquereTest" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.BonusTest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +282,7 @@
       <workItem from="1622670237830" duration="28506000" />
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
-      <workItem from="1624101233786" duration="41216000" />
+      <workItem from="1624101233786" duration="42343000" />
     </task>
     <servers />
   </component>

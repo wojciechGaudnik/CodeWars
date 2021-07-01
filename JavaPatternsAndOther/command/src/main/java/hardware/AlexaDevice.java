@@ -1,9 +1,11 @@
-package command;
+package hardware;
 
+import comands.Command;
+import comands.NoOpCommand;
 import lombok.NonNull;
 
 public class AlexaDevice {
-	Command [] onCommands;
+	Command[] onCommands;
 	Command [] offCommands;
 	int slot = 3;
 
