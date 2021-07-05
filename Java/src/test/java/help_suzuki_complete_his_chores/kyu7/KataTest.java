@@ -5,11 +5,11 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
 public class KataTest {
-//	@Test
-//	public void choreAssignments_BasicTest1() {
-//		int[] expectedResult = new int[] {7, 7, 8};
-//		assertArrayEquals(expectedResult, Kata.choreAssignments(new int[] {5, 2, 1, 6, 4, 4}));
-//	}
+	@Test
+	public void choreAssignments_BasicTest1() {
+		int[] expectedResult = new int[] {7, 7, 8};
+		assertArrayEquals(expectedResult, Kata.choreAssignments(new int[] {5, 2, 1, 6, 4, 4}));
+	}
 	@Test
 	public void choreAssignments_BasicTest2() {
 		int[] expectedResult = new int[] {7, 8, 8, 10, 10, 11};

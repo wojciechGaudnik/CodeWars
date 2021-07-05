@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/help_suzuki_complete_his_chores/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/help_suzuki_complete_his_chores/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adding_values_of_arrays_in_a_shifted_way/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/adding_values_of_arrays_in_a_shifted_way/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/help_suzuki_complete_his_chores/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/help_suzuki_complete_his_chores/kyu7/KataTest.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +119,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="adding_values_of_arrays_in_a_shifted_way.kyu7" />
       <recent name="help_suzuki_complete_his_chores.kyu7" />
       <recent name="create_palindrome.kyu7" />
       <recent name="thb.kyu7" />
       <recent name="" />
-      <recent name="ShiftLeft.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest.choreAssignments_BasicTest2">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="create_palindrome.kyu7.Solution" />
       <module name="CodeWars" />
@@ -145,6 +146,21 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adding_values_of_arrays_in_a_shifted_way.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adding_values_of_arrays_in_a_shifted_way.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="adding_values_of_arrays_in_a_shifted_way.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,28 +212,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="THBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thb.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thb.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="thb.kyu7.THBTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest.choreAssignments_BasicTest2" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.THBTest" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +269,7 @@
       <workItem from="1622670237830" duration="28506000" />
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
-      <workItem from="1624101233786" duration="46484000" />
+      <workItem from="1624101233786" duration="51022000" />
     </task>
     <servers />
   </component>
@@ -319,8 +320,7 @@
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="Arrays.stream(answer).sum()" />
-        <watch expression="testCalc(arr, s, i, max)" />
+        <watch expression="answer" />
       </configuration>
       <configuration name="Application">
         <watch expression="test2" />
