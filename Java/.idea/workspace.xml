@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adding_values_of_arrays_in_a_shifted_way/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/adding_values_of_arrays_in_a_shifted_way/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/difference_between_two_collections/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/difference_between_two_collections/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/help_suzuki_complete_his_chores/kyu7/KataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/help_suzuki_complete_his_chores/kyu7/KataTest.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,34 +118,23 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="difference_between_two_collections.kyu7" />
       <recent name="adding_values_of_arrays_in_a_shifted_way.kyu7" />
       <recent name="help_suzuki_complete_his_chores.kyu7" />
       <recent name="create_palindrome.kyu7" />
       <recent name="thb.kyu7" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (1)">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="create_palindrome.kyu7.Solution" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="create_palindrome.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KataTest (2)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,6 +149,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="adding_values_of_arrays_in_a_shifted_way.kyu7" />
       <option name="MAIN_CLASS_NAME" value="adding_values_of_arrays_in_a_shifted_way.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="difference_between_two_collections.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="difference_between_two_collections.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="difference_between_two_collections.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (2)" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest.choreAssignments_BasicTest2" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +273,7 @@
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
+      <workItem from="1625509762589" duration="1791000" />
     </task>
     <servers />
   </component>
