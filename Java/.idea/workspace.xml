@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cartesian_coordinates_from_degree_angle/kyu7/CoordinatesInspector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/n_dimensional_vector_magnitude/kyu7/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cartesian_coordinates_from_degree_angle/kyu7/CoordinatesInspectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/n_dimensional_vector_magnitude/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/the_speed_of_letters/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/the_speed_of_letters/kyu7/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -120,14 +118,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="the_speed_of_letters.kyu7" />
       <recent name="cartesian_coordinates_from_degree_angle.kyu7" />
       <recent name="n_dimensional_vector_magnitude.kyu7" />
       <recent name="difference_between_two_collections.kyu7" />
       <recent name="adding_values_of_arrays_in_a_shifted_way.kyu7" />
-      <recent name="help_suzuki_complete_his_chores.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CoordinatesInspectorTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="CoordinatesInspector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cartesian_coordinates_from_degree_angle.kyu7.CoordinatesInspector" />
       <module name="CodeWars" />
@@ -169,21 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adding_values_of_arrays_in_a_shifted_way.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adding_values_of_arrays_in_a_shifted_way.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="adding_values_of_arrays_in_a_shifted_way.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KataTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -214,13 +197,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the_speed_of_letters.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="the_speed_of_letters.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="the_speed_of_letters.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.CoordinatesInspectorTest" />
         <item itemvalue="Application.CoordinatesInspector" />
         <item itemvalue="JUnit.KataTest (3)" />
         <item itemvalue="JUnit.KataTest (2)" />
-        <item itemvalue="JUnit.KataTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +270,7 @@
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
-      <workItem from="1625509762589" duration="4474000" />
+      <workItem from="1625509762589" duration="8592000" />
     </task>
     <servers />
   </component>
@@ -313,6 +311,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
           <line>62</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/the_speed_of_letters/kyu7/Kata.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
