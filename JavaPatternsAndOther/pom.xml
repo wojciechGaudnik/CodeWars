@@ -18,6 +18,7 @@
         <module>factory</module>
         <module>singleton</module>
         <module>command</module>
+        <module>adapter</module>
     </modules>
 
     <properties>

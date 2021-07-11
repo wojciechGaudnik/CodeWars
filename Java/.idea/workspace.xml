@@ -5,9 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/excel_sheet_column_numbers/kyu7/TitleToNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/excel_sheet_column_numbers/kyu7/TitleToNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/most_valuable_character/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/most_valuable_character/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter/EnemyAttacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter/EnemyRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter/EnemyRobotAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter/EnemyTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/consumer/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/src/main/java/consumer/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/consumer/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/src/main/java/consumer/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/src/main/java/supplier/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/src/main/java/supplier/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/consumer_vs_supplier/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/ClockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/ClockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/FixedTimeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/FixedTimeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/NoNowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/NoNowApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/Registry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/RegistryInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/RegistryInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/SystemTimeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/SystemTimeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/TimeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/TimeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/java/dev/gaudnik/no_now/ZoneIdDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/ZoneIdDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/no_now/src/test/java/dev/gaudnik/no_now/NoNowApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/test/java/dev/gaudnik/no_now/NoNowApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +148,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="most_valuable_character.kyu7" />
       <recent name="excel_sheet_column_numbers.kyu7" />
       <recent name="the_speed_of_letters.kyu7" />
       <recent name="cartesian_coordinates_from_degree_angle.kyu7" />
       <recent name="n_dimensional_vector_magnitude.kyu7" />
-      <recent name="difference_between_two_collections.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TitleToNumberTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="CoordinatesInspector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cartesian_coordinates_from_degree_angle.kyu7.CoordinatesInspector" />
       <module name="CodeWars" />
@@ -167,21 +197,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="n_dimensional_vector_magnitude.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="n_dimensional_vector_magnitude.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="n_dimensional_vector_magnitude.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -192,6 +207,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="the_speed_of_letters.kyu7" />
       <option name="MAIN_CLASS_NAME" value="the_speed_of_letters.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="most_valuable_character.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="most_valuable_character.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="most_valuable_character.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.TitleToNumberTest" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.CoordinatesInspectorTest" />
         <item itemvalue="Application.CoordinatesInspector" />
-        <item itemvalue="JUnit.KataTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +300,7 @@
       <workItem from="1623616101568" duration="12419000" />
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
-      <workItem from="1625509762589" duration="11537000" />
+      <workItem from="1625509762589" duration="13190000" />
     </task>
     <servers />
   </component>
@@ -311,6 +341,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
           <line>62</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/most_valuable_character/kyu7/Solution.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

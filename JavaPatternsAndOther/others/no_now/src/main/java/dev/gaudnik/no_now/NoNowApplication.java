@@ -2,7 +2,6 @@ package dev.gaudnik.no_now;
 
 import dev.gaudnik.no_now.SystemTime.Registry;
 import dev.gaudnik.no_now.SystemTime.RegistryInstance;
-import dev.gaudnik.no_now.SystemTime.SystemTimeProvider;
 import dev.gaudnik.no_now.SystemTime.TimeProvider;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
