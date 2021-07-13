@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bus_mastering_who_is_the_most_prioritary/kyu7/BusMastering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bus_mastering_who_is_the_most_prioritary/kyu7/BusMasteringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fFusion_chamber_shutdown/kyu7/FusionChamberShutdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fFusion_chamber_shutdown/kyu7/FusionChamberShutdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator_by_spilca/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator_by_spilca/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator_by_spilca/NotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator_by_spilca/SMSSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +27,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -80,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -101,7 +107,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -118,20 +124,33 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fFusion_chamber_shutdown.kyu7" />
       <recent name="bus_mastering_who_is_the_most_prioritary.kyu7" />
       <recent name="most_valuable_character.kyu7" />
       <recent name="excel_sheet_column_numbers.kyu7" />
       <recent name="the_speed_of_letters.kyu7" />
-      <recent name="cartesian_coordinates_from_degree_angle.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BusMasteringTest">
+  <component name="RunManager" selected="JUnit.FusionChamberShutdownTest">
     <configuration name="BusMastering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bus_mastering_who_is_the_most_prioritary.kyu7.BusMastering" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bus_mastering_who_is_the_most_prioritary.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FusionChamberShutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fFusion_chamber_shutdown.kyu7.FusionChamberShutdown" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fFusion_chamber_shutdown.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,16 +184,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FusionChamberShutdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="the_speed_of_letters.kyu7.*" />
+          <option name="PATTERN" value="fFusion_chamber_shutdown.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="the_speed_of_letters.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="the_speed_of_letters.kyu7.KataTest" />
+      <option name="PACKAGE_NAME" value="fFusion_chamber_shutdown.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="fFusion_chamber_shutdown.kyu7.FusionChamberShutdownTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,28 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleToNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="excel_sheet_column_numbers.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="excel_sheet_column_numbers.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="excel_sheet_column_numbers.kyu7.TitleToNumberTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FusionChamberShutdownTest" />
+        <item itemvalue="Application.FusionChamberShutdown" />
         <item itemvalue="JUnit.BusMasteringTest" />
         <item itemvalue="Application.BusMastering" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.TitleToNumberTest" />
-        <item itemvalue="JUnit.KataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +273,7 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="1369000" />
+      <workItem from="1626035282488" duration="4932000" />
     </task>
     <servers />
   </component>
