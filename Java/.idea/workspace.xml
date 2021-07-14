@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fFusion_chamber_shutdown/kyu7/FusionChamberShutdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fFusion_chamber_shutdown/kyu7/FusionChamberShutdownTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator_by_spilca/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator_by_spilca/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator_by_spilca/NotificationSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/src/main/java/decorator_by_spilca/SMSSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thinking_testing_something_capitalized/kyu7/ThinkingAndTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/thinking_testing_something_capitalized/kyu7/ThinkingAndTestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter_by_splica/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeWars.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/BinarySearchStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_other/BinarySearchStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/BubbleSortStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_other/BubbleSortStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_other/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_other/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/LinearSearchStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_other/LinearSearchStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/QuickSortStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_other/QuickSortStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/SearchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_other/SearchStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy/SortStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_other/SortStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy_plus_lambda/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_plus_lambda/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/src/main/java/strategy_plus_lambda/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy/src/strategy_plus_lambda/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/strategy_plus_lambda/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +37,8 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -86,7 +94,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -124,27 +132,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="thinking_testing_something_capitalized.kyu7" />
       <recent name="fFusion_chamber_shutdown.kyu7" />
       <recent name="bus_mastering_who_is_the_most_prioritary.kyu7" />
       <recent name="most_valuable_character.kyu7" />
       <recent name="excel_sheet_column_numbers.kyu7" />
-      <recent name="the_speed_of_letters.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FusionChamberShutdownTest">
-    <configuration name="BusMastering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bus_mastering_who_is_the_most_prioritary.kyu7.BusMastering" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bus_mastering_who_is_the_most_prioritary.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ThinkingAndTestingTest">
     <configuration name="FusionChamberShutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fFusion_chamber_shutdown.kyu7.FusionChamberShutdown" />
       <module name="CodeWars" />
@@ -199,16 +194,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="most_valuable_character.kyu7.*" />
+          <option name="PATTERN" value="thinking_testing_something_capitalized.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="most_valuable_character.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="most_valuable_character.kyu7.SolutionTest" />
+      <option name="PACKAGE_NAME" value="thinking_testing_something_capitalized.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="thinking_testing_something_capitalized.kyu7.ThinkingAndTestingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThinkingAndTestingTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinking_testing_something_capitalized.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thinking_testing_something_capitalized.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="thinking_testing_something_capitalized.kyu7.ThinkingAndTestingTest4" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThinkingAndTestingTest" />
+        <item itemvalue="JUnit.ThinkingAndTestingTest4" />
         <item itemvalue="JUnit.FusionChamberShutdownTest" />
         <item itemvalue="Application.FusionChamberShutdown" />
         <item itemvalue="JUnit.BusMasteringTest" />
-        <item itemvalue="Application.BusMastering" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +283,7 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="4932000" />
+      <workItem from="1626035282488" duration="6983000" />
     </task>
     <servers />
   </component>
@@ -319,6 +329,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/most_valuable_character/kyu7/Solution.java</url>
           <line>6</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thinking_testing_something_capitalized/kyu7/ThinkingAndTesting.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

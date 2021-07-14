@@ -1,4 +1,4 @@
-package strategy;
+package strategy_other;
 
 public class LinearSearchStrategyImpl implements SearchStrategy{
 	@Override
