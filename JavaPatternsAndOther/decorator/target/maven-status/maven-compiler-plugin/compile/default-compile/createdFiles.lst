@@ -1,1 +1,10 @@
+decorator/WithSugar.class
+decorator/Coffee.class
+decorator_by_spilca/SMSSender.class
+decorator/Espresso.class
+decorator_by_spilca/Main.class
+decorator_by_spilca/EmailSender.class
 decorator/Demo.class
+decorator/CoffeeDecorator.class
+decorator/WithMilk.class
+decorator_by_spilca/NotificationSender.class
