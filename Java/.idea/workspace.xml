@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ch4113ng3/kyu7/Nerd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ch4113ng3/kyu7/NerdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter_by_splica/library/LibraryNotificationSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter_by_splica/main/AppNotificationSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter_by_splica/main/NotificationSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter_by_splica_spring_userDetails/SecurityUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter_by_splica_spring_userDetails/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shifter_words/kyu7/Shifter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/shifter_words/kyu7/ShifterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/src/main/java/adapter_by_splica/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/decorator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/others.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,27 +118,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="shifter_words.kyu7" />
       <recent name="Ch4113ng3.kyu7" />
       <recent name="thinking_testing_something_capitalized.kyu7" />
       <recent name="fFusion_chamber_shutdown.kyu7" />
       <recent name="bus_mastering_who_is_the_most_prioritary.kyu7" />
-      <recent name="most_valuable_character.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NerdTest">
-    <configuration name="FusionChamberShutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fFusion_chamber_shutdown.kyu7.FusionChamberShutdown" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fFusion_chamber_shutdown.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShifterTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -191,6 +167,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShifterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shifter_words.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="shifter_words.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="shifter_words.kyu7.ShifterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -223,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShifterTest" />
         <item itemvalue="JUnit.NerdTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest4" />
         <item itemvalue="JUnit.FusionChamberShutdownTest" />
-        <item itemvalue="Application.FusionChamberShutdown" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +271,7 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="8016000" />
+      <workItem from="1626035282488" duration="9427000" />
     </task>
     <servers />
   </component>
