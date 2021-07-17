@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shifter_words/kyu7/Shifter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/shifter_words/kyu7/ShifterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/what_a_classy_song/kyu7/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/what_a_classy_song/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -118,35 +118,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="what_a_classy_song.kyu7" />
       <recent name="shifter_words.kyu7" />
       <recent name="Ch4113ng3.kyu7" />
       <recent name="thinking_testing_something_capitalized.kyu7" />
       <recent name="fFusion_chamber_shutdown.kyu7" />
-      <recent name="bus_mastering_who_is_the_most_prioritary.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShifterTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FusionChamberShutdownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fFusion_chamber_shutdown.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fFusion_chamber_shutdown.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="fFusion_chamber_shutdown.kyu7.FusionChamberShutdownTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,6 +162,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="shifter_words.kyu7" />
       <option name="MAIN_CLASS_NAME" value="shifter_words.kyu7.ShifterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="what_a_classy_song.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="what_a_classy_song.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="what_a_classy_song.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.ShifterTest" />
         <item itemvalue="JUnit.NerdTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest4" />
-        <item itemvalue="JUnit.FusionChamberShutdownTest" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +271,7 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="9427000" />
+      <workItem from="1626035282488" duration="11160000" />
     </task>
     <servers />
   </component>
