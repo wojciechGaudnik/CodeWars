@@ -3,12 +3,18 @@ package c_wars.kyu7;
 public class CWars {
 
 	public static String initials(String name){ //<--- broken ??? on codeWars ?
-		var split = name.split(" ");
+		if (name == null) {
+			return null;
+		}
+		if (name.equals("")) {
+			return "";
+		}
+		String[] split = name.split(" ");
 		StringBuilder answer = new StringBuilder();
-		for (var i = 0; i < split.length - 1; i++) {
+		for (int i = 0; i < split.length - 1; i++) {
 			answer.append(Character.toUpperCase(split[i].charAt(0))).append(".");
 		}
-		var last = Character.toUpperCase(split[split.length - 1].charAt(0)) + split[split.length - 1].substring(1);
+		String last = Character.toUpperCase(split[split.length - 1].charAt(0)) + split[split.length - 1].substring(1);
 		return answer.append(last).toString();
 	}
 }

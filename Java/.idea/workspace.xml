@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/what_a_classy_song/kyu7/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/what_a_classy_song/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composing_squared_strings/kyu7/Composing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/null_kata/kyu7/Null.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/composing_squared_strings/kyu7/ComposingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/null_kata/kyu7/NullTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +121,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="composing_squared_strings.kyu7" />
+      <recent name="null_kata.kyu7" />
       <recent name="what_a_classy_song.kyu7" />
       <recent name="shifter_words.kyu7" />
       <recent name="Ch4113ng3.kyu7" />
-      <recent name="thinking_testing_something_capitalized.kyu7" />
-      <recent name="fFusion_chamber_shutdown.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.ComposingTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -137,16 +140,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NerdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CWarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch4113ng3.kyu7.*" />
+          <option name="PATTERN" value="c_wars.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Ch4113ng3.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="Ch4113ng3.kyu7.NerdTest" />
+      <option name="PACKAGE_NAME" value="c_wars.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="c_wars.kyu7.CWarsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComposingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="composing_squared_strings.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="composing_squared_strings.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="composing_squared_strings.kyu7.ComposingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="null_kata.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="null_kata.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="null_kata.kyu7.NullTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,43 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinking_testing_something_capitalized.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thinking_testing_something_capitalized.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="thinking_testing_something_capitalized.kyu7.ThinkingAndTestingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThinkingAndTestingTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinking_testing_something_capitalized.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thinking_testing_something_capitalized.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="thinking_testing_something_capitalized.kyu7.ThinkingAndTestingTest4" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComposingTest" />
+        <item itemvalue="JUnit.CWarsTest" />
+        <item itemvalue="JUnit.NullTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.ShifterTest" />
-        <item itemvalue="JUnit.NerdTest" />
-        <item itemvalue="JUnit.ThinkingAndTestingTest" />
-        <item itemvalue="JUnit.ThinkingAndTestingTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +274,7 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="11160000" />
+      <workItem from="1626035282488" duration="14796000" />
     </task>
     <servers />
   </component>
@@ -291,15 +294,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/composing_squared_strings/kyu7/Composing.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/composing_squared_strings/kyu7/Composing.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="killer_garage_door.kyu6.Door$KillerDoor" memberName="state" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="answer" />
-      </configuration>
       <configuration name="Application">
         <watch expression="test2" />
       </configuration>
