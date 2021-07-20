@@ -21,6 +21,7 @@
         <module>singleton</module>
         <module>command</module>
         <module>adapter</module>
+        <module>fasade</module>
     </modules>
 
     <properties>

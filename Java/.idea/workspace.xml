@@ -5,12 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/composing_squared_strings/kyu7/Composing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/null_kata/kyu7/Null.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/composing_squared_strings/kyu7/ComposingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/null_kata/kyu7/NullTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/the_pony_express/kyu7/Dinglemouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/the_pony_express/kyu7/DinglemouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/AccountNumberCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/BankAccountFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/FundsCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/SecurityCodeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/WelcomeToBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/c_wars/kyu7/CWars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/All/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindIndexOfSubArray/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FunWithListsMap/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HQ/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MergeSortedArrays/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MobileDisplay/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pyramid/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReturnRandomly/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TheBigPronicChallenge/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TwentyOneSticks/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alternate_capitalization/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/area_or_perimeter/kyu8/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_element_parity/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_leaders_array_series_3/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automorphic_number_special_numbers_series_6/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/balanced_number_special_numbers_series1/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/disarium_number_special_numbers_series3/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/form_the_largest/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jumping_number_special_numbers_series/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/last/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/longest_common_subsequence/kyu5/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/make_a_function_that_does_arithmetic/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/maximum_gap_array_series_4/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/maximum_triplet_sum_array_series7/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/minimize_sum_of_array_array_series1/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/remove_duplicate_words/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/row_weights/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simple_array_product/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simple_directions_reversal/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simple_square_numbers/ku6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorted_yes_no_how/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/special_number_special_numbers_series_5/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sum_of_array_singles/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tidy_number_special_numbers_series9/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShiftLeft/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/check_three_and_two/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/consecutive_letters/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/correct_the_time_string/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/create_palindrome/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/find_the_squares/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fun_with_lists_reduce/kyu6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/grasshopper_basic_function_fixer/kyu8/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/indexed_capitalization/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/largest_pair_sum_in_array/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/longest_vowel_chain/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/make_a_window/kyu6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/max_min_arrays/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/most_valuable_character/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/not_prime_numbers/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/number_of_rectangles_in_a_grid/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/numbers_in_strings/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/plus_minus_plus_plus_count/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/principal_diagonal_VS_secondary_diagonal/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product_of_maximums_of_array_array_series/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/read_the_time/kyu6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/recursion_101/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sequence_convergence/kyu6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/show_multiples_of_2_numbers_within_a_range/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simple_consecutive_pairs/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simple_equation_reversal/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simple_nearest_prime/kyu6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simple_remove_duplicates/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simple_reversed_parenthesis/kyu6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simple_string_reversal/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simple_string_reversal_II/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simple_time_difference/kyu6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/string_array_duplicates/kyu6/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unique_string_characters/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/word_values/kyu7/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,14 +195,27 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="the_pony_express.kyu7" />
       <recent name="composing_squared_strings.kyu7" />
       <recent name="null_kata.kyu7" />
       <recent name="what_a_classy_song.kyu7" />
       <recent name="shifter_words.kyu7" />
-      <recent name="Ch4113ng3.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComposingTest">
+  <component name="RunManager" selected="JUnit.DinglemouseTest">
+    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="the_pony_express.kyu7.Dinglemouse" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the_pony_express.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -170,6 +257,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the_pony_express.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="the_pony_express.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="the_pony_express.kyu7.DinglemouseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -185,43 +287,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShifterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shifter_words.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shifter_words.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="shifter_words.kyu7.ShifterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="what_a_classy_song.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="what_a_classy_song.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="what_a_classy_song.kyu7.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DinglemouseTest" />
+        <item itemvalue="Application.Dinglemouse" />
         <item itemvalue="JUnit.ComposingTest" />
         <item itemvalue="JUnit.CWarsTest" />
         <item itemvalue="JUnit.NullTest" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.ShifterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +346,7 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="14796000" />
+      <workItem from="1626035282488" duration="16151000" />
     </task>
     <servers />
   </component>
@@ -294,26 +366,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/composing_squared_strings/kyu7/Composing.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/composing_squared_strings/kyu7/Composing.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="killer_garage_door.kyu6.Door$KillerDoor" memberName="state" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="firest" />
+        <watch expression="second" />
+      </configuration>
       <configuration name="Application">
         <watch expression="test2" />
       </configuration>
