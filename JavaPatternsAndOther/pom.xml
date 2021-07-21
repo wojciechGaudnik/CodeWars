@@ -22,6 +22,7 @@
         <module>command</module>
         <module>adapter</module>
         <module>fasade</module>
+        <module>doubleDispatch</module>
     </modules>
 
     <properties>
