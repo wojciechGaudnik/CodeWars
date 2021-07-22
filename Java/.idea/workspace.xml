@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/e80_s_Kids_2_Help_ALF_Find_His_Spaceship/kyu7/EightiesKids2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e80_s_Kids_2_Help_ALF_Find_His_Spaceship/kyu7/EightiesKids2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/single/dispatch/AmountBasedDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/single/dispatch/DiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/single/dispatch/FlatDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/single/dispatch/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/single/dispatch/OrderLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/single/dispatch/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/test/java/single/dispatch/DiscountPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/test/java/single/dispatch/OrderFixtureUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Supernatural/Supernatural.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Supernatural/SupernaturalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/OrderVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/SpecialDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/SpecialOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/Visitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/test/java/double_dispatch/SpecialDiscountPolicyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,27 +124,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Supernatural" />
       <recent name="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7" />
       <recent name="the_pony_express.kyu7" />
       <recent name="composing_squared_strings.kyu7" />
       <recent name="null_kata.kyu7" />
-      <recent name="what_a_classy_song.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EightiesKids2Test">
-    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="the_pony_express.kyu7.Dinglemouse" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="the_pony_express.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SupernaturalTest">
     <configuration name="EightiesKids2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7.EightiesKids2" />
       <module name="CodeWars" />
@@ -162,27 +145,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Supernatural" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Supernatural.Supernatural" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Supernatural.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComposingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="composing_squared_strings.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="composing_squared_strings.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="composing_squared_strings.kyu7.ComposingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,13 +199,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SupernaturalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Supernatural.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Supernatural" />
+      <option name="MAIN_CLASS_NAME" value="Supernatural.SupernaturalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SupernaturalTest" />
+        <item itemvalue="Application.Supernatural" />
         <item itemvalue="JUnit.EightiesKids2Test" />
         <item itemvalue="Application.EightiesKids2" />
         <item itemvalue="JUnit.DinglemouseTest" />
-        <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="JUnit.ComposingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +273,7 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="17584000" />
+      <workItem from="1626035282488" duration="20458000" />
     </task>
     <servers />
   </component>
@@ -297,15 +293,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/e80_s_Kids_2_Help_ALF_Find_His_Spaceship/kyu7/EightiesKids2.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="killer_garage_door.kyu6.Door$KillerDoor" memberName="state" />
