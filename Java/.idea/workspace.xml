@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Supernatural/Supernatural.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Supernatural/SupernaturalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/OrderVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/SpecialDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/SpecialOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/Visitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/test/java/double_dispatch/SpecialDiscountPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/split_by_value/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/split_by_value/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/visitor/HtmlOrderViewCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/visitor/OrderVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/visitor/Visitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/test/java/visitor/HtmlOrderViewCreatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bonuses/kyu7/BonusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bonuses/kyu7/BonusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/OrderVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/SpecialOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/SpecialOrder.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,20 +127,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="split_by_value.kyu7" />
+      <recent name="bonuses.kyu7" />
       <recent name="Supernatural" />
       <recent name="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7" />
       <recent name="the_pony_express.kyu7" />
-      <recent name="composing_squared_strings.kyu7" />
-      <recent name="null_kata.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SupernaturalTest">
-    <configuration name="EightiesKids2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7.EightiesKids2" />
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="Bonus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.Bonus" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7.*" />
+          <option name="PATTERN" value="bonuses.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,31 +172,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinglemouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="the_pony_express.kyu7.*" />
+          <option name="PATTERN" value="bonuses.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="the_pony_express.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="the_pony_express.kyu7.DinglemouseTest" />
+      <option name="PACKAGE_NAME" value="bonuses.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.BonusTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EightiesKids2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7.*" />
+          <option name="PATTERN" value="split_by_value.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7.EightiesKids2Test" />
+      <option name="PACKAGE_NAME" value="split_by_value.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="split_by_value.kyu7.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.BonusTest" />
+        <item itemvalue="Application.Bonus" />
         <item itemvalue="JUnit.SupernaturalTest" />
         <item itemvalue="Application.Supernatural" />
-        <item itemvalue="JUnit.EightiesKids2Test" />
-        <item itemvalue="Application.EightiesKids2" />
-        <item itemvalue="JUnit.DinglemouseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +276,7 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="20458000" />
+      <workItem from="1626035282488" duration="25512000" />
     </task>
     <servers />
   </component>
@@ -293,6 +296,20 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="killer_garage_door.kyu6.Door$KillerDoor" memberName="state" />
@@ -306,7 +323,7 @@
       <configuration name="Application">
         <watch expression="test2" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" line="21">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" line="49">
         <watch expression="averagePay" language="JAVA" />
       </inline-watch>
     </watches-manager>

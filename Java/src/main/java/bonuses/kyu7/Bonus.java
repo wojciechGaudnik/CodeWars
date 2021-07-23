@@ -12,6 +12,34 @@ public class Bonus {
 	}
 
 	public static long[] bonus(int[] arr, long s) {
+		float e1 = 1;
+		for (var i = 1; i < arr.length; i++) {
+			e1 += 1d * arr[0] / arr[i];
+		}
+		e1 = s / e1;
+		var answer = new long[arr.length];
+		answer[0] = Math.round(e1);
+		long ePlusEquals = answer[0];
+		long eMinus= answer[0];
+		while (Arrays.stream(answer).sum() != s) {
+			var numerator = ePlusEquals * arr[0];
+			for (var i = 1; i < answer.length; i++) {
+				answer[i] = Math.round(numerator / arr[i]);
+			}
+			answer[0] = ePlusEquals++;
+			if (Arrays.stream(answer).sum() != s) {
+				answer[0] = --eMinus;
+				numerator = eMinus * arr[0];
+				for (var i = 1; i < answer.length; i++) {
+					answer[i] = Math.round(numerator / arr[i]);
+				}
+			}
+		}
+		return answer;
+	}
+
+
+	public static long[] bonus1(int[] arr, long s) {
 		int averageDay = (int) Arrays.stream(arr).average().getAsDouble();
 		long averagePay = s / arr.length;
 		while (testAverage(arr, averageDay, averagePay, s) != 0) {
@@ -25,7 +53,7 @@ public class Bonus {
 		return calcNewArr(arr, averageDay, averagePay);
 	}
 
-	public static int testAverage(int [] arr, int averageDay, long averagePay, long s) {
+	public static int testAverage(int[] arr, int averageDay, long averagePay, long s) {
 		long sum = 0;
 		long avgBalance = averageDay * averagePay;
 		for (var one : arr) {
@@ -85,10 +113,6 @@ public class Bonus {
 //	}
 
 
-
-
-
-
 //	public static long[] bonus(int[] arr, long s) {
 //		long[] answer = new long[arr.length];
 //		long i = 0;
@@ -125,20 +149,6 @@ public class Bonus {
 //			answer[j] = first / arr[j];
 //		}
 //	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //	public static long[] bonus2(int[] arr, long s) {

@@ -2,6 +2,7 @@ package double_dispatch;
 
 import org.joda.money.Money;
 import single.dispatch.OrderLine;
+import visitor.OrderVisitor;
 
 import java.math.RoundingMode;
 import java.util.List;
