@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/split_by_value/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/split_by_value/kyu7/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/visitor/HtmlOrderViewCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/visitor/OrderVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/visitor/Visitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/test/java/visitor/HtmlOrderViewCreatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/youcan_t_code_under_pressure_2/kyu7/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/youcan_t_code_under_pressure_2/kyu7/CounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bonuses/kyu7/BonusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bonuses/kyu7/BonusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/OrderVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/SpecialOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/doubleDispatch/src/main/java/double_dispatch/SpecialOrder.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +86,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaPatternsAndOther" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -110,7 +101,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -134,26 +125,13 @@
       <recent name="the_pony_express.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.CounterTest">
     <configuration name="Bonus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.Bonus" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bonuses.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Supernatural" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Supernatural.Supernatural" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Supernatural.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,6 +160,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="bonuses.kyu7" />
       <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.BonusTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youcan_t_code_under_pressure_2.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="youcan_t_code_under_pressure_2.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="youcan_t_code_under_pressure_2.kyu7.CounterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CounterTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.BonusTest" />
         <item itemvalue="Application.Bonus" />
         <item itemvalue="JUnit.SupernaturalTest" />
-        <item itemvalue="Application.Supernatural" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +269,9 @@
       <workItem from="1624100556069" duration="647000" />
       <workItem from="1624101233786" duration="51022000" />
       <workItem from="1625509762589" duration="13190000" />
-      <workItem from="1626035282488" duration="25512000" />
+      <workItem from="1626035282488" duration="26659000" />
+      <workItem from="1627100020120" duration="599000" />
+      <workItem from="1627110529445" duration="630000" />
     </task>
     <servers />
   </component>
