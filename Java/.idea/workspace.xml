@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/youcan_t_code_under_pressure_2/kyu7/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/youcan_t_code_under_pressure_2/kyu7/CounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simple_fibonacci_strings/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simple_fibonacci_strings/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -118,14 +118,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simple_fibonacci_strings.kyu7" />
+      <recent name="youcan_t_code_under_pressure_2.kyu7" />
       <recent name="split_by_value.kyu7" />
       <recent name="bonuses.kyu7" />
       <recent name="Supernatural" />
-      <recent name="e80_s_Kids_2_Help_ALF_Find_His_Spaceship.kyu7" />
-      <recent name="the_pony_express.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CounterTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="Bonus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bonuses.kyu7.Bonus" />
       <module name="CodeWars" />
@@ -180,6 +180,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simple_fibonacci_strings.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simple_fibonacci_strings.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="simple_fibonacci_strings.kyu7.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -195,28 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupernaturalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Supernatural.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Supernatural" />
-      <option name="MAIN_CLASS_NAME" value="Supernatural.SupernaturalTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.CounterTest" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.BonusTest" />
         <item itemvalue="Application.Bonus" />
-        <item itemvalue="JUnit.SupernaturalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +271,7 @@
       <workItem from="1625509762589" duration="13190000" />
       <workItem from="1626035282488" duration="26659000" />
       <workItem from="1627100020120" duration="599000" />
-      <workItem from="1627110529445" duration="630000" />
+      <workItem from="1627110529445" duration="2134000" />
     </task>
     <servers />
   </component>
