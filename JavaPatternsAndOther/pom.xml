@@ -23,6 +23,7 @@
         <module>adapter</module>
         <module>fasade</module>
         <module>doubleDispatch</module>
+        <module>vavr</module>
     </modules>
 
     <properties>

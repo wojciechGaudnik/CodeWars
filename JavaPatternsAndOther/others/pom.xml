@@ -18,8 +18,11 @@
     </properties>
 
     <modules>
+        <module>consumer_vs_supplier</module>
         <module>gRPC</module>
+        <module>no_now</module>
         <module>serializable</module>
+        <module>vavr</module>
     </modules>
 
     <packaging>pom</packaging>

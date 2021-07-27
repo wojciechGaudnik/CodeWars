@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/battle_of_the_characters_easy/kyu7/BattleOfTheCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/battle_of_the_characters_easy/kyu7/BattleOfTheCharactersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common_substrings/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common_substrings/kyu7/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/vavr/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/vavr/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/vavr/src/main/java/PersonValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/vavr/src/test/java/VavrTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +107,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -118,14 +124,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="common_substrings.kyu7" />
       <recent name="battle_of_the_characters_easy.kyu7" />
       <recent name="simple_fibonacci_strings.kyu7" />
       <recent name="youcan_t_code_under_pressure_2.kyu7" />
       <recent name="split_by_value.kyu7" />
-      <recent name="bonuses.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BattleOfTheCharactersTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration name="BattleOfTheCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="battle_of_the_characters_easy.kyu7.BattleOfTheCharacters" />
       <module name="CodeWars" />
@@ -180,6 +186,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common_substrings.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="common_substrings.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="common_substrings.kyu7.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -195,28 +216,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="split_by_value.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="split_by_value.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="split_by_value.kyu7.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.BattleOfTheCharactersTest" />
         <item itemvalue="Application.BattleOfTheCharacters" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.CounterTest" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +277,7 @@
       <workItem from="1625509762589" duration="13190000" />
       <workItem from="1626035282488" duration="26659000" />
       <workItem from="1627100020120" duration="599000" />
-      <workItem from="1627110529445" duration="3937000" />
+      <workItem from="1627110529445" duration="5571000" />
     </task>
     <servers />
   </component>
