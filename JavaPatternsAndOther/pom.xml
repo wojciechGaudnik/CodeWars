@@ -23,7 +23,8 @@
         <module>adapter</module>
         <module>fasade</module>
         <module>doubleDispatch</module>
-        <module>vavr</module>
+        <module>iterator_and_container</module>
+        <module>composite</module>
     </modules>
 
     <properties>

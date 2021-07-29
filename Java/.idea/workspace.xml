@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nickname_generator/kyu7/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nickname_generator/kyu7/GeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finding_remainder_without_using_operator/kyu7/RemainderFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finding_remainder_without_using_operator/kyu7/SimpleInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/finding_remainder_without_using_operator/kyu7/RemainderFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/composite/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/composite/src/main/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/composite/src/main/java/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/composite/src/main/java/FinancialDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/composite/src/main/java/HeadDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/composite/src/main/java/SalesDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/iterator_and_container/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/iterator_and_container/src/main/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/iterator_and_container/src/main/java/container/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/iterator_and_container/src/main/java/impl/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/iterator_and_container/src/main/java/iterator/Iterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +36,8 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,11 +131,11 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="finding_remainder_without_using_operator.kyu7" />
       <recent name="nickname_generator.kyu7" />
       <recent name="common_substrings.kyu7" />
       <recent name="battle_of_the_characters_easy.kyu7" />
       <recent name="simple_fibonacci_strings.kyu7" />
-      <recent name="youcan_t_code_under_pressure_2.kyu7" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.GeneratorTest">
@@ -271,7 +284,9 @@
       <workItem from="1625509762589" duration="13190000" />
       <workItem from="1626035282488" duration="26659000" />
       <workItem from="1627100020120" duration="599000" />
-      <workItem from="1627110529445" duration="6846000" />
+      <workItem from="1627110529445" duration="7578000" />
+      <workItem from="1627529325338" duration="605000" />
+      <workItem from="1627559446470" duration="1098000" />
     </task>
     <servers />
   </component>
