@@ -12,5 +12,7 @@ public class Demo {
 		headDepartment.addDepartment(financialDepartment);
 		headDepartment.addDepartment(headDepartment1);
 		headDepartment.printDepartmentName();
+		System.out.println(System.getProperty("user.dir"));
+
 	}
 }
