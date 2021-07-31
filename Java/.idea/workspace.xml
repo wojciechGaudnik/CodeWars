@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/map_over_a_list_of_lists/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/map_over_a_list_of_lists/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rock_off/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rock_off/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/composite/src/main/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/composite/src/main/java/Demo.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,14 +118,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="rock_off.kyu7" />
       <recent name="map_over_a_list_of_lists" />
       <recent name="finding_remainder_without_using_operator.kyu7" />
       <recent name="nickname_generator.kyu7" />
       <recent name="common_substrings.kyu7" />
-      <recent name="battle_of_the_characters_easy.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="map_over_a_list_of_lists.Solution" />
       <module name="CodeWars" />
@@ -146,21 +145,6 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BattleOfTheCharactersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="battle_of_the_characters_easy.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="battle_of_the_characters_easy.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="battle_of_the_characters_easy.kyu7.BattleOfTheCharactersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,6 +180,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rock_off.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rock_off.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="rock_off.kyu7.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.GeneratorTest" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="JUnit.BattleOfTheCharactersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +273,7 @@
       <workItem from="1627100020120" duration="599000" />
       <workItem from="1627110529445" duration="7578000" />
       <workItem from="1627529325338" duration="605000" />
-      <workItem from="1627559446470" duration="6717000" />
+      <workItem from="1627559446470" duration="8644000" />
     </task>
     <servers />
   </component>
@@ -305,11 +304,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
           <line>20</line>
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/map_over_a_list_of_lists/Solution.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
