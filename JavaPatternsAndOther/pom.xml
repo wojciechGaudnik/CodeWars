@@ -25,6 +25,7 @@
         <module>doubleDispatch</module>
         <module>iterator_and_container</module>
         <module>composite</module>
+        <module>state</module>
     </modules>
 
     <properties>
