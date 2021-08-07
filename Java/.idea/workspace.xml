@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/convert_time_to_string/kyu7/TimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sum_of_differences_between_products_and_LCMs/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/convert_time_to_string/kyu7/TimeUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sum_of_differences_between_products_and_LCMs/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sum_of_differences_between_products_and_LCMs/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_differences_between_products_and_LCMs/kyu7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sum_of_differences_between_products_and_LCMs/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sum_of_differences_between_products_and_LCMs/kyu7/SolutionTest.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +101,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -127,7 +125,7 @@
       <recent name="fibonacci.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimeUtilsTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="TimeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="convert_time_to_string.kyu7.TimeUtils" />
       <module name="CodeWars" />
@@ -216,9 +214,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.TimeUtilsTest" />
         <item itemvalue="Application.TimeUtils" />
-        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.KataTest (2)" />
         <item itemvalue="JUnit.StrangeTest" />
       </list>
@@ -278,7 +276,7 @@
       <workItem from="1627110529445" duration="7578000" />
       <workItem from="1627529325338" duration="605000" />
       <workItem from="1627559446470" duration="10722000" />
-      <workItem from="1627881357643" duration="8379000" />
+      <workItem from="1627881357643" duration="10107000" />
     </task>
     <servers />
   </component>
