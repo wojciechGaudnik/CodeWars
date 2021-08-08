@@ -15,7 +15,7 @@ public interface AuthorRepository extends JpaRepository<Author, Long> {
 	@Query("FROM Author WHERE firstName = ?1")
 	List<Author> findByFirstName(String firstName);
 
-	@Query("SELECT a FROM Author a WHERE a.address.id = :addressId")
+	@Query("SELECT a FROM Author a JOIN FETCH a.address JOIN FETCH a.publishers WHERE a.address.id = :addressId")
 	AuthorDTO findAllByAddressIdAndDataBorn(
 			@Param("addressId") Long addressId);
 //			@Param("startDateTime") LocalDateTime startDateTime,
