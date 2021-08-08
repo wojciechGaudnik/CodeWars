@@ -1,5 +1,8 @@
-package demo.data;
+package demo.service;
 
+import demo.model.Author;
+import demo.model.AuthorDTO;
+import demo.model.repository.AuthorRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -15,5 +18,9 @@ public class AuthorService {
 
 	public Collection<Author> findAllAuthor(String name) {
 		return authorRepository.findByFirstName(name);
+	}
+
+	public AuthorDTO findTest(Long addressId) {
+		return authorRepository.findAllByAddressIdAndDataBorn(addressId);
 	}
 }
