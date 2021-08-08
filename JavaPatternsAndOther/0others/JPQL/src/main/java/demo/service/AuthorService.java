@@ -1,7 +1,7 @@
 package demo.service;
 
 import demo.model.Author;
-import demo.model.AuthorDTO;
+import demo.model.projection.AuthorDTO;
 import demo.model.repository.AuthorRepository;
 import org.springframework.stereotype.Service;
 

@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/bootstrap/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/controller/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/AuthorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/repository/PublisherRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/data/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/data/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/repository/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/data/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/test/java/demo/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/test/java/demo/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/AuthorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/model/AuthorDTO.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />

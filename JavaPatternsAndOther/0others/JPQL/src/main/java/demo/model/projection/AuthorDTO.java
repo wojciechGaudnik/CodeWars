@@ -1,11 +1,13 @@
-package demo.model;
+package demo.model.projection;
 
 
-import demo.model.repository.AddressDTO;
+import java.util.Map;
 
 public interface AuthorDTO {
 
 	Long getId();
 	String getFirstName();
 	AddressDTO getAddress();
+
+	Map<Long, PublisherDTO> getPublishers();
 }

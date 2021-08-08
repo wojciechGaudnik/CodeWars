@@ -1,4 +1,4 @@
-package demo.model.repository;
+package demo.model.projection;
 
 public interface AddressDTO {
 

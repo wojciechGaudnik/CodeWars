@@ -1,7 +1,7 @@
 package demo.controller;
 
 import demo.model.Author;
-import demo.model.AuthorDTO;
+import demo.model.projection.AuthorDTO;
 import demo.service.AuthorService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

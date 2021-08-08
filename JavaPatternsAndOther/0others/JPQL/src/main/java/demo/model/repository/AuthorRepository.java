@@ -1,7 +1,7 @@
 package demo.model.repository;
 
 import demo.model.Author;
-import demo.model.AuthorDTO;
+import demo.model.projection.AuthorDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
