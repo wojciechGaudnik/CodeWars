@@ -5,9 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/y80_s_kids_1_how_many_licks_does_it_take/kyu7/EightiesKids1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/y80_s_kids_1_how_many_licks_does_it_take/kyu7/EightiesKids1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/data/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/data/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/java/demo/data/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/test/java/demo/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/serializable/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sum_of_differences_between_products_and_LCMs/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_differences_between_products_and_LCMs/kyu7/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sum_of_differences_between_products_and_LCMs/kyu7/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sum_of_differences_between_products_and_LCMs/kyu7/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/adapter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/consumer_vs_supplier/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/src/main/java/consumer/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/consumer_vs_supplier/src/main/java/consumer/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/src/main/java/consumer/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/consumer_vs_supplier/src/main/java/consumer/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/src/main/java/supplier/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/consumer_vs_supplier/src/main/java/supplier/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/consumer_vs_supplier/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/consumer_vs_supplier/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/consumer_vs_supplier/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/src/main/java/client/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/src/main/java/client/GrpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/src/main/java/service/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/src/main/java/service/GrpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/src/main/java/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/src/main/java/service/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/src/main/proto/HelloService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/src/main/proto/HelloService.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/classes/HelloService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/grpc-java/dev/gaudnik/grpc/HelloServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/generated-sources/protobuf/grpc-java/dev/gaudnik/grpc/HelloServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloServiceOuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/generated-sources/protobuf/java/dev/gaudnik/grpc/HelloServiceOuterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/compiler/plugin.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/duration.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/empty.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/field_mask.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/struct.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/timestamp.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/gRPC/target/protoc-dependencies/248a5cb4d66d5c9a839b97ffcd234029/google/protobuf/wrappers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/ClockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/java/dev/gaudnik/no_now/ClockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/FixedTimeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/java/dev/gaudnik/no_now/FixedTimeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/NoNowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/java/dev/gaudnik/no_now/NoNowApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/Registry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/RegistryInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/RegistryInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/SystemTimeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/SystemTimeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/TimeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/java/dev/gaudnik/no_now/SystemTime/TimeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/java/dev/gaudnik/no_now/ZoneIdDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/java/dev/gaudnik/no_now/ZoneIdDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/no_now/src/test/java/dev/gaudnik/no_now/NoNowApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/no_now/src/test/java/dev/gaudnik/no_now/NoNowApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/serializable/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/src/main/java/serializable/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/serializable/src/main/java/serializable/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/src/main/java/serializable/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/serializable/src/main/java/serializable/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/serializable/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/serializable/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/gRPC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/vavr/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/vavr/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/vavr/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/vavr/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/vavr/src/main/java/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/vavr/src/main/java/PersonValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/others/vavr/src/test/java/VavrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/vavr/src/test/java/VavrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +191,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="y80_s_kids_1_how_many_licks_does_it_take.kyu7" />
       <recent name="convert_time_to_string.kyu7" />
       <recent name="sum_of_differences_between_products_and_LCMs.kyu7" />
       <recent name="find_the_GCF_of_two_numbers.kyu7" />
       <recent name="strange_mathematics.kyu7" />
-      <recent name="fibonacci.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.EightiesKids1Test">
     <configuration name="TimeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="convert_time_to_string.kyu7.TimeUtils" />
       <module name="CodeWars" />
@@ -139,15 +212,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightiesKids1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="y80_s_kids_1_how_many_licks_does_it_take.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="y80_s_kids_1_how_many_licks_does_it_take.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="y80_s_kids_1_how_many_licks_does_it_take.kyu7.EightiesKids1Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,21 +268,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strange_mathematics.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="strange_mathematics.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="strange_mathematics.kyu7.StrangeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TimeUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -214,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EightiesKids1Test" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.TimeUtilsTest" />
         <item itemvalue="Application.TimeUtils" />
         <item itemvalue="JUnit.KataTest (2)" />
-        <item itemvalue="JUnit.StrangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +347,8 @@
       <workItem from="1627110529445" duration="7578000" />
       <workItem from="1627529325338" duration="605000" />
       <workItem from="1627559446470" duration="10722000" />
-      <workItem from="1627881357643" duration="10107000" />
+      <workItem from="1627881357643" duration="10948000" />
+      <workItem from="1628409155411" duration="508000" />
     </task>
     <servers />
   </component>
@@ -307,11 +379,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
           <line>20</line>
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sum_of_differences_between_products_and_LCMs/kyu7/Solution.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

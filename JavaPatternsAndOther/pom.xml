@@ -14,7 +14,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>observer</module>
-        <module>others</module>
+        <module>0others</module>
         <module>strategy</module>
         <module>decorator</module>
         <module>factory</module>
@@ -26,6 +26,7 @@
         <module>iterator_and_container</module>
         <module>composite</module>
         <module>state</module>
+        <module>JPQL</module>
     </modules>
 
     <properties>

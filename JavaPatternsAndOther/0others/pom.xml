@@ -23,6 +23,7 @@
         <module>no_now</module>
         <module>serializable</module>
         <module>vavr</module>
+        <module>JPQL</module>
     </modules>
 
     <packaging>pom</packaging>
