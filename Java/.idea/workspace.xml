@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/string_prefix_and_suffix/kyu7/SuffPref.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/string_prefix_and_suffix/kyu7/SuffPrefTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/JPQL/target/classes/application.properties" afterDir="false" />
     </list>
@@ -117,14 +120,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="string_prefix_and_suffix.kyu7" />
       <recent name="y80_s_kids_1_how_many_licks_does_it_take.kyu7" />
       <recent name="convert_time_to_string.kyu7" />
       <recent name="sum_of_differences_between_products_and_LCMs.kyu7" />
       <recent name="find_the_GCF_of_two_numbers.kyu7" />
-      <recent name="strange_mathematics.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EightiesKids1Test">
+  <component name="RunManager" selected="JUnit.SuffPrefTest">
     <configuration name="TimeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="convert_time_to_string.kyu7.TimeUtils" />
       <module name="CodeWars" />
@@ -164,21 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="find_the_GCF_of_two_numbers.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="find_the_GCF_of_two_numbers.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="find_the_GCF_of_two_numbers.kyu7.KataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -189,6 +177,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="sum_of_differences_between_products_and_LCMs.kyu7" />
       <option name="MAIN_CLASS_NAME" value="sum_of_differences_between_products_and_LCMs.kyu7.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuffPrefTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_prefix_and_suffix.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string_prefix_and_suffix.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="string_prefix_and_suffix.kyu7.SuffPrefTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuffPrefTest" />
         <item itemvalue="JUnit.EightiesKids1Test" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.TimeUtilsTest" />
         <item itemvalue="Application.TimeUtils" />
-        <item itemvalue="JUnit.KataTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +277,7 @@
       <workItem from="1627529325338" duration="605000" />
       <workItem from="1627559446470" duration="10722000" />
       <workItem from="1627881357643" duration="10948000" />
-      <workItem from="1628409155411" duration="1547000" />
+      <workItem from="1628409155411" duration="2161000" />
     </task>
     <servers />
   </component>
@@ -305,6 +308,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
           <line>20</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string_prefix_and_suffix/kyu7/SuffPref.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
