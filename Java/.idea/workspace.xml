@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/numbers_which_sum_of_powers_of_its_digits_is_the_same_number/kyu7/Sumpowdig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/numbers_which_sum_of_powers_of_its_digits_is_the_same_number/kyu7/SumpowdigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geometry_basics_dot_product_in_3D/kyu7/GeometryBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/geometry_basics_dot_product_in_3D/kyu7/GeometryBasicsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -118,11 +118,11 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="geometry_basics_dot_product_in_3D.kyu7" />
       <recent name="numbers_which_sum_of_powers_of_its_digits_is_the_same_number.kyu7" />
       <recent name="string_prefix_and_suffix.kyu7" />
       <recent name="y80_s_kids_1_how_many_licks_does_it_take.kyu7" />
       <recent name="convert_time_to_string.kyu7" />
-      <recent name="sum_of_differences_between_products_and_LCMs.kyu7" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SumpowdigTest">
@@ -277,7 +277,7 @@
       <workItem from="1627529325338" duration="605000" />
       <workItem from="1627559446470" duration="10722000" />
       <workItem from="1627881357643" duration="10948000" />
-      <workItem from="1628409155411" duration="3929000" />
+      <workItem from="1628409155411" duration="4888000" />
     </task>
     <servers />
   </component>
@@ -308,11 +308,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
           <line>20</line>
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/numbers_which_sum_of_powers_of_its_digits_is_the_same_number/kyu7/Sumpowdig.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
