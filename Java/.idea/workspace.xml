@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/geometry_basics_dot_product_in_3D/kyu7/GeometryBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/geometry_basics_dot_product_in_3D/kyu7/GeometryBasicsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,7 @@
       <recent name="convert_time_to_string.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SumpowdigTest">
+  <component name="RunManager" selected="JUnit.KataTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -147,6 +143,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="y80_s_kids_1_how_many_licks_does_it_take.kyu7" />
       <option name="MAIN_CLASS_NAME" value="y80_s_kids_1_how_many_licks_does_it_take.kyu7.EightiesKids1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="waiting_room.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="waiting_room.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="waiting_room.kyu7.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,28 +208,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="convert_time_to_string.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="convert_time_to_string.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="convert_time_to_string.kyu7.TimeUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.SumpowdigTest" />
         <item itemvalue="JUnit.SuffPrefTest" />
         <item itemvalue="JUnit.EightiesKids1Test" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.TimeUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +273,7 @@
       <workItem from="1627529325338" duration="605000" />
       <workItem from="1627559446470" duration="10722000" />
       <workItem from="1627881357643" duration="10948000" />
-      <workItem from="1628409155411" duration="4888000" />
+      <workItem from="1628409155411" duration="5654000" />
     </task>
     <servers />
   </component>
