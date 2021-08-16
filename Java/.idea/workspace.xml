@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/an_english_twist_on_a_japanese_classic/kyu7/Shiritori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/an_english_twist_on_a_japanese_classic/kyu7/ShiritoriTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/regex_validation_of_24_hours_time/kyu7/RegexValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/regex_validation_of_24_hours_time/kyu7/RegexValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -118,14 +118,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="regex_validation_of_24_hours_time.kyu7" />
       <recent name="an_english_twist_on_a_japanese_classic.kyu7" />
       <recent name="harvest_festival.kyu7" />
       <recent name="mean_vs_median.kyu7" />
       <recent name="geometry_basics_dot_product_in_3D.kyu7" />
-      <recent name="numbers_which_sum_of_powers_of_its_digits_is_the_same_number.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShiritoriTest">
+  <component name="RunManager" selected="JUnit.RegexValidationTest">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="harvest_festival.kyu7.Kata" />
       <module name="CodeWars" />
@@ -165,6 +165,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegexValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regex_validation_of_24_hours_time.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regex_validation_of_24_hours_time.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="regex_validation_of_24_hours_time.kyu7.RegexValidationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShiritoriTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -195,29 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mean_vs_median.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mean_vs_median.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="mean_vs_median.kyu7.SolutionTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegexValidationTest" />
         <item itemvalue="JUnit.ShiritoriTest" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.SolutionTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +277,7 @@
       <workItem from="1627881357643" duration="10948000" />
       <workItem from="1628409155411" duration="5654000" />
       <workItem from="1628862674413" duration="1602000" />
-      <workItem from="1628864291522" duration="2875000" />
+      <workItem from="1628864291522" duration="5321000" />
     </task>
     <servers />
   </component>
