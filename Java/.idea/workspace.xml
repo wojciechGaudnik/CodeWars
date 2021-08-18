@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/robotic_tattoo_removal/kyu7/RoboticTattooRemoval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/robotic_tattoo_removal/kyu7/RoboticTattooRemovalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,26 +121,28 @@
       <recent name="mean_vs_median.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoboticTattooRemovalTest">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="harvest_festival.kyu7.Kata" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="harvest_festival.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FibonacciTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="find_fibonacci_last_digit.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="find_fibonacci_last_digit.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="find_fibonacci_last_digit.kyu7.FibonacciTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.RoboticTattooRemovalTest" />
         <item itemvalue="JUnit.RegexValidationTest" />
         <item itemvalue="JUnit.ShiritoriTest" />
         <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +275,7 @@
       <workItem from="1627881357643" duration="10948000" />
       <workItem from="1628409155411" duration="5654000" />
       <workItem from="1628862674413" duration="1602000" />
-      <workItem from="1628864291522" duration="6422000" />
+      <workItem from="1628864291522" duration="7301000" />
     </task>
     <servers />
   </component>
