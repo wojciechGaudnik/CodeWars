@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/describe_a_list/kyu7/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thinking_testing_incomplete_string/kyu7/ThinkingAndTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/thinking_testing_incomplete_string/kyu7/ThinkingAndTestingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +23,8 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -116,20 +118,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="thinking_testing_incomplete_string.kyu7" />
+      <recent name="describe_a_list.kyu7" />
       <recent name="unflatten_a_list_easy.kyu7" />
       <recent name="_80_s_kids_5_you_can_t_do_that_on_television.kyu7" />
       <recent name="find_fibonacci_last_digit.kyu7" />
-      <recent name="robotic_tattoo_removal.kyu7" />
-      <recent name="regex_validation_of_24_hours_time.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest (1)">
-    <configuration name="EightiesKids5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7.EightiesKids5" />
+  <component name="RunManager" selected="JUnit.ThinkingAndTestingTest">
+    <configuration name="ThinkingAndTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinking_testing_incomplete_string.kyu7.ThinkingAndTesting" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7.*" />
+          <option name="PATTERN" value="thinking_testing_incomplete_string.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,22 +161,6 @@
       <option name="PACKAGE_NAME" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7" />
       <option name="MAIN_CLASS_NAME" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7.EightiesKids5Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EightiesKids5Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7.EightiesKids5Test" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,13 +195,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinking_testing_incomplete_string.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thinking_testing_incomplete_string.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="thinking_testing_incomplete_string.kyu7.ThinkingAndTestingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThinkingAndTestingTest" />
+        <item itemvalue="Application.ThinkingAndTesting" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.EightiesKids5Test" />
-        <item itemvalue="Application.EightiesKids5" />
-        <item itemvalue="JUnit.EightiesKids5Test.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +278,7 @@
       <workItem from="1628409155411" duration="5654000" />
       <workItem from="1628862674413" duration="1602000" />
       <workItem from="1628864291522" duration="11136000" />
-      <workItem from="1629467048954" duration="4812000" />
+      <workItem from="1629467048954" duration="7111000" />
     </task>
     <servers />
   </component>
