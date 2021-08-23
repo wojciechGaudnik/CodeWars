@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thinking_testing_incomplete_string/kyu7/ThinkingAndTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thinking_testing_incomplete_string/kyu7/ThinkingAndTestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_parsing_prices/kyu7/CentParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/regexp_basics_parsing_prices/kyu7/CentParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -118,14 +118,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="regexp_basics_parsing_prices.kyu7" />
       <recent name="thinking_testing_incomplete_string.kyu7" />
       <recent name="describe_a_list.kyu7" />
       <recent name="unflatten_a_list_easy.kyu7" />
       <recent name="_80_s_kids_5_you_can_t_do_that_on_television.kyu7" />
-      <recent name="find_fibonacci_last_digit.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThinkingAndTestingTest">
+  <component name="RunManager" selected="JUnit.CentParserTest">
     <configuration name="ThinkingAndTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thinking_testing_incomplete_string.kyu7.ThinkingAndTesting" />
       <module name="CodeWars" />
@@ -150,16 +150,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EightiesKids5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CentParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7.*" />
+          <option name="PATTERN" value="regexp_basics_parsing_prices.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="_80_s_kids_5_you_can_t_do_that_on_television.kyu7.EightiesKids5Test" />
+      <option name="PACKAGE_NAME" value="regexp_basics_parsing_prices.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="regexp_basics_parsing_prices.kyu7.CentParserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CentParserTest" />
         <item itemvalue="JUnit.ThinkingAndTestingTest" />
         <item itemvalue="Application.ThinkingAndTesting" />
         <item itemvalue="JUnit.KataTest (1)" />
         <item itemvalue="JUnit.KataTest" />
-        <item itemvalue="JUnit.EightiesKids5Test" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +278,7 @@
       <workItem from="1628409155411" duration="5654000" />
       <workItem from="1628862674413" duration="1602000" />
       <workItem from="1628864291522" duration="11136000" />
-      <workItem from="1629467048954" duration="7111000" />
+      <workItem from="1629467048954" duration="9177000" />
     </task>
     <servers />
   </component>
@@ -309,6 +309,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java</url>
           <line>20</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/regexp_basics_parsing_prices/kyu7/CentParser.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
