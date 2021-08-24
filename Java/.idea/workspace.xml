@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/regexp_basics_parsing_prices/kyu7/CentParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/regexp_basics_parsing_prices/kyu7/CentParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/filling_an_array_part_1.kyu8/Kata.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/tests/first.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -86,7 +87,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TypeScript" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,17 +136,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,7 +268,8 @@
       <workItem from="1628409155411" duration="5654000" />
       <workItem from="1628862674413" duration="1602000" />
       <workItem from="1628864291522" duration="11136000" />
-      <workItem from="1629467048954" duration="9177000" />
+      <workItem from="1629467048954" duration="10066000" />
+      <workItem from="1629749213761" duration="1389000" />
     </task>
     <servers />
   </component>
@@ -313,7 +304,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/regexp_basics_parsing_prices/kyu7/CentParser.java</url>
           <line>8</line>
-          <option name="timeStamp" value="59" />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
