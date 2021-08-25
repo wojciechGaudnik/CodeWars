@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TypeScript/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TypeScript/filling_an_array_part_1.kyu8/Kata.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TypeScript/tests/first.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/src/Main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/src/__tests__/Maintest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/src/__tests__/filling_an_array_part_1_test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/src/__tests__/holiday_4_shark_pontoon_kyu8_test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/src/kata/filling_an_array_part_1.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/src/kata/holiday_4_shark_pontoon_kyu8.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScript/filling_an_array_part_1.kyu8/Kata.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScript/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../TypeScript/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScript/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TypeScript/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TypeScript/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TypeScript/tests/first.test.ts" beforeDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
