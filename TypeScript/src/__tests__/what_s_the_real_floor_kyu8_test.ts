@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import { getRealFloor } from "../kata/what_s_the_real_floor.kyu8";
+import { getRealFloor } from "../kata/what_s_the_real_floor_kyu8";
 
 describe("example", function() {
     it("test", function() {
