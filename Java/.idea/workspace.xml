@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="" />
+    <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TypeScript/src/__tests__/hello_name_or_world_kyu8_test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TypeScript/src/kata/hello_name_or_world_kyu8.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,6 +269,7 @@
       <workItem from="1628864291522" duration="11136000" />
       <workItem from="1629467048954" duration="10066000" />
       <workItem from="1629749213761" duration="1389000" />
+      <workItem from="1630168829876" duration="599000" />
     </task>
     <servers />
   </component>
