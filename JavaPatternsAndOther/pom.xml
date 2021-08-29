@@ -21,12 +21,11 @@
         <module>singleton</module>
         <module>command</module>
         <module>adapter</module>
-        <module>fasade</module>
+        <module>facade</module>
         <module>doubleDispatch</module>
         <module>iterator_and_container</module>
         <module>composite</module>
         <module>state</module>
-        <module>JPQL</module>
     </modules>
 
     <properties>

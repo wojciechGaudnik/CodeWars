@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TypeScript/src/__tests__/hello_name_or_world_kyu8_test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TypeScript/src/kata/hello_name_or_world_kyu8.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/proxy/src/main/java/com/example/proxy/external/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/proxy/src/main/java/com/example/proxy/external/YouTubeLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/proxy/src/main/java/com/example/proxy/external/YouTubeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/proxy/src/main/java/com/example/proxy/proxy/YouTubeCacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/proxy/src/main/java/com/example/proxy/proxy/YouTubeDownloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/consumer_vs_supplier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/0others/consumer_vs_supplier/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/facade/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/AccountNumberCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/facade/src/main/java/fasade_derek/AccountNumberCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/facade/src/main/java/fasade_derek/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/BankAccountFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/facade/src/main/java/fasade_derek/BankAccountFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/FundsCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/facade/src/main/java/fasade_derek/FundsCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/SecurityCodeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/facade/src/main/java/fasade_derek/SecurityCodeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/fasade/src/main/java/fasade_derek/WelcomeToBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/facade/src/main/java/fasade_derek/WelcomeToBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/pom.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
