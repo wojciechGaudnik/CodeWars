@@ -26,6 +26,7 @@
         <module>iterator_and_container</module>
         <module>composite</module>
         <module>state</module>
+        <module>Java_16</module>
     </modules>
 
     <properties>
