@@ -1,1 +1,1 @@
-echo $(printf "Value is %05d" $1)
+printf "Value is %05d" $1
