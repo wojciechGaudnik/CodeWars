@@ -5,3 +5,5 @@ export function lastSurvivor(letters: string, coords: number[]): string {
     }
     return splited.join('')
 }
+
+console.log(-3 / 2)
