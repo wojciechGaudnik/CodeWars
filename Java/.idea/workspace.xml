@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pandemia/Pandemia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pandemia/PandemicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sum_of_cubes/kyu7/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sum_of_cubes/kyu7/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -118,33 +118,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sum_of_cubes.kyu7" />
       <recent name="Pandemia" />
       <recent name="regexp_basics_parsing_prices.kyu7" />
       <recent name="thinking_testing_incomplete_string.kyu7" />
       <recent name="describe_a_list.kyu7" />
-      <recent name="unflatten_a_list_easy.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PandemicTest">
+  <component name="RunManager" selected="JUnit.WithoutLetterETest">
     <configuration name="Pandemia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pandemia.Pandemia" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Pandemia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThinkingAndTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinking_testing_incomplete_string.kyu7.ThinkingAndTesting" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinking_testing_incomplete_string.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,16 +169,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThinkingAndTestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinking_testing_incomplete_string.kyu7.*" />
+          <option name="PATTERN" value="sum_of_cubes.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="thinking_testing_incomplete_string.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="thinking_testing_incomplete_string.kyu7.ThinkingAndTestingTest" />
+      <option name="PACKAGE_NAME" value="sum_of_cubes.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="sum_of_cubes.kyu7.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithoutLetterETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="without_the_letter_E.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="without_the_letter_E.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="without_the_letter_E.kyu7.WithoutLetterETest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WithoutLetterETest" />
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.PandemicTest" />
         <item itemvalue="Application.Pandemia" />
         <item itemvalue="JUnit.CentParserTest" />
-        <item itemvalue="JUnit.ThinkingAndTestingTest" />
-        <item itemvalue="Application.ThinkingAndTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +271,7 @@
       <workItem from="1629749213761" duration="1389000" />
       <workItem from="1630168829876" duration="628000" />
       <workItem from="1633002837890" duration="2100000" />
+      <workItem from="1633096745095" duration="3220000" />
     </task>
     <servers />
   </component>
