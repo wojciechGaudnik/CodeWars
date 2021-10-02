@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sum_of_cubes/kyu7/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sum_of_cubes/kyu7/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/columnize/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/columnize/kyu6/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sum_of_cubes/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_cubes/kyu7/Solution.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,20 +119,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="columnize.kyu6" />
+      <recent name="without_the_letter_E.kyu7" />
       <recent name="sum_of_cubes.kyu7" />
       <recent name="Pandemia" />
       <recent name="regexp_basics_parsing_prices.kyu7" />
-      <recent name="thinking_testing_incomplete_string.kyu7" />
-      <recent name="describe_a_list.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WithoutLetterETest">
-    <configuration name="Pandemia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pandemia.Pandemia" />
+  <component name="RunManager" selected="JUnit.KataSampleTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="columnize.kyu6.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pandemia.*" />
+          <option name="PATTERN" value="columnize.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,73 +140,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CentParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataSampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regexp_basics_parsing_prices.kyu7.*" />
+          <option name="PATTERN" value="columnize.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="regexp_basics_parsing_prices.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="regexp_basics_parsing_prices.kyu7.CentParserTest" />
+      <option name="PACKAGE_NAME" value="columnize.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="columnize.kyu6.KataSampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PandemicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataSampleTest.shouldHandleMoreColumnsThanInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pandemia.*" />
+          <option name="PATTERN" value="columnize.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Pandemia" />
-      <option name="MAIN_CLASS_NAME" value="Pandemia.PandemicTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="columnize.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="columnize.kyu6.KataSampleTest" />
+      <option name="METHOD_NAME" value="shouldHandleMoreColumnsThanInput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataSampleTest.shouldHandleSingleColumn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sum_of_cubes.kyu7.*" />
+          <option name="PATTERN" value="columnize.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sum_of_cubes.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="sum_of_cubes.kyu7.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="columnize.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="columnize.kyu6.KataSampleTest" />
+      <option name="METHOD_NAME" value="shouldHandleSingleColumn" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutLetterETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataSampleTest.shouldHandleUnevenColumns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="without_the_letter_E.kyu7.*" />
+          <option name="PATTERN" value="columnize.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="without_the_letter_E.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="without_the_letter_E.kyu7.WithoutLetterETest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="columnize.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="columnize.kyu6.KataSampleTest" />
+      <option name="METHOD_NAME" value="shouldHandleUnevenColumns" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WithoutLetterETest" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.PandemicTest" />
-        <item itemvalue="Application.Pandemia" />
-        <item itemvalue="JUnit.CentParserTest" />
+        <item itemvalue="JUnit.KataSampleTest" />
+        <item itemvalue="JUnit.KataSampleTest.shouldHandleUnevenColumns" />
+        <item itemvalue="JUnit.KataSampleTest.shouldHandleMoreColumnsThanInput" />
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.KataSampleTest.shouldHandleSingleColumn" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +275,7 @@
       <workItem from="1629749213761" duration="1389000" />
       <workItem from="1630168829876" duration="628000" />
       <workItem from="1633002837890" duration="2100000" />
-      <workItem from="1633096745095" duration="3220000" />
+      <workItem from="1633096745095" duration="10607000" />
     </task>
     <servers />
   </component>
@@ -309,12 +313,19 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Pandemia/Pandemia.java</url>
-          <line>7</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="62" />
+          <url>file://$PROJECT_DIR$/src/main/java/columnize/kyu6/Kata.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/columnize/kyu6/Kata.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/columnize/kyu6/Kata.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -333,6 +344,8 @@
       </configuration>
       <configuration name="Application">
         <watch expression="test2" />
+        <watch expression="first" />
+        <watch expression="last" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" line="49">
         <watch expression="averagePay" language="JAVA" />
