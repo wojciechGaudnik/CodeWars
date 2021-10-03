@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/columnize/kyu6/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/columnize/kyu6/KataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kingdoms_ep1_jousting/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kingdoms_ep1_jousting/kyu6/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sum_of_cubes/kyu7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sum_of_cubes/kyu7/Solution.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,20 +118,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kingdoms_ep1_jousting.kyu6" />
       <recent name="columnize.kyu6" />
       <recent name="without_the_letter_E.kyu7" />
       <recent name="sum_of_cubes.kyu7" />
       <recent name="Pandemia" />
-      <recent name="regexp_basics_parsing_prices.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataSampleTest">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="columnize.kyu6.Kata" />
+  <component name="RunManager" selected="JUnit.Tests">
+    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kingdoms_ep1_jousting.kyu6.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="columnize.kyu6.*" />
+          <option name="PATTERN" value="kingdoms_ep1_jousting.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,22 +170,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataSampleTest.shouldHandleSingleColumn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="columnize.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="columnize.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="columnize.kyu6.KataSampleTest" />
-      <option name="METHOD_NAME" value="shouldHandleSingleColumn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KataSampleTest.shouldHandleUnevenColumns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -203,13 +186,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kingdoms_ep1_jousting.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kingdoms_ep1_jousting.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="kingdoms_ep1_jousting.kyu6.Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.KataSampleTest" />
         <item itemvalue="JUnit.KataSampleTest.shouldHandleUnevenColumns" />
         <item itemvalue="JUnit.KataSampleTest.shouldHandleMoreColumnsThanInput" />
-        <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.KataSampleTest.shouldHandleSingleColumn" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +273,7 @@
       <workItem from="1629749213761" duration="1389000" />
       <workItem from="1630168829876" duration="628000" />
       <workItem from="1633002837890" duration="2100000" />
-      <workItem from="1633096745095" duration="10607000" />
+      <workItem from="1633096745095" duration="13156000" />
     </task>
     <servers />
   </component>
@@ -313,19 +311,9 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/columnize/kyu6/Kata.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/columnize/kyu6/Kata.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/columnize/kyu6/Kata.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="70" />
+          <url>file://$PROJECT_DIR$/src/main/java/kingdoms_ep1_jousting/kyu6/Kata.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -336,11 +324,9 @@
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="firest" />
-        <watch expression="second" />
-        <watch expression="test" />
-        <watch expression="s.substring(0, s.length() / 2)" />
-        <watch expression="s.substring(s.length() / 2)" />
+        <watch expression="listField" />
+        <watch expression="leftKnightView" />
+        <watch expression="rightKnightView" />
       </configuration>
       <configuration name="Application">
         <watch expression="test2" />
