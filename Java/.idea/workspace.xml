@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/last_survivors_ep_2/kyu6/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/last_survivors_ep_2/kyu6/KataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPatternsAndOther/singleton/src/main/java/DoubleCheckedLockingSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/a_b_n/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/a_b_n/kyu6/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -119,14 +118,27 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="a_b_n.kyu6" />
       <recent name="last_survivors_ep_2.kyu6" />
       <recent name="count_a_spiral.kyu6" />
       <recent name="kingdoms_ep1_jousting.kyu6" />
       <recent name="columnize.kyu6" />
-      <recent name="without_the_letter_E.kyu7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
+  <component name="RunManager" selected="JUnit.KataTest (1)">
+    <configuration name="Kata (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_b_n.kyu6.Kata" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_b_n.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="last_survivors_ep_2.kyu6.Kata" />
       <module name="CodeWars" />
@@ -140,15 +152,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spiral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="count_a_spiral.kyu6.Spiral" />
+    <configuration name="KataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="count_a_spiral.kyu6.*" />
+          <option name="PATTERN" value="a_b_n.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="a_b_n.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="a_b_n.kyu6.KataTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,28 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="count_a_spiral.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="count_a_spiral.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="count_a_spiral.kyu6.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest (1)" />
+        <item itemvalue="Application.Kata (1)" />
         <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.KataTest.ordinary" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Spiral" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +272,7 @@
       <workItem from="1633002837890" duration="2100000" />
       <workItem from="1633096745095" duration="23953000" />
       <workItem from="1633425546761" duration="1823000" />
+      <workItem from="1633462032131" duration="5344000" />
     </task>
     <servers />
   </component>
