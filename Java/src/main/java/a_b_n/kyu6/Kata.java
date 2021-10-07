@@ -5,11 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Kata {
-	public static void main(String[] args) {
-		System.out.println(pascal(9));
-		System.out.println(Long.MAX_VALUE);
-		System.out.println("6642296615638987380");
-	}
 
 	public static String formula(int m) {
 		if (m == 0) {
