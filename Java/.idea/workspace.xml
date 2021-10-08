@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps_in_k_primes/kyu6/KprimesSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps_in_k_primes/kyu6/KprimesStepsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/travelling_on_a_grid/kyu6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/travelling_on_a_grid/kyu6/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/a_b_n/kyu6/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/a_b_n/kyu6/Kata.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,14 +118,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="travelling_on_a_grid.kyu6" />
       <recent name="steps_in_k_primes.kyu6" />
       <recent name="bishop_movement_checker.kyu6" />
       <recent name="a_b_n.kyu6" />
       <recent name="last_survivors_ep_2.kyu6" />
-      <recent name="count_a_spiral.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KprimesStepsTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="KprimesSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="steps_in_k_primes.kyu6.KprimesSteps" />
       <module name="CodeWars" />
@@ -141,11 +140,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bishop_movement_checker.kyu6.Solution" />
+      <option name="MAIN_CLASS_NAME" value="travelling_on_a_grid.kyu6.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bishop_movement_checker.kyu6.*" />
+          <option name="PATTERN" value="travelling_on_a_grid.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,16 +182,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bishop_movement_checker.kyu6.*" />
+          <option name="PATTERN" value="travelling_on_a_grid.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bishop_movement_checker.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="bishop_movement_checker.kyu6.SolutionTest" />
+      <option name="PACKAGE_NAME" value="travelling_on_a_grid.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="travelling_on_a_grid.kyu6.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.KprimesStepsTest" />
         <item itemvalue="Application.KprimesSteps" />
         <item itemvalue="JUnit.KataTest (1)" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +272,8 @@
       <workItem from="1633096745095" duration="23953000" />
       <workItem from="1633425546761" duration="1823000" />
       <workItem from="1633462032131" duration="8704000" />
-      <workItem from="1633587222353" duration="2652000" />
+      <workItem from="1633587222353" duration="6639000" />
+      <workItem from="1633669856007" duration="2863000" />
     </task>
     <servers />
   </component>
@@ -315,21 +315,6 @@
           <line>16</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/steps_in_k_primes/kyu6/KprimesSteps.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/steps_in_k_primes/kyu6/KprimesSteps.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/steps_in_k_primes/kyu6/KprimesSteps.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -340,10 +325,6 @@
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="str.chars().filter(c -&gt; c == actualChar).count()" />
-      </configuration>
-      <configuration name="Application">
-        <watch expression="firstOne" />
-        <watch expression="firstOne.contains(&quot;g1&quot;)" language="JAVA" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/bonuses/kyu7/Bonus.java" line="49">
         <watch expression="averagePay" language="JAVA" />
