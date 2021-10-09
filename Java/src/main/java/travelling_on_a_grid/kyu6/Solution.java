@@ -16,5 +16,4 @@ class Solution {
 		if (x1 > x2 || y1 > y2)	return 0;
 		return count(x1 + 1, y1, x2, y2) + count(x1, y1 + 1, x2, y2);
 	}
-
 }
