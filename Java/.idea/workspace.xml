@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kingdoms_ep2_the_curse_simplified/kyu8/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kingdoms_ep2_the_curse_simplified/kyu8/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_compression/kyu6/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_compression/kyu6/Solution.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +126,7 @@
       <recent name="bishop_movement_checker.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest">
+  <component name="RunManager" selected="Application.Kata">
     <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kingdoms_ep2_the_curse_simplified.kyu8.Kata" />
       <module name="CodeWars" />
@@ -198,8 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.KataTest" />
         <item itemvalue="JUnit.KataTest.newEdge" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.SolutionTest" />
@@ -273,7 +276,7 @@
       <workItem from="1633462032131" duration="8704000" />
       <workItem from="1633587222353" duration="6639000" />
       <workItem from="1633669856007" duration="2863000" />
-      <workItem from="1633833878599" duration="6317000" />
+      <workItem from="1633833878599" duration="4504000" />
     </task>
     <servers />
   </component>
