@@ -3,6 +3,9 @@ package basic_compression.kyu6;
 import java.util.regex.Pattern;
 
 class Solution {
+	public static void main(String[] args) {
+		System.out.println("test");
+	}
 	public static String compress(String s) {
 		if (!Pattern.compile("(.)\\1{2,}").matcher(s).find()) return s;
 		var answer = new StringBuilder();
