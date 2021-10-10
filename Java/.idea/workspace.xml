@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic_compression/kyu6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basic_compression/kyu6/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kingdoms_ep2_the_curse_simplified/kyu8/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kingdoms_ep2_the_curse_simplified/kyu8/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/travelling_on_a_grid/kyu6/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/travelling_on_a_grid/kyu6/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic_compression/kyu6/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic_compression/kyu6/Solution.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -119,14 +119,27 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kingdoms_ep2_the_curse_simplified.kyu8" />
       <recent name="basic_compression.kyu6" />
       <recent name="travelling_on_a_grid.kyu6" />
       <recent name="steps_in_k_primes.kyu6" />
       <recent name="bishop_movement_checker.kyu6" />
-      <recent name="a_b_n.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="JUnit.KataTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kingdoms_ep2_the_curse_simplified.kyu8.Kata" />
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kingdoms_ep2_the_curse_simplified.kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_compression.kyu6.Solution" />
       <module name="CodeWars" />
@@ -140,45 +153,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="travelling_on_a_grid.kyu6.Solution" />
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="travelling_on_a_grid.kyu6.*" />
+          <option name="PATTERN" value="kingdoms_ep2_the_curse_simplified.kyu8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KprimesStepsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="steps_in_k_primes.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="steps_in_k_primes.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="steps_in_k_primes.kyu6.KprimesStepsTest" />
+      <option name="PACKAGE_NAME" value="kingdoms_ep2_the_curse_simplified.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="kingdoms_ep2_the_curse_simplified.kyu8.KataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest.newEdge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="travelling_on_a_grid.kyu6.*" />
+          <option name="PATTERN" value="kingdoms_ep2_the_curse_simplified.kyu8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="travelling_on_a_grid.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="travelling_on_a_grid.kyu6.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="kingdoms_ep2_the_curse_simplified.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="kingdoms_ep2_the_curse_simplified.kyu8.KataTest" />
+      <option name="METHOD_NAME" value="newEdge" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="JUnit.KataTest.newEdge" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.KprimesStepsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -275,8 +276,14 @@
       <workItem from="1633462032131" duration="8704000" />
       <workItem from="1633587222353" duration="6639000" />
       <workItem from="1633669856007" duration="2863000" />
+      <workItem from="1633833878599" duration="4504000" />
     </task>
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <envs>
+      <env key="TERM" value="xterm-256color" />
+    </envs>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -318,8 +325,13 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/basic_compression/kyu6/Solution.java</url>
-          <line>25</line>
+          <line>28</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/kingdoms_ep2_the_curse_simplified/kyu8/KataTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -344,6 +356,11 @@
         <watch expression="averagePay" language="JAVA" />
       </inline-watch>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java$KataTest_newEdge.ic" NAME="KataTest.newEdge Coverage Results" MODIFIED="1633837138266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>kingdoms_ep2_the_curse_simplified.kyu8.*</FILTER>
+    </SUITE>
   </component>
   <component name="regexState">
     <option name="map">
