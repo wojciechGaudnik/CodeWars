@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/duplicates_duplicates_everywhere/kyu6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/duplicates_duplicates_everywhere/kyu6/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ieee_754_floating_point_numbers/kyu6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/duplicates_duplicates_everywhere/kyu6/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ieee_754_floating_point_numbers/kyu6/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/corner_fill/ku6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/corner_fill/ku6/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -26,8 +23,8 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -52,13 +49,21 @@
     <option name="SCOPE" value="All" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/duck_duck_goose/kyu8/Kata.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/find_the_integral/kyu8/Kata.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/sum_of_cubes/kyu7/Solution.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/duplicates_duplicates_everywhere/kyu6/SolutionTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/find_the_integral/kyu8/KataTest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/sum_of_differences_in_array/kyu8/ZywOo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/duplicates_duplicates_everywhere/kyu6/Utils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/basic_compression/kyu6/SolutionTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/push_a_hash_an_object_into_array/kyu8/PushAnObjectIntoArray.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/duck_duck_goose/kyu8/Kata.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/ieee_754_floating_point_numbers/kyu6/SolutionTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/sum_of_cubes/kyu7/SolutionTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/duplicates_duplicates_everywhere/kyu6/Solution.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/sum_of_differences_in_array/kyu8/ZywOo.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/push_a_hash_an_object_into_array/kyu8/PushAnObjectIntoArrayTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/sum_of_differences_in_array/kyu8/ZywOoTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ieee_754_floating_point_numbers/kyu6/Solution.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="NamedScopeManager">
     <scope name="Unnamed" pattern="" />
@@ -92,7 +97,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TypeScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C#" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -107,7 +112,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -125,20 +130,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="corner_fill.ku6" />
       <recent name="duplicates_duplicates_everywhere.kyu6" />
       <recent name="ieee_754_floating_point_numbers.kyu6" />
       <recent name="kingdoms_ep2_the_curse_simplified.kyu8" />
       <recent name="basic_compression.kyu6" />
-      <recent name="travelling_on_a_grid.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.test">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ieee_754_floating_point_numbers.kyu6.Solution" />
+  <component name="RunManager" selected="JUnit.SolutionTest (2)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corner_fill.ku6.Solution" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ieee_754_floating_point_numbers.kyu6.*" />
+          <option name="PATTERN" value="corner_fill.ku6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,6 +166,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corner_fill.ku6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="corner_fill.ku6" />
+      <option name="MAIN_CLASS_NAME" value="corner_fill.ku6.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -172,22 +192,6 @@
       <option name="PACKAGE_NAME" value="ieee_754_floating_point_numbers.kyu6" />
       <option name="MAIN_CLASS_NAME" value="ieee_754_floating_point_numbers.kyu6.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.sampleTestsDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ieee_754_floating_point_numbers.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ieee_754_floating_point_numbers.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="ieee_754_floating_point_numbers.kyu6.SolutionTest" />
-      <option name="METHOD_NAME" value="sampleTestsDouble" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (2)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.SolutionTest.test" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.SolutionTest.sampleTestsDouble" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +290,8 @@
       <workItem from="1633587222353" duration="6639000" />
       <workItem from="1633669856007" duration="2863000" />
       <workItem from="1633833878599" duration="4504000" />
+      <workItem from="1633982487370" duration="2867000" />
+      <workItem from="1634022861314" duration="3090000" />
     </task>
     <servers />
   </component>
@@ -342,12 +348,17 @@
           <line>19</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/duplicates_duplicates_everywhere/kyu6/Solution.java</url>
           <line>10</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/corner_fill/ku6/Solution.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="88" />
         </breakpoint>
@@ -358,6 +369,7 @@
             <option name="notifyOnTerminate" value="true" />
           </properties>
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception" />
       </default-breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -374,6 +386,10 @@
         <watch expression="averagePay" language="JAVA" />
       </inline-watch>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java$KataTest_newEdge.ic" NAME="KataTest.newEdge Coverage Results" MODIFIED="1633837138266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
