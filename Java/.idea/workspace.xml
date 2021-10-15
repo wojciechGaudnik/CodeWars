@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vin_checker/kyu6/CodeWars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vin_checker/kyu6/CodeWarsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exponential_golomb_decoder/kyu6/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exponential_golomb_decoder/kyu6/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -130,14 +130,14 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="exponential_golomb_decoder.kyu6" />
       <recent name="vin_checker.kyu6" />
       <recent name="weird_ipv6_hex_string_parsing.kyu6" />
       <recent name="corner_fill.ku6" />
       <recent name="duplicates_duplicates_everywhere.kyu6" />
-      <recent name="ieee_754_floating_point_numbers.kyu6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CodeWarsTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="CodeWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vin_checker.kyu6.CodeWars" />
       <module name="CodeWars" />
@@ -179,16 +179,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corner_fill.ku6.*" />
+          <option name="PATTERN" value="exponential_golomb_decoder.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="corner_fill.ku6" />
-      <option name="MAIN_CLASS_NAME" value="corner_fill.ku6.SolutionTest" />
+      <option name="PACKAGE_NAME" value="exponential_golomb_decoder.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="exponential_golomb_decoder.kyu6.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.CodeWarsTest" />
         <item itemvalue="Application.CodeWars" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.SolutionTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +288,8 @@
       <workItem from="1633669856007" duration="2863000" />
       <workItem from="1633833878599" duration="4504000" />
       <workItem from="1633982487370" duration="2867000" />
-      <workItem from="1634022861314" duration="13741000" />
+      <workItem from="1634022861314" duration="15177000" />
+      <workItem from="1634270532704" duration="2512000" />
     </task>
     <servers />
   </component>
@@ -357,8 +358,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/vin_checker/kyu6/CodeWars.java</url>
-          <line>33</line>
+          <line>38</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/exponential_golomb_decoder/kyu6/Solution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
