@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fire_and_fury/kyu6/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fire_and_fury/kyu6/DinglemouseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
@@ -293,7 +291,7 @@
       <workItem from="1633833878599" duration="4504000" />
       <workItem from="1633982487370" duration="2867000" />
       <workItem from="1634022861314" duration="15177000" />
-      <workItem from="1634270532704" duration="8755000" />
+      <workItem from="1634270532704" duration="10364000" />
     </task>
     <servers />
   </component>
@@ -364,16 +362,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/vin_checker/kyu6/CodeWars.java</url>
           <line>38</line>
           <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fire_and_fury/kyu6/Dinglemouse.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fire_and_fury/kyu6/Dinglemouse.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />

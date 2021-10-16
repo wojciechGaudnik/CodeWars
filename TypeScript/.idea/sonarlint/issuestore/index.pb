@@ -1,0 +1,15 @@
+
+s
+Csrc/__tests__/safen_user_input_part_I_htmlspecialchars_kyu8_test.ts,1/7/174472aaccdf721573e49cfeb3c65e172c5d6e7a
+p
+@src/kata/learning_typeScript_basic_types_type_assertions_kyu8.ts,e/5/e542235f2e54be93f610bb2695e8bd999ac3fe71
+N
+src/kata/last_survivor_kyu7.ts,5/8/58473e2346646f47a0f92e5731ede54d63ffea8f
+j
+:src/__tests__/learning_typeScript_basic_types_kyu8_test.ts,a/d/ad8a42e8abe6deed709b0a89970fe0e815a8eddb
+z
+Jsrc/__tests__/learning_typeScript_basic_types_type_assertions_kyu8_test.ts,8/4/841512da8a89282f90fb64928c90cdbdf4cad12e
+`
+0src/kata/learning_typeScript_basic_types_kyu8.ts,f/1/f18da7db96658c9c4dc93dca158bb229ec3a7762
+X
+(src/__tests__/last_survivor_kyu7_test.ts,1/c/1cc7f2ed2503d4919e8374887c5fa26a46f4e3e7

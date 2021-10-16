@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Katas.1129465642.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/nunit.engine.netstandard.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.api.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Codility" t="IncludeRecursive">
+        <e p="Codility.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Codility.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KataTests" t="IncludeRecursive">
+        <e p="KataTests.csproj" t="IncludeRecursive" />
+        <e p="UnitTest1.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="KataTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Katas" t="IncludeRecursive">
+        <e p="AddingBigNumbers.cs" t="Include" />
+        <e p="AlanPartridgeI-PartridgeWatch.cs" t="Include" />
+        <e p="AlanPartridgeII-AppleTurnover.cs" t="Include" />
+        <e p="AlanPartridgeIII-London.cs" t="Include" />
+        <e p="Amidakuji.cs" t="Include" />
+        <e p="AreTheyTheSame.cs" t="Include" />
+        <e p="Array.diff.cs" t="Include" />
+        <e p="Basics01:ConvertAnyNumber(Double)ToFraction.cs" t="Include" />
+        <e p="Basics05:TextSearch.cs" t="Include" />
+        <e p="BefungeInterpreter.cs" t="Include" />
+        <e p="BerserkRater:CGVs.Clang.cs" t="Include" />
+        <e p="BinaryMultipleOf3.cs" t="Include" />
+        <e p="Boggle.cs" t="Include" />
+        <e p="BreadcrumbGenerator.cs" t="Include" />
+        <e p="BuildAPileOfCubes.cs" t="Include" />
+        <e p="BuyingACar.cs" t="Include" />
+        <e p="By4Skyscrapers.cs" t="Include" />
+        <e p="CTFlearn.cs" t="Include" />
+        <e p="CatchingCarMileageNumbers.cs" t="Include" />
+        <e p="CodewarsStyleRankingSystem.cs" t="Include" />
+        <e p="CompareWithinMargin.cs" t="Include" />
+        <e p="ConnectFour.cs" t="Include" />
+        <e p="ConwaysGameOfLife-UnlimitedEdition.cs" t="Include" />
+        <e p="CountTheDivisibleNumbers.cs" t="Include" />
+        <e p="CounterKata.cs" t="Include" />
+        <e p="CountingChangeCombinations.cs" t="Include" />
+        <e p="DecodeTheMorseCode.cs" t="Include" />
+        <e p="DecodeTheMorseCodeAdvanced.cs" t="Include" />
+        <e p="DrawingMyTest.cs" t="Include" />
+        <e p="Dubstep.cs" t="Include" />
+        <e p="DuplicateEncoder.cs" t="Include" />
+        <e p="ExclamationMarksSeries#2:RemoveAllExclamationMarksFromTheEndFfSentence.cs" t="Include" />
+        <e p="FinancingPlanOnPlanetXY140Z-n.cs" t="Include" />
+        <e p="FindIfContains.cs" t="Include" />
+        <e p="FindTheMissingLetter.cs" t="Include" />
+        <e p="FindTheOddInt.cs" t="Include" />
+        <e p="FindTheUnknownDigit.cs" t="Include" />
+        <e p="FoldAnArray.cs" t="Include" />
+        <e p="FormatNumberAsCurrencyUsingExtensionMethod.cs" t="Include" />
+        <e p="GarbleSort.cs" t="Include" />
+        <e p="GeometryBasics:DistanceBetweenPointsIn2D.cs" t="Include" />
+        <e p="HammingNumbers.cs" t="Include" />
+        <e p="HiddenCubicNumbers.cs" t="Include" />
+        <e p="HowManyNumbers3.cs" t="Include" />
+        <e p="IQTest.cs" t="Include" />
+        <e p="IrreducibleSumOfRationals.cs" t="Include" />
+        <e p="IsTheStringUppercase.cs" t="Include" />
+        <e p="Kata.cs" t="Include" />
+        <e p="Katas.csproj" t="IncludeRecursive" />
+        <e p="LargeFactorials.cs" t="Include" />
+        <e p="MagnetParticulesInBoxes.cs" t="Include" />
+        <e p="MatrixDeterminant.cs" t="Include" />
+        <e p="MostFrequentlyUsedWordsInaText.cs" t="Include" />
+        <e p="N-thFibonacci.cs" t="Include" />
+        <e p="NBAFull48MinutesAverage.cs" t="Include" />
+        <e p="OrdersSummary.cs" t="Include" />
+        <e p="PIapproximation.cs" t="Include" />
+        <e p="PathFinder#1CanYouReachTheExit.cs" t="Include" />
+        <e p="Permutations.cs" t="Include" />
+        <e p="PersistentBugger.cs" t="Include" />
+        <e p="PlayingOnAChessboard.cs" t="Include" />
+        <e p="PyramidSlideDown.cs" t="Include" />
+        <e p="RangeExtraction.cs" t="Include" />
+        <e p="ReplaceWithAlphabetPosition.cs" t="Include" />
+        <e p="ReversingAProcess.cs" t="Include" />
+        <e p="ScrabbleWordCalculator.cs" t="Include" />
+        <e p="ShortLongShort.cs" t="Include" />
+        <e p="SimpleFun#158:NotSoRandom.cs" t="Include" />
+        <e p="SimpleFun#159:MiddlePermutation.cs" t="Include" />
+        <e p="SimpleFun#162:PairWise.cs" t="Include" />
+        <e p="SimpleFun#180:RepeatAdjacent.cs" t="Include" />
+        <e p="SimpleFun#56:BeautifulText.cs" t="Include" />
+        <e p="SimpleFun#97:VideoPart.cs" t="Include" />
+        <e p="SkyScrapersAll.cs" t="Include" />
+        <e p="Snail.cs" t="Include" />
+        <e p="SortBinaryTreeByLevels.cs" t="Include" />
+        <e p="SpeedCode#2-ArrayMadness.cs" t="Include" />
+        <e p="SplitAndThenAddBothSidesOfAnArrayTogether..cs" t="Include" />
+        <e p="SquareIntoSquaresProtectTrees.cs" t="Include" />
+        <e p="String X-IterationsString.cs" t="Include" />
+        <e p="StripComments.cs" t="Include" />
+        <e p="SudokuSolutionValidator.cs" t="Include" />
+        <e p="SumOfIntervals.cs" t="Include" />
+        <e p="SumStringsasNumbers.cs" t="Include" />
+        <e p="SumofDigitsDigitalRoot.cs" t="Include" />
+        <e p="TakeaTenMinuteWalk.cs" t="Include" />
+        <e p="TextAlignJustify.cs" t="Include" />
+        <e p="The'if'Function.cs" t="Include" />
+        <e p="TheSupermarketQueue.cs" t="Include" />
+        <e p="UniqueInOrder.cs" t="Include" />
+        <e p="ValidateSudokuWithSizeNxN.cs" t="Include" />
+        <e p="VaultExperience(1):EnoughWaterForHowManyDays.cs" t="Include" />
+        <e p="VaultExperience(2):HackMyTerminal!.cs" t="Include" />
+        <e p="VaultExperience(3):PopulateTheVaults.cs" t="Include" />
+        <e p="YourOrderPlease.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="kuy6BackspacesInString.cs" t="Include" />
+        <e p="kyu3Calculator.cs" t="Include" />
+        <e p="kyu3LastDigitOfaHugeNumber.cs" t="Include" />
+        <e p="kyu4CountOnesInASegment.cs" t="Include" />
+        <e p="kyu4LongestCommonSubsequencePerformanceVersion.cs" t="Include" />
+        <e p="kyu4SelectMedian.cs" t="Include" />
+        <e p="kyu4SimpleFun119SubSetsParity.cs" t="Include" />
+        <e p="kyu4SimpleFun27RectangleRotation.cs" t="Include" />
+        <e p="kyu5Base64Encoding.cs" t="Include" />
+        <e p="kyu5BestTravel.cs" t="Include" />
+        <e p="kyu5CanYouGetTheLoop.cs" t="Include" />
+        <e p="kyu5ConvertPascalCaseStringIntoSnake_case.cs" t="Include" />
+        <e p="kyu5CountIPAddresses.cs" t="Include" />
+        <e p="kyu5DidYouMean.cs" t="Include" />
+        <e p="kyu5DoubleCola.cs" t="Include" />
+        <e p="kyu5FirstNon-repeatingCharacter.cs" t="Include" />
+        <e p="kyu5FunWithTreesArrayToTree.cs" t="Include" />
+        <e p="kyu5GapInPrimes.cs" t="Include" />
+        <e p="kyu5GreedIsGood.cs" t="Include" />
+        <e p="kyu5Int32ToIPv4.cs" t="Include" />
+        <e p="kyu5IntegersRecreationOne.cs" t="Include" />
+        <e p="kyu5IsMyFriendCheating.cs" t="Include" />
+        <e p="kyu5JosephusPermutation.cs" t="Include" />
+        <e p="kyu5JosephusSurvivor.cs" t="Include" />
+        <e p="kyu5MaximumSubarraySum.cs" t="Include" />
+        <e p="kyu5MergedStringChecker.cs" t="Include" />
+        <e p="kyu5MoleculeToAtoms.cs" t="Include" />
+        <e p="kyu5MovingZerosToTheEnd.cs" t="Include" />
+        <e p="kyu5MySmallestCodeInterpreterAkaBrainf__k.cs" t="Include" />
+        <e p="kyu5Not very secure.cs" t="Include" />
+        <e p="kyu5NumberOfTrailingZerosOfN.cs" t="Include" />
+        <e p="kyu5PaginationHelper.cs" t="Include" />
+        <e p="kyu5PerimeterOfSquaresInaRectangle.cs" t="Include" />
+        <e p="kyu5RGBToHexConversion.cs" t="Include" />
+        <e p="kyu5Rot13.cs" t="Include" />
+        <e p="kyu5Scramblies.cs" t="Include" />
+        <e p="kyu5SimplePigLatin.cs" t="Include" />
+        <e p="kyu5TicTacToeChecker.cs" t="Include" />
+        <e p="kyu5ValidParentheses.cs" t="Include" />
+        <e p="kyu5WeightForWeight.cs" t="Include" />
+        <e p="kyu5WhatsAPerfectPowerAnyway.cs" t="Include" />
+        <e p="kyu61nCycle.cs" t="Include" />
+        <e p="kyu6AddingBinaryNumbers.cs" t="Include" />
+        <e p="kyu6AreWeAlternate.cs" t="Include" />
+        <e p="kyu6ArrayDeepCount.cs" t="Include" />
+        <e p="kyu6ArrhGrabScrab.cs" t="Include" />
+        <e p="kyu6BackwardsReadPrimes.cs" t="Include" />
+        <e p="kyu6BallUpwards.cs" t="Include" />
+        <e p="kyu6BankersPlan.cs" t="Include" />
+        <e p="kyu6BaseConversion.cs" t="Include" />
+        <e p="kyu6BasicEncryption.cs" t="Include" />
+        <e p="kyu6Basics03StringsNumbersAndCalculation.cs" t="Include" />
+        <e p="kyu6Basics06ReversingAndCombiningText.cs" t="Include" />
+        <e p="kyu6Basics08FindNextHigherNumberWithSameBits1s.cs" t="Include" />
+        <e p="kyu6Binaries.cs" t="Include" />
+        <e p="kyu6BinaryToTextASCIIConversion.cs" t="Include" />
+        <e p="kyu6BingoCard.cs" t="Include" />
+        <e p="kyu6BrakingWell.cs" t="Include" />
+        <e p="kyu6BreakCamelCase.cs" t="Include" />
+        <e p="kyu6BuildTower.cs" t="Include" />
+        <e p="kyu6CalculateHypotenuseOfRight-angledTriangle.cs" t="Include" />
+        <e p="kyu6CalculateNumberOfInversionsInArray.cs" t="Include" />
+        <e p="kyu6CalculateStringRotation.cs" t="Include" />
+        <e p="kyu6CalculateTheAreaOfARegularNSidesPolygonInsideACircleOfRadiusR.cs" t="Include" />
+        <e p="kyu6CalculateTheFunctionf(x)ForaSimpleLinearSequenceMedium.cs" t="Include" />
+        <e p="kyu6CharacterWithLongestConsecutiveRepetition.cs" t="Include" />
+        <e p="kyu6CheckerboardGeneration.cs" t="Include" />
+        <e p="kyu6CheckingGroups.cs" t="Include" />
+        <e p="kyu6Chess Fun #1: Chess Board Cell Color.cs" t="Include" />
+        <e p="kyu6ChessboardSquaresUnderQueensAttack.cs" t="Include" />
+        <e p="kyu6Christmas tree.cs" t="Include" />
+        <e p="kyu6ClockInMirror.cs" t="Include" />
+        <e p="kyu6ClockyMcClockFace.cs" t="Include" />
+        <e p="kyu6ColorChoice.cs" t="Include" />
+        <e p="kyu6ComparePowers.cs" t="Include" />
+        <e p="kyu6CompleteThePattern8NumberPyramid.cs" t="Include" />
+        <e p="kyu6CompleteThePattern9Diamond.cs" t="Include" />
+        <e p="kyu6ConsecutiveStrings.cs" t="Include" />
+        <e p="kyu6ConstantValue.cs" t="Include" />
+        <e p="kyu6ConvertIntegerToWhitespaceFormat.cs" t="Include" />
+        <e p="kyu6CountCharactersInYourString.cs" t="Include" />
+        <e p="kyu6CountTheDays.cs" t="Include" />
+        <e p="kyu6CountTheSmileyFaces.cs" t="Include" />
+        <e p="kyu6DeadAnts.cs" t="Include" />
+        <e p="kyu6DeleteOccurrencesOfAnElementIfItOccursMoreThanNNimes.cs" t="Include" />
+        <e p="kyu6Detect Pangram.cs" t="Include" />
+        <e p="kyu6DifferenceOf2.cs" t="Include" />
+        <e p="kyu6DiseaseSpread.cs" t="Include" />
+        <e p="kyu6DoesMyNumberLookBigInThis.cs" t="Include" />
+        <e p="kyu6EnglishBeggars.cs" t="Include" />
+        <e p="kyu6ExtractFileName.cs" t="Include" />
+        <e p="kyu6FIXMEHello.cs" t="Include" />
+        <e p="kyu6FibonacciTribonacciAndFriends.cs" t="Include" />
+        <e p="kyu6FilePathOperations.cs" t="Include" />
+        <e p="kyu6FindTheDuplicatedNumberInAConsecutiveUnsortedListTougherVersion.cs" t="Include" />
+        <e p="kyu6FindTheMine.cs" t="Include" />
+        <e p="kyu6FindTheMissingTermInAnArithmeticProgression.cs" t="Include" />
+        <e p="kyu6FloatingPointApproximationI.cs" t="Include" />
+        <e p="kyu6FruitMachine.cs" t="Include" />
+        <e p="kyu6GenericNumericTemplateFormatter.cs" t="Include" />
+        <e p="kyu6GiveMeADiamond.cs" t="Include" />
+        <e p="kyu6GoodvsEvil.cs" t="Include" />
+        <e p="kyu6GroupedByCommas.cs" t="Include" />
+        <e p="kyu6HammingDistance.cs" t="Include" />
+        <e p="kyu6HigestScoringWord.cs" t="Include" />
+        <e p="kyu6HighestRankNumberInAnArray.cs" t="Include" />
+        <e p="kyu6HowMuch.cs" t="Include" />
+        <e p="kyu6IPValidation.cs" t="Include" />
+        <e p="kyu6IntegerDepth.cs" t="Include" />
+        <e p="kyu6KobayashiMaruTest.cs" t="Include" />
+        <e p="kyu6LengthOfMissingArray.cs" t="Include" />
+        <e p="kyu6LinkedListsInsertNthNode.cs" t="Include" />
+        <e p="kyu6LinkedListsLength&amp;Count.cs" t="Include" />
+        <e p="kyu6LongestPalindrome.cs" t="Include" />
+        <e p="kyu6LucasNumbers.cs" t="Include" />
+        <e p="kyu6MazeRunner.cs" t="Include" />
+        <e p="kyu6MissingAlphabet.cs" t="Include" />
+        <e p="kyu6MostFrequentWeekDays.cs" t="Include" />
+        <e p="kyu6MovesInSquaredStrings(II).cs" t="Include" />
+        <e p="kyu6MovesInSquaredStringsIII.cs" t="Include" />
+        <e p="kyu6MovesInSquaredStringsIV.cs" t="Include" />
+        <e p="kyu6MrSafetysTreasures.cs" t="Include" />
+        <e p="kyu6MutalRecursion.cs" t="Include" />
+        <e p="kyu6MysteriousFunction.cs" t="Include" />
+        <e p="kyu6NSmallestElementsInOriginalOrder.cs" t="Include" />
+        <e p="kyu6NumberFormat.cs" t="Include" />
+        <e p="kyu6NumericalsOfAString.cs" t="Include" />
+        <e p="kyu6OrdinalNumbers.cs" t="Include" />
+        <e p="kyu6ParabolicArcLength.cs" t="Include" />
+        <e p="kyu6ParseALinkedListFromAString.cs" t="Include" />
+        <e p="kyu6ParseHTML_CSSColors.cs" t="Include" />
+        <e p="kyu6PascalsTriangle.cs" t="Include" />
+        <e p="kyu6PathsInTheGrid.cs" t="Include" />
+        <e p="kyu6PatternCraftDecorator.cs" t="Include" />
+        <e p="kyu6PatternCraftState.cs" t="Include" />
+        <e p="kyu6PatternCraftStrategy.cs" t="Include" />
+        <e p="kyu6Pentabonscci.cs" t="Include" />
+        <e p="kyu6PetersAge.cs" t="Include" />
+        <e p="kyu6PizzaPieces.cs" t="Include" />
+        <e p="kyu6PlentyOfFishInThePond.cs" t="Include" />
+        <e p="kyu6Plus1Array.cs" t="Include" />
+        <e p="kyu6PrizeDraw.cs" t="Include" />
+        <e p="kyu6PyramidArray.cs" t="Include" />
+        <e p="kyu6QuickNchooseKCalculator.cs" t="Include" />
+        <e p="kyu6Rainfall.cs" t="Include" />
+        <e p="kyu6ReachMeAndSumMyDigits.cs" t="Include" />
+        <e p="kyu6ReducingByRulesToGetTheResult.cs" t="Include" />
+        <e p="kyu6ReverseASinglyLinkedList.cs" t="Include" />
+        <e p="kyu6ReversePolishNotationCalculator.cs" t="Include" />
+        <e p="kyu6RomanNumberalsDecoder.cs" t="Include" />
+        <e p="kyu6RotateArrayJS.cs" t="Include" />
+        <e p="kyu6RoundByHalfSteps.cs" t="Include" />
+        <e p="kyu6RowOfTheOddTriangle.cs" t="Include" />
+        <e p="kyu6SalesmansTravel.cs" t="Include" />
+        <e p="kyu6SchrödingersBoolean.cs" t="Include" />
+        <e p="kyu6ShortestStepsToANumber.cs" t="Include" />
+        <e p="kyu6SimpleEncryption#1-AlternatingSplit.cs" t="Include" />
+        <e p="kyu6SimpleFun19CountBlackCells.cs" t="Include" />
+        <e p="kyu6SimpleFun23SquareDigitsSequence.cs" t="Include" />
+        <e p="kyu6SimpleFun79DeleteADigit.cs" t="Include" />
+        <e p="kyu6SortableShapes.cs" t="Include" />
+        <e p="kyu6SortingByBits.cs" t="Include" />
+        <e p="kyu6SpecialMultiples.cs" t="Include" />
+        <e p="kyu6SplitStrings.cs" t="Include" />
+        <e p="kyu6SqrtApproximation.cs" t="Include" />
+        <e p="kyu6SrotTheInnerCtonnetInDsnnieedcgOredr.cs" t="Include" />
+        <e p="kyu6StatisticsForAnAthleticAssociation.cs" t="Include" />
+        <e p="kyu6StepsInPrimes.cs" t="Include" />
+        <e p="kyu6StringAverage.cs" t="Include" />
+        <e p="kyu6StringLetterCounting.cs" t="Include" />
+        <e p="kyu6StringSubpatternRecognitionI.cs" t="Include" />
+        <e p="kyu6StringTops.cs" t="Include" />
+        <e p="kyu6StrongestEvenNumerInAnInterval.cs" t="Include" />
+        <e p="kyu6SumOfaSequenceHardCoreVersion.cs" t="Include" />
+        <e p="kyu6SumTheTree.cs" t="Include" />
+        <e p="kyu6SurroundingPrimesForAValue.cs" t="Include" />
+        <e p="kyu6TakeANumberAndSumItsDigitsRisedToTheConsecutivePowersAnd.cs" t="Include" />
+        <e p="kyu6TheEnigmaMachinePart1ThePlugboard.cs" t="Include" />
+        <e p="kyu6TheTakeWhileFunction.cs" t="Include" />
+        <e p="kyu6ThrowingDarts.cs" t="Include" />
+        <e p="kyu6TimeLikeStringFormat.cs" t="Include" />
+        <e p="kyu6TitleCase.cs" t="Include" />
+        <e p="kyu6TortoiseRacing.cs" t="Include" />
+        <e p="kyu6TransformToPrime.cs" t="Include" />
+        <e p="kyu6TriangleNumberCheck.cs" t="Include" />
+        <e p="kyu6TribonacciSequence.cs" t="Include" />
+        <e p="kyu6TripleTrouble.cs" t="Include" />
+        <e p="kyu6TwistedSum.cs" t="Include" />
+        <e p="kyu6TwoJoggers.cs" t="Include" />
+        <e p="kyu6ValidateCreditCardNumber.cs" t="Include" />
+        <e p="kyu6ValidateMyPassword.cs" t="Include" />
+        <e p="kyu6VasyaAndStairs.cs" t="Include" />
+        <e p="kyu6VolwelShifting.cs" t="Include" />
+        <e p="kyu6WelrdStringCase.cs" t="Include" />
+        <e p="kyu6WhatCenturyIsIt.cs" t="Include" />
+        <e p="kyu6WhichAreIn.cs" t="Include" />
+        <e p="kyu6WordA10N(abbreviation).cs" t="Include" />
+        <e p="kyu6WordPatterns.cs" t="Include" />
+        <e p="kyu6WriteNumberInExpandedForm.cs" t="Include" />
+        <e p="kyu6ZeroFillFor theQueen.cs" t="Include" />
+        <e p="kyu7NinjavsSamuraiStrike.cs" t="Include" />
+        <e p="kyuFunWithTreesMaxSum.cs" t="Include" />
+        <e p="kyuNewCashierDoesNotKnowAboutSpaceOrShift.cs" t="Include" />
+        <e p="kyuencryptThis.cs" t="Include" />
+        <e p="myjinxin.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Katas.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="parseInReloaded.cs" t="Include" />
+        <e p="validateCodeWithSimpleRegex.cs" t="Include" />
+      </e>
+      <e p="Katas.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../Katas.Tests/SkySkraper.Tests" t="IncludeRecursive">
+      <e p="SkyScrapersTests.cs" t="Include" />
+      <e p="SkySkraper.Tests.csproj" t="IncludeRecursive" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="SkySkraper.Tests.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="$PROJECT_DIR$/../../../Hackerrank/C#/Hackerrank" t="IncludeRecursive">
+      <e p="ArraysLeftRotation.cs" t="Include" />
+      <e p="DArray-DS.cs" t="Include" />
+      <e p="Hackerrank.csproj" t="IncludeRecursive" />
+      <e p="JumpingontheClouds.cs" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="RepeatedString.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="Hackerrank.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

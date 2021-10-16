@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fad710b8-c3f4-4cd7-b906-db9cd7353e34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ComparePowers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CountTheDays.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/BuyingACar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MazeRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SumStringsasNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5MovingZerosToTheEnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/String X-IterationsString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MovesInSquaredStringsIV.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/CountingChangeCombinations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TitleCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/AlanPartridgeIII-London.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/CTFlearn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Binaries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F33821D-7269-4E7C-9624-2A2DD196D398/27/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/BreadcrumbGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/StripComments.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6KobayashiMaruTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/92B5E598-6D6C-4D94-8B37-43C9DCEF6A74/86/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5SimplePigLatin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PathsInTheGrid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C494BB81-2820-4C33-848B-A8DE8CD3793C/34/String.Comparison.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6DeleteOccurrencesOfAnElementIfItOccursMoreThanNNimes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4C051AEE-D19D-48C0-A31E-50921C213728/41/OrderedEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C494BB81-2820-4C33-848B-A8DE8CD3793C/2D/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BuildTower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6HigestScoringWord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/10/Array.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6FindTheMissingTermInAnArithmeticProgression.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TwoJoggers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C494BB81-2820-4C33-848B-A8DE8CD3793C/388/ArrayList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6LongestPalindrome.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6LengthOfMissingArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ChessboardSquaresUnderQueensAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/47/Utilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PyramidArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kuy6BackspacesInString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/27/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SalesmansTravel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Christmas tree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/2E/ToCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyuNewCashierDoesNotKnowAboutSpaceOrShift.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SimpleFun79DeleteADigit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6FruitMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/CD/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ParabolicArcLength.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5FunWithTreesArrayToTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6VasyaAndStairs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CDAE4105-7E89-4723-8979-C3C1D3936A03/10/Array.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CharacterWithLongestConsecutiveRepetition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6AddingBinaryNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/86/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6VolwelShifting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/46/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6StrongestEvenNumerInAnInterval.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PlentyOfFishInThePond.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CompleteThePattern9Diamond.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5MaximumSubarraySum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/82602CC2-2124-4838-B8A4-B6E39A429ECC/16/ElementAt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/82602CC2-2124-4838-B8A4-B6E39A429ECC/1A/Grouping.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/3A4/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBAAB69C-A158-4D3C-B359-763880D8F29F/A/HashSet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/30/Where.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/D/AnyAll.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CDAE4105-7E89-4723-8979-C3C1D3936A03/147/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0AA3187D-0E75-43D9-A7E5-3CA6659B392B/9F/DbProviderFactories.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/2FE/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/300/TextReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/obj/Debug/netcoreapp3.1/Katas.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../CodeCool/Snippets_C#/Snipets/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Codility/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1DEB74A7-B5C6-44CA-821F-000560E09848/99/6380e2f4/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/026A9B88-5377-49C9-86D7-80102A802EAF/4f/78bb457a/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCBAC724-C224-441C-A328-EB033527ACF3/11/b823cee5/Rational.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E799ECB3-D14B-4942-A998-392DB783DB79/a4/fb9c7b40/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1DEB74A7-B5C6-44CA-821F-000560E09848/0e/26494b9c/ArrayList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C494BB81-2820-4C33-848B-A8DE8CD3793C/86/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CDAE4105-7E89-4723-8979-C3C1D3936A03/86/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/82602CC2-2124-4838-B8A4-B6E39A429ECC/D/AnyAll.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CDAE4105-7E89-4723-8979-C3C1D3936A03/35/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CDAE4105-7E89-4723-8979-C3C1D3936A03/A2/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82602CC2-2124-4838-B8A4-B6E39A429ECC/96/b2f86921/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KataTests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/13/Count.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/82602CC2-2124-4838-B8A4-B6E39A429ECC/27/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/82602CC2-2124-4838-B8A4-B6E39A429ECC/13/Count.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/92B5E598-6D6C-4D94-8B37-43C9DCEF6A74/35/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/28/SelectMany.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/7D/Index.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CDAE4105-7E89-4723-8979-C3C1D3936A03/33/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SplitAndThenAddBothSidesOfAnArrayTogether..cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6FIXMEHello.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6WriteNumberInExpandedForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/ReversingAProcess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/PersistentBugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SimpleFun23SquareDigitsSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Permutations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MostFrequentWeekDays.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ParseALinkedListFromAString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6RoundByHalfSteps.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5Scramblies.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6AreWeAlternate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TwistedSum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/PlayingOnAChessboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PetersAge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6LucasNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5BestTravel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6LinkedListsLength&amp;Count.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SimpleFun#158:NotSoRandom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6WhatCenturyIsIt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5Base64Encoding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6GroupedByCommas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5MySmallestCodeInterpreterAkaBrainf__k.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ArrhGrabScrab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/ConnectFour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5JosephusSurvivor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B26F5972-01FC-439C-B205-51F4AFFD2565/C/LinkedList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SrotTheInnerCtonnetInDsnnieedcgOredr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/BefungeInterpreter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/MatrixDeterminant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ShortestStepsToANumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SumofDigitsDigitalRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/TextAlignJustify.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SqrtApproximation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SimpleEncryption#1-AlternatingSplit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Basics06ReversingAndCombiningText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5ValidParentheses.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ZeroFillFor theQueen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Commands/BeforeAndAfterTestCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/OrdersSummary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Boggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/ValidateSudokuWithSizeNxN.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MissingAlphabet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/221478E6-37FF-4DDB-B017-CB403FA20F5C/6/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/CodewarsStyleRankingSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TortoiseRacing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/FindTheUnknownDigit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Amidakuji.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SumOfaSequenceHardCoreVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5RGBToHexConversion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5WeightForWeight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6NumericalsOfAString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5ConvertPascalCaseStringIntoSnake_case.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/CounterKata.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu3Calculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/GeometryBasics:DistanceBetweenPointsIn2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5PaginationHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TakeANumberAndSumItsDigitsRisedToTheConsecutivePowersAnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CheckerboardGeneration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BallUpwards.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SplitStrings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu4SimpleFun119SubSetsParity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6WordPatterns.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6HammingDistance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/RangeExtraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ValidateCreditCardNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ReverseASinglyLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ParseHTML_CSSColors.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6FilePathOperations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Plus1Array.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/AreTheyTheSame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MovesInSquaredStrings(II).cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu4CountOnesInASegment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SimpleFun#56:BeautifulText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5DoubleCola.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/parseInReloaded.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ConstantValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ThrowingDarts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SortableShapes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6EnglishBeggars.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SortBinaryTreeByLevels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TheTakeWhileFunction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/FinancingPlanOnPlanetXY140Z-n.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/TheSupermarketQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/HowManyNumbers3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5JosephusPermutation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SquareIntoSquaresProtectTrees.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Kata.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CalculateHypotenuseOfRight-angledTriangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6StringAverage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BankersPlan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PizzaPieces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/myjinxin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu7NinjavsSamuraiStrike.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CountTheSmileyFaces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/LargeFactorials.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6GiveMeADiamond.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6FindTheDuplicatedNumberInAConsecutiveUnsortedListTougherVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CalculateTheFunctionf(x)ForaSimpleLinearSequenceMedium.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/FoldAnArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/FormatNumberAsCurrencyUsingExtensionMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SchrödingersBoolean.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/GarbleSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ClockInMirror.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Rainfall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5CountIPAddresses.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/MagnetParticulesInBoxes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6WhichAreIn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TripleTrouble.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/CatchingCarMileageNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ConvertIntegerToWhitespaceFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5GapInPrimes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ReducingByRulesToGetTheResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ArrayDeepCount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6WordA10N(abbreviation).cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/CountTheDivisibleNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CompleteThePattern8NumberPyramid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BaseConversion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6FibonacciTribonacciAndFriends.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6DifferenceOf2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/YourOrderPlease.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SimpleFun19CountBlackCells.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/AlanPartridgeII-AppleTurnover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/MostFrequentlyUsedWordsInaText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/DuplicateEncoder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/By4Skyscrapers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6LinkedListsInsertNthNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/DrawingMyTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6DoesMyNumberLookBigInThis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/TakeaTenMinuteWalk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Basics01:ConvertAnyNumber(Double)ToFraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/HiddenCubicNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BinaryToTextASCIIConversion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BrakingWell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu3LastDigitOfaHugeNumber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ExtractFileName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6RotateArrayJS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/CompareWithinMargin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5IsMyFriendCheating.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/IsTheStringUppercase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SumOfIntervals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6GoodvsEvil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/validateCodeWithSimpleRegex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SpeedCode#2-ArrayMadness.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu4SimpleFun27RectangleRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/ScrabbleWordCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5CanYouGetTheLoop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu61nCycle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/BuildAPileOfCubes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6FindTheMine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5NumberOfTrailingZerosOfN.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SimpleFun#162:PairWise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6DeadAnts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/ConwaysGameOfLife-UnlimitedEdition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5Int32ToIPv4.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5WhatsAPerfectPowerAnyway.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5PerimeterOfSquaresInaRectangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CountCharactersInYourString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/VaultExperience(1):EnoughWaterForHowManyDays.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MrSafetysTreasures.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CalculateStringRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SimpleFun#159:MiddlePermutation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BingoCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/DecodeTheMorseCodeAdvanced.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5Not very secure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Array.diff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Snail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TribonacciSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PatternCraftState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SimpleFun#180:RepeatAdjacent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Chess Fun #1: Chess Board Cell Color.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Basics08FindNextHigherNumberWithSameBits1s.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TheEnigmaMachinePart1ThePlugboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MovesInSquaredStringsIII.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BackwardsReadPrimes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/VaultExperience(2):HackMyTerminal!.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/FindTheMissingLetter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/FindIfContains.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6StepsInPrimes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/HammingNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BasicEncryption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/IQTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6NumberFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6StringSubpatternRecognitionI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5IntegersRecreationOne.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ConsecutiveStrings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Katas.Tests/SkySkraper.Tests/SkyScrapersTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6OrdinalNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TriangleNumberCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5GreedIsGood.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ReachMeAndSumMyDigits.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Dubstep.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TransformToPrime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/PIapproximation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/Basics05:TextSearch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6FloatingPointApproximationI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SumTheTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6HighestRankNumberInAnArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyuencryptThis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/IrreducibleSumOfRationals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6NSmallestElementsInOriginalOrder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6GenericNumericTemplateFormatter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6IPValidation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6IntegerDepth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6RowOfTheOddTriangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/PathFinder#1CanYouReachTheExit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SpecialMultiples.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/BerserkRater:CGVs.Clang.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CheckingGroups.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5TicTacToeChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PrizeDraw.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/AlanPartridgeI-PartridgeWatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SortingByBits.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/ShortLongShort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/ExclamationMarksSeries#2:RemoveAllExclamationMarksFromTheEndFfSentence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/VaultExperience(3):PopulateTheVaults.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6StatisticsForAnAthleticAssociation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ReversePolishNotationCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5MergedStringChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5FirstNon-repeatingCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Hackerrank/C#/Hackerrank/ArraysLeftRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/N-thFibonacci.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Pentabonscci.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Hackerrank/C#/Hackerrank/RepeatedString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Hackerrank/C#/Hackerrank/DArray-DS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Detect Pangram.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6BreakCamelCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ClockyMcClockFace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Hackerrank/C#/Hackerrank/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5MoleculeToAtoms.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/BinaryMultipleOf3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Hackerrank/C#/Hackerrank/JumpingontheClouds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6QuickNchooseKCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6HowMuch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5Rot13.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6TimeLikeStringFormat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/NBAFull48MinutesAverage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6DiseaseSpread.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/AddingBigNumbers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6SurroundingPrimesForAValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/UniqueInOrder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MutalRecursion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu5DidYouMean.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/PyramidSlideDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/ReplaceWithAlphabetPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6ColorChoice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SkyScrapersAll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6StringTops.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6WelrdStringCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PatternCraftDecorator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6MysteriousFunction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyuFunWithTreesMaxSum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CalculateNumberOfInversionsInArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SudokuSolutionValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/SimpleFun#97:VideoPart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu4LongestCommonSubsequencePerformanceVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6RomanNumberalsDecoder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6StringLetterCounting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu4SelectMedian.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6Basics03StringsNumbersAndCalculation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/The'if'Function.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6CalculateTheAreaOfARegularNSidesPolygonInsideACircleOfRadiusR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PatternCraftStrategy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/kyu6PascalsTriangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/FindTheOddInt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Katas/DecodeTheMorseCode.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Katas/Test.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu6SpecialMultiples.cs" />
+        <option value="$PROJECT_DIR$/Katas/TestMy.cs" />
+        <option value="$PROJECT_DIR$/KataTests/test.html" />
+        <option value="$PROJECT_DIR$/Katas/kyu3Calculator.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu6PathsInTheGrid.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu6ReverseASinglyLinkedList.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu6WordPatterns.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu6SumOfaSequenceHardCoreVersion.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu6StringTops.cs" />
+        <option value="$PROJECT_DIR$/Katas/TEST.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu3LastDigitOfaHugeNumber.cs" />
+        <option value="$PROJECT_DIR$/Katas/5kyuSimplePigLatin.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu6CompleteThePattern9Diamond.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5SimplePigLatin.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5MovingZerosToTheEnd.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5ValidParentheses.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5RGBToHexConversion.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5MaximumSubarraySum.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5WeightForWeight.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5NumberOfTrailingZerosOfN.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5FirstNon-repeatingCharacter.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5Scramblies.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5PerimeterOfSquaresInaRectangle.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5GreedIsGood.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5CanYouGetTheLoop.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5PaginationHelper.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5IntegersRecreationOne.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5DoubleCola.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5GapInPrimes.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5WhatsAPerfectPowerAnyway.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5Not very secure.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5BestTravel.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5IsMyFriendCheating.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5TicTacToeChecker.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5TOR13.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5ROT13.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5JosephusSurvivor.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5Rot13.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5JosephusPermutation.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5Int32ToIPv4.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5ConvertPascalCaseStringIntoSnake_case.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5MergedStringChecker.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5MySmallestCodeInterpreterAkaBrainf__k.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5CountIPAddresses.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5Base64Encoding.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5MoleculeToAtoms.cs" />
+        <option value="$PROJECT_DIR$/KataTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu5DidYouMean.cs" />
+        <option value="$PROJECT_DIR$/Katas/kyu6RomanNumberalsDecoder.cs" />
+        <option value="$PROJECT_DIR$/Katas/AddingBigNumbers.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1UDPdUKmFJRygNhNyD9LNH2NKvN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.26621023" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.53886425" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../README.md" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="threadsIsVisibleKey" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Codility" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Codility/Codility.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Katas/bin/Debug/netcoreapp3.1/Katas.dll" />
+      <option name="PROGRAM_PARAMETERS" value="2.png" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Katas/bin/Debug/netcoreapp3.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Katas/Katas.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Hackerrank" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../../../Hackerrank/C#/Hackerrank/Hackerrank.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.Codility" />
+      <item itemvalue=".NET Project.Hackerrank" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Codility" />
+        <item itemvalue=".NET Project.Hackerrank" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fad710b8-c3f4-4cd7-b906-db9cd7353e34" name="Default Changelist" comment="" />
+      <created>1574888279837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574888279837</updated>
+      <workItem from="1574888282071" duration="458000" />
+      <workItem from="1574888757550" duration="5069000" />
+      <workItem from="1574940632380" duration="17251000" />
+      <workItem from="1575039622307" duration="23832000" />
+      <workItem from="1575194303736" duration="46655000" />
+      <workItem from="1575727743460" duration="65117000" />
+      <workItem from="1575961699632" duration="930000" />
+      <workItem from="1575969045349" duration="193000" />
+      <workItem from="1576045220657" duration="17341000" />
+      <workItem from="1576226916738" duration="653000" />
+      <workItem from="1576227595932" duration="6477000" />
+      <workItem from="1576426725967" duration="955000" />
+      <workItem from="1576524082298" duration="313000" />
+      <workItem from="1576524412450" duration="272000" />
+      <workItem from="1576529994352" duration="8956000" />
+      <workItem from="1576625367762" duration="26059000" />
+      <workItem from="1576926294524" duration="34915000" />
+      <workItem from="1577218457056" duration="1255000" />
+      <workItem from="1577257603558" duration="7121000" />
+      <workItem from="1577299330101" duration="21899000" />
+      <workItem from="1577520446514" duration="599000" />
+      <workItem from="1577523291101" duration="23396000" />
+      <workItem from="1577852125938" duration="33333000" />
+      <workItem from="1578082327043" duration="20158000" />
+      <workItem from="1578197897408" duration="158750000" />
+      <workItem from="1578973044310" duration="12689000" />
+      <workItem from="1579025774369" duration="97265000" />
+      <workItem from="1580041560099" duration="79351000" />
+      <workItem from="1580362219621" duration="170713000" />
+      <workItem from="1581758528401" duration="753000" />
+      <workItem from="1581764855855" duration="604000" />
+      <workItem from="1581788390304" duration="16540000" />
+      <workItem from="1582383298615" duration="56927000" />
+      <workItem from="1583412975646" duration="74920000" />
+      <workItem from="1584387678792" duration="10288000" />
+      <workItem from="1584656055243" duration="15584000" />
+      <workItem from="1585135542964" duration="17394000" />
+      <workItem from="1585546757769" duration="3466000" />
+      <workItem from="1585677212465" duration="28732000" />
+      <workItem from="1586630533547" duration="249000" />
+      <workItem from="1586630998482" duration="910000" />
+      <workItem from="1586633324634" duration="1178000" />
+      <workItem from="1586698997936" duration="607000" />
+      <workItem from="1586711682150" duration="7391000" />
+      <workItem from="1586775807016" duration="981000" />
+      <workItem from="1586851324592" duration="1681000" />
+      <workItem from="1586856470616" duration="4806000" />
+      <workItem from="1586978426357" duration="2416000" />
+      <workItem from="1587031121162" duration="10622000" />
+      <workItem from="1587238524778" duration="599000" />
+      <workItem from="1587243177590" duration="598000" />
+      <workItem from="1587290079419" duration="17732000" />
+      <workItem from="1587625668577" duration="17491000" />
+      <workItem from="1587855411626" duration="4772000" />
+      <workItem from="1587933729629" duration="22562000" />
+      <workItem from="1588247131874" duration="602000" />
+      <workItem from="1588285791186" duration="2378000" />
+      <workItem from="1588313645448" duration="599000" />
+      <workItem from="1588314950051" duration="33000" />
+      <workItem from="1588315039003" duration="11075000" />
+      <workItem from="1588364307379" duration="8003000" />
+      <workItem from="1588572945326" duration="6107000" />
+      <workItem from="1588584700449" duration="651000" />
+      <workItem from="1588585913487" duration="8569000" />
+      <workItem from="1588749245390" duration="15889000" />
+      <workItem from="1589029142447" duration="13158000" />
+      <workItem from="1589367639297" duration="4435000" />
+      <workItem from="1589403024502" duration="31674000" />
+      <workItem from="1589651100131" duration="34075000" />
+      <workItem from="1589969096786" duration="8467000" />
+      <workItem from="1590062692940" duration="19432000" />
+      <workItem from="1590236387794" duration="30830000" />
+      <workItem from="1590583328102" duration="5736000" />
+      <workItem from="1590769335858" duration="1205000" />
+      <workItem from="1590823668101" duration="11912000" />
+      <workItem from="1590938254448" duration="40388000" />
+      <workItem from="1591349740951" duration="12887000" />
+      <workItem from="1591587998312" duration="1558000" />
+      <workItem from="1591900449118" duration="27918000" />
+      <workItem from="1592214048900" duration="8523000" />
+      <workItem from="1592468342095" duration="68065000" />
+      <workItem from="1593153588906" duration="32039000" />
+      <workItem from="1593425537549" duration="43194000" />
+      <workItem from="1593779879618" duration="50510000" />
+      <workItem from="1595589295597" duration="1289000" />
+      <workItem from="1596285842736" duration="19000" />
+      <workItem from="1598260134966" duration="633000" />
+      <workItem from="1598264150786" duration="1102000" />
+      <workItem from="1599204623277" duration="668000" />
+      <workItem from="1599941721607" duration="100000" />
+      <workItem from="1602765827097" duration="15000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1574888526520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574888526520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2184" y="1833" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592927137946">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2184" y="1833" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1592927137946" />
+    <state x="2479" y="1848" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598264637138">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2479" y="1848" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1598264637138" />
+    <state width="550" height="506" key="DebuggerActiveHint" timestamp="1592036171679">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="550" height="506" key="DebuggerActiveHint/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1592036171679" />
+    <state x="2130" y="1841" key="FileChooserDialogImpl" timestamp="1594108797520">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2130" y="1841" key="FileChooserDialogImpl/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594108797520" />
+    <state width="2514" height="475" key="GridCell.Tab.0.bottom" timestamp="1599941820894">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="475" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599941820894" />
+    <state width="2514" height="475" key="GridCell.Tab.0.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594041678114" />
+    <state width="2514" height="475" key="GridCell.Tab.0.center" timestamp="1599941820894">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="475" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599941820894" />
+    <state width="2514" height="475" key="GridCell.Tab.0.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594041678114" />
+    <state width="2514" height="475" key="GridCell.Tab.0.left" timestamp="1599941820894">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="475" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599941820894" />
+    <state width="2514" height="475" key="GridCell.Tab.0.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594041678114" />
+    <state width="2514" height="475" key="GridCell.Tab.0.right" timestamp="1599941820894">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="475" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.340.1440.2560@1440.1440.2560.1440" timestamp="1599941820894" />
+    <state width="2514" height="475" key="GridCell.Tab.0.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594041678114" />
+    <state width="2514" height="493" key="GridCell.Tab.1.bottom" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.1.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.1.center" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.1.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.1.left" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.1.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.1.right" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.1.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.2.bottom" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.2.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.2.center" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.2.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.2.left" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.2.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.2.right" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.2.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.3.bottom" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.3.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.3.center" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.3.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.3.left" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.3.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.3.right" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.3.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.4.bottom" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.4.bottom/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.4.center" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.4.center/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.4.left" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.4.left/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state width="2514" height="493" key="GridCell.Tab.4.right" timestamp="1594039176037">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="493" key="GridCell.Tab.4.right/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594039176037" />
+    <state x="2314" y="1906" width="812" height="543" key="Rider.ProjectTemplateDialog.Size" timestamp="1592042965094">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2314" y="1906" key="Rider.ProjectTemplateDialog.Size/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1592042965094" />
+    <state x="2446" y="1865" key="RiderGenerateDialog" timestamp="1592394322912">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2446" y="1865" key="RiderGenerateDialog/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1592394322912" />
+    <state x="2208" y="1806" width="1007" height="733" key="SettingsEditor" timestamp="1594214794417">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2208" y="1806" width="1007" height="733" key="SettingsEditor/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1594214794417" />
+    <state width="498" height="541" key="SwitcherDM" timestamp="1593851165217">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="498" height="541" key="SwitcherDM/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593851165217" />
+    <state width="1280" height="705" key="XDebugger.FullValuePopup" timestamp="1592036815377">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state width="1280" height="705" key="XDebugger.FullValuePopup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1592036815377" />
+    <state x="2369" y="1786" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593698330166">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2369" y="1786" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593698330166" />
+    <state x="2643" y="1824" width="1278" height="897" key="find.popup" timestamp="1595589383176">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2643" y="1824" width="1278" height="897" key="find.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1595589383176" />
+    <state x="2384" y="1065" key="run.anything.popup" timestamp="1592911651132">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2384" y="1065" key="run.anything.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1592911651132" />
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup" timestamp="1593428879564">
+      <screen x="1440" y="1440" width="2560" height="1440" />
+    </state>
+    <state x="2383" y="1791" width="672" height="678" key="search.everywhere.popup/1440.1440.2560.1440/4000.1440.2560.1440/1440.0.2560.1440/0.370.1440.2560@1440.1440.2560.1440" timestamp="1593428879564" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6DeleteOccurrencesOfAnElementIfItOccursMoreThanNNimes.cs</url>
+          <line>9</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6DeleteOccurrencesOfAnElementIfItOccursMoreThanNNimes.cs" initialLine="17">
+            <startOffsets>
+              <option value="325" />
+            </startOffsets>
+            <endOffsets>
+              <option value="349" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6BuildTower.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6BuildTower.cs" initialLine="18">
+            <startOffsets>
+              <option value="281" />
+            </startOffsets>
+            <endOffsets>
+              <option value="314" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6HigestScoringWord.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6HigestScoringWord.cs" initialLine="23">
+            <startOffsets>
+              <option value="279" />
+            </startOffsets>
+            <endOffsets>
+              <option value="302" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6FindTheMissingTermInAnArithmeticProgression.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6FindTheMissingTermInAnArithmeticProgression.cs" initialLine="17">
+            <startOffsets>
+              <option value="348" />
+            </startOffsets>
+            <endOffsets>
+              <option value="384" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6TwoJoggers.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6TwoJoggers.cs" initialLine="13">
+            <startOffsets>
+              <option value="155" />
+            </startOffsets>
+            <endOffsets>
+              <option value="175" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6LongestPalindrome.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6LongestPalindrome.cs" initialLine="16">
+            <startOffsets>
+              <option value="255" />
+            </startOffsets>
+            <endOffsets>
+              <option value="272" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6LengthOfMissingArray.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6LengthOfMissingArray.cs" initialLine="16">
+            <startOffsets>
+              <option value="477" />
+            </startOffsets>
+            <endOffsets>
+              <option value="504" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6ChessboardSquaresUnderQueensAttack.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6ChessboardSquaresUnderQueensAttack.cs" initialLine="48">
+            <startOffsets>
+              <option value="1026" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1039" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6PyramidArray.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6PyramidArray.cs" initialLine="17">
+            <startOffsets>
+              <option value="184" />
+            </startOffsets>
+            <endOffsets>
+              <option value="210" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kuy6BackspacesInString.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kuy6BackspacesInString.cs" initialLine="17">
+            <startOffsets>
+              <option value="233" />
+            </startOffsets>
+            <endOffsets>
+              <option value="256" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6SalesmansTravel.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6SalesmansTravel.cs" initialLine="31">
+            <startOffsets>
+              <option value="3210" />
+              <option value="3247" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3246" />
+              <option value="3269" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6Christmas tree.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6Christmas tree.cs" initialLine="26">
+            <startOffsets>
+              <option value="370" />
+            </startOffsets>
+            <endOffsets>
+              <option value="417" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="466" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyuNewCashierDoesNotKnowAboutSpaceOrShift.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyuNewCashierDoesNotKnowAboutSpaceOrShift.cs" initialLine="33">
+            <startOffsets>
+              <option value="721" />
+            </startOffsets>
+            <endOffsets>
+              <option value="758" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6SimpleFun79DeleteADigit.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6SimpleFun79DeleteADigit.cs" initialLine="17">
+            <startOffsets>
+              <option value="258" />
+            </startOffsets>
+            <endOffsets>
+              <option value="298" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6FruitMachine.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6FruitMachine.cs" initialLine="20">
+            <startOffsets>
+              <option value="322" />
+            </startOffsets>
+            <endOffsets>
+              <option value="412" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6ParabolicArcLength.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6ParabolicArcLength.cs" initialLine="19">
+            <startOffsets>
+              <option value="303" />
+            </startOffsets>
+            <endOffsets>
+              <option value="317" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu5FunWithTreesArrayToTree.cs</url>
+          <line>49</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu5FunWithTreesArrayToTree.cs" initialLine="72">
+            <startOffsets>
+              <option value="1490" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1504" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6VasyaAndStairs.cs</url>
+          <line>7</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6VasyaAndStairs.cs" initialLine="17">
+            <startOffsets>
+              <option value="162" />
+            </startOffsets>
+            <endOffsets>
+              <option value="193" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <condition expression="letter == 'y'" language="C#" />
+          <url>file://$PROJECT_DIR$/Katas/kyu6CharacterWithLongestConsecutiveRepetition.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6CharacterWithLongestConsecutiveRepetition.cs" initialLine="26">
+            <startOffsets>
+              <option value="606" />
+            </startOffsets>
+            <endOffsets>
+              <option value="640" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6AddingBinaryNumbers.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6AddingBinaryNumbers.cs" initialLine="21">
+            <startOffsets>
+              <option value="224" />
+            </startOffsets>
+            <endOffsets>
+              <option value="284" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6AddingBinaryNumbers.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6AddingBinaryNumbers.cs" initialLine="28">
+            <startOffsets>
+              <option value="587" />
+            </startOffsets>
+            <endOffsets>
+              <option value="607" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6VolwelShifting.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6VolwelShifting.cs" initialLine="48">
+            <startOffsets>
+              <option value="1432" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1466" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6VolwelShifting.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6VolwelShifting.cs" initialLine="16">
+            <startOffsets>
+              <option value="236" />
+              <option value="248" />
+            </startOffsets>
+            <endOffsets>
+              <option value="247" />
+              <option value="260" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="526" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6StrongestEvenNumerInAnInterval.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6StrongestEvenNumerInAnInterval.cs" initialLine="24">
+            <startOffsets>
+              <option value="404" />
+              <option value="447" />
+            </startOffsets>
+            <endOffsets>
+              <option value="446" />
+              <option value="470" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="532" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6StrongestEvenNumerInAnInterval.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6StrongestEvenNumerInAnInterval.cs" initialLine="27">
+            <startOffsets>
+              <option value="542" />
+            </startOffsets>
+            <endOffsets>
+              <option value="551" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6PlentyOfFishInThePond.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6PlentyOfFishInThePond.cs" initialLine="38">
+            <startOffsets>
+              <option value="656" />
+            </startOffsets>
+            <endOffsets>
+              <option value="697" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="538" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu3LastDigitOfaHugeNumber.cs</url>
+          <line>103</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/TEST.cs" initialLine="101" />
+          <option name="timeStamp" value="553" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu6CompleteThePattern9Diamond.cs</url>
+          <line>23</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu6CompleteThePattern9Diamond.cs" initialLine="28">
+            <startOffsets>
+              <option value="911" />
+              <option value="884" />
+            </startOffsets>
+            <endOffsets>
+              <option value="958" />
+              <option value="891" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="555" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Katas/kyu5MaximumSubarraySum.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/Katas/kyu5MaximumSubarraySum.cs" initialLine="21">
+            <startOffsets>
+              <option value="416" />
+            </startOffsets>
+            <endOffsets>
+              <option value="456" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="556" />
+        </line-breakpoint>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" isInternal="false" displayValue="ThreadAbortException" namespaceName="System.Threading">
+            <option name="internal" value="false" />
+          </properties>
+          <option name="timeStamp" value="478" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="this.pOET[0..99]" language="C#" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="10" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="1011010110101" />
+        <entry key="text" value="101101011010110110101101011011010110101101101011011010110101101101011010110110101101101011010110110101101011011010110110101101011011010110110101101011011010110101" />
+      </map>
+    </option>
+  </component>
+</project>
