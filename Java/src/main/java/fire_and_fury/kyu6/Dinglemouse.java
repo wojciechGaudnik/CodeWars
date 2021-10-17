@@ -3,10 +3,7 @@ package fire_and_fury.kyu6;
 import java.util.regex.Pattern;
 
 class Dinglemouse {
-	public static void main(String[] args) {
-		var test = "FIREFURYIURYIIREUURYIURYRIREUIRERURYFURYRIREFURYRIREFIREEURYFIREUIRERURYYIREUURY";
-		System.out.println(test.replaceAll("Y+", "Y"));
-	}
+
 	public static String fireAndFury(final String tweet) {
 		var cleanTweet = getCleanTweet(tweet);
 		if (cleanTweet.contains("X")) {

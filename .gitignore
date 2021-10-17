@@ -3,10 +3,11 @@
 
 # My
 *.idea/*
+*/.idea/*
 *.class
 obj/
 bin/
-.idea/workspace.xml
+*/.idea/workspace.xml
 
 # User-specific stuff
 .idea/**/workspace.xml

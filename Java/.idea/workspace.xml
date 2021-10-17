@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9f06ae-e12c-4d72-9687-2acc105232c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/last_survivors_ep_3/kyu6/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/last_survivors_ep_3/kyu6/KataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fire_and_fury/kyu6/Dinglemouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fire_and_fury/kyu6/Dinglemouse.java" afterDir="false" />
     </list>
     <list id="0ae95d6e-57b4-48cf-953b-fac5b2628fb6" name="next" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,20 +132,20 @@
       <recent name="java_functional_programming_part_1_the_beginning.kyu7" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="last_survivors_ep_3.kyu6" />
       <recent name="fire_and_fury.kyu6" />
       <recent name="exponential_golomb_decoder.kyu6" />
       <recent name="vin_checker.kyu6" />
       <recent name="weird_ipv6_hex_string_parsing.kyu6" />
-      <recent name="corner_fill.ku6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DinglemouseTest.ex4">
-    <configuration name="Dinglemouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fire_and_fury.kyu6.Dinglemouse" />
+  <component name="RunManager" selected="JUnit.KataTest">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="last_survivors_ep_3.kyu6.Kata" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fire_and_fury.kyu6.*" />
+          <option name="PATTERN" value="last_survivors_ep_3.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,22 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinglemouseTest.ex1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fire_and_fury.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fire_and_fury.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="fire_and_fury.kyu6.DinglemouseTest" />
-      <option name="METHOD_NAME" value="ex1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DinglemouseTest.ex4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -196,28 +184,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exponential_golomb_decoder.kyu6.*" />
+          <option name="PATTERN" value="last_survivors_ep_3.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exponential_golomb_decoder.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="exponential_golomb_decoder.kyu6.SolutionTest" />
+      <option name="PACKAGE_NAME" value="last_survivors_ep_3.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="last_survivors_ep_3.kyu6.KataTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest.sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="last_survivors_ep_3.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="last_survivors_ep_3.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="last_survivors_ep_3.kyu6.KataTest" />
+      <option name="METHOD_NAME" value="sample" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest" />
+        <item itemvalue="JUnit.KataTest.sample" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.DinglemouseTest.ex4" />
         <item itemvalue="JUnit.DinglemouseTest" />
-        <item itemvalue="Application.Dinglemouse" />
-        <item itemvalue="JUnit.DinglemouseTest.ex1" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +296,7 @@
       <workItem from="1633982487370" duration="2867000" />
       <workItem from="1634022861314" duration="15177000" />
       <workItem from="1634270532704" duration="10364000" />
+      <workItem from="1634444197425" duration="3218000" />
     </task>
     <servers />
   </component>
@@ -358,14 +363,32 @@
           <line>5</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/vin_checker/kyu6/CodeWars.java</url>
           <line>38</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/last_survivors_ep_3/kyu6/Kata.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/last_survivors_ep_3/kyu6/Kata.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="88" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="100" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="105" />
         </breakpoint>
       </breakpoints>
       <default-breakpoints>
