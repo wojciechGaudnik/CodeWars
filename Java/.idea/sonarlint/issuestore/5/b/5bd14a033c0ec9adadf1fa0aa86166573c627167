@@ -1,16 +1,0 @@
-
-L
-java:S1444!"1Make this "public static VALID_WORDS" field final(¬»–«úÿÿÿÿ
-m	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(òúÉÿ
-m	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ˆ“ÃÖ
-s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÕÏµıÿÿÿÿ
-r
-java:S1104!"WMake VALID_WORDS a static final constant or non-public and provide accessors if needed.(¬»–«úÿÿÿÿ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(æú¸¨úÿÿÿÿ
-q
-java:S3008!"VRename this field "VALID_WORDS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬»–«úÿÿÿÿ
-8
-java:S2386!"Make this member "protected".(¬»–«úÿÿÿÿ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(á¼éñÿÿÿÿÿ

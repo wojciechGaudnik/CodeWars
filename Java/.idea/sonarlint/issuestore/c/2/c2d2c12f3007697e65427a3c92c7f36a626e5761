@@ -1,5 +1,0 @@
-
-\
-java:S1118":Add a private constructor to hide the implicit public one.(ìÆü©ûÿÿÿÿ8´‹à/
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ø¶Ğ
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø’Ü8ñĞÉ/
