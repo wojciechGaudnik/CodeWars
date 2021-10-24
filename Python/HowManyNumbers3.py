@@ -15,7 +15,7 @@ from itertools import combinations_with_replacement
 # 	return [ln, res[-1], res[0]] if res else []
 
 
-def partitions(n):
+def partitions(n):      
 	'''http://code.activestate.com/recipes/218332/'''
 	# base case of recursion: zero is the sum of the empty list
 	if n == 0:

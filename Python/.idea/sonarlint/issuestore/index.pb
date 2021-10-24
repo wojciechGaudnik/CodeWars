@@ -31,8 +31,6 @@ G
 kyu8WelcomeToTheCity.py,d/9/d9140b239ecbb9c9eccc3ebc5956e02d79bdd80d
 J
 kyu8HolidayVIIIDutyFree.py,d/2/d236d664c7ec96fde4bc75d01ee70fdeaf49b18b
-7
-test.py,a/3/a36e355ddb203d7d4133221f339dc406cb9f480f
 G
 kyu7DisemvowelTrolls.py,c/9/c9334db398d64c76cf0292eda6c4a55c9abfe7d6
 I
@@ -287,7 +285,5 @@ J
 kyu4RomanNumeralsHelper.py,a/8/a8976fc40b067db1c5b20e30bbf6c990b5494ab1
 X
 (kyu4SimplifyingMultilinearPolynomials.py,3/e/3ebfef9cb9249e41fa0c8e28400f6f453ed56ef6
-N
-kyu4kyu4SmallestPossibleSum.py,9/9/9961816ce36259cde9cda1f8573a7567627eb67c
 H
 kyu4RankingPokerHands.py,7/8/78a61a7a31eab9ed8b36b319416d95a2ac208b81
