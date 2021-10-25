@@ -1,8 +1,11 @@
-class MyClass:
+class my_class:
     ala = "ala"
     ela = "ela"
 
     def getAla(self):
+        return self.ala
+
+    def getEla(self):
         return self.ala
 
 
@@ -12,7 +15,7 @@ def two_highest(arg1):
 
 
 test = MyClass()
-test.
+test.getEla
 
 PASSOWRD = "1234"  # don't tell anyone
-print(passowrd)
+print(PASSOWRD)
