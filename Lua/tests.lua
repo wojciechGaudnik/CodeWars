@@ -1,0 +1,11 @@
+local solution = require 'kyu8_LuaIsEasyLesson2ControlStructures'
+describe("Control structures", function() 
+  it("Fixed tests", function()
+    assert.are.same(1, solution.solve(0))
+    assert.are.same(1, solution.solve(1))   
+    assert.are.same(3, solution.solve(2))
+    assert.are.same(15, solution.solve(5))
+    assert.are.same(177, solution.solve(10))
+    assert.are.same(21891, solution.solve(20))    
+ end)
+end)
