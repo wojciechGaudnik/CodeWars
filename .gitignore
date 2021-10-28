@@ -2,12 +2,14 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # My
-*.idea/*
+**.idea/**/*
 */.idea/*
 *.class
 obj/
 bin/
 */.idea/workspace.xml
+
+Python/.idea/workspace.xml
 
 # User-specific stuff
 .idea/**/workspace.xml
@@ -270,7 +272,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings 
+# TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
