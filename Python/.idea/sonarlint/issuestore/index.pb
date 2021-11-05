@@ -75,8 +75,6 @@ E
 kyu7StringEndsWith.py,8/5/8573e013de836e3fab165e0e927c7ca1a3d17743
 O
 kyu7BreakingChocolateProblem.py,b/7/b712e9a4a03d60c10e105a9367710355a7dd3d66
-<
-UnitTests.py,1/d/1d9efa74f8ef9987ac289168c51d7abe09da07ca
 F
 kyu7MoneyMoneyMoney.py,f/d/fde35f3f1217b05b6db4d25a80792cd10b41bfee
 @

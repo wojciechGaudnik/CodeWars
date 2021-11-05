@@ -1,8 +1,11 @@
 package first_variation_on_caesar_cipher.kyu5;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
-import java.util.*;
+import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CaesarCipherTest {
 

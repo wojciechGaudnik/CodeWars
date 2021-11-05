@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/src/test/java/HelloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/NetStatRead.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/kyu8GrasshopperIfElseSyntaxDebug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/CodeWars.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/TwentyOneSticks/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/TwentyOneSticks/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/first_variation_on_caesar_cipher/kyu5/CaesarCipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/first_variation_on_caesar_cipher/kyu5/CaesarCipherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10e28ac4439b83fa1fbcc3f0e2444b684d6ab4b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colorOf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/dataSources/48ea2267-c32a-4661-830b-981f75ab8e46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/dataSources/48ea2267-c32a-4661-830b-981f75ab8e46.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/sonarlint/issuestore/1/d/1d9efa74f8ef9987ac289168c51d7abe09da07ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +68,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.22.5" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.36" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,9 +81,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/katas" />
+      <recent name="$PROJECT_DIR$/kyu8_SumTheStrings" />
+    </key>
   </component>
   <component name="Regex">
     <option name="pos1" value="218" />
@@ -72,15 +106,34 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.ConnectFour.js">
-    <configuration name="ConnectFour.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ConnectFour.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Mocha.kyu8_SumTheStrings/kyu8_SumTheStringsTest.js">
+    <configuration name="kyu8_SumTheStrings.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="kyu8_SumTheStrings.js" working-dir="$PROJECT_DIR$/kyu8_SumTheStrings">
       <method v="2" />
     </configuration>
-    <configuration name="isPronic.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="isPronic.js" working-dir="$PROJECT_DIR$">
+    <configuration name="kyu8_SumTheStrings/kyu8_SumTheStringsTest.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/kyu8_SumTheStrings/kyu8_SumTheStringsTest.js</test-file>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Mocha.kyu8_SumTheStrings/kyu8_SumTheStringsTest.js" />
+      <item itemvalue="Node.js.kyu8_SumTheStrings.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.kyu8_SumTheStrings/kyu8_SumTheStringsTest.js" />
+        <item itemvalue="Node.js.kyu8_SumTheStrings.js" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -94,11 +147,14 @@
       <workItem from="1567452710172" duration="1844000" />
       <workItem from="1608459116518" duration="1653000" />
       <workItem from="1609831479617" duration="32000" />
+      <workItem from="1636103124614" duration="1354000" />
+      <workItem from="1636104612548" duration="4845000" />
+      <workItem from="1636117024364" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -111,19 +167,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2467" y="1967" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608459247500">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2467" y="1967" key="#com.intellij.fileTypes.FileTypeChooser/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608459247500" />
-    <state x="2507" y="1933" key="FileChooserDialogImpl" timestamp="1608458969646">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2507" y="1933" key="FileChooserDialogImpl/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608458969646" />
-    <state x="2100" y="1764" key="new project wizard" timestamp="1608459046899">
-      <screen x="1440" y="1440" width="2560" height="1440" />
-    </state>
-    <state x="2100" y="1764" key="new project wizard/1440.1440.2560.1440/1440.0.2560.1440/0.404.1440.2560/4000.1440.2560.1440@1440.1440.2560.1440" timestamp="1608459046899" />
   </component>
 </project>
