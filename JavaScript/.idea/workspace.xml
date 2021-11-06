@@ -23,24 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java/src/test/java/HelloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/NetStatRead.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/kyu8GrasshopperIfElseSyntaxDebug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/CodeWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/CodeWars.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/TwentyOneSticks/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/TwentyOneSticks/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/first_variation_on_caesar_cipher/kyu5/CaesarCipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/first_variation_on_caesar_cipher/kyu5/CaesarCipherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/the_spider_and_the_fly_jumping_pider/kyu6/ExampleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10e28ac4439b83fa1fbcc3f0e2444b684d6ab4b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_RemoveFirstAndLastCharacterPartTwo/kata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_RemoveFirstAndLastCharacterPartTwo/kataTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colorOf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/dataSources/48ea2267-c32a-4661-830b-981f75ab8e46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/dataSources/48ea2267-c32a-4661-830b-981f75ab8e46.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/sonarlint/issuestore/1/d/1d9efa74f8ef9987ac289168c51d7abe09da07ca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +93,20 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Mocha.kyu8_SumTheStrings/kyu8_SumTheStringsTest.js">
+  <component name="RunManager" selected="Mocha.kyu8_RemoveFirstAndLastCharacterPartTwo/kataTest.js">
     <configuration name="kyu8_SumTheStrings.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="kyu8_SumTheStrings.js" working-dir="$PROJECT_DIR$/kyu8_SumTheStrings">
+      <method v="2" />
+    </configuration>
+    <configuration name="kyu8_RemoveFirstAndLastCharacterPartTwo/kataTest.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/kyu8_RemoveFirstAndLastCharacterPartTwo/kataTest.js</test-file>
       <method v="2" />
     </configuration>
     <configuration name="kyu8_SumTheStrings/kyu8_SumTheStringsTest.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -125,9 +124,11 @@
     <list>
       <item itemvalue="Mocha.kyu8_SumTheStrings/kyu8_SumTheStringsTest.js" />
       <item itemvalue="Node.js.kyu8_SumTheStrings.js" />
+      <item itemvalue="Mocha.kyu8_RemoveFirstAndLastCharacterPartTwo/kataTest.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.kyu8_RemoveFirstAndLastCharacterPartTwo/kataTest.js" />
         <item itemvalue="Mocha.kyu8_SumTheStrings/kyu8_SumTheStringsTest.js" />
         <item itemvalue="Node.js.kyu8_SumTheStrings.js" />
       </list>
@@ -149,7 +150,7 @@
       <workItem from="1609831479617" duration="32000" />
       <workItem from="1636103124614" duration="1354000" />
       <workItem from="1636104612548" duration="4845000" />
-      <workItem from="1636117024364" duration="865000" />
+      <workItem from="1636117024364" duration="3058000" />
     </task>
     <servers />
   </component>
