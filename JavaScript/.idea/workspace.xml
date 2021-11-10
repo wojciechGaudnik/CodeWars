@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kyu8_FreudianTranslator/kata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_FreudianTranslator/kataTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_DidSheSayHallo/kata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_DidSheSayHallo/kataTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,6 +138,7 @@
       <workItem from="1636271663694" duration="948000" />
       <workItem from="1636381688584" duration="1296000" />
       <workItem from="1636482674940" duration="2091000" />
+      <workItem from="1636565323534" duration="914000" />
     </task>
     <servers />
   </component>
