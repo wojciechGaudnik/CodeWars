@@ -23,6 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kyu8_NameOnBillboard/kata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_NameOnBillboard/kataTest.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kyu8_RemoveDuplicatesFromList/kata.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kyu8_RemoveDuplicatesFromList/kataTest.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kyu8_ReturnTwoHighestValuesInList/kata.js" afterDir="false" />
@@ -93,7 +95,10 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.kata.js">
+  <component name="RunManager" selected="Node.js.kata.js (1)">
+    <configuration name="kata.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_NameOnBillboard/kata.js" working-dir="$PROJECT_DIR$/kyu8_NameOnBillboard">
+      <method v="2" />
+    </configuration>
     <configuration name="kata.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_DefineACardSuit/kata.js" working-dir="$PROJECT_DIR$/kyu8_DefineACardSuit">
       <method v="2" />
     </configuration>
@@ -116,9 +121,11 @@
       <item itemvalue="Mocha.kyu8_IsThereAVowelInThere/kataTest.js" />
       <item itemvalue="Node.js.kyu8_SumTheStrings.js" />
       <item itemvalue="Node.js.kata.js" />
+      <item itemvalue="Node.js.kata.js (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.kata.js (1)" />
         <item itemvalue="Node.js.kata.js" />
         <item itemvalue="Mocha.kyu8_IsThereAVowelInThere/kataTest.js" />
         <item itemvalue="Node.js.kyu8_SumTheStrings.js" />
@@ -146,7 +153,7 @@
       <workItem from="1636381688584" duration="1296000" />
       <workItem from="1636482674940" duration="2091000" />
       <workItem from="1636565323534" duration="2063000" />
-      <workItem from="1636728530048" duration="1025000" />
+      <workItem from="1636728530048" duration="2820000" />
     </task>
     <servers />
   </component>
