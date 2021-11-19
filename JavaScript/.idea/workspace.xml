@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesNumber/kata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesNumber/kataTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSCreateYourFirstJSFunctionAndPrintHelloworld/kata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSCreateYourFirstJSFunctionAndPrintHelloworld/kataTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesString/kata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesString/kataTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +91,11 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.kata.js (1)">
+  <component name="RunManager" selected="Node.js.kata.js (2)">
     <configuration name="kata.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_NameOnBillboard/kata.js" working-dir="$PROJECT_DIR$/kyu8_NameOnBillboard">
+      <method v="2" />
+    </configuration>
+    <configuration name="kata.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesString/kata.js" working-dir="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesString">
       <method v="2" />
     </configuration>
     <configuration name="kata.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_DefineACardSuit/kata.js" working-dir="$PROJECT_DIR$/kyu8_DefineACardSuit">
@@ -120,9 +121,11 @@
       <item itemvalue="Node.js.kyu8_SumTheStrings.js" />
       <item itemvalue="Node.js.kata.js" />
       <item itemvalue="Node.js.kata.js (1)" />
+      <item itemvalue="Node.js.kata.js (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.kata.js (2)" />
         <item itemvalue="Node.js.kata.js (1)" />
         <item itemvalue="Node.js.kata.js" />
         <item itemvalue="Mocha.kyu8_IsThereAVowelInThere/kataTest.js" />
@@ -153,6 +156,7 @@
       <workItem from="1636565323534" duration="2063000" />
       <workItem from="1636728530048" duration="3610000" />
       <workItem from="1637175741353" duration="1064000" />
+      <workItem from="1637334022620" duration="347000" />
     </task>
     <servers />
   </component>
