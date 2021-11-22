@@ -22,13 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesArray/kata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesArray/kataTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesString/kata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesString/kataTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +152,7 @@
       <workItem from="1636565323534" duration="2063000" />
       <workItem from="1636728530048" duration="3610000" />
       <workItem from="1637175741353" duration="1064000" />
-      <workItem from="1637334022620" duration="1961000" />
+      <workItem from="1637334022620" duration="2269000" />
     </task>
     <servers />
   </component>
