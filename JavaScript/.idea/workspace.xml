@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSConditionalStatementSwitch/kata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSConditionalStatementSwitch/kataTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSLoopStatementWhileAndDoWhile/kata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSLoopStatementWhileAndDoWhile/kataTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.kataTest.js">
+  <component name="RunManager" selected="Node.js.kata.js (4)">
     <configuration name="kataTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_TrainingJSConditionalStatementSwitch/kataTest.js" working-dir="$PROJECT_DIR$/kyu8_TrainingJSConditionalStatementSwitch">
       <method v="2" />
     </configuration>
@@ -104,23 +103,23 @@
     <configuration name="kata.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesArray/kata.js" working-dir="$PROJECT_DIR$/kyu8_TrainingJSBasicDataTypesArray">
       <method v="2" />
     </configuration>
-    <configuration name="kata.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_DefineACardSuit/kata.js" working-dir="$PROJECT_DIR$/kyu8_DefineACardSuit">
+    <configuration name="kata.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kyu8_TrainingJSLoopStatementWhileAndDoWhile/kata.js" working-dir="$PROJECT_DIR$/kyu8_TrainingJSLoopStatementWhileAndDoWhile">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.kata.js" />
       <item itemvalue="Node.js.kata.js (1)" />
       <item itemvalue="Node.js.kata.js (2)" />
       <item itemvalue="Node.js.kata.js (3)" />
       <item itemvalue="Node.js.kataTest.js" />
+      <item itemvalue="Node.js.kata.js (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.kata.js (4)" />
         <item itemvalue="Node.js.kataTest.js" />
         <item itemvalue="Node.js.kata.js (3)" />
         <item itemvalue="Node.js.kata.js (2)" />
         <item itemvalue="Node.js.kata.js (1)" />
-        <item itemvalue="Node.js.kata.js" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +148,7 @@
       <workItem from="1637175741353" duration="1064000" />
       <workItem from="1637334022620" duration="2269000" />
       <workItem from="1637591436423" duration="1182000" />
+      <workItem from="1637732013452" duration="305000" />
     </task>
     <servers />
   </component>
@@ -166,5 +166,17 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/kyu8_TrainingJSLoopStatementWhileAndDoWhile/kata.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
