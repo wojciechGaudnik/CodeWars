@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4456b563-b4f5-4aaf-9362-e9a3d41ffb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSLoopStatementWhileAndDoWhile/kata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSLoopStatementWhileAndDoWhile/kataTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSLoopStatementFor/kata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyu8_TrainingJSLoopStatementFor/kataTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +149,7 @@
       <workItem from="1637334022620" duration="2269000" />
       <workItem from="1637591436423" duration="1182000" />
       <workItem from="1637732013452" duration="305000" />
+      <workItem from="1637816155591" duration="402000" />
     </task>
     <servers />
   </component>
@@ -173,7 +174,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/kyu8_TrainingJSLoopStatementWhileAndDoWhile/kata.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
