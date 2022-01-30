@@ -5,7 +5,6 @@ var hotpo = function (n) {
         answer++;
     }
     return answer;
-
 }
 
 let func = function (number) {
