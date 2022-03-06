@@ -6,5 +6,3 @@ function numberToPower(number, power){
     }
     return answer;
 }
-
-console.log(numberToPower(3,3))
