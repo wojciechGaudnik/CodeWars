@@ -267,8 +267,6 @@ Q
 !kyu6PolybiusSquareCipherEncode.py,3/6/361f97214dd8af481301e86a47023a36a79e29f4
 D
 kyu4TenPinBowling.py,a/0/a0615668884ba96e580346c12cfab72884f676ec
-L
-kyu4VigenèreCipherHelper.py,7/4/74aa2235208a0e224c7cf345fd6784781dbb751a
 C
 kyu4ExplosiveSum.py,d/f/dfbc673ec74ca22dc2853a0b7e170471b5de6d67
 K
