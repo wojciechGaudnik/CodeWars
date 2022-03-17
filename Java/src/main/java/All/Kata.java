@@ -18,4 +18,8 @@ public class Kata{
 			}
 		}).mapToInt(Integer::intValue).toArray();
 	}
+
+	public static void main(String[] args) {
+		System.out.println("test");
+	}
 }
