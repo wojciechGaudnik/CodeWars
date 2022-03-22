@@ -1,17 +1,3 @@
-class Warrior {
-    constructor(warrior) {
-        this.warrior = warrior;
-    }
+const util = require('util')
 
-    toString() {
-        return `Hi! my name's ${this.warrior}`
-    }
-
-    name(warrior) {
-        if (warrior) {
-            this.warrior = warrior;
-        }
-        return this.warrior;
-    }
-
-}
+JSopenSesame()
