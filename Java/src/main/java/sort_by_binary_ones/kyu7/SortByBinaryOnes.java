@@ -1,7 +1,11 @@
 package sort_by_binary_ones.kyu7;
 
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.TreeMap;
+
+import static java.util.Comparator.comparing;
+import static java.util.Comparator.reverseOrder;
 
 class SortByBinaryOnes {
 	public static Integer[] sort(Integer list[]) {
@@ -36,6 +40,10 @@ class SortByBinaryOnes {
 
 
 	public static void main(String[] args) {
-		System.out.println(sort(new Integer[]{1, 2, 3, 4}));
+		var test = sort(new Integer[]{1, 2, 3, 4});
+		Integer[] integers = Arrays.stream(test)
+				.sorted(comparing(Integer::bitCount, reverseOrder())
+						.thenComparing(Integer::highestOneBit)
+						.thenComparing(Integer::compare)).toArray(Integer[]::new);
 	}
 }
