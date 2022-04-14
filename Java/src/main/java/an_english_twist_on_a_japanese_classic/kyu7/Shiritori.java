@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Shiritori {
-	public static List<String> theGame(List<String> words){
+	public static List<String> theGame(List<String> words) {
 		var answer = new LinkedList<String>();
 		if (words.isEmpty() || words.get(0).equals("")) {
 			return new ArrayList<>();

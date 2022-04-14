@@ -1,7 +1,7 @@
 package simple_fibonacci_strings.kyu7;
 
 public class Solution {
-	public static String solve(int n){
+	public static String solve(int n) {
 		var f0 = "0";
 		var f1 = "01";
 		if (n == 0) {

@@ -2,17 +2,17 @@ package MobileDisplay;
 
 public class MobileDisplay {
 
-	public static String mobileDisplay(int n, int p){
+	public static String mobileDisplay(int n, int p) {
 		if (n < 15 && p > 70) {
 			return "-";
 		}
-		System.out.println(n + "  " +  p);
+		System.out.println(n + "  " + p);
 		int width = Math.max(n, 20);
 		int height = (int) (n * ((double) (Math.max(p, 20)) / 100));
-		if ((((double)height * 100) / width) < 30) {
-			height = (int)(0.3 * width);
+		if ((((double) height * 100) / width) < 30) {
+			height = (int) (0.3 * width);
 		}
-		int halfVertical = (int)Math.round((double) height / 2) + 1;
+		int halfVertical = (int) Math.round((double) height / 2) + 1;
 		int halfHorizontal = (width / 2) - 5;
 		System.out.println(height + " <---height");
 		System.out.println(halfVertical + " <---halfVertical");

@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class PaperFolderTest {
 	@Test
 	public void sampleTests() {
-		assertEquals((Long)42L, PaperFolder.fold(384000000.0));
-		assertEquals((Long)0L, PaperFolder.fold(0.00005));
+		assertEquals((Long) 42L, PaperFolder.fold(384000000.0));
+		assertEquals((Long) 0L, PaperFolder.fold(0.00005));
 	}
 }

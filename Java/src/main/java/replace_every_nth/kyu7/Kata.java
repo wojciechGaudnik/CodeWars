@@ -1,7 +1,7 @@
 package replace_every_nth.kyu7;
 
 public class Kata {
-	public static String replaceNth(String text, int n, char oldValue, char newValue){
+	public static String replaceNth(String text, int n, char oldValue, char newValue) {
 		StringBuilder answer = new StringBuilder();
 		var buff = 1;
 		for (var one : text.toCharArray()) {
@@ -11,7 +11,7 @@ public class Kata {
 			} else if (one == oldValue) {
 				buff++;
 				answer.append(one);
-			}	else {
+			} else {
 				answer.append(one);
 			}
 		}

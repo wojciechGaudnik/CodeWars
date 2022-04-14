@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class EightiesKids3 {
 
 	public static void main(String[] args) {
-		System.out.println(getSocks("Punky", new String[] { "pink", "argyle", "argyle" }));
+		System.out.println(getSocks("Punky", new String[]{"pink", "argyle", "argyle"}));
 	}
 
 	public static String[] getSocks(String name, String[] socks) {
@@ -16,7 +16,7 @@ public class EightiesKids3 {
 				return answer.stream().limit(2).toArray(String[]::new);
 			}
 		} else if (name.equals("Henry")) {
-			for (var one: socks) {
+			for (var one : socks) {
 				if (Arrays.stream(socks).filter(s -> s.equals(one)).count() > 1) {
 					return new String[]{one, one};
 				}

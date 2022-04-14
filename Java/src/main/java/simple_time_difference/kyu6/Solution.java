@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class Solution {
 
-	public static String solve(String [] arr){
+	public static String solve(String[] arr) {
 		if (arr.length == 1) {
 			return "23:59";
 		}

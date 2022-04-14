@@ -11,7 +11,7 @@ class Kata {
 		var answer = new StringBuilder();
 		var last = 0;
 		for (var i = 0; i < input.length; i++) {
-			var pad = (listOfPads[i % numberOfColumns] == 0) ? "%s": "%-" + listOfPads[i % numberOfColumns] + "s";
+			var pad = (listOfPads[i % numberOfColumns] == 0) ? "%s" : "%-" + listOfPads[i % numberOfColumns] + "s";
 			if ((i + 1) % numberOfColumns != 0) {
 				answer.append(String.format(pad, input[i])).append(" | ");
 				last = 3;

@@ -3,7 +3,7 @@ package word_to_initial_number.kyu7;
 import java.util.HashMap;
 
 public class Converter {
-	public static long convert(String word){
+	public static long convert(String word) {
 		if (word == null || word.length() == 0) {
 			return 0;
 		}
@@ -18,7 +18,7 @@ public class Converter {
 		}
 		var answer = new StringBuilder();
 
-		for (var one: word.toLowerCase().toCharArray()) {
+		for (var one : word.toLowerCase().toCharArray()) {
 			answer.append(map.get(one));
 		}
 		return Long.parseLong(answer.toString());

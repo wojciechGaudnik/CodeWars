@@ -10,7 +10,7 @@ public class Poet {
 		Arrays.sort(values);
 		for (int i = 0; i < values.length; i++) {
 			if (i % 2 == 0) list.add(0, values[i]);
-			else list.add( values[i]);
+			else list.add(values[i]);
 		}
 		return list.stream().mapToInt(i -> i).toArray();
 	}

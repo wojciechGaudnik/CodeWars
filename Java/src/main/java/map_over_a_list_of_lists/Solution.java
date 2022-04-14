@@ -6,7 +6,7 @@ public class Solution {
 
 	public static <T, R> R[][] gridMap(Function<T, R> fn, T[][] list) {
 		var outer = new Object[list.length][];
-		for(var i = 0; i < list.length; i++) {
+		for (var i = 0; i < list.length; i++) {
 			var inner = new Object[list[i].length];
 			for (var j = 0; j < list[i].length; j++) {
 				inner[j] = fn.apply(list[i][j]);

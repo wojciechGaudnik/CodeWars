@@ -4,6 +4,7 @@ class Kata {
 	public static void main(String[] args) {
 		System.out.println(lastSurvivors(new String[]{"abc", "   ", " a "}, new int[]{0, 4, 1}));
 	}
+
 	public static String lastSurvivors(String[] strs, int[] nums) {
 		var arrayBuilders = new StringBuilder[nums.length];
 		for (var i = 0; i < arrayBuilders.length; i++) {

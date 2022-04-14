@@ -15,10 +15,10 @@ public class Solution {
 		var yI = 0;
 		while (yI < y.length() && xI < x.length()) {
 			if (x.charAt(xI) == y.charAt(yI)) {
-					answer.append(x.charAt(xI));
-					xI++;
-					yI++;
-					continue;
+				answer.append(x.charAt(xI));
+				xI++;
+				yI++;
+				continue;
 			}
 			xI++;
 			if (xI == x.length()) {

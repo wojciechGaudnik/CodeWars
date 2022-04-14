@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CaesarCipher {
 
-	public static List<String>  movingShift(String s, int shift) {
+	public static List<String> movingShift(String s, int shift) {
 		var listAnswer = new LinkedList<String>();
 		var answer = new StringBuilder();
 		for (var i = 0; i < s.length(); i++) {
@@ -26,7 +26,7 @@ public class CaesarCipher {
 			}
 		} else {
 			var equalsLenght = (answer.length() / 5) + 1;
-			for (var i = 0;; i += equalsLenght) {
+			for (var i = 0; ; i += equalsLenght) {
 				if (i + equalsLenght >= answer.length()) {
 					listAnswer.add(answer.substring(i));
 					break;
@@ -38,7 +38,7 @@ public class CaesarCipher {
 		return listAnswer;
 	}
 
-	public static String  demovingShift(List<String> ss, int shift) {
+	public static String demovingShift(List<String> ss, int shift) {
 		var s = String.join("", ss);
 		shift = 26 - (shift % 26);
 		var answer = new StringBuilder();

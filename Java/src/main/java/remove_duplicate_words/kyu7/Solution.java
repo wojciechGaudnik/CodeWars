@@ -8,7 +8,7 @@ public class Solution {
 		System.out.println(removeDuplicateWords("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"));
 	}
 
-	public static String removeDuplicateWords(String s){
+	public static String removeDuplicateWords(String s) {
 		return Arrays.stream(s.split(" ")).distinct().collect(Collectors.joining(" "));
 	}
 }

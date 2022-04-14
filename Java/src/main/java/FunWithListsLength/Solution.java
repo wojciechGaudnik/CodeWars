@@ -5,7 +5,7 @@ import java.util.List;
 
 class Solution {
 
-	public static double find_average(int[] array){
+	public static double find_average(int[] array) {
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
 			sum += array[i];
@@ -39,7 +39,7 @@ class Solution {
 
 
 	static int length(Node head) {
-		return (head == null)? 0:length(head.next) + 1;
+		return (head == null) ? 0 : length(head.next) + 1;
 	}
 
 	static int indexOf(Node head, Object value) {
@@ -59,9 +59,10 @@ class Solution {
 	private static int ifExist(Node head, Object value) {
 		if (head == null) {
 			return -1;
-		} else if (!head.data.equals(value)){
+		} else if (!head.data.equals(value)) {
 			return ifExist(head.next, value);
-		};
+		}
+		;
 		return 0;
 	}
 }

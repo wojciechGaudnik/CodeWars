@@ -17,7 +17,8 @@ public class Dioph {
 					answer.append("[").append(x).append(", ").append(y).append("], ");
 				}
 			}
-			while (n % ++first != 0) {}
+			while (n % ++first != 0) {
+			}
 			second = n / first;
 		}
 		if (answer.toString().equals("[")) return answer.append("]").toString();

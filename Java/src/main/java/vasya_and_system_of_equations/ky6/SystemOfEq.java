@@ -6,8 +6,7 @@ public class SystemOfEq {
 		System.out.println(Solution(14, 28));
 	}
 
-	public static int Solution(int n, int m)
-	{
+	public static int Solution(int n, int m) {
 		var a = 0;
 		var b = 0;
 		for (a = 0; Math.pow(a, 2) + b < 1000; a++) {

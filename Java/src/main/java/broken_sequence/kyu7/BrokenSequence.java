@@ -1,12 +1,12 @@
 package broken_sequence.kyu7;
 
-public class BrokenSequence{
+public class BrokenSequence {
 
 	public int findMissingNumber(String sequence) {
 		if (sequence.equals("")) {
 			return 0;
 		}
-		if (sequence.matches( ".*[a-b].*")){
+		if (sequence.matches(".*[a-b].*")) {
 			return 1;
 		}
 		var numbers = sequence.split(" ");

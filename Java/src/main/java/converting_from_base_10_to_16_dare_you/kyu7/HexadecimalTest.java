@@ -7,8 +7,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class HexadecimalTest {
 
 	@Test
-	public void test (){
-		assertEquals("0x100",Hexadecimal.convertToHex(256));
+	public void test() {
+		assertEquals("0x100", Hexadecimal.convertToHex(256));
 	}
 
 }

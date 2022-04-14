@@ -8,8 +8,8 @@ public class TripleSorter {
 
 	public static String sort(List<Student> students) {
 		Comparator<Student> studentComparator = Comparator.comparing(Student::getGpa).reversed()
-		                                    .thenComparing(student -> student.getFullName().split(" ")[1].charAt(0))
-		                                    .thenComparing(Student::getAge);
+				.thenComparing(student -> student.getFullName().split(" ")[1].charAt(0))
+				.thenComparing(Student::getAge);
 		return students.stream().sorted(studentComparator).map(s -> s.getFullName()).collect(Collectors.joining(","));
 	}
 }

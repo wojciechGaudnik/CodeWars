@@ -20,7 +20,7 @@ public class Bonus {
 		var answer = new long[arr.length];
 		answer[0] = Math.round(e1);
 		long ePlusEquals = answer[0];
-		long eMinus= answer[0];
+		long eMinus = answer[0];
 		while (Arrays.stream(answer).sum() != s) {
 			var numerator = ePlusEquals * arr[0];
 			for (var i = 1; i < answer.length; i++) {

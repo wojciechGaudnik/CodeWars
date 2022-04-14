@@ -2,7 +2,7 @@ package palindrome_chain_length.kyu7;
 
 public class Palindromes {
 
-	public static int palindromeChainLength (long n) {
+	public static int palindromeChainLength(long n) {
 		var answer = 0;
 		while (!isPalindrome(n)) {
 			n += Long.parseLong(new StringBuilder(String.valueOf(n)).reverse().toString());

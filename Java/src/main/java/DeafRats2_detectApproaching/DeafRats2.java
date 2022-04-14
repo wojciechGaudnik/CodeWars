@@ -18,27 +18,35 @@ public class DeafRats2 {
 			for (int xA = 0; xA < townSquare[yA].length; xA++) {
 				int xV = 0, yV = 0;
 				if (townSquare[yA][xA] == '↑') {
-					xV = 0; yV = -1;
+					xV = 0;
+					yV = -1;
 				} else if (townSquare[yA][xA] == '↓') {
-					xV = 0; yV = 1;
+					xV = 0;
+					yV = 1;
 				} else if (townSquare[yA][xA] == '←') {
-					xV = -1; yV = 0;
+					xV = -1;
+					yV = 0;
 				} else if (townSquare[yA][xA] == '→') {
-					xV = 1; yV = 0;
-				}else if (townSquare[yA][xA] == '↗') {
-					xV = 1; yV = -1;
-				}else if (townSquare[yA][xA] == '↘') {
-					xV = 1; yV = 1;
-				}else if (townSquare[yA][xA] == '↙') {
-					xV = -1; yV = 1;
-				}else if (townSquare[yA][xA] == '↖') {
-					xV = -1; yV = -1;
-				}else {
+					xV = 1;
+					yV = 0;
+				} else if (townSquare[yA][xA] == '↗') {
+					xV = 1;
+					yV = -1;
+				} else if (townSquare[yA][xA] == '↘') {
+					xV = 1;
+					yV = 1;
+				} else if (townSquare[yA][xA] == '↙') {
+					xV = -1;
+					yV = 1;
+				} else if (townSquare[yA][xA] == '↖') {
+					xV = -1;
+					yV = -1;
+				} else {
 					continue;
 				}
 				double first = Math.sqrt(Math.pow(xP - xA, 2) + Math.pow(yP - yA, 2));
 				double second = Math.sqrt(Math.pow(xP - xA - xV, 2) + Math.pow(yP - yA - yV, 2));
-				count += (second > first)?1:0;
+				count += (second > first) ? 1 : 0;
 			}
 		}
 		return count;

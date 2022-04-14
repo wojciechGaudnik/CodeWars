@@ -28,11 +28,11 @@ public class Tour {
 					.map(e -> e[1]).map(h::get)
 					.findFirst()
 					.get();
-			answer += Math.sqrt(Math.pow(Math.max(firstTown, secondTown),2) - Math.pow(Math.min(firstTown, secondTown),2));
+			answer += Math.sqrt(Math.pow(Math.max(firstTown, secondTown), 2) - Math.pow(Math.min(firstTown, secondTown), 2));
 			if (i == 0) answer += firstTown;
 		}
 		answer += secondTown;
-		return (int )answer;
+		return (int) answer;
 	}
 }
    

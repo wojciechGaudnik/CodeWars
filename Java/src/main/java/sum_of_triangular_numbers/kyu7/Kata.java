@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 
 public class Kata {
 
-	public static int sumTriangularNumbers(int n){
+	public static int sumTriangularNumbers(int n) {
 		if (n < 0) return 0;
 		var answer = 0;
 		var t = 0;

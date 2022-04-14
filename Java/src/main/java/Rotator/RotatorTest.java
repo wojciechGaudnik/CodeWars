@@ -1,6 +1,7 @@
 package Rotator;
 
 import static org.junit.Assert.*;
+
 import org.junit.*;
 
 public class RotatorTest {

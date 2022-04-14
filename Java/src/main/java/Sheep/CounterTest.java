@@ -1,17 +1,19 @@
 package Sheep;
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
+
 import org.junit.runners.JUnit4;
 
 
 public class CounterTest {
-	Boolean[] array1 = {true,  true,  true,  false,
-			true,  true,  true,  true ,
-			true,  false, true,  false,
-			true,  false, false, true ,
-			true,  true,  true,  true ,
-			false, false, true,  true };
+	Boolean[] array1 = {true, true, true, false,
+			true, true, true, true,
+			true, false, true, false,
+			true, false, false, true,
+			true, true, true, true,
+			false, false, true, true};
 
 	@Test
 	public void testMy() {

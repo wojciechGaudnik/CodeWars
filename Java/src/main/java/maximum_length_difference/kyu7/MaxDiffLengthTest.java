@@ -2,6 +2,7 @@ package maximum_length_difference.kyu7;
 
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class MaxDiffLengthTest {

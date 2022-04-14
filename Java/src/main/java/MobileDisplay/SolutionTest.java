@@ -2,36 +2,37 @@ package MobileDisplay;
 
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 public class SolutionTest {
 	@Test
 	public void testSomeValues1() {
 		String solution = "***************************\n*                         *\n*                         *\n*                         *\n*        CodeWars         *\n*                         *\n*                         *\n*                         *\n*                         *\n* Menu           Contacts *\n***************************";
-		assertEquals(solution, MobileDisplay.mobileDisplay(27,41));
+		assertEquals(solution, MobileDisplay.mobileDisplay(27, 41));
 	}
 
 	@Test
 	public void testSomeValues2() {
 		String solution = "************************************\n*                                  *\n*                                  *\n*                                  *\n*             CodeWars             *\n*                                  *\n*                                  *\n*                                  *\n*                                  *\n* Menu                    Contacts *\n************************************";
-		assertEquals(solution, MobileDisplay.mobileDisplay(36,31));
+		assertEquals(solution, MobileDisplay.mobileDisplay(36, 31));
 	}
 
 	@Test
 	public void testSomeValues3() {
 		String solution =
 				"***************************\n" +
-				"*                         *\n" +
-				"*                         *\n" +
-				"*                         *\n" +
-				"*        CodeWars         *\n" +
-				"*                         *\n" +
-				"*                         *\n" +
-				"*                         *\n" +
-				"*                         *\n" +
-				"* Menu           Contacts *\n" +
-				"***************************";
-		assertEquals(solution, MobileDisplay.mobileDisplay(27,41));
+						"*                         *\n" +
+						"*                         *\n" +
+						"*                         *\n" +
+						"*        CodeWars         *\n" +
+						"*                         *\n" +
+						"*                         *\n" +
+						"*                         *\n" +
+						"*                         *\n" +
+						"* Menu           Contacts *\n" +
+						"***************************";
+		assertEquals(solution, MobileDisplay.mobileDisplay(27, 41));
 	}
 
 	@Test
@@ -87,7 +88,7 @@ public class SolutionTest {
 				"*                                                                      *\n" +
 				"* Menu                                                        Contacts *\n" +
 				"************************************************************************";
-		assertEquals(solution, MobileDisplay.mobileDisplay(72,71));
+		assertEquals(solution, MobileDisplay.mobileDisplay(72, 71));
 	}
 
 	@Test
@@ -169,6 +170,6 @@ public class SolutionTest {
 						"*                                                                                                *\n" +
 						"* Menu                                                                                  Contacts *\n" +
 						"**************************************************************************************************";
-		assertEquals(solution, MobileDisplay.mobileDisplay(98,78));
+		assertEquals(solution, MobileDisplay.mobileDisplay(98, 78));
 	}
 }

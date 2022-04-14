@@ -1,6 +1,6 @@
 package Plural;
 
-public class Plural{
+public class Plural {
 
 	public static boolean isEven(double n) {
 		return (n) % 2 == 0;
@@ -10,7 +10,7 @@ public class Plural{
 		return str.replaceAll("\\.", "-");
 	}
 
-	public static boolean isPlural(float f){
+	public static boolean isPlural(float f) {
 		return f != 1;
 	}
 }

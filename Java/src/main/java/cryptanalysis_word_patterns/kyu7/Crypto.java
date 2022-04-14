@@ -3,7 +3,7 @@ package cryptanalysis_word_patterns.kyu7;
 import java.util.HashMap;
 
 public class Crypto {
-	public static String wordPattern(final String word){
+	public static String wordPattern(final String word) {
 		var map = new HashMap<Character, Integer>();
 		var answer = new StringBuilder();
 		var index = 0;

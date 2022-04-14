@@ -12,7 +12,7 @@ public class Funcij {
 		return sum;
 	}
 
-	public static BigInteger  sumax(int n) {
+	public static BigInteger sumax(int n) {
 		BigInteger sum = BigInteger.ZERO;
 		for (int i = 1, j = 1; i <= n; i++, j += 2) {
 			sum = sum.add(BigInteger.valueOf(i * j));
@@ -20,7 +20,7 @@ public class Funcij {
 		return sum;
 	}
 
-	public static BigInteger  sumsum(int n) {
+	public static BigInteger sumsum(int n) {
 		return sumin(n).add(sumax(n));
 	}
 }

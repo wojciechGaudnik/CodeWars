@@ -6,6 +6,7 @@ class CodeWars {
 	public static void main(String[] args) {
 		System.out.println(checkVin("5YJ3E1EA7HF000337"));
 	}
+
 	public static boolean checkVin(String vin) {
 		if (vin.length() != 17) {
 			return false;
@@ -29,14 +30,14 @@ class CodeWars {
 		}
 		var weights = new int[]{8, 7, 6, 5, 4, 3, 2, 10, 0, 9, 8, 7, 6, 5, 4, 3, 2};
 		var sum = 0;
-		for (var i = 0; i < vinNumbers.length(); i++){
+		for (var i = 0; i < vinNumbers.length(); i++) {
 			sum += Integer.parseInt(String.valueOf(vinNumbers.charAt(i))) * weights[i];
 		}
 		var mod11 = sum % 11;
 		if (mod11 == 10 && vin.charAt(8) == 'X') {
 			return true;
 		}
-		if (Character.getNumericValue(vin.charAt(8))== mod11) {
+		if (Character.getNumericValue(vin.charAt(8)) == mod11) {
 			return true;
 		}
 		return false;

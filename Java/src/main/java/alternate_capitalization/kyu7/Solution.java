@@ -2,7 +2,7 @@ package alternate_capitalization.kyu7;
 
 public class Solution {
 
-	public static String[] capitalize(String s){
+	public static String[] capitalize(String s) {
 		var first = new StringBuilder();
 		var second = new StringBuilder();
 		var p = true;

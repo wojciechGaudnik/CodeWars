@@ -1,7 +1,8 @@
 package a_plus_b_equals_one_two_three.kyu6;
 
 public class Dinglemouse {
-	private Dinglemouse(){}
+	private Dinglemouse() {
+	}
 
 	public static long int123(int a) {
 		if ((123 - a) >= 0) {

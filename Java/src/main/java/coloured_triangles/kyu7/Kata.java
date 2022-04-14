@@ -19,7 +19,7 @@ public class Kata {
 			put("BR", "G");
 			put("RB", "G");
 		}};
-		while (row.length() > 1){
+		while (row.length() > 1) {
 			var next = new StringBuilder();
 			for (var i = 0; i < row.length() - 1; i++) {
 				next.append(map.get(String.valueOf(row.charAt(i)) + row.charAt(i + 1)));

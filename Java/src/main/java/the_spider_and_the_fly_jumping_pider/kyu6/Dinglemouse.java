@@ -6,7 +6,9 @@ public class Dinglemouse {
 		var spiderL = spider.charAt(0);
 		var flyL = fly.charAt(0);
 		var angleN = 0;
-		while ((char) (spiderL + angleN) != flyL && (char) (spiderL - angleN) != flyL) {angleN += 1;}
+		while ((char) (spiderL + angleN) != flyL && (char) (spiderL - angleN) != flyL) {
+			angleN += 1;
+		}
 		var angle = angleN * 45;
 		var a = fly.charAt(1) - 48d;
 		var b = spider.charAt(1) - 48d;

@@ -8,6 +8,6 @@ public class ATM {
 			answer += n / one;
 			n %= one;
 		}
-		return (n == 0)? answer: -1;
+		return (n == 0) ? answer : -1;
 	}
 }

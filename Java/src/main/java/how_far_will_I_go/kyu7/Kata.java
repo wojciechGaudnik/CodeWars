@@ -9,6 +9,6 @@ public class Kata {
 			totalTime -= (runTime + restTime);
 		}
 		if (totalTime > 0) return answer + speed * totalTime;
-		return answer ;
+		return answer;
 	}
 }

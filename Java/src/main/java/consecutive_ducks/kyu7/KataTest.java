@@ -11,6 +11,7 @@ class KataTest {
 	public void checkSmallValues() {
 
 	}
+
 	@Test
 	public void checkMediumValues() {
 		Kata.consecutiveDucks(32768, false);
@@ -18,6 +19,7 @@ class KataTest {
 		Kata.consecutiveDucks(16, false);
 		Kata.consecutiveDucks(8, false);
 	}
+
 	@Test
 	public void checkLargeValues() {
 		Kata.consecutiveDucks(69, true);
@@ -40,7 +42,7 @@ class KataTest {
 	}
 
 	@Test
-	public void myTrue(){
+	public void myTrue() {
 		assertTrue(Kata.consecutiveDucks(69));
 		assertTrue(Kata.consecutiveDucks(57));
 		assertTrue(Kata.consecutiveDucks(6));

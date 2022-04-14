@@ -15,7 +15,7 @@ public class Form implements HttpHandler {
 
 
 		// Send a form if it wasn't submitted yet.
-		if(method.equals("GET")){
+		if (method.equals("GET")) {
 			response = "<html><body>" +
 					"<form method=\"POST\">\n" +
 					"  First name:<br>\n" +
@@ -30,7 +30,7 @@ public class Form implements HttpHandler {
 		}
 
 		// If the form was submitted, retrieve it's content.
-		if(method.equals("POST")){
+		if (method.equals("POST")) {
 			InputStreamReader isr = new InputStreamReader(httpExchange.getRequestBody(), "utf-8");
 			BufferedReader br = new BufferedReader(isr);
 			String formData = br.readLine();
@@ -58,7 +58,7 @@ public class Form implements HttpHandler {
 	private static Map<String, String> parseFormData(String formData) throws UnsupportedEncodingException {
 		Map<String, String> map = new HashMap<>();
 		String[] pairs = formData.split("&");
-		for(String pair : pairs){
+		for (String pair : pairs) {
 			String[] keyValue = pair.split("=");
 			// We have to decode the value because it's urlencoded. see: https://en.wikipedia.org/wiki/POST_(HTTP)#Use_for_submitting_web_forms
 			String value = new URLDecoder().decode(keyValue[1], "UTF-8");

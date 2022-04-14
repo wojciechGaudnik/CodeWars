@@ -16,7 +16,8 @@ public class GetExcelColumnTitleTest {
 		assertEquals("AYK", GetExcelColumnTitle.getColumnTitle(1337));
 		assertEquals("XPEH", GetExcelColumnTitle.getColumnTitle(432778));
 	}
-	@Test(expected=IllegalArgumentException.class)
+
+	@Test(expected = IllegalArgumentException.class)
 	public void zeroInputShouldThrowIllegalArgumentException() {
 		GetExcelColumnTitle.getColumnTitle(0);
 	}

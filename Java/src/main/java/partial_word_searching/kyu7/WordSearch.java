@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class WordSearch {
 
-	static String[] findWord(String x, String[] y){
+	static String[] findWord(String x, String[] y) {
 		var answer = new LinkedList<String>();
 		for (var one : y) {
 			if (one.matches("(?i).*" + x + ".*")) {

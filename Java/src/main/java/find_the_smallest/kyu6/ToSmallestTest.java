@@ -2,7 +2,9 @@ package find_the_smallest.kyu6;
 
 
 import static org.junit.Assert.*;
+
 import java.util.Arrays;
+
 import org.junit.Test;
 
 public class ToSmallestTest {
@@ -11,6 +13,7 @@ public class ToSmallestTest {
 		assertEquals(res,
 				Arrays.toString(ToSmallest.smallest(n)));
 	}
+
 	@Test
 	public void test() {
 		System.out.println("Basic Tests smallest");

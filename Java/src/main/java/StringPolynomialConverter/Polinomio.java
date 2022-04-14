@@ -17,6 +17,6 @@ public class Polinomio {
 						.append("x^").append(i);
 			}
 		}
-		return answer.append((pol[0] != 0)?"+" + pol[0]:"").toString().replaceAll("(^\\+|\\^1)|1(?=x)|(\\^0)|\\+(?=-)", "");
+		return answer.append((pol[0] != 0) ? "+" + pol[0] : "").toString().replaceAll("(^\\+|\\^1)|1(?=x)|(\\^0)|\\+(?=-)", "");
 	}
 }

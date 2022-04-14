@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Solution {
 
-	public static long maxProduct(int[] numbers, int sub_size){
+	public static long maxProduct(int[] numbers, int sub_size) {
 		return Arrays.stream(numbers)
 				.boxed()
 				.sorted((a, b) -> b - a)

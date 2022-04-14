@@ -19,8 +19,7 @@ public class Kata {
 			if (y >= height) {
 				add = -1;
 				y += add - 1;
-			}
-			else if (y < 0) {
+			} else if (y < 0) {
 				add = 1;
 				y += add + 1;
 			}

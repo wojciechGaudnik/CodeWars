@@ -10,7 +10,7 @@ public class Drinkin {
 		var answer = 0;
 		var test = drinkString.matches("\\d+");
 		for (var one : drinkString.split(" ")) {
-			if (one.matches("\\d+")){
+			if (one.matches("\\d+")) {
 				answer += Integer.parseInt(one);
 			}
 		}

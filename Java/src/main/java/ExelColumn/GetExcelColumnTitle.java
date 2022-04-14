@@ -4,7 +4,6 @@ package ExelColumn;
 public class GetExcelColumnTitle {
 
 
-
 	public static String getColumnTitle(int num) {
 		if (num < 1) {
 			throw new IllegalArgumentException();

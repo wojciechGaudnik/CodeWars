@@ -1,8 +1,8 @@
 package numbers_with_this_digit_inside.kyu7;
 
 public class Kata {
-	public static long[] NumbersWithDigitInside(long x, long d)  {
-		var answer = new long[]{0,0,1};
+	public static long[] NumbersWithDigitInside(long x, long d) {
+		var answer = new long[]{0, 0, 1};
 		var dString = String.valueOf(d);
 		for (var i = 1; i <= x; i++) {
 			if (String.valueOf(i).contains(dString)) {

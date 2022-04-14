@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 
 public class Representation {
 
-	public static int daysRepresented (int [][] trips){
+	public static int daysRepresented(int[][] trips) {
 		return Arrays.stream(trips).map(trip -> IntStream.range(trip[0], trip[1] + 1).boxed().collect(Collectors.toSet()))
 				.flatMap(Collection::stream)
 				.collect(Collectors.toSet())

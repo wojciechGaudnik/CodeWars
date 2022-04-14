@@ -1,7 +1,7 @@
 package recursion_101.kyu7;
 
 public class Solution {
-	public static int [] solve(int a, int b){
+	public static int[] solve(int a, int b) {
 		if (a == 0 || b == 0) {
 			return new int[]{a, b};
 		} else if (a >= 2 * b) {

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Kata {
-	public static String[] lineupStudents(String students){
+	public static String[] lineupStudents(String students) {
 		return Arrays.stream(students.split(" "))
 				.sorted(Comparator.comparing(String::length)
 						.thenComparing(String::compareTo).reversed())

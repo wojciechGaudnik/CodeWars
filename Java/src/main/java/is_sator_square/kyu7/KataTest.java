@@ -21,6 +21,7 @@ class KataTest {
 						{'E', 'E', 'E'},
 						{'E', 'E', 'E'}}));
 	}
+
 	@Test
 	void test4x4() {
 		assertEquals(false, Kata.isSatorSquare(new char[][]{{'K', 'N', 'I', 'T'},          // warning:
@@ -46,6 +47,7 @@ class KataTest {
 						{'r', 'U', '\'', '@'},          // but are not the same
 						{'p', '|', '@', '('}}));
 	}
+
 	@Test
 	void test5x5() {
 		assertEquals(true, Kata.isSatorSquare(

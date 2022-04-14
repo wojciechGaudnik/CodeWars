@@ -1,6 +1,7 @@
 package count_the_divisors_of_a_number.kyu7;
 
 import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 

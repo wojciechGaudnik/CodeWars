@@ -1,9 +1,10 @@
 package guess_the_sequence.kyu7;
 
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+
 import java.util.Arrays;
+
+import static org.junit.Assert.assertEquals;
 // TODO: Replace examples and use TDD development by writing your own tests
 
 public class JomoPipiTest {
@@ -15,6 +16,7 @@ public class JomoPipiTest {
 				actual = Arrays.toString(JomoPipi.sequence(x));
 		assertEquals(expected, actual);
 	}
+
 	@Test
 	public void test1() {
 		int[] result = {1, 2, 3, 4, 5, 6, 7, 8, 9};

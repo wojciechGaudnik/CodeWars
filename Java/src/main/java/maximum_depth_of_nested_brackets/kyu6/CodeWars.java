@@ -6,7 +6,9 @@ import java.util.List;
 class CodeWars {
 	public static List<String> stringsInMaxDepth(String s) {
 		if (s.isEmpty() || s.chars().filter(c -> c == '(').count() == 0L) {
-			return new LinkedList<>() {{addFirst(s);}};
+			return new LinkedList<>() {{
+				addFirst(s);
+			}};
 		}
 		var maxDepth = 0;
 		var count = 0;

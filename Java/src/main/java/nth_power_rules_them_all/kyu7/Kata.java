@@ -6,7 +6,7 @@ public class Kata {
 
 	public static int modifiedSum(int[] array, int p) {
 		return
-				Arrays.stream(array).map(i -> (int)Math.pow(i, p)).sum() -
+				Arrays.stream(array).map(i -> (int) Math.pow(i, p)).sum() -
 						Arrays.stream(array).sum();
 	}
 }

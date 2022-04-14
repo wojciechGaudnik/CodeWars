@@ -10,6 +10,6 @@ class ZywOo {
 				answer.add(array[i]);
 			}
 		}
-		return answer.stream().mapToInt(e -> (int)e).toArray();
+		return answer.stream().mapToInt(e -> (int) e).toArray();
 	}
 }

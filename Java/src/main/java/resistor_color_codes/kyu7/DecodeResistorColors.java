@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DecodeResistorColors {
-	private static Map<String, Integer> map = new HashMap<>(){{
+	private static Map<String, Integer> map = new HashMap<>() {{
 		put("black", 0);
 		put("brown", 1);
 		put("red", 2);
@@ -20,14 +20,13 @@ public class DecodeResistorColors {
 	}};
 
 
-
 	public static String decodeResistorColors(String bands) {
 		var bandsArray = bands.split(" ");
 		var digits = map.get(bandsArray[0]) * 10 + map.get(bandsArray[1]);
 		var ohms = digits * Math.pow(10, map.get(bandsArray[2]));
 		var precision = ((bandsArray.length == 4) ? map.get(bandsArray[3]) : "20") + "%";
 		if (ohms < 1000) {
-			return (int)ohms + " ohms, " + precision;
+			return (int) ohms + " ohms, " + precision;
 		} else if (ohms < 1000000) {
 			return ((ohms / 1000) + "k ohms, " + precision).replaceAll("\\.0", "");
 		} else {

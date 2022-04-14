@@ -7,6 +7,7 @@ class Kata {
 	public static void main(String[] args) {
 		System.out.println(translate("***lo w***d!", new String[]{"hello", "world"}));
 	}
+
 	static String translate(String speech, String[] vocabulary) {
 		var kingsWords = Pattern.compile("[a-z*]*").matcher(speech);
 		while (kingsWords.find()) {

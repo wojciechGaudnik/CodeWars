@@ -10,6 +10,7 @@ public class Counter {
 	public int check() {
 		return counter;
 	}
+
 	public void increment() {
 		counter++;
 	}

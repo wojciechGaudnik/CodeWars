@@ -1,7 +1,7 @@
 package bus_mastering_who_is_the_most_prioritary.kyu7;
 
 public class BusMastering {
-	public static String arbitrate(String input, int n){
+	public static String arbitrate(String input, int n) {
 		var answer = new StringBuilder();
 		if (!input.contains("1")) {
 			return input;

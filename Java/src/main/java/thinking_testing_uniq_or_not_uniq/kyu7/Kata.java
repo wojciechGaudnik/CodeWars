@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Kata {
 
-	public static int[] testit(int[] a, int[] b){
+	public static int[] testit(int[] a, int[] b) {
 		var listA = Arrays.stream(a).distinct().boxed().collect(Collectors.toList());
 		var listB = Arrays.stream(b).distinct().boxed().collect(Collectors.toList());
 		listA.addAll(listB);

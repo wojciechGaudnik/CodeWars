@@ -40,7 +40,7 @@ class Solution {
 		var answer = new int[square.length - 1][square.length - 1];
 		for (var y = 1; y < square.length; y++) {
 			for (var x = 0; x < square.length - 1; x++) {
-				answer[y-1][x] = square[y][x];
+				answer[y - 1][x] = square[y][x];
 			}
 		}
 		return answer;

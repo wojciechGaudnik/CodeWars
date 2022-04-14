@@ -56,7 +56,7 @@ public class TimeFormatter {
 			return "quarter to " + digToRead.get((timeDigit[hours] % 12) + 1).trim();
 		}
 
-		if (timeDigit[minutes] == 1){
+		if (timeDigit[minutes] == 1) {
 			return "one minute past " + digToRead.get(timeDigit[hours] % 12).trim();
 		}
 		if (timeDigit[minutes] == 59) {

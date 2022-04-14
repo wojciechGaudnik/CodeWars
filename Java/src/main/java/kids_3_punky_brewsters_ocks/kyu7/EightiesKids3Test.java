@@ -14,7 +14,7 @@ class EightiesKids3Test {
 
 	@Test
 	public void testPunky() {
-		String[] socks = new String[] { "pink", "argyle", "argyle" };
+		String[] socks = new String[]{"pink", "argyle", "argyle"};
 		String[] chosenSocks = EightiesKids3.getSocks("Punky", socks);
 		assertNotNull(chosenSocks);
 		assertEquals(2, chosenSocks.length);
@@ -24,7 +24,7 @@ class EightiesKids3Test {
 
 	@Test
 	public void testHenry() {
-		String[] socks = new String[] { "red", "blue", "blue", "green" };
+		String[] socks = new String[]{"red", "blue", "blue", "green"};
 		String[] chosenSocks = EightiesKids3.getSocks("Henry", socks);
 		assertNotNull(chosenSocks);
 		assertEquals(2, chosenSocks.length);
@@ -34,7 +34,7 @@ class EightiesKids3Test {
 
 	@Test
 	public void testNoSolution() {
-		String[] socks = new String[] { "green" };
+		String[] socks = new String[]{"green"};
 		assertArrayEquals(new String[0], EightiesKids3.getSocks("Henry", socks));
 	}
 }

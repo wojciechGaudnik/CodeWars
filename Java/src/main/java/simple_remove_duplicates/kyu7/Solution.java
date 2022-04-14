@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Solution {
 
-	public static int [] solve(int [] arr){
+	public static int[] solve(int[] arr) {
 		var list = new LinkedList<Integer>();
 		var listBuff = Arrays.stream(arr).boxed().collect(Collectors.toList());
 		while (!listBuff.isEmpty()) {

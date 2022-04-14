@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class PhoneDir {
 
 
-	public static  String phone(String strng, String num) {
+	public static String phone(String strng, String num) {
 		var allNumbers = new HashMap<String, String>();
 		String pattern = "\\d{1,2}-\\d{3}-\\d{3}-\\d{4}";
 		Pattern numberPattern = Pattern.compile(pattern);
@@ -40,7 +40,7 @@ class JohnFriend {
 		pattern = "<.*>";
 		Pattern namePattern = Pattern.compile(pattern);
 		Matcher nameMatch = namePattern.matcher(line);
-		if (nameMatch.find()) name = nameMatch.group(0).replaceAll("[<>]" ,"");
+		if (nameMatch.find()) name = nameMatch.group(0).replaceAll("[<>]", "");
 		line = line.replaceAll(pattern, "");
 
 		line = line.trim().replaceAll("[\\+;:!/$,\\*\\?]", "").trim();

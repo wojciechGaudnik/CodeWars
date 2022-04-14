@@ -1,7 +1,7 @@
 package camel_case_to_underscore;
 
 public class CamelCaseTranslator {
-	public static String toUnderScore(String name){
+	public static String toUnderScore(String name) {
 		var answer = new StringBuilder();
 		answer.append(name.charAt(0));
 		var firstDigit = true;
@@ -20,6 +20,6 @@ public class CamelCaseTranslator {
 			}
 			answer.append(one);
 		}
-		return answer.toString().replace("__" , "_");
+		return answer.toString().replace("__", "_");
 	}
 }

@@ -10,7 +10,7 @@ public class Rotator {
 		return data;
 	}
 
-	public String[] getTopics(){
+	public String[] getTopics() {
 		String[] students = new String[]{"Sade", "Alexus", "Sam", "Koma"};
 
 		return students;

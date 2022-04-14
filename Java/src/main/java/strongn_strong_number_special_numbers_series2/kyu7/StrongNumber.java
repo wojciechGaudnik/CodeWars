@@ -13,8 +13,8 @@ public class StrongNumber {
 	}
 
 	public static String isStrongNumber(int num) {
-		if (factorials[1] == 0)	new StrongNumber();
+		if (factorials[1] == 0) new StrongNumber();
 		var answer = String.valueOf(num).chars().map(Character::getNumericValue).map(i -> factorials[i]).sum();
-		return (answer == num) ? "STRONG!!!!": "Not Strong !!";
+		return (answer == num) ? "STRONG!!!!" : "Not Strong !!";
 	}
 }

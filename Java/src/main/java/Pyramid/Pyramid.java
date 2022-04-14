@@ -1,10 +1,10 @@
 package Pyramid;
 
-public class Pyramid{
+public class Pyramid {
 
-	public static String watchPyramidFromTheSide(String characters){
-		if(characters == null ) return null;
-		if(characters.length() == 0) return "";
+	public static String watchPyramidFromTheSide(String characters) {
+		if (characters == null) return null;
+		if (characters.length() == 0) return "";
 		StringBuilder out = new StringBuilder();
 		characters = new StringBuilder(characters).reverse().toString();
 		int length = characters.length() * 2 - 1;
@@ -18,17 +18,17 @@ public class Pyramid{
 		return out.toString();
 	}
 
-	public static String watchPyramidFromAbove(String characters){
-		if(characters == null ) return null;
-		if(characters.length() == 0) return "";
+	public static String watchPyramidFromAbove(String characters) {
+		if (characters == null) return null;
+		if (characters.length() == 0) return "";
 		int length = characters.length() * 2 - 1;
 		char[][] above = new char[length][length];
 		int i = 0;
-		while (i < characters.length()){
+		while (i < characters.length()) {
 			int start = i;
 			int stop = length - i;
 			for (int y = 0; y < length; y++) {
-				for (int x = 0; x < length ; x++) {
+				for (int x = 0; x < length; x++) {
 					if (y >= start && y < stop && x >= start && x < stop) {
 						above[y][x] = characters.charAt(i);
 					}
@@ -43,14 +43,14 @@ public class Pyramid{
 		return out.deleteCharAt(out.length() - 1).toString();
 	}
 
-	public static int countVisibleCharactersOfThePyramid(String characters){
-		if(characters == null || characters.length() == 0) return -1;
+	public static int countVisibleCharactersOfThePyramid(String characters) {
+		if (characters == null || characters.length() == 0) return -1;
 
 		return (int) Math.pow((characters.length() * 2 - 1), 2);
 	}
 
-	public static int countAllCharactersOfThePyramid(String characters){
-		if(characters == null || characters.length() == 0) return -1;
+	public static int countAllCharactersOfThePyramid(String characters) {
+		if (characters == null || characters.length() == 0) return -1;
 		int length = characters.length() * 2 - 1;
 		int out = 0;
 		while (length > 0) {

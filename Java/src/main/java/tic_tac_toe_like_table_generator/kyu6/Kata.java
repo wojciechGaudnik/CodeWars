@@ -7,7 +7,7 @@ public class Kata {
 		var line = new StringBuilder();
 		var j = 0;
 		while (j < board.length) {
-			for (int i = 0 ; i < width; i++, j++) {
+			for (int i = 0; i < width; i++, j++) {
 				line.append(" ").append(board[j]).append(" |");
 			}
 			line.replace(line.length() - 2, line.length(), " ");

@@ -1,6 +1,7 @@
 package Dinglemouse2;
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class DinglemouseTest {
@@ -9,7 +10,7 @@ public class DinglemouseTest {
 	@Test
 	public void example() {
 		// assertEquals("expected", "actual");
-		assertEquals(Math.sqrt(125), Dinglemouse.zigZagCamel(10,5) , epsilon);
+		assertEquals(Math.sqrt(125), Dinglemouse.zigZagCamel(10, 5), epsilon);
 	}
 
 }

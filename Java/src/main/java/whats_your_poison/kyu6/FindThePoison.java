@@ -13,7 +13,7 @@ public class FindThePoison {
 		var test = IntStream.range(0, 10)
 				.boxed()
 				.sorted(Collections.reverseOrder())
-				.map(i -> (ratsList.contains(i))?"1":"0")
+				.map(i -> (ratsList.contains(i)) ? "1" : "0")
 				.collect(Collectors.joining());
 		return Integer.parseInt(test, 2);
 	}

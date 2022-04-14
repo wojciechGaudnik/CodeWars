@@ -6,11 +6,12 @@ class Solution {
 	public static void main(String[] args) {
 		System.out.println("test");
 	}
+
 	public static String compress(String s) {
 		if (!Pattern.compile("(.)\\1{2,}").matcher(s).find()) return s;
 		var answer = new StringBuilder();
 		var pattern = Pattern.compile("(.)\\1*");
-		var matcher= pattern.matcher(s);
+		var matcher = pattern.matcher(s);
 		while (matcher.find()) {
 			answer.append("[").append(matcher.group().length()).append(",\"").append(matcher.group().charAt(0)).append("\"],");
 		}

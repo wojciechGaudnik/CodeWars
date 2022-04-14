@@ -14,7 +14,7 @@ public class JurassicWord {
 	static String flowers = "iii.....iii";
 	static String leaves = "\\|\\|\\|.....\\|\\|\\|";
 
-	public static String lunchTime (String scene) {
+	public static String lunchTime(String scene) {
 		Map<String, String> dishMap = new HashMap<>() {{
 			put("dead dino", dead_dino);
 			put("flowers", flowers);
@@ -31,13 +31,13 @@ public class JurassicWord {
 		for (Map.Entry<String, String> entryDish : dishMap.entrySet()) {
 			Pattern pattern = Pattern.compile(entryDish.getValue());
 			Matcher matcher = pattern.matcher(scene);
-			if(matcher.find()) dish = entryDish.getKey();
+			if (matcher.find()) dish = entryDish.getKey();
 
 		}
 		for (Map.Entry<String, String> entryAnimal : animalMap.entrySet()) {
 			Pattern pattern = Pattern.compile(entryAnimal.getValue());
 			Matcher matcher = pattern.matcher(scene);
-			if(matcher.find() && !matcher.find()) animal = entryAnimal.getKey();
+			if (matcher.find() && !matcher.find()) animal = entryAnimal.getKey();
 		}
 		if (!animal.equals("Something")) animal = "A " + animal;
 		if (dish.equals("dead dino")) dish = "a " + dish;

@@ -17,15 +17,17 @@ public class Door {
 
 
 		private enum EVENTS {NO_EVENT, PRESSED, OBSTACLE}
-        private enum SATES {OPEN, MOVING_UP, MOVING_DOWN, CLOSED, PAUSED}
 
-		private SATES  state;
+		private enum SATES {OPEN, MOVING_UP, MOVING_DOWN, CLOSED, PAUSED}
+
+		private SATES state;
 		private int level;
 		private Iterator<EVENTS> events;
 		private StringBuilder histogramLevels;
 		private SATES lastState;
 
-		private KillerDoor(){}
+		private KillerDoor() {
+		}
 
 		public KillerDoor(Iterator<EVENTS> translatedEvents) {
 			state = SATES.CLOSED;

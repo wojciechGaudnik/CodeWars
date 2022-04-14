@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 public class Solution {
 
-	public static long[] productArray(int[] numbers){
+	public static long[] productArray(int[] numbers) {
 		BigInteger prodAll = BigInteger.ONE;
 		for (int number : numbers) {
 			prodAll = prodAll.multiply(BigInteger.valueOf(number));

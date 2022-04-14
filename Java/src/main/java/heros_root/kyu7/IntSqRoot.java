@@ -2,7 +2,7 @@ package heros_root.kyu7;
 
 public class IntSqRoot {
 
-	public static long IntRac(long n, long guess)  {
+	public static long IntRac(long n, long guess) {
 		var answer = 0;
 		while (true) {
 			answer++;

@@ -9,7 +9,7 @@ public class Kata {
 	public String[] coin(int n) {
 		List<String> answer = new LinkedList<>();
 		var start = (int) Math.pow(2, n + 1);
-		var stop = (int) Math.pow(2, n );
+		var stop = (int) Math.pow(2, n);
 		while (--start >= stop) {
 			answer.add(Integer.toBinaryString(start).substring(1));
 		}

@@ -2,7 +2,7 @@ package balanced_number_special_numbers_series1.kyu7;
 
 public class Solution {
 
-	public static String balancedNum(long number){
+	public static String balancedNum(long number) {
 		if (number < 100) {
 			return "Balanced";
 		}

@@ -6,7 +6,7 @@ public class Kata {
 		var valves = "aeiou";
 		StringBuilder answer = new StringBuilder();
 		for (var i = 0; i < s.length(); i++) {
-			if (valves.contains(s.substring(i, i+1).toLowerCase())){
+			if (valves.contains(s.substring(i, i + 1).toLowerCase())) {
 				answer.append(i + 1);
 				continue;
 			}

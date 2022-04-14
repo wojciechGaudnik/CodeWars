@@ -2,6 +2,7 @@ package factorial_decomposition.kyu5;
 
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class FactDecompTest {
@@ -11,6 +12,7 @@ public class FactDecompTest {
 		String actual = FactDecomp.decomp(n);
 		assertEquals(expected, actual);
 	}
+
 	@Test
 	public void test1() {
 		testing(17, "2^15 * 3^6 * 5^3 * 7^2 * 11 * 13 * 17");

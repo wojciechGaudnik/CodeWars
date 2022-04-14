@@ -6,7 +6,7 @@ public class Kata {
 		if (s1 == null || !s1.chars().mapToObj(c -> (char) c).allMatch(Character::isLetter)) {
 			s1 = "";
 		}
-		if (s2 == null || !s2.chars().mapToObj(c -> (char) c).allMatch(Character::isLetter)){
+		if (s2 == null || !s2.chars().mapToObj(c -> (char) c).allMatch(Character::isLetter)) {
 			s2 = "";
 		}
 		s1 = s1.toUpperCase();

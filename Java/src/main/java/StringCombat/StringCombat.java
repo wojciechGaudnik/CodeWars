@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class StringCombat {
 
 	public static String combat(String s1, String s2) {
-		if (s1 == null || s2 == null)return "Draw";
+		if (s1 == null || s2 == null) return "Draw";
 		if (s1 == null && s2.length() == 0) return "Draw";
 		if (s2 == null && s1.length() == 0) return "Draw";
 		if (s1 == null) return "Winner: s2(" + s2 + ")";

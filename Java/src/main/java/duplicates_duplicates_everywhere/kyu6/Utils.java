@@ -7,10 +7,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 class Utils {
-	public static Map<Integer, List<String>> createObject(Object[]...val) {
+	public static Map<Integer, List<String>> createObject(Object[]... val) {
 		var answer = new HashMap<Integer, List<String>>();
 		for (var one : val) {
-			var key  = (Integer) one[0];
+			var key = (Integer) one[0];
 			var strVal = (String[]) one[1];
 			var strValList = Arrays.stream(strVal).collect(Collectors.toList());
 			answer.put(key, strValList);

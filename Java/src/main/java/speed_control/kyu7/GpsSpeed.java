@@ -10,7 +10,7 @@ public class GpsSpeed {
 				maxDist = x[i] - x[i - 1];
 			}
 		}
-		return (int)Math.floor((3600 * (maxDist)) / s);
+		return (int) Math.floor((3600 * (maxDist)) / s);
 	}
 }
    

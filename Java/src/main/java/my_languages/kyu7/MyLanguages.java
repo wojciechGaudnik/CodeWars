@@ -15,11 +15,11 @@ public class MyLanguages {
 	}
 
 	public static List<String> myLanguages(final Map<String, Integer> results) {
-	 	return results.entrySet().stream()
-	 			.filter(e -> e.getValue() >= 60)
-	 			.sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
-	 			.map(Map.Entry::getKey)
-	 			.collect(Collectors.toList());
+		return results.entrySet().stream()
+				.filter(e -> e.getValue() >= 60)
+				.sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
+				.map(Map.Entry::getKey)
+				.collect(Collectors.toList());
 	}
 
 }

@@ -1,8 +1,10 @@
 package BullsAndCows;
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
+
 import org.junit.runners.JUnit4;
 
 
@@ -38,7 +40,8 @@ public class Tests {
 			try {
 				bac.compareWith(11111);
 				fail("The number sent to the compare with(11111) is invalid. You should throw IllegalArgumentException");
-			} catch (IllegalArgumentException e) {}
+			} catch (IllegalArgumentException e) {
+			}
 		for (int i = 0; i < 8; i++) assertEquals("0 bulls and 0 cows", bac.compareWith(5678));
 	}
 
@@ -49,7 +52,9 @@ public class Tests {
 		for (int i = 0; i < 8; i++) assertEquals("Sorry, you're out of turns!", bac.compareWith(1234));
 		try {
 			assertEquals("Sorry, you're out of turns!", bac.compareWith(1111));
-		} catch (IllegalArgumentException e) { fail("Expected: Sorry, you're out of turns!\nBut was catched IllegalArgumentException.\nYou should first check for amount of turns and not for the number validity.");}
+		} catch (IllegalArgumentException e) {
+			fail("Expected: Sorry, you're out of turns!\nBut was catched IllegalArgumentException.\nYou should first check for amount of turns and not for the number validity.");
+		}
 	}
 
 	@Test
@@ -60,18 +65,22 @@ public class Tests {
 		for (int i = 0; i < 10; i++) assertEquals("You already won!", bac.compareWith(5678));
 		try {
 			assertEquals("You already won!", bac.compareWith(1111));
-		} catch (IllegalArgumentException e) { fail("Expected: You already won!\nBut was catched IllegalArgumentException.\nYou should first check for winning the game and not for the number validity.");}
+		} catch (IllegalArgumentException e) {
+			fail("Expected: You already won!\nBut was catched IllegalArgumentException.\nYou should first check for winning the game and not for the number validity.");
+		}
 	}
 
 	private void assertExceptions(int n) {
 		try {
 			BullsAndCows bac = new BullsAndCows(n);
 			fail("The number sent to the constructor is invalid. You should throw IllegalArgumentException");
-		} catch (IllegalArgumentException e) {}
+		} catch (IllegalArgumentException e) {
+		}
 
 		try {
 			new BullsAndCows(1234).compareWith(n);
 			fail("The number sent to compareWith() is invalid. You should throw IllegalArgumentException");
-		} catch (IllegalArgumentException e) {}
+		} catch (IllegalArgumentException e) {
+		}
 	}
 }

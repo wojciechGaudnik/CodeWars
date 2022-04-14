@@ -6,8 +6,7 @@ import java.util.stream.IntStream;
 public class Kata {
 
 
-
-	public static int[] sortByValueAndIndex(int[] array){
+	public static int[] sortByValueAndIndex(int[] array) {
 		return IntStream.range(0, array.length)
 				.mapToObj(i -> new Pair(i, array))
 				.sorted(Comparator.comparing(Pair::getCalculated))

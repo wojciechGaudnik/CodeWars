@@ -34,13 +34,13 @@ public class SnakesLadders {
 	}
 
 	public String play(int die1, int die2) {
-		if(player1 == 100 || player2 == 100) return "Game over!";
+		if (player1 == 100 || player2 == 100) return "Game over!";
 		if (p) player1 = handleGame(player1, die1, die2);
 		else player2 = handleGame(player2, die1, die2);
 		if (player1 == 100) return "Player 1 Wins!";
 		if (player2 == 100) return "Player 2 Wins!";
 		var answer = String.format("Player %d is on square %d", (p) ? 1 : 2, (p) ? player1 : player2);
-		if (die1 != die2)  p = !p;
+		if (die1 != die2) p = !p;
 		return answer;
 	}
 

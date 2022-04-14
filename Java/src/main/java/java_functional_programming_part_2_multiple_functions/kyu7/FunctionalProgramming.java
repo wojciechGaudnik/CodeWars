@@ -23,6 +23,7 @@ class Triangle {
 	public void setArea(double a) {
 		area = a;
 	}
+
 	public double getArea() {
 		return area;
 	}

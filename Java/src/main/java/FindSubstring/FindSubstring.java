@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class FindSubstring {
 
-	static int longestSubstring(String a, String b){
+	static int longestSubstring(String a, String b) {
 		char[] aChars = a.toCharArray();
 		char[] bChars = b.toCharArray();
 		List<Character> both = new ArrayList<>();

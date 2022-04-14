@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class StringUtils {
 
 	public static boolean isVowel(String s) {
-		var vowels = new LinkedList<String>(){{
+		var vowels = new LinkedList<String>() {{
 			addAll(Arrays.asList("a", "e", "i", "o", "u"));
 		}};
 		if (vowels.contains(s.toLowerCase())) {

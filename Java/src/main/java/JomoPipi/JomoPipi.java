@@ -5,7 +5,7 @@ import java.util.List;
 
 public class JomoPipi {
 
-	public static char[][] shift(char[][]m, int n){
+	public static char[][] shift(char[][] m, int n) {
 		List<Character> list = new LinkedList<>();
 		for (int y = 0; y < m.length; y++) {
 			for (int x = 0; x < m[y].length; x++) {

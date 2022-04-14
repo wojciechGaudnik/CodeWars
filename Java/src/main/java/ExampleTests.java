@@ -1,5 +1,7 @@
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
+
 import java.util.Arrays;
 
 public class ExampleTests {
@@ -11,7 +13,7 @@ public class ExampleTests {
 
 	@Test
 	public void example() {
-		assertEquals(new String[]{"a","b","c"}, show(Main.split("a.b.c")));
+		assertEquals(new String[]{"a", "b", "c"}, show(Main.split("a.b.c")));
 	}
 
 }

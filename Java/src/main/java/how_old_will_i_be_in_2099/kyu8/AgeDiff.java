@@ -7,7 +7,7 @@ public class AgeDiff {
 		}
 		var s = (Math.abs(birth - yearTo) > 1) ? "s" : "";
 		return (birth > yearTo) ?
-				"You will be born in " + (birth - yearTo) + " year" + s +"." :
+				"You will be born in " + (birth - yearTo) + " year" + s + "." :
 				"You are " + (yearTo - birth) + " year" + s + " old.";
 
 	}

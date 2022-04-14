@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Solution {
 
-	public static int[] solve (int[] arr){
+	public static int[] solve(int[] arr) {
 		Arrays.sort(arr);
 		var answer = new int[arr.length];
 		var x = 0;

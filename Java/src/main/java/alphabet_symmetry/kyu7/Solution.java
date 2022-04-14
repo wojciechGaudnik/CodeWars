@@ -2,7 +2,7 @@ package alphabet_symmetry.kyu7;
 
 public class Solution {
 
-	public static int[] solve(String[] arr){
+	public static int[] solve(String[] arr) {
 		var answer = new int[arr.length];
 		for (var i = 0; i < arr.length; i++) {
 			var sum = 0;

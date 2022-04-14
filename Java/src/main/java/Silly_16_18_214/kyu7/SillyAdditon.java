@@ -17,6 +17,6 @@ public class SillyAdditon {
 				answer.insert(0, Integer.parseInt(String.valueOf(num1Arr.get(i))));
 			}
 		}
-		return Integer.parseInt(answer.toString()) ;
+		return Integer.parseInt(answer.toString());
 	}
 }

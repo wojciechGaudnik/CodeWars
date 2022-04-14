@@ -18,8 +18,8 @@ public class Flames {
 		Set<Character> commonSet = male.toUpperCase().chars().mapToObj(e -> (char) e).collect(Collectors.toSet());
 		Set<Character> femaleSet = female.toUpperCase().chars().mapToObj(e -> (char) e).collect(Collectors.toSet());
 		commonSet.retainAll(femaleSet);
-		String common = (commonSet.size() > 0)?(male + female).replaceAll(commonSet.toString().replaceAll(" ", ""), ""): male + female;
+		String common = (commonSet.size() > 0) ? (male + female).replaceAll(commonSet.toString().replaceAll(" ", ""), "") : male + female;
 		System.out.println(common.length());
-		return flames.get((common.length() -1) % 6);
+		return flames.get((common.length() - 1) % 6);
 	}
 }

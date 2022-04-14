@@ -4,95 +4,95 @@ import java.util.HashMap;
 
 class Kata {
 	private static final String[] zero = new String[]{
-			" XXXX " ,
-					"XX  XX" ,
-					"XX  XX" ,
-					"XX  XX" ,
-					"XX  XX" ,
-					" XXXX "
+			" XXXX ",
+			"XX  XX",
+			"XX  XX",
+			"XX  XX",
+			"XX  XX",
+			" XXXX "
 	};
 	private static final String[] one = new String[]{
-					"  XX  " ,
-					" XXX  " ,
-					"X XX  " ,
-					"  XX  " ,
-					"  XX  " ,
-					"XXXXXX"
+			"  XX  ",
+			" XXX  ",
+			"X XX  ",
+			"  XX  ",
+			"  XX  ",
+			"XXXXXX"
 	};
 
 	private static final String[] two = new String[]{
-					" XXXX " ,
-					"XX  XX" ,
-					"   XX " ,
-					"  XX  " ,
-					" XX   " ,
-					"XXXXXX"
+			" XXXX ",
+			"XX  XX",
+			"   XX ",
+			"  XX  ",
+			" XX   ",
+			"XXXXXX"
 	};
 
 	private static final String[] three = new String[]{
-					" XXXX " ,
-					"XX  XX" ,
-					"   XX " ,
-					"   XX " ,
-					"XX  XX" ,
-					" XXXX "
+			" XXXX ",
+			"XX  XX",
+			"   XX ",
+			"   XX ",
+			"XX  XX",
+			" XXXX "
 	};
 
 	private static final String[] four = new String[]{
-			"XX  XX" ,
-					"XX  XX" ,
-					"XX  XX" ,
-					" XXXXX" ,
-					"    XX" ,
-					"    XX"
+			"XX  XX",
+			"XX  XX",
+			"XX  XX",
+			" XXXXX",
+			"    XX",
+			"    XX"
 	};
 
 	private static final String[] five = new String[]{
-			"XXXXXX" ,
-					"XX    " ,
-					"XXXXX " ,
-					"    XX" ,
-					"    XX" ,
-					"XXXXX "
+			"XXXXXX",
+			"XX    ",
+			"XXXXX ",
+			"    XX",
+			"    XX",
+			"XXXXX "
 	};
 
 
 	private static final String[] six = new String[]{
-					"   XX " ,
-					"  XX  " ,
-					" XXXX " ,
-					"XX  XX" ,
-					"XX  XX" ,
-					" XXXX "
+			"   XX ",
+			"  XX  ",
+			" XXXX ",
+			"XX  XX",
+			"XX  XX",
+			" XXXX "
 
 	};
 
 
 	private static final String[] seven = new String[]{
-			"XXXXXX" ,
-					"XX  XX" ,
-					"   XX " ,
-					"  XX  " ,
-					" XX   " ,
-					" XX   "
+			"XXXXXX",
+			"XX  XX",
+			"   XX ",
+			"  XX  ",
+			" XX   ",
+			" XX   "
 	};
 
 	private static final String[] eight = new String[]{
-					" XXXX " ,
-					"XX  XX" ,
-					" XXXX " ,
-					" XXXX " ,
-					"XX  XX" ,
-					" XXXX "
+			" XXXX ",
+			"XX  XX",
+			" XXXX ",
+			" XXXX ",
+			"XX  XX",
+			" XXXX "
 	};
 
 	private static final String[] nine = new String[]{
-			" XXXX " ,
-					"XX  XX" ,
-					"XX  XX" ,
-					" XXXX " ,
-					"  XX  " ,
-					" XX   "
+			" XXXX ",
+			"XX  XX",
+			"XX  XX",
+			" XXXX ",
+			"  XX  ",
+			" XX   "
 
 	};
 
@@ -126,6 +126,6 @@ class Kata {
 		}
 		answer.append("X                                      X\n");
 		answer.append("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-		return	answer.toString().replace("X", String.valueOf(ch));
+		return answer.toString().replace("X", String.valueOf(ch));
 	}
 }

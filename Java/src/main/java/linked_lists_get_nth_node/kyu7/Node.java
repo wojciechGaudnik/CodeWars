@@ -5,7 +5,7 @@ public class Node {
 	public int data;
 	public Node next = null;
 
-	public static int getNth(Node n, int index) throws Exception{
+	public static int getNth(Node n, int index) throws Exception {
 		while (index != 0) {
 			index--;
 			n = n.next;

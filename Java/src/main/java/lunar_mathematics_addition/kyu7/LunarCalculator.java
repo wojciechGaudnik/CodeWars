@@ -2,7 +2,7 @@ package lunar_mathematics_addition.kyu7;
 
 public class LunarCalculator {
 
-	public static long add(long number1, long number2){
+	public static long add(long number1, long number2) {
 		var number1Str = new StringBuilder(String.format("%020d", number1)).reverse().toString().toCharArray();
 		var number2Str = new StringBuilder(String.format("%020d", number2)).reverse().toString().toCharArray();
 		var answer = new StringBuilder();

@@ -5,8 +5,7 @@ import java.util.Random;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FractionTests
-{
+public class FractionTests {
 	@Test
 	public void T1_GeneralTests() {
 

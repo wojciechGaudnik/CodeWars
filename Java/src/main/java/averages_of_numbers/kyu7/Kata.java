@@ -6,7 +6,7 @@ public class Kata {
 
 	}
 
-	public static double[] averages(int[] numbers){
+	public static double[] averages(int[] numbers) {
 		if (numbers == null || numbers.length <= 1) {
 			return new double[0];
 		}

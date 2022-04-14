@@ -10,7 +10,7 @@ public class PizzaPayments {
 			return round.applyAsDouble(cost);
 		} else if (cost * (1.0 / 3) <= 10) {
 			return round.applyAsDouble(cost - (cost * (1.0 / 3)));
-		} else{
+		} else {
 			return round.applyAsDouble(cost - 10);
 		}
 	}

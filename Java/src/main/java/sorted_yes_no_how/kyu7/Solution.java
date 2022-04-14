@@ -7,7 +7,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		System.out.println(isSortedAndHow(new int[]{15, 7, 3, -8}));
-		System.out.println(isSortedAndHow(new int[]{1,2,3}));
+		System.out.println(isSortedAndHow(new int[]{1, 2, 3}));
 	}
 
 	public static String isSortedAndHow(int[] array) {

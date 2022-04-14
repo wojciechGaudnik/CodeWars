@@ -15,7 +15,7 @@ public class Minimum {
 				.distinct()
 				.mapToObj(Integer::toString)
 				.collect(Collectors.joining("")));
-		}
+	}
 }
 
    

@@ -6,6 +6,6 @@ class ThinkingAndTesting {
 		for (var i = 0; i < s.length() - 1; i += 2) {
 			answer.append((char) ((s.charAt(i) + s.charAt(i + 1)) / 2));
 		}
-		return (s.length() % 2 == 0) ?answer.toString():answer.toString() + s.charAt(s.length() - 1);
+		return (s.length() % 2 == 0) ? answer.toString() : answer.toString() + s.charAt(s.length() - 1);
 	}
 }

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Solution {
 
-	public static List arrayLeaders(int[] numbers){
+	public static List arrayLeaders(int[] numbers) {
 		var sumAll = Arrays.stream(numbers).sum();
 		var answer = new LinkedList<>();
 		for (var one : numbers) {

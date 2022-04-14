@@ -11,12 +11,10 @@ public class GCDandFIBandFind {
 		while (iterations-- > 0) {
 			temp = first;
 			first = second;
-			second = second.add(temp) ;
+			second = second.add(temp);
 		}
-		return new BigInteger[] {first, temp};
+		return new BigInteger[]{first, temp};
 	}
-
-
 
 
 }

@@ -16,8 +16,8 @@ public class ToSmallest {
 					answer = new long[]{Long.parseLong(numberBuff.toString()), i, j};
 				}
 				if (Long.parseLong(numberBuff.toString()) < answer[0]) {
-						answer = new long[]{Long.parseLong(numberBuff.toString()), i, j};
-					}
+					answer = new long[]{Long.parseLong(numberBuff.toString()), i, j};
+				}
 				numberBuff.deleteCharAt(j);
 			}
 			numberBuff.insert(i, charToMove);

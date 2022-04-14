@@ -8,6 +8,7 @@ public class CountDigTest {
 	private static void testing(int actual, int expected) {
 		assertEquals(expected, actual);
 	}
+
 	@Test
 	public void test() {
 		System.out.println("Fixed Tests nbDig");

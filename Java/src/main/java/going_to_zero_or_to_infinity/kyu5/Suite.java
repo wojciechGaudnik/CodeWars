@@ -9,7 +9,7 @@ public class Suite {
 		var answer = BigDecimal.valueOf(1).setScale(6, RoundingMode.UNNECESSARY);
 		var number = BigDecimal.valueOf(1).setScale(6, RoundingMode.UNNECESSARY);
 		var sum = BigDecimal.valueOf(1).setScale(6, RoundingMode.UNNECESSARY);
-		while (number.compareTo(BigDecimal.valueOf( (n - 1))) < 0) {
+		while (number.compareTo(BigDecimal.valueOf((n - 1))) < 0) {
 			answer = answer.add(answer.multiply(number));
 			number = number.add(BigDecimal.valueOf(1));
 			sum = sum.add(answer);

@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Solution {
 
-	public static int repeats(int [] arr){
+	public static int repeats(int[] arr) {
 		var list = Arrays.stream(arr).boxed().collect(Collectors.toList());
 		var answer = 0;
 		for (var one : arr) {

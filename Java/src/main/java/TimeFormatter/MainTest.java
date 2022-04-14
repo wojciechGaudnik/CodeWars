@@ -8,6 +8,7 @@ package TimeFormatter;//import org.junit.jupiter.api.Test;
 
 import TimeFormatter.TimeFormatter;
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -25,7 +26,7 @@ public class MainTest {
 	}
 
 	@Test
-	public  void myTests(){
+	public void myTests() {
 		assertEquals("half past twelve", TimeFormatter.toHumanTime("00:30"));
 		assertEquals("quarter to twelve", TimeFormatter.toHumanTime("11:45am"));
 		assertEquals("quarter to one", TimeFormatter.toHumanTime("12:45am"));

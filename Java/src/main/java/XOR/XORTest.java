@@ -19,6 +19,7 @@ public class XORTest {
 		testing(XOR.xor(false, true), true);
 		testing(XOR.xor(true, true), false);
 	}
+
 	@Test
 	public void testNested() {
 		System.out.println("Testing nested calls.");

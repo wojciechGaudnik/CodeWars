@@ -6,7 +6,7 @@ public class Hexadecimal {
 		System.out.println(convertToHex(256));
 	}
 
-	public static String convertToHex(int a){
+	public static String convertToHex(int a) {
 		return "0x" + Integer.toHexString(a).toUpperCase();
 	}
 }

@@ -12,7 +12,7 @@ public class NameMe {
 		this.fullName = firstName + " " + lastName;
 	}
 
-	public String getFullName(){
+	public String getFullName() {
 		return fullName;
 	}
 

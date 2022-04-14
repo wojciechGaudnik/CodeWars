@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Solution {
 
-	public static int maxGap(int[] numbers){
+	public static int maxGap(int[] numbers) {
 		var sortedNumbers = Arrays.stream(numbers).sorted().boxed().collect(Collectors.toList());
 		var min = Integer.MIN_VALUE;
 		for (var i = 0; i < sortedNumbers.size() - 1; i++) {

@@ -6,7 +6,7 @@ public class Solution {
 //		System.out.println(String.valueOf(123).chars().filter);
 	}
 
-	public static int convergence(int n){
+	public static int convergence(int n) {
 		var answer = -0;
 		var first = 1;
 		var second = n;

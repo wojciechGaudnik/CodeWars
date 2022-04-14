@@ -2,7 +2,7 @@ package c_wars.kyu7;
 
 public class CWars {
 
-	public static String initials(String name){ //<--- broken ??? on codeWars ?
+	public static String initials(String name) { //<--- broken ??? on codeWars ?
 		if (name == null) {
 			return null;
 		}

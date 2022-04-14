@@ -3,13 +3,13 @@ package Leetspeak;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Leetspeak extends Encoder{
+public class Leetspeak extends Encoder {
 
-	public String encode(String source){
+	public String encode(String source) {
 		if (source == null || source.length() == 0) {
 			return "";
 		}
-		Map<Character, String> code = new HashMap<>(){{
+		Map<Character, String> code = new HashMap<>() {{
 			put('a', "4");
 			put('e', "3");
 			put('l', "1");
@@ -30,6 +30,6 @@ public class Leetspeak extends Encoder{
 	}
 }
 
-abstract class Encoder{
+abstract class Encoder {
 	public abstract String encode(String source);
 }

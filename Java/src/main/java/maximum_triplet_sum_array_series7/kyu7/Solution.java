@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Solution {
 
-	public static int maxTriSum (int[] numbers)	{
-		return  Arrays.stream(numbers)
+	public static int maxTriSum(int[] numbers) {
+		return Arrays.stream(numbers)
 				.boxed()
 				.distinct()
 				.sorted((a, b) -> Integer.compare(b, a))

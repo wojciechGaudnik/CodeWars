@@ -1,7 +1,7 @@
 package make_a_window.kyu6;
 
 public class Solution {
-	public static String makeAWindow(int num){
+	public static String makeAWindow(int num) {
 		var answer = new StringBuilder();
 		var topAndBottom = "-".repeat(num * 2 + 3);
 		var middle = "|" + "-".repeat(num) + "+" + "-".repeat(num) + "|\n";

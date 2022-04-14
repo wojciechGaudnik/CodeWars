@@ -18,8 +18,7 @@ public class Solution {
 			if (odds.contains(numString.charAt(i)) && odds.contains(numString.charAt(i + 1))) {
 				answer.append(numString.charAt(i));
 				answer.append("-");
-			}
-			else {
+			} else {
 				answer.append(numString.charAt(i));
 			}
 		}

@@ -1,17 +1,12 @@
 public class Main {
 
-    public static String[] split(final String joint) {
-        System.out.println(joint);
+	public static String[] split(final String joint) {
+		System.out.println(joint);
 
-        if(joint.length() == 0) return new String[]{};
-        return joint.split("\\.", -1);
-    }
+		if (joint.length() == 0) return new String[]{};
+		return joint.split("\\.", -1);
+	}
 }
-
-
-
-
-
 
 
 //todo ---------------------------------------------------------------------------------------------------------

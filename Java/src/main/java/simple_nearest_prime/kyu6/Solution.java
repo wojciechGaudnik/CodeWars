@@ -2,7 +2,7 @@ package simple_nearest_prime.kyu6;
 
 public class Solution {
 
-	public static long solve(long n){
+	public static long solve(long n) {
 		if (isPrime(n)) return n;
 		long down = n;
 		long up = n;

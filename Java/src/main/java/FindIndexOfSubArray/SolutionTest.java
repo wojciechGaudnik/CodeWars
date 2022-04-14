@@ -1,8 +1,11 @@
 package FindIndexOfSubArray;
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertTrue;
+
 import org.junit.runners.JUnit4;
+
 import java.util.Arrays;
 
 // TODO: Replace examples and use TDD development by writing your own tests

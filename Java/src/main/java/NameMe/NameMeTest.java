@@ -1,6 +1,7 @@
 package NameMe;
 
 import static org.junit.Assert.*;
+
 import junit.framework.TestCase;
 
 import static org.junit.Assert.assertNotEquals;

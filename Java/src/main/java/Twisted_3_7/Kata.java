@@ -4,7 +4,7 @@ import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-public class Kata{
+public class Kata {
 
 	public static void main(String[] args) {
 		Kata test = new Kata();
@@ -16,7 +16,7 @@ public class Kata{
 
 	private static boolean convert2(String s) {
 		String[] out = s.split(" ");
-		for (String ss: out) {
+		for (String ss : out) {
 			System.out.println(Character.valueOf((char) Integer.parseInt(ss, 2)));
 		}
 		return true;
@@ -33,12 +33,9 @@ public class Kata{
 	}
 
 
-
-
-
 	public int numberOfTickets(int from, int to) {
 		int out = 0;
-		for (int i = from; i <= to; i++ ) {
+		for (int i = from; i <= to; i++) {
 			String ticket = String.valueOf(i);
 			if ((ticket.charAt(0) + ticket.charAt(1) + ticket.charAt(2)) == (ticket.charAt(3) + ticket.charAt(4) + ticket.charAt(5))) {
 				out++;
@@ -47,7 +44,7 @@ public class Kata{
 		return out;
 	}
 
-	public static Integer[] sortTwisted37(Integer[] array)	{
+	public static Integer[] sortTwisted37(Integer[] array) {
 		Integer[] out = array.clone();
 		out = swap(out);
 		Arrays.sort(out);
@@ -57,11 +54,11 @@ public class Kata{
 
 	private static Integer[] swap(Integer[] out) {
 		out = Arrays.stream(out)
-		            .map(String::valueOf)
-		            .map(i -> i.replaceAll("3", "a"))
-		            .map(i -> i.replaceAll("7", "3"))
-		            .map(i -> i.replaceAll("a", "7"))
-		            .mapToInt(Integer::parseInt).boxed().toArray(Integer[]::new);
+				.map(String::valueOf)
+				.map(i -> i.replaceAll("3", "a"))
+				.map(i -> i.replaceAll("7", "3"))
+				.map(i -> i.replaceAll("a", "7"))
+				.mapToInt(Integer::parseInt).boxed().toArray(Integer[]::new);
 		return out;
 	}
 }

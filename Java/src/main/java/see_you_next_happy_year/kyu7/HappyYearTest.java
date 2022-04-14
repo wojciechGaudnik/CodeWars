@@ -17,6 +17,7 @@ class HappyYearTest {
 		assertEquals(2014, HappyYear.nextHappyYear(2013));
 		assertEquals(3012, HappyYear.nextHappyYear(3000));
 	}
+
 	@Test
 	public void Check_Larger_Values() {
 		assertEquals(5601, HappyYear.nextHappyYear(5555));

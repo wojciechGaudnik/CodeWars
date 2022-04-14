@@ -14,15 +14,15 @@ class PartlistTest {
 	@Test
 	public void test() {
 		System.out.println("Fixed Tests partlist");
-		String[] s1 = new String[] {"cdIw", "tzIy", "xDu", "rThG"};
+		String[] s1 = new String[]{"cdIw", "tzIy", "xDu", "rThG"};
 		String a = "[[cdIw, tzIy xDu rThG], [cdIw tzIy, xDu rThG], [cdIw tzIy xDu, rThG]]";
 		testing(Arrays.deepToString(Partlist.partlist(s1)), a);
 
-		s1 = new String[] {"I", "wish", "I", "hadn't", "come"};
+		s1 = new String[]{"I", "wish", "I", "hadn't", "come"};
 		a = "[[I, wish I hadn't come], [I wish, I hadn't come], [I wish I, hadn't come], [I wish I hadn't, come]]";
 		testing(Arrays.deepToString(Partlist.partlist(s1)), a);
 
-		s1 = new String[] {"vJQ", "anj", "mQDq", "sOZ"};
+		s1 = new String[]{"vJQ", "anj", "mQDq", "sOZ"};
 		a = "[[vJQ, anj mQDq sOZ], [vJQ anj, mQDq sOZ], [vJQ anj mQDq, sOZ]]";
 		testing(Arrays.deepToString(Partlist.partlist(s1)), a);
 	}
