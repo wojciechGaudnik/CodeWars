@@ -1,9 +1,10 @@
 package age_in_days.kyu7;
 
-import org.junit.runners.JUnit4;
-import java.time.LocalDate;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import java.time.LocalDate;
+
+import static org.junit.Assert.assertEquals;
 
 public class KataTest {
 	@Test
