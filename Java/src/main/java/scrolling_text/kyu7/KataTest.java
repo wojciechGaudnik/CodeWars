@@ -16,6 +16,6 @@ class KataTest {
 		assertArrayEquals(a1, Kata.scrollingText("codewars"), "For input \"codewars\"");
 		assertArrayEquals(a2, Kata.scrollingText("hello"), "For input \"hello\"");
 		assertArrayEquals(a3, Kata.scrollingText("good luck!"), "For input \"good luck!\"");
-
 	}
+
 }

@@ -9,4 +9,5 @@ public class WrapPresent{
 		var list = List.of(height, width, length).stream().sorted().collect(Collectors.toList());
 		return list.get(0) * 4 + list.get(1) * 2 + list.get(2) * 2 + 20;
 	}
+
 }

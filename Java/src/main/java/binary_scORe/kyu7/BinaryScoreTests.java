@@ -17,4 +17,5 @@ public class BinaryScoreTests {
 		tester(new BigInteger("1000000"), new BigInteger("1048575"));
 		tester(new BigInteger("10000000"), new BigInteger("16777215"));
 	}
+
 }

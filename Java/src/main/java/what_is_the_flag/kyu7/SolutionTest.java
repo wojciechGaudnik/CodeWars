@@ -26,4 +26,5 @@ class SolutionTest {
 		for (byte b : digest) sb.append(String.format("%02x", b));
 		return sb.toString();
 	}
+
 }

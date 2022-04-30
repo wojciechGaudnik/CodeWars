@@ -15,4 +15,5 @@ class KataTest {
 		assertEquals(50, Kata.cost(102), "For input 102");
 		assertEquals(100, Kata.cost(273), "For input 273");
 	}
+
 }

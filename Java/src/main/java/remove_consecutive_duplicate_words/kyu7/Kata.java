@@ -13,4 +13,5 @@ public class Kata {
 		}
 		return answer.toString().trim();
 	}
+
 }
