@@ -10,7 +10,4 @@ public class Kata {
 		return IntStream.range(min + 1, max + 1).mapToLong(e -> (long) Math.pow(e, 3)).sum();
 	}
 
-	public static void main(String[] args) {
-		System.out.println(cubeSum(0,5));
-	}
 }
