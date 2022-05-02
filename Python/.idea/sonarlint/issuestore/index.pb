@@ -285,7 +285,3 @@ H
 kyu4RankingPokerHands.py,7/8/78a61a7a31eab9ed8b36b319416d95a2ac208b81
 ]
 -kyu8HelpTheEliteSquadOfBrazilianForcesBOPE.py,c/6/c60b0dca1c7718b06846e9c3ed98a0366cdf257e
-D
-kyu8CheckSameCase.py,3/a/3a31853b9cc7bb2eb1e45d9ffc3f51c17bcbfa8b
-L
-kyu8AreThereAnyArrowsLeft.py,3/3/3388436831a184b0b21051431e696ae073dc44c7

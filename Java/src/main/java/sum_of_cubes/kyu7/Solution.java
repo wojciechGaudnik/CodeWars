@@ -4,10 +4,11 @@ import java.math.BigInteger;
 
 public class Solution {
 	public static long sumCubes(int n) {
-		var n2 = BigInteger.valueOf(n).pow(2);
-		var np12 = BigInteger.valueOf(n).add(BigInteger.ONE).pow(2);
-		var answer = n2.multiply(np12).divide(BigInteger.valueOf(4));
-		return answer.longValue();
+		var answer = 0L;
+		while (n-- > 0) {
+			answer += Math.pow(n + 1D, 3D);
+		}
+		return answer;
 	}
 
 	public static int sumCubes2(int n) {
