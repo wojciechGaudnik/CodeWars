@@ -1,6 +1,5 @@
 package series_of_integers_from_m_to_n.kyu7.Kata;
 
-import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class Kata {
