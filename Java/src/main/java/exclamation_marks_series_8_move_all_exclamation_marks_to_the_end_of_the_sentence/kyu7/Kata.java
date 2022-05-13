@@ -7,4 +7,5 @@ public class Kata {
 		s = s.replace("!", "");
 		return s + "!".repeat(Math.toIntExact(exclamations));
 	}
+
 }
