@@ -1,4 +1,4 @@
-package TimeFormatter;
+package time_formatter;
 
 import java.util.Arrays;
 import java.util.HashMap;

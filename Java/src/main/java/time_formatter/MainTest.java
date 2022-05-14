@@ -1,4 +1,4 @@
-package TimeFormatter;//import org.junit.jupiter.api.Test;
+package time_formatter;//import org.junit.jupiter.api.Test;
 
 //import static org.junit.jupiter.api.Assertions.assertEquals;
 //import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -6,7 +6,6 @@ package TimeFormatter;//import org.junit.jupiter.api.Test;
 //import static org.junit.Assert.assertEquals;
 //import org.junit.runners.JUnit4;
 
-import TimeFormatter.TimeFormatter;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
