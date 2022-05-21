@@ -291,7 +291,3 @@ L
 kyu8AreThereAnyArrowsLeft.py,3/3/3388436831a184b0b21051431e696ae073dc44c7
 D
 kyu8CheckSameCase.py,3/a/3a31853b9cc7bb2eb1e45d9ffc3f51c17bcbfa8b
-7
-test.py,a/3/a36e355ddb203d7d4133221f339dc406cb9f480f
-E
-kyu8NameYourPython.py,4/1/41155ad017876ebe329b5bd03ee7a65a26207b6e

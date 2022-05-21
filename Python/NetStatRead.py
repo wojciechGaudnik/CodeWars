@@ -24,3 +24,5 @@ def combine(states):
 
 for state in states:
 	combine(state)
+
+
