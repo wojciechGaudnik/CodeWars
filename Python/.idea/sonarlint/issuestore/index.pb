@@ -293,3 +293,5 @@ D
 kyu8CheckSameCase.py,3/a/3a31853b9cc7bb2eb1e45d9ffc3f51c17bcbfa8b
 7
 test.py,a/3/a36e355ddb203d7d4133221f339dc406cb9f480f
+F
+kyu7FindTheCapitals.py,0/8/08a5258370237dada022b5bf76c23609da364a8a
