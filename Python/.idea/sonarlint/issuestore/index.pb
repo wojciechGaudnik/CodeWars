@@ -295,3 +295,13 @@ D
 test.py,a/3/a36e355ddb203d7d4133221f339dc406cb9f480f
 F
 kyu7FindTheCapitals.py,0/8/08a5258370237dada022b5bf76c23609da364a8a
+Q
+!kyu7SumOfAllTheMultiplesOf3Or5.py,9/8/981231dbae54288ff596f7dd7fd5c2f1167582eb
+A
+kyu8FixTheLoop.py,3/2/32288d87c950a71479cb367b4f36710381a8aa77
+G
+kyu7TransposingASong.py,7/5/752cc5b5b84c5cd29507e55df8b25094138e3a1b
+K
+kyu7FindTheMissingNumber.py,8/7/87fd8f0d70c45bce2950a64e8c13780a43ff42d6
+B
+kyu7SortNumbers.py,a/a/aa51a8e60d7fa2b452f99f26dae18ed1639dff76
