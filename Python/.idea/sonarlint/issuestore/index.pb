@@ -305,3 +305,9 @@ K
 kyu7FindTheMissingNumber.py,8/7/87fd8f0d70c45bce2950a64e8c13780a43ff42d6
 B
 kyu7SortNumbers.py,a/a/aa51a8e60d7fa2b452f99f26dae18ed1639dff76
+D
+kyu7TheCouponCode.py,8/7/871604520f105a713bcf05e32adf5c0bd0ddc4f0
+E
+kyu7NoOdditiesHere.py,e/c/ec36ce616b160ee70e86e889cb59d1c7d3655623
+N
+kyu7SortArrayByStringLength.py,b/3/b3a6da571fccc9492892dbd9bf697264d0ad9da2
