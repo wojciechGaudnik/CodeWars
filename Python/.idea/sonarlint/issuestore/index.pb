@@ -311,3 +311,19 @@ E
 kyu7NoOdditiesHere.py,e/c/ec36ce616b160ee70e86e889cb59d1c7d3655623
 N
 kyu7SortArrayByStringLength.py,b/3/b3a6da571fccc9492892dbd9bf697264d0ad9da2
+?
+kyu7Digitize.py,f/3/f3f70a2aa4e4dfc98fa95590515141a135f06485
+O
+kyu7BuildingStringsFromAHash.py,a/9/a904ea6e35959d03ffb9f76906d1bd1b6f7cdab2
+A
+kyu7BoiledEggs.py,e/4/e4128b36a28906679badc47c4623f7b75709f407
+D
+kyu7FindTheVowels.py,4/c/4c9c936c150c52eef0866d066022f350edb3df2d
+Y
+)kyu7GaubNeedsHelpSumsOfALotOfNumbersOf.py,f/6/f6d67c2b7cf80b4daee1b4a2ff3540b537cff0f1
+@
+kyu7Factorial.py,6/b/6bd70da50807b17d5ab37af3113196083886d16d
+A
+kyu7PowerOfTwo.py,b/2/b2bef5335e64bbcd7b358262712545f20d682e73
+L
+kyu7JavaScriptArrayFilter.py,7/c/7cab5a7a77836e020364ebe6ac07c77a914d0f15
