@@ -195,8 +195,6 @@ G
 kyu6HowManyReindeers.py,6/9/69a312b012861ddaf7cfad495ba71ffaa197d03c
 B
 kyu6CasinoChips.py,a/8/a80e77cdb48ea8949f746cd3fca38fe49f7ad9f1
-D
-kyu6uniqUNIXStyle.py,1/a/1abca9e2c95c6e7356803302319e5550b14ed2d5
 G
 kyu6TheLampRevisited.py,b/7/b70e7a8f5a3271dd8a0c1c20da47ef8f89dd14d5
 Y
