@@ -325,3 +325,11 @@ A
 kyu7PowerOfTwo.py,b/2/b2bef5335e64bbcd7b358262712545f20d682e73
 L
 kyu7JavaScriptArrayFilter.py,7/c/7cab5a7a77836e020364ebe6ac07c77a914d0f15
+‘
+akyu7CodingMeetupHigherOrderFunctionsSeriesCountTheNumberOfJavaScriptDevelopersComingFromEurope.py,5/a/5ab2a5c1cba35449057d2d1fe34e42fdd465f697
+G
+kyu7LoveVsFriendship.py,8/9/8909b83596319ad511c951941b2c0680e700e419
+>
+kyu7Flatten.py,5/a/5a8e77da398de1aa8001b1b048c0f2c563d469d0
+J
+kyu7NumberOfOccurrences.py,4/a/4aeeaeae01afd71cd50e856f1210182c1c7f6cce
