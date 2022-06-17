@@ -1,4 +1,3 @@
-
 class Person:
 	
 	def __init__(self, my_name=None):
