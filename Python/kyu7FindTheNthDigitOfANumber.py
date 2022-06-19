@@ -5,3 +5,5 @@ def find_digit(num, nth):
 		return -1
 	return int(str(abs(num))[::-1][nth - 1])
 
+print("hello")
+
