@@ -333,3 +333,13 @@ G
 kyu7Flatten.py,5/a/5a8e77da398de1aa8001b1b048c0f2c563d469d0
 J
 kyu7NumberOfOccurrences.py,4/a/4aeeaeae01afd71cd50e856f1210182c1c7f6cce
+N
+kyu7ReturnTheMissingElement.py,4/7/47e91cb28135e4ac8c88b24b69d471cc371a5bc6
+H
+kyu7SumOfAllArguments.py,b/d/bdb8d4c76174dff3e73c9e7522a8c4933acb1b77
+m
+=kyu7CodingMeetup2HigherOrderFunctionsSeriesGreetDevelopers.py,4/9/4941008b90c92d3dd4c2764ed8c2d7cd01b8fc12
+J
+kyu7CompleteThePattern1.py,4/3/43e2a5120afb9ea78ea690e00451eb9b5131f5e7
+I
+kyu7UnpackingArguments.py,f/1/f1c61e28b3e2522e96ae89a1b5adf97b832fc0f8
