@@ -111,12 +111,8 @@ H
 kyu6StringTransformer.py,4/6/46430daa92f19aab74e2b83d641ed051509983e4
 N
 kyu6PokemonDamageCalculator.py,e/6/e6bf9baf28a450cf09f9a3451b7ab88c35cb144a
-C
-kyu6TheShellGame.py,4/7/47fb13066364324d58fad964599c8deea37b1057
 W
 'kyu6LambdasAsAMechanismForOpenClosed.py,d/3/d3c5e9ac208673992bef9d1cbb77c17a00e5c712
-D
-kyu6SumOfManyInts.py,7/9/792c883e4ffe99b88784ee101d8b35d2d33b27cd
 F
 kyu6FindWithinArray.py,6/c/6c416fad6b4f03f63fdc30035e1ebee6af15d573
 I
@@ -195,8 +191,6 @@ G
 kyu6HowManyReindeers.py,6/9/69a312b012861ddaf7cfad495ba71ffaa197d03c
 B
 kyu6CasinoChips.py,a/8/a80e77cdb48ea8949f746cd3fca38fe49f7ad9f1
-G
-kyu6TheLampRevisited.py,b/7/b70e7a8f5a3271dd8a0c1c20da47ef8f89dd14d5
 Y
 )kyu6SimpsonsRuleApproximateIntegration.py,7/e/7ebbe7bcf039b01bb32db8480b3d6007f98d4cc5
 O
@@ -239,8 +233,6 @@ B
 kyu6MidpointSum.py,3/f/3f61b9fe446b15bbeb34c29142e7608b1097dc4c
 E
 kyu6DominantPrimes.py,4/a/4a1c53434543371f24c0323be7763712099a1dfe
-P
- kyu6SumOfPrimeIndexedElements.py,3/e/3e2d34093235fd0dfe420df77b3d0fdee17aea9b
 K
 kyu6SimplePrimeStreaming.py,9/f/9fec8d32e7967adbff5d5d1c2b50d94109bdb6a3
 O
