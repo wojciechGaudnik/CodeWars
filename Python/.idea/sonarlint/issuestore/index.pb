@@ -163,8 +163,6 @@ C
 kyu6DbftbsDjqifs.py,0/d/0d5275372f2b6e86471f8186b7e91ddfc4a3cbd6
 B
 kyu6LooseChange.py,5/e/5e34605fab73f7a8e5540901413b1d3d41e6e74a
-F
-kyu6UnwantedDollars.py,8/b/8b789c3259795a4085cb5ba6b76c43ad42de4764
 H
 kyu6RunLengthEncoding.py,3/d/3d7b9587a388adfa6ac612cb2a448fc4c7153d5b
 E
