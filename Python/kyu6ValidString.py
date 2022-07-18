@@ -1,3 +1,4 @@
+# https://www.codewars.com/kata/52f3bb2095d6bfeac2002196/train/python
 def valid_word(seq, word):
     index = 0
     index_next = 0
