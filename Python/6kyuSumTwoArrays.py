@@ -13,3 +13,6 @@ def sum_arrays(array1, array2):
         answer[0] = -answer[0]
         return answer
     return [int(d) for d in str(num3)]
+
+
+print(sum_arrays([1, 2, 3], [1, 2, 3]))
