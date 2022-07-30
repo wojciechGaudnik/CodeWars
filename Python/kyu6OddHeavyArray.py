@@ -5,6 +5,6 @@ def is_odd_heavy(arr):
         return False
     if not even:
         return True
-    oddMax = odd[0]
-    evenMin = even[0]
-    return oddMax > evenMin
+    return odd[0] > even[0]
+
+print(is_odd_heavy([1,1,1,1,1,]))
