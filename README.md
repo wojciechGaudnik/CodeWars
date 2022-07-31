@@ -3,7 +3,7 @@
 ![CodeWars](https://www.codewars.com/users/Wojciech%20Gaudnik/badges/large)
 
 
-![TryHackMe](<script src="https://tryhackme.com/badge/61946"></script>)
+![TryHackMe](https://tryhackme.com/badge/61946)
 
 
   
