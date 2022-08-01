@@ -103,8 +103,6 @@ G
 kyu6StringingMeAlong.py,3/2/3244ae0e4d17d6b850413f1a8f2bc27d1ffb8d7c
 J
 kyu6CustomFizzBuzzArray.py,3/e/3ecec3e3915f286522be1f102a944e0aa1f33edf
-I
-kyu6PrimorialOfANumber.py,6/e/6e1a72fdf82f178fc9216399b9320a472fcc1826
 ^
 .kyu6AddingOrdinalIndicatorSuffixesToNumbers.py,8/5/85a65c2ff65fd12355f74f8ae3e9b6dbffe94fce
 H
