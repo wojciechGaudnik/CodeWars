@@ -207,8 +207,6 @@ U
 %kyu6OrganiseDuplicateNumbersInList.py,9/4/94e8df46cc8c95d6da42902b822cc406d3f79835
 A
 kyu6RankVector.py,9/3/93a951b3015a76419e3fc94546e21e21810d4c29
-I
-kyu6PrimeFactorization.py,7/a/7a839ca8dd39d51830ae7f00d75934190003af1f
 F
 kyu6CompareVersions.py,8/2/82a793df8ae2241c8499bffeea0c5bd589e6a6da
 W
