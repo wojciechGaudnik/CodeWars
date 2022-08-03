@@ -331,3 +331,13 @@ C
 kyu7MakeThemBark.py,f/6/f6d00d4794ad8b911dd4cc369cda5b1841e95d64
 B
 kyu6WaveSorting.py,f/5/f51c0f986e827a7a7258f0630d945a32eca586c7
+C
+kyu6SumTwoArrays.py,2/b/2b60c5c0d52bce4d6138091fb8d40abfbceaeea3
+@
+kyu6TwinPrime.py,7/9/7978bbe1290d0c3e2e438d83e54fe9fcad23fa22
+I
+kyu6PrimeFactorization.py,7/a/7a839ca8dd39d51830ae7f00d75934190003af1f
+C
+kyu6PrimeFactors.py,2/d/2d0ff49aa9ca844d190630b95cff24cfb93cddb2
+E
+kyu6PotionClass101.py,d/e/de57bbc4463d7ef51a76ebb1b84df08f7f395715
