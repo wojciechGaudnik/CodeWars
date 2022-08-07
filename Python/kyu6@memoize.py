@@ -1,11 +1,13 @@
 def memoize(f):
     memo = {}
-    def fib(x):
+
+    def wrapper(x):
         """Computes the nth number in the Fibonacci sequence"""
         if x not in memo:
             memo[x] = f(x)
         return memo[x]
-    return fib
+
+    return wrapper
 
 
 @memoize
@@ -15,4 +17,4 @@ def fib(n):
     elif n == 1:
         return 1
     else:
-        return fib(n-1) + fib(n-2)
+        return fib(n - 1) + fib(n - 2)
