@@ -141,8 +141,6 @@ D
 kyu6LotteryTicket.py,6/8/68dfe32c3d58fc4a551c9a9f27fe49edce5db024
 J
 kyu6SimpleTransposition.py,0/d/0dfdda75b485dfb2397f243dc44b4536ec0cc175
-I
-kyu6CustomArrayFilters.py,8/e/8eafc27614a4358402c9f3c95d0f8b0c880b147d
 B
 kyu6NextVersion.py,8/4/84ea5957ca26c08f66535d31b65531d85cfc61ae
 C
