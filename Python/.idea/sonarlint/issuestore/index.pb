@@ -35,8 +35,6 @@ G
 kyu7DisemvowelTrolls.py,c/9/c9334db398d64c76cf0292eda6c4a55c9abfe7d6
 I
 kyu7JadenCasingStrings.py,a/e/ae8e8b353a776f4b0092293dcfeadcd093827181
-Q
-!kyu7BeginnerSeriesSumOfNumbers.py,8/3/83662b21aa654bba51ba91e3a4d77b3444e870e9
 D
 kyu7ListFiltering.py,6/2/6263c8f9dbe5397e408d8a583eb1008d6e6c3862
 ?
