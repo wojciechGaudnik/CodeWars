@@ -241,8 +241,6 @@ H
 kyu6UpsideDownNumbers.py,c/9/c9dedb970fb64aedbf7d125f2823c4f5f0bc90a2
 P
  kyu6BindingWithinTheListMonad.py,2/2/22c0846d4ccaf2efb8d6e63033a2c8f9973fa977
-K
-kyu6EvenNumberOfDivisors.py,e/0/e0deb98fe1926389ae7c36489b528a1c1d6e276a
 Q
 !kyu6PolybiusSquareCipherEncode.py,3/6/361f97214dd8af481301e86a47023a36a79e29f4
 D
@@ -327,3 +325,17 @@ C
 kyu7MakeThemBark.py,f/6/f6d00d4794ad8b911dd4cc369cda5b1841e95d64
 B
 kyu6WaveSorting.py,f/5/f51c0f986e827a7a7258f0630d945a32eca586c7
+D
+kyu7SpinningRings.py,1/2/12dc35861af4ea873eab5cc3b6f04eb876014b04
+E
+kyu7BaristaProblem.py,4/0/403929b142af11aa0b3afc4e432dff1b7bada0dc
+@
+kyu7NextPrime.py,4/f/4fd25a4c213be023202655288490f7dff2dc8d14
+K
+kyu6EvenNumberOfDivisors.py,e/0/e0deb98fe1926389ae7c36489b528a1c1d6e276a
+I
+kyu6PrimorialOfANumber.py,6/e/6e1a72fdf82f178fc9216399b9320a472fcc1826
+?
+kyu7FizzBuzz.py,8/4/8487664b1fd570e2ecab473837de141e9706fbb7
+U
+%kyu7SumAListButIgnoreAnyDuplicates.py,b/7/b7e44ae6d17b8a9e2580c68d340799fcae6417ac

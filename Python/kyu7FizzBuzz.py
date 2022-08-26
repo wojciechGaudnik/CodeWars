@@ -11,5 +11,3 @@ def fizzbuzz(n):
             answer.append(n)
         n -= 1
     return list(reversed(answer))
-
-print(fizzbuzz(3))
