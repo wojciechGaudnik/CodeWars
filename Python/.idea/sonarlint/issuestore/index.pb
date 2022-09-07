@@ -341,3 +341,5 @@ U
 %kyu7SumAListButIgnoreAnyDuplicates.py,b/7/b7e44ae6d17b8a9e2580c68d340799fcae6417ac
 G
 kyu7CoprimeValidator.py,a/6/a690f2fb4fc7171c77d68f36f9d4cef1f612dd36
+G
+kyu7BinaryPyramid101.py,e/9/e9bfed8ec3a7533e073cd787a48e6bc57d21873b
