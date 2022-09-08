@@ -269,8 +269,6 @@ D
 kyu8CheckSameCase.py,3/a/3a31853b9cc7bb2eb1e45d9ffc3f51c17bcbfa8b
 7
 test.py,a/3/a36e355ddb203d7d4133221f339dc406cb9f480f
-F
-kyu7FindTheCapitals.py,0/8/08a5258370237dada022b5bf76c23609da364a8a
 Q
 !kyu7SumOfAllTheMultiplesOf3Or5.py,9/8/981231dbae54288ff596f7dd7fd5c2f1167582eb
 A
@@ -293,8 +291,6 @@ O
 kyu7BuildingStringsFromAHash.py,a/9/a904ea6e35959d03ffb9f76906d1bd1b6f7cdab2
 A
 kyu7BoiledEggs.py,e/4/e4128b36a28906679badc47c4623f7b75709f407
-D
-kyu7FindTheVowels.py,4/c/4c9c936c150c52eef0866d066022f350edb3df2d
 Y
 )kyu7GaubNeedsHelpSumsOfALotOfNumbersOf.py,f/6/f6d67c2b7cf80b4daee1b4a2ff3540b537cff0f1
 @
@@ -343,3 +339,5 @@ G
 kyu7CoprimeValidator.py,a/6/a690f2fb4fc7171c77d68f36f9d4cef1f612dd36
 G
 kyu7BinaryPyramid101.py,e/9/e9bfed8ec3a7533e073cd787a48e6bc57d21873b
+F
+kyu7CountingValleys.py,1/0/10274b683a50fbe69a7042699430512013c22a87
