@@ -1,11 +1,0 @@
-
-b
-java:S1854"LRemove this useless assignment to local variable "currentConditionsDisplay".(ıÔÊ¸
-Y
-java:S1854	"CRemove this useless assignment to local variable "forecastDisplay".(ÛË¼ö
-S
-java:S1481"=Remove this unused "currentConditionsDisplay" local variable.(ıÔÊ¸
-J
-java:S1481	"4Remove this unused "forecastDisplay" local variable.(ÛË¼ö
-9
-java:S2119"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
