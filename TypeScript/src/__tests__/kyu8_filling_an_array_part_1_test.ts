@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import {arr} from "../kata/filling_an_array_part_1";
+import {arr} from "../kata/kyu8_filling_an_array_part_1";
 
 describe("Basic tests", () => {
     it("Should return an array", () => {

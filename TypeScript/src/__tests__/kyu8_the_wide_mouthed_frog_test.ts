@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import { mouthSize } from "../kata/the_wide_mouthed_frog_kyu8";
+import { mouthSize } from "../kata/kyu8_the_wide_mouthed_frog";
 
 describe("Basic tests", () => {
     it("Basic tests should pass", () => {

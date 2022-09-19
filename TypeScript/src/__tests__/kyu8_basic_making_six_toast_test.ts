@@ -1,5 +1,5 @@
 import {assert} from "chai";
-import {sixToast} from "../kata/basic_making_six_toast_kyu8";
+import {sixToast} from "../kata/kyu8_basic_making_six_toast";
 
 describe("solution", function(){
     it("Basic Tests", function() {

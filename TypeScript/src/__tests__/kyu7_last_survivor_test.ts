@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import {lastSurvivor} from "../kata/last_survivor_kyu7";
+import {lastSurvivor} from "../kata/kyu8_last_survivor_kyu7";
 
 
 describe("Sample", function () {

@@ -1,6 +1,6 @@
 // import the type of assertion library you wish to use (Chai recommended)
 import {assert} from "chai";
-import {isReallyNaN} from "../kata/is_really_NaN_kyu8";
+import {isReallyNaN} from "../kata/kyu8_is_really_NaN";
 
 describe("Basic tests", function(){
     it("returns `false` for Int", function(){

@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import {usdcny} from "../kata/usd_to_cny";
+import {usdcny} from "../kata/kyu8_usd_to_cny";
 
 describe("should work with test cases", function() {
     it("simple", function() {

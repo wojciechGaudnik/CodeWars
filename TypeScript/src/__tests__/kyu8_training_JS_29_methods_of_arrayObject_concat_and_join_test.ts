@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import {bigToSmall} from "../kata/training_JS_29_methods_of_arrayObject_concat_and_join";
+import {bigToSmall} from "../kata/kyu8_training_JS_29_methods_of_arrayObject_concat_and_join";
 
 describe("-------- Basic Test --------", function() {
     it("bigToSmall([[1,2],[3,4],[5,6]])", function() {

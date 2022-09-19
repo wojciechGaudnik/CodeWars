@@ -1,6 +1,6 @@
 // Import a Chai assertion style: assert, expect, or should
 import {expect} from "chai";
-import {Cube} from "../kata/playing_with_cubes2_kyu8"
+import {Cube} from "../kata/kyu8_playing_with_cubes2"
 
 // TODO: TDD development by writing your own tests
 

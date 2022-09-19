@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import {sakuraFall} from "../kata/the_falling_speed_of_petals_kyu8";
+import {sakuraFall} from "../kata/kyu8_the_falling_speed_of_petals";
 
 describe("Basic tests", () => {
     it("Should pass basic tests", () => {

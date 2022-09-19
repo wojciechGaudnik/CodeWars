@@ -1,6 +1,6 @@
 // See https://www.chaijs.com for how to use Chai.
 import { assert } from "chai";
-import {checkExam} from "../kata/check_the_exam_kyu8";
+import {checkExam} from "../kata/kyu8_check_the_exam";
 
 describe("Basic tests", () => {
     it("Should pass basic tests", () => {

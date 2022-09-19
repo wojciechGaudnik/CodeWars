@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import {arr2bin} from "../kata/arguments_to_binary_addition_kyu7";
+import {arr2bin} from "../kata/kyu7_arguments_to_binary_addition";
 
 describe("Array 2 Bin", function(){
     it("Basic tests", function() {

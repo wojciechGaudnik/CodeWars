@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import {isPalindrome} from "../kata/palindrome_strings_kyu8";
+import {isPalindrome} from "../kata/kyu8_palindrome_strings";
 
 describe("Am I a palindrome?", function() {
     it("Basic tests", function() {

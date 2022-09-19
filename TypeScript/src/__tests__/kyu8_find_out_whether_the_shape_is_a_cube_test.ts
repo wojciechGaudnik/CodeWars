@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import {cubeChecker} from "../kata/find_out_whether_the_shape_is_a_cube_kyu8";
+import {cubeChecker} from "../kata/kyu8_find_out_whether_the_shape_is_a_cube";
 
 describe("Cube?", function() {
     it("Basic tests", function() {
