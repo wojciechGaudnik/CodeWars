@@ -341,13 +341,3 @@ G
 kyu7BinaryPyramid101.py,e/9/e9bfed8ec3a7533e073cd787a48e6bc57d21873b
 F
 kyu7CountingValleys.py,1/0/10274b683a50fbe69a7042699430512013c22a87
-Q
-!kyu7ThinkfulObjectDrillsQuarks.py,5/e/5ec44d9d0507211d84b49e004e759e4a33e85d56
->
-kyu7eserveR.py,b/3/b309066997547b25291442e1b84ba656770263c3
-D
-kyu7BirthdayICake.py,3/1/31e43d514d8920092193eeb191c98c47ed2fe3a6
-E
-kyu7SortByLastChar.py,4/d/4d803e82116555871d12776806e712467293cc28
-S
-#kyu7By3OrNotBy3ThatIsTheQuestion.py,c/4/c4b1f4612658fbf56fdd5da661144ab71ec8b2ba
