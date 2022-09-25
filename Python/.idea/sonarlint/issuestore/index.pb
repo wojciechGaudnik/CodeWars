@@ -89,8 +89,6 @@ E
 kyu6DontRelyOnLuck.py,f/f/ffb14a33e9f87f45cab8658814850d7d1e092089
 ]
 -kyu6FormatAStringOfNamesLikeBartLisaMaggie.py,2/e/2ebee5e9368ff8f06949128c07510314c3e52fac
-E
-kyu7SumOfASequence.py,9/3/9345089406c82c3e5652dd0ce3e7e4453217e25d
 `
 0kyu6MultiTapKeypadTextEntryOnAnOldMobilePhone.py,2/3/23754ee0c3a6634fa405f702f690b7a58af35001
 E
