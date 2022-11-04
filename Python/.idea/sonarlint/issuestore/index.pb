@@ -331,8 +331,6 @@ I
 kyu6PrimorialOfANumber.py,6/e/6e1a72fdf82f178fc9216399b9320a472fcc1826
 ?
 kyu7FizzBuzz.py,8/4/8487664b1fd570e2ecab473837de141e9706fbb7
-U
-%kyu7SumAListButIgnoreAnyDuplicates.py,b/7/b7e44ae6d17b8a9e2580c68d340799fcae6417ac
 G
 kyu7CoprimeValidator.py,a/6/a690f2fb4fc7171c77d68f36f9d4cef1f612dd36
 G
