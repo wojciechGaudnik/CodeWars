@@ -7,3 +7,6 @@ def vowel_one(s):
         else:
             answer += "0"
     return answer
+
+# todo wg if else for loop one line
+#     return "".join(["1" if l in vowels else "0" for l in s])
