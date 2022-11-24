@@ -10,3 +10,4 @@ def vowel_one(s):
 
 # todo wg if else for loop one line
 #     return "".join(["1" if l in vowels else "0" for l in s])
+#     return [e for e in seq if not predicate(e)]
