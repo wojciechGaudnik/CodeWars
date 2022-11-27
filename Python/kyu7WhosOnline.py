@@ -14,4 +14,3 @@ def who_is_online(friends):
             last.append(friend["username"])
             answer["online"] = last
     return answer
-
