@@ -169,8 +169,6 @@ Y
 )kyu6LowestProductOf4ConsecutiveNumbers.py,1/1/11447b195487b4f20409f175db2e39d13752bc2f
 S
 #kyu6LongestAlphabeticalSubstring.py,b/b/bb251ac6f71dc2fa034116a75bf502a44556e1aa
-P
- kyu6CatAandMouseHarderVersion.py,7/2/72afa6cb76c220342be0816c062ecadfb49ff9ea
 I
 kyu6SingleWordPigLatin.py,f/b/fb5034a9b3765cdbea63afeeebc9f12d173cd8b2
 H
