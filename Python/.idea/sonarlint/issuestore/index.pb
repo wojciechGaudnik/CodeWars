@@ -335,3 +335,5 @@ G
 kyu7BinaryPyramid101.py,e/9/e9bfed8ec3a7533e073cd787a48e6bc57d21873b
 F
 kyu7CountingValleys.py,1/0/10274b683a50fbe69a7042699430512013c22a87
+?
+kyu7VowelOne.py,9/a/9ab66b9c8e58bc26d46066262ce6d4b65ce8eec8
