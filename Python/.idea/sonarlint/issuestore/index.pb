@@ -337,3 +337,5 @@ F
 kyu7CountingValleys.py,1/0/10274b683a50fbe69a7042699430512013c22a87
 ?
 kyu7VowelOne.py,9/a/9ab66b9c8e58bc26d46066262ce6d4b65ce8eec8
+@
+kyu7L2TripleX.py,0/0/0030d71e313cb223a40cf7d610411af5ee1c7a1a
