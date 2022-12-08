@@ -341,3 +341,7 @@ F
 kyu7L2TripleX.py,0/0/0030d71e313cb223a40cf7d610411af5ee1c7a1a
 P
  kyu6CatAandMouseHarderVersion.py,7/2/72afa6cb76c220342be0816c062ecadfb49ff9ea
+C
+kyu7SlopeOfALine.py,c/c/ccc1f5eb66ff9c7a5907a194dbc6a69d4fdb89e5
+P
+ kyu7FirstClassFunctionFactory.py,5/b/5b2b2a14f7c2118029f0abea8c9b5c0107b9b124
