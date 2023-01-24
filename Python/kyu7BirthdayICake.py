@@ -1,5 +1,5 @@
 def cake(candles, debris):
-    if candles == 0:
+    if candles is 0:
         return 'That was close!'
     sum_of_candles = 0
     for i in range(0, len(debris), 2):

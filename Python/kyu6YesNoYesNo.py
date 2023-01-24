@@ -1,5 +1,5 @@
 def yes_no(arr):
-	if len(arr) == 2:
+	if len(arr) is 2:
 		return arr
 	marker = "marker"
 	answer = []
@@ -13,6 +13,6 @@ def yes_no(arr):
 		if arr[i] != marker and not test:
 			test = not test
 		i += 1
-		if i == len(arr):
+		if i is len(arr):
 			i = 0
 	return answer

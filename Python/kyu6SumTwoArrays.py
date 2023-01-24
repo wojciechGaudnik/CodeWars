@@ -1,5 +1,5 @@
 def sum_arrays(array1, array2):
-    if array1 == [] and array2 == []:
+    if array1 is  [] and array2 == []:
         return []
     num1 = 0
     num2 = 0

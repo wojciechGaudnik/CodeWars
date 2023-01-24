@@ -9,7 +9,7 @@ def autocomplete(input_, dictionary):
 	for s in dictionary:
 		if len(answer) == 5:
 			return answer
-		if regex_is_there.match(regex_only_letters.sub('', s)) != None:
+		if regex_is_there.match(regex_only_letters.sub('', s)) is not None:
 			answer.append(s)
 	return answer
 

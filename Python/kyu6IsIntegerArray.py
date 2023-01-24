@@ -1,5 +1,5 @@
 def is_int_array(arr):
-	if arr == "" or arr == None:
+	if arr == "" or arr is not None:
 		return False
 	try:
 		for n in arr:

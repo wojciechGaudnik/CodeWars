@@ -1,7 +1,8 @@
 import math
 
-import scipy.integrate as spi
 import numpy as np
+import scipy.integrate as spi
+
 
 def simpson(n):
 	a = 0; b = math.pi

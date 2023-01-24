@@ -3,7 +3,7 @@ from ipaddress import ip_address
 
 
 def ipv4_address(address):
-	if re.search(r"((^|.)[^1-9]0\d+($|.)|((^|.)00))", address) != None:
+	if re.search(r"((^|.)[^1-9]0\d+($|.)|((^|.)00))", address) is not None:
 		return False
 	try:
 		ip_address(address)

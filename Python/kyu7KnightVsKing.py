@@ -20,7 +20,7 @@ def knight_vs_king (knight_position, king_position):
         8: (-1, 1),
     }
     for move in knight_movement.items():
-        if knight_position[0] + move[1][0] == king_position[0] and chr(ord(knight_position[1]) + move[1][1]) == king_position[1]:
+        if knight_position[0] + move[1][0] is king_position[0] and chr(ord(knight_position[1]) + move[1][1]) == king_position[1]:
             return "Knight"
 
     for move in king_movement.items():

@@ -1,5 +1,5 @@
 def Dragon(n):
-	if isinstance(n, int) == False or  n < 0:
+	if isinstance(n, int) is  False or  n < 0:
 		return ''
 	D0 = "Fa"
 	replace_a = "aRbFR"
@@ -7,10 +7,10 @@ def Dragon(n):
 	while n >= 1:
 		D1 =""
 		for c in D0:
-			if c == 'a':
+			if c is  'a':
 				D1 += replace_a
 				continue
-			elif c == 'b':
+			elif c is  'b':
 				D1 += replace_b
 				continue
 			D1 += c

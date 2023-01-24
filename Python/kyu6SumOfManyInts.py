@@ -1,5 +1,5 @@
 def f(n, m):
-	if n == 0:
+	if n is  0:
 		return 0
 	if m > n:
 		m = n

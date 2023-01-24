@@ -183,8 +183,6 @@ Y
 )kyu6SimpsonsRuleApproximateIntegration.py,7/e/7ebbe7bcf039b01bb32db8480b3d6007f98d4cc5
 O
 kyu6riemannSumsILeftSideRule.py,8/7/87aaddce94898153fe724ed9241ba00d1089106a
-N
-kyu6LinkedListsSortedInsert.py,b/a/ba3d18ff6f336bc6fa2d5427a677e5ef03466ef4
 T
 $kyu6SearchInMultidimensionalArray.py,e/9/e9bcaf1d42c888ba1eb986a0d89519d86e0da2fd
 i
@@ -193,8 +191,6 @@ H
 kyu6FibonacciReloaded.py,5/3/5307e3d20423136bb7802512b811fc677a6aeead
 G
 kyu6FramedReflection.py,e/b/eb18c83159fadf9d8e20eda0d690e4cf304d0f9f
-W
-'kyu6NumberOfAnagramsInAnArrayOfWords.py,9/9/99f906e6a954bb68986d262c5b0a1e384bbece19
 U
 %kyu6OrganiseDuplicateNumbersInList.py,9/4/94e8df46cc8c95d6da42902b822cc406d3f79835
 A
@@ -229,8 +225,6 @@ B
 kyu6Replacement.py,a/f/af6c7de9400cd7b44171fa31200f8c06656312fd
 D
 kyu6ArabianString.py,d/5/d5ca97a34645df59fed70b4673f79b6e4c7bfd4e
-\
-,kyu6ThinkfulDictionaryDrillsMultipleModes.py,f/1/f161d13643d7a203f01e8824304b774217a7a8f2
 D
 kyu6ArrayExchange.py,5/c/5c94ec5aad92e454fbc0dd76ba0b9ec63970f927
 H
@@ -339,8 +333,6 @@ F
 kyu7VowelOne.py,9/a/9ab66b9c8e58bc26d46066262ce6d4b65ce8eec8
 @
 kyu7L2TripleX.py,0/0/0030d71e313cb223a40cf7d610411af5ee1c7a1a
-P
- kyu6CatAandMouseHarderVersion.py,7/2/72afa6cb76c220342be0816c062ecadfb49ff9ea
 C
 kyu7SlopeOfALine.py,c/c/ccc1f5eb66ff9c7a5907a194dbc6a69d4fdb89e5
 P

@@ -1,11 +1,11 @@
 def who_is_online(friends):
     answer = {}
     for friend in friends:
-        if friend["status"] == "offline":
+        if friend["status"] is "offline":
             last = answer.get("offline", [])
             last.append(friend["username"])
             answer["offline"] = last
-        elif friend["status"] == "online" and friend["last_activity"] > 10:
+        elif friend["status"] is "online" and friend["last_activity"] > 10:
             last = answer.get("away", [])
             last.append(friend["username"])
             answer["away"] = last

@@ -8,7 +8,7 @@ from itertools import combinations_with_replacement
 # 	for i in partitions(sd):
 # 		if filter(lambda x: len(str(x))>1, i):
 # 			break
-# 		if len(i)==d and sum(i) == sd:
+# 		if len(i)isd and sum(i) is sd:
 # 			res.append(int(''.join(map(str,i))))
 # 			ln +=1
 #
@@ -18,7 +18,7 @@ from itertools import combinations_with_replacement
 def partitions(n):
     """http://code.activestate.com/recipes/218332/"""
     # base case of recursion: zero is the sum of the empty list
-    if n == 0:
+    if n is 0:
         yield []
         return
 
@@ -32,7 +32,7 @@ def partitions(n):
 def find_all(sum_dig, digs):
     combs = combinations_with_replacement(list(range(1, 10)), digs)
     target = [
-        "".join(str(x) for x in list(comb)) for comb in combs if sum(comb) == sum_dig
+        "".join(str(x) for x in list(comb)) for comb in combs if sum(comb) is sum_dig
     ]
     if not target:
         return []

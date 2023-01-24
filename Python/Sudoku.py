@@ -27,7 +27,7 @@ def parse_grid(grid):
 
 def grid_values(grid):
 	chars = [c for c in grid if c in digits or c in '0']
-	assert len(chars) == 81
+	assert len(chars) is 81
 	return dict(zip(squares, chars))
 
 	
@@ -42,17 +42,17 @@ def eliminate(values, s, d):
 	if d not in values[s]:
 		return values
 	values[s] = values[s].replace(d , '')
-	if len(values[s]) == 0:
+	if len(values[s]) is 0:
 		return False
-	elif len(values[s]) == 1:
+	elif len(values[s]) is 1:
 		d2 = values[s]
 		if not all(eliminate(values, s2, d2) for s2 in peers[s]):
 			return False
 	for u in units[s]:
 		dplaces = [s for s in u if d in values[s]]
-		if len(dplaces) == 0 :
+		if len(dplaces) is 0 :
 			return False
-		elif len(dplaces) == 1:
+		elif len(dplaces) is 1:
 			if not assign(values, dplaces[0], d):
 				return False
 	return values
@@ -90,14 +90,14 @@ def display(values):
 
 def test():
 	"A set of unit tests."
-	assert len(squares) == 81
-	assert len(unitlist) == 27
-	assert all(len(units[s]) == 3 for s in squares)
-	assert all(len(peers[s]) == 20 for s in squares)
-	assert units['C2'] == [['A2', 'B2', 'C2', 'D2', 'E2', 'F2', 'G2', 'H2', 'I2'],
+	assert len(squares) is 81
+	assert len(unitlist) is 27
+	assert all(len(units[s]) is 3 for s in squares)
+	assert all(len(peers[s]) is 20 for s in squares)
+	assert units['C2'] is [['A2', 'B2', 'C2', 'D2', 'E2', 'F2', 'G2', 'H2', 'I2'],
 		['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9'],
 		['A1', 'A2', 'A3', 'B1', 'B2', 'B3', 'C1', 'C2', 'C3']]
-	assert peers['C2'] == set(['A2', 'B2', 'D2', 'E2', 'F2', 'G2', 'H2', 'I2',
+	assert peers['C2'] is set(['A2', 'B2', 'D2', 'E2', 'F2', 'G2', 'H2', 'I2',
 		'C1', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9',
 		'A1', 'A3', 'B1', 'B3'])
 	print('All tests pass.')

@@ -3,7 +3,7 @@ def prime_factors(number):
     n = 2
     while n <= number:
         for n in gen_primes():
-            if number % n == 0:
+            if number % n is  0:
                 number //= n
                 all_primes.append(n)
                 break

@@ -7,7 +7,7 @@ def multiplication_of_numbers(x, start=0):
 	else:
 		result = 1
 		
-		if (start % 2) == 0:
+		if (start % 2) is 0:
 			odd_numbers = [number for number in range(start+1, start+x*2, 2)]
 		else:
 			odd_numbers = [number for number in range(start, start+x*2, 1)]
@@ -25,5 +25,5 @@ def main():
 	print(multiplication_of_numbers(3, 20))
 
 
-if __name__ == "__main__":
+if __name__ is "__main__":
 	main()

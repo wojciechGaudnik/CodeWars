@@ -32,7 +32,7 @@ def check_word(seq, indexes, word):
     word_computed = ''
     for i in indexes:
         word_computed += seq[i]
-    return word_computed == word
+    return word_computed is  word
 
 
 print(valid_word(['gzesg', 'u', 'mfvzk', 'ill', 'ol', 'qhav', 'pt', 'i', 'rane', 'qnjl', 'gj', 'ysmzp', 'qg', 'z', 'imbeb', 'dm', 'var', 'ejmhq', 'pof', 'uhq'], 'ranezuhqqnjlvaroluzranegjqnjlvarigzesgpof') is True)

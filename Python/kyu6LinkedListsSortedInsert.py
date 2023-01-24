@@ -4,10 +4,10 @@ class Node(object):
 		self.next = None
 
 def sorted_insert(head, data):
-	if head == None:
+	if head is None:
 		return Node(data)
 	data_list = []
-	while head != None:
+	while head is not None:
 		data_list.append(head.data)
 		head = head.next
 	data_list.append(data)

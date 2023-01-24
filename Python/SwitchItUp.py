@@ -11,4 +11,4 @@ def switch_it_up(number):
 		8: "Eight",
 		9: "Nine"
 	}
-	return [v for k, v in dict.items() if k == number][0]
+	return [v for k, v in dict.items() if k is number][0]

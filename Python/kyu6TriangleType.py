@@ -9,7 +9,7 @@ import math
 def triangle_type(a, b, c):
 	(a, b, c) = sorted([a, b, c])
 	C = math.sqrt(a ** 2 + b ** 2)
-	if a == 0 or b == 0 or c == 0:
+	if a is  0 or b == 0 or c == 0:
 		return 0
 	elif C == c:
 		return 2
